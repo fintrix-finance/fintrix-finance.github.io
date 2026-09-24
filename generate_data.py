@@ -85,6 +85,8 @@ Reply with ONLY a JSON object (no markdown fences, no commentary) in exactly thi
 Rules:
 - The explains box must explain the central concept of THIS big story (they appear side by side).
 - Venture Vault must be a different story from the big story, about a real named startup.
+- cover.big_story_teaser must describe THIS big story, and cover.venture_teaser must refer to
+  the SAME startup (same company name) as the venture_vault paragraphs - they appear together.
 - Tone: a smart college finance magazine - plain English, no jargon dumps, Indian-market focus.
 - Every string must be plain text. No HTML tags, no markdown, no links.
 - Use the actual ₹ character (not HTML entities) where a rupee amount appears.
