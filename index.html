@@ -190,6 +190,31 @@ h1,h2,h3,.display{ font-family:'Oswald',sans-serif; font-weight:700; letter-spac
 .stat-line .down{ color:var(--orange); }
 .snapshot-strip{ border:1px solid var(--brown); min-height:48px; display:flex; align-items:center; justify-content:center; color:rgba(74,46,26,0.4); font-family:'PT Serif',serif; font-style:italic; font-size:10px; padding:10px; text-align:center; }
 
+/* ---------- Data Desk & Fund Watch ---------- */
+.qtable{display:flex;flex-direction:column;}
+.qrow{display:grid;grid-template-columns:1.5fr 1fr 0.95fr 0.95fr;gap:6px;align-items:center;
+  padding:7px 12px;font-family:'Inter',sans-serif;font-size:10.5px;border-bottom:1px solid var(--border-soft);}
+.qrow:last-child{border-bottom:none;}
+.qrow.q5{grid-template-columns:1.4fr 1.05fr 0.8fr 0.8fr 0.8fr;}
+.qrow.qhead{padding:6px 12px 5px;font-weight:700;font-size:8px;letter-spacing:0.12em;color:var(--orange);
+  text-transform:uppercase;border-bottom:1px solid var(--border);}
+.qrow .qn{font-weight:600;color:var(--brown);line-height:1.15;}
+.qrow .qn small{display:block;font-weight:400;font-family:'PT Serif',serif;font-style:italic;font-size:8.5px;color:rgba(74,46,26,0.55);}
+.qrow .qv{font-weight:700;color:var(--ink);}
+.qrow .qr{font-weight:700;text-align:right;}
+.qrow .qr.up{color:var(--green);}
+.qrow .qr.down{color:var(--orange);}
+.qspark{padding:3px 12px 8px;border-bottom:1px solid var(--border-soft);}
+.qspark svg{width:100%;height:26px;display:block;}
+.capchart{padding:12px 12px 2px;}
+.capchart svg{width:100%;height:auto;display:block;}
+.caplegend{display:flex;gap:14px;justify-content:center;padding:0 12px 10px;font-family:'Inter',sans-serif;
+  font-weight:600;font-size:8.5px;letter-spacing:0.12em;color:var(--brown);}
+.caplegend i{display:inline-block;width:8px;height:8px;margin-right:5px;}
+.dd-note{border:1px solid var(--brown);min-height:44px;display:flex;align-items:center;justify-content:center;
+  color:rgba(74,46,26,0.55);font-family:'PT Serif',serif;font-style:italic;font-size:10px;padding:9px 12px;
+  text-align:center;line-height:1.45;}
+
 /* ---------- Economy / Geopolitics ---------- */
 .story-block{ margin-bottom:26px; flex-shrink:0; }
 .story-block .kicker{ color:var(--orange); display:block; margin-bottom:8px; }
@@ -299,9 +324,9 @@ const PAGES_HTML = [
       </div>
       <div class="row-split">
         <div class="box"><span class="box-label orange">Market Watch</span><div class="box-fill" id="dyn-cover-mw">Sensex and Nifty hold flat as global indices wobble on oil</div><div class="box-cta" onclick="jumpToPage(2)">&rarr; Page 3</div></div>
-        <div class="box"><span class="box-label">Daily Brief</span><div class="box-fill" id="dyn-cover-db">RBI's dollar drive, and the AI rally's stress test</div><div class="box-cta" onclick="jumpToPage(3)">&rarr; Page 4</div></div>
+        <div class="box"><span class="box-label">Daily Brief</span><div class="box-fill" id="dyn-cover-db">RBI's dollar drive, and the AI rally's stress test</div><div class="box-cta" onclick="jumpToPage(5)">&rarr; Page 6</div></div>
       </div>
-      <div class="box"><span class="box-label orange">Venture Vault</span><div class="box-fill" id="dyn-cover-vv">Wispr Flow triples its valuation in under ten months</div><div class="box-cta" onclick="jumpToPage(5)">&rarr; Page 6</div></div>
+      <div class="box"><span class="box-label orange">Venture Vault</span><div class="box-fill" id="dyn-cover-vv">Wispr Flow triples its valuation in under ten months</div><div class="box-cta" onclick="jumpToPage(7)">&rarr; Page 8</div></div>
       <div class="story-cta-row">
         <div class="txt"><strong>Have a story to tell?</strong><span>We're always looking for curious minds and fresh perspectives.</span></div>
         <a class="qr-tag" href="mailto:Mahleenkw@gmail.com?subject=Story%20Pitch%20for%20FINTRIX" target="_blank" rel="noopener">
@@ -314,13 +339,14 @@ const PAGES_HTML = [
       <div>
         <div class="inbrief-label" style="margin-bottom:14px;">In Brief</div>
         <div class="inbrief-list">
-          <div class="inbrief-item" onclick="jumpToPage(4)"><div class="inbrief-num">01</div><div class="inbrief-label-txt" id="dyn-cover-ib1">Xi's Delhi visit nears</div><div class="inbrief-arrow">&rarr; Page 5</div></div>
-          <div class="inbrief-item" onclick="jumpToPage(3)"><div class="inbrief-num">02</div><div class="inbrief-label-txt" id="dyn-cover-ib2">RBI builds record reserves</div><div class="inbrief-arrow">&rarr; Page 4</div></div>
-          <div class="inbrief-item" onclick="jumpToPage(3)"><div class="inbrief-num">03</div><div class="inbrief-label-txt" id="dyn-cover-ib3">AI rally hits a wobble</div><div class="inbrief-arrow">&rarr; Page 4</div></div>
-          <div class="inbrief-item" onclick="jumpToPage(3)"><div class="inbrief-num">04</div><div class="inbrief-label-txt" id="dyn-cover-ib4">GST 2.0 slabs take effect</div><div class="inbrief-arrow">&rarr; Page 4</div></div>
+          <div class="inbrief-item" onclick="jumpToPage(6)"><div class="inbrief-num">01</div><div class="inbrief-label-txt" id="dyn-cover-ib1">Xi's Delhi visit nears</div><div class="inbrief-arrow">&rarr; Page 7</div></div>
+          <div class="inbrief-item" onclick="jumpToPage(5)"><div class="inbrief-num">02</div><div class="inbrief-label-txt" id="dyn-cover-ib2">RBI builds record reserves</div><div class="inbrief-arrow">&rarr; Page 6</div></div>
+          <div class="inbrief-item" onclick="jumpToPage(5)"><div class="inbrief-num">03</div><div class="inbrief-label-txt" id="dyn-cover-ib3">AI rally hits a wobble</div><div class="inbrief-arrow">&rarr; Page 6</div></div>
+          <div class="inbrief-item" onclick="jumpToPage(5)"><div class="inbrief-num">04</div><div class="inbrief-label-txt" id="dyn-cover-ib4">GST 2.0 slabs take effect</div><div class="inbrief-arrow">&rarr; Page 6</div></div>
+          <div class="inbrief-item" onclick="jumpToPage(3)"><div class="inbrief-num">05</div><div class="inbrief-label-txt">Gold, REITs &amp; fund returns</div><div class="inbrief-arrow">&rarr; Page 4</div></div>
         </div>
       </div>
-      <div class="explains-box" onclick="jumpToPage(5)"><span class="bulb">&#128161;</span><span class="label">Finnexus Explains</span><span class="explains-go">&rarr; Page 6</span></div>
+      <div class="explains-box" onclick="jumpToPage(7)"><span class="bulb">&#128161;</span><span class="label">Finnexus Explains</span><span class="explains-go">&rarr; Page 8</span></div>
     </div>
   </div>
   <div class="swipe-hint" id="swipeHint"><span class="chev left">&#8249;</span><span>SWIPE TO TURN PAGES</span><span class="chev right">&#8250;</span></div>
@@ -409,10 +435,86 @@ const PAGES_HTML = [
 <div class="page-footer">FINNEXUS &mdash; THE COMMERCE CLUB</div>
 `,
 
-// PAGE 4 — ECONOMY
+// PAGE 4 — DATA DESK: COMMODITIES & ALTERNATIVES
 `
 <div class="page-inner">
-  <div class="page-header"><span class="brand">FINTRIX</span><span class="section-name">Economy</span><span class="page-num">Page 4</span></div>
+  <div class="page-header"><span class="brand">FINTRIX</span><span class="section-name">Data Desk</span><span class="page-num">Page 4</span></div>
+  <div class="mw-head">
+    <div><h1>The Data Desk</h1><div class="sub">Commodities, REITs &amp; InvITs &middot; daily and weekly moves from live feeds</div></div>
+    <div class="right"><div class="date" id="dyn-dd-date">SEP 2026</div><div class="week" id="dyn-dd-close">CLOSE OF SEP 1</div></div>
+  </div>
+  <div class="mw-body">
+    <div class="box">
+      <span class="box-label orange">Commodities</span>
+      <div class="qtable" id="dyn-dd-comm">
+        <div class="qrow qhead"><span>Asset</span><span>Price</span><span style="text-align:right;">1D</span><span style="text-align:right;">1W</span></div>
+        <div class="qrow"><span class="qn">Gold<small>$/oz</small></span><span class="qv">4,318</span><span class="qr down">&#9660; 0.52%</span><span class="qr up">&#9650; 1.84%</span></div>
+        <div class="qspark"><svg viewBox="0 0 120 30" preserveAspectRatio="none"><polyline points="0,20 20,14 40,17 60,9 80,12 100,6 120,10" fill="none" stroke="#4c7a2e" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></div>
+        <div class="qrow"><span class="qn">Silver<small>$/oz</small></span><span class="qv">64.38</span><span class="qr up">&#9650; 0.41%</span><span class="qr up">&#9650; 2.10%</span></div>
+        <div class="qspark"><svg viewBox="0 0 120 30" preserveAspectRatio="none"><polyline points="0,22 20,18 40,20 60,12 80,15 100,8 120,11" fill="none" stroke="#4c7a2e" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></div>
+        <div class="qrow"><span class="qn">Brent Crude<small>$/bbl</small></span><span class="qv">103.08</span><span class="qr up">&#9650; 1.15%</span><span class="qr down">&#9660; 0.83%</span></div>
+        <div class="qspark"><svg viewBox="0 0 120 30" preserveAspectRatio="none"><polyline points="0,10 20,14 40,11 60,18 80,15 100,21 120,17" fill="none" stroke="#c1541f" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></div>
+        <div class="qrow"><span class="qn">WTI Crude<small>$/bbl</small></span><span class="qv">92.16</span><span class="qr down">&#9660; 0.62%</span><span class="qr down">&#9660; 1.90%</span></div>
+        <div class="qspark"><svg viewBox="0 0 120 30" preserveAspectRatio="none"><polyline points="0,8 20,12 40,10 60,16 80,14 100,20 120,18" fill="none" stroke="#c1541f" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></div>
+      </div>
+    </div>
+    <div class="box">
+      <span class="box-label">REITs &amp; InvITs</span>
+      <div class="qtable" id="dyn-dd-alt">
+        <div class="qrow qhead"><span>Name</span><span>Price</span><span style="text-align:right;">1D</span><span style="text-align:right;">1W</span></div>
+        <div class="qrow"><span class="qn">Embassy REIT</span><span class="qv">&#8377;437.44</span><span class="qr down">&#9660; 0.80%</span><span class="qr down">&#9660; 0.49%</span></div>
+        <div class="qrow"><span class="qn">Nexus Select REIT</span><span class="qv">&#8377;166.21</span><span class="qr down">&#9660; 0.10%</span><span class="qr down">&#9660; 0.15%</span></div>
+        <div class="qrow"><span class="qn">Mindspace REIT</span><span class="qv">&#8377;502.25</span><span class="qr down">&#9660; 0.50%</span><span class="qr up">&#9650; 0.70%</span></div>
+        <div class="qrow"><span class="qn">Brookfield REIT</span><span class="qv">&#8377;338.89</span><span class="qr down">&#9660; 0.03%</span><span class="qr down">&#9660; 0.41%</span></div>
+        <div class="qrow"><span class="qn">PowerGrid InvIT</span><span class="qv">&#8377;101.47</span><span class="qr up">&#9650; 0.46%</span><span class="qr up">&#9650; 0.14%</span></div>
+      </div>
+    </div>
+    <div class="dd-note">REITs and InvITs let you own rent-earning offices, malls, power grids and highways like a stock - and they must pay out most of what they earn as dividends.</div>
+  </div>
+</div>
+<div class="page-footer">FINNEXUS &mdash; THE COMMERCE CLUB</div>
+`,
+
+// PAGE 5 — FUND WATCH
+`
+<div class="page-inner">
+  <div class="page-header"><span class="brand">FINTRIX</span><span class="section-name">Fund Watch</span><span class="page-num">Page 5</span></div>
+  <div class="mw-head">
+    <div><h1>Fund Watch</h1><div class="sub">Large vs mid vs small cap &middot; and the funds that ride them</div></div>
+    <div class="right"><div class="date" id="dyn-fw-date">SEP 2026</div><div class="week" id="dyn-fw-nav">NAVS AS OF SEP 1</div></div>
+  </div>
+  <div class="mw-body">
+    <div class="box">
+      <span class="box-label">The Cap Race</span>
+      <div class="capchart" id="dyn-fw-chart"><div class="dd-note" style="border:none;min-height:70px;">The cap-race chart loads with today&#39;s data</div></div>
+      <div class="caplegend"><span><i style="background:#4a2e1a;"></i>1 DAY</span><span><i style="background:#c1541f;"></i>1 WEEK</span><span><i style="background:#d9a05b;"></i>1 MONTH</span></div>
+      <div class="qtable" id="dyn-fw-caps">
+        <div class="qrow qhead q5"><span>Index</span><span>Level</span><span style="text-align:right;">1D</span><span style="text-align:right;">1W</span><span style="text-align:right;">1M</span></div>
+        <div class="qrow q5"><span class="qn">Nifty 50<small>Large cap</small></span><span class="qv">23,063.10</span><span class="qr down">&#9660; 1.64%</span><span class="qr down">&#9660; 0.67%</span><span class="qr down">&#9660; 4.77%</span></div>
+        <div class="qrow q5"><span class="qn">Nifty Midcap 150<small>Mid cap</small></span><span class="qv">22,469.90</span><span class="qr down">&#9660; 1.31%</span><span class="qr down">&#9660; 0.92%</span><span class="qr down">&#9660; 5.60%</span></div>
+        <div class="qrow q5"><span class="qn">Nifty Smallcap 250<small>Small cap</small></span><span class="qv">18,155.50</span><span class="qr down">&#9660; 1.02%</span><span class="qr down">&#9660; 1.45%</span><span class="qr down">&#9660; 6.20%</span></div>
+      </div>
+    </div>
+    <div class="box">
+      <span class="box-label orange">Mutual Fund Scoreboard</span>
+      <div class="qtable" id="dyn-fw-funds">
+        <div class="qrow qhead"><span>Fund &middot; Direct, Growth</span><span>NAV</span><span style="text-align:right;">1D</span><span style="text-align:right;">1W</span></div>
+        <div class="qrow"><span class="qn">ICICI Pru Large Cap<small>Large cap</small></span><span class="qv">&#8377;98.42</span><span class="qr down">&#9660; 0.85%</span><span class="qr down">&#9660; 0.40%</span></div>
+        <div class="qrow"><span class="qn">MO Midcap 150 Index<small>Mid cap</small></span><span class="qv">&#8377;21.36</span><span class="qr down">&#9660; 1.10%</span><span class="qr down">&#9660; 0.72%</span></div>
+        <div class="qrow"><span class="qn">Nippon Small Cap<small>Small cap</small></span><span class="qv">&#8377;209.36</span><span class="qr up">&#9650; 1.40%</span><span class="qr down">&#9660; 0.11%</span></div>
+        <div class="qrow"><span class="qn">Parag Parikh Flexi Cap<small>Flexi cap</small></span><span class="qv">&#8377;92.15</span><span class="qr down">&#9660; 0.60%</span><span class="qr up">&#9650; 0.25%</span></div>
+      </div>
+    </div>
+    <div class="dd-note">Direct plans, growth option. NAVs update once a day after markets close - the weekly move compares five NAV days.</div>
+  </div>
+</div>
+<div class="page-footer">FINNEXUS &mdash; THE COMMERCE CLUB</div>
+`,
+
+// PAGE 6 — ECONOMY
+`
+<div class="page-inner">
+  <div class="page-header"><span class="brand">FINTRIX</span><span class="section-name">Economy</span><span class="page-num">Page 6</span></div>
   <h1 style="font-size:clamp(26px,5.6vw,36px); margin-bottom:6px;">Economy</h1>
   <div class="subhead" style="border:none; padding:0; margin-bottom:24px;">A SNAPSHOT OF WHAT SHAPES GROWTH, PRICES AND POLICY &nbsp;&middot;&nbsp; SEPTEMBER 2026</div>
   <div class="story-block">
@@ -451,10 +553,10 @@ const PAGES_HTML = [
 <div class="page-footer">FINNEXUS &mdash; THE COMMERCE CLUB</div>
 `,
 
-// PAGE 5 — GEOPOLITICS
+// PAGE 7 — GEOPOLITICS
 `
 <div class="page-inner">
-  <div class="page-header"><span class="brand">FINTRIX</span><span class="section-name">Geopolitics</span><span class="page-num">Page 5</span></div>
+  <div class="page-header"><span class="brand">FINTRIX</span><span class="section-name">Geopolitics</span><span class="page-num">Page 7</span></div>
   <h1 style="font-size:clamp(26px,5.6vw,36px); margin-bottom:6px;">Geopolitics</h1>
   <div class="subhead" style="border:none; padding:0; margin-bottom:24px;">POWER, TRADE AND STRATEGIC RELATIONSHIPS SHAPING BUSINESS</div>
   <div class="story-block">
@@ -474,10 +576,10 @@ const PAGES_HTML = [
 <div class="page-footer">FINNEXUS &mdash; THE COMMERCE CLUB</div>
 `,
 
-// PAGE 6 — EXPLAINS & VENTURE VAULT
+// PAGE 8 — EXPLAINS & VENTURE VAULT
 `
 <div class="page-inner">
-  <div class="page-header"><span class="brand">FINTRIX</span><span class="section-name">Explains &amp; More</span><span class="page-num">Page 6</span></div>
+  <div class="page-header"><span class="brand">FINTRIX</span><span class="section-name">Explains &amp; More</span><span class="page-num">Page 8</span></div>
   <div class="split-page">
     <div class="block">
       <span class="kicker" style="color:var(--orange);">Finnexus Explains</span>
@@ -500,10 +602,10 @@ const PAGES_HTML = [
 <div class="page-footer">FINNEXUS &mdash; THE COMMERCE CLUB</div>
 `,
 
-// PAGE 7 — CREDITS
+// PAGE 9 — CREDITS
 `
 <div class="page-inner">
-  <div class="page-header"><span class="brand">FINTRIX</span><span class="section-name">Credits</span><span class="page-num">Page 7</span></div>
+  <div class="page-header"><span class="brand">FINTRIX</span><span class="section-name">Credits</span><span class="page-num">Page 9</span></div>
   <div class="credits-title"><h1>Meet the Authors</h1><div class="credits-rule"></div></div>
   <div class="author-grid" id="authorGrid"></div>
 </div>
@@ -646,6 +748,54 @@ function dynImg(id, img){
   el.src = img.url;
 }
 
+function dynSvg(el, svg){
+  if(!el || typeof svg !== 'string') return;
+  const t = svg.trim();
+  if(t.startsWith('<svg') && t.endsWith('</svg>')) el.innerHTML = t;
+}
+
+function retSpan(dir, txt){
+  const s = document.createElement('span');
+  s.className = 'qr' + (dir === 'up' ? ' up' : dir === 'down' ? ' down' : '');
+  s.textContent = txt || '';
+  return s;
+}
+
+// Data Desk / Fund Watch tables, rebuilt from data.json. If a section is
+// absent, the placeholder rows baked into the page simply stay.
+function buildQRows(id, rows, kind){
+  const c = document.getElementById(id);
+  if(!c || !Array.isArray(rows) || !rows.length) return;
+  const head = c.querySelector('.qhead');
+  c.innerHTML = '';
+  if(head) c.appendChild(head);
+  rows.forEach(r => {
+    if(!r || typeof r !== 'object') return;
+    const row = document.createElement('div');
+    row.className = 'qrow' + (kind === 'caps' ? ' q5' : '');
+    const n = document.createElement('span');
+    n.className = 'qn';
+    n.textContent = r.name || '';
+    const sub = kind === 'comm' ? r.unit : kind === 'funds' ? r.cat : kind === 'caps' ? r.tag : null;
+    if(typeof sub === 'string' && sub){ const sm = document.createElement('small'); sm.textContent = sub; n.appendChild(sm); }
+    row.appendChild(n);
+    const v = document.createElement('span');
+    v.className = 'qv';
+    v.textContent = kind === 'caps' ? (r.level || '') : kind === 'funds' ? (r.nav || '') : (r.price || '');
+    row.appendChild(v);
+    row.appendChild(retSpan(r.dir, r.day));
+    row.appendChild(retSpan(r.dir_week, r.week));
+    if(kind === 'caps') row.appendChild(retSpan(r.dir_month, r.month_txt));
+    c.appendChild(row);
+    if(kind === 'comm' && typeof r.spark === 'string'){
+      const sp = document.createElement('div');
+      sp.className = 'qspark';
+      dynSvg(sp, r.spark);
+      if(sp.firstChild) c.appendChild(sp);
+    }
+  });
+}
+
 function applyDynamic(d){
   if(!d || typeof d !== 'object') return;
 
@@ -745,6 +895,17 @@ function applyDynamic(d){
     const items = geo.world_60.filter(x => typeof x === 'string' && x.trim());
     if(items.length) dynText('dyn-geo-world', items.join(' \u00a0\u00b7\u00a0 '));
   }
+
+  const dd = d.data_desk || {};
+  dynText('dyn-dd-date', dd.date_label);
+  dynText('dyn-dd-close', dd.close_label);
+  dynText('dyn-fw-date', dd.date_label);
+  dynText('dyn-fw-nav', dd.nav_label);
+  buildQRows('dyn-dd-comm', dd.commodities, 'comm');
+  buildQRows('dyn-dd-alt', dd.alternatives, 'alt');
+  buildQRows('dyn-fw-caps', dd.caps, 'caps');
+  buildQRows('dyn-fw-funds', dd.funds, 'funds');
+  dynSvg(document.getElementById('dyn-fw-chart'), dd.caps_chart);
 }
 
 fetch('data.json', {cache: 'no-store'})
@@ -886,4 +1047,4 @@ stage.addEventListener('touchcancel', e => endSwipe(e, true), {passive:true});
 updateControls();
 </script>
 </body>
-</html>
+  </html>
