@@ -1,0 +1,59 @@
+{
+  "updated_ist": "2026-09-01",
+  "cover": {
+    "market_watch_teaser": "Sensex and Nifty hold flat as global indices wobble on oil",
+    "daily_brief_teaser": "RBI's dollar drive, and the AI rally's stress test",
+    "inbrief_2": "RBI builds record reserves",
+    "inbrief_3": "AI rally hits a wobble"
+  },
+  "market_watch": {
+    "date_label": "SEP 2026",
+    "close_label": "CLOSE OF SEP 1",
+    "indian": [
+      { "name": "Sensex", "value": "76,944.28 ▼ 0.02%", "dir": "down" },
+      { "name": "Nifty 50", "value": "24,055.80 ▼ 0.10%", "dir": "down" },
+      { "name": "Nifty Bank", "value": "FMCG, IT led; Auto, Realty lagged", "dir": "" }
+    ],
+    "asian": [
+      { "name": "Nikkei 225", "value": "66,215.34 ▼ 0.15%", "dir": "down" },
+      { "name": "Hang Seng", "value": "25,329.73 ▼ 0.93%", "dir": "down" },
+      { "name": "Shanghai Comp.", "value": "3,979.89 ▼ 0.16%", "dir": "down" }
+    ],
+    "european": [
+      { "name": "FTSE 100", "value": "10,789.28 ▼ 0.32%", "dir": "down" },
+      { "name": "DAX", "value": "25,970.11 ▼ 1.10%", "dir": "down" },
+      { "name": "CAC 40", "value": "8,301.85 ▼ 0.39%", "dir": "down" }
+    ],
+    "global": [
+      { "name": "Dollar Index", "value": "▲ 0.27%", "dir": "up" },
+      { "name": "Brent Crude", "value": "> $92/bbl", "dir": "up" },
+      { "name": "Gold", "value": "~$4,440/oz", "dir": "" }
+    ],
+    "losers": ["Shriram Finance", "Maruti Suzuki", "InterGlobe Aviation"],
+    "winners": ["ITC", "Bharti Airtel", "Adani Ports"],
+    "snapshot_strip": "Bank, Auto, Realty and Healthcare weighed on the index through the session",
+    "ipo_desk": [
+      { "name": "Purple Style Labs", "note": "₹680 cr issue closes Sep 2" },
+      { "name": "ESDS Software", "note": "₹720 cr, subscribing well" },
+      { "name": "Sumax Engineering", "note": "NSE SME listing Sep 2" }
+    ]
+  },
+  "daily_brief": {
+    "story_1": {
+      "kicker": "India | Monetary Policy",
+      "headline": "RBI pulls the brake on its dollar drive",
+      "paragraphs": [
+        "India's forex reserves touched a record near $729 billion in the week to August 21, up nearly $80 billion in about seven weeks, as the RBI leaned on FCNR(B) deposits and special swap facilities to pull dollars in rather than sell them outright. Roughly $73 billion has been mobilised this way, most of it landing straight on the central bank's balance sheet rather than the open market.",
+        "The rupee closed August near ₹95.4 to the dollar - still down sharply over two years despite the buffer-building. Brokerage Systematix argues the reserve build only delays the pressure, and pencils in a fresh depreciation path of about 6.5% a year as oil imports and a wide trade deficit keep dollar demand structurally high."
+      ]
+    },
+    "story_2": {
+      "kicker": "Global | Markets",
+      "headline": "The AI Boom meets the Stock Market",
+      "paragraphs": [
+        "Wall Street closed out August with the Nasdaq up nearly 4% and the S&P 500 up over 2.6%, a rally still led overwhelmingly by AI infrastructure and chip names. That concentration turned into a liability this week: rising Treasury yields and a fresh spike in oil prices on US-Iran tensions hit chip stocks hardest as September trading opened.",
+        "A reminder of how much of the market's gains now sit on a small cluster of AI-linked bets - and how quickly that looks fragile when yields move."
+      ]
+    }
+  }
+}
