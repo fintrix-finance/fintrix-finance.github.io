@@ -1,34 +1,34 @@
 {
   "updated_ist": "2026-09-24",
   "cover": {
-    "big_story_teaser": "RBI cuts CRR to inject liquidity into banks.",
-    "venture_teaser": "Aarika AI raises funds for voice tech.",
-    "market_watch_teaser": "Nifty holds ground amid global shifts while rate cut hopes linger.",
-    "daily_brief_teaser": "RBI signals steady stance and tech stocks rally on strong momentum.",
+    "big_story_teaser": "RBI cuts CRR to inject ₹1.5 lakh crore into Indian banking.",
+    "venture_teaser": "Zepto secures fresh funding ahead of its mega IPO plans.",
+    "market_watch_teaser": "Nifty holds ground amid global shifts while rate cut hopes buoy Dalal Street.",
+    "daily_brief_teaser": "RBI signals steady stance on rates while tech stocks face renewed selling pressure.",
     "inbrief_2": "RBI Stance",
-    "inbrief_3": "Tech Rally"
+    "inbrief_3": "Tech Selloff"
   },
   "big_story": {
-    "headline": "RBI Unleashes Liquidity",
-    "subhead": "CENTRAL BANK SLASHES CASH RESERVE RATIO TO EASE CREDIT TIGHTNESS IN INDIA",
+    "headline": "The Great Liquidity Boost",
+    "subhead": "RBI SLASHES CRR BY 50 BASIS POINTS TO EASE CREDIT TIGHTNESS IN BANKING.",
     "paragraphs": [
-      "The Reserve Bank of India has moved decisively to ease financial conditions across the country by cutting the Cash Reserve Ratio for scheduled banks. This crucial policy shift releases billions of rupees back into the active banking system, aiming to stimulate sluggish credit growth and lower borrowing costs. As festive season demand peaks, Governor Shaktikanta Das and the Monetary Policy Committee are ensuring that lenders have adequate headroom to fund expansion. Markets reacted swiftly as bond yields softened and banking stocks gained immediate upward momentum following the announcement.",
-      "Under the revised framework, banks are required to park less non-earning cash with the central bank, freeing up productive capital for corporate loans and retail credit lines. Over recent quarters, systemic liquidity had tightened due to robust credit offtake outpacing deposit growth, creating friction for borrowers. By injecting this liquidity injection directly into the transmission mechanism, the RBI hopes to nudge commercial banks into passing rate cuts down to retail and MSME borrowers. Analysts note that this measured intervention strikes a fine balance between supporting economic momentum and anchoring core inflation expectations.",
-      "For college students tracking macroeconomic policy, this move offers a classic textbook lesson in monetary intervention and banking system dynamics. Going forward, investors must monitor how fast commercial lenders lower their marginal cost of funds-based lending rates and whether credit growth picks up sustainably. If retail loans become cheaper, sectors ranging from automobile manufacturing to consumer durables could see a sharp revival in sales volume. Ultimately, the success of this policy pivot hinges on how efficiently banks deploy these newly freed funds into productive economic channels."
+      "The Reserve Bank of India has announced a pivotal 50 basis point reduction in the Cash Reserve Ratio, bringing it down to 4.0 percent. This decisive move releases roughly ₹1.5 lakh crore of locked-up capital back into the domestic banking system. Governor Shaktikanta Das noted that easing liquidity pressures will help transmit past rate cuts directly to retail and corporate borrowers.",
+      "Commercial banks have been grappling with a persistent credit-deposit growth mismatch over the past year, as deposit mobilization lagged behind robust loan demand. By lowering the mandatory cash reserves that banks must park with the central bank, lenders now have cheaper funds to expand their loan books. Bond yields softened immediately following the announcement, reflecting optimism in the debt markets.",
+      "For college students studying finance, this intervention highlights how monetary policy acts as a vital shock absorber for the broader economy. Observers will closely monitor upcoming quarterly earnings to see if lower funding costs translate into cheaper auto loans and home loans. Ultimately, the success of this maneuver depends on how swiftly banks pass on these liquidity benefits to the end consumer."
     ],
-    "pullbox": "When the central bank lowers the cash reserve ratio, it unlocks trapped capital, giving commercial banks the firepower to cut interest rates and fuel a broader economic credit boom."
+    "pullbox": "A 50 bps cut in the Cash Reserve Ratio unlocks ₹1.5 lakh crore, proving that central bank levers remain the ultimate catalyst for credit growth."
   },
   "explains": {
     "title": "What is the Cash Reserve Ratio?",
     "paragraphs": [
-      "The Cash Reserve Ratio, or CRR, is the minimum percentage of a bank's total deposits that must be maintained in liquid cash with the central bank. Commercial banks cannot lend these specific funds to retail customers or businesses, meaning they earn zero interest on this portion.",
-      "When the central bank reduces the CRR, banks instantly gain access to more loanable funds, increasing overall money supply and liquidity in the economy. Conversely, raising the CRR drains liquidity to cool down an overheating credit market and control inflationary pressures."
+      "The Cash Reserve Ratio, or CRR, is the mandatory percentage of total deposits that commercial banks must keep in cash with the central bank. Unlike Statutory Liquidity Ratio, banks earn zero interest on these locked-up funds.",
+      "When the central bank lowers the CRR, it directly reduces the idle cash burden on lenders, giving them immediate leeway to extend more loans and stimulate economic activity."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Bengaluru-based conversational AI startup Sarvam AI has secured USD 41 million in a Series A funding round co-led by Lightspeed Venture Partners, Peak XV Partners, and Khosla Ventures. The company is building foundational large language models tailored specifically for Indian vernacular languages and enterprise use cases. Founded by AI researchers Vivek Raghavan and Pratyush Kumar, the firm leverages cutting-edge open-source research to make artificial intelligence accessible across diverse regional demographics.",
-      "The heavy backing from marquee global venture funds highlights strong investor confidence in India's deep-tech engineering talent and localized AI solutions. The founders plan to deploy the capital toward scaling their proprietary computing infrastructure and partnering with enterprises for deployment. As generative AI transforms customer service and governance across India, Sarvam AI is positioning itself as the critical linguistic bridge between technology and everyday citizens."
+      "Quick-commerce giant Zepto has raised an additional $100 million in a fresh funding round as it aggressively scales its dark store network across tier-1 cities. Founded by Aadit Palicha and Kaivalya Vohra, the startup delivers groceries and essentials in under ten minutes. This capital infusion arrives just as the company gears up for a major domestic stock market debut.",
+      "Backed by marquee investors including General Catalyst and Nexus Venture Partners, Zepto is aggressively burning capital to beat rivals Blinkit and Instamart. The founders are betting that density in urban fulfillment centers will turn the unit economics profitable before hitting the public markets."
     ]
   },
   "market_watch": {
@@ -37,58 +37,58 @@
     "indian": [
       {
         "name": "Sensex",
-        "value": "83,215.14 ▲ 0.61%",
+        "value": "84,928.30 ▲ 0.45%",
         "dir": "up"
       },
       {
         "name": "Nifty 50",
-        "value": "25,418.55 ▲ 0.58%",
+        "value": "25,939.80 ▲ 0.42%",
         "dir": "up"
       },
       {
         "name": "Nifty Bank",
-        "value": "Banking led gains; PSU banks lagged behind.",
+        "value": "banking led gains, auto stocks lagged",
         "dir": ""
       }
     ],
     "asian": [
       {
         "name": "Nikkei 225",
-        "value": "37,940.20 ▲ 1.20%",
+        "value": "37,940.00 ▲ 1.20%",
         "dir": "up"
       },
       {
         "name": "Hang Seng",
-        "value": "18,240.12 ▲ 2.15%",
+        "value": "18,245.50 ▲ 0.85%",
         "dir": "up"
       },
       {
         "name": "Shanghai Comp.",
-        "value": "2,768.45 ▼ 0.12%",
+        "value": "2,745.20 ▼ 0.15%",
         "dir": "down"
       }
     ],
     "european": [
       {
         "name": "FTSE 100",
-        "value": "8,285.30 ▲ 0.35%",
+        "value": "8,280.10 ▲ 0.30%",
         "dir": "up"
       },
       {
         "name": "DAX",
-        "value": "18,920.40 ▲ 0.82%",
+        "value": "18,950.40 ▲ 0.50%",
         "dir": "up"
       },
       {
         "name": "CAC 40",
-        "value": "7,540.10 ▲ 0.45%",
+        "value": "7,520.30 ▲ 0.25%",
         "dir": "up"
       }
     ],
     "global": [
       {
         "name": "Dollar Index",
-        "value": "100.85 ▼ 0.25%",
+        "value": "▼ 0.22%",
         "dir": "down"
       },
       {
@@ -103,38 +103,38 @@
       }
     ],
     "losers": [
-      "Tata Consumer",
-      "Nestle India",
-      "Hindustan Unilever"
+      "Tata Motors",
+      "Infosys",
+      "Wipro"
     ],
     "winners": [
       "Bajaj Finance",
-      "Adani Ports",
+      "Axis Bank",
       "Reliance Industries"
     ],
-    "snapshot_strip": "Financial services and energy stocks lifted the benchmark index while FMCG counters dragged.",
+    "snapshot_strip": "Banking and financial services lifted the indices, while IT counters faced heavy profit booking.",
     "ipo_desk": [
       {
-        "name": "Apex Healthcare",
-        "note": "₹850 cr issue closes Friday"
+        "name": "Mainboard IPOs",
+        "note": "Quiet window ahead of festival season launches"
       }
     ]
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "India | Central Banking",
-      "headline": "RBI Maintains Caution As Inflation Trajectory Evolves",
+      "kicker": "India | Monetary Policy",
+      "headline": "RBI maintains steady grip as inflation cools",
       "paragraphs": [
-        "The Reserve Bank of India continues to emphasize a watchful approach regarding domestic price stability despite moderating headline inflation prints. Governor-led commentary suggests that food price volatility remains a key puzzle piece preventing an immediate pivot toward aggressive monetary easing. Bond markets have largely priced in a prolonged pause, keeping yields relatively stable across the curve.",
-        "Banking sector liquidity has also seen balanced conditions, supported by government spending and steady credit growth across retail segments. Analysts note that corporate borrowing demand is picking up selectively, particularly in infrastructure and green energy verticals. As festive demand approaches, commercial banks are gearing up for heightened consumer loan disbursals."
+        "The Reserve Bank of India has maintained its cautious yet steady stance on monetary policy as domestic retail inflation shows signs of sustained moderation. Governor and central bank officials continue to balance growth objectives against global macroeconomic uncertainties and volatile commodity prices.",
+        "Market participants are closely tracking liquidity conditions in the banking system ahead of the upcoming festive credit demand. Yields on benchmark government securities remained largely stable following the central bank's recent announcements."
       ]
     },
     "story_2": {
-      "kicker": "Global | Technology Markets",
-      "headline": "Semiconductor Giants Rally On Robust Enterprise AI Demand",
+      "kicker": "Global | Markets",
+      "headline": "Wall Street weighs growth outlook and tech valuations",
       "paragraphs": [
-        "Global technology equities experienced a notable boost this week as major chipmakers reported stronger-than-expected enterprise orders for artificial intelligence infrastructure. Data center buildouts across North America and Europe continue to outpace supply chain capacities, keeping pricing power firmly with hardware manufacturers. Investors have welcomed the sustained capital expenditure from hyperscale cloud providers.",
-        "Market strategists point out that while valuations in the sector remain elevated, earnings growth is currently justifying the multiple expansion. However, broader macroeconomic headwinds, including labor market cooling in the United States, mean that portfolio diversification remains essential for institutional investors navigating the final quarter."
+        "Major global indices experienced a mixed trading session as investors reevaluated valuations in mega-cap technology companies. Strong corporate earnings reports from select financial firms helped offset broader sector fatigue and persistent concerns over economic growth.",
+        "Traders are pricing in further monetary easing from major central banks later this year, keeping bond yields under downward pressure. Meanwhile, crude oil prices hovered near multi-month lows due to softer demand forecasts from key emerging markets."
       ]
     }
   }
