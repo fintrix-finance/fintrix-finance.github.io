@@ -238,7 +238,7 @@ const PAGES_HTML = [
       <div>
         <div class="inbrief-label" style="margin-bottom:14px;">In Brief</div>
         <div class="inbrief-list">
-          <div class="inbrief-item" onclick="jumpToPage(4)"><div class="inbrief-num">01</div><div class="inbrief-label-txt">Xi's Delhi visit nears</div><div class="inbrief-arrow">&rarr; Page 5</div></div>
+          <div class="inbrief-item" onclick="jumpToPage(4)"><div class="inbrief-num">01</div><div class="inbrief-label-txt" id="dyn-cover-ib1">Xi's Delhi visit nears</div><div class="inbrief-arrow">&rarr; Page 5</div></div>
           <div class="inbrief-item" onclick="jumpToPage(3)"><div class="inbrief-num">02</div><div class="inbrief-label-txt" id="dyn-cover-ib2">RBI builds record reserves</div><div class="inbrief-arrow">&rarr; Page 4</div></div>
           <div class="inbrief-item" onclick="jumpToPage(3)"><div class="inbrief-num">03</div><div class="inbrief-label-txt" id="dyn-cover-ib3">AI rally hits a wobble</div><div class="inbrief-arrow">&rarr; Page 4</div></div>
         </div>
@@ -363,16 +363,16 @@ const PAGES_HTML = [
   <h1 style="font-size:clamp(26px,5.6vw,36px); margin-bottom:6px;">Geopolitics</h1>
   <div class="subhead" style="border:none; padding:0; margin-bottom:24px;">POWER, TRADE AND STRATEGIC RELATIONSHIPS SHAPING BUSINESS</div>
   <div class="story-block">
-    <span class="kicker">India x China</span>
-    <h2>Xi's possible Delhi visit signals a careful thaw</h2>
-    <div class="body-copy" style="font-size:11px;">
+    <span class="kicker" id="dyn-geo-kicker">India x China</span>
+    <h2 id="dyn-geo-head">Xi's possible Delhi visit signals a careful thaw</h2>
+    <div class="body-copy" style="font-size:11px;" id="dyn-geo-body">
       <p>Chinese President Xi Jinping is expected to travel to New Delhi for the BRICS summit on September 12&ndash;13 with a delegation of roughly 400 officials — his first visit to India in seven years. The trip follows a slow, deliberate thaw since the deadly 2020 Galwan clash: a border disengagement pact in 2024, Modi's own trip to China for the 2025 SCO summit, and a short bilateral expected on the sidelines of this week's SCO summit in Bishkek.</p>
       <p>Nothing about the relationship is settled. Border talks between India's NSA Ajit Doval and Chinese officials continue alongside the diplomacy, and flashpoints — from disputed place names in Arunachal Pradesh to rare-earth and component supply — remain live. But the scale of the delegation is being read, on both sides, as a signal that Beijing wants the relationship managed rather than left to drift.</p>
     </div>
   </div>
   <div class="geo-boxed">
     <h3>The World in 60 Seconds</h3>
-    <p>Brent crude tops $92/bbl as Strait of Hormuz tensions escalate &nbsp;&middot;&nbsp; Gold cools to ~$4,440/oz after Fed's Warsh lifts rate-hike odds &nbsp;&middot;&nbsp; European markets slide as bond yields jump, DAX leads losses &nbsp;&middot;&nbsp; US 10-year yield nears 5%, the tightest since 2006</p>
+    <p id="dyn-geo-world">Brent crude tops $92/bbl as Strait of Hormuz tensions escalate &nbsp;&middot;&nbsp; Gold cools to ~$4,440/oz after Fed's Warsh lifts rate-hike odds &nbsp;&middot;&nbsp; European markets slide as bond yields jump, DAX leads losses &nbsp;&middot;&nbsp; US 10-year yield nears 5%, the tightest since 2006</p>
   </div>
 </div>
 <div class="page-footer">FINNEXUS &mdash; THE COMMERCE CLUB</div>
@@ -496,7 +496,7 @@ function renderStage(preserveFirstPageIndex){
 }
 
 
-// ---------- Daily content (cover, Big Story, Explains, Venture Vault, Market Watch, Daily Brief) ----------
+// ---------- Daily content (cover, Big Story, Explains, Venture Vault, Market Watch, Daily Brief, Geopolitics) ----------
 // These sections are refreshed daily from data.json by an automated updater
 // (see generate_data.py and .github/workflows/daily-update.yml).
 // If data.json is missing, unreachable, or a field is absent, the page
@@ -539,6 +539,7 @@ function applyDynamic(d){
   dynText('dyn-cover-mw', c.market_watch_teaser);
   dynText('dyn-cover-db', c.daily_brief_teaser);
   dynText('dyn-cover-vv', c.venture_teaser);
+  dynText('dyn-cover-ib1', c.inbrief_1);
   dynText('dyn-cover-ib2', c.inbrief_2);
   dynText('dyn-cover-ib3', c.inbrief_3);
 
@@ -589,6 +590,15 @@ function applyDynamic(d){
 
   const vv = d.venture_vault || {};
   dynParas('dyn-vv-body', vv.paragraphs);
+
+  const geo = d.geopolitics || {};
+  dynText('dyn-geo-kicker', geo.kicker);
+  dynText('dyn-geo-head', geo.headline);
+  dynParas('dyn-geo-body', geo.paragraphs);
+  if(Array.isArray(geo.world_60)){
+    const items = geo.world_60.filter(x => typeof x === 'string' && x.trim());
+    if(items.length) dynText('dyn-geo-world', items.join(' \u00a0\u00b7\u00a0 '));
+  }
 }
 
 fetch('data.json', {cache: 'no-store'})
