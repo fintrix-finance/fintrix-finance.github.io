@@ -5,12 +5,15 @@ FINTRIX daily content generator.
 Calls the Gemini API free tier once a day and regenerates EVERY daily section
 of the magazine: the cover teasers, the Big Story feature article, the
 Finnexus Explains box, the Venture Vault startup story, Market Watch stats,
-and the Daily Brief. The website (index.html) reads data.json when it loads.
+the Daily Brief, and the Geopolitics page. The website (index.html) reads
+data.json when it loads. (Only the Credits / authors page stays fixed.)
 
-Two Gemini calls run in sequence:
-  1. "features" - Big Story + Explains + Venture Vault + their cover teasers
-  2. "markets"  - Market Watch + Daily Brief + their cover teasers
-Two calls a day sits comfortably inside the free tier's daily request caps.
+Three Gemini calls run in sequence:
+  1. "features"    - Big Story + Explains + Venture Vault + their cover teasers
+  2. "markets"     - Market Watch + Daily Brief + their cover teasers
+  3. "geopolitics" - Geopolitics page + cover In Brief item 01, generated in
+                     the SAME answer so the cover teaser always matches the story
+Three calls a day sits comfortably inside the free tier's daily request caps.
 
 If anything goes wrong - no API key, rate limit hit, weird answer - the
 script exits with an error WITHOUT touching data.json, so the site keeps
@@ -163,6 +166,80 @@ Rules:
 - Every string must be plain text. No HTML tags, no markdown, no links.
 """
 
+GEOPOLITICS_PROMPT = """You are the geopolitics editor of FINTRIX, a college finance club magazine in India.
+
+Today is {today} (India time). Write TODAY'S Geopolitics page, grounded in real, recent
+news - use Google Search grounding; do not invent summits, deals, visits or events.
+
+Pick ONE timely geopolitical story from this week that matters for India's economy,
+trade or markets: power, trade and strategic relationships shaping business (for example
+India's ties with China, the US, Russia, the Gulf or the EU; trade deals and tariffs;
+sanctions; conflicts affecting oil or shipping; summits).
+{avoid}
+Reply with ONLY a JSON object (no markdown fences, no commentary) in exactly this shape:
+
+{{
+  "cover": {{
+    "inbrief_1": "max 35 characters, ultra-short cover label teasing THIS geopolitics story"
+  }},
+  "geopolitics": {{
+    "kicker": "max 30 characters, e.g. India x China or India | Trade",
+    "headline": "max 60 characters, magazine headline for the story",
+    "paragraphs": [
+      "paragraph 1, 3-4 sentences, what is happening, with real names, dates and numbers",
+      "paragraph 2, 3-4 sentences, what is still unsettled and why it matters for business"
+    ],
+    "world_60": [
+      "max 90 characters, one-line world headline with a money angle",
+      "max 90 characters, another one",
+      "max 90 characters, another one",
+      "max 90 characters, another one"
+    ]
+  }}
+}}
+
+Rules:
+- cover.inbrief_1 sits on the cover and links to this page, so it MUST be about the SAME
+  story as the geopolitics headline and paragraphs - name the same country, leader or deal.
+- "world_60" is a quick 4-item round-up of other real global headlines of the last day or two
+  (oil, gold, bonds, central banks, global markets, conflicts), different from the main story.
+- Tone: a smart college finance magazine - plain English, no jargon dumps, Indian angle.
+- Every string must be plain text. No HTML tags, no markdown, no links.
+- Use the actual ₹ and $ characters (not HTML entities) where amounts appear.
+"""
+
+STOPWORDS = {"with", "from", "that", "this", "into", "over", "amid", "after", "about",
+             "their", "they", "what", "will", "than", "more", "near", "nears", "talks",
+             "deal", "visit", "india", "indian", "india's", "global", "world", "trade"}
+
+
+def keywords(text):
+    words = []
+    for w in text.lower().replace("\u2019", "'").split():
+        w = w.strip(".,:;!?\"'()[]-|")
+        if w.endswith("'s"):
+            w = w[:-2]
+        if len(w) >= 3 and w not in STOPWORDS:
+            words.append(w)
+    return set(words)
+
+
+def check_geopolitics_pkg(pkg):
+    """Per-attempt check for the geopolitics call: the cover teaser must share at
+    least one real keyword with the story it links to. Returns an error string
+    (so the next model/grounding option is tried) or None if it looks consistent."""
+    if not isinstance(pkg, dict):
+        return "not a JSON object"
+    teaser = (pkg.get("cover") or {}).get("inbrief_1")
+    g = pkg.get("geopolitics")
+    if not isinstance(teaser, str) or not isinstance(g, dict):
+        return "missing cover.inbrief_1 or geopolitics"
+    story = " ".join([str(g.get("kicker", "")), str(g.get("headline", ""))]
+                     + [str(p) for p in (g.get("paragraphs") or [])])
+    if not keywords(teaser) & keywords(story):
+        return "cover.inbrief_1 (%r) does not match the geopolitics story" % teaser
+    return None
+
 
 def fail(msg):
     print("ERROR: " + msg, file=sys.stderr)
@@ -206,8 +283,10 @@ def call_gemini(api_key, model, use_grounding, prompt):
     return json.loads(text)
 
 
-def generate(api_key, prompt, label):
+def generate(api_key, prompt, label, check=None):
     """Run one prompt through the model fallbacks (grounding on, then off).
+    If a check function is given and it returns an error string, that answer is
+    discarded and the next option is tried.
     Returns parsed JSON dict, or None if every attempt failed."""
     last_err = None
     for model in MODELS:
@@ -215,7 +294,11 @@ def generate(api_key, prompt, label):
             try:
                 print("Trying %s with model %s (grounding: %s)..."
                       % (label, model, "on" if use_grounding else "off"))
-                return call_gemini(api_key, model, use_grounding, prompt)
+                result = call_gemini(api_key, model, use_grounding, prompt)
+                problem = check(result) if check else None
+                if problem:
+                    raise ValueError(problem)
+                return result
             except urllib.error.HTTPError as e:
                 detail = e.read().decode("utf-8", "replace")[:300]
                 last_err = "HTTP %s from %s: %s" % (e.code, model, detail)
@@ -273,7 +356,7 @@ def validate(d):
         fail("missing 'cover'")
     for key, hi in (("big_story_teaser", 100), ("venture_teaser", 100),
                     ("market_watch_teaser", 100), ("daily_brief_teaser", 100),
-                    ("inbrief_2", 40), ("inbrief_3", 40)):
+                    ("inbrief_1", 40), ("inbrief_2", 40), ("inbrief_3", 40)):
         if not is_str(cover.get(key), 3, hi):
             fail("cover.%s missing or too long (max %d chars)" % (key, hi))
     bs = d.get("big_story")
@@ -324,6 +407,20 @@ def validate(d):
         fail("missing 'daily_brief'")
     check_story(db.get("story_1"), "daily_brief.story_1")
     check_story(db.get("story_2"), "daily_brief.story_2")
+    geo = d.get("geopolitics")
+    if not isinstance(geo, dict):
+        fail("missing 'geopolitics'")
+    if not is_str(geo.get("kicker"), 2, 40):
+        fail("geopolitics.kicker bad (max 40 chars)")
+    if not is_str(geo.get("headline"), 5, 80):
+        fail("geopolitics.headline bad (max 80 chars)")
+    check_paragraphs(geo, "geopolitics", 2, 100, 900)
+    w60 = geo.get("world_60")
+    if not isinstance(w60, list) or not (3 <= len(w60) <= 4) or not all(is_str(x, 10, 110) for x in w60):
+        fail("geopolitics.world_60 must be 3-4 one-liners of 10-110 chars")
+    problem = check_geopolitics_pkg({"cover": cover, "geopolitics": geo})
+    if problem:
+        fail(problem)
 
 
 def main():
@@ -352,6 +449,25 @@ def main():
     if markets is None:
         fail("could not generate the markets package - leaving data.json untouched.")
 
+    # geopolitics runs last so it can steer clear of stories already used today
+    taken = []
+    for s in ((markets.get("daily_brief") or {}).get("story_1"),
+              (markets.get("daily_brief") or {}).get("story_2")):
+        if isinstance(s, dict) and isinstance(s.get("headline"), str):
+            taken.append(s["headline"])
+    bs = features.get("big_story")
+    if isinstance(bs, dict) and isinstance(bs.get("headline"), str):
+        taken.append(bs["headline"])
+    avoid = ""
+    if taken:
+        avoid = ("\nOther pages of today's issue already cover these stories - pick a DIFFERENT one:\n"
+                 + "\n".join("- " + t for t in taken) + "\n")
+    geo_prompt = GEOPOLITICS_PROMPT.format(today=today_str, avoid=avoid)
+    geo = generate(api_key, geo_prompt, "geopolitics (geopolitics page, in brief 01)",
+                   check=check_geopolitics_pkg)
+    if geo is None:
+        fail("could not generate the geopolitics package - leaving data.json untouched.")
+
     # merge both packages into one data.json
     data = {
         "cover": {},
@@ -360,8 +476,9 @@ def main():
         "venture_vault": features.get("venture_vault"),
         "market_watch": markets.get("market_watch"),
         "daily_brief": markets.get("daily_brief"),
+        "geopolitics": geo.get("geopolitics"),
     }
-    for src in (features, markets):
+    for src in (features, markets, geo):
         c = src.get("cover")
         if isinstance(c, dict):
             data["cover"].update(c)
