@@ -2,9 +2,15 @@
 """
 FINTRIX daily content generator.
 
-Calls the Gemini API free tier once a day, asks for that day's Market Watch
-and Daily Brief content as JSON, checks the answer carefully, and rewrites
-data.json. The website (index.html) reads data.json when it loads.
+Calls the Gemini API free tier once a day and regenerates EVERY daily section
+of the magazine: the cover teasers, the Big Story feature article, the
+Finnexus Explains box, the Venture Vault startup story, Market Watch stats,
+and the Daily Brief. The website (index.html) reads data.json when it loads.
+
+Two Gemini calls run in sequence:
+  1. "features" - Big Story + Explains + Venture Vault + their cover teasers
+  2. "markets"  - Market Watch + Daily Brief + their cover teasers
+Two calls a day sits comfortably inside the free tier's daily request caps.
 
 If anything goes wrong - no API key, rate limit hit, weird answer - the
 script exits with an error WITHOUT touching data.json, so the site keeps
@@ -15,7 +21,7 @@ Needs one environment variable:
 
 Optional:
   GEMINI_MODELS    comma-separated model fallbacks
-                   (default: gemini-2.5-flash,gemini-2.0-flash,gemini-2.5-flash-lite)
+                   (default: gemini-3.6-flash,gemini-3.5-flash-lite)
 
 Runs on Python 3.9+ with no extra packages to install.
 """
@@ -34,7 +40,57 @@ DATA_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data.json"
 DEFAULT_MODELS = "gemini-3.6-flash,gemini-3.5-flash-lite"
 MODELS = [m.strip() for m in os.environ.get("GEMINI_MODELS", DEFAULT_MODELS).split(",") if m.strip()]
 
-PROMPT = """You are the markets editor of FINTRIX, a college finance club magazine in India.
+FEATURES_PROMPT = """You are the features editor of FINTRIX, a college finance club magazine in India.
+
+Today is {today} (India time). Write TODAY'S feature package, grounded in real,
+recent business and finance news - use Google Search grounding; do not invent
+companies, funding rounds, or events.
+
+Pick ONE timely big-story topic: a real Indian business, finance, markets or
+economy theme that is in the news this week (policy, a sector shift, a major
+corporate move, a consumer or tech trend with a money angle).
+
+Reply with ONLY a JSON object (no markdown fences, no commentary) in exactly this shape:
+
+{{
+  "cover": {{
+    "big_story_teaser": "one line, max 90 characters, cover teaser for the big story",
+    "venture_teaser": "one line, max 90 characters, cover teaser for the venture story"
+  }},
+  "big_story": {{
+    "headline": "max 40 characters, short punchy magazine headline",
+    "subhead": "max 90 characters, ALL CAPS standfirst expanding on the headline",
+    "paragraphs": [
+      "paragraph 1, 3-4 sentences, sets the scene with real detail",
+      "paragraph 2, 3-4 sentences, the numbers and the context",
+      "paragraph 3, 3-4 sentences, what it means and what to watch"
+    ],
+    "pullbox": "max 220 characters, one sharp 'big idea' takeaway from the story"
+  }},
+  "explains": {{
+    "title": "max 45 characters, 'What is X?' style title for the key concept in the big story",
+    "paragraphs": [
+      "paragraph 1, 2-3 sentences, plain-English origin/definition of the concept",
+      "paragraph 2, 2-3 sentences, how it plays out in practice"
+    ]
+  }},
+  "venture_vault": {{
+    "paragraphs": [
+      "paragraph 1, 2-3 sentences, a REAL startup funding or growth story from the last few weeks (prefer Indian startups): who, how much, what they do",
+      "paragraph 2, 2-3 sentences, the backers, the founders' bet, why it matters"
+    ]
+  }}
+}}
+
+Rules:
+- The explains box must explain the central concept of THIS big story (they appear side by side).
+- Venture Vault must be a different story from the big story, about a real named startup.
+- Tone: a smart college finance magazine - plain English, no jargon dumps, Indian-market focus.
+- Every string must be plain text. No HTML tags, no markdown, no links.
+- Use the actual ₹ character (not HTML entities) where a rupee amount appears.
+"""
+
+MARKETS_PROMPT = """You are the markets editor of FINTRIX, a college finance club magazine in India.
 
 Today is {today} (India time). Write TODAY'S daily market content, using the most recent
 trading session's closing data (if today is a weekend or market holiday, use the last
@@ -130,7 +186,7 @@ def call_gemini(api_key, model, use_grounding, prompt):
         headers={"Content-Type": "application/json", "x-goog-api-key": api_key},
         method="POST",
     )
-    with urllib.request.urlopen(req, timeout=120) as resp:
+    with urllib.request.urlopen(req, timeout=180) as resp:
         body = json.loads(resp.read().decode("utf-8"))
     candidates = body.get("candidates") or []
     if not candidates:
@@ -146,6 +202,30 @@ def call_gemini(api_key, model, use_grounding, prompt):
             text = text[4:]
         text = text.strip()
     return json.loads(text)
+
+
+def generate(api_key, prompt, label):
+    """Run one prompt through the model fallbacks (grounding on, then off).
+    Returns parsed JSON dict, or None if every attempt failed."""
+    last_err = None
+    for model in MODELS:
+        for use_grounding in (True, False):
+            try:
+                print("Trying %s with model %s (grounding: %s)..."
+                      % (label, model, "on" if use_grounding else "off"))
+                return call_gemini(api_key, model, use_grounding, prompt)
+            except urllib.error.HTTPError as e:
+                detail = e.read().decode("utf-8", "replace")[:300]
+                last_err = "HTTP %s from %s: %s" % (e.code, model, detail)
+                print("  " + last_err)
+                if e.code in (401, 403):
+                    fail("Gemini rejected the API key. Check the GEMINI_API_KEY secret.")
+                # 400/404/429 etc: try the next option
+            except (RuntimeError, ValueError, urllib.error.URLError, TimeoutError) as e:
+                last_err = "%s: %s" % (model, e)
+                print("  " + str(last_err))
+    print("All Gemini attempts for %s failed. Last error: %s" % (label, last_err))
+    return None
 
 
 def is_str(x, lo=1, hi=600):
@@ -173,6 +253,14 @@ def check_story(s, what):
         fail("%s: needs 1-3 paragraphs of plain text" % what)
 
 
+def check_paragraphs(s, what, count, lo, hi):
+    if not isinstance(s, dict):
+        fail("%s: not an object" % what)
+    ps = s.get("paragraphs")
+    if not isinstance(ps, list) or len(ps) != count or not all(is_str(p, lo, hi) for p in ps):
+        fail("%s: needs exactly %d paragraphs of %d-%d chars" % (what, count, lo, hi))
+
+
 def validate(d):
     """Hard-fail on anything that would break the page layout. Only shape and
     length are checked here; the page itself also ignores missing/extra fields."""
@@ -181,10 +269,29 @@ def validate(d):
     cover = d.get("cover")
     if not isinstance(cover, dict):
         fail("missing 'cover'")
-    for key, hi in (("market_watch_teaser", 100), ("daily_brief_teaser", 100),
+    for key, hi in (("big_story_teaser", 100), ("venture_teaser", 100),
+                    ("market_watch_teaser", 100), ("daily_brief_teaser", 100),
                     ("inbrief_2", 40), ("inbrief_3", 40)):
         if not is_str(cover.get(key), 3, hi):
             fail("cover.%s missing or too long (max %d chars)" % (key, hi))
+    bs = d.get("big_story")
+    if not isinstance(bs, dict):
+        fail("missing 'big_story'")
+    if not is_str(bs.get("headline"), 3, 60):
+        fail("big_story.headline bad (max 60 chars)")
+    if not is_str(bs.get("subhead"), 5, 110):
+        fail("big_story.subhead bad (max 110 chars)")
+    check_paragraphs(bs, "big_story", 3, 100, 900)
+    if not is_str(bs.get("pullbox"), 20, 260):
+        fail("big_story.pullbox bad (max 260 chars)")
+    ex = d.get("explains")
+    if not isinstance(ex, dict):
+        fail("missing 'explains'")
+    if not is_str(ex.get("title"), 3, 60):
+        fail("explains.title bad (max 60 chars)")
+    check_paragraphs(ex, "explains", 2, 80, 900)
+    vv = d.get("venture_vault")
+    check_paragraphs(vv, "venture_vault", 2, 80, 900)
     mw = d.get("market_watch")
     if not isinstance(mw, dict):
         fail("missing 'market_watch'")
@@ -225,46 +332,43 @@ def main():
     last_close = TODAY - timedelta(days=1)
     while last_close.weekday() >= 5:  # skip weekends for the "close of" label
         last_close -= timedelta(days=1)
-    prompt = PROMPT.format(
-        today=TODAY.strftime("%A, %d %B %Y"),
+    close_label = (last_close.strftime("%b %-d").upper() if os.name != "nt"
+                   else last_close.strftime("%b %d").upper().replace(" 0", " "))
+    today_str = TODAY.strftime("%A, %d %B %Y")
+
+    features_prompt = FEATURES_PROMPT.format(today=today_str)
+    markets_prompt = MARKETS_PROMPT.format(
+        today=today_str,
         month_label=TODAY.strftime("%b %Y").upper(),
-        close_label=last_close.strftime("%b %-d").upper() if os.name != "nt"
-                    else last_close.strftime("%b %d").upper().replace(" 0", " "),
+        close_label=close_label,
     )
 
-    data = None
-    last_err = None
-    for model in MODELS:
-        for use_grounding in (True, False):
-            try:
-                print("Trying model %s (grounding: %s)..." % (model, "on" if use_grounding else "off"))
-                data = call_gemini(api_key, model, use_grounding, prompt)
-                break
-            except urllib.error.HTTPError as e:
-                detail = e.read().decode("utf-8", "replace")[:300]
-                last_err = "HTTP %s from %s: %s" % (e.code, model, detail)
-                print("  " + last_err)
-                if e.code in (401, 403):
-                    fail("Gemini rejected the API key. Check the GEMINI_API_KEY secret.")
-                # 400/404/429 etc: try the next option
-            except (RuntimeError, ValueError, urllib.error.URLError, TimeoutError) as e:
-                last_err = "%s: %s" % (model, e)
-                print("  " + str(last_err))
-        if data is not None:
-            break
+    features = generate(api_key, features_prompt, "features (big story, explains, venture vault)")
+    if features is None:
+        fail("could not generate the features package - leaving data.json untouched.")
+    markets = generate(api_key, markets_prompt, "markets (market watch, daily brief)")
+    if markets is None:
+        fail("could not generate the markets package - leaving data.json untouched.")
 
-    if data is None:
-        fail("all Gemini attempts failed. Last error: %s" % last_err)
+    # merge both packages into one data.json
+    data = {
+        "cover": {},
+        "big_story": features.get("big_story"),
+        "explains": features.get("explains"),
+        "venture_vault": features.get("venture_vault"),
+        "market_watch": markets.get("market_watch"),
+        "daily_brief": markets.get("daily_brief"),
+    }
+    for src in (features, markets):
+        c = src.get("cover")
+        if isinstance(c, dict):
+            data["cover"].update(c)
 
     validate(data)
 
     # keep only the fields the site uses, in a stable order
-    out = {
-        "updated_ist": TODAY.strftime("%Y-%m-%d"),
-        "cover": data["cover"],
-        "market_watch": data["market_watch"],
-        "daily_brief": data["daily_brief"],
-    }
+    out = {"updated_ist": TODAY.strftime("%Y-%m-%d")}
+    out.update(data)
     tmp = DATA_FILE + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
