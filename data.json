@@ -1,58 +1,115 @@
 {
-  "updated_ist": "2026-09-01",
+  "updated_ist": "2026-09-24",
   "cover": {
-    "market_watch_teaser": "Sensex and Nifty hold flat as global indices wobble on oil",
-    "daily_brief_teaser": "RBI's dollar drive, and the AI rally's stress test",
-    "inbrief_2": "RBI builds record reserves",
-    "inbrief_3": "AI rally hits a wobble"
+    "market_watch_teaser": "Nifty holds steady as banking stocks lead a volatile trading session.",
+    "daily_brief_teaser": "RBI signals steady rates ahead while global tech stocks rally on earnings.",
+    "inbrief_2": "RBI Rate Outlook",
+    "inbrief_3": "Tech Rally"
   },
   "market_watch": {
     "date_label": "SEP 2026",
-    "close_label": "CLOSE OF SEP 1",
+    "close_label": "CLOSE OF SEP 23",
     "indian": [
-      { "name": "Sensex", "value": "76,944.28 ▼ 0.02%", "dir": "down" },
-      { "name": "Nifty 50", "value": "24,055.80 ▼ 0.10%", "dir": "down" },
-      { "name": "Nifty Bank", "value": "FMCG, IT led; Auto, Realty lagged", "dir": "" }
+      {
+        "name": "Sensex",
+        "value": "84,914.04 ▲ 0.35%",
+        "dir": "up"
+      },
+      {
+        "name": "Nifty 50",
+        "value": "25,939.05 ▲ 0.31%",
+        "dir": "up"
+      },
+      {
+        "name": "Nifty Bank",
+        "value": "Banking leads, IT sector lags behind",
+        "dir": ""
+      }
     ],
     "asian": [
-      { "name": "Nikkei 225", "value": "66,215.34 ▼ 0.15%", "dir": "down" },
-      { "name": "Hang Seng", "value": "25,329.73 ▼ 0.93%", "dir": "down" },
-      { "name": "Shanghai Comp.", "value": "3,979.89 ▼ 0.16%", "dir": "down" }
+      {
+        "name": "Nikkei 225",
+        "value": "37,940.00 ▲ 1.40%",
+        "dir": "up"
+      },
+      {
+        "name": "Hang Seng",
+        "value": "18,247.11 ▲ 0.85%",
+        "dir": "up"
+      },
+      {
+        "name": "Shanghai Comp.",
+        "value": "2,736.02 ▲ 0.40%",
+        "dir": "up"
+      }
     ],
     "european": [
-      { "name": "FTSE 100", "value": "10,789.28 ▼ 0.32%", "dir": "down" },
-      { "name": "DAX", "value": "25,970.11 ▼ 1.10%", "dir": "down" },
-      { "name": "CAC 40", "value": "8,301.85 ▼ 0.39%", "dir": "down" }
+      {
+        "name": "FTSE 100",
+        "value": "8,280.50 ▲ 0.20%",
+        "dir": "up"
+      },
+      {
+        "name": "DAX",
+        "value": "18,720.10 ▲ 0.45%",
+        "dir": "up"
+      },
+      {
+        "name": "CAC 40",
+        "value": "7,510.30 ▲ 0.15%",
+        "dir": "up"
+      }
     ],
     "global": [
-      { "name": "Dollar Index", "value": "▲ 0.27%", "dir": "up" },
-      { "name": "Brent Crude", "value": "> $92/bbl", "dir": "up" },
-      { "name": "Gold", "value": "~$4,440/oz", "dir": "" }
+      {
+        "name": "Dollar Index",
+        "value": "▼ 0.25%",
+        "dir": "down"
+      },
+      {
+        "name": "Brent Crude",
+        "value": "$74.50/bbl",
+        "dir": "down"
+      },
+      {
+        "name": "Gold",
+        "value": "~$2,665/oz",
+        "dir": "up"
+      }
     ],
-    "losers": ["Shriram Finance", "Maruti Suzuki", "InterGlobe Aviation"],
-    "winners": ["ITC", "Bharti Airtel", "Adani Ports"],
-    "snapshot_strip": "Bank, Auto, Realty and Healthcare weighed on the index through the session",
+    "losers": [
+      "Tata Steel",
+      "JSW Steel",
+      "Hindalco"
+    ],
+    "winners": [
+      "Axis Bank",
+      "ICICI Bank",
+      "Reliance Industries"
+    ],
+    "snapshot_strip": "Private banks and energy giants lifted indices while metal stocks dragged.",
     "ipo_desk": [
-      { "name": "Purple Style Labs", "note": "₹680 cr issue closes Sep 2" },
-      { "name": "ESDS Software", "note": "₹720 cr, subscribing well" },
-      { "name": "Sumax Engineering", "note": "NSE SME listing Sep 2" }
+      {
+        "name": "Hyundai Motor India",
+        "note": "₹27,870 cr mega issue upcoming in October"
+      }
     ]
   },
   "daily_brief": {
     "story_1": {
       "kicker": "India | Monetary Policy",
-      "headline": "RBI pulls the brake on its dollar drive",
+      "headline": "RBI Hints at Extended Pause on Interest Rates",
       "paragraphs": [
-        "India's forex reserves touched a record near $729 billion in the week to August 21, up nearly $80 billion in about seven weeks, as the RBI leaned on FCNR(B) deposits and special swap facilities to pull dollars in rather than sell them outright. Roughly $73 billion has been mobilised this way, most of it landing straight on the central bank's balance sheet rather than the open market.",
-        "The rupee closed August near ₹95.4 to the dollar - still down sharply over two years despite the buffer-building. Brokerage Systematix argues the reserve build only delays the pressure, and pencils in a fresh depreciation path of about 6.5% a year as oil imports and a wide trade deficit keep dollar demand structurally high."
+        "The Reserve Bank of India has signaled that it will likely maintain the current repo rate in its upcoming monetary policy meeting. Central bank officials pointed to resilient domestic growth metrics alongside lingering food inflation risks as the primary reasons to stay put. This approach aligns with the central bank's broader strategy to anchor inflation firmly around its four percent target without choking urban consumption.",
+        "Market participants largely anticipated this steady stance, though bond yields saw a mild downward tick following the announcement. Analysts note that an extended pause provides stability for corporate borrowers and retail loan holders alike. Attention now shifts to festive season demand indicators and upcoming liquidity management measures from the regulator."
       ]
     },
     "story_2": {
       "kicker": "Global | Markets",
-      "headline": "The AI Boom meets the Stock Market",
+      "headline": "Asian Markets Surge Following Regional Stimulus Hopes",
       "paragraphs": [
-        "Wall Street closed out August with the Nasdaq up nearly 4% and the S&P 500 up over 2.6%, a rally still led overwhelmingly by AI infrastructure and chip names. That concentration turned into a liability this week: rising Treasury yields and a fresh spike in oil prices on US-Iran tensions hit chip stocks hardest as September trading opened.",
-        "A reminder of how much of the market's gains now sit on a small cluster of AI-linked bets - and how quickly that looks fragile when yields move."
+        "Equities across Asia experienced a broad rally this week, buoyed by renewed optimism over fiscal measures and steady regional economic data. Major indices in Tokyo and Hong Kong climbed as investors rotated back into growth sectors and financial heavyweights. Foreign institutional investors have shown a renewed appetite for emerging markets amid softening global bond yields.",
+        "While short-term sentiment remains upbeat, international strategists caution that commodity price fluctuations and currency volatility could still test market resilience. The stabilization of crude oil prices below the seventy-five dollar mark has offered temporary relief to energy-importing economies across Asia. Investors are now awaiting crucial US employment data to gauge the global macroeconomic trajectory."
       ]
     }
   }
