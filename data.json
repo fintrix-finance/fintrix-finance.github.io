@@ -1,86 +1,91 @@
 {
   "updated_ist": "2026-09-24",
   "cover": {
-    "big_story_teaser": "RBI flags economic disconnect",
-    "venture_teaser": "Ultraviolette secures $85M EV funding",
-    "market_watch_teaser": "Sensex gains 0.40% and Nifty rises 0.50% as metals lead",
-    "daily_brief_teaser": "Tata trusts and GDP performance highlight market cues",
-    "inbrief_2": "Tata Trust Talks",
-    "inbrief_3": "GDP Performance",
-    "inbrief_1": "US Tariff Declared Illegal"
+    "big_story_teaser": "Sensex tanks over 1200 points as market hits 3-month low",
+    "venture_teaser": "Betterhood raises Rs 11.5 crore in seed funding led by Sauce VC",
+    "market_watch_teaser": "Sensex slides 1.66% as markets hit 3-month low",
+    "daily_brief_teaser": "RBI sees rupee appreciation case while tech funding rises",
+    "inbrief_2": "RBI Supervisory Returns",
+    "inbrief_3": "Rupee Appreciation Case",
+    "inbrief_4": "Fraud Money Draft Rules",
+    "inbrief_1": "US Tariff & Trade Pressures"
   },
   "big_story": {
-    "headline": "The Great Economy-Market Disconnect",
-    "subhead": "RBI OFFICIALS HIGHLIGHT THE STRANGE GAP BETWEEN A ROBUST ECONOMY AND SLUGGISH MARKETS",
+    "headline": "Sensex Crashes 1,200 Points",
+    "subhead": "INDIAN MARKETS HIT A THREE-MONTH LOW AS SENSEX AND NIFTY PLUNGE SHARPLY",
     "paragraphs": [
-      "India's macroeconomic foundations remain strong, yet a stark disconnect persists between the broader economy and equity markets. While the economy hums along and inflation stays within the target band, the markets face lingering pressure from global oil prices and rising US yields. RBI deputy governor Poonam Gupta has pointed out this growing gap, leaving analysts wondering how long the divergence can last.",
-      "At the same time, the rupee has faced downward pressure from the same oil and yield forces, prompting the central bank to examine the case for currency appreciation. Officials are actively assessing what it will take for the rupee to gain ground despite external headwinds. Balancing domestic economic stability against global market shocks is proving to be a delicate act for policy makers.",
-      "Investors and students of finance alike need to watch how these central bank signals translate into monetary action. If the RBI steps in to support the rupee or address market valuations, asset allocations could shift rapidly. Keep an eye on incoming inflation data and global crude trends to see which way the pendulum swings next."
+      "The Indian stock market witnessed a severe downturn today, with the Sensex tanking over 1,200 points and the Nifty dropping below 23,100. Markets opened in the red and extended their weakness throughout the session, reflecting intense selling pressure across major counters. Investors watched anxiously as indexes touched three-month lows amid a wave of negative sentiment.",
+      "Multiple macroeconomic factors converged to trigger the sharp correction, creating a challenging environment for local equities. Global headwinds, soaring bond yields, and currency pressures compounded the downward spiral, dampening risk appetite. Analysts point out that rising commodity prices and foreign portfolio outflows have added significant weight to the market slide.",
+      "For student investors and campus finance enthusiasts, such corrections are a masterclass in market volatility and risk management. While sudden drops can be unsettling, they also present opportunities to study how macroeconomic shifts instantly transmit to asset prices. Watching how the Reserve Bank of India and global central banks respond will be crucial for the next phase of market movement."
     ],
-    "pullbox": "When macroeconomic strength fails to match stock market enthusiasm, investors must look past short-term noise to find true underlying value."
+    "pullbox": "When macroeconomic headwinds and surging global yields align, even robust domestic equity markets can experience sharp, sudden corrections.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/BSE_logo.svg/330px-BSE_logo.svg.png",
+      "alt": "Bombay Stock Exchange"
+    }
   },
   "explains": {
-    "title": "What is Market Disconnect?",
+    "title": "What is a Stock Market Correction?",
     "paragraphs": [
-      "Market disconnect happens when the financial health of an economy's businesses and GDP growth do not match the actual movement of its stock markets. This occurs because stock prices are driven by future expectations, global capital flows, and foreign interest rates rather than just domestic output.",
-      "In practice, a country can enjoy strong economic growth and controlled inflation while its local equities struggle due to capital outflows chasing higher US yields. Understanding this split helps investors avoid panic when stock indices diverge from everyday business reality."
+      "A stock market correction is generally defined as a decline of 10% or more in a major stock index from its recent peak. It is a normal part of market cycles where asset prices adjust downwards to reflect changing economic realities.",
+      "During a correction, investors reassess valuations, corporate earnings, and broader economic risks, often leading to widespread selling. While painful for short-term holders, corrections help clear out excess speculation and reset market valuations."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Bengaluru-based electric vehicle maker Ultraviolette has successfully secured an $85 million funding round. The fresh capital injection is backed by prominent investors including Yali Capital, TDK, and Intel CEO Lip-Bu Tan, underlining robust investor confidence in India's EV sector.",
-      "This massive funding milestone highlights the growing appetite for high-performance electric mobility startups in the domestic market. With backing from global tech leaders, Ultraviolette is well-positioned to scale its operations and accelerate product development in a competitive landscape."
+      "Preventive pain-care startup Betterhood has successfully raised Rs 11.5 crore in a seed funding round led by Sauce VC. The fresh capital will help the young company scale its operations and expand its innovative health and wellness product offerings in the Indian market.",
+      "The investment highlights growing venture capital interest in preventive healthcare and consumer brands addressing niche wellness needs. Backed by seasoned investors, Betterhood's founders are betting that Indian consumers are increasingly willing to spend on proactive health solutions."
     ]
   },
   "market_watch": {
     "indian": [
       {
         "name": "Sensex",
-        "value": "74,828.25 ▲ 0.40%",
-        "dir": "up"
+        "value": "73,583.75 ▼ 1.66%",
+        "dir": "down"
       },
       {
         "name": "Nifty 50",
-        "value": "23,446.80 ▲ 0.50%",
-        "dir": "up"
+        "value": "23,063.10 ▼ 1.64%",
+        "dir": "down"
       },
       {
         "name": "Nifty Bank",
-        "value": "56,548.90 ▲ 0.59%",
-        "dir": "up"
+        "value": "55,438.50 ▼ 1.96%",
+        "dir": "down"
       }
     ],
     "asian": [
       {
         "name": "Nikkei 225",
-        "value": "65,018.95 ▲ 1.38%",
+        "value": "65,513.99 ▲ 0.76%",
         "dir": "up"
       },
       {
         "name": "Hang Seng",
-        "value": "24,834.12 ▼ 0.83%",
+        "value": "24,761.13 ▼ 0.29%",
         "dir": "down"
       },
       {
         "name": "Shanghai Comp.",
-        "value": "3,936.52 ▼ 0.34%",
+        "value": "3,888.37 ▼ 1.22%",
         "dir": "down"
       }
     ],
     "european": [
       {
         "name": "FTSE 100",
-        "value": "10,705.26 ▼ 0.03%",
+        "value": "10,705.30 ▼ 0.31%",
         "dir": "down"
       },
       {
         "name": "DAX",
-        "value": "25,410.63 ▼ 0.66%",
+        "value": "25,410.63 ▼ 0.64%",
         "dir": "down"
       },
       {
         "name": "CAC 40",
-        "value": "8,123.41 ▼ 0.39%",
+        "value": "8,123.41 ▼ 0.19%",
         "dir": "down"
       }
     ],
@@ -102,100 +107,144 @@
       }
     ],
     "losers": [
-      "HCLTech",
-      "Titan",
-      "Infosys"
+      "HDFC Life",
+      "Bajaj Finance",
+      "Axis Bank"
     ],
     "winners": [
-      "Bajaj Finance",
-      "Hindalco",
-      "Tata Steel"
+      "Cipla",
+      "ONGC",
+      "NTPC"
     ],
-    "snapshot_strip": "Metal and FMCG led; IT and Media lagged as the Nifty rose 0.50%",
+    "snapshot_strip": "Banks and Metal lagged as the Nifty fell 1.64%",
     "date_label": "SEP 2026",
-    "close_label": "CLOSE OF SEP 23",
+    "close_label": "CLOSE OF SEP 24",
     "ipo_desk": [
       {
-        "name": "NSE",
-        "note": "Stock to list today on BSE and MSEI"
+        "name": "NSE IPO",
+        "note": "Shares debut at ₹1,800 with 0.8% premium"
       },
       {
-        "name": "A-One Steels",
-        "note": "IPO opens with GMP signaling 12% premium"
+        "name": "Moneyview IPO",
+        "note": "Subscribed 44% so far on Day 1"
+      },
+      {
+        "name": "A-One Steels India IPO",
+        "note": "Subscription opens today"
       }
     ]
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "Corporate Governance",
-      "headline": "Tata Sons Listing and Trust Briefing",
+      "kicker": "Banking Supervision",
+      "headline": "RBI Issues New Supervisory Return Directions",
       "paragraphs": [
-        "Recent discussions surrounding the potential Tata Sons listing have sparked internal governance questions. Reports indicate that the trusts were not adequately briefed on talks held with the Reserve Bank of India.",
-        "As stakeholders review the unfolding regulatory requirements, transparency remains a focal point for the group's future strategic decisions."
-      ]
+        "The Reserve Bank of India has issued fresh supervisory return directions for commercial banks as part of its ongoing regulatory updates for the financial sector. These guidelines are designed to enhance reporting accuracy and strengthen oversight across all scheduled commercial institutions operating in the country.",
+        "As regulatory compliance tightens, banks will need to align their reporting frameworks with these updated supervisory guidelines to maintain transparency. The move underlines the central bank's continued focus on robust risk management and financial stability."
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+        "alt": "Reserve Bank of India"
+      }
     },
     "story_2": {
-      "kicker": "Macroeconomics",
-      "headline": "Tracking India's GDP Performance",
+      "image_query": "Indian currency rupee note",
+      "kicker": "Currency Markets",
+      "headline": "RBI Sees Case for Rupee to Appreciate",
       "paragraphs": [
-        "Official releases on India's GDP performance continue to offer critical insights into the nation's broader macroeconomic trajectory. These figures provide a baseline for assessing economic resilience amidst shifting global monetary conditions.",
-        "Policymakers and market participants closely monitor these metrics to gauge domestic demand and growth sustainability."
+        "According to official statements, the Reserve Bank of India sees a valid case for the domestic currency to appreciate amidst evolving macroeconomic conditions. The central bank's perspective comes at a time when currency markets are navigating fluctuating global yields and surging oil prices.",
+        "While external pressures like a strengthening dollar and rising crude continue to test currency resilience, active policy interventions and foreign exchange management are playing a crucial role in safeguarding the rupee's stability."
+      ]
+    },
+    "story_3": {
+      "kicker": "Financial Crime",
+      "headline": "Draft Rules Proposed on Freezing Fraud Money",
+      "paragraphs": [
+        "New draft rule changes have been introduced regarding the freezing of suspected fraud money in financial accounts. These proposed measures aim to streamline legal and procedural frameworks for tracking and intercepting illicit funds before they disappear through complex transaction networks."
+      ]
+    },
+    "also_today": {
+      "items": [
+        "India tech funding rises 7% to $10.3 billion in the first nine months of 2026.",
+        "Angel One founder Dinesh Thakkar buys entire 63,000 sq ft Juhu tower for Rs 711 crore.",
+        "Amazon Pay India FY26 loss widens to Rs 1,148.5 crore even as overall revenue increases.",
+        "PM Modi welcomes AirTrunk's Rs 3 lakh crore investment plan in India's digital infrastructure."
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India | Trade Policy",
-    "headline": "US Court Strikes Down Trump Tariff",
+    "kicker": "India | Tariffs",
+    "headline": "Navigating US Trade Threats and Tariff Pressures",
     "paragraphs": [
-      "A US Court of International Trade has officially declared the Trump administration's universal tariff levied on imports from India and other countries illegal. This major legal challenge comes amidst broader trade tension and threats of heavy tariffs, prompting experts to discuss whether India should stand firm on trade security and crude oil purchases. The ruling offers a temporary legal shield for international exporters navigating complex bilateral trade negotiations.",
-      "Despite the court verdict, broader trade diplomacy and strategic postures remain unsettled as global partners weigh potential economic impacts. PM Modi's upcoming diplomatic visits and potential trade pact signings highlight India's continuous push toward diversified global partnerships. For Indian businesses and policymakers, monitoring these shifting legal and diplomatic landscapes is crucial for maintaining economic stability."
+      "The US Court of International Trade declared the Trump administration's ten percent universal tariff levied on imports from India and other countries illegal. However, looming threats of steep tariff hikes leave Indian policymakers and exporters grappling with uncertainty.",
+      "Experts debate whether these aggressive moves are merely leverage to push through a comprehensive trade deal. Meanwhile, analysts emphasize that India must stand firm on Russian crude and trade security while diversifying its global partnerships."
     ],
     "world_60": [
-      "RBI deputy governor Poonam Gupta notes inflation will stay within the targeted band",
-      "RBI deputy governor highlights a disconnect between a strong economy and equity markets",
-      "Women and work face intense pressure within the heat of India's informal economy",
-      "Stock market outlook for Thursday builds on GIFT Nifty, Nikkei, and Taiwan signals"
-    ]
+      "Sensex tanks over twelve hundred points as foreign capital flees domestic equities",
+      "RBI intervenes heavily in foreign exchange markets to shield sliding rupee",
+      "Crude oil trades near one hundred two dollars as Iran signals diplomatic openness",
+      "India and the European Union set official date for free trade agreement signing"
+    ],
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/White_House_north_and_south_sides.jpg/3840px-White_House_north_and_south_sides.jpg",
+      "alt": "White House"
+    }
   },
   "sources": {
     "big_story": [
       {
-        "title": "Rupee faces pressure from oil, US yields; RBI deputy flags case for gains",
-        "source": "Reuters"
+        "title": "Stock Market Hits 3-Month Low: 5 Reasons Behind Sensex, Nifty Crash Today",
+        "source": "NDTV"
       },
       {
-        "title": "Strong economy, weak markets: RBI deputy governor flags disconnect in India",
-        "source": "Telegraph India"
-      },
-      {
-        "title": "Inflation to stay within band: RBI deputy governor Poonam Gupta",
+        "title": "Stock market crash today: Sensex tanks over 1,200 points, Nifty goes below 23,100 - top reasons for fall",
         "source": "The Times of India"
       },
       {
-        "title": "RBI DG Gupta flags disconnect between India’s strong economy and equity markets - CNBC TV18",
-        "source": "LinkedIn"
+        "title": "Sensex down 800 points: Why is stock market falling today?",
+        "source": "India Today"
       }
     ],
     "venture_vault": [
       {
-        "title": "{Funding Alert} Electric Vehicle Startup Ultraviolette Secures $85 Mn Funding Round",
-        "source": "Indian Retailer"
-      },
-      {
-        "title": "Bengaluru's EV maker Ultraviolette raises $85 million from Yali Capital, TDK, Intel CEO Lip-Bu Tan",
+        "title": "Preventive pain-care startup Betterhood raises Rs 11.5 crore in seed funding led by Sauce VC",
         "source": "Indian Startup News"
       }
     ],
     "daily_brief_1": [
       {
-        "title": "Tata Sons listing: ‘Trusts not adequately briefed on RBI talks’",
-        "source": "The Indian Express"
+        "title": "Reserve Bank of India (Commercial Banks – Supervisory Returns) Directions, 2026",
+        "source": "kpmg.com"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "India’s GDP Performance",
-        "source": "PIB"
+        "title": "India’s RBI Sees Case for Rupee to Appreciate, Official Says",
+        "source": "Bloomberg.com"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "Draft rule changes on freezing suspected fraud money",
+        "source": "Law.asia"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "Angel One founder Dinesh Thakkar buys entire 63,000 sq ft Juhu tower for Rs 711 crore; $74.3 million deal",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Amazon Pay India FY26 Loss Widens to Rs 1,148.5 Cr, Revenue Up",
+        "source": "Rediff MoneyWiz"
+      },
+      {
+        "title": "PM Modi welcomes AirTrunk’s Rs 3 lakh crore investment plan in India’s digital infrastructure",
+        "source": "DD News"
+      },
+      {
+        "title": "India tech funding rises 7% to $10.3 billion in first nine months of 2026",
+        "source": "Business Standard"
       }
     ],
     "geopolitics": [
@@ -204,38 +253,46 @@
         "source": "News On AIR"
       },
       {
+        "title": "Is Trump’s 100% tariff threat on India ‘leverage to push through a trade deal’? Expert weighs in",
+        "source": "Livemint"
+      },
+      {
         "title": "Trump’s 100% tariff threat: Why India must stand firm on Russian crude and trade security",
         "source": "ET Government"
       }
     ],
     "world_60": [
       {
-        "title": "Inflation to stay within band: RBI deputy governor Poonam Gupta",
+        "title": "Stock market crash today: Sensex tanks over 1,200 points, Nifty goes below 23,100 - top reasons for fall",
         "source": "The Times of India"
       },
       {
-        "title": "RBI DG Gupta flags disconnect between India’s strong economy and equity markets - CNBC TV18",
-        "source": "LinkedIn"
+        "title": "RBI Intervention shields rupee as global yields soar on inflation worries",
+        "source": "reuters.com"
       },
       {
-        "title": "'Overheated': Women, Work, and the Relentless Heat of India's Informal Economy",
-        "source": "Pulitzer Center"
+        "title": "Oil Price Today (September 24): Crude oil falls to $102 as Iran signals its openness to diplomacy. What ar",
+        "source": "The Economic Times"
       },
       {
-        "title": "Sensex, Nifty 50 prediction today: Stock market outlook for Thursday, 24 Sept - GIFT Nifty, Nikkei, Taiwan signals",
-        "source": "Livemint"
+        "title": "India-EU FTA to be signed on December 16",
+        "source": "The Hindu"
       }
     ],
     "ipo_desk": [
       {
-        "title": "NSE IPO: Stock to list today on BSE, MSEI; what GMP signals about debut gains & other details",
+        "title": "NSE IPO: Stock lists at Rs 1,800 versus issue price of Rs 1,785 on BSE with 0.8% premium; check details",
         "source": "The Times of India"
       },
       {
-        "title": "A-One Steels IPO opens today: GMP signals 12% listing premium — Check price band, lot size and key details",
-        "source": "The Economic Times"
+        "title": "Moneyview IPO subscribed 44% so far on Day 1: Check price band, lot size and key dates",
+        "source": "Upstox"
+      },
+      {
+        "title": "Video | A-One Steels India IPO Subscription Opens Today",
+        "source": "NDTV Profit"
       }
     ],
-    "market_data": "Yahoo Finance (computed, session SEP 23)"
+    "market_data": "Yahoo Finance (computed, session SEP 24)"
   }
 }
