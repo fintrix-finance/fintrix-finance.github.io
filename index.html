@@ -783,8 +783,8 @@ function buildQRows(id, rows, kind){
     v.className = 'qv';
     v.textContent = kind === 'caps' ? (r.level || '') : kind === 'funds' ? (r.nav || '') : (r.price || '');
     row.appendChild(v);
-    row.appendChild(retSpan(r.dir, r.day));
-    row.appendChild(retSpan(r.dir_week, r.week));
+    row.appendChild(retSpan(r.dir, kind === 'caps' ? r.day_txt : r.day));
+    row.appendChild(retSpan(r.dir_week, kind === 'caps' ? r.week_txt : r.week));
     if(kind === 'caps') row.appendChild(retSpan(r.dir_month, r.month_txt));
     c.appendChild(row);
     if(kind === 'comm' && typeof r.spark === 'string'){
@@ -1047,4 +1047,4 @@ stage.addEventListener('touchcancel', e => endSwipe(e, true), {passive:true});
 updateControls();
 </script>
 </body>
-  </html>
+                            </html>
