@@ -1,156 +1,241 @@
 {
   "updated_ist": "2026-09-24",
   "cover": {
-    "big_story_teaser": "RBI cuts CRR to inject liquidity and revive credit growth.",
-    "venture_teaser": "Droom secures fresh capital to scale its auto tech platform.",
-    "market_watch_teaser": "Sensex slips as profit booking hits benchmarks; Asian markets react to US cues.",
-    "daily_brief_teaser": "RBI signals steady stance on rates as global growth concerns weigh on sentiment.",
-    "inbrief_2": "RBI Rate Stance",
-    "inbrief_3": "Global Tech Rally",
-    "inbrief_1": "India-US Trade Tariff Talks"
+    "big_story_teaser": "RBI flags economic disconnect",
+    "venture_teaser": "Ultraviolette secures $85M EV funding",
+    "market_watch_teaser": "Sensex gains 0.40% and Nifty rises 0.50% as metals lead",
+    "daily_brief_teaser": "Tata trusts and GDP performance highlight market cues",
+    "inbrief_2": "Tata Trust Talks",
+    "inbrief_3": "GDP Performance",
+    "inbrief_1": "US Tariff Declared Illegal"
   },
   "big_story": {
-    "headline": "Unlocking the Vault",
-    "subhead": "RBI'S BOLD CRR CUT PUMPS BILLIONS BACK INTO THE BANKING SYSTEM",
+    "headline": "The Great Economy-Market Disconnect",
+    "subhead": "RBI OFFICIALS HIGHLIGHT THE STRANGE GAP BETWEEN A ROBUST ECONOMY AND SLUGGISH MARKETS",
     "paragraphs": [
-      "The Reserve Bank of India has pulled a major policy lever by reducing the Cash Reserve Ratio to ease liquidity constraints across commercial banks. This surprise move frees up billions of rupees that lenders were previously required to park idly with the central bank. As festive season demand peaks, banks now have enhanced headroom to expand their loan books and support broader economic activity.",
-      "With systemic liquidity tightening over recent months due to tax outflows and currency dynamics, overnight rates had begun creeping higher. Lowering the CRR acts as a direct antidote, instantly lowering the cost of funds for banks and signaling a supportive monetary stance. Financial institutions are expected to pass on these benefits through more competitive lending rates for retail and corporate borrowers.",
-      "For college students and young professionals eyeing the economy, this shift means credit is about to become cheaper and more accessible. Analysts will be closely tracking whether this liquidity translation sparks a tangible pickup in capital expenditure and consumer spending. Ultimately, the central bank is betting that lower reserve requirements will act as the perfect catalyst for sustained growth."
+      "India's macroeconomic foundations remain strong, yet a stark disconnect persists between the broader economy and equity markets. While the economy hums along and inflation stays within the target band, the markets face lingering pressure from global oil prices and rising US yields. RBI deputy governor Poonam Gupta has pointed out this growing gap, leaving analysts wondering how long the divergence can last.",
+      "At the same time, the rupee has faced downward pressure from the same oil and yield forces, prompting the central bank to examine the case for currency appreciation. Officials are actively assessing what it will take for the rupee to gain ground despite external headwinds. Balancing domestic economic stability against global market shocks is proving to be a delicate act for policy makers.",
+      "Investors and students of finance alike need to watch how these central bank signals translate into monetary action. If the RBI steps in to support the rupee or address market valuations, asset allocations could shift rapidly. Keep an eye on incoming inflation data and global crude trends to see which way the pendulum swings next."
     ],
-    "pullbox": "When the central bank lowers reserve requirements, it effectively hands banks a multi-billion-rupee permission slip to accelerate lending and drive economic momentum."
+    "pullbox": "When macroeconomic strength fails to match stock market enthusiasm, investors must look past short-term noise to find true underlying value."
   },
   "explains": {
-    "title": "What is the Cash Reserve Ratio?",
+    "title": "What is Market Disconnect?",
     "paragraphs": [
-      "The Cash Reserve Ratio, or CRR, is the minimum percentage of total deposits that commercial banks must maintain with the Reserve Bank of India in cash. Banks cannot lend this specific portion out to customers, ensuring a safety buffer for depositors during panics.",
-      "When the RBI lowers the CRR, banks instantly unlock capital that was previously locked away, increasing their lending capacity. Conversely, raising the CRR drains liquidity from the financial system to rein in inflation."
+      "Market disconnect happens when the financial health of an economy's businesses and GDP growth do not match the actual movement of its stock markets. This occurs because stock prices are driven by future expectations, global capital flows, and foreign interest rates rather than just domestic output.",
+      "In practice, a country can enjoy strong economic growth and controlled inflation while its local equities struggle due to capital outflows chasing higher US yields. Understanding this split helps investors avoid panic when stock indices diverge from everyday business reality."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Droom, the prominent Indian online automobile marketplace, has raised significant fresh funding to scale its AI-driven inspection and transaction platform. The company leverages proprietary technology to bring transparency and trust to used vehicle buying and selling across major Indian cities. This latest capital infusion will be deployed toward expanding its dealer network and upgrading its pricing analytics engine.",
-      "Backed by marquee institutional investors, the founders are doubling down on India's booming pre-owned vehicle economy, which continues to outpace new car sales. As Gen Z and millennial consumers increasingly opt for certified second-hand mobility, Droom is positioning itself to capture a massive slice of the organized auto-tech pie."
+      "Bengaluru-based electric vehicle maker Ultraviolette has successfully secured an $85 million funding round. The fresh capital injection is backed by prominent investors including Yali Capital, TDK, and Intel CEO Lip-Bu Tan, underlining robust investor confidence in India's EV sector.",
+      "This massive funding milestone highlights the growing appetite for high-performance electric mobility startups in the domestic market. With backing from global tech leaders, Ultraviolette is well-positioned to scale its operations and accelerate product development in a competitive landscape."
     ]
   },
   "market_watch": {
-    "date_label": "SEP 2026",
-    "close_label": "CLOSE OF SEP 23",
     "indian": [
       {
         "name": "Sensex",
-        "value": "83,234.12 ▼ 0.35%",
-        "dir": "down"
+        "value": "74,828.25 ▲ 0.40%",
+        "dir": "up"
       },
       {
         "name": "Nifty 50",
-        "value": "25,414.65 ▼ 0.32%",
-        "dir": "down"
+        "value": "23,446.80 ▲ 0.50%",
+        "dir": "up"
       },
       {
         "name": "Nifty Bank",
-        "value": "Banking drags, IT and pharma outperform",
-        "dir": ""
+        "value": "56,548.90 ▲ 0.59%",
+        "dir": "up"
       }
     ],
     "asian": [
       {
         "name": "Nikkei 225",
-        "value": "37,940.50 ▲ 1.12%",
+        "value": "65,018.95 ▲ 1.38%",
         "dir": "up"
       },
       {
         "name": "Hang Seng",
-        "value": "18,240.20 ▲ 0.85%",
-        "dir": "up"
+        "value": "24,834.12 ▼ 0.83%",
+        "dir": "down"
       },
       {
         "name": "Shanghai Comp.",
-        "value": "2,742.90 ▼ 0.15%",
+        "value": "3,936.52 ▼ 0.34%",
         "dir": "down"
       }
     ],
     "european": [
       {
         "name": "FTSE 100",
-        "value": "8,280.10 ▲ 0.22%",
-        "dir": "up"
+        "value": "10,705.26 ▼ 0.03%",
+        "dir": "down"
       },
       {
         "name": "DAX",
-        "value": "18,720.40 ▲ 0.45%",
-        "dir": "up"
+        "value": "25,410.63 ▼ 0.66%",
+        "dir": "down"
       },
       {
         "name": "CAC 40",
-        "value": "7,510.30 ▲ 0.30%",
-        "dir": "up"
+        "value": "8,123.41 ▼ 0.39%",
+        "dir": "down"
       }
     ],
     "global": [
       {
         "name": "Dollar Index",
-        "value": "100.85 ▼ 0.12%",
-        "dir": "down"
+        "value": "101.10 ▲ 0.67%",
+        "dir": "up"
       },
       {
         "name": "Brent Crude",
-        "value": "$74.50/bbl",
-        "dir": "down"
+        "value": "$103.08/bbl",
+        "dir": "up"
       },
       {
         "name": "Gold",
-        "value": "~$2,660/oz",
-        "dir": "up"
+        "value": "$4,318/oz",
+        "dir": "down"
       }
     ],
     "losers": [
-      "Shriram Finance",
-      "Tata Motors",
-      "Axis Bank"
+      "HCLTech",
+      "Titan",
+      "Infosys"
     ],
     "winners": [
-      "Tech Mahindra",
-      "Wipro",
-      "HCL Technologies"
+      "Bajaj Finance",
+      "Hindalco",
+      "Tata Steel"
     ],
-    "snapshot_strip": "Broad market weakness led by heavyweights in banking and auto weighed down the indices.",
+    "snapshot_strip": "Metal and FMCG led; IT and Media lagged as the Nifty rose 0.50%",
+    "date_label": "SEP 2026",
+    "close_label": "CLOSE OF SEP 23",
     "ipo_desk": [
       {
-        "name": "Hyundai Motor India",
-        "note": "₹27,870 cr issue draws strong institutional interest"
+        "name": "NSE",
+        "note": "Stock to list today on BSE and MSEI"
+      },
+      {
+        "name": "A-One Steels",
+        "note": "IPO opens with GMP signaling 12% premium"
       }
     ]
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "India | Macro Policy",
-      "headline": "RBI Maintains Growth-Inflation Balance as Headwinds Linger",
+      "kicker": "Corporate Governance",
+      "headline": "Tata Sons Listing and Trust Briefing",
       "paragraphs": [
-        "The Reserve Bank of India continues to prioritize domestic price stability while keeping a close eye on volatile global commodity trends. Recent commentary from central bank officials suggests that interest rates will likely remain steady in the near term as retail inflation hovers within the comfort band. Economists note that robust domestic credit growth and steady tax collections provide enough cushion to absorb external shocks.",
-        "However, policymakers remain cautious about rural demand recovery and potential supply chain bottlenecks caused by erratic weather patterns. Corporate earnings reports for the upcoming quarter will serve as a crucial litmus test for urban consumption trends. Market participants are closely watching government capital expenditure data to gauge the broader economic momentum heading into the festive season."
+        "Recent discussions surrounding the potential Tata Sons listing have sparked internal governance questions. Reports indicate that the trusts were not adequately briefed on talks held with the Reserve Bank of India.",
+        "As stakeholders review the unfolding regulatory requirements, transparency remains a focal point for the group's future strategic decisions."
       ]
     },
     "story_2": {
-      "kicker": "Global | Technology Markets",
-      "headline": "Tech Stocks Rebound as Fed Rate Cut Expectations Solidify",
+      "kicker": "Macroeconomics",
+      "headline": "Tracking India's GDP Performance",
       "paragraphs": [
-        "Major global stock indices experienced a relief rally this week as investors priced in further monetary easing by major central banks. Technology counters led the charge on Wall Street, driven by renewed optimism around enterprise artificial intelligence spending and stabilizing Treasury yields. Semiconductor manufacturers saw notable inflows as supply constraints showed signs of easing globally.",
-        "Despite the positive sentiment, analysts caution that equity valuations remain elevated relative to historical averages. Currency markets have also responded dynamically, with the US dollar softening against major peers as interest rate differentials narrow. Investors are advised to maintain a diversified portfolio approach while navigating potential volatility ahead of upcoming macroeconomic prints."
+        "Official releases on India's GDP performance continue to offer critical insights into the nation's broader macroeconomic trajectory. These figures provide a baseline for assessing economic resilience amidst shifting global monetary conditions.",
+        "Policymakers and market participants closely monitor these metrics to gauge domestic demand and growth sustainability."
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India | US Trade",
-    "headline": "India and US Resume High-Stakes Bilateral Trade Talks",
+    "kicker": "India | Trade Policy",
+    "headline": "US Court Strikes Down Trump Tariff",
     "paragraphs": [
-      "Trade negotiators from New Delhi and Washington met this week in September 2026 to resolve lingering market access disputes and tariff barriers. India is pushing for a reinstatement of preferential trade benefits under the Generalized System of Preferences, while the US demands greater agricultural and medical device market access. With bilateral trade crossing $190 billion last year, both sides are keen to finalize a mini-trade agreement before the upcoming G20 meetings.",
-      "Key hurdles remain around digital services taxes, data localization norms, and US steel and aluminum tariffs that continue to sting Indian exporters. For Indian manufacturing and tech firms, the outcome of these talks will dictate export margins and supply chain reliability in western markets. Finance ministry officials are monitoring the negotiations closely as foreign direct investment inflows depend heavily on regulatory stability."
+      "A US Court of International Trade has officially declared the Trump administration's universal tariff levied on imports from India and other countries illegal. This major legal challenge comes amidst broader trade tension and threats of heavy tariffs, prompting experts to discuss whether India should stand firm on trade security and crude oil purchases. The ruling offers a temporary legal shield for international exporters navigating complex bilateral trade negotiations.",
+      "Despite the court verdict, broader trade diplomacy and strategic postures remain unsettled as global partners weigh potential economic impacts. PM Modi's upcoming diplomatic visits and potential trade pact signings highlight India's continuous push toward diversified global partnerships. For Indian businesses and policymakers, monitoring these shifting legal and diplomatic landscapes is crucial for maintaining economic stability."
     ],
     "world_60": [
-      "Brent crude hovers near $74 a barrel as Middle East supply worries ease slightly",
-      "Gold prices surge past $2,650 an ounce amid safe-haven buying by central banks",
-      "US Treasury yields dip as investors price in aggressive Federal Reserve easing",
-      "European Central Bank signals readiness for further rate cuts amid slow growth"
+      "RBI deputy governor Poonam Gupta notes inflation will stay within the targeted band",
+      "RBI deputy governor highlights a disconnect between a strong economy and equity markets",
+      "Women and work face intense pressure within the heat of India's informal economy",
+      "Stock market outlook for Thursday builds on GIFT Nifty, Nikkei, and Taiwan signals"
     ]
+  },
+  "sources": {
+    "big_story": [
+      {
+        "title": "Rupee faces pressure from oil, US yields; RBI deputy flags case for gains",
+        "source": "Reuters"
+      },
+      {
+        "title": "Strong economy, weak markets: RBI deputy governor flags disconnect in India",
+        "source": "Telegraph India"
+      },
+      {
+        "title": "Inflation to stay within band: RBI deputy governor Poonam Gupta",
+        "source": "The Times of India"
+      },
+      {
+        "title": "RBI DG Gupta flags disconnect between India’s strong economy and equity markets - CNBC TV18",
+        "source": "LinkedIn"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "{Funding Alert} Electric Vehicle Startup Ultraviolette Secures $85 Mn Funding Round",
+        "source": "Indian Retailer"
+      },
+      {
+        "title": "Bengaluru's EV maker Ultraviolette raises $85 million from Yali Capital, TDK, Intel CEO Lip-Bu Tan",
+        "source": "Indian Startup News"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "Tata Sons listing: ‘Trusts not adequately briefed on RBI talks’",
+        "source": "The Indian Express"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "India’s GDP Performance",
+        "source": "PIB"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "US Court of International Trade declares Trump administration’s 10% universal tariff levied on imports from India & other countries illegal | Akashvani News",
+        "source": "News On AIR"
+      },
+      {
+        "title": "Trump’s 100% tariff threat: Why India must stand firm on Russian crude and trade security",
+        "source": "ET Government"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "Inflation to stay within band: RBI deputy governor Poonam Gupta",
+        "source": "The Times of India"
+      },
+      {
+        "title": "RBI DG Gupta flags disconnect between India’s strong economy and equity markets - CNBC TV18",
+        "source": "LinkedIn"
+      },
+      {
+        "title": "'Overheated': Women, Work, and the Relentless Heat of India's Informal Economy",
+        "source": "Pulitzer Center"
+      },
+      {
+        "title": "Sensex, Nifty 50 prediction today: Stock market outlook for Thursday, 24 Sept - GIFT Nifty, Nikkei, Taiwan signals",
+        "source": "Livemint"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "NSE IPO: Stock to list today on BSE, MSEI; what GMP signals about debut gains & other details",
+        "source": "The Times of India"
+      },
+      {
+        "title": "A-One Steels IPO opens today: GMP signals 12% listing premium — Check price band, lot size and key details",
+        "source": "The Economic Times"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session SEP 23)"
   }
 }
