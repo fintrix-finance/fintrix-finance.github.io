@@ -20,9 +20,17 @@ Where the content comes from (all free, no paid tiers):
 Four steps run in sequence:
   1. market data  - index levels, commodities, Nifty 50 gainers/losers, sectors
   2. "features"    - Big Story + Explains + Venture Vault + their cover teasers
-  3. "markets"     - Daily Brief + IPO desk + market/brief cover lines
+  3. "markets"     - Daily Brief (3 stories + quick briefs) + IPO desk + cover lines
   4. "geopolitics" - Geopolitics page + cover In Brief item 01 (same answer, so
                      the cover teaser always matches the story)
+
+Story IMAGES change daily too: Gemini names a photo subject per lead story
+(image_query) and this script resolves it against Wikimedia Commons (free
+licence, stable hotlinks), checking the thumbnail URL actually answers with
+image bytes before writing it into data.json. A story whose image cannot be
+verified simply gets no image (the page hides the slot - never a broken icon);
+if NO image can be resolved at all, the script exits without touching
+data.json, same as any other failure.
 
 If anything goes wrong - a feed is down, the market data looks stale, Gemini
 fails or answers with an unsupported figure - the script exits with an error
@@ -121,6 +129,7 @@ Reply with ONLY a JSON object (no markdown fences, no commentary) in exactly thi
   }},
   "big_story": {{
     "sources": [1, 2],
+    "image_query": "2-4 words naming a concrete, photographable subject central to the story (a building, institution, product, place or person), e.g. Reserve Bank of India or Boeing 787 - not an abstract concept",
     "headline": "max 40 characters, short punchy magazine headline",
     "subhead": "max 90 characters, ALL CAPS standfirst expanding on the headline",
     "paragraphs": [
@@ -147,6 +156,8 @@ Reply with ONLY a JSON object (no markdown fences, no commentary) in exactly thi
 }}
 
 Rules:
+- big_story.image_query names the subject used to find a real photograph for the story - pick
+  something a photo archive is likely to have (e.g. a named bank, company HQ, currency, city).
 - The explains box must explain the central concept of THIS big story (they appear side by side).
 - Venture Vault must be a different story from the big story, about a real named startup in the headlines.
 - cover.big_story_teaser must describe THIS big story, and cover.venture_teaser must name the SAME
@@ -168,9 +179,10 @@ Reply with ONLY a JSON object (no markdown fences, no commentary) in exactly thi
 {{
   "cover": {{
     "market_watch_teaser": "one line, max 90 characters, cover teaser for the market page, consistent with the market data (up/down direction must match)",
-    "daily_brief_teaser": "one line, max 90 characters, mentions both daily brief stories",
+    "daily_brief_teaser": "one line, max 90 characters, mentions the lead daily brief stories",
     "inbrief_2": "max 35 characters, ultra-short label for story_1",
-    "inbrief_3": "max 35 characters, ultra-short label for story_2"
+    "inbrief_3": "max 35 characters, ultra-short label for story_2",
+    "inbrief_4": "max 35 characters, ultra-short label for story_3"
   }},
   "ipo_desk": [
     {{"name": "Company", "note": "max 45 chars, e.g. ₹680 cr issue closes Friday", "sources": [4]}}
@@ -178,6 +190,7 @@ Reply with ONLY a JSON object (no markdown fences, no commentary) in exactly thi
   "daily_brief": {{
     "story_1": {{
       "sources": [5],
+      "image_query": "2-4 words naming a concrete, photographable subject central to story_1 (a building, institution, product, place or person) - not an abstract concept",
       "kicker": "India | Monetary Policy style label, max 35 chars",
       "headline": "max 60 chars, magazine headline",
       "paragraphs": ["paragraph 1, 3-4 sentences", "paragraph 2, 2-3 sentences"]
@@ -187,6 +200,21 @@ Reply with ONLY a JSON object (no markdown fences, no commentary) in exactly thi
       "kicker": "Global | Markets style label, max 35 chars",
       "headline": "max 60 chars",
       "paragraphs": ["paragraph 1", "paragraph 2"]
+    }},
+    "story_3": {{
+      "sources": [7],
+      "kicker": "section label, max 35 chars",
+      "headline": "max 60 chars",
+      "paragraphs": ["one paragraph, 2-3 sentences"]
+    }},
+    "also_today": {{
+      "items": [
+        "max 100 characters, one-line finance/business brief, different from every story above",
+        "another one, max 100 characters",
+        "another one, max 100 characters",
+        "another one, max 100 characters"
+      ],
+      "sources": [8, 9]
     }}
   }}
 }}
@@ -194,9 +222,13 @@ Reply with ONLY a JSON object (no markdown fences, no commentary) in exactly thi
 Rules:
 - "ipo_desk": 1 to 3 live or upcoming Indian IPOs named in the headlines. If none are in the
   headlines, return exactly one item: {{"name": "IPO desk", "note": "No major issues open today", "sources": []}}.
-- daily_brief: two short finance/business stories of the day, at least one India-focused
-  (RBI, policy, Indian corporate); the other can be global (AI, US markets, oil, geopolitics).
-  Avoid the big story already chosen for today: {avoid}
+- daily_brief: three short finance/business stories of the day, each a DIFFERENT real story,
+  at least two India-focused (RBI, policy, Indian corporate, tax, markets); one can be global
+  (AI, US markets, oil, geopolitics). story_3 is the shortest.
+- also_today: four more one-line briefs from OTHER headlines, none repeating a story used
+  anywhere in today's issue.
+- story_1.image_query names the subject used to find a real photograph for story_1.
+- Avoid the big story already chosen for today: {avoid}
 - Tone: a smart college finance magazine - plain English, no jargon dumps.
 - Use the actual ₹ character, not HTML entities. Plain text only - no HTML, markdown or links.
 """
@@ -218,6 +250,7 @@ Reply with ONLY a JSON object (no markdown fences, no commentary) in exactly thi
   }},
   "geopolitics": {{
     "sources": [7],
+    "image_query": "2-4 words naming a concrete, photographable subject central to the story (a leader, place, border, port, summit venue), e.g. Nathu La pass - not an abstract concept",
     "kicker": "max 30 characters, e.g. India x China or India | Trade",
     "headline": "max 60 characters, magazine headline for the story",
     "paragraphs": [
@@ -235,6 +268,7 @@ Reply with ONLY a JSON object (no markdown fences, no commentary) in exactly thi
 }}
 
 Rules:
+- geopolitics.image_query names the subject used to find a real photograph for the story.
 - cover.inbrief_1 sits on the cover and links to this page, so it MUST be about the SAME
   story as the geopolitics headline and paragraphs - name the same country, leader or deal.
 - "world_60" is a quick 4-item round-up of OTHER real global headlines from the list
@@ -551,6 +585,133 @@ def generate(api_key, prompt, label, check=None):
     return None
 
 
+# ---------------------------------------------------------------- story images
+# A daily photo per lead story. Primary source: the English Wikipedia lead image
+# for the story's subject (stable hotlinks on Wikimedia's CDN, free licences).
+# Fallback: a Wikimedia Commons search. Every URL is HEAD-checked before it is
+# written - a story without a verified image simply gets none, and the page
+# hides the slot. If NO image verifies at all, the run fails like any other
+# failure and data.json keeps yesterday.
+
+WIKI_UA = {"User-Agent": "FINTRIX-daily/1.0 (https://fintrix-finance.github.io/; mahleenkw@gmail.com)"}
+WIKI_REST = "https://en.wikipedia.org/api/rest_v1/page/summary/"
+COMMONS_API = "https://commons.wikimedia.org/w/api.php"
+WIKI_IMG_HOSTS = ("https://upload.wikimedia.org/", "https://thumb.wikimedia.org/")
+BITMAP = re.compile(r"\.(jpe?g|png|webp)$", re.I)
+TOPIC_IMG_QUERY = {
+    "india_business": "Reserve Bank of India",
+    "india_corporate": "Mumbai",
+    "startups": "Bengaluru",
+    "ipo": "Bombay Stock Exchange",
+    "geopolitics": "New Delhi",
+    "global": "New York Stock Exchange",
+}
+
+
+def _wiki_summary_image(title):
+    """Lead image candidates from the English Wikipedia article for a subject."""
+    url = WIKI_REST + urllib.parse.quote(title.strip().replace(" ", "_"))
+    try:
+        req = urllib.request.Request(url, headers=WIKI_UA)
+        with urllib.request.urlopen(req, timeout=20) as r:
+            body = json.loads(r.read().decode("utf-8"))
+    except Exception as e:  # noqa: BLE001 - images are decorative
+        print("  wikipedia lookup failed for %r: %s" % (title, e))
+        return []
+    if body.get("type") != "standard":
+        return []
+    page_title = body.get("title") or title
+    out = []
+    oi = body.get("originalimage") or {}
+    osrc = (oi.get("source") or "").split("?")[0]
+    if osrc.startswith(WIKI_IMG_HOSTS) and BITMAP.search(osrc) and (oi.get("width") or 0) >= 500:
+        out.append({"url": osrc, "alt": page_title,
+                    "landscape": (oi.get("width") or 0) > (oi.get("height") or 0)})
+    th = body.get("thumbnail") or {}
+    tsrc = (th.get("source") or "").split("?")[0]
+    if tsrc.startswith(WIKI_IMG_HOSTS) and (th.get("width") or 0) >= 300:
+        out.append({"url": tsrc, "alt": page_title,
+                    "landscape": (th.get("width") or 0) > (th.get("height") or 0)})
+    return out
+
+
+def _commons_search(query):
+    """Candidate thumbnail URLs from a Wikimedia Commons search."""
+    params = {
+        "action": "query", "format": "json",
+        "generator": "search", "gsrsearch": query + " filetype:bitmap",
+        "gsrnamespace": "6", "gsrlimit": "10",
+        "prop": "imageinfo", "iiprop": "url|size", "iiurlwidth": "800",
+    }
+    url = COMMONS_API + "?" + urllib.parse.urlencode(params)
+    req = urllib.request.Request(url, headers=WIKI_UA)
+    with urllib.request.urlopen(req, timeout=25) as r:
+        body = json.loads(r.read().decode("utf-8"))
+    pages = ((body.get("query") or {}).get("pages") or {})
+    out = []
+    for p in sorted(pages.values(), key=lambda x: x.get("index", 99)):
+        info = (p.get("imageinfo") or [{}])[0]
+        thumb, w, h = info.get("thumburl"), info.get("width") or 0, info.get("height") or 0
+        if not thumb or w < 600 or not thumb.startswith(WIKI_IMG_HOSTS):
+            continue
+        title = (p.get("title") or "").replace("File:", "").rsplit(".", 1)[0].replace("_", " ")
+        out.append({"url": thumb, "alt": title.strip()[:150], "landscape": w > h})
+    return out
+
+
+def _url_is_image(url):
+    try:
+        req = urllib.request.Request(url, headers=WIKI_UA, method="HEAD")
+        with urllib.request.urlopen(req, timeout=15) as r:
+            ctype = (r.headers.get("Content-Type") or "").lower()
+            size = int(r.headers.get("Content-Length") or 0)
+            return r.status == 200 and ctype.startswith("image/") and size < 4 * 1024 * 1024
+    except Exception:
+        return False
+
+
+def story_image(image_query, fallback_query, used):
+    """Best-effort daily photo for one story. Returns {"url","alt"} or None.
+    Decorative only - a failure here must never kill the run."""
+    queries = []
+    if isinstance(image_query, str) and image_query.strip():
+        q = image_query.strip()
+        queries.append(q)
+        words = q.split()
+        if len(words) > 2:
+            queries.append(" ".join(words[:2]))
+    if fallback_query:
+        queries.append(fallback_query)
+    def take(cands):
+        for c in cands:
+            if c["url"] in used:
+                continue
+            if _url_is_image(c["url"]):
+                used.add(c["url"])
+                return {"url": c["url"], "alt": c["alt"][:150]}
+        return None
+
+    # pass 1: Wikipedia lead images - most relevant to the subject
+    for q in queries:
+        hit = take(_wiki_summary_image(q))
+        if hit:
+            return hit
+        time.sleep(0.5)  # be polite to the wikis
+    # pass 2: Commons search - more choice, looser relevance
+    for q in queries:
+        try:
+            cands = _commons_search(q)
+        except Exception as e:  # noqa: BLE001 - Commons is only a fallback
+            print("  commons search failed for %r: %s" % (q, e))
+            continue
+        cands.sort(key=lambda c: not c["landscape"])  # landscape first
+        hit = take(cands)
+        if hit:
+            return hit
+        time.sleep(1)
+    return None
+
+
 # ---------------------------------------------------------------- fact checks
 
 YEAR = re.compile(r"^(19|20)\d\d$")
@@ -642,6 +803,43 @@ def check_geopolitics_pkg(pkg):
                      + [str(p) for p in (g.get("paragraphs") or [])])
     if not keywords(teaser) & keywords(story):
         return "cover.inbrief_1 (%r) does not match the geopolitics story" % teaser
+    if not is_str(g.get("image_query"), 3, 60):
+        return "geopolitics.image_query missing or bad"
+    return None
+
+
+def check_features_pkg(pkg):
+    if not isinstance(pkg, dict):
+        return "not a JSON object"
+    bs = pkg.get("big_story")
+    if not isinstance(bs, dict) or not is_str(bs.get("image_query"), 3, 60):
+        return "big_story.image_query missing or bad"
+    return None
+
+
+def check_markets_pkg(pkg):
+    """cover.inbrief_4 must match story_3, and the new sections must be present."""
+    if not isinstance(pkg, dict):
+        return "not a JSON object"
+    db = pkg.get("daily_brief")
+    if not isinstance(db, dict):
+        return "missing daily_brief"
+    s1, s3 = db.get("story_1"), db.get("story_3")
+    if not isinstance(s1, dict) or not is_str(s1.get("image_query"), 3, 60):
+        return "daily_brief.story_1.image_query missing or bad"
+    if not isinstance(s3, dict) or not is_str(s3.get("headline"), 5, 80):
+        return "daily_brief.story_3 missing or bad"
+    at = db.get("also_today")
+    if not isinstance(at, dict) or not isinstance(at.get("items"), list) \
+            or not (3 <= len(at["items"]) <= 4) or not all(is_str(x, 10, 110) for x in at["items"]):
+        return "daily_brief.also_today must have 3-4 one-liners of 10-110 chars"
+    teaser = (pkg.get("cover") or {}).get("inbrief_4")
+    if not isinstance(teaser, str):
+        return "missing cover.inbrief_4"
+    story = " ".join([str(s3.get("kicker", "")), str(s3.get("headline", ""))]
+                     + [str(p) for p in (s3.get("paragraphs") or [])])
+    if not keywords(teaser) & keywords(story):
+        return "cover.inbrief_4 (%r) does not match daily brief story_3" % teaser
     return None
 
 
@@ -699,7 +897,7 @@ def validate(d):
         fail("missing 'cover'")
     for key, hi in (("big_story_teaser", 100), ("venture_teaser", 100),
                     ("market_watch_teaser", 100), ("daily_brief_teaser", 100),
-                    ("inbrief_1", 40), ("inbrief_2", 40), ("inbrief_3", 40)):
+                    ("inbrief_1", 40), ("inbrief_2", 40), ("inbrief_3", 40), ("inbrief_4", 40)):
         if not is_str(cover.get(key), 3, hi):
             fail("cover.%s missing or too long (max %d chars)" % (key, hi))
     bs = d.get("big_story")
@@ -750,6 +948,20 @@ def validate(d):
         fail("missing 'daily_brief'")
     check_story(db.get("story_1"), "daily_brief.story_1")
     check_story(db.get("story_2"), "daily_brief.story_2")
+    check_story(db.get("story_3"), "daily_brief.story_3")
+    at = db.get("also_today")
+    if not isinstance(at, dict) or not isinstance(at.get("items"), list) \
+            or not (3 <= len(at["items"]) <= 4) or not all(is_str(x, 10, 110) for x in at["items"]):
+        fail("daily_brief.also_today must have 3-4 one-liners of 10-110 chars")
+    for sec_name, sec in (("big_story", bs), ("daily_brief.story_1", db.get("story_1")),
+                          ("geopolitics", d.get("geopolitics") or {})):
+        img = sec.get("image")
+        if img is None:
+            continue
+        if not isinstance(img, dict) or not is_str(img.get("url"), 20, 500) \
+                or not img["url"].startswith(WIKI_IMG_HOSTS) \
+                or not is_str(img.get("alt"), 1, 160):
+            fail("%s.image is malformed" % sec_name)
     geo = d.get("geopolitics")
     if not isinstance(geo, dict):
         fail("missing 'geopolitics'")
@@ -786,7 +998,8 @@ def main():
     fact_check = make_fact_check(all_headline_text + "\n" + market_summary, len(items))
 
     features = generate(api_key, FEATURES_PROMPT.format(today=today_str, headline_block=block),
-                        "features (big story, explains, venture vault)", check=fact_check)
+                        "features (big story, explains, venture vault)",
+                        check=both(fact_check, check_features_pkg))
     if features is None:
         fail("could not generate the features package - leaving data.json untouched.")
 
@@ -795,13 +1008,15 @@ def main():
     markets = generate(api_key, MARKETS_PROMPT.format(today=today_str, headline_block=block,
                                                       market_summary=market_summary,
                                                       avoid=avoid_bs or "none"),
-                       "markets (daily brief, ipo desk, cover lines)", check=fact_check)
+                       "markets (daily brief, ipo desk, cover lines)",
+                       check=both(fact_check, check_markets_pkg))
     if markets is None:
         fail("could not generate the markets package - leaving data.json untouched.")
 
     taken = [t for t in [avoid_bs] if t]
     for s in ((markets.get("daily_brief") or {}).get("story_1"),
-              (markets.get("daily_brief") or {}).get("story_2")):
+              (markets.get("daily_brief") or {}).get("story_2"),
+              (markets.get("daily_brief") or {}).get("story_3")):
         if isinstance(s, dict) and isinstance(s.get("headline"), str):
             taken.append(s["headline"])
     avoid = ""
@@ -830,6 +1045,32 @@ def main():
         if isinstance(c, dict):
             data["cover"].update(c)
 
+    # daily story photos (decorative: per-story failures just mean no photo;
+    # but if NONE resolve at all, treat it as a broad failure and keep yesterday)
+    used_img_urls = set()
+
+    def topic_fallback(section):
+        for hid in (section.get("sources") or []):
+            if isinstance(hid, int) and hid in by_id_pre:
+                return TOPIC_IMG_QUERY.get(by_id_pre[hid]["topic"])
+        return None
+
+    by_id_pre = {it["id"]: it for it in items}
+    img_count = 0
+    for section in (data["big_story"], (data["daily_brief"] or {}).get("story_1"),
+                    data["geopolitics"]):
+        if not isinstance(section, dict):
+            continue
+        q = section.get("image_query")
+        img = story_image(q, topic_fallback(section), used_img_urls)
+        if img:
+            section["image"] = img
+            img_count += 1
+        else:
+            print("  no verified image for a story - that slot stays hidden")
+    if img_count == 0:
+        fail("could not resolve any story images - leaving data.json untouched.")
+
     validate(data)
 
     # record which real headlines each story was written from (not shown on the page)
@@ -839,11 +1080,16 @@ def main():
         return [{"title": by_id[i]["title"], "source": by_id[i]["source"]}
                 for i in (ids or []) if isinstance(i, int) and i in by_id]
     g = data["geopolitics"]
+    data["big_story"].pop("image_query", None)
+    data["daily_brief"]["story_1"].pop("image_query", None)
+    g.pop("image_query", None)
     sources = {
         "big_story": cite(data["big_story"].pop("sources", [])),
         "venture_vault": cite(data["venture_vault"].pop("sources", [])),
         "daily_brief_1": cite(data["daily_brief"]["story_1"].pop("sources", [])),
         "daily_brief_2": cite(data["daily_brief"]["story_2"].pop("sources", [])),
+        "daily_brief_3": cite(data["daily_brief"]["story_3"].pop("sources", [])),
+        "also_today": cite(data["daily_brief"]["also_today"].pop("sources", [])),
         "geopolitics": cite(g.pop("sources", [])),
         "world_60": cite(g.pop("world_60_sources", [])),
         "ipo_desk": [x for i in (markets.get("ipo_desk") or []) if isinstance(i, dict)
