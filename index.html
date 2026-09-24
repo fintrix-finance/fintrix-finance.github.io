@@ -243,6 +243,13 @@ h1,h2,h3,.display{ font-family:'Oswald',sans-serif; font-weight:700; letter-spac
 .author-card .role{ font-size:10px; color:rgba(51,32,16,0.6); font-style:italic; font-family:'PT Serif',serif; }
 
 
+/* ---------- Subscribe ---------- */
+.subscribe-box{ background:var(--brown); border:1px solid var(--brown); box-shadow:6px 6px 0 var(--orange); padding:20px 22px; margin:8px auto 14px; max-width:420px; text-align:center; flex-shrink:0; }
+.subscribe-box h3{ color:var(--paper); font-size:clamp(18px,4.6vw,22px); letter-spacing:0.04em; margin-bottom:8px; }
+.subscribe-box p{ font-family:'PT Serif',serif; font-size:11px; line-height:1.55; color:rgba(221,210,193,0.85); margin-bottom:14px; }
+.subscribe-btn{ display:inline-block; font-family:'Inter',sans-serif; font-weight:700; font-size:11px; letter-spacing:0.14em; text-transform:uppercase; background:var(--orange); color:var(--cream); padding:10px 22px; border-radius:2px; text-decoration:none; }
+.subscribe-btn:hover{ filter:brightness(1.08); }
+
 /* ---------- Swipe hint (touch devices only) ---------- */
 .swipe-hint{ display:none; align-items:center; justify-content:center; gap:12px; margin-top:18px; flex-shrink:0;
   font-family:'Inter',sans-serif; font-weight:600; font-size:9px; letter-spacing:0.24em; color:var(--brown);
@@ -305,6 +312,9 @@ h1,h2,h3,.display{ font-family:'Oswald',sans-serif; font-weight:700; letter-spac
 </div>
 
 <script>
+// Subscribe destination - swap this one URL to move the subscribe button anywhere.
+const SUBSCRIBE_URL = "https://forms.gle/NM9pneHZUUZEkcoy5";
+
 const PAGES_HTML = [
 
 // PAGE 1 — COVER
@@ -608,6 +618,11 @@ const PAGES_HTML = [
   <div class="page-header"><span class="brand">FINTRIX</span><span class="section-name">Credits</span><span class="page-num">Page 9</span></div>
   <div class="credits-title"><h1>Meet the Authors</h1><div class="credits-rule"></div></div>
   <div class="author-grid" id="authorGrid"></div>
+  <div class="subscribe-box">
+    <h3>Never Miss an Update</h3>
+    <p>New issue every market day - commodities, funds and the stories behind the numbers. Leave your name and email and we will ping you when the next FINTRIX is out.</p>
+    <a class="subscribe-btn" id="subscribeBtn" href="${SUBSCRIBE_URL}" target="_blank" rel="noopener">Subscribe</a>
+  </div>
 </div>
 <div class="page-footer">FINNEXUS &mdash; THE COMMERCE CLUB</div>
 `
@@ -1047,4 +1062,4 @@ stage.addEventListener('touchcancel', e => endSwipe(e, true), {passive:true});
 updateControls();
 </script>
 </body>
-                            </html>
+  </html>
