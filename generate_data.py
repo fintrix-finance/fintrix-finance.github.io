@@ -92,6 +92,43 @@ SECTORS = {"^CNXIT": "IT", "^CNXAUTO": "Auto", "^CNXFMCG": "FMCG", "^CNXPHARMA":
            "^CNXREALTY": "Realty", "^CNXMETAL": "Metal", "^CNXENERGY": "Energy",
            "^NSEBANK": "Banks", "^CNXPSUBANK": "PSU Banks", "^CNXMEDIA": "Media"}
 
+# ---------------- Data Desk: commodities, alternatives, cap race, funds ----------------
+# Every number in these sections is computed from free live feeds - Yahoo
+# Finance for market prices and api.mfapi.in (an AMFI NAV mirror) for mutual
+# fund NAVs. The AI never sees or writes any of them.
+
+COMMODITIES = [
+    ("Gold", "GC=F", "$/oz", "{:,.0f}"),
+    ("Silver", "SI=F", "$/oz", "{:,.2f}"),
+    ("Brent Crude", "BZ=F", "$/bbl", "{:.2f}"),
+    ("WTI Crude", "CL=F", "$/bbl", "{:.2f}"),
+]
+
+# Indian REITs and InvITs listed on the NSE (Yahoo Finance symbols).
+ALTERNATIVES = [
+    ("Embassy REIT", "EMBASSY.NS"),
+    ("Nexus Select REIT", "NXST.NS"),
+    ("Mindspace REIT", "MINDSPACE.NS"),
+    ("Brookfield REIT", "BIRET.NS"),
+    ("PowerGrid InvIT", "PGINVIT.NS"),
+]
+
+# The market-cap race: large vs mid vs small.
+CAP_INDICES = [
+    ("Nifty 50", "Large cap", "^NSEI"),
+    ("Nifty Midcap 150", "Mid cap", "NIFTYMIDCAP150.NS"),
+    ("Nifty Smallcap 250", "Small cap", "NIFTYSMLCAP250.NS"),
+]
+
+# Mutual funds: AMFI scheme codes for direct-plan growth options, one per
+# category. NAV history comes from api.mfapi.in (free, no key needed).
+MF_SCHEMES = [
+    ("ICICI Pru Large Cap", "Large cap", 120586),
+    ("MO Midcap 150 Index", "Mid cap", 147622),
+    ("Nippon Small Cap", "Small cap", 118778),
+    ("Parag Parikh Flexi Cap", "Flexi cap", 122639),
+]
+
 NEWS_QUERIES = {
     "india_business": "India economy OR RBI OR Sensex OR Nifty when:1d",
     "india_corporate": "India company results OR acquisition OR deal crore when:1d",
@@ -471,6 +508,219 @@ def market_data():
     summary_lines.append("Top Nifty losers: " + ", ".join(mw["losers"]))
     summary_lines.append("Sectors: " + mw["snapshot_strip"])
     return mw, "\n".join(summary_lines)
+
+
+# ---------------------------------------------------------------- data desk
+
+def closes_series(symbol, rng="3mo"):
+    """Recent daily closes [(date, close)] oldest -> newest for a Yahoo symbol.
+    Same session rules as quote(): an incomplete current session is dropped.
+    Raises RuntimeError on any feed problem."""
+    r = _chart(symbol, rng)
+    meta = r.get("meta") or {}
+    gmtoff = meta.get("gmtoffset") or 0
+
+    def local_date(t):
+        return datetime.fromtimestamp(t + gmtoff, timezone.utc).date()
+
+    ts = r.get("timestamp") or []
+    closes = (((r.get("indicators") or {}).get("quote") or [{}])[0].get("close")) or []
+    bars = [[t, c] for t, c in zip(ts, closes) if c is not None]
+    rmp, rmt = meta.get("regularMarketPrice"), meta.get("regularMarketTime")
+    if isinstance(rmp, (int, float)) and isinstance(rmt, int):
+        if not bars or local_date(rmt) > local_date(bars[-1][0]):
+            bars.append([rmt, float(rmp)])
+        elif local_date(rmt) == local_date(bars[-1][0]):
+            bars[-1][1] = float(rmp)
+    reg = (meta.get("currentTradingPeriod") or {}).get("regular") or {}
+    now = int(time.time())
+    if bars and reg.get("end") and now < reg["end"] and local_date(bars[-1][0]) >= local_date(now):
+        bars = bars[:-1]
+    if len(bars) < 22:
+        raise RuntimeError("%s: not enough history (%d bars)" % (symbol, len(bars)))
+    return [(local_date(t), float(c)) for t, c in bars]
+
+
+def _pct(now, then):
+    if not then:
+        raise RuntimeError("cannot compute a return from a zero base")
+    return (now - then) / then * 100.0
+
+
+def _ret_txt(pct):
+    return "%s %.2f%%" % (arrow(pct), abs(pct))
+
+
+def sparkline_svg(values, width=120, height=30):
+    """Inline SVG sparkline for a price series (oldest -> newest), coloured by
+    the direction over the window. Built here so the page needs no chart library."""
+    vals = [v for v in values if v is not None]
+    if len(vals) < 5:
+        raise RuntimeError("sparkline needs at least 5 points")
+    lo, hi = min(vals), max(vals)
+    span = (hi - lo) or (abs(hi) or 1.0)
+    pad = 3.0
+    pts = []
+    for i, v in enumerate(vals):
+        x = i * width / (len(vals) - 1)
+        y = height - pad - (v - lo) / span * (height - 2 * pad)
+        pts.append("%.1f,%.1f" % (x, y))
+    color = "#4c7a2e" if vals[-1] >= vals[0] else "#c1541f"
+    ex, ey = pts[-1].split(",")
+    return ('<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">'
+            '<polyline points="%s" fill="none" stroke="%s" stroke-width="2" '
+            'stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/>'
+            '<circle cx="%s" cy="%s" r="2.4" fill="%s"/></svg>'
+            % (width, height, " ".join(pts), color, ex, ey, color))
+
+
+def cap_chart_svg(caps):
+    """Grouped bar chart comparing 1D / 1W / 1M returns of the large, mid and
+    small cap indices. Pure inline SVG, computed here from the same numbers
+    shown in the table."""
+    W, H = 360, 200
+    base_y = 100.0
+    max_h = 62.0
+    vals = [c[k] for c in caps for k in ("day", "week", "month")]
+    max_abs = max([abs(v) for v in vals] + [0.4])  # keep flat days readable
+    scale = max_h / max_abs
+    bar_w, gap = 22, 6
+    group_w = 3 * bar_w + 2 * gap
+    margin_x = 20
+    stride = (W - 2 * margin_x) / len(caps)
+    pcolors = [("#4a2e1a", "day"), ("#c1541f", "week"), ("#d9a05b", "month")]
+    parts = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg">' % (W, H)]
+    parts.append('<line x1="8" y1="%.1f" x2="%d" y2="%.1f" stroke="#4a2e1a" stroke-width="1.2"/>'
+                 % (base_y, W - 8, base_y))
+    for gi, c in enumerate(caps):
+        gx = margin_x + gi * stride + (stride - group_w) / 2
+        for bi, (color, key) in enumerate(pcolors):
+            v = c[key]
+            h = max(abs(v) * scale, 0.8)
+            x = gx + bi * (bar_w + gap)
+            y = base_y - h if v >= 0 else base_y
+            parts.append('<rect x="%.1f" y="%.1f" width="%d" height="%.1f" fill="%s" rx="1.5"/>'
+                         % (x, y, bar_w, h, color))
+            ly = y - 5 if v >= 0 else y + h + 12
+            parts.append('<text x="%.1f" y="%.1f" font-family="Oswald, sans-serif" font-size="10" '
+                         'fill="#4a2e1a" text-anchor="middle">%s%.1f</text>'
+                         % (x + bar_w / 2, ly, "+" if v >= 0 else "-", abs(v)))
+        parts.append('<text x="%.1f" y="%d" font-family="Oswald, sans-serif" font-size="11" '
+                     'letter-spacing="1" fill="#4a2e1a" text-anchor="middle">%s</text>'
+                     % (gx + group_w / 2, H - 12, c["tag"].upper().replace(" CAP", "")))
+    parts.append('</svg>')
+    return "".join(parts)
+
+
+def mf_navs(code):
+    """Recent NAV history [(date, nav)] newest-first for one mutual fund scheme,
+    from api.mfapi.in (free AMFI NAV mirror, no key)."""
+    body = json.loads(http_get("https://api.mfapi.in/mf/%d" % code, timeout=60, tries=3).decode("utf-8"))
+    rows = body.get("data") or []
+    out = []
+    for r in rows[:45]:
+        try:
+            d = datetime.strptime(str(r.get("date", "")), "%d-%m-%Y").date()
+            nav = float(r.get("nav"))
+        except (TypeError, ValueError):
+            continue
+        out.append((d, nav))
+    out.sort(key=lambda x: x[0], reverse=True)
+    if len(out) < 6:
+        raise RuntimeError("mfapi scheme %s: too little NAV history (%d rows)" % (code, len(out)))
+    return out
+
+
+def data_desk():
+    """All numbers for the Data Desk and Fund Watch pages: commodities,
+    REITs/InvITs, the large/mid/small-cap race and mutual fund NAVs.
+    Computed from live feeds only - any feed problem fails the run and
+    data.json keeps yesterday, same as the market data."""
+    desk = {}
+
+    def fresh(series, sym):
+        if (TODAY.date() - series[-1][0]).days > 5:
+            fail("data desk feed looks stale (%s last close %s)" % (sym, series[-1][0]))
+
+    commodities = []
+    for name, sym, unit, fmt in COMMODITIES:
+        try:
+            s = closes_series(sym)
+        except RuntimeError as e:
+            fail("data desk feed: %s" % e)
+        fresh(s, sym)
+        last = s[-1][1]
+        day_pct = _pct(last, s[-2][1])
+        week_pct = _pct(last, s[-6][1])
+        commodities.append({"name": name, "unit": unit, "price": fmt.format(last),
+                            "day": _ret_txt(day_pct), "week": _ret_txt(week_pct),
+                            "dir": dir_of(day_pct), "dir_week": dir_of(week_pct),
+                            "spark": sparkline_svg([c for _, c in s[-30:]])})
+    desk["commodities"] = commodities
+
+    alts = []
+    for name, sym in ALTERNATIVES:
+        try:
+            s = closes_series(sym)
+        except RuntimeError as e:
+            fail("data desk feed: %s" % e)
+        fresh(s, sym)
+        last = s[-1][1]
+        day_pct = _pct(last, s[-2][1])
+        week_pct = _pct(last, s[-6][1])
+        alts.append({"name": name, "price": "\u20b9{:,.2f}".format(last),
+                     "day": _ret_txt(day_pct), "week": _ret_txt(week_pct),
+                     "dir": dir_of(day_pct), "dir_week": dir_of(week_pct)})
+    desk["alternatives"] = alts
+
+    caps = []
+    nifty_date = None
+    for name, tag, sym in CAP_INDICES:
+        try:
+            s = closes_series(sym)
+        except RuntimeError as e:
+            fail("data desk feed: %s" % e)
+        fresh(s, sym)
+        if sym == "^NSEI":
+            nifty_date = s[-1][0]
+        closes = [c for _, c in s]
+        last = closes[-1]
+        day_pct = _pct(last, closes[-2])
+        week_pct = _pct(last, closes[-6])
+        month_pct = _pct(last, closes[-22])
+        caps.append({"name": name, "tag": tag, "level": "{:,.2f}".format(last),
+                     "day": round(day_pct, 2), "week": round(week_pct, 2),
+                     "month": round(month_pct, 2),
+                     "day_txt": _ret_txt(day_pct), "week_txt": _ret_txt(week_pct),
+                     "month_txt": _ret_txt(month_pct),
+                     "dir": dir_of(day_pct), "dir_week": dir_of(week_pct),
+                     "dir_month": dir_of(month_pct)})
+    desk["caps"] = caps
+    desk["caps_chart"] = cap_chart_svg(caps)
+
+    funds = []
+    nav_dates = []
+    for name, cat, code in MF_SCHEMES:
+        time.sleep(1.5)  # be polite to the free NAV mirror
+        try:
+            navs = mf_navs(code)
+        except RuntimeError as e:
+            fail("mutual fund feed: %s" % e)
+        nav_dates.append(navs[0][0])
+        day_pct = _pct(navs[0][1], navs[1][1])
+        week_pct = _pct(navs[0][1], navs[5][1])
+        funds.append({"name": name, "cat": cat, "nav": "\u20b9{:,.2f}".format(navs[0][1]),
+                      "day": _ret_txt(day_pct), "week": _ret_txt(week_pct),
+                      "dir": dir_of(day_pct), "dir_week": dir_of(week_pct)})
+    latest_nav = min(nav_dates)
+    if (TODAY.date() - latest_nav).days > 10:
+        fail("mutual fund NAVs look stale (latest %s)" % latest_nav.isoformat())
+    desk["funds"] = funds
+    desk["date_label"] = nifty_date.strftime("%b %Y").upper() if nifty_date else TODAY.strftime("%b %Y").upper()
+    cd = nifty_date or TODAY.date()
+    desk["close_label"] = "CLOSE OF %s %d" % (cd.strftime("%b").upper(), cd.day)
+    desk["nav_label"] = "NAVS AS OF %s %d" % (latest_nav.strftime("%b").upper(), latest_nav.day)
+    return desk
 
 
 # ---------------------------------------------------------------- news headlines
@@ -973,6 +1223,60 @@ def validate(d):
     w60 = geo.get("world_60")
     if not isinstance(w60, list) or not (3 <= len(w60) <= 4) or not all(is_str(x, 10, 110) for x in w60):
         fail("geopolitics.world_60 must be 3-4 one-liners of 10-110 chars")
+    dd = d.get("data_desk")
+    if not isinstance(dd, dict):
+        fail("missing 'data_desk'")
+    if not is_str(dd.get("date_label"), 3, 20):
+        fail("data_desk.date_label bad")
+    if not is_str(dd.get("close_label"), 3, 30):
+        fail("data_desk.close_label bad")
+    if not is_str(dd.get("nav_label"), 3, 30):
+        fail("data_desk.nav_label bad")
+    for key, need in (("commodities", 4), ("alternatives", 5), ("funds", 4)):
+        rows = dd.get(key)
+        if not isinstance(rows, list) or len(rows) != need:
+            fail("data_desk.%s must have exactly %d rows" % (key, need))
+        for i, row in enumerate(rows):
+            if not isinstance(row, dict):
+                fail("data_desk.%s[%d]: not an object" % (key, i))
+            for f in ("name", "day", "week"):
+                if not is_str(row.get(f), 1, 60):
+                    fail("data_desk.%s[%d].%s bad" % (key, i, f))
+            if row.get("dir", "") not in ("up", "down"):
+                fail("data_desk.%s[%d].dir must be up/down" % (key, i))
+    rows = dd.get("caps")
+    if not isinstance(rows, list) or len(rows) != 3:
+        fail("data_desk.caps must have exactly 3 rows")
+    for i, row in enumerate(rows):
+        if not isinstance(row, dict):
+            fail("data_desk.caps[%d]: not an object" % i)
+        for f in ("name", "day_txt", "week_txt"):
+            if not is_str(row.get(f), 1, 60):
+                fail("data_desk.caps[%d].%s bad" % (i, f))
+    for i, row in enumerate(dd["commodities"]):
+        for f in ("unit", "price"):
+            if not is_str(row.get(f), 1, 20):
+                fail("data_desk.commodities[%d].%s bad" % (i, f))
+        sp = row.get("spark")
+        if not is_str(sp, 40, 4000) or not sp.startswith("<svg") or not sp.rstrip().endswith("</svg>"):
+            fail("data_desk.commodities[%d].spark bad" % i)
+    for i, row in enumerate(dd["alternatives"]):
+        if not is_str(row.get("price"), 1, 20):
+            fail("data_desk.alternatives[%d].price bad" % i)
+    for i, row in enumerate(dd["caps"]):
+        for f in ("tag", "level", "month_txt"):
+            if not is_str(row.get(f), 1, 30):
+                fail("data_desk.caps[%d].%s bad" % (i, f))
+        for f in ("day", "week", "month"):
+            if not isinstance(row.get(f), (int, float)):
+                fail("data_desk.caps[%d].%s must be a number" % (i, f))
+    for i, row in enumerate(dd["funds"]):
+        for f in ("cat", "nav"):
+            if not is_str(row.get(f), 1, 30):
+                fail("data_desk.funds[%d].%s bad" % (i, f))
+    chart = dd.get("caps_chart")
+    if not is_str(chart, 100, 6000) or not chart.startswith("<svg") or not chart.rstrip().endswith("</svg>"):
+        fail("data_desk.caps_chart bad")
     problem = check_geopolitics_pkg({"cover": cover, "geopolitics": geo})
     if problem:
         fail(problem)
@@ -989,6 +1293,12 @@ def main():
     print("Fetching market data...")
     mw, market_summary = market_data()
     print(market_summary)
+
+    print("Fetching data desk numbers (commodities, REITs/InvITs, caps, funds)...")
+    desk = data_desk()
+    print("  data desk: %d commodities, %d alternatives, %d cap indices, %d funds (%s)"
+          % (len(desk["commodities"]), len(desk["alternatives"]), len(desk["caps"]),
+             len(desk["funds"]), desk["nav_label"]))
 
     print("Fetching news headlines...")
     items = headlines()
@@ -1037,6 +1347,7 @@ def main():
         "explains": features.get("explains"),
         "venture_vault": features.get("venture_vault"),
         "market_watch": mw,
+        "data_desk": desk,
         "daily_brief": markets.get("daily_brief"),
         "geopolitics": geo.get("geopolitics"),
     }
@@ -1095,6 +1406,7 @@ def main():
         "ipo_desk": [x for i in (markets.get("ipo_desk") or []) if isinstance(i, dict)
                      for x in cite(i.get("sources"))],
         "market_data": "Yahoo Finance (computed, session %s)" % mw["close_label"].replace("CLOSE OF ", ""),
+        "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in",
     }
     print("Sources used:")
     print(json.dumps(sources, ensure_ascii=False, indent=1))
