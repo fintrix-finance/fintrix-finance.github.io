@@ -31,7 +31,7 @@ IST = timezone(timedelta(hours=5, minutes=30))
 TODAY = datetime.now(IST)
 DATA_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data.json")
 
-DEFAULT_MODELS = "gemini-2.5-flash,gemini-2.0-flash,gemini-2.5-flash-lite"
+DEFAULT_MODELS = "gemini-3.6-flash,gemini-3.5-flash-lite"
 MODELS = [m.strip() for m in os.environ.get("GEMINI_MODELS", DEFAULT_MODELS).split(",") if m.strip()]
 
 PROMPT = """You are the markets editor of FINTRIX, a college finance club magazine in India.
