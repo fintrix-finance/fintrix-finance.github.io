@@ -65,7 +65,7 @@ h1,h2,h3,.display{ font-family:'Oswald',sans-serif; font-weight:700; letter-spac
 
 /* ---------- Page frame ---------- */
 .page{ position:absolute; inset:0; display:flex; flex-direction:column; background:var(--paper); }
-.page-inner{ flex:1; min-height:0; display:flex; flex-direction:column; justify-content:center; padding: 28px 26px 0; overflow-y:auto; }
+.page-inner{ flex:1; min-height:0; display:flex; flex-direction:column; justify-content:center; justify-content:safe center; padding: 28px 26px 0; overflow-y:auto; }
 .page-header{
   display:flex; justify-content:space-between; align-items:baseline; gap:8px;
   padding-bottom: 12px; border-bottom: 2px solid var(--brown); margin-bottom: 20px; flex-shrink:0;
@@ -695,4 +695,4 @@ stage.addEventListener('touchend', e => {
 updateControls();
 </script>
 </body>
-</html>
+            </html>
