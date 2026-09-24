@@ -218,14 +218,14 @@ const PAGES_HTML = [
     <div class="cover-left">
       <div class="box">
         <span class="box-label">The Big Story</span>
-        <div class="box-fill">The Business of Experience — why memories, emotion and immersion are becoming products</div>
+        <div class="box-fill" id="dyn-cover-bs">The Business of Experience — why memories, emotion and immersion are becoming products</div>
         <div class="box-cta" onclick="jumpToPage(1)">&rarr; Full story on page 2</div>
       </div>
       <div class="row-split">
         <div class="box"><span class="box-label orange">Market Watch</span><div class="box-fill" id="dyn-cover-mw">Sensex and Nifty hold flat as global indices wobble on oil</div><div class="box-cta" onclick="jumpToPage(2)">&rarr; Page 3</div></div>
         <div class="box"><span class="box-label">Daily Brief</span><div class="box-fill" id="dyn-cover-db">RBI's dollar drive, and the AI rally's stress test</div><div class="box-cta" onclick="jumpToPage(3)">&rarr; Page 4</div></div>
       </div>
-      <div class="box"><span class="box-label orange">Venture Vault</span><div class="box-fill">Wispr Flow triples its valuation in under ten months</div><div class="box-cta" onclick="jumpToPage(5)">&rarr; Page 6</div></div>
+      <div class="box"><span class="box-label orange">Venture Vault</span><div class="box-fill" id="dyn-cover-vv">Wispr Flow triples its valuation in under ten months</div><div class="box-cta" onclick="jumpToPage(5)">&rarr; Page 6</div></div>
       <div class="story-cta-row">
         <div class="txt"><strong>Have a story to tell?</strong><span>We're always looking for curious minds and fresh perspectives.</span></div>
         <a class="qr-tag" href="mailto:Mahleenkw@gmail.com?subject=Story%20Pitch%20for%20FINTRIX" target="_blank" rel="noopener">
@@ -254,14 +254,14 @@ const PAGES_HTML = [
 `
 <div class="page-inner">
   <div class="page-header"><span class="brand">FINTRIX</span><span class="section-name">Big Story</span><span class="page-num">Page 2</span></div>
-  <h1 class="headline">The Business of<br>Experience</h1>
-  <div class="subhead">WHY MEMORIES, EMOTION AND IMMERSION ARE BECOMING PRODUCTS</div>
-  <div class="body-copy">
+  <h1 class="headline" id="dyn-bs-head">The Business of Experience</h1>
+  <div class="subhead" id="dyn-bs-sub">WHY MEMORIES, EMOTION AND IMMERSION ARE BECOMING PRODUCTS</div>
+  <div class="body-copy" id="dyn-bs-body">
     <p>Concerts sell out in minutes. Immersive art shows sell timed-entry slots months out. A weekend trek through Himachal now competes for wallet share with a new phone. Across categories, spending is drifting away from things you can own and toward moments you can only live through.</p>
     <p>Economists have a name for this: the experience economy, and in India it is no longer a niche. Live events, travel, dining-as-theatre and wellness retreats have outgrown most consumer-goods categories through 2025 and into 2026, pulled along by a young, urban, disposable-income-rich cohort that treats a good story as worth more than a good product.</p>
     <p>For businesses, that means the product is no longer the point — the memory is. Brands are being rebuilt around staging, sequencing and social currency: how a purchase photographs, how it gets retold, how it makes the buyer feel seen. The companies getting this right aren't always the ones with the best product on paper. They're the ones that understood, early, they were never really selling a product at all.</p>
   </div>
-  <div class="pullbox"><h3>The Big Idea</h3><p>When a purchase is remembered more than it's used, the memory is the product — and pricing power follows whoever can manufacture that memory most reliably.</p></div>
+  <div class="pullbox"><h3>The Big Idea</h3><p id="dyn-bs-pull">When a purchase is remembered more than it's used, the memory is the product — and pricing power follows whoever can manufacture that memory most reliably.</p></div>
 </div>
 <div class="page-footer">FINNEXUS &mdash; THE COMMERCE CLUB</div>
 `,
@@ -385,8 +385,8 @@ const PAGES_HTML = [
   <div class="split-page">
     <div class="block">
       <span class="kicker" style="color:var(--orange);">Finnexus Explains</span>
-      <h2 style="font-size:clamp(19px,4vw,25px); margin:10px 0 14px;">What is Experience Economy?</h2>
-      <div class="body-copy" style="font-size:11px;">
+      <h2 style="font-size:clamp(19px,4vw,25px); margin:10px 0 14px;" id="dyn-ex-title">What is Experience Economy?</h2>
+      <div class="body-copy" style="font-size:11px;" id="dyn-ex-body">
         <p>The term was coined by B. Joseph Pine II and James Gilmore in a 1998 Harvard Business Review piece, which argued economies move through stages — commodities, goods, services, and finally experiences — each commanding a higher price than the one before. A cup of coffee sold as a commodity is worth a few rupees; brewed and served in a themed caf&eacute; built for Instagram, it's a multiple of that.</p>
         <p>In practice, it means businesses increasingly compete on staging rather than specification — the same trend behind gyms selling community instead of equipment access, and airlines investing in "moments" over amenities.</p>
       </div>
@@ -394,7 +394,7 @@ const PAGES_HTML = [
     <div class="block right">
       <span class="kicker" style="color:var(--orange);">Venture Vault</span>
       <h2 style="font-size:clamp(19px,4vw,25px); margin:10px 0 14px;">The Startup Story</h2>
-      <div class="body-copy" style="font-size:11px; text-align:right;">
+      <div class="body-copy" style="font-size:11px; text-align:right;" id="dyn-vv-body">
         <p>San Francisco-based Wispr just closed a $280 million Series B at a $2 billion valuation, tripling its worth in under ten months. It makes Wispr Flow, a dictation tool that turns speech into clean, formatted text inside whatever app a user is working in — now used across more than 125,000 businesses and most of the Fortune 500, largely through employees adopting it on their own.</p>
         <p>The round, led by Menlo Ventures, arrives alongside Canto, Wispr's first in-house speech model, built to cut error rates in noisy conditions from over 30% to under 10%. Founders Tanay Kothari and Sahaj Garg are betting the real prize isn't dictation — it's owning voice as the interface layer beneath every other piece of software.</p>
       </div>
@@ -496,7 +496,7 @@ function renderStage(preserveFirstPageIndex){
 }
 
 
-// ---------- Daily content (Market Watch & Daily Brief) ----------
+// ---------- Daily content (cover, Big Story, Explains, Venture Vault, Market Watch, Daily Brief) ----------
 // These sections are refreshed daily from data.json by an automated updater
 // (see generate_data.py and .github/workflows/daily-update.yml).
 // If data.json is missing, unreachable, or a field is absent, the page
@@ -520,12 +520,25 @@ function dynList(prefix, arr){
   arr.slice(0, 3).forEach((v, i) => dynText(prefix + i, v));
 }
 
+function dynParas(id, arr){
+  const body = document.getElementById(id);
+  if(!body || !Array.isArray(arr) || !arr.length) return;
+  body.innerHTML = '';
+  arr.forEach(p => {
+    const el = document.createElement('p');
+    el.textContent = String(p);
+    body.appendChild(el);
+  });
+}
+
 function applyDynamic(d){
   if(!d || typeof d !== 'object') return;
 
   const c = d.cover || {};
+  dynText('dyn-cover-bs', c.big_story_teaser);
   dynText('dyn-cover-mw', c.market_watch_teaser);
   dynText('dyn-cover-db', c.daily_brief_teaser);
+  dynText('dyn-cover-vv', c.venture_teaser);
   dynText('dyn-cover-ib2', c.inbrief_2);
   dynText('dyn-cover-ib3', c.inbrief_3);
 
@@ -561,16 +574,21 @@ function applyDynamic(d){
     if(!s || typeof s !== 'object') return;
     dynText(pfx + 'kicker', s.kicker);
     dynText(pfx + 'head', s.headline);
-    const body = document.getElementById(pfx + 'body');
-    if(body && Array.isArray(s.paragraphs) && s.paragraphs.length){
-      body.innerHTML = '';
-      s.paragraphs.forEach(p => {
-        const el = document.createElement('p');
-        el.textContent = String(p);
-        body.appendChild(el);
-      });
-    }
+    dynParas(pfx + 'body', s.paragraphs);
   });
+
+  const bs = d.big_story || {};
+  dynText('dyn-bs-head', bs.headline);
+  dynText('dyn-bs-sub', bs.subhead);
+  dynParas('dyn-bs-body', bs.paragraphs);
+  dynText('dyn-bs-pull', bs.pullbox);
+
+  const ex = d.explains || {};
+  dynText('dyn-ex-title', ex.title);
+  dynParas('dyn-ex-body', ex.paragraphs);
+
+  const vv = d.venture_vault || {};
+  dynParas('dyn-vv-body', vv.paragraphs);
 }
 
 fetch('data.json', {cache: 'no-store'})
