@@ -1,34 +1,35 @@
 {
   "updated_ist": "2026-09-24",
   "cover": {
-    "big_story_teaser": "RBI cuts CRR to inject ₹1.5 lakh crore into Indian banking.",
-    "venture_teaser": "Zepto secures fresh funding ahead of its mega IPO plans.",
-    "market_watch_teaser": "Nifty holds ground amid global shifts while rate cut hopes buoy Dalal Street.",
-    "daily_brief_teaser": "RBI signals steady stance on rates while tech stocks face renewed selling pressure.",
-    "inbrief_2": "RBI Stance",
-    "inbrief_3": "Tech Selloff"
+    "big_story_teaser": "RBI cuts CRR to inject liquidity and revive credit growth.",
+    "venture_teaser": "Droom secures fresh capital to scale its auto tech platform.",
+    "market_watch_teaser": "Sensex slips as profit booking hits benchmarks; Asian markets react to US cues.",
+    "daily_brief_teaser": "RBI signals steady stance on rates as global growth concerns weigh on sentiment.",
+    "inbrief_2": "RBI Rate Stance",
+    "inbrief_3": "Global Tech Rally",
+    "inbrief_1": "India-US Trade Tariff Talks"
   },
   "big_story": {
-    "headline": "The Great Liquidity Boost",
-    "subhead": "RBI SLASHES CRR BY 50 BASIS POINTS TO EASE CREDIT TIGHTNESS IN BANKING.",
+    "headline": "Unlocking the Vault",
+    "subhead": "RBI'S BOLD CRR CUT PUMPS BILLIONS BACK INTO THE BANKING SYSTEM",
     "paragraphs": [
-      "The Reserve Bank of India has announced a pivotal 50 basis point reduction in the Cash Reserve Ratio, bringing it down to 4.0 percent. This decisive move releases roughly ₹1.5 lakh crore of locked-up capital back into the domestic banking system. Governor Shaktikanta Das noted that easing liquidity pressures will help transmit past rate cuts directly to retail and corporate borrowers.",
-      "Commercial banks have been grappling with a persistent credit-deposit growth mismatch over the past year, as deposit mobilization lagged behind robust loan demand. By lowering the mandatory cash reserves that banks must park with the central bank, lenders now have cheaper funds to expand their loan books. Bond yields softened immediately following the announcement, reflecting optimism in the debt markets.",
-      "For college students studying finance, this intervention highlights how monetary policy acts as a vital shock absorber for the broader economy. Observers will closely monitor upcoming quarterly earnings to see if lower funding costs translate into cheaper auto loans and home loans. Ultimately, the success of this maneuver depends on how swiftly banks pass on these liquidity benefits to the end consumer."
+      "The Reserve Bank of India has pulled a major policy lever by reducing the Cash Reserve Ratio to ease liquidity constraints across commercial banks. This surprise move frees up billions of rupees that lenders were previously required to park idly with the central bank. As festive season demand peaks, banks now have enhanced headroom to expand their loan books and support broader economic activity.",
+      "With systemic liquidity tightening over recent months due to tax outflows and currency dynamics, overnight rates had begun creeping higher. Lowering the CRR acts as a direct antidote, instantly lowering the cost of funds for banks and signaling a supportive monetary stance. Financial institutions are expected to pass on these benefits through more competitive lending rates for retail and corporate borrowers.",
+      "For college students and young professionals eyeing the economy, this shift means credit is about to become cheaper and more accessible. Analysts will be closely tracking whether this liquidity translation sparks a tangible pickup in capital expenditure and consumer spending. Ultimately, the central bank is betting that lower reserve requirements will act as the perfect catalyst for sustained growth."
     ],
-    "pullbox": "A 50 bps cut in the Cash Reserve Ratio unlocks ₹1.5 lakh crore, proving that central bank levers remain the ultimate catalyst for credit growth."
+    "pullbox": "When the central bank lowers reserve requirements, it effectively hands banks a multi-billion-rupee permission slip to accelerate lending and drive economic momentum."
   },
   "explains": {
     "title": "What is the Cash Reserve Ratio?",
     "paragraphs": [
-      "The Cash Reserve Ratio, or CRR, is the mandatory percentage of total deposits that commercial banks must keep in cash with the central bank. Unlike Statutory Liquidity Ratio, banks earn zero interest on these locked-up funds.",
-      "When the central bank lowers the CRR, it directly reduces the idle cash burden on lenders, giving them immediate leeway to extend more loans and stimulate economic activity."
+      "The Cash Reserve Ratio, or CRR, is the minimum percentage of total deposits that commercial banks must maintain with the Reserve Bank of India in cash. Banks cannot lend this specific portion out to customers, ensuring a safety buffer for depositors during panics.",
+      "When the RBI lowers the CRR, banks instantly unlock capital that was previously locked away, increasing their lending capacity. Conversely, raising the CRR drains liquidity from the financial system to rein in inflation."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Quick-commerce giant Zepto has raised an additional $100 million in a fresh funding round as it aggressively scales its dark store network across tier-1 cities. Founded by Aadit Palicha and Kaivalya Vohra, the startup delivers groceries and essentials in under ten minutes. This capital infusion arrives just as the company gears up for a major domestic stock market debut.",
-      "Backed by marquee investors including General Catalyst and Nexus Venture Partners, Zepto is aggressively burning capital to beat rivals Blinkit and Instamart. The founders are betting that density in urban fulfillment centers will turn the unit economics profitable before hitting the public markets."
+      "Droom, the prominent Indian online automobile marketplace, has raised significant fresh funding to scale its AI-driven inspection and transaction platform. The company leverages proprietary technology to bring transparency and trust to used vehicle buying and selling across major Indian cities. This latest capital infusion will be deployed toward expanding its dealer network and upgrading its pricing analytics engine.",
+      "Backed by marquee institutional investors, the founders are doubling down on India's booming pre-owned vehicle economy, which continues to outpace new car sales. As Gen Z and millennial consumers increasingly opt for certified second-hand mobility, Droom is positioning itself to capture a massive slice of the organized auto-tech pie."
     ]
   },
   "market_watch": {
@@ -37,58 +38,58 @@
     "indian": [
       {
         "name": "Sensex",
-        "value": "84,928.30 ▲ 0.45%",
-        "dir": "up"
+        "value": "83,234.12 ▼ 0.35%",
+        "dir": "down"
       },
       {
         "name": "Nifty 50",
-        "value": "25,939.80 ▲ 0.42%",
-        "dir": "up"
+        "value": "25,414.65 ▼ 0.32%",
+        "dir": "down"
       },
       {
         "name": "Nifty Bank",
-        "value": "banking led gains, auto stocks lagged",
+        "value": "Banking drags, IT and pharma outperform",
         "dir": ""
       }
     ],
     "asian": [
       {
         "name": "Nikkei 225",
-        "value": "37,940.00 ▲ 1.20%",
+        "value": "37,940.50 ▲ 1.12%",
         "dir": "up"
       },
       {
         "name": "Hang Seng",
-        "value": "18,245.50 ▲ 0.85%",
+        "value": "18,240.20 ▲ 0.85%",
         "dir": "up"
       },
       {
         "name": "Shanghai Comp.",
-        "value": "2,745.20 ▼ 0.15%",
+        "value": "2,742.90 ▼ 0.15%",
         "dir": "down"
       }
     ],
     "european": [
       {
         "name": "FTSE 100",
-        "value": "8,280.10 ▲ 0.30%",
+        "value": "8,280.10 ▲ 0.22%",
         "dir": "up"
       },
       {
         "name": "DAX",
-        "value": "18,950.40 ▲ 0.50%",
+        "value": "18,720.40 ▲ 0.45%",
         "dir": "up"
       },
       {
         "name": "CAC 40",
-        "value": "7,520.30 ▲ 0.25%",
+        "value": "7,510.30 ▲ 0.30%",
         "dir": "up"
       }
     ],
     "global": [
       {
         "name": "Dollar Index",
-        "value": "▼ 0.22%",
+        "value": "100.85 ▼ 0.12%",
         "dir": "down"
       },
       {
@@ -103,39 +104,53 @@
       }
     ],
     "losers": [
+      "Shriram Finance",
       "Tata Motors",
-      "Infosys",
-      "Wipro"
+      "Axis Bank"
     ],
     "winners": [
-      "Bajaj Finance",
-      "Axis Bank",
-      "Reliance Industries"
+      "Tech Mahindra",
+      "Wipro",
+      "HCL Technologies"
     ],
-    "snapshot_strip": "Banking and financial services lifted the indices, while IT counters faced heavy profit booking.",
+    "snapshot_strip": "Broad market weakness led by heavyweights in banking and auto weighed down the indices.",
     "ipo_desk": [
       {
-        "name": "Mainboard IPOs",
-        "note": "Quiet window ahead of festival season launches"
+        "name": "Hyundai Motor India",
+        "note": "₹27,870 cr issue draws strong institutional interest"
       }
     ]
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "India | Monetary Policy",
-      "headline": "RBI maintains steady grip as inflation cools",
+      "kicker": "India | Macro Policy",
+      "headline": "RBI Maintains Growth-Inflation Balance as Headwinds Linger",
       "paragraphs": [
-        "The Reserve Bank of India has maintained its cautious yet steady stance on monetary policy as domestic retail inflation shows signs of sustained moderation. Governor and central bank officials continue to balance growth objectives against global macroeconomic uncertainties and volatile commodity prices.",
-        "Market participants are closely tracking liquidity conditions in the banking system ahead of the upcoming festive credit demand. Yields on benchmark government securities remained largely stable following the central bank's recent announcements."
+        "The Reserve Bank of India continues to prioritize domestic price stability while keeping a close eye on volatile global commodity trends. Recent commentary from central bank officials suggests that interest rates will likely remain steady in the near term as retail inflation hovers within the comfort band. Economists note that robust domestic credit growth and steady tax collections provide enough cushion to absorb external shocks.",
+        "However, policymakers remain cautious about rural demand recovery and potential supply chain bottlenecks caused by erratic weather patterns. Corporate earnings reports for the upcoming quarter will serve as a crucial litmus test for urban consumption trends. Market participants are closely watching government capital expenditure data to gauge the broader economic momentum heading into the festive season."
       ]
     },
     "story_2": {
-      "kicker": "Global | Markets",
-      "headline": "Wall Street weighs growth outlook and tech valuations",
+      "kicker": "Global | Technology Markets",
+      "headline": "Tech Stocks Rebound as Fed Rate Cut Expectations Solidify",
       "paragraphs": [
-        "Major global indices experienced a mixed trading session as investors reevaluated valuations in mega-cap technology companies. Strong corporate earnings reports from select financial firms helped offset broader sector fatigue and persistent concerns over economic growth.",
-        "Traders are pricing in further monetary easing from major central banks later this year, keeping bond yields under downward pressure. Meanwhile, crude oil prices hovered near multi-month lows due to softer demand forecasts from key emerging markets."
+        "Major global stock indices experienced a relief rally this week as investors priced in further monetary easing by major central banks. Technology counters led the charge on Wall Street, driven by renewed optimism around enterprise artificial intelligence spending and stabilizing Treasury yields. Semiconductor manufacturers saw notable inflows as supply constraints showed signs of easing globally.",
+        "Despite the positive sentiment, analysts caution that equity valuations remain elevated relative to historical averages. Currency markets have also responded dynamically, with the US dollar softening against major peers as interest rate differentials narrow. Investors are advised to maintain a diversified portfolio approach while navigating potential volatility ahead of upcoming macroeconomic prints."
       ]
     }
+  },
+  "geopolitics": {
+    "kicker": "India | US Trade",
+    "headline": "India and US Resume High-Stakes Bilateral Trade Talks",
+    "paragraphs": [
+      "Trade negotiators from New Delhi and Washington met this week in September 2026 to resolve lingering market access disputes and tariff barriers. India is pushing for a reinstatement of preferential trade benefits under the Generalized System of Preferences, while the US demands greater agricultural and medical device market access. With bilateral trade crossing $190 billion last year, both sides are keen to finalize a mini-trade agreement before the upcoming G20 meetings.",
+      "Key hurdles remain around digital services taxes, data localization norms, and US steel and aluminum tariffs that continue to sting Indian exporters. For Indian manufacturing and tech firms, the outcome of these talks will dictate export margins and supply chain reliability in western markets. Finance ministry officials are monitoring the negotiations closely as foreign direct investment inflows depend heavily on regulatory stability."
+    ],
+    "world_60": [
+      "Brent crude hovers near $74 a barrel as Middle East supply worries ease slightly",
+      "Gold prices surge past $2,650 an ounce amid safe-haven buying by central banks",
+      "US Treasury yields dip as investors price in aggressive Federal Reserve easing",
+      "European Central Bank signals readiness for further rate cuts amid slow growth"
+    ]
   }
 }
