@@ -234,8 +234,8 @@ h1,h2,h3,.display{ font-family:'Oswald',sans-serif; font-weight:700; letter-spac
 .geo-boxed p{ font-family:'Inter',sans-serif; font-size:10.5px; opacity:0.92; line-height:1.55; }
 
 /* ---------- Explains & Venture ---------- */
-.split-page{ display:flex; flex-direction:column; flex:1; min-height:0; gap:26px; padding-bottom:20px; }
-.split-page .block{ flex:1; min-height:0; }
+.split-page{ display:flex; flex-direction:column; flex:1 0 auto; gap:26px; padding-bottom:20px; }
+.split-page .block{ flex:1 0 auto; } /* grow to fill, never shrink below content (prevents Venture Vault overlapping Explains on short screens) */
 .split-page .block.right{ text-align:right; }
 .split-page .block.right .body-copy{ text-align:right; }
 
@@ -1071,4 +1071,4 @@ stage.addEventListener('touchcancel', e => endSwipe(e, true), {passive:true});
 updateControls();
 </script>
 </body>
-</html>
+            </html>
