@@ -1,40 +1,40 @@
 {
-  "updated_ist": "2026-09-24",
+  "updated_ist": "2026-09-25",
   "cover": {
-    "big_story_teaser": "Sensex crashes 1,250 points as markets hit a three-month low",
-    "venture_teaser": "Ultraviolette secures $85 million funding round in EV sector",
-    "market_watch_teaser": "Sensex crashes 1,250 points, Nifty slips to 23,063.10",
-    "daily_brief_teaser": "NSE lists at Rs 1,800, India tech funding rises 7%",
-    "inbrief_2": "NSE Lists on BSE",
-    "inbrief_3": "Tech Funding Rises 7%",
-    "inbrief_4": "RBI Views Rupee Appreciate",
-    "inbrief_1": "US Tariff Declared Illegal"
+    "big_story_teaser": "RBI steps in as liquidity drains and rupee wobbles",
+    "venture_teaser": "ONYA raises ₹12.5 crore in pre-Series A funding",
+    "market_watch_teaser": "Sensex slides 1.67% and Nifty drops 1.64% amid heavy selling pressure.",
+    "daily_brief_teaser": "RBI drains excess banking liquidity while space economy highlights micro-satellites.",
+    "inbrief_2": "NSE Lists at Rs 1,800",
+    "inbrief_3": "IRDAI Paper Rattles Insurers",
+    "inbrief_4": "Markets Hit 5-Month Low",
+    "inbrief_1": "India-US Trade Deal Completed"
   },
   "big_story": {
-    "headline": "Sensex Plunges 1,250 Points",
-    "subhead": "MARKETS HIT A THREE-MONTH LOW AS ALL SECTORS SLUMP AND NIFTY DROPS BELOW 23,100.",
+    "headline": "RBI Liquidity Squeeze",
+    "subhead": "CENTRAL BANK DRAINS EXCESS BANKING LIQUIDITY AS MARKETS NAVIGATE CURRENCY PRESSURES",
     "paragraphs": [
-      "Indian equity benchmarks suffered a heavy blow as the Sensex crashed over 1,200 points to hit a three-month low, dragging the Nifty below 23,100 points. Trading desks saw widespread selling pressure, leaving every single sector in the red at the close of trade. Investors watched in dismay as market capitalisation eroded rapidly in a severe Thursday correction.",
-      "The sharp downturn was driven by a confluence of macroeconomic headwinds, including surging oil prices and rising Treasury yields that have revived global inflation anxieties. As crude prices held above key thresholds and the rupee declined to a one-week low, hawkish bets on global interest rate hikes intensified. These external pressures directly impacted sentiment across domestic trading floors.",
-      "For student investors and market watchers, this steep correction serves as a stark reminder of how quickly global commodities and bond yields can dictate domestic fortunes. Observers will be tracking oil price movements and currency stability to gauge whether this rout is a temporary blip or the start of a broader trend."
+      "The Reserve Bank of India has actively drained a significant portion of excess banking liquidity, prompting traders and financial analysts to watch the monetary corridors closely. Alongside this liquidity management, the central bank likely stepped in before market open to support the rupee against external pressures. These moves come as India continues to roll out broader frameworks like the Payments Vision to strengthen the digital ecosystem.",
+      "Managing liquidity is a delicate balancing act for any central bank aiming to tame inflation without choking economic momentum. By pulling excess cash out of the banking system, the monetary authority influences short-term interest rates and credit growth. At the same time, defending the local currency requires strategic interventions in the foreign exchange market during volatile trading hours.",
+      "As markets digest these aggressive liquidity adjustments, investors and college finance students alike should monitor upcoming policy announcements and currency trends. The interplay between domestic liquidity absorption and global commodity shifts will dictate how financial institutions manage their capital reserves in the coming weeks."
     ],
-    "pullbox": "A brutal market correction erased over 1,200 points on the Sensex as global rate hike worries and surging oil prices sent all sectors into the red.",
+    "pullbox": "When the central bank pulls excess liquidity from the system, it shifts the gears of bank lending, credit availability, and currency stability across the entire economy.",
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/BSE_logo.svg/330px-BSE_logo.svg.png",
-      "alt": "Bombay Stock Exchange"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+      "alt": "Reserve Bank of India"
     }
   },
   "explains": {
-    "title": "What is a Market Crash?",
+    "title": "What is Banking Liquidity?",
     "paragraphs": [
-      "A market crash is a sudden, dramatic decline in stock prices across a significant cross-section of a stock market, resulting in a severe loss of paper wealth. It typically occurs when panic selling is triggered by negative economic data, geopolitical shocks, or sudden spikes in inflation and interest rates.",
-      "In practice, institutional and retail investors rush to liquidate their holdings to cut losses or meet margin calls, accelerating the downward spiral. When indices like the Sensex or Nifty plunge by thousands of points in a single session, it reflects widespread systemic risk and shifting macroeconomic realities."
+      "Banking liquidity refers to the total amount of cash and easily tradable assets that commercial banks hold above statutory requirements. When excess liquidity piles up in the financial system, banks have abundant cash to lend out, which can sometimes fuel inflationary pressures if left unchecked.",
+      "Central banks mop up this excess cash by issuing short-term instruments or conducting reverse repo operations. By doing so, they pull money out of circulation, influencing borrowing costs and keeping financial stability intact."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Electric vehicle startup Ultraviolette has secured a massive $85 million funding round, marking one of the notable high-stakes capital raises in India's clean mobility sector. The fresh capital injection will fuel the company's next phase of technological development and expansion in the competitive EV market.",
-      "Backed by major investors betting on the future of sustainable transportation, the startup aims to scale its high-performance electric vehicle offerings. This heavyweight deal highlights how venture capitalists continue to back high-conviction players building advanced mobility solutions in India."
+      "Lab-grown diamond jewellery startup ONYA has raised ₹12.5 crore in a pre-Series A funding round led by the Divisa Family Office. The company has reached a milestone of ₹3.5 crore in monthly recurring revenue and plans to target aggressive retail expansion.",
+      "Backed by prominent investors who see strong potential in sustainable luxury, ONYA's founders are betting on modern consumer preferences shifting toward lab-grown alternatives. This fresh capital will help the brand scale its retail footprint and capture a larger slice of India's evolving jewellery market."
     ]
   },
   "market_watch": {
@@ -75,35 +75,35 @@
     "european": [
       {
         "name": "FTSE 100",
-        "value": "10,705.30 ▼ 0.31%",
+        "value": "10,679.99 ▼ 0.24%",
         "dir": "down"
       },
       {
         "name": "DAX",
-        "value": "25,410.63 ▼ 0.64%",
+        "value": "25,266.53 ▼ 0.57%",
         "dir": "down"
       },
       {
         "name": "CAC 40",
-        "value": "8,123.41 ▼ 0.19%",
+        "value": "8,081.43 ▼ 0.52%",
         "dir": "down"
       }
     ],
     "global": [
       {
         "name": "Dollar Index",
-        "value": "101.10 ▲ 0.67%",
-        "dir": "up"
+        "value": "101.28 ▼ 0.01%",
+        "dir": "down"
       },
       {
         "name": "Brent Crude",
-        "value": "$103.08/bbl",
-        "dir": "up"
+        "value": "$105.59/bbl",
+        "dir": "down"
       },
       {
         "name": "Gold",
-        "value": "$4,318/oz",
-        "dir": "down"
+        "value": "$4,307/oz",
+        "dir": "up"
       }
     ],
     "losers": [
@@ -116,17 +116,17 @@
       "ONGC",
       "NTPC"
     ],
-    "snapshot_strip": "Banks and Metal lagged as the Nifty fell 1.64%",
+    "snapshot_strip": "The Nifty fell 1.64% in the last session",
     "date_label": "SEP 2026",
     "close_label": "CLOSE OF SEP 24",
     "ipo_desk": [
       {
-        "name": "Moneyview IPO",
-        "note": "Subscribed 44% on Day 1"
+        "name": "German Green Steel IPO",
+        "note": "GMP indicates 20% potential listing gain"
       },
       {
-        "name": "NSE IPO",
-        "note": "Lists at Rs 1,800 with 0.8% premium"
+        "name": "Moneyview IPO",
+        "note": "Key details and subscription open"
       }
     ]
   },
@@ -135,42 +135,42 @@
       {
         "name": "Gold",
         "unit": "$/oz",
-        "price": "4,318",
-        "day": "▼ 1.33%",
-        "week": "▼ 1.57%",
-        "dir": "down",
+        "price": "4,307",
+        "day": "▲ 0.20%",
+        "week": "▼ 2.67%",
+        "dir": "up",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,17.6 4.1,20.5 8.3,19.5 12.4,17.2 16.6,20.5 20.7,12.6 24.8,11.0 29.0,4.1 33.1,3.0 37.2,3.2 41.4,5.8 45.5,5.1 49.7,13.6 53.8,16.7 57.9,22.1 62.1,20.9 66.2,13.0 70.3,17.0 74.5,19.4 78.6,18.0 82.8,21.4 86.9,21.3 91.0,24.9 95.2,26.1 99.3,22.6 103.4,21.9 107.6,20.3 111.7,22.9 115.9,23.3 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,18.6 4.1,16.5 8.3,19.6 12.4,12.2 16.6,10.6 20.7,4.0 24.8,3.0 29.0,3.2 33.1,5.7 37.2,5.0 41.4,13.1 45.5,16.0 49.7,21.1 53.8,20.0 57.9,12.5 62.1,16.3 66.2,18.5 70.3,17.2 74.5,20.4 78.6,20.3 82.8,23.8 86.9,24.9 91.0,21.6 95.2,20.9 99.3,19.4 103.4,21.8 107.6,22.3 111.7,25.8 115.9,27.0 120.0,26.5\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"26.5\" r=\"2.4\" fill=\"#c1541f\"/></svg>"
       },
       {
         "name": "Silver",
         "unit": "$/oz",
-        "price": "64.38",
-        "day": "▼ 2.35%",
-        "week": "▲ 0.15%",
-        "dir": "down",
-        "dir_week": "up",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,18.1 4.1,20.7 8.3,20.3 12.4,15.9 16.6,24.3 20.7,17.4 24.8,8.5 29.0,3.0 33.1,6.6 37.2,6.2 41.4,8.7 45.5,3.1 49.7,12.5 53.8,15.5 57.9,21.7 62.1,21.3 66.2,12.6 70.3,16.2 74.5,15.2 78.6,8.9 82.8,23.0 86.9,21.9 91.0,25.9 95.2,27.0 99.3,22.9 103.4,18.4 107.6,14.2 111.7,17.0 115.9,16.6 120.0,22.6\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"22.6\" r=\"2.4\" fill=\"#c1541f\"/></svg>"
+        "price": "64.11",
+        "day": "▲ 1.03%",
+        "week": "▼ 3.68%",
+        "dir": "up",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,20.3 4.1,15.9 8.3,24.3 12.4,17.4 16.6,8.5 20.7,3.0 24.8,6.6 29.0,6.2 33.1,8.7 37.2,3.1 41.4,12.5 45.5,15.5 49.7,21.7 53.8,21.3 57.9,12.6 62.1,16.2 66.2,15.2 70.3,8.9 74.5,23.0 78.6,21.9 82.8,25.9 86.9,27.0 91.0,22.9 95.2,18.4 99.3,14.2 103.4,17.0 107.6,16.6 111.7,22.6 115.9,26.1 120.0,23.6\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"23.6\" r=\"2.4\" fill=\"#c1541f\"/></svg>"
       },
       {
         "name": "Brent Crude",
         "unit": "$/bbl",
-        "price": "103.08",
-        "day": "▲ 3.86%",
-        "week": "▼ 2.60%",
-        "dir": "up",
-        "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,24.9 4.1,27.0 8.3,25.4 12.4,22.8 16.6,22.6 20.7,22.0 24.8,19.6 29.0,18.9 33.1,21.4 37.2,25.3 41.4,26.1 45.5,24.1 49.7,24.5 53.8,23.2 57.9,18.6 62.1,17.5 66.2,17.6 70.3,16.8 74.5,15.0 78.6,11.3 82.8,4.2 86.9,7.6 91.0,6.4 95.2,3.0 99.3,6.2 103.4,7.4 107.6,8.4 111.7,12.3 115.9,13.5 120.0,9.3\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"9.3\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>"
+        "price": "105.59",
+        "day": "▼ 0.95%",
+        "week": "▲ 1.66%",
+        "dir": "down",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,26.2 4.1,23.5 8.3,23.4 12.4,22.7 16.6,20.2 20.7,19.5 24.8,22.0 29.0,26.2 33.1,27.0 37.2,24.9 41.4,25.3 45.5,24.0 49.7,19.2 53.8,18.1 57.9,18.2 62.1,17.3 66.2,15.4 70.3,11.7 74.5,4.3 78.6,7.8 82.8,6.5 86.9,3.0 91.0,6.4 95.2,7.5 99.3,8.6 103.4,12.7 107.6,13.9 111.7,9.5 115.9,5.5 120.0,6.6\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"6.6\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>"
       },
       {
         "name": "WTI Crude",
         "unit": "$/bbl",
-        "price": "92.16",
-        "day": "▼ 2.57%",
-        "week": "▼ 10.03%",
+        "price": "93.12",
+        "day": "▼ 1.57%",
+        "week": "▼ 7.16%",
         "dir": "down",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,25.0 4.1,27.0 8.3,25.9 12.4,23.8 16.6,23.4 20.7,22.5 24.8,20.6 29.0,21.3 33.1,23.3 37.2,25.9 41.4,26.0 45.5,24.8 49.7,24.9 53.8,22.6 57.9,18.2 62.1,17.5 66.2,17.2 70.3,17.0 74.5,15.5 78.6,12.5 82.8,6.3 86.9,8.6 91.0,7.3 95.2,3.0 99.3,6.3 103.4,6.8 107.6,8.4 111.7,12.8 115.9,14.0 120.0,16.3\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"16.3\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,26.8 4.1,24.7 8.3,24.2 12.4,23.3 16.6,21.3 20.7,22.1 24.8,24.2 29.0,26.9 33.1,27.0 37.2,25.7 41.4,25.8 45.5,23.4 49.7,18.9 53.8,18.1 57.9,17.8 62.1,17.6 66.2,16.0 70.3,12.9 74.5,6.4 78.6,8.9 82.8,7.5 86.9,3.0 91.0,6.5 95.2,7.0 99.3,8.6 103.4,13.2 107.6,14.4 111.7,16.9 115.9,14.4 120.0,15.9\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"15.9\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>"
       }
     ],
     "alternatives": [
@@ -208,9 +208,9 @@
       },
       {
         "name": "PowerGrid InvIT",
-        "price": "₹101.47",
+        "price": "₹101.94",
         "day": "▲ 0.46%",
-        "week": "▲ 0.14%",
+        "week": "▲ 0.33%",
         "dir": "up",
         "dir_week": "up"
       }
@@ -264,208 +264,216 @@
       {
         "name": "ICICI Pru Large Cap",
         "cat": "Large cap",
-        "nav": "₹116.39",
-        "day": "▲ 0.52%",
-        "week": "▼ 0.30%",
-        "dir": "up",
+        "nav": "₹115.14",
+        "day": "▼ 1.44%",
+        "week": "▼ 0.56%",
+        "dir": "down",
         "dir_week": "down"
       },
       {
         "name": "MO Midcap 150 Index",
         "cat": "Mid cap",
-        "nav": "₹41.58",
-        "day": "▲ 1.47%",
-        "week": "▼ 0.00%",
-        "dir": "up",
+        "nav": "₹40.80",
+        "day": "▼ 2.00%",
+        "week": "▼ 0.44%",
+        "dir": "down",
         "dir_week": "down"
       },
       {
         "name": "Nippon Small Cap",
         "cat": "Small cap",
-        "nav": "₹209.36",
-        "day": "▲ 1.40%",
-        "week": "▼ 0.04%",
-        "dir": "up",
-        "dir_week": "down"
+        "nav": "₹207.71",
+        "day": "▼ 1.27%",
+        "week": "▲ 0.60%",
+        "dir": "down",
+        "dir_week": "up"
       },
       {
         "name": "Parag Parikh Flexi Cap",
         "cat": "Flexi cap",
-        "nav": "₹89.86",
-        "day": "▲ 0.16%",
-        "week": "▲ 0.42%",
+        "nav": "₹90.34",
+        "day": "▲ 0.08%",
+        "week": "▲ 1.00%",
         "dir": "up",
         "dir_week": "up"
       }
     ],
     "date_label": "SEP 2026",
     "close_label": "CLOSE OF SEP 24",
-    "nav_label": "NAVS AS OF SEP 18"
+    "nav_label": "NAVS AS OF SEP 23"
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "India | Stock Exchanges",
-      "headline": "NSE Debuts Strong on Bourses at Rs 1,800",
+      "kicker": "Space Economy | Innovation",
+      "headline": "Micro-Satellites Power India's Space Economy",
       "paragraphs": [
-        "The National Stock Exchange has officially listed its shares at Rs 1,800, marking a strong debut compared to its issue price of Rs 1,785 on the BSE. This initial trading session yielded a positive premium for investors participating in the public offering.",
-        "Market participants closely tracked the listing, which also brought related financial entities and institutions into sharp focus across the trading floor."
+        "The space economy in India is finding a sweet spot with micro-satellites, often described as the Goldilocks zone for new growth opportunities. Industry experts are highlighting how these compact spacecraft offer an efficient balance of cost and capability for commercial applications.",
+        "As the sector expands, policymakers and private players alike are looking at ways to scale manufacturing and launch capabilities to capture a larger share of the global market."
       ],
       "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/National_Stock_Exchange.jpg/960px-National_Stock_Exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "National Stock Exchange"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/IRNSS-1I_Navigational_Satellite_being_dispatched_from_U_R_Rao_Satellite_Centre.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "IRNSS-1I Navigational Satellite being dispatched from U R Rao Satellite Centre"
       }
     },
     "story_2": {
-      "kicker": "India | Startup Ecosystem",
-      "headline": "India Tech Funding Climbs 7% in 2026",
+      "kicker": "Macroeconomics | Growth",
+      "headline": "India Projects 7.6% GDP Growth for FY26",
       "paragraphs": [
-        "Venture funding for Indian technology startups has risen by 7% to reach a cumulative total of $10.3 billion during the first nine months of 2026. This growth highlights a broader shift in strategy where institutional investors are backing fewer but significantly larger deals.",
-        "The trend underscores a maturing startup ecosystem in the country, prioritizing sustainable growth and larger capital allocations over early-stage fragmentation."
+        "India has officially projected its GDP growth for fiscal year 26 at 7.6 percent, alongside a nominal growth expectation of 8.6 percent. This strong projection underlines the underlying resilience of domestic economic activity despite shifting global dynamics.",
+        "Economists and market participants are evaluating these figures as broader indicators of economic health. The steady expansion points to continued domestic demand driving key sectors forward."
       ]
     },
     "story_3": {
-      "kicker": "India | Central Banking",
-      "headline": "RBI Sees Case for Rupee Appreciation",
+      "kicker": "Market Watch | Equities",
+      "headline": "Can Markets Stabilise After Sell-Off?",
       "paragraphs": [
-        "Official commentary from the Reserve Bank of India indicates a supportive stance for potential rupee appreciation, even as broader currency markets grapple with external headwinds and rising oil prices."
+        "Following a steep 1.6 percent sell-off in the previous session, investors are closely watching whether benchmark indices can find a footing. Market participants are scanning global cues and institutional flows for signs of a turnaround."
       ]
     },
     "also_today": {
       "items": [
-        "Angel One founder Dinesh Thakkar buys entire 63,000 sq ft Juhu tower for Rs 711 crore.",
-        "Electric vehicle startup Ultraviolette secures a substantial $85 million funding round.",
-        "Bharat Dynamics signs an ₹811 crore contract with the Ministry of Defence for anti-airfield weapons.",
-        "US Court of International Trade declares the administration's universal tariff illegal."
+        "RBI alerts cooperative banks on UAPA terrorist organisation listing directives.",
+        "Steamhouse India secures a ₹311 crore EPC deal for a Himachal Pradesh facility.",
+        "IRCTC reports a 15.5 percent rise in Q3 net profit reaching ₹395 crore.",
+        "BCCI inks a ₹150 crore deal with Muthoot FinCorp for Team India match title sponsorship."
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India x United States",
-    "headline": "US Court Voids Trump Tariffs",
+    "kicker": "India-US | Trade",
+    "headline": "India-US Trade Pact 'Done and Dusted', Says Piyush Goyal",
     "paragraphs": [
-      "The US Court of International Trade has officially declared the Trump administration's universal tariff levied on imports from India and other countries illegal. This sudden legal roadblock comes right as trade tensions and protectionist threats have kept markets on edge regarding export security. For Indian businesses navigating global supply chains, the court's intervention provides a sudden moment of legal clarity against sweeping import levies.",
-      "While the ruling offers temporary relief, the broader arc of foreign policy and bilateral trade talks remains deeply complicated by ongoing threats and strategic realignments. Policymakers and exporters are watching closely to see how the administration responds to the judicial setback and whether future negotiations will rely less on aggressive duties. Maintaining a firm stance on trade security will remain vital as Indian industries look to secure stable access to Western markets."
+      "Union Minister Piyush Goyal announced that the bilateral trade deal between India and the United States is 'done and dusted'. The breakthrough comes amidst threats of 100% tariffs from Donald Trump, which experts suggest served as leverage to push through the final agreement. In response to wider tariff pressures, India has also been accelerating trade pact negotiations with partners like Canada and Mexico.",
+      "New free trade agreements are designed to provide foreign investors with the confidence to build supply chains in India. However, domestic businesses and markets continue to keep a close watch on international geopolitical developments, including the upcoming Trump-Xi summit. Ensuring preferential market access remains vital for shielding Indian exporters from global economic instability."
     ],
     "world_60": [
-      "Oil prices hover around one hundred two dollars as Iran signals openness to diplomacy.",
-      "Gold prices edge lower amid rising treasury yields and firmer global oil prices.",
-      "Indian Rupee declines to a one-week low as an oil rally fans global rate hike worries.",
-      "US-Iran talks make little progress while global markets assess higher oil yields."
+      "Oil slips 1% as traders hope for US-Iran truce despite Saudi pipeline attacks",
+      "Silver stays steady near $94 as easing oil prices offer temporary relief",
+      "Gold slides as rising oil fuels hawkish Fed tone and rate hike bets",
+      "S&P 500 ends lower while global markets weigh rising bond yields and Mideast risk"
     ],
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
-      "alt": "New Delhi"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Piyush_Goyal_crop.jpg/330px-Piyush_Goyal_crop.jpg",
+      "alt": "Piyush Goyal"
     }
   },
   "sources": {
     "big_story": [
       {
-        "title": "Markets Hit 3-Month Low, 5 Reasons Behind Sensex Crashing 1,250 Points Today",
-        "source": "NDTV"
+        "title": "RBI announces its ‘Payments Vision 2028’, outlining roadmap to strengthen & expand India’s rapidly growing digital payments ecosystem | Akashvani News",
+        "source": "News On AIR"
       },
       {
-        "title": "Stock market crash today: Sensex tanks over 1,200 points, Nifty goes below 23,100 - top reasons for fall",
-        "source": "The Times of India"
+        "title": "India central bank likely steps in before market open to support rupee, traders say",
+        "source": "Reuters"
       },
       {
-        "title": "Sensex crashed over 1,200 points: Why stock market fell today?",
-        "source": "India Today"
-      },
-      {
-        "title": "India shares lower at close of trade; Nifty 50 down 1.64%",
-        "source": "Investing.com India"
-      },
-      {
-        "title": "Why did market crash today? Sensex plummets 1,248 points, Nifty ends below 23,100. 5 factors behind today'",
-        "source": "economictimes.com"
-      },
-      {
-        "title": "Closing Bell: Sensex tanks 1,248 pts, Nifty below 23,100; all sectors in the red",
-        "source": "IndiaIPO"
-      },
-      {
-        "title": "Sensex, Nifty crash today: What led to 'Thursday Tank' - Top impact made by these news; check biggest losers, m-cap loss",
-        "source": "Livemint"
+        "title": "RBI has drained 60% of excess banking liquidity. What happens next?",
+        "source": "bfsi.economictimes.indiatimes.com"
       }
     ],
     "venture_vault": [
       {
-        "title": "{Funding Alert} Electric Vehicle Startup Ultraviolette Secures $85 Mn Funding Round",
-        "source": "Indian Retailer"
+        "title": "ONYA Raises Rs 12.5 Crore Pre-Series A, Targets Retail Expansion After Reaching Rs 3.5 Crore MRR",
+        "source": "ascendants.in"
+      },
+      {
+        "title": "Lab-grown diamond jewellery startup ONYA raises Rs 12.5 crore in funding led by Divisa Family Office",
+        "source": "Indian Startup News"
+      },
+      {
+        "title": "ONYA Raises ₹12.5 Crore in Pre-Series A Round Led by Divisa Family Office",
+        "source": "Indian Startup Times"
       }
     ],
     "daily_brief_1": [
       {
-        "title": "NSE IPO: Stock lists at Rs 1,800 versus issue price of Rs 1,785 on BSE with 0.8% premium; check details",
-        "source": "The Times of India"
+        "title": "Micro-Satellites, the ‘Goldilocks Zone’ for India’s Space Economy",
+        "source": "orfonline.org"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "India tech funding rises 7% to $10.3 billion in first nine months of 2026",
-        "source": "business-standard.com"
+        "title": "India projects 7.6% GDP growth for FY26, nominal growth at 8.6%",
+        "source": "DD News"
       }
     ],
     "daily_brief_3": [
       {
-        "title": "India’s RBI Sees Case for Rupee to Appreciate, Official Says",
-        "source": "Bloomberg.com"
+        "title": "Sensex, Nifty today: Can markets stabilise after Thursday's 1.6% sell-off?",
+        "source": "India Today"
       }
     ],
     "also_today": [
       {
-        "title": "Angel One founder Dinesh Thakkar buys entire 63,000 sq ft Juhu tower for Rs 711 crore; $74.3 million deal",
-        "source": "The Times of India"
+        "title": "RBI alerts Co-op Banks on UAPA Terrorist Organisation Listing",
+        "source": "Indian Cooperative"
       },
       {
-        "title": "Bharat Dynamics Signs Rs 811 Crore Deal With MoD for Anti-Airfield Weapons",
-        "source": "equitypandit.com"
+        "title": "Steamhouse India Secures ₹311 Crore EPC Deal For Himachal Pradesh Facility",
+        "source": "Sahi"
       },
       {
-        "title": "{Funding Alert} Electric Vehicle Startup Ultraviolette Secures $85 Mn Funding Round",
-        "source": "Indian Retailer"
+        "title": "IRCTC’s Q3 net profit rises 15.5 pc to Rs 395 crore",
+        "source": "DD News"
       },
       {
-        "title": "US Court of International Trade declares Trump administration’s 10% universal tariff levied on imports from India & other countries illegal | Akashvani News",
-        "source": "News On AIR"
+        "title": "BCCI inks Rs 150 crore deal with Muthoot FinCorp for title sponsorship of Team India matches",
+        "source": "The Economic Times"
       }
     ],
     "geopolitics": [
       {
-        "title": "US Court of International Trade declares Trump administration’s 10% universal tariff levied on imports from India & other countries illegal | Akashvani News",
-        "source": "News On AIR"
+        "title": "Trade deal between India and US done & dusted: Piyush Goyal",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "India-US trade pact ‘done and dusted’, says Piyush Goyal",
+        "source": "BusinessLine"
+      },
+      {
+        "title": "Is Trump’s 100% tariff threat on India ‘leverage to push through a trade deal’? Expert weighs in",
+        "source": "Livemint"
+      },
+      {
+        "title": "India accelerates trade deals with Canada, Mexico amid Trump tariff pressures",
+        "source": "ET Edge Insights"
+      },
+      {
+        "title": "New FTAs provide comfort to invest in global supply chains in India: Commerce Secretary Rajesh Agarwal",
+        "source": "manufacturing.economictimes.indiatimes.com"
       }
     ],
     "world_60": [
       {
-        "title": "Rupee declines to one-week low as oil rally fans global rate hike worries",
+        "title": "Oil prices slip 1% as traders hope for US-Iran truce amid fresh attacks on Saudi pipeline",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Silver Price Forecast: XAG/USD remains steady near $94.00 as oil prices ease",
+        "source": "FXStreet"
+      },
+      {
+        "title": "US-Iran Talks Show Signs of Progress, Oil Prices Surge; Fed Officials Strike Hawkish Tone, Lifting October Rate Hike Odds",
+        "source": "finance.biggo.com"
+      },
+      {
+        "title": "Global stocks mostly fall as oil prices and bond yields rise",
+        "source": "gulfnews.com"
+      },
+      {
+        "title": "S&P 500 ends marginally lower as investors focus on US-Iran war",
         "source": "Reuters"
-      },
-      {
-        "title": "Gold prices edge lower amid higher oil prices, bond yields",
-        "source": "Investing.com"
-      },
-      {
-        "title": "US-Iran talks make little progress; oil price stays above $102; gold near $4,300",
-        "source": "english.dhanamonline.com"
-      },
-      {
-        "title": "Oil Price Today (September 24): Crude oil falls to $102 as Iran signals its openness to diplomacy. What ar",
-        "source": "economictimes.com"
       }
     ],
     "ipo_desk": [
       {
+        "title": "German Green Steel IPO opens today: GMP indicates 20% potential listing gain. Should you subscribe?",
+        "source": "The Economic Times"
+      },
+      {
         "title": "Moneyview IPO: GMP Today, Price, Subscription, Allotment, Listing Date and Key Details",
         "source": "India Infoline"
-      },
-      {
-        "title": "Moneyview IPO subscribed 44% so far on Day 1: Check price band, lot size and key dates",
-        "source": "Upstox"
-      },
-      {
-        "title": "NSE IPO: Stock lists at Rs 1,800 versus issue price of Rs 1,785 on BSE with 0.8% premium; check details",
-        "source": "The Times of India"
       }
     ],
     "market_data": "Yahoo Finance (computed, session SEP 24)",
