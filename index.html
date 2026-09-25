@@ -91,6 +91,7 @@ h1,h2,h3,.display{ font-family:'Oswald',sans-serif; font-weight:700; letter-spac
   text-transform:uppercase; white-space:nowrap; opacity:0; visibility:hidden;
   transition:opacity .2s ease, visibility .2s ease; }
 .scroll-cue.visible{ opacity:1; visibility:visible; }
+.cover-page.has-scroll-cue .swipe-hint{ visibility:hidden; }
 .scroll-cue .chevron{ font-size:16px; line-height:9px; color:var(--orange); animation:cue-bob 1.6s ease-in-out infinite; }
 @keyframes cue-bob{ 50%{ transform:translateY(3px); } }
 @media (prefers-reduced-motion:reduce){ .scroll-cue .chevron{ animation:none; } }
@@ -697,8 +698,11 @@ function updateScrollCues(){
   stage.querySelectorAll('.page').forEach(page => {
     const inner = page.querySelector('.page-inner');
     const cue = page.querySelector('.scroll-cue');
-    if(inner && cue) cue.classList.toggle('visible',
-      cue.dataset.dismissed !== '1' && inner.scrollTop <= 8 && inner.scrollHeight > inner.clientHeight + 8);
+    if(inner && cue){
+      const scrollable = inner.scrollHeight > inner.clientHeight + 8;
+      inner.classList.toggle('has-scroll-cue', scrollable);
+      cue.classList.toggle('visible', cue.dataset.dismissed !== '1' && inner.scrollTop <= 8 && scrollable);
+    }
   });
 }
 
@@ -1142,4 +1146,4 @@ stage.addEventListener('touchcancel', e => endSwipe(e, true), {passive:true});
 updateControls();
 </script>
 </body>
-               </html>
+  </html>
