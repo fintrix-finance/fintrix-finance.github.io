@@ -217,9 +217,9 @@ Reply with ONLY a JSON object (no markdown fences, no commentary) in exactly thi
   "cover": {{
     "market_watch_teaser": "one line, max 90 characters, cover teaser for the market page, consistent with the market data (up/down direction must match)",
     "daily_brief_teaser": "one line, max 90 characters, mentions the lead daily brief stories",
-    "inbrief_2": "max 35 characters, ultra-short label for story_1",
-    "inbrief_3": "max 35 characters, ultra-short label for story_2",
-    "inbrief_4": "max 35 characters, ultra-short label for story_3"
+    "inbrief_2": "max 35 characters, ultra-short label for story_1 below",
+    "inbrief_3": "max 35 characters, ultra-short label for story_2 below",
+    "inbrief_4": "max 35 characters, ultra-short label for story_3 below"
   }},
   "ipo_desk": [
     {{"name": "Company", "note": "max 45 chars, e.g. ₹680 cr issue closes Friday", "sources": [4]}}
@@ -265,6 +265,11 @@ Rules:
 - also_today: four more one-line briefs from OTHER headlines, none repeating a story used
   anywhere in today's issue.
 - story_1.image_query names the subject used to find a real photograph for story_1.
+- cover.inbrief_2, inbrief_3 and inbrief_4 sit on the cover and link to story_1, story_2 and
+  story_3 RESPECTIVELY. Each label MUST be about that exact story and MUST reuse at least one
+  distinctive content word (not "India", "trade", "deal" etc.) from that story's own headline
+  or kicker - e.g. for a story headlined "Sebi clears NSE listing", a good label is
+  "NSE listing gets Sebi nod", NOT "Markets at a record high".
 - Avoid the big story already chosen for today: {avoid}
 - Tone: a smart college finance magazine - plain English, no jargon dumps.
 - Use the actual ₹ character, not HTML entities. Plain text only - no HTML, markdown or links.
@@ -307,7 +312,8 @@ Reply with ONLY a JSON object (no markdown fences, no commentary) in exactly thi
 Rules:
 - geopolitics.image_query names the subject used to find a real photograph for the story.
 - cover.inbrief_1 sits on the cover and links to this page, so it MUST be about the SAME
-  story as the geopolitics headline and paragraphs - name the same country, leader or deal.
+  story as the geopolitics headline and paragraphs - name the same country, leader or deal,
+  and reuse at least one distinctive content word from the geopolitics headline or kicker.
 - "world_60" is a quick 4-item round-up of OTHER real global headlines from the list
   (oil, gold, bonds, central banks, global markets, conflicts), different from the main story.
 - Tone: a smart college finance magazine - plain English, no jargon dumps, Indian angle.
@@ -1042,17 +1048,15 @@ def keywords(text):
 
 
 def check_geopolitics_pkg(pkg):
-    """The cover teaser must share at least one real keyword with the story it links to."""
+    """Schema for the geopolitics package. Whether cover.inbrief_1 actually matches the
+    story is enforced once, centrally, in main()/validate() - not per model attempt:
+    a paraphrased teaser used to discard whole answers and kill the run."""
     if not isinstance(pkg, dict):
         return "not a JSON object"
     teaser = (pkg.get("cover") or {}).get("inbrief_1")
     g = pkg.get("geopolitics")
-    if not isinstance(teaser, str) or not isinstance(g, dict):
-        return "missing cover.inbrief_1 or geopolitics"
-    story = " ".join([str(g.get("kicker", "")), str(g.get("headline", ""))]
-                     + [str(p) for p in (g.get("paragraphs") or [])])
-    if not keywords(teaser) & keywords(story):
-        return "cover.inbrief_1 (%r) does not match the geopolitics story" % teaser
+    if not is_str(teaser, 3, 40) or not isinstance(g, dict):
+        return "missing or bad cover.inbrief_1 or geopolitics"
     if not is_str(g.get("image_query"), 3, 60):
         return "geopolitics.image_query missing or bad"
     return None
@@ -1068,7 +1072,9 @@ def check_features_pkg(pkg):
 
 
 def check_markets_pkg(pkg):
-    """cover.inbrief_4 must match story_3, and the new sections must be present."""
+    """Schema for the markets package. Whether the cover inbrief labels match their
+    stories is enforced once, centrally, in main()/validate() - not per model attempt:
+    a paraphrased label used to discard whole answers and kill the run."""
     if not isinstance(pkg, dict):
         return "not a JSON object"
     db = pkg.get("daily_brief")
@@ -1083,14 +1089,59 @@ def check_markets_pkg(pkg):
     if not isinstance(at, dict) or not isinstance(at.get("items"), list) \
             or not (3 <= len(at["items"]) <= 4) or not all(is_str(x, 10, 110) for x in at["items"]):
         return "daily_brief.also_today must have 3-4 one-liners of 10-110 chars"
-    teaser = (pkg.get("cover") or {}).get("inbrief_4")
-    if not isinstance(teaser, str):
-        return "missing cover.inbrief_4"
-    story = " ".join([str(s3.get("kicker", "")), str(s3.get("headline", ""))]
-                     + [str(p) for p in (s3.get("paragraphs") or [])])
-    if not keywords(teaser) & keywords(story):
-        return "cover.inbrief_4 (%r) does not match daily brief story_3" % teaser
+    cover = pkg.get("cover") or {}
+    for key in ("inbrief_2", "inbrief_3", "inbrief_4"):
+        if not is_str(cover.get(key), 3, 40):
+            return "missing or bad cover.%s" % key
     return None
+
+
+DANGLING = {"for", "of", "the", "a", "an", "to", "in", "on", "as", "and", "or",
+            "at", "by", "with", "from", "after", "amid", "over", "into", "vs"}
+
+
+def inbrief_story_text(story):
+    """The text a cover In Brief label is allowed to tease: kicker + headline + body."""
+    if not isinstance(story, dict):
+        return ""
+    return " ".join([str(story.get("kicker", "")), str(story.get("headline", ""))]
+                    + [str(p) for p in (story.get("paragraphs") or [])])
+
+
+def inbrief_matches(teaser, story):
+    """A cover label matches its story when they share at least one real keyword."""
+    return isinstance(teaser, str) and bool(keywords(teaser) & keywords(inbrief_story_text(story)))
+
+
+def derive_inbrief(story, hi=35):
+    """Cover label taken straight from the story itself, so the cover can never
+    disagree with the story it links to. Prefers the longest word-boundary prefix
+    of the headline that shares a keyword with the story; falls back to the kicker,
+    then to the story's first content word."""
+    story_kw = keywords(inbrief_story_text(story))
+    headline = str(story.get("headline", "")).strip() if isinstance(story, dict) else ""
+    label = ""
+    for w in headline.split():
+        cand = (label + " " + w).strip()
+        if len(cand) > hi:
+            break
+        label = cand
+    # don't leave a dangling connector at the cut ("... GDP Growth for")
+    words = label.split()
+    while len(words) > 1 and words[-1].strip(".,:;!?\"'()[]-|").lower() in DANGLING:
+        words.pop()
+    label = " ".join(words)
+    if label and keywords(label) & story_kw:
+        return label
+    # headline prefix was empty or all generic words - try the kicker instead
+    kicker = str(story.get("kicker", "")).strip()[:hi].strip() if isinstance(story, dict) else ""
+    if kicker and keywords(kicker) & story_kw:
+        return kicker
+    # last resort: the story's first content word on its own
+    for w in sorted(story_kw, key=len, reverse=True):
+        if len(w) <= hi:
+            return w.capitalize()
+    return (headline or "Today")[:hi]
 
 
 def both(*checks):
@@ -1280,6 +1331,14 @@ def validate(d):
     problem = check_geopolitics_pkg({"cover": cover, "geopolitics": geo})
     if problem:
         fail(problem)
+    # final consistency gate: every cover In Brief label must share a real keyword
+    # with the story it links to. main() repairs mismatches before this runs, so a
+    # failure here means the repair logic itself is broken - fail loudly.
+    for key, sk in (("inbrief_2", "story_1"), ("inbrief_3", "story_2"), ("inbrief_4", "story_3")):
+        if not inbrief_matches(cover.get(key), db.get(sk)):
+            fail("cover.%s (%r) does not match daily brief %s" % (key, cover.get(key), sk))
+    if not inbrief_matches(cover.get("inbrief_1"), geo):
+        fail("cover.inbrief_1 (%r) does not match the geopolitics story" % cover.get("inbrief_1"))
 
 
 # ---------------------------------------------------------------- main
@@ -1338,6 +1397,28 @@ def main():
                    check=both(fact_check, check_geopolitics_pkg))
     if geo is None:
         fail("could not generate the geopolitics package - leaving data.json untouched.")
+
+    # The cover In Brief labels and the stories they link to come from ONE answer
+    # each (markets, geopolitics), but the model sometimes paraphrases a label past
+    # recognition or teases the wrong story. Keep its label only when it verifiably
+    # matches its story; otherwise replace it with one derived from the story's own
+    # headline/kicker - one source of truth, so a mismatched cover can never publish.
+    mcov = markets.get("cover") or {}
+    mdb = markets.get("daily_brief") or {}
+    for key, sk in (("inbrief_2", "story_1"), ("inbrief_3", "story_2"), ("inbrief_4", "story_3")):
+        story = mdb.get(sk) or {}
+        if not inbrief_matches(mcov.get(key), story):
+            fixed = derive_inbrief(story)
+            print("cover.%s (%r) did not match %s - using a label from the story itself: %r"
+                  % (key, mcov.get(key), sk, fixed))
+            mcov[key] = fixed
+    gcov = geo.get("cover") or {}
+    gpkg = geo.get("geopolitics") or {}
+    if not inbrief_matches(gcov.get("inbrief_1"), gpkg):
+        fixed = derive_inbrief(gpkg)
+        print("cover.inbrief_1 (%r) did not match the geopolitics story - using a label from the story itself: %r"
+              % (gcov.get("inbrief_1"), fixed))
+        gcov["inbrief_1"] = fixed
 
     mw["ipo_desk"] = [{"name": i.get("name"), "note": i.get("note")}
                       for i in (markets.get("ipo_desk") or []) if isinstance(i, dict)]
