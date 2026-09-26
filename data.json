@@ -1,69 +1,69 @@
 {
-  "updated_ist": "2026-09-25",
+  "updated_ist": "2026-09-26",
   "cover": {
-    "big_story_teaser": "RBI steps in as liquidity drains and rupee wobbles",
-    "venture_teaser": "ONYA raises ₹12.5 crore in pre-Series A funding",
-    "market_watch_teaser": "Sensex slides 1.67% and Nifty drops 1.64% amid heavy selling pressure.",
-    "daily_brief_teaser": "RBI drains excess banking liquidity while space economy highlights micro-satellites.",
-    "inbrief_2": "NSE Lists at Rs 1,800",
-    "inbrief_3": "IRDAI Paper Rattles Insurers",
-    "inbrief_4": "Markets Hit 5-Month Low",
-    "inbrief_1": "India-US Trade Deal Completed"
+    "big_story_teaser": "India and US near historic trade pact as deal reaches over 90% completion.",
+    "venture_teaser": "Hospitality startup Dextr AI raises $6.7 million in seed round.",
+    "market_watch_teaser": "Sensex gains 0.43% as Nifty hits 23,140.50",
+    "daily_brief_teaser": "RBI updates reserves, economic bulletin, and bank strike news",
+    "inbrief_2": "Forex reserves fall $14.88 billion",
+    "inbrief_3": "RBI bulletin highlights economy",
+    "inbrief_4": "Why bank unions are striking",
+    "inbrief_1": "Trump's 100% Oil Tariff Threat"
   },
   "big_story": {
-    "headline": "RBI Liquidity Squeeze",
-    "subhead": "CENTRAL BANK DRAINS EXCESS BANKING LIQUIDITY AS MARKETS NAVIGATE CURRENCY PRESSURES",
+    "headline": "India-US Trade Deal Nearing Completion",
+    "subhead": "BILATERAL TIES TO REACH NEW HEIGHTS AS HISTORIC TRADE PACT CROSSES 90 PERCENT MARK",
     "paragraphs": [
-      "The Reserve Bank of India has actively drained a significant portion of excess banking liquidity, prompting traders and financial analysts to watch the monetary corridors closely. Alongside this liquidity management, the central bank likely stepped in before market open to support the rupee against external pressures. These moves come as India continues to roll out broader frameworks like the Payments Vision to strengthen the digital ecosystem.",
-      "Managing liquidity is a delicate balancing act for any central bank aiming to tame inflation without choking economic momentum. By pulling excess cash out of the banking system, the monetary authority influences short-term interest rates and credit growth. At the same time, defending the local currency requires strategic interventions in the foreign exchange market during volatile trading hours.",
-      "As markets digest these aggressive liquidity adjustments, investors and college finance students alike should monitor upcoming policy announcements and currency trends. The interplay between domestic liquidity absorption and global commodity shifts will dictate how financial institutions manage their capital reserves in the coming weeks."
+      "Union Commerce Minister Piyush Goyal announced that the India-US trade deal is almost done and dusted, with an American official confirming the pact is over 90% complete. The bilateral accord promises to unleash another level of economic ties between the two nations despite recent market uncertainties. However, Indian negotiators continue to address key tariff friction points during ongoing high-level diplomatic dialogues.",
+      "Foreign Secretary Vikram Misri raised concerns over recent US tariff moves during high-level talks with the US undersecretary to safeguard Indian export interests. Meanwhile, global trade dynamics remain complex as shifting policy frameworks and regional tensions test cross-border commercial stability. Indian officials are working to lock in favorable conditions for domestic manufacturers and service exporters before final signatures.",
+      "A completed pact could significantly boost cross-border commerce across key industrial sectors and lower trade barriers for Indian exporters. As New Delhi plans strategic multi-nation visits, market analysts are closely watching how the final non-tariff provisions are resolved. A signed agreement would mark a major diplomatic and commercial win for Indian international trade."
     ],
-    "pullbox": "When the central bank pulls excess liquidity from the system, it shifts the gears of bank lending, credit availability, and currency stability across the entire economy.",
+    "pullbox": "With over 90% of the India-US trade deal agreed upon, both nations are on the verge of a historic economic agreement despite ongoing tariff discussions.",
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
-      "alt": "Reserve Bank of India"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Piyush_Goyal_crop.jpg/330px-Piyush_Goyal_crop.jpg",
+      "alt": "Piyush Goyal"
     }
   },
   "explains": {
-    "title": "What is Banking Liquidity?",
+    "title": "What is a Bilateral Trade Agreement?",
     "paragraphs": [
-      "Banking liquidity refers to the total amount of cash and easily tradable assets that commercial banks hold above statutory requirements. When excess liquidity piles up in the financial system, banks have abundant cash to lend out, which can sometimes fuel inflationary pressures if left unchecked.",
-      "Central banks mop up this excess cash by issuing short-term instruments or conducting reverse repo operations. By doing so, they pull money out of circulation, influencing borrowing costs and keeping financial stability intact."
+      "A bilateral trade agreement is an economic deal between two sovereign nations to reduce tariffs, eliminate quotas, and minimize import barriers. It establishes structured regulatory framework to facilitate smoother movement of goods, services, and investments across national borders.",
+      "In practice, these treaties lower import duties for businesses, making exported products more competitive in foreign markets. They also set standard legal guidelines for intellectual property protection, investment security, and trade dispute resolution."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Lab-grown diamond jewellery startup ONYA has raised ₹12.5 crore in a pre-Series A funding round led by the Divisa Family Office. The company has reached a milestone of ₹3.5 crore in monthly recurring revenue and plans to target aggressive retail expansion.",
-      "Backed by prominent investors who see strong potential in sustainable luxury, ONYA's founders are betting on modern consumer preferences shifting toward lab-grown alternatives. This fresh capital will help the brand scale its retail footprint and capture a larger slice of India's evolving jewellery market."
+      "Hospitality AI startup Dextr AI has secured $6.7 million in a seed funding round led by Elevation Capital. The company specializes in building autonomous AI agents tailored specifically for the hotel and hospitality sector.",
+      "The fresh capital will be deployed to expand Dextr AI's suite of operational agents and accelerate market adoption among hotel chains. Elevation Capital's backing underscores growing institutional confidence in domain-specific artificial intelligence platforms."
     ]
   },
   "market_watch": {
     "indian": [
       {
         "name": "Sensex",
-        "value": "73,580.54 ▼ 1.67%",
-        "dir": "down"
+        "value": "73,895.74 ▲ 0.43%",
+        "dir": "up"
       },
       {
         "name": "Nifty 50",
-        "value": "23,063.10 ▼ 1.64%",
-        "dir": "down"
+        "value": "23,140.50 ▲ 0.34%",
+        "dir": "up"
       },
       {
         "name": "Nifty Bank",
-        "value": "55,438.50 ▼ 1.96%",
-        "dir": "down"
+        "value": "55,580.40 ▲ 0.26%",
+        "dir": "up"
       }
     ],
     "asian": [
       {
         "name": "Nikkei 225",
-        "value": "65,513.99 ▲ 0.76%",
+        "value": "66,364.20 ▲ 1.30%",
         "dir": "up"
       },
       {
         "name": "Hang Seng",
-        "value": "24,761.13 ▼ 0.29%",
+        "value": "24,510.09 ▼ 1.01%",
         "dir": "down"
       },
       {
@@ -75,58 +75,62 @@
     "european": [
       {
         "name": "FTSE 100",
-        "value": "10,679.99 ▼ 0.24%",
-        "dir": "down"
+        "value": "10,695.25 ▲ 0.14%",
+        "dir": "up"
       },
       {
         "name": "DAX",
-        "value": "25,266.53 ▼ 0.57%",
-        "dir": "down"
+        "value": "25,408.64 ▲ 0.56%",
+        "dir": "up"
       },
       {
         "name": "CAC 40",
-        "value": "8,081.43 ▼ 0.52%",
+        "value": "8,077.80 ▼ 0.04%",
         "dir": "down"
       }
     ],
     "global": [
       {
         "name": "Dollar Index",
-        "value": "101.28 ▼ 0.01%",
+        "value": "101.03 ▼ 0.25%",
         "dir": "down"
       },
       {
         "name": "Brent Crude",
-        "value": "$105.59/bbl",
+        "value": "$97.44/bbl",
         "dir": "down"
       },
       {
         "name": "Gold",
-        "value": "$4,307/oz",
+        "value": "$4,321/oz",
         "dir": "up"
       }
     ],
     "losers": [
-      "HDFC Life",
-      "Bajaj Finance",
-      "Axis Bank"
+      "Max Healthcare",
+      "Tata Motors PV",
+      "Infosys"
     ],
     "winners": [
-      "Cipla",
-      "ONGC",
-      "NTPC"
+      "Axis Bank",
+      "Asian Paints",
+      "Mahindra & Mahindra"
     ],
-    "snapshot_strip": "The Nifty fell 1.64% in the last session",
+    "snapshot_strip": "Realty and Auto led; Media and IT lagged as the Nifty rose 0.34%",
     "date_label": "SEP 2026",
-    "close_label": "CLOSE OF SEP 24",
+    "close_label": "CLOSE OF SEP 25",
     "ipo_desk": [
       {
-        "name": "German Green Steel IPO",
-        "note": "GMP indicates 20% potential listing gain"
+        "name": "German Green Steel",
+        "note": "IPO Day 1 subscription reaches 1.82x"
       },
       {
-        "name": "Moneyview IPO",
-        "note": "Key details and subscription open"
+        "name": "Elevate Campuses",
+        "note": "₹219 crore IPO fully subscribed"
+      },
+      {
+        "name": "Orient Cables",
+        "note": "Issue subscribed 2.07 times on Day 1"
       }
     ]
   },
@@ -135,74 +139,74 @@
       {
         "name": "Gold",
         "unit": "$/oz",
-        "price": "4,307",
-        "day": "▲ 0.20%",
-        "week": "▼ 2.67%",
+        "price": "4,321",
+        "day": "▲ 0.54%",
+        "week": "▼ 2.34%",
         "dir": "up",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,18.6 4.1,16.5 8.3,19.6 12.4,12.2 16.6,10.6 20.7,4.0 24.8,3.0 29.0,3.2 33.1,5.7 37.2,5.0 41.4,13.1 45.5,16.0 49.7,21.1 53.8,20.0 57.9,12.5 62.1,16.3 66.2,18.5 70.3,17.2 74.5,20.4 78.6,20.3 82.8,23.8 86.9,24.9 91.0,21.6 95.2,20.9 99.3,19.4 103.4,21.8 107.6,22.3 111.7,25.8 115.9,27.0 120.0,26.5\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"26.5\" r=\"2.4\" fill=\"#c1541f\"/></svg>"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,18.6 4.1,16.5 8.3,19.6 12.4,12.2 16.6,10.6 20.7,4.0 24.8,3.0 29.0,3.2 33.1,5.7 37.2,5.0 41.4,13.1 45.5,16.0 49.7,21.1 53.8,20.0 57.9,12.5 62.1,16.3 66.2,18.5 70.3,17.2 74.5,20.4 78.6,20.3 82.8,23.8 86.9,24.9 91.0,21.6 95.2,20.9 99.3,19.4 103.4,21.8 107.6,22.3 111.7,25.8 115.9,27.0 120.0,25.6\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"25.6\" r=\"2.4\" fill=\"#c1541f\"/></svg>"
       },
       {
         "name": "Silver",
         "unit": "$/oz",
-        "price": "64.11",
-        "day": "▲ 1.03%",
-        "week": "▼ 3.68%",
+        "price": "64.80",
+        "day": "▲ 2.12%",
+        "week": "▼ 2.64%",
         "dir": "up",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,20.3 4.1,15.9 8.3,24.3 12.4,17.4 16.6,8.5 20.7,3.0 24.8,6.6 29.0,6.2 33.1,8.7 37.2,3.1 41.4,12.5 45.5,15.5 49.7,21.7 53.8,21.3 57.9,12.6 62.1,16.2 66.2,15.2 70.3,8.9 74.5,23.0 78.6,21.9 82.8,25.9 86.9,27.0 91.0,22.9 95.2,18.4 99.3,14.2 103.4,17.0 107.6,16.6 111.7,22.6 115.9,26.1 120.0,23.6\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"23.6\" r=\"2.4\" fill=\"#c1541f\"/></svg>"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,20.3 4.1,15.9 8.3,24.3 12.4,17.4 16.6,8.5 20.7,3.0 24.8,6.6 29.0,6.2 33.1,8.7 37.2,3.1 41.4,12.5 45.5,15.5 49.7,21.7 53.8,21.3 57.9,12.6 62.1,16.2 66.2,15.2 70.3,8.9 74.5,23.0 78.6,21.9 82.8,25.9 86.9,27.0 91.0,22.9 95.2,18.4 99.3,14.2 103.4,17.0 107.6,16.6 111.7,22.6 115.9,26.1 120.0,21.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"21.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>"
       },
       {
         "name": "Brent Crude",
         "unit": "$/bbl",
-        "price": "105.59",
-        "day": "▼ 0.95%",
-        "week": "▲ 1.66%",
+        "price": "97.44",
+        "day": "▼ 8.59%",
+        "week": "▼ 6.19%",
         "dir": "down",
-        "dir_week": "up",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,26.2 4.1,23.5 8.3,23.4 12.4,22.7 16.6,20.2 20.7,19.5 24.8,22.0 29.0,26.2 33.1,27.0 37.2,24.9 41.4,25.3 45.5,24.0 49.7,19.2 53.8,18.1 57.9,18.2 62.1,17.3 66.2,15.4 70.3,11.7 74.5,4.3 78.6,7.8 82.8,6.5 86.9,3.0 91.0,6.4 95.2,7.5 99.3,8.6 103.4,12.7 107.6,13.9 111.7,9.5 115.9,5.5 120.0,6.6\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"6.6\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>"
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,26.2 4.1,23.5 8.3,23.4 12.4,22.7 16.6,20.2 20.7,19.5 24.8,22.0 29.0,26.2 33.1,27.0 37.2,24.9 41.4,25.3 45.5,24.0 49.7,19.2 53.8,18.1 57.9,18.2 62.1,17.3 66.2,15.4 70.3,11.7 74.5,4.3 78.6,7.8 82.8,6.5 86.9,3.0 91.0,6.4 95.2,7.5 99.3,8.6 103.4,12.7 107.6,13.9 111.7,9.5 115.9,5.5 120.0,16.0\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"16.0\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>"
       },
       {
         "name": "WTI Crude",
         "unit": "$/bbl",
-        "price": "93.12",
-        "day": "▼ 1.57%",
-        "week": "▼ 7.16%",
+        "price": "92.41",
+        "day": "▼ 2.33%",
+        "week": "▼ 7.87%",
         "dir": "down",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,26.8 4.1,24.7 8.3,24.2 12.4,23.3 16.6,21.3 20.7,22.1 24.8,24.2 29.0,26.9 33.1,27.0 37.2,25.7 41.4,25.8 45.5,23.4 49.7,18.9 53.8,18.1 57.9,17.8 62.1,17.6 66.2,16.0 70.3,12.9 74.5,6.4 78.6,8.9 82.8,7.5 86.9,3.0 91.0,6.5 95.2,7.0 99.3,8.6 103.4,13.2 107.6,14.4 111.7,16.9 115.9,14.4 120.0,15.9\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"15.9\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,26.8 4.1,24.7 8.3,24.2 12.4,23.3 16.6,21.3 20.7,22.1 24.8,24.2 29.0,26.9 33.1,27.0 37.2,25.7 41.4,25.8 45.5,23.4 49.7,18.9 53.8,18.1 57.9,17.8 62.1,17.6 66.2,16.0 70.3,12.9 74.5,6.4 78.6,8.9 82.8,7.5 86.9,3.0 91.0,6.5 95.2,7.0 99.3,8.6 103.4,13.2 107.6,14.4 111.7,16.9 115.9,14.4 120.0,16.6\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"16.6\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>"
       }
     ],
     "alternatives": [
       {
         "name": "Embassy REIT",
-        "price": "₹437.44",
-        "day": "▼ 0.80%",
-        "week": "▼ 0.49%",
-        "dir": "down",
-        "dir_week": "down"
+        "price": "₹439.77",
+        "day": "▲ 0.53%",
+        "week": "▲ 0.07%",
+        "dir": "up",
+        "dir_week": "up"
       },
       {
         "name": "Nexus Select REIT",
-        "price": "₹166.21",
-        "day": "▼ 0.10%",
-        "week": "▼ 0.15%",
-        "dir": "down",
-        "dir_week": "down"
+        "price": "₹166.42",
+        "day": "▲ 0.13%",
+        "week": "▲ 0.10%",
+        "dir": "up",
+        "dir_week": "up"
       },
       {
         "name": "Mindspace REIT",
-        "price": "₹502.25",
-        "day": "▼ 0.50%",
-        "week": "▲ 0.70%",
-        "dir": "down",
+        "price": "₹504.59",
+        "day": "▲ 0.47%",
+        "week": "▲ 1.10%",
+        "dir": "up",
         "dir_week": "up"
       },
       {
         "name": "Brookfield REIT",
-        "price": "₹338.89",
-        "day": "▼ 0.03%",
-        "week": "▼ 0.41%",
+        "price": "₹336.98",
+        "day": "▼ 0.56%",
+        "week": "▼ 0.50%",
         "dir": "down",
         "dir_week": "down"
       },
@@ -219,264 +223,244 @@
       {
         "name": "Nifty 50",
         "tag": "Large cap",
-        "level": "23,063.10",
-        "day": -1.64,
-        "week": -0.67,
-        "month": -4.77,
-        "day_txt": "▼ 1.64%",
-        "week_txt": "▼ 0.67%",
-        "month_txt": "▼ 4.77%",
-        "dir": "down",
+        "level": "23,140.50",
+        "day": 0.34,
+        "week": -0.88,
+        "month": -4.41,
+        "day_txt": "▲ 0.34%",
+        "week_txt": "▼ 0.88%",
+        "month_txt": "▼ 4.41%",
+        "dir": "up",
         "dir_week": "down",
         "dir_month": "down"
       },
       {
         "name": "Nifty Midcap 150",
         "tag": "Mid cap",
-        "level": "22,469.90",
-        "day": -2.0,
-        "week": 0.45,
-        "month": -4.07,
-        "day_txt": "▼ 2.00%",
-        "week_txt": "▲ 0.45%",
-        "month_txt": "▼ 4.07%",
+        "level": "22,437.00",
+        "day": -0.15,
+        "week": -2.03,
+        "month": -4.65,
+        "day_txt": "▼ 0.15%",
+        "week_txt": "▼ 2.03%",
+        "month_txt": "▼ 4.65%",
         "dir": "down",
-        "dir_week": "up",
+        "dir_week": "down",
         "dir_month": "down"
       },
       {
         "name": "Nifty Smallcap 250",
         "tag": "Small cap",
-        "level": "18,155.50",
-        "day": -1.39,
-        "week": 1.64,
-        "month": -1.2,
-        "day_txt": "▼ 1.39%",
-        "week_txt": "▲ 1.64%",
-        "month_txt": "▼ 1.20%",
-        "dir": "down",
-        "dir_week": "up",
+        "level": "18,158.90",
+        "day": 0.02,
+        "week": -0.7,
+        "month": -1.61,
+        "day_txt": "▲ 0.02%",
+        "week_txt": "▼ 0.70%",
+        "month_txt": "▼ 1.61%",
+        "dir": "up",
+        "dir_week": "down",
         "dir_month": "down"
       }
     ],
-    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"100.0\" width=\"22\" height=\"21.3\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"133.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.6</text><rect x=\"62.3\" y=\"100.0\" width=\"22\" height=\"8.7\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"120.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.7</text><rect x=\"90.3\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-4.8</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"100.0\" width=\"22\" height=\"26.0\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"138.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-2.0</text><rect x=\"169.0\" y=\"94.2\" width=\"22\" height=\"5.8\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"89.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.5</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"52.9\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"164.9\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-4.1</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"100.0\" width=\"22\" height=\"18.1\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"130.1\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.4</text><rect x=\"275.7\" y=\"78.7\" width=\"22\" height=\"21.3\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"73.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.6</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"15.6\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"127.6\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.2</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"95.5\" width=\"22\" height=\"4.5\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"90.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.3</text><rect x=\"62.3\" y=\"100.0\" width=\"22\" height=\"11.7\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"123.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.9</text><rect x=\"90.3\" y=\"100.0\" width=\"22\" height=\"58.8\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"170.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-4.4</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"100.0\" width=\"22\" height=\"2.0\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"114.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.1</text><rect x=\"169.0\" y=\"100.0\" width=\"22\" height=\"27.1\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"139.1\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-2.0</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-4.7</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"99.2\" width=\"22\" height=\"0.8\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"94.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.0</text><rect x=\"275.7\" y=\"100.0\" width=\"22\" height=\"9.3\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"121.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.7</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"21.5\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"133.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.6</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
     "funds": [
       {
         "name": "ICICI Pru Large Cap",
         "cat": "Large cap",
-        "nav": "₹115.14",
-        "day": "▼ 1.44%",
-        "week": "▼ 0.56%",
-        "dir": "down",
+        "nav": "₹115.57",
+        "day": "▲ 0.37%",
+        "week": "▼ 0.70%",
+        "dir": "up",
         "dir_week": "down"
       },
       {
         "name": "MO Midcap 150 Index",
         "cat": "Mid cap",
-        "nav": "₹40.80",
-        "day": "▼ 2.00%",
-        "week": "▼ 0.44%",
+        "nav": "₹40.74",
+        "day": "▼ 0.15%",
+        "week": "▼ 2.03%",
         "dir": "down",
         "dir_week": "down"
       },
       {
         "name": "Nippon Small Cap",
         "cat": "Small cap",
-        "nav": "₹207.71",
-        "day": "▼ 1.27%",
-        "week": "▲ 0.60%",
-        "dir": "down",
-        "dir_week": "up"
+        "nav": "₹208.02",
+        "day": "▲ 0.15%",
+        "week": "▼ 0.64%",
+        "dir": "up",
+        "dir_week": "down"
       },
       {
         "name": "Parag Parikh Flexi Cap",
         "cat": "Flexi cap",
-        "nav": "₹90.34",
-        "day": "▲ 0.08%",
-        "week": "▲ 1.00%",
+        "nav": "₹89.96",
+        "day": "▲ 0.40%",
+        "week": "▲ 0.11%",
         "dir": "up",
         "dir_week": "up"
       }
     ],
     "date_label": "SEP 2026",
-    "close_label": "CLOSE OF SEP 24",
-    "nav_label": "NAVS AS OF SEP 23"
+    "close_label": "CLOSE OF SEP 25",
+    "nav_label": "NAVS AS OF SEP 25"
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "Space Economy | Innovation",
-      "headline": "Micro-Satellites Power India's Space Economy",
+      "kicker": "India | Forex Reserves",
+      "headline": "India's Forex Reserves Fall to $765.90 Billion",
       "paragraphs": [
-        "The space economy in India is finding a sweet spot with micro-satellites, often described as the Goldilocks zone for new growth opportunities. Industry experts are highlighting how these compact spacecraft offer an efficient balance of cost and capability for commercial applications.",
-        "As the sector expands, policymakers and private players alike are looking at ways to scale manufacturing and launch capabilities to capture a larger share of the global market."
+        "India's foreign exchange reserves saw a significant contraction, dropping by $14.88 billion to stand at $765.90 billion according to the latest figures released by the Reserve Bank of India. Such fluctuations in the central bank reserves often reflect broader shifts in external sector dynamics and central bank interventions in currency markets.",
+        "Market participants continue to monitor reserve levels closely as the country navigates various global headwinds and currency pressures. The drop highlights the dynamic nature of managing external balances amidst shifting macroeconomic conditions."
       ],
       "image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/IRNSS-1I_Navigational_Satellite_being_dispatched_from_U_R_Rao_Satellite_Centre.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "IRNSS-1I Navigational Satellite being dispatched from U R Rao Satellite Centre"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+        "alt": "Reserve Bank of India"
       }
     },
     "story_2": {
-      "kicker": "Macroeconomics | Growth",
-      "headline": "India Projects 7.6% GDP Growth for FY26",
+      "kicker": "India | Central Banking",
+      "headline": "RBI Bulletin Highlights Domestic Economic Resilience",
       "paragraphs": [
-        "India has officially projected its GDP growth for fiscal year 26 at 7.6 percent, alongside a nominal growth expectation of 8.6 percent. This strong projection underlines the underlying resilience of domestic economic activity despite shifting global dynamics.",
-        "Economists and market participants are evaluating these figures as broader indicators of economic health. The steady expansion points to continued domestic demand driving key sectors forward."
+        "The Reserve Bank of India released its latest bulletin indicating that India's financial and external sectors continue to draw considerable strength from a resilient domestic economy. Despite external uncertainties, domestic activity has provided a solid cushion for overall growth.",
+        "The central bank report underscores the importance of domestic drivers in sustaining economic momentum. Policymakers remain vigilant as they assess both domestic performance and international risk factors."
       ]
     },
     "story_3": {
-      "kicker": "Market Watch | Equities",
-      "headline": "Can Markets Stabilise After Sell-Off?",
+      "kicker": "Banking | Labor",
+      "headline": "Bank Unions Strike as Branches Prepare for Sunday Opening",
       "paragraphs": [
-        "Following a steep 1.6 percent sell-off in the previous session, investors are closely watching whether benchmark indices can find a footing. Market participants are scanning global cues and institutional flows for signs of a turnaround."
+        "Bank unions have initiated strikes over key demands including a five-day work week and performance-linked incentive schemes, even as administrative arrangements are made to keep certain branches open on Sunday. The developments highlight ongoing discussions between union leaders and institutional management regarding working conditions."
       ]
     },
     "also_today": {
       "items": [
-        "RBI alerts cooperative banks on UAPA terrorist organisation listing directives.",
-        "Steamhouse India secures a ₹311 crore EPC deal for a Himachal Pradesh facility.",
-        "IRCTC reports a 15.5 percent rise in Q3 net profit reaching ₹395 crore.",
-        "BCCI inks a ₹150 crore deal with Muthoot FinCorp for Team India match title sponsorship."
+        "Adani Enterprises witnesses a promoter group share deal valued at ₹2,498 crore.",
+        "Muthoot FinCorp secures Team India title rights in a ₹150 crore BCCI sponsorship deal.",
+        "Dr Lal PathLabs expands its advanced diagnostics portfolio through a genomics acquisition.",
+        "Electronics Mart India reports revenue up 6.7% to ₹7,183 crore for the financial year."
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India-US | Trade",
-    "headline": "India-US Trade Pact 'Done and Dusted', Says Piyush Goyal",
+    "kicker": "India | Oil & Tariffs",
+    "headline": "India Exposed to Trump's 100% Oil Threat",
     "paragraphs": [
-      "Union Minister Piyush Goyal announced that the bilateral trade deal between India and the United States is 'done and dusted'. The breakthrough comes amidst threats of 100% tariffs from Donald Trump, which experts suggest served as leverage to push through the final agreement. In response to wider tariff pressures, India has also been accelerating trade pact negotiations with partners like Canada and Mexico.",
-      "New free trade agreements are designed to provide foreign investors with the confidence to build supply chains in India. However, domestic businesses and markets continue to keep a close watch on international geopolitical developments, including the upcoming Trump-Xi summit. Ensuring preferential market access remains vital for shielding Indian exporters from global economic instability."
+      "India finds itself increasingly exposed to US President Donald Trump's threat of 100% tariffs on countries purchasing Russian crude oil. While China recently received a tariff breather from Washington, New Delhi has not secured a similar exemption. This leaves Indian refiners in a complex situation as they continue relying on Russian crude to meet domestic energy requirements.",
+      "The potential enforcement of these steep tariffs presents a direct risk to India's trade and energy security. If imposed, secondary tariffs could sharply increase crude procurement costs and disrupt supply chains for major domestic energy firms. Indian policymakers now face the delicate task of protecting fuel affordability while maintaining vital diplomatic ties with Washington."
     ],
     "world_60": [
-      "Oil slips 1% as traders hope for US-Iran truce despite Saudi pipeline attacks",
-      "Silver stays steady near $94 as easing oil prices offer temporary relief",
-      "Gold slides as rising oil fuels hawkish Fed tone and rate hike bets",
-      "S&P 500 ends lower while global markets weigh rising bond yields and Mideast risk"
+      "Wall Street edges higher as AI stocks gain and Dow climbs 177 points.",
+      "Global crude oil prices ease after ending a volatile week.",
+      "Gold rises Rs 200 per 10 gm as US dollar slips and oil eases.",
+      "India reserves third-party rights in Russia-EU CBAM trade dispute at WTO."
     ],
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Piyush_Goyal_crop.jpg/330px-Piyush_Goyal_crop.jpg",
-      "alt": "Piyush Goyal"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg",
+      "alt": "Donald Trump"
     }
   },
   "sources": {
     "big_story": [
       {
-        "title": "RBI announces its ‘Payments Vision 2028’, outlining roadmap to strengthen & expand India’s rapidly growing digital payments ecosystem | Akashvani News",
-        "source": "News On AIR"
+        "title": "India-US trade pact to 'unleash another level' of ties, says American official; reveals deal is '90%-plus'",
+        "source": "The Economic Times"
       },
       {
-        "title": "India central bank likely steps in before market open to support rupee, traders say",
-        "source": "Reuters"
+        "title": "India-US trade deal almost done and dusted: Piyush Goyal",
+        "source": "Fibre2Fashion"
       },
       {
-        "title": "RBI has drained 60% of excess banking liquidity. What happens next?",
-        "source": "bfsi.economictimes.indiatimes.com"
+        "title": "Foreign secretary Vikram Misri flags tariff move in talks with US undersecretary",
+        "source": "The Economic Times"
       }
     ],
     "venture_vault": [
       {
-        "title": "ONYA Raises Rs 12.5 Crore Pre-Series A, Targets Retail Expansion After Reaching Rs 3.5 Crore MRR",
-        "source": "ascendants.in"
-      },
-      {
-        "title": "Lab-grown diamond jewellery startup ONYA raises Rs 12.5 crore in funding led by Divisa Family Office",
-        "source": "Indian Startup News"
-      },
-      {
-        "title": "ONYA Raises ₹12.5 Crore in Pre-Series A Round Led by Divisa Family Office",
+        "title": "Dextr AI Raises $6.7 Mn Seed Round Led by Elevation Capital",
         "source": "Indian Startup Times"
+      },
+      {
+        "title": "Hospitality AI startup Dextr AI raises $6.7 million to expand its AI agents for hotels",
+        "source": "Indian Startup News"
       }
     ],
     "daily_brief_1": [
       {
-        "title": "Micro-Satellites, the ‘Goldilocks Zone’ for India’s Space Economy",
-        "source": "orfonline.org"
+        "title": "India’s forex reserves fall $14.88 billion to $765.90 billion: RBI",
+        "source": "thehindubusinessline.com"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "India projects 7.6% GDP growth for FY26, nominal growth at 8.6%",
-        "source": "DD News"
+        "title": "India's Financial, External Sectors Continue To Draw Strength From Resilient Domestic Economy: RBI Bulletin",
+        "source": "etvbharat.com"
       }
     ],
     "daily_brief_3": [
       {
-        "title": "Sensex, Nifty today: Can markets stabilise after Thursday's 1.6% sell-off?",
-        "source": "India Today"
+        "title": "Why bank unions are striking — and why banks will open on Sunday",
+        "source": "The Indian Express"
       }
     ],
     "also_today": [
       {
-        "title": "RBI alerts Co-op Banks on UAPA Terrorist Organisation Listing",
-        "source": "Indian Cooperative"
+        "title": "Adani Enterprises sees Rs 2,498 crore promoter group share deal",
+        "source": "The Federal"
       },
       {
-        "title": "Steamhouse India Secures ₹311 Crore EPC Deal For Himachal Pradesh Facility",
-        "source": "Sahi"
+        "title": "Muthoot FinCorp wins Team India title rights in ₹150 crore BCCI deal",
+        "source": "sports.economictimes.indiatimes.com"
       },
       {
-        "title": "IRCTC’s Q3 net profit rises 15.5 pc to Rs 395 crore",
-        "source": "DD News"
+        "title": "Electronics Mart India FY26 Results: Revenue up 6.7% to ₹7,183 crore",
+        "source": "scanx.trade"
       },
       {
-        "title": "BCCI inks Rs 150 crore deal with Muthoot FinCorp for title sponsorship of Team India matches",
-        "source": "The Economic Times"
+        "title": "Dr Lal PathLabs expands advanced diagnostics portfolio with genomics buy",
+        "source": "Business Standard"
       }
     ],
     "geopolitics": [
       {
-        "title": "Trade deal between India and US done & dusted: Piyush Goyal",
+        "title": "India left more exposed to Trump's 100% oil threat as China gets tariff breather",
         "source": "The Economic Times"
-      },
-      {
-        "title": "India-US trade pact ‘done and dusted’, says Piyush Goyal",
-        "source": "BusinessLine"
-      },
-      {
-        "title": "Is Trump’s 100% tariff threat on India ‘leverage to push through a trade deal’? Expert weighs in",
-        "source": "Livemint"
-      },
-      {
-        "title": "India accelerates trade deals with Canada, Mexico amid Trump tariff pressures",
-        "source": "ET Edge Insights"
-      },
-      {
-        "title": "New FTAs provide comfort to invest in global supply chains in India: Commerce Secretary Rajesh Agarwal",
-        "source": "manufacturing.economictimes.indiatimes.com"
       }
     ],
     "world_60": [
       {
-        "title": "Oil prices slip 1% as traders hope for US-Iran truce amid fresh attacks on Saudi pipeline",
+        "title": "India reserves third-party rights in Russia-EU CBAM trade dispute in WTO: Official",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "Wall Street edges higher as AI stocks gain, oil prices ease; Dow up 177 points, S&P 500 gains 0.2%",
         "source": "The Times of India"
       },
       {
-        "title": "Silver Price Forecast: XAG/USD remains steady near $94.00 as oil prices ease",
-        "source": "FXStreet"
+        "title": "A volatile week for crude ends with lower prices",
+        "source": "Oil & Gas Journal"
       },
       {
-        "title": "US-Iran Talks Show Signs of Progress, Oil Prices Surge; Fed Officials Strike Hawkish Tone, Lifting October Rate Hike Odds",
-        "source": "finance.biggo.com"
-      },
-      {
-        "title": "Global stocks mostly fall as oil prices and bond yields rise",
-        "source": "gulfnews.com"
-      },
-      {
-        "title": "S&P 500 ends marginally lower as investors focus on US-Iran war",
-        "source": "Reuters"
+        "title": "Gold snaps four-session losing streak; rises Rs 200 per 10 gm on weak US dollar, easing oil price",
+        "source": "Daily Excelsior"
       }
     ],
     "ipo_desk": [
       {
-        "title": "German Green Steel IPO opens today: GMP indicates 20% potential listing gain. Should you subscribe?",
-        "source": "The Economic Times"
+        "title": "German Green Steel IPO Day 1 Subscription Status: 1.82x",
+        "source": "HDFC Sky"
       },
       {
-        "title": "Moneyview IPO: GMP Today, Price, Subscription, Allotment, Listing Date and Key Details",
-        "source": "India Infoline"
+        "title": "India's Elevate Campuses $219 million IPO fully subscribed on final day of bidding",
+        "source": "reuters.com"
+      },
+      {
+        "title": "Orient Cables IPO Subscription Status Day 1: Issue Subscribed 2.07 Times",
+        "source": "HDFC Sky"
       }
     ],
-    "market_data": "Yahoo Finance (computed, session SEP 24)",
+    "market_data": "Yahoo Finance (computed, session SEP 25)",
     "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
   }
 }
