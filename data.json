@@ -1,40 +1,40 @@
 {
   "updated_ist": "2026-09-26",
   "cover": {
-    "big_story_teaser": "India and US near historic trade pact as deal reaches over 90% completion.",
-    "venture_teaser": "Hospitality startup Dextr AI raises $6.7 million in seed round.",
-    "market_watch_teaser": "Sensex gains 0.43% as Nifty hits 23,140.50",
-    "daily_brief_teaser": "RBI updates reserves, economic bulletin, and bank strike news",
-    "inbrief_2": "Forex reserves fall $14.88 billion",
-    "inbrief_3": "RBI bulletin highlights economy",
-    "inbrief_4": "Why bank unions are striking",
-    "inbrief_1": "Trump's 100% Oil Tariff Threat"
+    "big_story_teaser": "RBI Bulletin: GDP grows 7.8% as forex reserves slide $14.9 billion",
+    "venture_teaser": "Hospitality AI startup Dextr AI secures $6.7 million seed round",
+    "market_watch_teaser": "Sensex gains 0.43% as Nifty closes up at 23,140.50",
+    "daily_brief_teaser": "RBI bulletin highlights resilient economy despite headwinds",
+    "inbrief_2": "Economy resilient amid West Asia risks",
+    "inbrief_3": "Economy resilient with downside",
+    "inbrief_4": "India Equity Indices on Losing",
+    "inbrief_1": "India-US Trade Pact Over 90% Done"
   },
   "big_story": {
-    "headline": "India-US Trade Deal Nearing Completion",
-    "subhead": "BILATERAL TIES TO REACH NEW HEIGHTS AS HISTORIC TRADE PACT CROSSES 90 PERCENT MARK",
+    "headline": "RBI Bulletin: Growth Amid Market Stress",
+    "subhead": "GDP TOUCHES 7.8% AS FOREX RESERVES DROP AND EQUITIES SLIP FOR A SEVENTH WEEK",
     "paragraphs": [
-      "Union Commerce Minister Piyush Goyal announced that the India-US trade deal is almost done and dusted, with an American official confirming the pact is over 90% complete. The bilateral accord promises to unleash another level of economic ties between the two nations despite recent market uncertainties. However, Indian negotiators continue to address key tariff friction points during ongoing high-level diplomatic dialogues.",
-      "Foreign Secretary Vikram Misri raised concerns over recent US tariff moves during high-level talks with the US undersecretary to safeguard Indian export interests. Meanwhile, global trade dynamics remain complex as shifting policy frameworks and regional tensions test cross-border commercial stability. Indian officials are working to lock in favorable conditions for domestic manufacturers and service exporters before final signatures.",
-      "A completed pact could significantly boost cross-border commerce across key industrial sectors and lower trade barriers for Indian exporters. As New Delhi plans strategic multi-nation visits, market analysts are closely watching how the final non-tariff provisions are resolved. A signed agreement would mark a major diplomatic and commercial win for Indian international trade."
+      "The Reserve Bank of India's latest bulletin highlights a resilient Indian economy registering 7.8% GDP growth despite persistent global headwinds and West Asia conflict risks. However, foreign exchange reserves plummeted by $14.88 billion in a single week to $765.90 billion for the week ended September 18. Meanwhile, Indian equity indices registered a seventh straight weekly loss, marking the longest Nifty losing streak since the Covid pandemic.",
+      "The market divergence is striking as RBI Deputy Governor Poonam Gupta noted that the bond market performed well while equities faced continuous selling pressure. Rupee gains backed by foreign currency non-resident deposits reversed in September due to elevated crude oil prices. Global trade tensions, inflation concerns, and geopolitical friction in West Asia continue to present downside risks to domestic financial stability.",
+      "Looking ahead, central bank officials remain optimistic that equities will become attractive again as domestic macroeconomic fundamentals stay robust. Investors are closely monitoring crude oil price movements and global interest rate bets that impact foreign capital flows. The coming weeks will reveal if bond market strength can translate into broader financial market stabilization."
     ],
-    "pullbox": "With over 90% of the India-US trade deal agreed upon, both nations are on the verge of a historic economic agreement despite ongoing tariff discussions.",
+    "pullbox": "While India maintains a solid 7.8% GDP growth rate, a $14.88 billion drop in forex reserves and a seven-week equity downturn highlight severe global headwinds.",
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Piyush_Goyal_crop.jpg/330px-Piyush_Goyal_crop.jpg",
-      "alt": "Piyush Goyal"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+      "alt": "Reserve Bank of India"
     }
   },
   "explains": {
-    "title": "What is a Bilateral Trade Agreement?",
+    "title": "What are Foreign Exchange Reserves?",
     "paragraphs": [
-      "A bilateral trade agreement is an economic deal between two sovereign nations to reduce tariffs, eliminate quotas, and minimize import barriers. It establishes structured regulatory framework to facilitate smoother movement of goods, services, and investments across national borders.",
-      "In practice, these treaties lower import duties for businesses, making exported products more competitive in foreign markets. They also set standard legal guidelines for intellectual property protection, investment security, and trade dispute resolution."
+      "Foreign exchange reserves are foreign assets held by a central bank, such as the Reserve Bank of India, in foreign currencies. These reserves include foreign banknotes, treasury bills, and government securities used to meet international financial obligations.",
+      "In practice, strong reserves allow a nation to absorb global economic shocks and support its domestic currency during foreign exchange volatility. When import costs rise or foreign capital exits, central banks draw on these reserves to maintain exchange rate stability."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Hospitality AI startup Dextr AI has secured $6.7 million in a seed funding round led by Elevation Capital. The company specializes in building autonomous AI agents tailored specifically for the hotel and hospitality sector.",
-      "The fresh capital will be deployed to expand Dextr AI's suite of operational agents and accelerate market adoption among hotel chains. Elevation Capital's backing underscores growing institutional confidence in domain-specific artificial intelligence platforms."
+      "Hospitality AI startup Dextr AI has raised $6.7 million in a seed funding round led by Elevation Capital. The company builds automated AI agents specifically tailored for hotels to manage guest operations and digital workflows.",
+      "The fresh capital will be deployed to expand its specialized AI agents across international hotel chains and upgrade technology infrastructure. The funding comes as Indian tech startups raised $10.3 billion in 2026, with vertical AI applications drawing larger investor cheques."
     ]
   },
   "market_watch": {
@@ -122,15 +122,15 @@
     "ipo_desk": [
       {
         "name": "German Green Steel",
-        "note": "IPO Day 1 subscription reaches 1.82x"
-      },
-      {
-        "name": "Elevate Campuses",
-        "note": "₹219 crore IPO fully subscribed"
+        "note": "IPO Day 1 subscription status 1.82x"
       },
       {
         "name": "Orient Cables",
-        "note": "Issue subscribed 2.07 times on Day 1"
+        "note": "IPO Day 1 issue subscribed 2.07 times"
+      },
+      {
+        "name": "SRIT India",
+        "note": "IPO details and grey market premium update"
       }
     ]
   },
@@ -180,42 +180,42 @@
     "alternatives": [
       {
         "name": "Embassy REIT",
-        "price": "₹439.77",
-        "day": "▲ 0.53%",
-        "week": "▲ 0.07%",
-        "dir": "up",
-        "dir_week": "up"
+        "price": "₹437.66",
+        "day": "▼ 0.48%",
+        "week": "▼ 0.77%",
+        "dir": "down",
+        "dir_week": "down"
       },
       {
         "name": "Nexus Select REIT",
-        "price": "₹166.42",
-        "day": "▲ 0.13%",
-        "week": "▲ 0.10%",
-        "dir": "up",
-        "dir_week": "up"
+        "price": "₹165.94",
+        "day": "▼ 0.29%",
+        "week": "▼ 0.25%",
+        "dir": "down",
+        "dir_week": "down"
       },
       {
         "name": "Mindspace REIT",
-        "price": "₹504.59",
-        "day": "▲ 0.47%",
-        "week": "▲ 1.10%",
+        "price": "₹508.08",
+        "day": "▲ 0.69%",
+        "week": "▲ 0.49%",
         "dir": "up",
         "dir_week": "up"
       },
       {
         "name": "Brookfield REIT",
-        "price": "₹336.98",
-        "day": "▼ 0.56%",
-        "week": "▼ 0.50%",
-        "dir": "down",
+        "price": "₹337.99",
+        "day": "▲ 0.30%",
+        "week": "▼ 0.17%",
+        "dir": "up",
         "dir_week": "down"
       },
       {
         "name": "PowerGrid InvIT",
-        "price": "₹101.94",
-        "day": "▲ 0.46%",
-        "week": "▲ 0.33%",
-        "dir": "up",
+        "price": "₹101.91",
+        "day": "▼ 0.03%",
+        "week": "▲ 0.53%",
+        "dir": "down",
         "dir_week": "up"
       }
     ],
@@ -308,72 +308,80 @@
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "India | Forex Reserves",
-      "headline": "India's Forex Reserves Fall to $765.90 Billion",
+      "kicker": "India | Economy",
+      "headline": "RBI bulletin: Indian economy performed well",
       "paragraphs": [
-        "India's foreign exchange reserves saw a significant contraction, dropping by $14.88 billion to stand at $765.90 billion according to the latest figures released by the Reserve Bank of India. Such fluctuations in the central bank reserves often reflect broader shifts in external sector dynamics and central bank interventions in currency markets.",
-        "Market participants continue to monitor reserve levels closely as the country navigates various global headwinds and currency pressures. The drop highlights the dynamic nature of managing external balances amidst shifting macroeconomic conditions."
+        "The Reserve Bank of India has released its latest bulletin indicating that the Indian economy performed well despite various global headwinds. The financial and external sectors continue to draw strength from a resilient domestic economic framework.",
+        "Policymakers noted that steady domestic activity has helped cushion the broader system against international shocks and external market volatility."
       ],
       "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
-        "alt": "Reserve Bank of India"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Tower_and_building_of_Reserve_Bank_of_India%2C_Mumbai_04.jpg/960px-Tower_and_building_of_Reserve_Bank_of_India%2C_Mumbai_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Tower and building of Reserve Bank of India, Mumbai 04"
       }
     },
     "story_2": {
-      "kicker": "India | Central Banking",
-      "headline": "RBI Bulletin Highlights Domestic Economic Resilience",
+      "kicker": "Global | Geopolitics",
+      "headline": "Economy resilient with downside risks",
       "paragraphs": [
-        "The Reserve Bank of India released its latest bulletin indicating that India's financial and external sectors continue to draw considerable strength from a resilient domestic economy. Despite external uncertainties, domestic activity has provided a solid cushion for overall growth.",
-        "The central bank report underscores the importance of domestic drivers in sustaining economic momentum. Policymakers remain vigilant as they assess both domestic performance and international risk factors."
+        "According to the RBI bulletin, the domestic economy remains resilient overall, though notable downside risks persist. These risks include ongoing tensions and conflicts emanating from the West Asia region.",
+        "Analysts continue to monitor these geopolitical flashpoints closely for potential spillover effects on commodity prices and international supply chains."
       ]
     },
     "story_3": {
-      "kicker": "Banking | Labor",
-      "headline": "Bank Unions Strike as Branches Prepare for Sunday Opening",
+      "kicker": "Markets | Equities",
+      "headline": "India Equity Indices on Losing Streak",
       "paragraphs": [
-        "Bank unions have initiated strikes over key demands including a five-day work week and performance-linked incentive schemes, even as administrative arrangements are made to keep certain branches open on Sunday. The developments highlight ongoing discussions between union leaders and institutional management regarding working conditions."
+        "India equity indices have extended their downward pressure, marking a losing streak for the seventh straight week. Market participants continue to weigh shifting macroeconomic signals against prevailing valuations."
       ]
     },
     "also_today": {
       "items": [
-        "Adani Enterprises witnesses a promoter group share deal valued at ₹2,498 crore.",
-        "Muthoot FinCorp secures Team India title rights in a ₹150 crore BCCI sponsorship deal.",
-        "Dr Lal PathLabs expands its advanced diagnostics portfolio through a genomics acquisition.",
-        "Electronics Mart India reports revenue up 6.7% to ₹7,183 crore for the financial year."
+        "Forex reserves fall by USD 14.88 billion to USD 765.90 billion in the week ended September 18.",
+        "Adani Enterprises sees Rs 2,498 crore promoter group share deal completed.",
+        "Muthoot FinCorp wins Team India title rights in a 150 crore BCCI deal.",
+        "India-US trade deal is 90%-plus done according to an American official."
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India | Oil & Tariffs",
-    "headline": "India Exposed to Trump's 100% Oil Threat",
+    "kicker": "India x US | Trade Deal",
+    "headline": "India-US Trade Pact Over 90% Complete",
     "paragraphs": [
-      "India finds itself increasingly exposed to US President Donald Trump's threat of 100% tariffs on countries purchasing Russian crude oil. While China recently received a tariff breather from Washington, New Delhi has not secured a similar exemption. This leaves Indian refiners in a complex situation as they continue relying on Russian crude to meet domestic energy requirements.",
-      "The potential enforcement of these steep tariffs presents a direct risk to India's trade and energy security. If imposed, secondary tariffs could sharply increase crude procurement costs and disrupt supply chains for major domestic energy firms. Indian policymakers now face the delicate task of protecting fuel affordability while maintaining vital diplomatic ties with Washington."
+      "The India-US trade pact is over 90% complete and poised to unleash another level of bilateral ties, according to an American official. Union Commerce Minister Piyush Goyal stated that the deal is almost done and dusted. Meanwhile, Foreign Secretary Vikram Misri flagged tariff moves during his discussions with the US undersecretary.",
+      "While both nations are closing in on an agreement, unresolved tariff issues remain a vital topic of negotiations. Resolving these final points will determine how smoothly cross-border commerce moves forward. Businesses in both countries are watching closely as finalized terms could significantly boost trade and investment flows."
     ],
     "world_60": [
-      "Wall Street edges higher as AI stocks gain and Dow climbs 177 points.",
-      "Global crude oil prices ease after ending a volatile week.",
-      "Gold rises Rs 200 per 10 gm as US dollar slips and oil eases.",
-      "India reserves third-party rights in Russia-EU CBAM trade dispute at WTO."
+      "India eases paperwork for UK imports under preferential tariff deal",
+      "Oil prices slide 2% as US and Iran explore talks to avoid conflict",
+      "Gold rises Rs 200 per 10 gm as weak US dollar and lower oil prices offer support",
+      "Dow surges 478 points as US-Iran talks show progress and oil prices pull back"
     ],
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg",
-      "alt": "Donald Trump"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Piyush_Goyal_crop.jpg/330px-Piyush_Goyal_crop.jpg",
+      "alt": "Piyush Goyal"
     }
   },
   "sources": {
     "big_story": [
       {
-        "title": "India-US trade pact to 'unleash another level' of ties, says American official; reveals deal is '90%-plus'",
-        "source": "The Economic Times"
+        "title": "Bond market performed well, equities less so: RBI Deputy Governor Poonam Gupta on what lies ahead",
+        "source": "Livemint"
       },
       {
-        "title": "India-US trade deal almost done and dusted: Piyush Goyal",
-        "source": "Fibre2Fashion"
+        "title": "India's forex reserves fall by USD 14.88 billion to USD 765.90 billion in week ended September 18: RBI",
+        "source": "ChiniMandi"
       },
       {
-        "title": "Foreign secretary Vikram Misri flags tariff move in talks with US undersecretary",
-        "source": "The Economic Times"
+        "title": "India's Equity Indices on a Losing Streak for Seventh Straight Week",
+        "source": "TradingView"
+      },
+      {
+        "title": "RBI Bulletin: 7.8% GDP Growth, But Forex Reserves Slide $14.9 Billion",
+        "source": "NiftyTrader"
+      },
+      {
+        "title": "Longest Nifty Losing Streak Since Covid",
+        "source": "Rediff"
       }
     ],
     "venture_vault": [
@@ -388,23 +396,27 @@
     ],
     "daily_brief_1": [
       {
-        "title": "India’s forex reserves fall $14.88 billion to $765.90 billion: RBI",
-        "source": "thehindubusinessline.com"
+        "title": "RBI bulletin: Indian economy performed well despite global headwinds",
+        "source": "Mid-Day"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "India's Financial, External Sectors Continue To Draw Strength From Resilient Domestic Economy: RBI Bulletin",
-        "source": "etvbharat.com"
+        "title": "Economy resilient with downside risks from West Asia conflict: RBI bulletin",
+        "source": "thehindu.com"
       }
     ],
     "daily_brief_3": [
       {
-        "title": "Why bank unions are striking — and why banks will open on Sunday",
-        "source": "The Indian Express"
+        "title": "India's Equity Indices on a Losing Streak for Seventh Straight Week",
+        "source": "TradingView"
       }
     ],
     "also_today": [
+      {
+        "title": "India's forex reserves fall by USD 14.88 billion to USD 765.90 billion in week ended September 18: RBI",
+        "source": "ChiniMandi"
+      },
       {
         "title": "Adani Enterprises sees Rs 2,498 crore promoter group share deal",
         "source": "The Federal"
@@ -414,36 +426,40 @@
         "source": "sports.economictimes.indiatimes.com"
       },
       {
-        "title": "Electronics Mart India FY26 Results: Revenue up 6.7% to ₹7,183 crore",
-        "source": "scanx.trade"
-      },
-      {
-        "title": "Dr Lal PathLabs expands advanced diagnostics portfolio with genomics buy",
-        "source": "Business Standard"
+        "title": "India-US trade pact to 'unleash another level' of ties, says American official; reveals deal is '90%-plus'",
+        "source": "The Economic Times"
       }
     ],
     "geopolitics": [
       {
-        "title": "India left more exposed to Trump's 100% oil threat as China gets tariff breather",
+        "title": "India-US trade pact to 'unleash another level' of ties, says American official; reveals deal is '90%-plus'",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "India-US trade deal almost done and dusted: Piyush Goyal",
+        "source": "Fibre2Fashion"
+      },
+      {
+        "title": "Foreign secretary Vikram Misri flags tariff move in talks with US undersecretary",
         "source": "The Economic Times"
       }
     ],
     "world_60": [
       {
-        "title": "India reserves third-party rights in Russia-EU CBAM trade dispute in WTO: Official",
+        "title": "India-UK trade deal: CBIC eases paperwork for UK imports seeking preferential tariffs",
         "source": "The Economic Times"
       },
       {
-        "title": "Wall Street edges higher as AI stocks gain, oil prices ease; Dow up 177 points, S&P 500 gains 0.2%",
-        "source": "The Times of India"
-      },
-      {
-        "title": "A volatile week for crude ends with lower prices",
-        "source": "Oil & Gas Journal"
+        "title": "Oil prices slide about 2% as US, Iran explore path out of war",
+        "source": "The Economic Times"
       },
       {
         "title": "Gold snaps four-session losing streak; rises Rs 200 per 10 gm on weak US dollar, easing oil price",
         "source": "Daily Excelsior"
+      },
+      {
+        "title": "US-Iran Talks Show Signs of Progress as Oil Prices Pull Back; Stocks Close Higher for the Week with Dow Surging 478 Points",
+        "source": "finance.biggo.com"
       }
     ],
     "ipo_desk": [
@@ -452,12 +468,24 @@
         "source": "HDFC Sky"
       },
       {
-        "title": "India's Elevate Campuses $219 million IPO fully subscribed on final day of bidding",
-        "source": "reuters.com"
+        "title": "German Green Steel IPO Fully Subscribed on Day 1",
+        "source": "Rediff MoneyWiz"
       },
       {
         "title": "Orient Cables IPO Subscription Status Day 1: Issue Subscribed 2.07 Times",
         "source": "HDFC Sky"
+      },
+      {
+        "title": "SRIT India IPO Date, Review, Price, Allotment Details",
+        "source": "IPO Watch"
+      },
+      {
+        "title": "SRIT India Ltd IPO Date: Check Issue Date, Price, Lot size, Subscription, News and Details - Moneycontrol",
+        "source": "Moneycontrol.com"
+      },
+      {
+        "title": "SRIT India IPO GMP, Grey Market Premium Today",
+        "source": "IPO Watch"
       }
     ],
     "market_data": "Yahoo Finance (computed, session SEP 25)",
