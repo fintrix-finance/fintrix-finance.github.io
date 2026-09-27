@@ -1,40 +1,40 @@
 {
   "updated_ist": "2026-09-27",
   "cover": {
-    "big_story_teaser": "India's rural economy set for a massive transformation via GOBARdhan.",
-    "venture_teaser": "ByteAsk raises $1 million to build AI coding agents.",
-    "market_watch_teaser": "Sensex rises 0.43% to 73,895.74 while Nifty gains 0.34% in Friday's close",
-    "daily_brief_teaser": "RBI rate hike odds rise, Cochin Shipyard gets ₹5,000 Cr deal, US court blocks tariff",
-    "inbrief_2": "RBI MPC rate hike odds rise",
-    "inbrief_3": "Cochin Shipyard ₹5,000 Cr deal",
-    "inbrief_4": "US Court blocks import tariff",
-    "inbrief_1": "US-India Trade Deal Nears Final"
+    "big_story_teaser": "India's rural economy transforms with GOBARdhan economics",
+    "venture_teaser": "Ultraviolette Automotive raises 74 million euros for US launch",
+    "market_watch_teaser": "Sensex closed up 0.43% at 73,895.74 as markets shut for the weekend.",
+    "daily_brief_teaser": "Defence Index, Bamboo Economy, and Agriculture Sector updates.",
+    "inbrief_2": "Defence Index Fund info released",
+    "inbrief_3": "Bamboo economy for sustainable growth",
+    "inbrief_4": "New Era of Indian Agriculture",
+    "inbrief_1": "US-India Tariffs Ruled Illegal"
   },
   "big_story": {
-    "headline": "Rural India's Green Shift",
-    "subhead": "HOW SUSTAINABLE ENERGY INITIATIVES ARE RESHAPING THE RURAL ECONOMY",
+    "headline": "Rural India's Green Turn",
+    "subhead": "HOW RURAL ECONOMICS AND SUSTAINABLE GROWTH ARE REDEFINING INDIA'S HORIZONS.",
     "paragraphs": [
-      "India is rapidly expanding its green infrastructure with major milestones like the foundation stone laid for the country's first port-based e-methanol plant. Alongside this industrial push, initiatives like GOBARdhan are stepping in to fundamentally change the economics of India's rural economy. By focusing on sustainable fuel solutions and waste-to-wealth conversion, these projects open up brand new financial streams for agricultural regions.",
-      "Rural areas have historically relied on traditional biomass and fossil fuel imports, exposing local livelihoods to volatile global energy prices. Clean energy interventions bridge this gap by decentralizing power production and utilizing local agricultural waste efficiently. This transition not only reduces carbon footprints but also creates local employment and enhances the overall financial resilience of rural households.",
-      "As these green projects scale up, they will likely attract significant capital from both public and private institutional investors looking for sustainable assets. Observers should watch how policy frameworks and local implementation align to turn these pilot initiatives into nationwide economic drivers. The success of these programs could redefine how India balances rapid industrial growth with rural prosperity."
+      "India is witnessing a major shift in how rural economics and sustainable growth intersect across different regions. Initiatives like GOBARdhan are stepping in to change the economic landscape of rural India fundamentally. At the same time, regional leaders are emphasizing that states like Maharashtra must build a bamboo economy to ensure long-term sustainable growth.",
+      "These developments highlight a broader push toward leveraging local resources and eco-friendly models to drive financial resilience. Sustainable growth is no longer just an environmental goal but a core economic strategy for rural communities and state planners alike. By turning agricultural and natural byproducts into viable commercial assets, rural stakeholders are unlocking new revenue streams.",
+      "As these green economic models take root, observers will be watching how policy execution matches local ambition. The success of these initiatives could serve as a blueprint for other regions seeking sustainable ways to boost rural incomes. Investors and policymakers should keep a close eye on how traditional rural sectors adapt to modern economic demands."
     ],
-    "pullbox": "Sustainable energy projects like GOBARdhan and e-methanol plants are bridging the gap between rural prosperity and India's green industrial future.",
+    "pullbox": "Sustainable growth is transitioning from an environmental talking point into a primary driver of rural economic transformation across India.",
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Biogas_plant.svg/960px-Biogas_plant.svg.png",
-      "alt": "Biogas"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+      "alt": "Reserve Bank of India"
     }
   },
   "explains": {
     "title": "What is GOBARdhan?",
     "paragraphs": [
-      "GOBARdhan is a comprehensive national initiative by the government designed to positively impact rural villages by converting cattle dung and organic waste into useful biogas, compressed biogas, and organic manure. The name stands for Galvanizing Organic Bio-Agro Resources Dhan.",
-      "In practice, the scheme incentivizes rural communities and enterprises to build community-level biogas plants that manage waste cleanly while generating valuable secondary products. This cuts down on chemical fertilizer dependence and provides clean cooking or vehicle fuel right where the waste is produced."
+      "GOBARdhan is an initiative designed to positively impact the economics of India's rural economy by converting waste into wealth. It focuses on managing and transforming cattle dung and organic waste into valuable resources like biogas and organic fertilizer.",
+      "In practice, the initiative helps rural households and communities generate clean energy while creating localized business opportunities. This dual benefit reduces dependence on external energy sources and keeps financial value within the rural ecosystem."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "ByteAsk has successfully raised $1 million in funding to build advanced AI coding agents specifically tailored for C and C++ development. The fresh capital will enable the startup to accelerate its product development and expand its technical team to meet rising demand.",
-      "As software engineering grows more complex, automated developer tools are attracting strong investor attention and backing. The founders are betting that specialized AI agents can drastically reduce debugging times and streamline legacy codebases for enterprise clients."
+      "Ultraviolette Automotive has made headlines by successfully raising 74 million euros in a fresh funding round. The electric vehicle startup is using this capital injection to plot its upcoming expansion into the United States market.",
+      "This strategic move marks a significant milestone for Indian electric vehicle innovators aiming to scale their footprint globally. Backed by strong investor confidence, the company's founders are betting on high-performance design to carve out space in competitive international markets."
     ]
   },
   "market_watch": {
@@ -121,16 +121,8 @@
     "close_label": "AS OF FRIDAY'S CLOSE, SEP 25",
     "ipo_desk": [
       {
-        "name": "Orient Cables India",
-        "note": "Subscribed 2.07x on Day 1"
-      },
-      {
-        "name": "Elevate Campuses",
-        "note": "$219 million issue fully subscribed"
-      },
-      {
-        "name": "SRIT India",
-        "note": "Upcoming mainboard issue tracks GMP"
+        "name": "Orient Cables",
+        "note": "2.07 times subscribed on day 1"
       }
     ]
   },
@@ -308,57 +300,57 @@
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "India | Monetary Policy",
-      "headline": "RBI October MPC Meet: Rate Hike Odds Rise",
+      "kicker": "Fund Watch",
+      "headline": "Invesco India Nifty India Defence Index Fund info",
       "paragraphs": [
-        "Economists warn that the odds of an interest rate hike at the Reserve Bank of India's upcoming October Monetary Policy Committee meeting are on the rise. The shift comes amid persistent global inflationary pressures and volatile energy markets affecting domestic forecasts.",
-        "Analysts suggest the central bank may prioritize inflation control to maintain long-term macroeconomic stability."
+        "The economic landscape continues to evolve with specialized fund offerings targeting key sectors of growth. Investors tracking industrial and strategic segments now have access to detailed fund information regarding the regular plan. Such index funds provide targeted exposure to manufacturers and technology providers within the broader ecosystem.",
+        "As portfolio diversification gains momentum among retail participants, thematic allocations offer distinct avenues for capital deployment. Observers note that structured products aligned with national security priorities attract consistent institutional and retail interest alike."
       ],
       "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
-        "alt": "Reserve Bank of India"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/New_York_Stock_Exchange_-_panoramio_%282%29.jpg/3840px-New_York_Stock_Exchange_-_panoramio_%282%29.jpg",
+        "alt": "Stock exchange"
       }
     },
     "story_2": {
-      "kicker": "India | Defence Sector",
-      "headline": "Cochin Shipyard Soars on ₹5,000 Cr Deal",
+      "kicker": "Sustainable Growth",
+      "headline": "Maharashtra must build bamboo economy",
       "paragraphs": [
-        "Shares of Cochin Shipyard surged 7% following the announcement of a massive ₹5,000 crore defence order. The substantial deal highlights expanding domestic manufacturing capabilities and government defence capital expenditure.",
-        "Investor sentiment rallied strongly behind the shipbuilder following the contract win."
+        "Regional development discussions have increasingly turned toward sustainable resource management and alternative green industries. Leadership emphasizes that cultivating specific renewable materials can significantly boost regional employment and industrial output. This strategic pivot aims to harmonize ecological preservation with commercial viability.",
+        "Proponents argue that structured investments in eco-friendly supply chains will strengthen local enterprises. By integrating traditional cultivation methods with modern processing techniques, the state positions itself at the forefront of green economic initiatives."
       ]
     },
     "story_3": {
-      "kicker": "Global | Trade Law",
-      "headline": "US Court Strikes Down 10% Import Tariff",
+      "kicker": "Agriculture",
+      "headline": "The New Era of Indian Agriculture and Allied Sectors",
       "paragraphs": [
-        "The US Court of International Trade declared the Trump administration's proposed 10% universal tariff on imports from India and other countries illegal. The ruling offers significant legal relief to Indian exporters."
+        "Agricultural supply chains and allied industries are undergoing a profound technological transformation to enhance productivity and farmer incomes. Government initiatives focus on modernizing infrastructure and integrating digital tools across rural markets to unlock greater value."
       ]
     },
     "also_today": {
       "items": [
-        "GIFT Nifty breaks $23 billion mark as trading activity hits a fresh high.",
-        "IndiGrid to acquire Luhri Power Transmission for up to ₹1,336 crore.",
-        "Bengaluru tech startups raise $4.4 billion, outpacing five rival cities combined.",
-        "RR Kabel enters optical fibre cables with a ₹77 crore acquisition."
+        "Cochin Shipyard surges 7% after bagging massive ₹5,000 Cr defence deal",
+        "India's consumer durables market to touch ₹3-3.25 trillion by 2030",
+        "IIT Madras-backed Unicorn India Ventures raises ₹450 crore",
+        "Wheels India allots 11.97 lakh shares via QIP at ₹2,088, raises ₹249.99 crore"
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India x US | Trade Deal",
-    "headline": "India and US Move Towards Bilateral Trade Deal",
+    "kicker": "India x US | Tariffs",
+    "headline": "US Court Voids 10% Universal Tariff on India",
     "paragraphs": [
-      "India and the United States are moving decisively towards finalising a landmark bilateral trade deal, according to Sergio Gor. The US State Department noted that the agreement is set to unleash another level of US-India relations. Both nations are aiming to deepen their economic alignment and strengthen commercial ties across key sectors.",
-      "As official negotiators work through the remaining terms, market participants are watching for specific provisions on market access and tariff structures. A finalised deal could significantly enhance bilateral investment flows and provide long-term stability for cross-border trade. Finalising these terms remains critical for cementing strategic economic ties."
+      "In a major legal development for international trade, the US Court of International Trade has declared the Trump administration's 10 percent universal tariff levied on imports from India and other countries illegal. This unexpected ruling directly impacts the cost structure of cross-border commerce and brings immediate relief to exporters navigating complex protectionist measures. For months, trade dynamics between Washington and New Delhi have been strained by ongoing policy shifts, making this judicial intervention a critical turning point.",
+      "While the court ruling provides breathing room, the broader bilateral trade negotiations and tariff frameworks remain dynamic and unsettled. Business leaders and market analysts are closely watching how the administration responds to the legal setback as discussions toward finalising a bilateral trade deal continue. Understanding these shifting trade barriers is essential for assessing supply chain stability and export revenue potential in the coming quarters."
     ],
     "world_60": [
-      "US and China agree tariff cuts on $30 billion goods and start AI dialogue.",
-      "Fed holds interest rates steady as US inflation hits a 3-year high.",
-      "China's gold imports top 1,000 tonnes as Fed hawks cap price gains.",
-      "US Treasury yields hit 5% as investors sell 900B won in ETFs."
+      "Global oil inventories are depleted as next price spikes threaten economies.",
+      "Federal Reserve holds interest rates steady as US inflation hits three-year high.",
+      "China cuts gas price hikes while global markets react to changing inflation data.",
+      "Gold forecast remains under scrutiny as import duties weigh on Indian demand."
     ],
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/US_Capitol_east_side.JPG/3840px-US_Capitol_east_side.JPG",
-      "alt": "United States Capitol"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
+      "alt": "New Delhi"
     }
   },
   "sources": {
@@ -368,100 +360,80 @@
         "source": "BusinessLine"
       },
       {
-        "title": "Foundation stone laid for India's first port-based e-methanol plant",
-        "source": "Business Standard"
+        "title": "Maharashtra must build bamboo economy for sustainable growth: Governor Varma",
+        "source": "ThePrint"
       }
     ],
     "venture_vault": [
       {
-        "title": "ByteAsk raises $1 million in funding to build AI coding agents for C and C++",
-        "source": "Indian Startup News"
+        "title": "Ultraviolette Automotive raises €74 million, plots U.S. launch",
+        "source": "electrive.com"
       }
     ],
     "daily_brief_1": [
       {
-        "title": "Odds of rate hike at RBI's October MPC meet on the rise: Economists",
-        "source": "DT Next"
+        "title": "Invesco India Nifty India Defence Index Fund - Regular Plan Fund info",
+        "source": "The Economic Times"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "Cochin Shipyard surges 7% after bagging massive ₹5,000 Cr defence deal",
-        "source": "Alice Blue"
+        "title": "Maharashtra must build bamboo economy for sustainable growth: Governor Varma",
+        "source": "ThePrint"
       }
     ],
     "daily_brief_3": [
+      {
+        "title": "The New Era of Indian Agriculture and Allied Sectors",
+        "source": "PIB"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "Cochin Shipyard surges 7% after bagging massive ₹5,000 Cr defence deal",
+        "source": "Alice Blue"
+      },
+      {
+        "title": "India's consumer durables market to touch ₹3-3.25 trillion by 2030",
+        "source": "Business Standard"
+      },
+      {
+        "title": "IIT Madras-backed Unicorn India Ventures raises ₹450 crore; to complete the fund at ₹1,000 crore by December",
+        "source": "thehindu.com"
+      },
+      {
+        "title": "Wheels India allots 11.97 lakh shares via QIP at ₹2,088, raises ₹249.99 crore",
+        "source": "scanx.trade"
+      }
+    ],
+    "geopolitics": [
       {
         "title": "US Court of International Trade declares Trump administration’s 10% universal tariff levied on imports from India & other countries illegal | Akashvani News",
         "source": "News On AIR"
       }
     ],
-    "also_today": [
-      {
-        "title": "GIFT Nifty breaks the $23 billion mark as trading activity hits a fresh high",
-        "source": "timesofindia.indiatimes.com"
-      },
-      {
-        "title": "RR Kabel enters optical fibre cables with ₹77 crore acquisition",
-        "source": "Manufacturing Today India"
-      },
-      {
-        "title": "IndiGrid to acquire Luhri Power Transmission for up to ₹1,336 crore",
-        "source": "energy.economictimes.indiatimes.com"
-      },
-      {
-        "title": "Bengaluru tech startups raise $4.4 billion, outpace 5 rival cities combined",
-        "source": "Moneycontrol.com"
-      }
-    ],
-    "geopolitics": [
-      {
-        "title": "India, US moving decisively towards finalising bilateral trade deal: Sergio Gor",
-        "source": "DD News"
-      },
-      {
-        "title": "Trade deal is going to unleash another level of US-India relations: State Department",
-        "source": "Metro Vaartha"
-      }
-    ],
     "world_60": [
       {
-        "title": "US, China agree tariff cuts on $30 billion goods, launch AI dialogue",
-        "source": "India Today"
+        "title": "Global Oil Inventories Depleted, Next Price Spike Could Roil Economies, Markets",
+        "source": "EnergyNow.com"
+      },
+      {
+        "title": "Gold forecast: XAU/USD breakout needs confirmation",
+        "source": "FOREX.com"
+      },
+      {
+        "title": "Gold Imports in India: Kotak Lowers FY2027 Forecast as Prices and Import Duty Weigh on Demand",
+        "source": "Sangri Today"
       },
       {
         "title": "Fed holds interest rates steady as inflation hits 3-year high",
         "source": "ABC News - Breaking News, Latest News and Videos"
-      },
-      {
-        "title": "China's Gold Imports Top 1,000 Tonnes as Fed Hawks Keep a Lid on Prices",
-        "source": "AD HOC NEWS"
-      },
-      {
-        "title": "U.S. Treasury Yields Hit 5% as Investors Sell 900B Won in ETFs",
-        "source": "조선일보"
       }
     ],
     "ipo_desk": [
       {
-        "title": "Orient Cables India Ltd IPO Date: Check Issue Date, Price, Lot size, Subscription, News and Details - Moneycontrol",
-        "source": "Moneycontrol.com"
-      },
-      {
         "title": "Orient Cables IPO Subscription Status Day 1: Issue Subscribed 2.07 Times",
         "source": "HDFC Sky"
-      },
-      {
-        "title": "India's Elevate Campuses $219 million IPO fully subscribed on final day of bidding",
-        "source": "Reuters"
-      },
-      {
-        "title": "SRIT India IPO Date, Review, Price, Allotment Details",
-        "source": "ipowatch.in"
-      },
-      {
-        "title": "SRIT India IPO GMP, Grey Market Premium Today",
-        "source": "ipowatch.in"
       }
     ],
     "market_data": "Yahoo Finance (computed, session AS OF FRIDAY'S CLOSE, SEP 25)",
