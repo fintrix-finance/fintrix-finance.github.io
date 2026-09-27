@@ -7,6 +7,12 @@ the Big Story, Finnexus Explains, Venture Vault, Market Watch, the Daily Brief
 and the Geopolitics page. Only the Credits / authors page stays fixed.
 The website (index.html) reads data.json when it loads.
 
+On days the Indian market is shut (weekends and NSE trading holidays - see
+trading_calendar.py) the issue still publishes with that day's date: every
+news section refreshes as usual and the market sections carry the last
+session's close, labelled with that session's date so nothing reads as stale
+or as a live quote.
+
 Where the content comes from (all free, no paid tiers):
   * Market Watch NUMBERS come straight from Yahoo Finance's public chart feed
     and are computed here in Python. The AI never writes a number on that page.
@@ -57,6 +63,9 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
+
+from trading_calendar import (indian_trading_day, last_trading_day,
+                            asof_close_label)
 
 IST = timezone(timedelta(hours=5, minutes=30))
 TODAY = datetime.now(IST)
@@ -503,6 +512,7 @@ def market_data():
 
     mw["date_label"] = india_date.strftime("%b %Y").upper()
     mw["close_label"] = "CLOSE OF %s %d" % (india_date.strftime("%b").upper(), india_date.day)
+    mw["session_date"] = india_date.isoformat()
 
     summary_lines = ["Session date: %s" % india_date.isoformat()]
     for group in ("indian", "asian", "european", "global"):
@@ -725,6 +735,7 @@ def data_desk():
     desk["date_label"] = nifty_date.strftime("%b %Y").upper() if nifty_date else TODAY.strftime("%b %Y").upper()
     cd = nifty_date or TODAY.date()
     desk["close_label"] = "CLOSE OF %s %d" % (cd.strftime("%b").upper(), cd.day)
+    desk["session_date"] = cd.isoformat()
     desk["nav_label"] = "NAVS AS OF %s %d" % (latest_nav.strftime("%b").upper(), latest_nav.day)
     return desk
 
@@ -1224,7 +1235,7 @@ def validate(d):
         fail("missing 'market_watch'")
     if not is_str(mw.get("date_label"), 3, 20):
         fail("market_watch.date_label bad")
-    if not is_str(mw.get("close_label"), 3, 30):
+    if not is_str(mw.get("close_label"), 3, 35):
         fail("market_watch.close_label bad")
     for group in ("indian", "asian", "european", "global"):
         rows = mw.get(group)
@@ -1279,7 +1290,7 @@ def validate(d):
         fail("missing 'data_desk'")
     if not is_str(dd.get("date_label"), 3, 20):
         fail("data_desk.date_label bad")
-    if not is_str(dd.get("close_label"), 3, 30):
+    if not is_str(dd.get("close_label"), 3, 35):
         fail("data_desk.close_label bad")
     if not is_str(dd.get("nav_label"), 3, 30):
         fail("data_desk.nav_label bad")
@@ -1341,6 +1352,39 @@ def validate(d):
         fail("cover.inbrief_1 (%r) does not match the geopolitics story" % cover.get("inbrief_1"))
 
 
+# ------------------------------------------------ non-trading-day carry-forward
+
+def load_previous_data():
+    """The existing data.json, if it exists and has the market sections."""
+    try:
+        with open(DATA_FILE, encoding="utf-8") as f:
+            d = json.load(f)
+        if isinstance(d, dict) and isinstance(d.get("market_watch"), dict) \
+                and isinstance(d.get("data_desk"), dict):
+            return d
+    except (OSError, ValueError):
+        pass
+    return None
+
+
+def carried_market_summary(mw, session_date, reason):
+    """Market figures Gemini may cite on a closed day, with a shut-today note."""
+    lines = ["NOTE: Indian markets are CLOSED today (%s). The figures below are "
+             "the last completed trading session (%s), and the page labels them "
+             "exactly that way. The market_watch_teaser must present them as "
+             "that session's close (markets shut today), never as today's live "
+             "trading." % (reason, session_date.strftime("%A, %d %B %Y"))]
+    for group in ("indian", "asian", "european", "global"):
+        for row in mw.get(group) or []:
+            if isinstance(row, dict):
+                lines.append("%s: %s (%s)" % (row.get("name"), row.get("value"),
+                                              row.get("dir")))
+    lines.append("Top Nifty gainers: " + ", ".join(mw.get("winners") or []))
+    lines.append("Top Nifty losers: " + ", ".join(mw.get("losers") or []))
+    lines.append("Sectors: " + str(mw.get("snapshot_strip") or ""))
+    return "\n".join(lines)
+
+
 # ---------------------------------------------------------------- main
 
 def main():
@@ -1349,15 +1393,37 @@ def main():
         fail("GEMINI_API_KEY is not set. Add it as a repository secret (see README step 4).")
     today_str = TODAY.strftime("%A, %d %B %Y")
 
-    print("Fetching market data...")
-    mw, market_summary = market_data()
-    print(market_summary)
+    trading, closed_reason = indian_trading_day(TODAY.date())
+    mw = desk = None
+    if not trading:
+        print("Markets are shut today (%s) - non-trading-day edition." % closed_reason)
+        prev = load_previous_data()
+        if prev is not None:
+            mw, desk = prev["market_watch"], prev["data_desk"]
+            try:
+                session_date = datetime.strptime(str(mw.get("session_date")),
+                                                 "%Y-%m-%d").date()
+            except (TypeError, ValueError):
+                session_date = last_trading_day(TODAY.date())
+            label = asof_close_label(session_date)
+            mw["close_label"] = label
+            desk["close_label"] = label
+            market_summary = carried_market_summary(mw, session_date, closed_reason)
+            print("Carried the market sections forward from the last trading session:")
+            print(market_summary)
+        else:
+            print("  no previous data.json to carry forward - fetching live data instead")
 
-    print("Fetching data desk numbers (commodities, REITs/InvITs, caps, funds)...")
-    desk = data_desk()
-    print("  data desk: %d commodities, %d alternatives, %d cap indices, %d funds (%s)"
-          % (len(desk["commodities"]), len(desk["alternatives"]), len(desk["caps"]),
-             len(desk["funds"]), desk["nav_label"]))
+    if mw is None:
+        print("Fetching market data...")
+        mw, market_summary = market_data()
+        print(market_summary)
+
+        print("Fetching data desk numbers (commodities, REITs/InvITs, caps, funds)...")
+        desk = data_desk()
+        print("  data desk: %d commodities, %d alternatives, %d cap indices, %d funds (%s)"
+              % (len(desk["commodities"]), len(desk["alternatives"]), len(desk["caps"]),
+                 len(desk["funds"]), desk["nav_label"]))
 
     print("Fetching news headlines...")
     items = headlines()
@@ -1486,7 +1552,7 @@ def main():
         "world_60": cite(g.pop("world_60_sources", [])),
         "ipo_desk": [x for i in (markets.get("ipo_desk") or []) if isinstance(i, dict)
                      for x in cite(i.get("sources"))],
-        "market_data": "Yahoo Finance (computed, session %s)" % mw["close_label"].replace("CLOSE OF ", ""),
+        "market_data": "Yahoo Finance (computed, session %s)" % (mw.get("session_date") or mw["close_label"]),
         "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in",
     }
     print("Sources used:")
