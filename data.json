@@ -1,40 +1,40 @@
 {
-  "updated_ist": "2026-09-26",
+  "updated_ist": "2026-09-27",
   "cover": {
-    "big_story_teaser": "RBI Bulletin: GDP grows 7.8% as forex reserves slide $14.9 billion",
-    "venture_teaser": "Hospitality AI startup Dextr AI secures $6.7 million seed round",
-    "market_watch_teaser": "Sensex gains 0.43% as Nifty closes up at 23,140.50",
-    "daily_brief_teaser": "RBI bulletin highlights resilient economy despite headwinds",
-    "inbrief_2": "Economy resilient amid West Asia risks",
-    "inbrief_3": "Economy resilient with downside",
-    "inbrief_4": "India Equity Indices on Losing",
-    "inbrief_1": "India-US Trade Pact Over 90% Done"
+    "big_story_teaser": "India's rural economy set for a massive transformation via GOBARdhan.",
+    "venture_teaser": "ByteAsk raises $1 million to build AI coding agents.",
+    "market_watch_teaser": "Sensex rises 0.43% to 73,895.74 while Nifty gains 0.34% in Friday's close",
+    "daily_brief_teaser": "RBI rate hike odds rise, Cochin Shipyard gets ₹5,000 Cr deal, US court blocks tariff",
+    "inbrief_2": "RBI MPC rate hike odds rise",
+    "inbrief_3": "Cochin Shipyard ₹5,000 Cr deal",
+    "inbrief_4": "US Court blocks import tariff",
+    "inbrief_1": "US-India Trade Deal Nears Final"
   },
   "big_story": {
-    "headline": "RBI Bulletin: Growth Amid Market Stress",
-    "subhead": "GDP TOUCHES 7.8% AS FOREX RESERVES DROP AND EQUITIES SLIP FOR A SEVENTH WEEK",
+    "headline": "Rural India's Green Shift",
+    "subhead": "HOW SUSTAINABLE ENERGY INITIATIVES ARE RESHAPING THE RURAL ECONOMY",
     "paragraphs": [
-      "The Reserve Bank of India's latest bulletin highlights a resilient Indian economy registering 7.8% GDP growth despite persistent global headwinds and West Asia conflict risks. However, foreign exchange reserves plummeted by $14.88 billion in a single week to $765.90 billion for the week ended September 18. Meanwhile, Indian equity indices registered a seventh straight weekly loss, marking the longest Nifty losing streak since the Covid pandemic.",
-      "The market divergence is striking as RBI Deputy Governor Poonam Gupta noted that the bond market performed well while equities faced continuous selling pressure. Rupee gains backed by foreign currency non-resident deposits reversed in September due to elevated crude oil prices. Global trade tensions, inflation concerns, and geopolitical friction in West Asia continue to present downside risks to domestic financial stability.",
-      "Looking ahead, central bank officials remain optimistic that equities will become attractive again as domestic macroeconomic fundamentals stay robust. Investors are closely monitoring crude oil price movements and global interest rate bets that impact foreign capital flows. The coming weeks will reveal if bond market strength can translate into broader financial market stabilization."
+      "India is rapidly expanding its green infrastructure with major milestones like the foundation stone laid for the country's first port-based e-methanol plant. Alongside this industrial push, initiatives like GOBARdhan are stepping in to fundamentally change the economics of India's rural economy. By focusing on sustainable fuel solutions and waste-to-wealth conversion, these projects open up brand new financial streams for agricultural regions.",
+      "Rural areas have historically relied on traditional biomass and fossil fuel imports, exposing local livelihoods to volatile global energy prices. Clean energy interventions bridge this gap by decentralizing power production and utilizing local agricultural waste efficiently. This transition not only reduces carbon footprints but also creates local employment and enhances the overall financial resilience of rural households.",
+      "As these green projects scale up, they will likely attract significant capital from both public and private institutional investors looking for sustainable assets. Observers should watch how policy frameworks and local implementation align to turn these pilot initiatives into nationwide economic drivers. The success of these programs could redefine how India balances rapid industrial growth with rural prosperity."
     ],
-    "pullbox": "While India maintains a solid 7.8% GDP growth rate, a $14.88 billion drop in forex reserves and a seven-week equity downturn highlight severe global headwinds.",
+    "pullbox": "Sustainable energy projects like GOBARdhan and e-methanol plants are bridging the gap between rural prosperity and India's green industrial future.",
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
-      "alt": "Reserve Bank of India"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Biogas_plant.svg/960px-Biogas_plant.svg.png",
+      "alt": "Biogas"
     }
   },
   "explains": {
-    "title": "What are Foreign Exchange Reserves?",
+    "title": "What is GOBARdhan?",
     "paragraphs": [
-      "Foreign exchange reserves are foreign assets held by a central bank, such as the Reserve Bank of India, in foreign currencies. These reserves include foreign banknotes, treasury bills, and government securities used to meet international financial obligations.",
-      "In practice, strong reserves allow a nation to absorb global economic shocks and support its domestic currency during foreign exchange volatility. When import costs rise or foreign capital exits, central banks draw on these reserves to maintain exchange rate stability."
+      "GOBARdhan is a comprehensive national initiative by the government designed to positively impact rural villages by converting cattle dung and organic waste into useful biogas, compressed biogas, and organic manure. The name stands for Galvanizing Organic Bio-Agro Resources Dhan.",
+      "In practice, the scheme incentivizes rural communities and enterprises to build community-level biogas plants that manage waste cleanly while generating valuable secondary products. This cuts down on chemical fertilizer dependence and provides clean cooking or vehicle fuel right where the waste is produced."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Hospitality AI startup Dextr AI has raised $6.7 million in a seed funding round led by Elevation Capital. The company builds automated AI agents specifically tailored for hotels to manage guest operations and digital workflows.",
-      "The fresh capital will be deployed to expand its specialized AI agents across international hotel chains and upgrade technology infrastructure. The funding comes as Indian tech startups raised $10.3 billion in 2026, with vertical AI applications drawing larger investor cheques."
+      "ByteAsk has successfully raised $1 million in funding to build advanced AI coding agents specifically tailored for C and C++ development. The fresh capital will enable the startup to accelerate its product development and expand its technical team to meet rising demand.",
+      "As software engineering grows more complex, automated developer tools are attracting strong investor attention and backing. The founders are betting that specialized AI agents can drastically reduce debugging times and streamline legacy codebases for enterprise clients."
     ]
   },
   "market_watch": {
@@ -118,19 +118,19 @@
     ],
     "snapshot_strip": "Realty and Auto led; Media and IT lagged as the Nifty rose 0.34%",
     "date_label": "SEP 2026",
-    "close_label": "CLOSE OF SEP 25",
+    "close_label": "AS OF FRIDAY'S CLOSE, SEP 25",
     "ipo_desk": [
       {
-        "name": "German Green Steel",
-        "note": "IPO Day 1 subscription status 1.82x"
+        "name": "Orient Cables India",
+        "note": "Subscribed 2.07x on Day 1"
       },
       {
-        "name": "Orient Cables",
-        "note": "IPO Day 1 issue subscribed 2.07 times"
+        "name": "Elevate Campuses",
+        "note": "$219 million issue fully subscribed"
       },
       {
         "name": "SRIT India",
-        "note": "IPO details and grey market premium update"
+        "note": "Upcoming mainboard issue tracks GMP"
       }
     ]
   },
@@ -303,192 +303,168 @@
       }
     ],
     "date_label": "SEP 2026",
-    "close_label": "CLOSE OF SEP 25",
+    "close_label": "AS OF FRIDAY'S CLOSE, SEP 25",
     "nav_label": "NAVS AS OF SEP 25"
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "India | Economy",
-      "headline": "RBI bulletin: Indian economy performed well",
+      "kicker": "India | Monetary Policy",
+      "headline": "RBI October MPC Meet: Rate Hike Odds Rise",
       "paragraphs": [
-        "The Reserve Bank of India has released its latest bulletin indicating that the Indian economy performed well despite various global headwinds. The financial and external sectors continue to draw strength from a resilient domestic economic framework.",
-        "Policymakers noted that steady domestic activity has helped cushion the broader system against international shocks and external market volatility."
+        "Economists warn that the odds of an interest rate hike at the Reserve Bank of India's upcoming October Monetary Policy Committee meeting are on the rise. The shift comes amid persistent global inflationary pressures and volatile energy markets affecting domestic forecasts.",
+        "Analysts suggest the central bank may prioritize inflation control to maintain long-term macroeconomic stability."
       ],
       "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Tower_and_building_of_Reserve_Bank_of_India%2C_Mumbai_04.jpg/960px-Tower_and_building_of_Reserve_Bank_of_India%2C_Mumbai_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Tower and building of Reserve Bank of India, Mumbai 04"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+        "alt": "Reserve Bank of India"
       }
     },
     "story_2": {
-      "kicker": "Global | Geopolitics",
-      "headline": "Economy resilient with downside risks",
+      "kicker": "India | Defence Sector",
+      "headline": "Cochin Shipyard Soars on ₹5,000 Cr Deal",
       "paragraphs": [
-        "According to the RBI bulletin, the domestic economy remains resilient overall, though notable downside risks persist. These risks include ongoing tensions and conflicts emanating from the West Asia region.",
-        "Analysts continue to monitor these geopolitical flashpoints closely for potential spillover effects on commodity prices and international supply chains."
+        "Shares of Cochin Shipyard surged 7% following the announcement of a massive ₹5,000 crore defence order. The substantial deal highlights expanding domestic manufacturing capabilities and government defence capital expenditure.",
+        "Investor sentiment rallied strongly behind the shipbuilder following the contract win."
       ]
     },
     "story_3": {
-      "kicker": "Markets | Equities",
-      "headline": "India Equity Indices on Losing Streak",
+      "kicker": "Global | Trade Law",
+      "headline": "US Court Strikes Down 10% Import Tariff",
       "paragraphs": [
-        "India equity indices have extended their downward pressure, marking a losing streak for the seventh straight week. Market participants continue to weigh shifting macroeconomic signals against prevailing valuations."
+        "The US Court of International Trade declared the Trump administration's proposed 10% universal tariff on imports from India and other countries illegal. The ruling offers significant legal relief to Indian exporters."
       ]
     },
     "also_today": {
       "items": [
-        "Forex reserves fall by USD 14.88 billion to USD 765.90 billion in the week ended September 18.",
-        "Adani Enterprises sees Rs 2,498 crore promoter group share deal completed.",
-        "Muthoot FinCorp wins Team India title rights in a 150 crore BCCI deal.",
-        "India-US trade deal is 90%-plus done according to an American official."
+        "GIFT Nifty breaks $23 billion mark as trading activity hits a fresh high.",
+        "IndiGrid to acquire Luhri Power Transmission for up to ₹1,336 crore.",
+        "Bengaluru tech startups raise $4.4 billion, outpacing five rival cities combined.",
+        "RR Kabel enters optical fibre cables with a ₹77 crore acquisition."
       ]
     }
   },
   "geopolitics": {
     "kicker": "India x US | Trade Deal",
-    "headline": "India-US Trade Pact Over 90% Complete",
+    "headline": "India and US Move Towards Bilateral Trade Deal",
     "paragraphs": [
-      "The India-US trade pact is over 90% complete and poised to unleash another level of bilateral ties, according to an American official. Union Commerce Minister Piyush Goyal stated that the deal is almost done and dusted. Meanwhile, Foreign Secretary Vikram Misri flagged tariff moves during his discussions with the US undersecretary.",
-      "While both nations are closing in on an agreement, unresolved tariff issues remain a vital topic of negotiations. Resolving these final points will determine how smoothly cross-border commerce moves forward. Businesses in both countries are watching closely as finalized terms could significantly boost trade and investment flows."
+      "India and the United States are moving decisively towards finalising a landmark bilateral trade deal, according to Sergio Gor. The US State Department noted that the agreement is set to unleash another level of US-India relations. Both nations are aiming to deepen their economic alignment and strengthen commercial ties across key sectors.",
+      "As official negotiators work through the remaining terms, market participants are watching for specific provisions on market access and tariff structures. A finalised deal could significantly enhance bilateral investment flows and provide long-term stability for cross-border trade. Finalising these terms remains critical for cementing strategic economic ties."
     ],
     "world_60": [
-      "India eases paperwork for UK imports under preferential tariff deal",
-      "Oil prices slide 2% as US and Iran explore talks to avoid conflict",
-      "Gold rises Rs 200 per 10 gm as weak US dollar and lower oil prices offer support",
-      "Dow surges 478 points as US-Iran talks show progress and oil prices pull back"
+      "US and China agree tariff cuts on $30 billion goods and start AI dialogue.",
+      "Fed holds interest rates steady as US inflation hits a 3-year high.",
+      "China's gold imports top 1,000 tonnes as Fed hawks cap price gains.",
+      "US Treasury yields hit 5% as investors sell 900B won in ETFs."
     ],
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Piyush_Goyal_crop.jpg/330px-Piyush_Goyal_crop.jpg",
-      "alt": "Piyush Goyal"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/US_Capitol_east_side.JPG/3840px-US_Capitol_east_side.JPG",
+      "alt": "United States Capitol"
     }
   },
   "sources": {
     "big_story": [
       {
-        "title": "Bond market performed well, equities less so: RBI Deputy Governor Poonam Gupta on what lies ahead",
-        "source": "Livemint"
+        "title": "GOBARdhan could change the economics of India’s rural economy",
+        "source": "BusinessLine"
       },
       {
-        "title": "India's forex reserves fall by USD 14.88 billion to USD 765.90 billion in week ended September 18: RBI",
-        "source": "ChiniMandi"
-      },
-      {
-        "title": "India's Equity Indices on a Losing Streak for Seventh Straight Week",
-        "source": "TradingView"
-      },
-      {
-        "title": "RBI Bulletin: 7.8% GDP Growth, But Forex Reserves Slide $14.9 Billion",
-        "source": "NiftyTrader"
-      },
-      {
-        "title": "Longest Nifty Losing Streak Since Covid",
-        "source": "Rediff"
+        "title": "Foundation stone laid for India's first port-based e-methanol plant",
+        "source": "Business Standard"
       }
     ],
     "venture_vault": [
       {
-        "title": "Dextr AI Raises $6.7 Mn Seed Round Led by Elevation Capital",
-        "source": "Indian Startup Times"
-      },
-      {
-        "title": "Hospitality AI startup Dextr AI raises $6.7 million to expand its AI agents for hotels",
+        "title": "ByteAsk raises $1 million in funding to build AI coding agents for C and C++",
         "source": "Indian Startup News"
       }
     ],
     "daily_brief_1": [
       {
-        "title": "RBI bulletin: Indian economy performed well despite global headwinds",
-        "source": "Mid-Day"
+        "title": "Odds of rate hike at RBI's October MPC meet on the rise: Economists",
+        "source": "DT Next"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "Economy resilient with downside risks from West Asia conflict: RBI bulletin",
-        "source": "thehindu.com"
+        "title": "Cochin Shipyard surges 7% after bagging massive ₹5,000 Cr defence deal",
+        "source": "Alice Blue"
       }
     ],
     "daily_brief_3": [
       {
-        "title": "India's Equity Indices on a Losing Streak for Seventh Straight Week",
-        "source": "TradingView"
+        "title": "US Court of International Trade declares Trump administration’s 10% universal tariff levied on imports from India & other countries illegal | Akashvani News",
+        "source": "News On AIR"
       }
     ],
     "also_today": [
       {
-        "title": "India's forex reserves fall by USD 14.88 billion to USD 765.90 billion in week ended September 18: RBI",
-        "source": "ChiniMandi"
+        "title": "GIFT Nifty breaks the $23 billion mark as trading activity hits a fresh high",
+        "source": "timesofindia.indiatimes.com"
       },
       {
-        "title": "Adani Enterprises sees Rs 2,498 crore promoter group share deal",
-        "source": "The Federal"
+        "title": "RR Kabel enters optical fibre cables with ₹77 crore acquisition",
+        "source": "Manufacturing Today India"
       },
       {
-        "title": "Muthoot FinCorp wins Team India title rights in ₹150 crore BCCI deal",
-        "source": "sports.economictimes.indiatimes.com"
+        "title": "IndiGrid to acquire Luhri Power Transmission for up to ₹1,336 crore",
+        "source": "energy.economictimes.indiatimes.com"
       },
       {
-        "title": "India-US trade pact to 'unleash another level' of ties, says American official; reveals deal is '90%-plus'",
-        "source": "The Economic Times"
+        "title": "Bengaluru tech startups raise $4.4 billion, outpace 5 rival cities combined",
+        "source": "Moneycontrol.com"
       }
     ],
     "geopolitics": [
       {
-        "title": "India-US trade pact to 'unleash another level' of ties, says American official; reveals deal is '90%-plus'",
-        "source": "The Economic Times"
+        "title": "India, US moving decisively towards finalising bilateral trade deal: Sergio Gor",
+        "source": "DD News"
       },
       {
-        "title": "India-US trade deal almost done and dusted: Piyush Goyal",
-        "source": "Fibre2Fashion"
-      },
-      {
-        "title": "Foreign secretary Vikram Misri flags tariff move in talks with US undersecretary",
-        "source": "The Economic Times"
+        "title": "Trade deal is going to unleash another level of US-India relations: State Department",
+        "source": "Metro Vaartha"
       }
     ],
     "world_60": [
       {
-        "title": "India-UK trade deal: CBIC eases paperwork for UK imports seeking preferential tariffs",
-        "source": "The Economic Times"
+        "title": "US, China agree tariff cuts on $30 billion goods, launch AI dialogue",
+        "source": "India Today"
       },
       {
-        "title": "Oil prices slide about 2% as US, Iran explore path out of war",
-        "source": "The Economic Times"
+        "title": "Fed holds interest rates steady as inflation hits 3-year high",
+        "source": "ABC News - Breaking News, Latest News and Videos"
       },
       {
-        "title": "Gold snaps four-session losing streak; rises Rs 200 per 10 gm on weak US dollar, easing oil price",
-        "source": "Daily Excelsior"
+        "title": "China's Gold Imports Top 1,000 Tonnes as Fed Hawks Keep a Lid on Prices",
+        "source": "AD HOC NEWS"
       },
       {
-        "title": "US-Iran Talks Show Signs of Progress as Oil Prices Pull Back; Stocks Close Higher for the Week with Dow Surging 478 Points",
-        "source": "finance.biggo.com"
+        "title": "U.S. Treasury Yields Hit 5% as Investors Sell 900B Won in ETFs",
+        "source": "조선일보"
       }
     ],
     "ipo_desk": [
       {
-        "title": "German Green Steel IPO Day 1 Subscription Status: 1.82x",
-        "source": "HDFC Sky"
-      },
-      {
-        "title": "German Green Steel IPO Fully Subscribed on Day 1",
-        "source": "Rediff MoneyWiz"
+        "title": "Orient Cables India Ltd IPO Date: Check Issue Date, Price, Lot size, Subscription, News and Details - Moneycontrol",
+        "source": "Moneycontrol.com"
       },
       {
         "title": "Orient Cables IPO Subscription Status Day 1: Issue Subscribed 2.07 Times",
         "source": "HDFC Sky"
       },
       {
-        "title": "SRIT India IPO Date, Review, Price, Allotment Details",
-        "source": "IPO Watch"
+        "title": "India's Elevate Campuses $219 million IPO fully subscribed on final day of bidding",
+        "source": "Reuters"
       },
       {
-        "title": "SRIT India Ltd IPO Date: Check Issue Date, Price, Lot size, Subscription, News and Details - Moneycontrol",
-        "source": "Moneycontrol.com"
+        "title": "SRIT India IPO Date, Review, Price, Allotment Details",
+        "source": "ipowatch.in"
       },
       {
         "title": "SRIT India IPO GMP, Grey Market Premium Today",
-        "source": "IPO Watch"
+        "source": "ipowatch.in"
       }
     ],
-    "market_data": "Yahoo Finance (computed, session SEP 25)",
+    "market_data": "Yahoo Finance (computed, session AS OF FRIDAY'S CLOSE, SEP 25)",
     "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
   }
 }
