@@ -458,16 +458,45 @@ def carry_desk_row(prev, key, name, price_field, err, carried):
     return None
 
 
-def _chart(symbol, rng):
+def _chart(symbol, rng, interval="1d"):
     enc = urllib.parse.quote(symbol, safe="")
     last_err = None
     for host in ("query1", "query2"):
-        url = "https://%s.finance.yahoo.com/v8/finance/chart/%s?range=%s&interval=1d" % (host, enc, rng)
+        url = "https://%s.finance.yahoo.com/v8/finance/chart/%s?range=%s&interval=%s" % (host, enc, rng, interval)
         try:
             return json.loads(http_get(url, tries=2).decode("utf-8"))["chart"]["result"][0]
         except Exception as e:  # noqa: BLE001 - any feed problem means try the other host
             last_err = e
     raise RuntimeError("%s: %s" % (symbol, last_err))
+
+
+def in_indian_session(now=None):
+    """True during the Indian equity session: 09:15-15:30 IST on a trading day."""
+    now = now or datetime.now(IST)
+    if not indian_trading_day(now.date())[0]:
+        return False
+    mins = now.hour * 60 + now.minute
+    return 9 * 60 + 15 <= mins <= 15 * 60 + 30
+
+
+def quote_intraday(symbol):
+    """Latest traded price mid-session for a Yahoo Finance symbol.
+    Returns dict(last, prev, pct, date, time) or raises RuntimeError."""
+    r = _chart(symbol, "1d", interval="1m")
+    meta = r.get("meta") or {}
+    gmtoff = meta.get("gmtoffset") or 0
+    rmp, rmt = meta.get("regularMarketPrice"), meta.get("regularMarketTime")
+    prev = meta.get("chartPreviousClose")
+    if not isinstance(rmp, (int, float)) or not isinstance(rmt, int):
+        raise RuntimeError("%s: no live price" % symbol)
+    if not isinstance(prev, (int, float)) or prev <= 0:
+        raise RuntimeError("%s: no previous close for the live price" % symbol)
+    when = datetime.fromtimestamp(rmt + gmtoff, timezone.utc)
+    if when.date() != datetime.now(IST).date():
+        raise RuntimeError("%s: live price is not from today's session" % symbol)
+    last = float(rmp)
+    return {"last": last, "prev": prev, "pct": (last - prev) / prev * 100.0,
+            "date": when.date(), "time": when.strftime("%I:%M %p").lstrip("0")}
 
 
 def quote(symbol):
@@ -549,9 +578,20 @@ def market_data(prev=None):
     mw = {}
     q = {}
     carried = []
+    intraday = in_indian_session()
+    live_at = None
     for group, rows in indices.items():
         out = []
         for name, sym in rows:
+            if group == "indian" and intraday:
+                try:
+                    q[sym] = quote_intraday(sym)
+                    live_at = q[sym]["time"]
+                    out.append({"name": name, "value": fmt_level(q[sym]),
+                                "dir": dir_of(q[sym]["pct"]), "live": True})
+                    continue
+                except RuntimeError as e:
+                    print("  live quote failed for %s (%s) - using last close" % (name, e))
             try:
                 q[sym] = quote(sym)
             except RuntimeError as e:
@@ -596,12 +636,21 @@ def market_data(prev=None):
             fail("market feed: Sensex is down and no previous session dates the page")
         print("  Sensex carried - dating the page by the previous session %s" % india_date)
 
+    # When the indices are live, stocks/sector moves stay keyed to the last
+    # completed session (their quotes are closes); one extra close lookup dates them.
+    stock_date = india_date
+    if live_at:
+        try:
+            stock_date = quote("^BSESN")["date"]
+        except RuntimeError:
+            stock_date = india_date
+
     # Nifty 50 gainers / losers
     moves = []
     for sym, name in NIFTY50.items():
         try:
             s = quote(sym + ".NS")
-            if s["date"] == india_date:
+            if s["date"] == stock_date:
                 moves.append((s["pct"], name))
         except RuntimeError as e:
             print("  skipping %s: %s" % (sym, e))
@@ -621,7 +670,7 @@ def market_data(prev=None):
     for sym, label in SECTORS.items():
         try:
             s = quote(sym)
-            if s["date"] == india_date:
+            if s["date"] == stock_date:
                 secs.append((s["pct"], label))
         except RuntimeError as e:
             print("  skipping sector %s: %s" % (sym, e))
@@ -650,10 +699,19 @@ def market_data(prev=None):
     mw["snapshot_strip"] = strip[:130]
 
     mw["date_label"] = india_date.strftime("%b %Y").upper()
-    mw["close_label"] = "CLOSE OF %s %d" % (india_date.strftime("%b").upper(), india_date.day)
+    if live_at:
+        mw["close_label"] = "LIVE AS OF %s IST" % live_at
+        mw["live"] = True
+    else:
+        mw["close_label"] = "CLOSE OF %s %d" % (india_date.strftime("%b").upper(), india_date.day)
     mw["session_date"] = india_date.isoformat()
 
     summary_lines = ["Session date: %s" % india_date.isoformat()]
+    if live_at:
+        summary_lines.append(
+            "NOTE: the Indian index values are LIVE intraday prices as of %s IST - "
+            "current-session moves versus the previous close, not closing values. "
+            "Stories must agree with these live moves." % live_at)
     if carried:
         summary_lines.append(
             "NOTE: these series are carried from the previous issue because their live "
