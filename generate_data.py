@@ -166,6 +166,9 @@ HARD RULES about facts:
 FEATURES_PROMPT = """You are the features editor of FINTRIX, a college finance club magazine in India.
 Today is {today} (India time).
 
+Verified market data for the last completed session (already on the page - do not change it):
+{market_summary}
+
 {headline_block}
 Pick ONE big-story topic from the headlines: an Indian business, finance, markets or economy
 theme (policy, a sector shift, a major corporate move, a consumer or tech trend with a money angle).
@@ -212,6 +215,11 @@ Rules:
 - Venture Vault must be a different story from the big story, about a real named startup in the headlines.
 - cover.big_story_teaser must describe THIS big story, and cover.venture_teaser must name the SAME
   startup as the venture_vault paragraphs - they appear together.
+- If the big story mentions how an index such as the Sensex or Nifty moved (headline, subhead,
+  teaser or pullbox), the direction and any figure MUST match the verified market data above -
+  never write up when it closed down or down when it closed up. If the headlines describe an
+  index move that contradicts the verified data, write the story without that move or pick a
+  different topic.
 - Tone: a smart college finance magazine - plain English, no jargon dumps, Indian-market focus.
 - Every string must be plain text. No HTML tags, no markdown, no links.
 - Use the actual ₹ character (not HTML entities) where a rupee amount appears.
@@ -1234,6 +1242,116 @@ def check_geopolitics_pkg(pkg):
     return None
 
 
+# The big story sits on the cover next to the market data, so it can never
+# contradict it: a headline that says "Sensex crashes" while the published
+# data shows the Sensex rose is sent back and the story is regenerated.
+# The cover-visible texts (headline, subhead, pullbox, cover teaser) are
+# scanned clause by clause; when a clause names a published index and carries
+# direction words of only one polarity, that polarity must match the index's
+# published direction. No regex here so the check stays easy to audit.
+DIR_DOWN_EXACT = {"fell", "fall", "falls", "falling", "drop", "drops", "dropped",
+                  "dropping", "sink", "sinks", "sank", "sinking", "down", "lower",
+                  "red", "lose", "loses", "lost", "losing", "loss", "losses",
+                  "selloff", "tank", "tanks", "tanked", "tanking",
+                  "dip", "dips", "dipped"}
+DIR_DOWN_STEM = ("crash", "plung", "slid", "slump", "declin", "tumbl", "slip")
+DIR_DOWN_PHRASE = ("sell-off", "sell off")
+DIR_UP_EXACT = {"rise", "rises", "rose", "rising", "up", "higher", "green",
+                "rally", "rallies", "rallied"}
+DIR_UP_STEM = ("gain", "surg", "jump", "climb", "soar", "advanc", "rebound")
+DIR_UP_PHRASE = ("record high", "all-time high", "lifetime high")
+PAST_MARKERS = ("last week", "last month", "last year", " ago")
+CLAUSE_BREAKS = (",", ";", ".", "!", "?", " - ", " as ", " while ", " amid ", " despite ")
+WORD_PUNCT = "'" + '"()[]{}:;,.!?%&/|' 
+
+
+def _has_dir(words, padded, exact, stems, phrases):
+    for p in phrases:
+        if " " + p + " " in padded:
+            return True
+    for w in words:
+        if w in exact:
+            return True
+        for s in stems:
+            if w.startswith(s):
+                return True
+    return False
+
+
+def check_big_story_direction(mw):
+    """Reject a big story whose cover-visible text claims an index moved the
+    other way than the market data being published, so generate() regenerates
+    it. Clauses mixing both polarities ("Sensex up as rupee falls"), carrying a
+    past-time marker or an old year, or naming no published index make no
+    checkable claim and pass."""
+    indices = {}
+    for group in ("indian", "asian", "european"):
+        for row in mw.get(group) or []:
+            if not isinstance(row, dict) or row.get("dir") not in ("up", "down"):
+                continue
+            name = str(row.get("name") or "").lower()
+            if "sensex" in name:
+                aliases = ["sensex"]
+            elif "nifty bank" in name or "bank nifty" in name:
+                aliases = ["nifty bank", "bank nifty"]
+            elif "nifty" in name:
+                aliases = ["nifty"]
+            else:
+                aliases = [name]
+            for a in aliases:
+                indices[a] = row["dir"]
+
+    def claim_in(text):
+        t = text.lower()
+        # keep digit-grouping commas (1,000) from splitting clauses
+        out = []
+        for i, ch in enumerate(t):
+            if ch == "," and i > 0 and i + 1 < len(t) and t[i - 1].isdigit() and t[i + 1].isdigit():
+                continue
+            out.append(ch)
+        t = "".join(out)
+        for sep in CLAUSE_BREAKS:
+            t = t.replace(sep, "|")
+        for clause in t.split("|"):
+            for p in WORD_PUNCT:
+                clause = clause.replace(p, " ")
+            words = clause.split()
+            padded = " " + " ".join(words) + " "
+            named = [a for a in indices if " " + a + " " in padded]
+            # longest alias wins: "nifty bank tanks" is a Nifty Bank claim, not Nifty 50
+            named = [a for a in named if not any(a != b and a in b for b in named)]
+            if not named:
+                continue
+            if any(m in padded for m in PAST_MARKERS):
+                continue
+            if any(len(w) == 4 and w.isdigit() and (w.startswith("19") or w.startswith("20"))
+                   and int(w) != TODAY.year for w in words):
+                continue
+            has_up = _has_dir(words, padded, DIR_UP_EXACT, DIR_UP_STEM, DIR_UP_PHRASE)
+            has_down = _has_dir(words, padded, DIR_DOWN_EXACT, DIR_DOWN_STEM, DIR_DOWN_PHRASE)
+            if has_up == has_down:
+                continue  # no direction claim, or both - cannot attribute reliably
+            claimed = "up" if has_up else "down"
+            for a in named:
+                if indices[a] != claimed:
+                    return "claims %s moved %s but the published data has it %s: %r" % (
+                        a, claimed, indices[a], text.strip()[:60])
+        return None
+
+    def check(pkg):
+        if not isinstance(pkg, dict):
+            return None  # shape problems are reported by the other checks
+        bs = pkg.get("big_story") or {}
+        cov = pkg.get("cover") or {}
+        for obj, key in ((bs, "headline"), (bs, "subhead"), (bs, "pullbox"),
+                         (cov, "big_story_teaser")):
+            if isinstance(obj, dict) and isinstance(obj.get(key), str):
+                problem = claim_in(obj[key])
+                if problem:
+                    return problem
+        return None
+    return check
+
 def check_features_pkg(pkg):
     if not isinstance(pkg, dict):
         return "not a JSON object"
@@ -1593,9 +1711,10 @@ def main():
     all_headline_text = "\n".join(it["title"] for it in items)
     fact_check = make_fact_check(all_headline_text + "\n" + market_summary, len(items))
 
-    features = generate(api_key, FEATURES_PROMPT.format(today=today_str, headline_block=block),
+    features = generate(api_key, FEATURES_PROMPT.format(today=today_str, market_summary=market_summary,
+                                                        headline_block=block),
                         "features (big story, explains, venture vault)",
-                        check=both(fact_check, check_features_pkg))
+                        check=both(fact_check, check_features_pkg, check_big_story_direction(mw)))
     if features is None:
         fail("could not generate the features package - leaving data.json untouched.")
 
