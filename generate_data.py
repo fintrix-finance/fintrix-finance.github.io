@@ -295,10 +295,6 @@ Rules:
   the Sensex or Nifty moved, the direction and any figure MUST match the verified market data
   above. When the day's market headlines contradict that data (e.g. an intraday move after the
   published close), prefer non-market stories for the brief.
-- If any daily_brief story, also_today item or cover label mentions how an index such as
-  the Sensex or Nifty moved, the direction and any figure MUST match the verified market data
-  above. When the day's market headlines contradict that data (e.g. an intraday move after the
-  published close), prefer non-market stories for the brief.
 - Avoid the big story already chosen for today: {avoid}
 - Tone: a smart college finance magazine - plain English, no jargon dumps.
 - Use the actual ₹ character, not HTML entities. Plain text only - no HTML, markdown or links.
