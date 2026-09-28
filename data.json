@@ -1,40 +1,40 @@
 {
   "updated_ist": "2026-09-28",
   "cover": {
-    "big_story_teaser": "Sensex crashes 1,000 points as oil prices surge",
-    "venture_teaser": "Skyroot eyes $280 million from marquee investors",
-    "market_watch_teaser": "Sensex rises 0.43% to 73,895.74 as Axis Bank leads gainers",
-    "daily_brief_teaser": "India-Canada trade deal negotiations advance as IIT Madras fund hits ₹450 crore",
-    "inbrief_2": "Canada Negotiations Race Ahead",
-    "inbrief_3": "Madras Deep Tech Fund First Close",
-    "inbrief_4": "Sanofi Buys ₹1,068 Cr Stake",
-    "inbrief_1": "US Tariff Threat on Russian Oil"
+    "big_story_teaser": "Crude oil jumps to $106 as US-Iran talks stall, raising energy inflation fears.",
+    "venture_teaser": "ByteAsk secures $1 million in funding to develop AI coding agents for C and C++.",
+    "market_watch_teaser": "Nifty rises 0.34%, Sensex up 0.43% in last session",
+    "daily_brief_teaser": "Sensex crashes 900 points as investor wealth erodes",
+    "inbrief_2": "Sensex crashes 900 points",
+    "inbrief_3": "Sensex tumbles over 1,000 points",
+    "inbrief_4": "Sensex Hits Over 5-Month Low",
+    "inbrief_1": "US Trade Pact & Oil Tariff Threat"
   },
   "big_story": {
-    "headline": "Markets Crash Over 1,000 Points",
-    "subhead": "SENSEX AND NIFTY PLUNGE AS US-IRAN TENSIONS LIFT OIL PRICES AND TRIGGER FII OUTFLOWS",
+    "headline": "Crude Spikes as US-Iran Talks Stall",
+    "subhead": "OIL JUMPS TO $106 AFTER TRUMP REJECTS TRUCE OFFER, PRESSURING THE RUPEE",
     "paragraphs": [
-      "Indian equity markets opened the week in a sea of red as the BSE Sensex crashed over 1,000 points and the Nifty50 slipped below key psychological levels. Investors watched helplessly as billions in wealth vanished within hours of trading. The sharp sell-off dragged Indian shares down to a near six-month low, dampening sentiment across Dalal Street.",
-      "The sudden market rout was primarily driven by escalating geopolitical tensions following a US-Iran deadlock, which sent global crude oil prices surging. Higher oil prices stoked fears of renewed inflation and aggressive central bank interest rate hikes. Meanwhile, relentless foreign institutional investor outflows compounded the pressure on domestic indices.",
-      "As macroeconomic headwinds mount, analysts advise caution and close monitoring of global crude trends and foreign fund movements. While RBI intervention serves as a reliable buffer for the rupee, equity investors must brace for continued volatility. Long-term investors should focus on fundamentals rather than getting swept up in sudden panic selling."
+      "Crude oil prices surged to $106 per barrel after US leadership rejected a truce offer from Iran, stalling diplomatic negotiations. The geopolitical impasse sent sudden shockwaves through global energy markets, reigniting supply disruption fears. Energy traders quickly adjusted risk premiums across commodity desks as peace prospects dimmed.",
+      "The sharp spike in energy costs is piling pressure on the Indian Rupee during opening sessions. Widen energy import bills threaten to expand trade deficits and weigh on broader market sentiment. Meanwhile, Reserve Bank of India intervention continues to serve as a reliable buffer against excess foreign exchange volatility.",
+      "Rising crude costs threaten to stoke global inflation expectations and complicate policy choices for central banks. Market participants are watching closely whether persistent energy spikes will revive monetary tightening fears across major economies. The coming weeks will test how resilient domestic markets remain in the face of imported commodity shocks."
     ],
-    "pullbox": "Geopolitical friction in the Middle East and rising crude prices can quickly derail domestic market momentum, reminding investors that global macroeconomics dictates local fortunes.",
+    "pullbox": "Crude oil surging to $106 exposes import-dependent economies to elevated inflation risks, putting foreign exchange reserves and currency stability in the spotlight.",
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/BSE_logo.svg/330px-BSE_logo.svg.png",
-      "alt": "Bombay Stock Exchange"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+      "alt": "Reserve Bank of India"
     }
   },
   "explains": {
-    "title": "What is FII Outflow?",
+    "title": "What is Import-Induced Inflation?",
     "paragraphs": [
-      "Foreign Institutional Investors or FIIs refer to large institutional funds, such as foreign mutual funds and pension funds, that invest in emerging markets like India. When these entities pull their capital out of domestic stocks, it is known as FII outflow.",
-      "Outflows typically happen when global risk sentiment sours, US bond yields rise, or geopolitical tensions spike, making investors seek safer havens like US dollars or Treasuries. This massive withdrawal of foreign capital puts heavy downward pressure on Indian stock indices."
+      "Import-induced inflation occurs when key imported commodities, such as crude oil, become significantly more expensive due to international supply shocks or geopolitical conflicts. Because India imports a vast majority of its crude requirements, higher global energy prices immediately raise domestic fuel costs.",
+      "As transportation and manufacturing input expenses rise, businesses pass those cost increases on to end consumers across everyday goods. This broader price pressure forces central banks to keep interest rates elevated to prevent long-term inflation from taking hold."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Indian space tech pioneer Skyroot is reportedly in advanced talks to raise a massive funding round from marquee Silicon Valley venture capital heavyweights including Fidelity, General Catalyst, and Benchmark. This potential deal marks a significant milestone for India's burgeoning private space sector.",
-      "The backing of prominent global venture capital firms highlights growing international confidence in India's deep-tech and aerospace capabilities. As the startup scales its operations, this capital injection will help accelerate its technological roadmap and commercial launch vehicles."
+      "AI startup ByteAsk has secured $1 million in new funding to accelerate its product development pipeline. The startup focuses on building specialized AI coding agents tailored for software developers working in C and C++.",
+      "The fresh capital will help ByteAsk refine its automated development tools and scale engineering operations. By targeting performance-critical systems languages like C and C++, the team aims to solve specialized productivity bottlenecks for enterprise software engineering."
     ]
   },
   "market_watch": {
@@ -68,7 +68,7 @@
       },
       {
         "name": "Shanghai Comp.",
-        "value": "3,822.40 ▼ 1.70%",
+        "value": "3,823.62 ▼ 1.67%",
         "dir": "down"
       }
     ],
@@ -123,15 +123,15 @@
     "ipo_desk": [
       {
         "name": "Moneyview IPO",
-        "note": "Subscribed 14.24x with 38% listing signal"
+        "note": "Issue subscribed 14.24 times on final day"
       },
       {
         "name": "SRIT India IPO",
-        "note": "Opens today with 25% grey market premium"
+        "note": "GMP at 25% on day 1 of subscription"
       },
       {
         "name": "Adroit Industries IPO",
-        "note": "Allotment status today amid 43% GMP signal"
+        "note": "Allotment today with GMP at 43%"
       }
     ]
   },
@@ -310,53 +310,53 @@
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "Trade Policy | Bilateral Talks",
-      "headline": "India and Canada Race to Seal Trade Deal",
+      "kicker": "Market Crash",
+      "headline": "Sensex Crashes 900 Points as Investors Lose Rs 6 Lakh Crore",
       "paragraphs": [
-        "India and Canada are accelerating efforts to conclude a bilateral trade deal as trade minister Maninder Sidhu prepares for an October visit to New Delhi. The upcoming discussions follow recent talks between External Affairs Minister S. Jaishankar and Canadian officials to strengthen bilateral relations.",
-        "The diplomatic engagement aims to lay the groundwork ahead of Prime Minister Narendra Modi's scheduled trip to Canada in December. Both nations are seeking to enhance trade ties and formalize commercial agreements after months of negotiation."
+        "The domestic stock market witnessed a sharp correction today as the BSE Sensex tumbled over 900 points. Investors suffered massive wealth erosion, losing nearly six lakh crore rupees in a brutal session of trading.",
+        "Market participants pointed to multiple headwinds dampening sentiment across major indices. Analysts are closely monitoring the unfolding situation as selling pressure intensifies across sectors."
       ],
       "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
-        "alt": "New Delhi"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Stamp_of_India_-_2016_-_Colnect_627075_-_Bombay_Stock_Exchange.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Stamp of India - 2016 - Colnect 627075 - Bombay Stock Exchange"
       }
     },
     "story_2": {
-      "kicker": "Venture Capital | Deep Tech",
-      "headline": "IIT Madras Fund Raises ₹450 Crore in First Close",
+      "kicker": "Market Tumble",
+      "headline": "Sensex Tumbles Over 1,000 Points as Nifty Slips",
       "paragraphs": [
-        "Unicorn India Ventures and IIT Madras have announced the first close of their deep-tech venture capital fund, securing ₹450 crore in initial capital commitments. The dedicated fund focuses on backing early-stage technology startups originating from academic research and deep-tech innovation hubs.",
-        "The venture fund aims to reach its target size of ₹1,000 crore by December 2026. This initial capital raise highlights growing investor appetite for Indian deep-tech ventures."
+        "Selling pressure intensified on Dalal Street today, dragging the BSE Sensex down by over 1,000 points. The broader Nifty index also slipped below key support levels, mirroring broader regional weakness.",
+        "Market experts have highlighted several key factors behind today's sharp sell-off. Investors continue to reallocate portfolios amid mounting macro uncertainties and shifting global dynamics."
       ]
     },
     "story_3": {
-      "kicker": "Corporate | Healthcare",
-      "headline": "Sanofi Healthcare Buys ₹1,068 Crore Stake in Sanofi India",
+      "kicker": "Index Low",
+      "headline": "Sensex Hits Over 5-Month Low",
       "paragraphs": [
-        "Sanofi Healthcare has acquired a 15.2% stake in Sanofi India for ₹1,068 crore in a significant corporate transaction. The equity purchase strengthens the parent entity's footprint in the Indian pharmaceutical sector."
+        "Benchmark indices slumped to multi-month lows today, reflecting deep-seated caution among institutional and retail investors. The Sensex breached crucial technical thresholds to touch levels not seen in over five months."
       ]
     },
     "also_today": {
       "items": [
-        "Hitachi Energy India net profit surges 123.5% to ₹294.2 crore in Q1 FY27.",
-        "Lodha Developers Q1 FY27 profit doubles to ₹1,370 crore as revenue jumps 43%.",
-        "Linde India secures land in Sanand for a semiconductor gas facility.",
-        "Net foreign direct investment inflows into India hit a five-year high."
+        "Clean Max shares in focus as Augment India likely to sell stake worth Rs 1,063 crore in a block deal.",
+        "Linde India secures Sanand land for setting up a new semiconductor gas facility.",
+        "IIT Madras-backed deep-tech fund Unicorn India Ventures raises Rs 450 crore in its first close.",
+        "Rupee pressured by Iran talks impasse while RBI intervention acts as a reliable buffer."
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India x US | Trade Policy",
-    "headline": "US Tariff Threat Looming Over India's Russian Oil Imports",
+    "kicker": "India | Trade Policy",
+    "headline": "India Pushes for US Trade Pact Amid Russian Oil Tariff Threat",
     "paragraphs": [
-      "A new US law has revived tariff threats against India over its ongoing purchases of Russian oil, even as bilateral trade talks continue between both nations. Commerce Minister Piyush Goyal is expected to meet US Trade Representative Jamieson Greer to address these diplomatic and commercial friction points. Meanwhile, an Indian parliamentary panel has urged the government to pursue an early trade pact while establishing strong safeguards against US tariffs.",
-      "Navigating this impasse remains a critical challenge for Indian policymakers and trade strategy. Former top Indian negotiators at the WTO have warned of severe risks involved in agreeing to a full-fledged FTA with the US. Indian businesses remain vulnerable to potential tariff actions, forcing policymakers to carefully balance affordable Russian crude energy supplies against key export access to American markets."
+      "An Indian parliamentary panel has urged the government to finalize an early trade pact with the United States while calling for stronger safeguards against potential US tariffs. At the same time, a new US law has revived tariff threats against Indian goods over India's ongoing purchases of Russian oil. To navigate this friction, Commerce Minister Piyush Goyal is likely to meet US Trade Representative Jamieson Greer as official trade negotiations continue.",
+      "The developing impasse highlights how India's energy sourcing from Russia complicates its economic alignment with Washington. Indian negotiators are working to protect key export sectors while preserving national energy security priorities. For Indian enterprise, the outcome of these high-stakes discussions will determine market access and tariff liabilities in India's largest export destination."
     ],
     "world_60": [
-      "Gold drops over 2% as MCX prices plunge by Rs 3,200 per 10 grams",
-      "Oil prices jump higher after Trump rejects Iran truce offer",
-      "New Zealand PM says India and NZ will sign FTA next week",
-      "Rupee comes under pressure as rising crude oil hits market sentiment"
+      "New Zealand PM says India, NZ to sign bilateral FTA next week",
+      "India and Canada race to seal trade deal ahead of December summit",
+      "Gold drops over 2% below Rs 1.50 lakh as US rate hike fears mount",
+      "Xi Jinping visit and Iran conflict test Trump foreign policy strategy"
     ],
     "image": {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Piyush_Goyal_crop.jpg/330px-Piyush_Goyal_crop.jpg",
@@ -366,106 +366,16 @@
   "sources": {
     "big_story": [
       {
-        "title": "Stock market crash today: BSE Sensex crashes over 1,000 points, Nifty50 below 22,850 - top reasons for fall",
-        "source": "The Times of India"
-      },
-      {
-        "title": "Nifty Sensex drops 1% each as Iran US Conflict and FII Outflows raise concern",
-        "source": "India Infoline"
-      },
-      {
-        "title": "Indian shares hit near six-month low as US-Iran deadlock lifts oil prices",
+        "title": "Rupee pressured by Iran talks impasse; RBI intervention a 'reliable' buffer",
         "source": "Reuters"
-      }
-    ],
-    "venture_vault": [
-      {
-        "title": "Skyroot in talks to raise $280 million from Fidelity, General Catalyst, Benchmark in Valley VC’s first...",
-        "source": "Moneycontrol.com"
-      }
-    ],
-    "daily_brief_1": [
-      {
-        "title": "India-Canada trade deal on cards? Maninder Sidhu may visit in October ahead of PM Modi's December trip: Report",
-        "source": "Livemint"
       },
       {
-        "title": "India, Canada race to seal trade deal; trade minister to visit New Delhi again in October | India News",
-        "source": "Hindustan Times"
+        "title": "Oil Price Today (September 28): Crude oil gains to $106 as Trump rejects Iran deal. Where are prices heade",
+        "source": "The Economic Times"
       },
       {
-        "title": "Jaishankar holds talks with Canadian Foreign Minister on strengthen India-Canada Ties",
-        "source": "The Indian Awaaz"
-      }
-    ],
-    "daily_brief_2": [
-      {
-        "title": "IIT Madras-backed Unicorn India Ventures raises ₹450 crore; to complete the fund at ₹1,000 crore by December",
-        "source": "The Hindu"
-      },
-      {
-        "title": "IITM-backed deeptech fund raises Rs 453 cr in first close",
-        "source": "The Times of India"
-      },
-      {
-        "title": "IIT-M deep-tech fund raises Rs 450 cr in 1st close",
+        "title": "Oil prices spike after Trump rejects Iran truce offer",
         "source": "The New Indian Express"
-      },
-      {
-        "title": "IIT Madras, Unicorn India Ventures Raise Rs 450 Crore In Initial Round Of Rs 1,000-Crore Deep-Tech Fund",
-        "source": "Swarajya"
-      }
-    ],
-    "daily_brief_3": [
-      {
-        "title": "Sanofi Healthcare buys 15.2% stake in Sanofi India for Rs 1,068 crore",
-        "source": "ETPharma.com"
-      }
-    ],
-    "also_today": [
-      {
-        "title": "Linde India Secures Sanand Land For Semiconductor Gas Facility",
-        "source": "sahi.com"
-      },
-      {
-        "title": "Hitachi Energy India net profit surges 123.5% to ₹294.2 crore in Q1FY27",
-        "source": "scanx.trade"
-      },
-      {
-        "title": "Lodha Developers Q1FY27 profit doubles to ₹1,370 crore; revenue jumps 43%",
-        "source": "scanx.trade"
-      },
-      {
-        "title": "Net FDI Inflows Hit Five-Year High",
-        "source": "India Business Trade"
-      }
-    ],
-    "geopolitics": [
-      {
-        "title": "Parliamentary Panel urges early India-US trade pact, calls for stronger safeguards against US tariffs",
-        "source": "ddnews.gov.in"
-      },
-      {
-        "title": "New U.S. Law Revives Tariff Threat Over India’s Russian Oil as Trade Talks Continue",
-        "source": "IndraStra Global"
-      },
-      {
-        "title": "Piyush Goyal likely to meet USTR Jamieson Greer amid tariff threat",
-        "source": "Business Standard"
-      },
-      {
-        "title": "India's former top negotiator at WTO. Now he warns of risks in a full-fledged FTA with US",
-        "source": "Business Today"
-      }
-    ],
-    "world_60": [
-      {
-        "title": "New Zealand PM Christopher Luxon says India, New Zealand to sign FTA next week | Akashvani News",
-        "source": "News On AIR"
-      },
-      {
-        "title": "Why are gold prices crashing today? MCX Gold down Rs 3,200/10 grams, plunges over 2% - top reasons for fa",
-        "source": "The Times of India"
       },
       {
         "title": "Oil prices jump after Trump rejects Iran’s truce offer",
@@ -476,30 +386,108 @@
         "source": "FXStreet"
       }
     ],
+    "venture_vault": [
+      {
+        "title": "ByteAsk raises $1 million in funding to build AI coding agents for C and C++",
+        "source": "Indian Startup News"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "Sensex crashes 900 points, investors lose Rs 6 lakh crore: Why are markets falling?",
+        "source": "India Today"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "Why is market falling today? Sensex tumbles over 1,000 points, Nifty below 22,850. 6 key factors behind Rs",
+        "source": "The Economic Times"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "Sensex Hits Over 5-Month Low",
+        "source": "TradingView"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "Investors Lose Rs 5 Lakh Crore In An Hour: 5 Reasons Behind Market Crash Today",
+        "source": "NDTV"
+      },
+      {
+        "title": "Stock market live updates today: BSE Sensex tumbles over 1,000 points, NSE Nifty50 trades below 22,900",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Rupee pressured by Iran talks impasse; RBI intervention a 'reliable' buffer",
+        "source": "Reuters"
+      },
+      {
+        "title": "Block deal alert! Clean Max shares in focus as Augment India likely to sell stake worth Rs 1,063 crore",
+        "source": "The Economic Times"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "Parliamentary Panel urges early India-US trade pact, calls for stronger safeguards against US tariffs",
+        "source": "DD News"
+      },
+      {
+        "title": "New U.S. Law Revives Tariff Threat Over India’s Russian Oil as Trade Talks Continue",
+        "source": "IndraStra Global"
+      },
+      {
+        "title": "Piyush Goyal likely to meet USTR Jamieson Greer amid tariff threat",
+        "source": "Business Standard"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "India-Canada trade deal on cards? Maninder Sidhu may visit in October ahead of PM Modi's December trip: Report",
+        "source": "Livemint"
+      },
+      {
+        "title": "India, Canada race to seal trade deal; trade minister to visit New Delhi again in October | India News",
+        "source": "Hindustan Times"
+      },
+      {
+        "title": "Xi visit, Iran war test Trump’s foreign policy",
+        "source": "indiagazette.com"
+      },
+      {
+        "title": "New Zealand PM Christopher Luxon says India, New Zealand to sign FTA next week | Akashvani News",
+        "source": "News On AIR"
+      },
+      {
+        "title": "Why are gold prices crashing today? MCX Gold down Rs 3,200/10 grams, plunges over 2% - top reasons for fa",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Gold slips below ₹1.50 lakh on US-Iran impasse; silver tumbles too",
+        "source": "Business Standard"
+      },
+      {
+        "title": "Gold drops more than 2% on US rate-hike bets",
+        "source": "Reuters"
+      }
+    ],
     "ipo_desk": [
       {
         "title": "Moneyview IPO: Issue subscribed 14.24 times on final day; GMP indicates 38% listing gain",
-        "source": "Fortune India"
+        "source": "fortuneindia.com"
       },
       {
-        "title": "Moneyview IPO Day 3: GMP signals 41% listing premium, issue subscription reaches 6x. Should you apply?",
-        "source": "The Economic Times"
+        "title": "SRIT India IPO GMP Today: Check Grey Market Premium On Day 1 Of Subscription",
+        "source": "NDTV Profit"
       },
       {
         "title": "SRIT India IPO: GMP at 25%; check review, subscription & other details",
         "source": "Business Standard"
       },
       {
-        "title": "SRIT India IPO opens today: Check price band, GMP, anchor book and other details",
-        "source": "CNBC TV18"
-      },
-      {
         "title": "Adroit Industries IPO allotment today; GMP at 43% — check status on BSE, NSE and registrar",
         "source": "Moneycontrol.com"
-      },
-      {
-        "title": "Adroit Industries IPO Allotment Status: Check Share Allocation, GMP, Listing Date And What Happens Next",
-        "source": "NDTV Profit"
       }
     ],
     "market_data": "Yahoo Finance (computed, session 2026-09-25)",
