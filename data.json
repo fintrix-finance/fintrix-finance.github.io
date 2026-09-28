@@ -1,40 +1,40 @@
 {
-  "updated_ist": "2026-09-27",
+  "updated_ist": "2026-09-28",
   "cover": {
-    "big_story_teaser": "India's rural economy transforms with GOBARdhan economics",
-    "venture_teaser": "Ultraviolette Automotive raises 74 million euros for US launch",
-    "market_watch_teaser": "Sensex closed up 0.43% at 73,895.74 as markets shut for the weekend.",
-    "daily_brief_teaser": "Defence Index, Bamboo Economy, and Agriculture Sector updates.",
-    "inbrief_2": "Defence Index Fund info released",
-    "inbrief_3": "Bamboo economy for sustainable growth",
-    "inbrief_4": "New Era of Indian Agriculture",
-    "inbrief_1": "US-India Tariffs Ruled Illegal"
+    "big_story_teaser": "Sensex crashes 1,000 points as oil prices surge",
+    "venture_teaser": "Skyroot eyes $280 million from marquee investors",
+    "market_watch_teaser": "Sensex rises 0.43% to 73,895.74 as Axis Bank leads gainers",
+    "daily_brief_teaser": "India-Canada trade deal negotiations advance as IIT Madras fund hits ₹450 crore",
+    "inbrief_2": "Canada Negotiations Race Ahead",
+    "inbrief_3": "Madras Deep Tech Fund First Close",
+    "inbrief_4": "Sanofi Buys ₹1,068 Cr Stake",
+    "inbrief_1": "US Tariff Threat on Russian Oil"
   },
   "big_story": {
-    "headline": "Rural India's Green Turn",
-    "subhead": "HOW RURAL ECONOMICS AND SUSTAINABLE GROWTH ARE REDEFINING INDIA'S HORIZONS.",
+    "headline": "Markets Crash Over 1,000 Points",
+    "subhead": "SENSEX AND NIFTY PLUNGE AS US-IRAN TENSIONS LIFT OIL PRICES AND TRIGGER FII OUTFLOWS",
     "paragraphs": [
-      "India is witnessing a major shift in how rural economics and sustainable growth intersect across different regions. Initiatives like GOBARdhan are stepping in to change the economic landscape of rural India fundamentally. At the same time, regional leaders are emphasizing that states like Maharashtra must build a bamboo economy to ensure long-term sustainable growth.",
-      "These developments highlight a broader push toward leveraging local resources and eco-friendly models to drive financial resilience. Sustainable growth is no longer just an environmental goal but a core economic strategy for rural communities and state planners alike. By turning agricultural and natural byproducts into viable commercial assets, rural stakeholders are unlocking new revenue streams.",
-      "As these green economic models take root, observers will be watching how policy execution matches local ambition. The success of these initiatives could serve as a blueprint for other regions seeking sustainable ways to boost rural incomes. Investors and policymakers should keep a close eye on how traditional rural sectors adapt to modern economic demands."
+      "Indian equity markets opened the week in a sea of red as the BSE Sensex crashed over 1,000 points and the Nifty50 slipped below key psychological levels. Investors watched helplessly as billions in wealth vanished within hours of trading. The sharp sell-off dragged Indian shares down to a near six-month low, dampening sentiment across Dalal Street.",
+      "The sudden market rout was primarily driven by escalating geopolitical tensions following a US-Iran deadlock, which sent global crude oil prices surging. Higher oil prices stoked fears of renewed inflation and aggressive central bank interest rate hikes. Meanwhile, relentless foreign institutional investor outflows compounded the pressure on domestic indices.",
+      "As macroeconomic headwinds mount, analysts advise caution and close monitoring of global crude trends and foreign fund movements. While RBI intervention serves as a reliable buffer for the rupee, equity investors must brace for continued volatility. Long-term investors should focus on fundamentals rather than getting swept up in sudden panic selling."
     ],
-    "pullbox": "Sustainable growth is transitioning from an environmental talking point into a primary driver of rural economic transformation across India.",
+    "pullbox": "Geopolitical friction in the Middle East and rising crude prices can quickly derail domestic market momentum, reminding investors that global macroeconomics dictates local fortunes.",
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
-      "alt": "Reserve Bank of India"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/BSE_logo.svg/330px-BSE_logo.svg.png",
+      "alt": "Bombay Stock Exchange"
     }
   },
   "explains": {
-    "title": "What is GOBARdhan?",
+    "title": "What is FII Outflow?",
     "paragraphs": [
-      "GOBARdhan is an initiative designed to positively impact the economics of India's rural economy by converting waste into wealth. It focuses on managing and transforming cattle dung and organic waste into valuable resources like biogas and organic fertilizer.",
-      "In practice, the initiative helps rural households and communities generate clean energy while creating localized business opportunities. This dual benefit reduces dependence on external energy sources and keeps financial value within the rural ecosystem."
+      "Foreign Institutional Investors or FIIs refer to large institutional funds, such as foreign mutual funds and pension funds, that invest in emerging markets like India. When these entities pull their capital out of domestic stocks, it is known as FII outflow.",
+      "Outflows typically happen when global risk sentiment sours, US bond yields rise, or geopolitical tensions spike, making investors seek safer havens like US dollars or Treasuries. This massive withdrawal of foreign capital puts heavy downward pressure on Indian stock indices."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Ultraviolette Automotive has made headlines by successfully raising 74 million euros in a fresh funding round. The electric vehicle startup is using this capital injection to plot its upcoming expansion into the United States market.",
-      "This strategic move marks a significant milestone for Indian electric vehicle innovators aiming to scale their footprint globally. Backed by strong investor confidence, the company's founders are betting on high-performance design to carve out space in competitive international markets."
+      "Indian space tech pioneer Skyroot is reportedly in advanced talks to raise a massive funding round from marquee Silicon Valley venture capital heavyweights including Fidelity, General Catalyst, and Benchmark. This potential deal marks a significant milestone for India's burgeoning private space sector.",
+      "The backing of prominent global venture capital firms highlights growing international confidence in India's deep-tech and aerospace capabilities. As the startup scales its operations, this capital injection will help accelerate its technological roadmap and commercial launch vehicles."
     ]
   },
   "market_watch": {
@@ -58,8 +58,8 @@
     "asian": [
       {
         "name": "Nikkei 225",
-        "value": "66,364.20 ▲ 1.30%",
-        "dir": "up"
+        "value": "65,877.62 ▼ 0.73%",
+        "dir": "down"
       },
       {
         "name": "Hang Seng",
@@ -68,14 +68,14 @@
       },
       {
         "name": "Shanghai Comp.",
-        "value": "3,888.37 ▼ 1.22%",
+        "value": "3,822.40 ▼ 1.70%",
         "dir": "down"
       }
     ],
     "european": [
       {
         "name": "FTSE 100",
-        "value": "10,695.25 ▲ 0.14%",
+        "value": "10,695.30 ▲ 0.14%",
         "dir": "up"
       },
       {
@@ -92,12 +92,12 @@
     "global": [
       {
         "name": "Dollar Index",
-        "value": "101.03 ▼ 0.25%",
+        "value": "101.03 ▼ 0.25% (as of Sep 25)",
         "dir": "down"
       },
       {
         "name": "Brent Crude",
-        "value": "$97.44/bbl",
+        "value": "$104.32/bbl",
         "dir": "down"
       },
       {
@@ -116,13 +116,22 @@
       "Asian Paints",
       "Mahindra & Mahindra"
     ],
-    "snapshot_strip": "Realty and Auto led; Media and IT lagged as the Nifty rose 0.34%",
+    "snapshot_strip": "The Nifty rose 0.34% in the last session",
     "date_label": "SEP 2026",
-    "close_label": "AS OF FRIDAY'S CLOSE, SEP 25",
+    "close_label": "CLOSE OF SEP 25",
+    "session_date": "2026-09-25",
     "ipo_desk": [
       {
-        "name": "Orient Cables",
-        "note": "2.07 times subscribed on day 1"
+        "name": "Moneyview IPO",
+        "note": "Subscribed 14.24x with 38% listing signal"
+      },
+      {
+        "name": "SRIT India IPO",
+        "note": "Opens today with 25% grey market premium"
+      },
+      {
+        "name": "Adroit Industries IPO",
+        "note": "Allotment status today amid 43% GMP signal"
       }
     ]
   },
@@ -141,22 +150,22 @@
       {
         "name": "Silver",
         "unit": "$/oz",
-        "price": "64.80",
-        "day": "▲ 2.12%",
-        "week": "▼ 2.64%",
+        "price": "64.25",
+        "day": "▲ 1.24%",
+        "week": "▼ 3.47%",
         "dir": "up",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,20.3 4.1,15.9 8.3,24.3 12.4,17.4 16.6,8.5 20.7,3.0 24.8,6.6 29.0,6.2 33.1,8.7 37.2,3.1 41.4,12.5 45.5,15.5 49.7,21.7 53.8,21.3 57.9,12.6 62.1,16.2 66.2,15.2 70.3,8.9 74.5,23.0 78.6,21.9 82.8,25.9 86.9,27.0 91.0,22.9 95.2,18.4 99.3,14.2 103.4,17.0 107.6,16.6 111.7,22.6 115.9,26.1 120.0,21.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"21.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,20.3 4.1,15.9 8.3,24.3 12.4,17.4 16.6,8.5 20.7,3.0 24.8,6.6 29.0,6.2 33.1,8.7 37.2,3.1 41.4,12.5 45.5,15.5 49.7,21.7 53.8,21.3 57.9,12.6 62.1,16.2 66.2,15.2 70.3,8.9 74.5,23.0 78.6,21.9 82.8,25.9 86.9,27.0 91.0,22.9 95.2,18.4 99.3,14.2 103.4,17.0 107.6,16.6 111.7,22.6 115.9,26.1 120.0,23.1\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"23.1\" r=\"2.4\" fill=\"#c1541f\"/></svg>"
       },
       {
         "name": "Brent Crude",
         "unit": "$/bbl",
-        "price": "97.44",
-        "day": "▼ 8.59%",
-        "week": "▼ 6.19%",
+        "price": "104.32",
+        "day": "▼ 2.14%",
+        "week": "▲ 0.43%",
         "dir": "down",
-        "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,26.2 4.1,23.5 8.3,23.4 12.4,22.7 16.6,20.2 20.7,19.5 24.8,22.0 29.0,26.2 33.1,27.0 37.2,24.9 41.4,25.3 45.5,24.0 49.7,19.2 53.8,18.1 57.9,18.2 62.1,17.3 66.2,15.4 70.3,11.7 74.5,4.3 78.6,7.8 82.8,6.5 86.9,3.0 91.0,6.4 95.2,7.5 99.3,8.6 103.4,12.7 107.6,13.9 111.7,9.5 115.9,5.5 120.0,16.0\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"16.0\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>"
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,26.2 4.1,23.5 8.3,23.4 12.4,22.7 16.6,20.2 20.7,19.5 24.8,22.0 29.0,26.2 33.1,27.0 37.2,24.9 41.4,25.3 45.5,24.0 49.7,19.2 53.8,18.1 57.9,18.2 62.1,17.3 66.2,15.4 70.3,11.7 74.5,4.3 78.6,7.8 82.8,6.5 86.9,3.0 91.0,6.4 95.2,7.5 99.3,8.6 103.4,12.7 107.6,13.9 111.7,9.5 115.9,5.5 120.0,8.1\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"8.1\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>"
       },
       {
         "name": "WTI Crude",
@@ -295,148 +304,205 @@
       }
     ],
     "date_label": "SEP 2026",
-    "close_label": "AS OF FRIDAY'S CLOSE, SEP 25",
+    "close_label": "CLOSE OF SEP 25",
+    "session_date": "2026-09-25",
     "nav_label": "NAVS AS OF SEP 25"
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "Fund Watch",
-      "headline": "Invesco India Nifty India Defence Index Fund info",
+      "kicker": "Trade Policy | Bilateral Talks",
+      "headline": "India and Canada Race to Seal Trade Deal",
       "paragraphs": [
-        "The economic landscape continues to evolve with specialized fund offerings targeting key sectors of growth. Investors tracking industrial and strategic segments now have access to detailed fund information regarding the regular plan. Such index funds provide targeted exposure to manufacturers and technology providers within the broader ecosystem.",
-        "As portfolio diversification gains momentum among retail participants, thematic allocations offer distinct avenues for capital deployment. Observers note that structured products aligned with national security priorities attract consistent institutional and retail interest alike."
+        "India and Canada are accelerating efforts to conclude a bilateral trade deal as trade minister Maninder Sidhu prepares for an October visit to New Delhi. The upcoming discussions follow recent talks between External Affairs Minister S. Jaishankar and Canadian officials to strengthen bilateral relations.",
+        "The diplomatic engagement aims to lay the groundwork ahead of Prime Minister Narendra Modi's scheduled trip to Canada in December. Both nations are seeking to enhance trade ties and formalize commercial agreements after months of negotiation."
       ],
       "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/New_York_Stock_Exchange_-_panoramio_%282%29.jpg/3840px-New_York_Stock_Exchange_-_panoramio_%282%29.jpg",
-        "alt": "Stock exchange"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
+        "alt": "New Delhi"
       }
     },
     "story_2": {
-      "kicker": "Sustainable Growth",
-      "headline": "Maharashtra must build bamboo economy",
+      "kicker": "Venture Capital | Deep Tech",
+      "headline": "IIT Madras Fund Raises ₹450 Crore in First Close",
       "paragraphs": [
-        "Regional development discussions have increasingly turned toward sustainable resource management and alternative green industries. Leadership emphasizes that cultivating specific renewable materials can significantly boost regional employment and industrial output. This strategic pivot aims to harmonize ecological preservation with commercial viability.",
-        "Proponents argue that structured investments in eco-friendly supply chains will strengthen local enterprises. By integrating traditional cultivation methods with modern processing techniques, the state positions itself at the forefront of green economic initiatives."
+        "Unicorn India Ventures and IIT Madras have announced the first close of their deep-tech venture capital fund, securing ₹450 crore in initial capital commitments. The dedicated fund focuses on backing early-stage technology startups originating from academic research and deep-tech innovation hubs.",
+        "The venture fund aims to reach its target size of ₹1,000 crore by December 2026. This initial capital raise highlights growing investor appetite for Indian deep-tech ventures."
       ]
     },
     "story_3": {
-      "kicker": "Agriculture",
-      "headline": "The New Era of Indian Agriculture and Allied Sectors",
+      "kicker": "Corporate | Healthcare",
+      "headline": "Sanofi Healthcare Buys ₹1,068 Crore Stake in Sanofi India",
       "paragraphs": [
-        "Agricultural supply chains and allied industries are undergoing a profound technological transformation to enhance productivity and farmer incomes. Government initiatives focus on modernizing infrastructure and integrating digital tools across rural markets to unlock greater value."
+        "Sanofi Healthcare has acquired a 15.2% stake in Sanofi India for ₹1,068 crore in a significant corporate transaction. The equity purchase strengthens the parent entity's footprint in the Indian pharmaceutical sector."
       ]
     },
     "also_today": {
       "items": [
-        "Cochin Shipyard surges 7% after bagging massive ₹5,000 Cr defence deal",
-        "India's consumer durables market to touch ₹3-3.25 trillion by 2030",
-        "IIT Madras-backed Unicorn India Ventures raises ₹450 crore",
-        "Wheels India allots 11.97 lakh shares via QIP at ₹2,088, raises ₹249.99 crore"
+        "Hitachi Energy India net profit surges 123.5% to ₹294.2 crore in Q1 FY27.",
+        "Lodha Developers Q1 FY27 profit doubles to ₹1,370 crore as revenue jumps 43%.",
+        "Linde India secures land in Sanand for a semiconductor gas facility.",
+        "Net foreign direct investment inflows into India hit a five-year high."
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India x US | Tariffs",
-    "headline": "US Court Voids 10% Universal Tariff on India",
+    "kicker": "India x US | Trade Policy",
+    "headline": "US Tariff Threat Looming Over India's Russian Oil Imports",
     "paragraphs": [
-      "In a major legal development for international trade, the US Court of International Trade has declared the Trump administration's 10 percent universal tariff levied on imports from India and other countries illegal. This unexpected ruling directly impacts the cost structure of cross-border commerce and brings immediate relief to exporters navigating complex protectionist measures. For months, trade dynamics between Washington and New Delhi have been strained by ongoing policy shifts, making this judicial intervention a critical turning point.",
-      "While the court ruling provides breathing room, the broader bilateral trade negotiations and tariff frameworks remain dynamic and unsettled. Business leaders and market analysts are closely watching how the administration responds to the legal setback as discussions toward finalising a bilateral trade deal continue. Understanding these shifting trade barriers is essential for assessing supply chain stability and export revenue potential in the coming quarters."
+      "A new US law has revived tariff threats against India over its ongoing purchases of Russian oil, even as bilateral trade talks continue between both nations. Commerce Minister Piyush Goyal is expected to meet US Trade Representative Jamieson Greer to address these diplomatic and commercial friction points. Meanwhile, an Indian parliamentary panel has urged the government to pursue an early trade pact while establishing strong safeguards against US tariffs.",
+      "Navigating this impasse remains a critical challenge for Indian policymakers and trade strategy. Former top Indian negotiators at the WTO have warned of severe risks involved in agreeing to a full-fledged FTA with the US. Indian businesses remain vulnerable to potential tariff actions, forcing policymakers to carefully balance affordable Russian crude energy supplies against key export access to American markets."
     ],
     "world_60": [
-      "Global oil inventories are depleted as next price spikes threaten economies.",
-      "Federal Reserve holds interest rates steady as US inflation hits three-year high.",
-      "China cuts gas price hikes while global markets react to changing inflation data.",
-      "Gold forecast remains under scrutiny as import duties weigh on Indian demand."
+      "Gold drops over 2% as MCX prices plunge by Rs 3,200 per 10 grams",
+      "Oil prices jump higher after Trump rejects Iran truce offer",
+      "New Zealand PM says India and NZ will sign FTA next week",
+      "Rupee comes under pressure as rising crude oil hits market sentiment"
     ],
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
-      "alt": "New Delhi"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Piyush_Goyal_crop.jpg/330px-Piyush_Goyal_crop.jpg",
+      "alt": "Piyush Goyal"
     }
   },
   "sources": {
     "big_story": [
       {
-        "title": "GOBARdhan could change the economics of India’s rural economy",
-        "source": "BusinessLine"
+        "title": "Stock market crash today: BSE Sensex crashes over 1,000 points, Nifty50 below 22,850 - top reasons for fall",
+        "source": "The Times of India"
       },
       {
-        "title": "Maharashtra must build bamboo economy for sustainable growth: Governor Varma",
-        "source": "ThePrint"
+        "title": "Nifty Sensex drops 1% each as Iran US Conflict and FII Outflows raise concern",
+        "source": "India Infoline"
+      },
+      {
+        "title": "Indian shares hit near six-month low as US-Iran deadlock lifts oil prices",
+        "source": "Reuters"
       }
     ],
     "venture_vault": [
       {
-        "title": "Ultraviolette Automotive raises €74 million, plots U.S. launch",
-        "source": "electrive.com"
+        "title": "Skyroot in talks to raise $280 million from Fidelity, General Catalyst, Benchmark in Valley VC’s first...",
+        "source": "Moneycontrol.com"
       }
     ],
     "daily_brief_1": [
       {
-        "title": "Invesco India Nifty India Defence Index Fund - Regular Plan Fund info",
-        "source": "The Economic Times"
+        "title": "India-Canada trade deal on cards? Maninder Sidhu may visit in October ahead of PM Modi's December trip: Report",
+        "source": "Livemint"
+      },
+      {
+        "title": "India, Canada race to seal trade deal; trade minister to visit New Delhi again in October | India News",
+        "source": "Hindustan Times"
+      },
+      {
+        "title": "Jaishankar holds talks with Canadian Foreign Minister on strengthen India-Canada Ties",
+        "source": "The Indian Awaaz"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "Maharashtra must build bamboo economy for sustainable growth: Governor Varma",
-        "source": "ThePrint"
+        "title": "IIT Madras-backed Unicorn India Ventures raises ₹450 crore; to complete the fund at ₹1,000 crore by December",
+        "source": "The Hindu"
+      },
+      {
+        "title": "IITM-backed deeptech fund raises Rs 453 cr in first close",
+        "source": "The Times of India"
+      },
+      {
+        "title": "IIT-M deep-tech fund raises Rs 450 cr in 1st close",
+        "source": "The New Indian Express"
+      },
+      {
+        "title": "IIT Madras, Unicorn India Ventures Raise Rs 450 Crore In Initial Round Of Rs 1,000-Crore Deep-Tech Fund",
+        "source": "Swarajya"
       }
     ],
     "daily_brief_3": [
       {
-        "title": "The New Era of Indian Agriculture and Allied Sectors",
-        "source": "PIB"
+        "title": "Sanofi Healthcare buys 15.2% stake in Sanofi India for Rs 1,068 crore",
+        "source": "ETPharma.com"
       }
     ],
     "also_today": [
       {
-        "title": "Cochin Shipyard surges 7% after bagging massive ₹5,000 Cr defence deal",
-        "source": "Alice Blue"
+        "title": "Linde India Secures Sanand Land For Semiconductor Gas Facility",
+        "source": "sahi.com"
       },
       {
-        "title": "India's consumer durables market to touch ₹3-3.25 trillion by 2030",
-        "source": "Business Standard"
-      },
-      {
-        "title": "IIT Madras-backed Unicorn India Ventures raises ₹450 crore; to complete the fund at ₹1,000 crore by December",
-        "source": "thehindu.com"
-      },
-      {
-        "title": "Wheels India allots 11.97 lakh shares via QIP at ₹2,088, raises ₹249.99 crore",
+        "title": "Hitachi Energy India net profit surges 123.5% to ₹294.2 crore in Q1FY27",
         "source": "scanx.trade"
+      },
+      {
+        "title": "Lodha Developers Q1FY27 profit doubles to ₹1,370 crore; revenue jumps 43%",
+        "source": "scanx.trade"
+      },
+      {
+        "title": "Net FDI Inflows Hit Five-Year High",
+        "source": "India Business Trade"
       }
     ],
     "geopolitics": [
       {
-        "title": "US Court of International Trade declares Trump administration’s 10% universal tariff levied on imports from India & other countries illegal | Akashvani News",
-        "source": "News On AIR"
+        "title": "Parliamentary Panel urges early India-US trade pact, calls for stronger safeguards against US tariffs",
+        "source": "ddnews.gov.in"
+      },
+      {
+        "title": "New U.S. Law Revives Tariff Threat Over India’s Russian Oil as Trade Talks Continue",
+        "source": "IndraStra Global"
+      },
+      {
+        "title": "Piyush Goyal likely to meet USTR Jamieson Greer amid tariff threat",
+        "source": "Business Standard"
+      },
+      {
+        "title": "India's former top negotiator at WTO. Now he warns of risks in a full-fledged FTA with US",
+        "source": "Business Today"
       }
     ],
     "world_60": [
       {
-        "title": "Global Oil Inventories Depleted, Next Price Spike Could Roil Economies, Markets",
-        "source": "EnergyNow.com"
+        "title": "New Zealand PM Christopher Luxon says India, New Zealand to sign FTA next week | Akashvani News",
+        "source": "News On AIR"
       },
       {
-        "title": "Gold forecast: XAU/USD breakout needs confirmation",
-        "source": "FOREX.com"
+        "title": "Why are gold prices crashing today? MCX Gold down Rs 3,200/10 grams, plunges over 2% - top reasons for fa",
+        "source": "The Times of India"
       },
       {
-        "title": "Gold Imports in India: Kotak Lowers FY2027 Forecast as Prices and Import Duty Weigh on Demand",
-        "source": "Sangri Today"
+        "title": "Oil prices jump after Trump rejects Iran’s truce offer",
+        "source": "Euronews.com"
       },
       {
-        "title": "Fed holds interest rates steady as inflation hits 3-year high",
-        "source": "ABC News - Breaking News, Latest News and Videos"
+        "title": "Indian Rupee starts the week negatively amid higher oil prices",
+        "source": "FXStreet"
       }
     ],
     "ipo_desk": [
       {
-        "title": "Orient Cables IPO Subscription Status Day 1: Issue Subscribed 2.07 Times",
-        "source": "HDFC Sky"
+        "title": "Moneyview IPO: Issue subscribed 14.24 times on final day; GMP indicates 38% listing gain",
+        "source": "Fortune India"
+      },
+      {
+        "title": "Moneyview IPO Day 3: GMP signals 41% listing premium, issue subscription reaches 6x. Should you apply?",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "SRIT India IPO: GMP at 25%; check review, subscription & other details",
+        "source": "Business Standard"
+      },
+      {
+        "title": "SRIT India IPO opens today: Check price band, GMP, anchor book and other details",
+        "source": "CNBC TV18"
+      },
+      {
+        "title": "Adroit Industries IPO allotment today; GMP at 43% — check status on BSE, NSE and registrar",
+        "source": "Moneycontrol.com"
+      },
+      {
+        "title": "Adroit Industries IPO Allotment Status: Check Share Allocation, GMP, Listing Date And What Happens Next",
+        "source": "NDTV Profit"
       }
     ],
-    "market_data": "Yahoo Finance (computed, session AS OF FRIDAY'S CLOSE, SEP 25)",
+    "market_data": "Yahoo Finance (computed, session 2026-09-25)",
     "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
   }
 }
