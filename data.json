@@ -1,40 +1,40 @@
 {
   "updated_ist": "2026-09-28",
   "cover": {
-    "big_story_teaser": "Crude oil jumps to $106 as US-Iran talks stall, raising energy inflation fears.",
-    "venture_teaser": "ByteAsk secures $1 million in funding to develop AI coding agents for C and C++.",
-    "market_watch_teaser": "Nifty rises 0.34%, Sensex up 0.43% in last session",
-    "daily_brief_teaser": "Sensex crashes 900 points as investor wealth erodes",
-    "inbrief_2": "Sensex crashes 900 points",
-    "inbrief_3": "Sensex tumbles over 1,000 points",
-    "inbrief_4": "Sensex Hits Over 5-Month Low",
-    "inbrief_1": "US Trade Pact & Oil Tariff Threat"
+    "big_story_teaser": "RBI builds $18.65B reserve cushion as rupee faces US-Iran oil pressures",
+    "venture_teaser": "Balwaan Krishi raises ₹100 crore in Series B to scale farm machinery",
+    "market_watch_teaser": "Sensex closed up 0.43% at 73,895.74",
+    "daily_brief_teaser": "Asian stocks slip as oil prices rise and NIFTY falls",
+    "inbrief_2": "Asian stocks slip as oil rises",
+    "inbrief_3": "September slump rattles markets",
+    "inbrief_4": "September slump rattles indices",
+    "inbrief_1": "India Canada Trade"
   },
   "big_story": {
-    "headline": "Crude Spikes as US-Iran Talks Stall",
-    "subhead": "OIL JUMPS TO $106 AFTER TRUMP REJECTS TRUCE OFFER, PRESSURING THE RUPEE",
+    "headline": "Defending the Rupee",
+    "subhead": "RBI BUILDS RECORD FOREX RESERVES TO BUFFER RUPEE AMID STALLED US-IRAN TALKS",
     "paragraphs": [
-      "Crude oil prices surged to $106 per barrel after US leadership rejected a truce offer from Iran, stalling diplomatic negotiations. The geopolitical impasse sent sudden shockwaves through global energy markets, reigniting supply disruption fears. Energy traders quickly adjusted risk premiums across commodity desks as peace prospects dimmed.",
-      "The sharp spike in energy costs is piling pressure on the Indian Rupee during opening sessions. Widen energy import bills threaten to expand trade deficits and weigh on broader market sentiment. Meanwhile, Reserve Bank of India intervention continues to serve as a reliable buffer against excess foreign exchange volatility.",
-      "Rising crude costs threaten to stoke global inflation expectations and complicate policy choices for central banks. Market participants are watching closely whether persistent energy spikes will revive monetary tightening fears across major economies. The coming weeks will test how resilient domestic markets remain in the face of imported commodity shocks."
+      "Stalled US-Iran talks and rising oil prices have put fresh pressure on the Indian rupee, drawing strong central bank intervention. The Reserve Bank of India has been seen defending the currency around the 96 per dollar level as global uncertainty lingers. This intervention serves as a crucial defense mechanism during heightened currency market volatility.",
+      "A key strength backing this defense is the RBI's recent reserve accumulation strategy. In July, the central bank recorded a net dollar purchase of $18.65 billion, boosting India's foreign exchange reserves. These accumulation efforts provide a robust cushion against external capital shocks and import bill surges.",
+      "Market participants view the central bank's intervention as a reliable buffer against global spillovers. However, the ongoing impasse in West Asia continues to pose currency challenges for emerging markets. Financial analysts will closely watch future trade balances and central bank actions in the foreign exchange market."
     ],
-    "pullbox": "Crude oil surging to $106 exposes import-dependent economies to elevated inflation risks, putting foreign exchange reserves and currency stability in the spotlight.",
+    "pullbox": "Record dollar purchases of $18.65 billion in July give the RBI a foreign exchange fortress to defend the rupee at 96 per dollar.",
     "image": {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
       "alt": "Reserve Bank of India"
     }
   },
   "explains": {
-    "title": "What is Import-Induced Inflation?",
+    "title": "What is a Forex Reserve Buffer?",
     "paragraphs": [
-      "Import-induced inflation occurs when key imported commodities, such as crude oil, become significantly more expensive due to international supply shocks or geopolitical conflicts. Because India imports a vast majority of its crude requirements, higher global energy prices immediately raise domestic fuel costs.",
-      "As transportation and manufacturing input expenses rise, businesses pass those cost increases on to end consumers across everyday goods. This broader price pressure forces central banks to keep interest rates elevated to prevent long-term inflation from taking hold."
+      "Foreign exchange reserves are assets held in foreign currencies by a central bank to back liabilities and influence monetary policy. They act as an emergency financial cushion against external economic shocks and international trade volatility.",
+      "When a domestic currency faces downward pressure from rising crude oil prices or capital outflows, the central bank sells foreign currency from its reserves. Buying rupees with dollars increases rupee demand, stabilizing the exchange rate."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "AI startup ByteAsk has secured $1 million in new funding to accelerate its product development pipeline. The startup focuses on building specialized AI coding agents tailored for software developers working in C and C++.",
-      "The fresh capital will help ByteAsk refine its automated development tools and scale engineering operations. By targeting performance-critical systems languages like C and C++, the team aims to solve specialized productivity bottlenecks for enterprise software engineering."
+      "Agricultural machinery startup Balwaan Krishi has secured ₹100 crore in its Series B funding round. The firm focuses on providing smallholder farmers with modern equipment and machinery to improve productivity across rural India.",
+      "The capital injection will be used to expand the company's distribution network and accelerate product deployment. Investor interest in agricultural tech remains strong as farm mechanization becomes vital for sustainable agricultural growth."
     ]
   },
   "market_watch": {
@@ -63,8 +63,8 @@
       },
       {
         "name": "Hang Seng",
-        "value": "24,510.09 ▼ 1.01%",
-        "dir": "down"
+        "value": "24,642.51 ▲ 0.54%",
+        "dir": "up"
       },
       {
         "name": "Shanghai Comp.",
@@ -122,16 +122,12 @@
     "session_date": "2026-09-25",
     "ipo_desk": [
       {
+        "name": "SRIT India IPO",
+        "note": "GMP at 25% on Day 1 of subscription"
+      },
+      {
         "name": "Moneyview IPO",
         "note": "Issue subscribed 14.24 times on final day"
-      },
-      {
-        "name": "SRIT India IPO",
-        "note": "GMP at 25% on day 1 of subscription"
-      },
-      {
-        "name": "Adroit Industries IPO",
-        "note": "Allotment today with GMP at 43%"
       }
     ]
   },
@@ -310,139 +306,117 @@
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "Market Crash",
-      "headline": "Sensex Crashes 900 Points as Investors Lose Rs 6 Lakh Crore",
+      "kicker": "Markets | Regional Watch",
+      "headline": "Asian stocks slip as oil rises and NIFTY falls",
       "paragraphs": [
-        "The domestic stock market witnessed a sharp correction today as the BSE Sensex tumbled over 900 points. Investors suffered massive wealth erosion, losing nearly six lakh crore rupees in a brutal session of trading.",
-        "Market participants pointed to multiple headwinds dampening sentiment across major indices. Analysts are closely monitoring the unfolding situation as selling pressure intensifies across sectors."
+        "Regional markets faced downward pressure as rising oil prices weighed on investor sentiment across Asia. In tandem with the broader regional slide, domestic indices saw significant movement.",
+        "Market participants are closely monitoring commodity trends and currency shifts as external headwinds impact regional valuations."
       ],
       "image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Stamp_of_India_-_2016_-_Colnect_627075_-_Bombay_Stock_Exchange.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Stamp of India - 2016 - Colnect 627075 - Bombay Stock Exchange"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/The_Entrance_of_Tokyo_Stock_Exchange_Main_Building_20240329.jpg/960px-The_Entrance_of_Tokyo_Stock_Exchange_Main_Building_20240329.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "The Entrance of Tokyo Stock Exchange Main Building 20240329"
       }
     },
     "story_2": {
-      "kicker": "Market Tumble",
-      "headline": "Sensex Tumbles Over 1,000 Points as Nifty Slips",
+      "kicker": "Policy | Regulatory Update",
+      "headline": "RBI's FPI KYC changes make onboarding easier",
       "paragraphs": [
-        "Selling pressure intensified on Dalal Street today, dragging the BSE Sensex down by over 1,000 points. The broader Nifty index also slipped below key support levels, mirroring broader regional weakness.",
-        "Market experts have highlighted several key factors behind today's sharp sell-off. Investors continue to reallocate portfolios amid mounting macro uncertainties and shifting global dynamics."
+        "The Reserve Bank of India has introduced revised Know Your Customer norms designed to ease onboarding for foreign portfolio investors. The streamlined procedures aim to attract greater capital inflows.",
+        "Market experts believe these regulatory adjustments will simplify documentation requirements and enhance the ease of doing business in domestic capital markets."
       ]
     },
     "story_3": {
-      "kicker": "Index Low",
-      "headline": "Sensex Hits Over 5-Month Low",
+      "kicker": "Markets | Monthly Review",
+      "headline": "September slump rattles indices with heavy FII selling",
       "paragraphs": [
-        "Benchmark indices slumped to multi-month lows today, reflecting deep-seated caution among institutional and retail investors. The Sensex breached crucial technical thresholds to touch levels not seen in over five months."
+        "A sharp correction marked the month of September as persistent foreign institutional investor selling and a spike in crude oil prices rattled domestic equities. The broader market downturn left major benchmarks under sustained pressure."
       ]
     },
     "also_today": {
       "items": [
-        "Clean Max shares in focus as Augment India likely to sell stake worth Rs 1,063 crore in a block deal.",
-        "Linde India secures Sanand land for setting up a new semiconductor gas facility.",
-        "IIT Madras-backed deep-tech fund Unicorn India Ventures raises Rs 450 crore in its first close.",
-        "Rupee pressured by Iran talks impasse while RBI intervention acts as a reliable buffer."
+        "Supreme Court issues notice to RBI and NPCI over UPI MDR above Rs 2,000.",
+        "RBI records a net dollar purchase of $18.65 billion in July to boost reserves.",
+        "Sanofi Healthcare acquires a 15.2% stake in Sanofi India for Rs 1,068 crore.",
+        "New Zealand Prime Minister announces FTA with India expected next week."
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India | Trade Policy",
-    "headline": "India Pushes for US Trade Pact Amid Russian Oil Tariff Threat",
+    "kicker": "India | Trade",
+    "headline": "India and Canada Race to Seal Trade Deal",
     "paragraphs": [
-      "An Indian parliamentary panel has urged the government to finalize an early trade pact with the United States while calling for stronger safeguards against potential US tariffs. At the same time, a new US law has revived tariff threats against Indian goods over India's ongoing purchases of Russian oil. To navigate this friction, Commerce Minister Piyush Goyal is likely to meet US Trade Representative Jamieson Greer as official trade negotiations continue.",
-      "The developing impasse highlights how India's energy sourcing from Russia complicates its economic alignment with Washington. Indian negotiators are working to protect key export sectors while preserving national energy security priorities. For Indian enterprise, the outcome of these high-stakes discussions will determine market access and tariff liabilities in India's largest export destination."
+      "New Delhi and Ottawa are actively moving to seal a bilateral trade agreement, with Canadian representative Maninder Sidhu slated to visit in October. This diplomatic engagement precedes Prime Minister Narendra Modi's scheduled trip in December.",
+      "As both nations race to finalize terms, businesses are closely monitoring the developments. A successful trade pact could unlock fresh economic opportunities and strengthen commercial ties between the two economies."
     ],
     "world_60": [
-      "New Zealand PM says India, NZ to sign bilateral FTA next week",
-      "India and Canada race to seal trade deal ahead of December summit",
-      "Gold drops over 2% below Rs 1.50 lakh as US rate hike fears mount",
-      "Xi Jinping visit and Iran conflict test Trump foreign policy strategy"
+      "Stock market crash: BSE Sensex plunges over 1,000 points as Nifty50 drops below 22,850",
+      "RBI records $18.65 billion net dollar purchase in July to boost forex reserves",
+      "Sensex hits over 5-month low amid heavy FII selling and crude oil spike",
+      "Pakistan KSE surges over 100% in 2 years, leaving Indian indices far behind"
     ],
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Piyush_Goyal_crop.jpg/330px-Piyush_Goyal_crop.jpg",
-      "alt": "Piyush Goyal"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
+      "alt": "New Delhi"
     }
   },
   "sources": {
     "big_story": [
       {
+        "title": "Indian rupee slips as oil jumps on stalled US-Iran talks, RBI seen defending 96/$",
+        "source": "ChiniMandi"
+      },
+      {
+        "title": "RBI's record $18.65 billion net dollar purchase in July boosts forex reserves",
+        "source": "Rediff"
+      },
+      {
         "title": "Rupee pressured by Iran talks impasse; RBI intervention a 'reliable' buffer",
         "source": "Reuters"
-      },
-      {
-        "title": "Oil Price Today (September 28): Crude oil gains to $106 as Trump rejects Iran deal. Where are prices heade",
-        "source": "The Economic Times"
-      },
-      {
-        "title": "Oil prices spike after Trump rejects Iran truce offer",
-        "source": "The New Indian Express"
-      },
-      {
-        "title": "Oil prices jump after Trump rejects Iran’s truce offer",
-        "source": "Euronews.com"
-      },
-      {
-        "title": "Indian Rupee starts the week negatively amid higher oil prices",
-        "source": "FXStreet"
       }
     ],
     "venture_vault": [
       {
-        "title": "ByteAsk raises $1 million in funding to build AI coding agents for C and C++",
-        "source": "Indian Startup News"
+        "title": "Agricultural machinery company Balwaan Krishi raises Rs 100 Cr in Series B round",
+        "source": "Entrackr"
       }
     ],
     "daily_brief_1": [
       {
-        "title": "Sensex crashes 900 points, investors lose Rs 6 lakh crore: Why are markets falling?",
-        "source": "India Today"
+        "title": "Asian stocks slip as oil prices rise, India's NIFTY falls below 23,000",
+        "source": "FXStreet"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "Why is market falling today? Sensex tumbles over 1,000 points, Nifty below 22,850. 6 key factors behind Rs",
-        "source": "The Economic Times"
+        "title": "RBI’s FPI KYC Change May Make India Onboarding Easier For Foreign Investors",
+        "source": "Outlook Money"
       }
     ],
     "daily_brief_3": [
       {
-        "title": "Sensex Hits Over 5-Month Low",
-        "source": "TradingView"
+        "title": "September Slump: SENSEX, NIFTY crash 5% as FII selling and crude oil spike rattle markets",
+        "source": "Upstox"
       }
     ],
     "also_today": [
       {
-        "title": "Investors Lose Rs 5 Lakh Crore In An Hour: 5 Reasons Behind Market Crash Today",
-        "source": "NDTV"
+        "title": "Supreme Court issues notice to RBI, NPCI over UPI MDR above Rs 2,000; no stay on October 15 rollout",
+        "source": "Moneycontrol.com"
       },
       {
-        "title": "Stock market live updates today: BSE Sensex tumbles over 1,000 points, NSE Nifty50 trades below 22,900",
-        "source": "The Times of India"
+        "title": "RBI's record $18.65 billion net dollar purchase in July boosts forex reserves",
+        "source": "Rediff"
       },
       {
-        "title": "Rupee pressured by Iran talks impasse; RBI intervention a 'reliable' buffer",
-        "source": "Reuters"
+        "title": "Sanofi Healthcare buys 15.2% stake in Sanofi India for Rs 1,068 crore",
+        "source": "ETPharma.com"
       },
       {
-        "title": "Block deal alert! Clean Max shares in focus as Augment India likely to sell stake worth Rs 1,063 crore",
-        "source": "The Economic Times"
+        "title": "New Zealand PM Christopher Luxon says India, New Zealand to sign FTA next week | Akashvani News",
+        "source": "News On AIR"
       }
     ],
     "geopolitics": [
-      {
-        "title": "Parliamentary Panel urges early India-US trade pact, calls for stronger safeguards against US tariffs",
-        "source": "DD News"
-      },
-      {
-        "title": "New U.S. Law Revives Tariff Threat Over India’s Russian Oil as Trade Talks Continue",
-        "source": "IndraStra Global"
-      },
-      {
-        "title": "Piyush Goyal likely to meet USTR Jamieson Greer amid tariff threat",
-        "source": "Business Standard"
-      }
-    ],
-    "world_60": [
       {
         "title": "India-Canada trade deal on cards? Maninder Sidhu may visit in October ahead of PM Modi's December trip: Report",
         "source": "Livemint"
@@ -450,33 +424,27 @@
       {
         "title": "India, Canada race to seal trade deal; trade minister to visit New Delhi again in October | India News",
         "source": "Hindustan Times"
-      },
+      }
+    ],
+    "world_60": [
       {
-        "title": "Xi visit, Iran war test Trump’s foreign policy",
-        "source": "indiagazette.com"
-      },
-      {
-        "title": "New Zealand PM Christopher Luxon says India, New Zealand to sign FTA next week | Akashvani News",
-        "source": "News On AIR"
-      },
-      {
-        "title": "Why are gold prices crashing today? MCX Gold down Rs 3,200/10 grams, plunges over 2% - top reasons for fa",
+        "title": "Stock market crash today: BSE Sensex crashes over 1,000 points, Nifty50 below 22,850 - top reasons for fall",
         "source": "The Times of India"
       },
       {
-        "title": "Gold slips below ₹1.50 lakh on US-Iran impasse; silver tumbles too",
-        "source": "Business Standard"
+        "title": "RBI's record $18.65 billion net dollar purchase in July boosts forex reserves",
+        "source": "Rediff"
       },
       {
-        "title": "Gold drops more than 2% on US rate-hike bets",
-        "source": "Reuters"
+        "title": "Sensex Hits Over 5-Month Low",
+        "source": "TradingView"
+      },
+      {
+        "title": "Forget KOSPI, Nikkei, Nasdaq, even Pakistan's KSE surged over 100% in 2 years, leaving India's Nifty, Sensex far behind",
+        "source": "Livemint"
       }
     ],
     "ipo_desk": [
-      {
-        "title": "Moneyview IPO: Issue subscribed 14.24 times on final day; GMP indicates 38% listing gain",
-        "source": "fortuneindia.com"
-      },
       {
         "title": "SRIT India IPO GMP Today: Check Grey Market Premium On Day 1 Of Subscription",
         "source": "NDTV Profit"
@@ -486,8 +454,8 @@
         "source": "Business Standard"
       },
       {
-        "title": "Adroit Industries IPO allotment today; GMP at 43% — check status on BSE, NSE and registrar",
-        "source": "Moneycontrol.com"
+        "title": "Moneyview IPO: Issue subscribed 14.24 times on final day; GMP indicates 38% listing gain",
+        "source": "fortuneindia.com"
       }
     ],
     "market_data": "Yahoo Finance (computed, session 2026-09-25)",
