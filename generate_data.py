@@ -291,6 +291,14 @@ Rules:
   distinctive content word (not "India", "trade", "deal" etc.) from that story's own headline
   or kicker - e.g. for a story headlined "Sebi clears NSE listing", a good label is
   "NSE listing gets Sebi nod", NOT "Markets at a record high".
+- If any daily_brief story, also_today item or cover label mentions how an index such as
+  the Sensex or Nifty moved, the direction and any figure MUST match the verified market data
+  above. When the day's market headlines contradict that data (e.g. an intraday move after the
+  published close), prefer non-market stories for the brief.
+- If any daily_brief story, also_today item or cover label mentions how an index such as
+  the Sensex or Nifty moved, the direction and any figure MUST match the verified market data
+  above. When the day's market headlines contradict that data (e.g. an intraday move after the
+  published close), prefer non-market stories for the brief.
 - Avoid the big story already chosen for today: {avoid}
 - Tone: a smart college finance magazine - plain English, no jargon dumps.
 - Use the actual ₹ character, not HTML entities. Plain text only - no HTML, markdown or links.
@@ -1255,11 +1263,11 @@ DIR_DOWN_EXACT = {"fell", "fall", "falls", "falling", "drop", "drops", "dropped"
                   "selloff", "tank", "tanks", "tanked", "tanking",
                   "dip", "dips", "dipped"}
 DIR_DOWN_STEM = ("crash", "plung", "slid", "slump", "declin", "tumbl", "slip")
-DIR_DOWN_PHRASE = ("sell-off", "sell off")
+DIR_DOWN_PHRASE = ("sell-off", "sell off", "week low", "month low", "year low", "record low")
 DIR_UP_EXACT = {"rise", "rises", "rose", "rising", "up", "higher", "green",
                 "rally", "rallies", "rallied"}
 DIR_UP_STEM = ("gain", "surg", "jump", "climb", "soar", "advanc", "rebound")
-DIR_UP_PHRASE = ("record high", "all-time high", "lifetime high")
+DIR_UP_PHRASE = ("record high", "all-time high", "lifetime high", "week high", "month high", "year high")
 PAST_MARKERS = ("last week", "last month", "last year", " ago")
 CLAUSE_BREAKS = (",", ";", ".", "!", "?", " - ", " as ", " while ", " amid ", " despite ")
 WORD_PUNCT = "'" + '"()[]{}:;,.!?%&/|' 
@@ -1267,7 +1275,7 @@ WORD_PUNCT = "'" + '"()[]{}:;,.!?%&/|'
 
 def _has_dir(words, padded, exact, stems, phrases):
     for p in phrases:
-        if " " + p + " " in padded:
+        if (p + " ") in padded:  # substring: "5-month low" must match "month low"
             return True
     for w in words:
         if w in exact:
@@ -1278,12 +1286,12 @@ def _has_dir(words, padded, exact, stems, phrases):
     return False
 
 
-def check_big_story_direction(mw):
-    """Reject a big story whose cover-visible text claims an index moved the
-    other way than the market data being published, so generate() regenerates
-    it. Clauses mixing both polarities ("Sensex up as rupee falls"), carrying a
-    past-time marker or an old year, or naming no published index make no
-    checkable claim and pass."""
+def _index_direction_claims(mw):
+    """Build claim_in(text): the index-direction claim a text makes, or None.
+    A clause naming a published index with direction words of only one
+    polarity claims that polarity for that index. Clauses mixing both
+    polarities ("Sensex up as rupee falls"), carrying a past-time marker or an
+    old year, or naming no published index make no checkable claim."""
     indices = {}
     for group in ("indian", "asian", "european"):
         for row in mw.get(group) or []:
@@ -1337,6 +1345,13 @@ def check_big_story_direction(mw):
                     return "claims %s moved %s but the published data has it %s: %r" % (
                         a, claimed, indices[a], text.strip()[:60])
         return None
+    return claim_in
+
+
+def check_big_story_direction(mw):
+    """Reject a big story whose cover-visible text claims an index moved the
+    other way than the market data being published, so generate() regenerates it."""
+    claim_in = _index_direction_claims(mw)
 
     def check(pkg):
         if not isinstance(pkg, dict):
@@ -1349,6 +1364,43 @@ def check_big_story_direction(mw):
                 problem = claim_in(obj[key])
                 if problem:
                     return problem
+        return None
+    return check
+
+
+def check_markets_direction(mw):
+    """The same rule for the markets package: the daily brief headlines, the
+    also_today one-liners and the cover labels teasing them sit next to the
+    market data on the cover, so their index-move claims must match it too."""
+    claim_in = _index_direction_claims(mw)
+
+    def check(pkg):
+        if not isinstance(pkg, dict):
+            return None
+        texts = []
+        cov = pkg.get("cover") or {}
+        if isinstance(cov, dict):
+            for key in ("market_watch_teaser", "daily_brief_teaser",
+                        "inbrief_2", "inbrief_3", "inbrief_4"):
+                if isinstance(cov.get(key), str):
+                    texts.append(cov[key])
+        db = pkg.get("daily_brief") or {}
+        if isinstance(db, dict):
+            for sk in ("story_1", "story_2", "story_3"):
+                s = db.get(sk) or {}
+                if isinstance(s, dict):
+                    for key in ("headline", "kicker"):
+                        if isinstance(s.get(key), str):
+                            texts.append(s[key])
+            at = db.get("also_today") or {}
+            if isinstance(at, dict):
+                for item in at.get("items") or []:
+                    if isinstance(item, str):
+                        texts.append(item)
+        for t in texts:
+            problem = claim_in(t)
+            if problem:
+                return problem
         return None
     return check
 
@@ -1724,7 +1776,7 @@ def main():
                                                       market_summary=market_summary,
                                                       avoid=avoid_bs or "none"),
                        "markets (daily brief, ipo desk, cover lines)",
-                       check=both(fact_check, check_markets_pkg))
+                       check=both(fact_check, check_markets_pkg, check_markets_direction(mw)))
     if markets is None:
         fail("could not generate the markets package - leaving data.json untouched.")
 
