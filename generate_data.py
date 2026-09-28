@@ -1316,7 +1316,7 @@ def _index_direction_claims(mw):
         t = "".join(out)
         for sep in CLAUSE_BREAKS:
             t = t.replace(sep, "|")
-        for clause in t.split("|"):
+        def evaluate(clause):
             for p in WORD_PUNCT:
                 clause = clause.replace(p, " ")
             words = clause.split()
@@ -1325,21 +1325,32 @@ def _index_direction_claims(mw):
             # longest alias wins: "nifty bank tanks" is a Nifty Bank claim, not Nifty 50
             named = [a for a in named if not any(a != b and a in b for b in named)]
             if not named:
-                continue
+                return None, False
             if any(m in padded for m in PAST_MARKERS):
-                continue
+                return None, False
             if any(len(w) == 4 and w.isdigit() and (w.startswith("19") or w.startswith("20"))
                    and int(w) != TODAY.year for w in words):
-                continue
+                return None, False
             has_up = _has_dir(words, padded, DIR_UP_EXACT, DIR_UP_STEM, DIR_UP_PHRASE)
             has_down = _has_dir(words, padded, DIR_DOWN_EXACT, DIR_DOWN_STEM, DIR_DOWN_PHRASE)
             if has_up == has_down:
-                continue  # no direction claim, or both - cannot attribute reliably
+                return None, has_up and has_down  # no claim, or mixed - retry split on "and"
             claimed = "up" if has_up else "down"
             for a in named:
                 if indices[a] != claimed:
                     return "claims %s moved %s but the published data has it %s: %r" % (
-                        a, claimed, indices[a], text.strip()[:60])
+                        a, claimed, indices[a], text.strip()[:60]), False
+            return None, False
+        for clause in t.split("|"):
+            problem, mixed = evaluate(clause)
+            if problem:
+                return problem
+            if mixed:
+                # "oil rises and NIFTY falls": the "and" hid an index claim
+                for sub in clause.replace(" & ", " and ").split(" and "):
+                    problem, _mixed = evaluate(sub)
+                    if problem:
+                        return problem
         return None
     return claim_in
 
