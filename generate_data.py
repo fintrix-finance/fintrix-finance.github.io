@@ -688,8 +688,9 @@ def market_data(prev=None):
         strip += " as the Nifty %s %.2f%%" % ("rose" if nifty["pct"] >= 0 else "fell",
                                               abs(nifty["pct"]))
     elif nifty is not None:
-        strip = "The Nifty %s %.2f%% in the last session" % ("rose" if nifty["pct"] >= 0
-                                                             else "fell", abs(nifty["pct"]))
+        when = "today's session so far" if live_at else "the last session"
+        strip = "The Nifty %s %.2f%% in %s" % ("rose" if nifty["pct"] >= 0
+                                               else "fell", abs(nifty["pct"]), when)
     else:
         strip = ((prev or {}).get("market_watch") or {}).get("snapshot_strip")
         if not strip:
@@ -711,7 +712,8 @@ def market_data(prev=None):
         summary_lines.append(
             "NOTE: the Indian index values are LIVE intraday prices as of %s IST - "
             "current-session moves versus the previous close, not closing values. "
-            "Stories must agree with these live moves." % live_at)
+            "Stories must agree with these live moves and must describe them as moves "
+            "in today's session so far - never 'in the last session' or as closes." % live_at)
     if carried:
         summary_lines.append(
             "NOTE: these series are carried from the previous issue because their live "
