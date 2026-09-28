@@ -38,10 +38,14 @@ verified simply gets no image (the page hides the slot - never a broken icon);
 if NO image can be resolved at all, the script exits without touching
 data.json, same as any other failure.
 
-If anything goes wrong - a feed is down, the market data looks stale, Gemini
-fails or answers with an unsupported figure - the script exits with an error
-WITHOUT touching data.json, so the site keeps showing the previous day.
-
+If anything goes wrong - the news feeds are down, Gemini fails or answers
+with an unsupported figure - the script exits with an error WITHOUT touching
+data.json, so the site keeps showing the previous day. One exception: a single
+market series whose feed fails or looks stale no longer kills the run - the
+series is carried from the previous issue with an explicit "as of" label on
+the page, exactly like whole market sections are carried on holidays. A number
+is never invented: a carried number is always a real close from an earlier
+issue.
 Needs one environment variable:
   GEMINI_API_KEY   a free key from https://aistudio.google.com/apikey
 
@@ -357,6 +361,91 @@ def http_get(url, timeout=30, tries=3):
 
 # ---------------------------------------------------------------- market data
 
+# ------------------------------------------------ per-series feed carry-forward
+# One flaky feed must not kill the whole issue: a series whose live fetch
+# fails (or looks stale) is carried from the previous issue with an explicit
+# as-of label, exactly like whole market sections are carried on holidays.
+# Nothing is invented - the number shown is a real close from the previous
+# data.json. Only when there is no previous value at all (the very first run)
+# does the caller still fail() and keep the previous issue.
+
+_MONTH_NAMES = ("JAN", "FEB", "MAR", "APR", "MAY", "JUN",
+                "JUL", "AUG", "SEP", "OCT", "NOV", "DEC")
+
+
+def _prev_session_date(prev):
+    """The session date the previous issue's market numbers belong to."""
+    for section in ("market_watch", "data_desk"):
+        sec = (prev or {}).get(section) or {}
+        try:
+            return datetime.strptime(str(sec.get("session_date")), "%Y-%m-%d").date()
+        except (TypeError, ValueError):
+            pass
+        m = re.search(r"([A-Z]{3}) ([0-9]{1,2})$", str(sec.get("close_label") or ""))
+        if m and m.group(1) in _MONTH_NAMES:
+            mon = _MONTH_NAMES.index(m.group(1)) + 1
+            d = datetime(TODAY.year, mon, int(m.group(2))).date()
+            if d > TODAY.date():  # year boundary: a carried DEC date in January
+                d = datetime(TODAY.year - 1, mon, int(m.group(2))).date()
+            return d
+    return None
+
+
+def _strip_asof(text):
+    """Remove a previous carry suffix so re-carries never stack labels."""
+    return re.sub(r"( [(]as of [A-Z][a-z]{2} [0-9]{1,2}[)]| · [A-Z][a-z]{2} [0-9]{1,2})$",
+                  "", text or "")
+
+
+def _asof_tag(d):
+    return "%s %d" % (d.strftime("%b"), d.day)
+
+
+def carry_mw_row(prev, group, name, err, carried):
+    """The previous issue's Market Watch row for a series whose feed failed."""
+    session = _prev_session_date(prev)
+    if session is None:
+        return None
+    for row in (((prev or {}).get("market_watch") or {}).get(group) or []):
+        if isinstance(row, dict) and row.get("name") == name and row.get("value"):
+            out = dict(row)
+            out["value"] = "%s (as of %s)" % (_strip_asof(out["value"]),
+                                              _asof_tag(session))
+            print("  carrying %s from the previous issue (feed failed: %s)" % (name, err))
+            carried.append(name)
+            return out
+    return None
+
+
+def carry_mw_lists(prev, carried):
+    """The previous winners/losers when too few Nifty quotes come back."""
+    mw = (prev or {}).get("market_watch") or {}
+    losers, winners = mw.get("losers"), mw.get("winners")
+    if (isinstance(losers, list) and len(losers) == 3
+            and isinstance(winners, list) and len(winners) == 3):
+        print("  carrying top winners/losers from the previous issue")
+        carried.append("top winners/losers")
+        return list(losers), list(winners)
+    return None
+
+
+def carry_desk_row(prev, key, name, price_field, err, carried):
+    """The previous issue's Data Desk / Fund Watch row for a failed series."""
+    session = _prev_session_date(prev)
+    if session is None:
+        return None
+    for row in (((prev or {}).get("data_desk") or {}).get(key) or []):
+        if isinstance(row, dict) and row.get("name") == name and row.get(price_field):
+            out = dict(row)
+            out[price_field] = "%s · %s" % (_strip_asof(out[price_field]),
+                                            _asof_tag(session))
+            print("  carrying %s (%s) from the previous issue (feed failed: %s)"
+                  % (name, key, err))
+            carried.append(name)
+            return out
+    return None
+
+
 def _chart(symbol, rng):
     enc = urllib.parse.quote(symbol, safe="")
     last_err = None
@@ -434,8 +523,12 @@ def fmt_level(q):
     return "%s %s %.2f%%" % ("{:,.2f}".format(q["last"]), arrow(q["pct"]), abs(q["pct"]))
 
 
-def market_data():
-    """Everything numeric on the Market Watch page, computed from real quotes."""
+def market_data(prev=None):
+    """Everything numeric on the Market Watch page, computed from real quotes.
+
+    A series whose feed fails is carried from the previous issue with an
+    explicit as-of label instead of failing the whole run; only having neither
+    live data nor a previous issue to carry from still fails."""
     indices = {
         "indian": [("Sensex", "^BSESN"), ("Nifty 50", "^NSEI"), ("Nifty Bank", "^NSEBANK")],
         "asian": [("Nikkei 225", "^N225"), ("Hang Seng", "^HSI"), ("Shanghai Comp.", "000001.SS")],
@@ -443,31 +536,53 @@ def market_data():
     }
     mw = {}
     q = {}
+    carried = []
     for group, rows in indices.items():
         out = []
         for name, sym in rows:
             try:
                 q[sym] = quote(sym)
             except RuntimeError as e:
-                fail("market feed: %s" % e)
+                row = carry_mw_row(prev, group, name, e, carried)
+                if row is None:
+                    fail("market feed: %s (and no previous issue to carry it from)" % e)
+                out.append(row)
+                continue
             out.append({"name": name, "value": fmt_level(q[sym]), "dir": dir_of(q[sym]["pct"])})
         mw[group] = out
 
-    try:
-        dxy, brent, gold = quote("DX-Y.NYB"), quote("BZ=F"), quote("GC=F")
-    except RuntimeError as e:
-        fail("market feed: %s" % e)
-    mw["global"] = [
-        {"name": "Dollar Index", "value": "%.2f %s %.2f%%" % (dxy["last"], arrow(dxy["pct"]), abs(dxy["pct"])),
-         "dir": dir_of(dxy["pct"])},
-        {"name": "Brent Crude", "value": "$%.2f/bbl" % brent["last"], "dir": dir_of(brent["pct"])},
-        {"name": "Gold", "value": "${:,.0f}/oz".format(gold["last"]), "dir": dir_of(gold["pct"])},
+    # Global snapshot: dollar index, oil, gold. Each series carries on its own
+    # failure - a single dead symbol (e.g. DX-Y.NYB) must not kill the issue.
+    global_specs = [
+        ("Dollar Index", "DX-Y.NYB",
+         lambda g: "%.2f %s %.2f%%" % (g["last"], arrow(g["pct"]), abs(g["pct"]))),
+        ("Brent Crude", "BZ=F", lambda g: "$%.2f/bbl" % g["last"]),
+        ("Gold", "GC=F", lambda g: "${:,.0f}/oz".format(g["last"])),
     ]
+    gq = {}
+    grow = []
+    for name, sym, fmt in global_specs:
+        try:
+            gq[sym] = quote(sym)
+        except RuntimeError as e:
+            row = carry_mw_row(prev, "global", name, e, carried)
+            if row is None:
+                fail("market feed: %s (and no previous issue to carry it from)" % e)
+            grow.append(row)
+            continue
+        grow.append({"name": name, "value": fmt(gq[sym]), "dir": dir_of(gq[sym]["pct"])})
+    mw["global"] = grow
 
     # freshness: the Indian close must be from the last few days, or the feed is stale
-    india_date = q["^BSESN"]["date"]
-    if (TODAY.date() - india_date).days > 5:
-        fail("market feed looks stale (last Sensex close %s)" % india_date)
+    if "^BSESN" in q:
+        india_date = q["^BSESN"]["date"]
+        if (TODAY.date() - india_date).days > 5:
+            fail("market feed looks stale (last Sensex close %s)" % india_date)
+    else:
+        india_date = _prev_session_date(prev)
+        if india_date is None:
+            fail("market feed: Sensex is down and no previous session dates the page")
+        print("  Sensex carried - dating the page by the previous session %s" % india_date)
 
     # Nifty 50 gainers / losers
     moves = []
@@ -478,11 +593,16 @@ def market_data():
                 moves.append((s["pct"], name))
         except RuntimeError as e:
             print("  skipping %s: %s" % (sym, e))
-    if len(moves) < 40:
-        fail("only %d of 50 Nifty stocks returned data - not enough for gainers/losers" % len(moves))
-    moves.sort()
-    mw["losers"] = [n for _, n in moves[:3]]
-    mw["winners"] = [n for _, n in moves[::-1][:3]]
+    if len(moves) >= 40:
+        moves.sort()
+        mw["losers"] = [n for _, n in moves[:3]]
+        mw["winners"] = [n for _, n in moves[::-1][:3]]
+    else:
+        carried_lists = carry_mw_lists(prev, carried)
+        if carried_lists is None:
+            fail("only %d of 50 Nifty stocks returned data - not enough for gainers/losers"
+                 % len(moves))
+        mw["losers"], mw["winners"] = carried_lists
 
     # sector leaders / laggards for the snapshot strip
     secs = []
@@ -493,8 +613,8 @@ def market_data():
                 secs.append((s["pct"], label))
         except RuntimeError as e:
             print("  skipping sector %s: %s" % (sym, e))
-    nifty = q["^NSEI"]
-    if len(secs) >= 4:
+    nifty = q.get("^NSEI")
+    if nifty is not None and len(secs) >= 4:
         secs.sort()
         up = [l for p, l in secs[::-1][:2] if p > 0]
         down = [l for p, l in secs[:2] if p < 0]
@@ -504,10 +624,17 @@ def market_data():
         if down:
             parts.append(" and ".join(down) + " lagged")
         strip = "; ".join(parts) or "Sectors moved in a narrow range"
-        strip += " as the Nifty %s %.2f%%" % ("rose" if nifty["pct"] >= 0 else "fell", abs(nifty["pct"]))
+        strip += " as the Nifty %s %.2f%%" % ("rose" if nifty["pct"] >= 0 else "fell",
+                                              abs(nifty["pct"]))
+    elif nifty is not None:
+        strip = "The Nifty %s %.2f%% in the last session" % ("rose" if nifty["pct"] >= 0
+                                                             else "fell", abs(nifty["pct"]))
     else:
-        strip = "The Nifty %s %.2f%% in the last session" % ("rose" if nifty["pct"] >= 0 else "fell",
-                                                             abs(nifty["pct"]))
+        strip = ((prev or {}).get("market_watch") or {}).get("snapshot_strip")
+        if not strip:
+            fail("sector feeds are down and no previous snapshot strip to carry")
+        carried.append("snapshot strip")
+        print("  carrying the snapshot strip from the previous issue")
     mw["snapshot_strip"] = strip[:130]
 
     mw["date_label"] = india_date.strftime("%b %Y").upper()
@@ -515,15 +642,22 @@ def market_data():
     mw["session_date"] = india_date.isoformat()
 
     summary_lines = ["Session date: %s" % india_date.isoformat()]
+    if carried:
+        summary_lines.append(
+            "NOTE: these series are carried from the previous issue because their live "
+            "feeds failed today: %s. Present them as last available closes (as labelled "
+            "on the page), never as fresh moves." % ", ".join(carried))
     for group in ("indian", "asian", "european", "global"):
         for row in mw[group]:
             summary_lines.append("%s: %s (%s)" % (row["name"], row["value"], row["dir"]))
-    summary_lines.append("Brent change: %s %.2f%%; Gold change: %s %.2f%%"
-                         % (arrow(brent["pct"]), abs(brent["pct"]), arrow(gold["pct"]), abs(gold["pct"])))
+    if "BZ=F" in gq and "GC=F" in gq:
+        summary_lines.append("Brent change: %s %.2f%%; Gold change: %s %.2f%%"
+                             % (arrow(gq["BZ=F"]["pct"]), abs(gq["BZ=F"]["pct"]),
+                                arrow(gq["GC=F"]["pct"]), abs(gq["GC=F"]["pct"])))
     summary_lines.append("Top Nifty gainers: " + ", ".join(mw["winners"]))
     summary_lines.append("Top Nifty losers: " + ", ".join(mw["losers"]))
     summary_lines.append("Sectors: " + mw["snapshot_strip"])
-    return mw, "\n".join(summary_lines)
+    return mw, chr(10).join(summary_lines)
 
 
 # ---------------------------------------------------------------- data desk
@@ -647,24 +781,31 @@ def mf_navs(code):
     return out
 
 
-def data_desk():
+def data_desk(prev=None):
     """All numbers for the Data Desk and Fund Watch pages: commodities,
     REITs/InvITs, the large/mid/small-cap race and mutual fund NAVs.
-    Computed from live feeds only - any feed problem fails the run and
-    data.json keeps yesterday, same as the market data."""
+    Computed from live feeds only. A series whose feed fails (or looks stale)
+    is carried from the previous issue with an explicit as-of label on its
+    price - the run only fails when there is no previous value to carry."""
     desk = {}
+    carried = []
 
     def fresh(series, sym):
         if (TODAY.date() - series[-1][0]).days > 5:
-            fail("data desk feed looks stale (%s last close %s)" % (sym, series[-1][0]))
+            raise RuntimeError("%s: feed looks stale (last close %s)"
+                               % (sym, series[-1][0]))
 
     commodities = []
     for name, sym, unit, fmt in COMMODITIES:
         try:
             s = closes_series(sym)
+            fresh(s, sym)
         except RuntimeError as e:
-            fail("data desk feed: %s" % e)
-        fresh(s, sym)
+            row = carry_desk_row(prev, "commodities", name, "price", e, carried)
+            if row is None:
+                fail("data desk feed: %s (and no previous issue to carry it from)" % e)
+            commodities.append(row)
+            continue
         last = s[-1][1]
         day_pct = _pct(last, s[-2][1])
         week_pct = _pct(last, s[-6][1])
@@ -678,13 +819,17 @@ def data_desk():
     for name, sym in ALTERNATIVES:
         try:
             s = closes_series(sym)
+            fresh(s, sym)
         except RuntimeError as e:
-            fail("data desk feed: %s" % e)
-        fresh(s, sym)
+            row = carry_desk_row(prev, "alternatives", name, "price", e, carried)
+            if row is None:
+                fail("data desk feed: %s (and no previous issue to carry it from)" % e)
+            alts.append(row)
+            continue
         last = s[-1][1]
         day_pct = _pct(last, s[-2][1])
         week_pct = _pct(last, s[-6][1])
-        alts.append({"name": name, "price": "\u20b9{:,.2f}".format(last),
+        alts.append({"name": name, "price": "₹{:,.2f}".format(last),
                      "day": _ret_txt(day_pct), "week": _ret_txt(week_pct),
                      "dir": dir_of(day_pct), "dir_week": dir_of(week_pct)})
     desk["alternatives"] = alts
@@ -694,9 +839,13 @@ def data_desk():
     for name, tag, sym in CAP_INDICES:
         try:
             s = closes_series(sym)
+            fresh(s, sym)
         except RuntimeError as e:
-            fail("data desk feed: %s" % e)
-        fresh(s, sym)
+            row = carry_desk_row(prev, "caps", name, "level", e, carried)
+            if row is None:
+                fail("data desk feed: %s (and no previous issue to carry it from)" % e)
+            caps.append(row)
+            continue
         if sym == "^NSEI":
             nifty_date = s[-1][0]
         closes = [c for _, c in s]
@@ -721,22 +870,34 @@ def data_desk():
         try:
             navs = mf_navs(code)
         except RuntimeError as e:
-            fail("mutual fund feed: %s" % e)
+            row = carry_desk_row(prev, "funds", name, "nav", e, carried)
+            if row is None:
+                fail("mutual fund feed: %s (and no previous issue to carry it from)" % e)
+            funds.append(row)
+            continue
         nav_dates.append(navs[0][0])
         day_pct = _pct(navs[0][1], navs[1][1])
         week_pct = _pct(navs[0][1], navs[5][1])
-        funds.append({"name": name, "cat": cat, "nav": "\u20b9{:,.2f}".format(navs[0][1]),
+        funds.append({"name": name, "cat": cat, "nav": "₹{:,.2f}".format(navs[0][1]),
                       "day": _ret_txt(day_pct), "week": _ret_txt(week_pct),
                       "dir": dir_of(day_pct), "dir_week": dir_of(week_pct)})
-    latest_nav = min(nav_dates)
-    if (TODAY.date() - latest_nav).days > 10:
-        fail("mutual fund NAVs look stale (latest %s)" % latest_nav.isoformat())
+    if nav_dates:
+        latest_nav = min(nav_dates)
+        if (TODAY.date() - latest_nav).days > 10:
+            fail("mutual fund NAVs look stale (latest %s)" % latest_nav.isoformat())
+        nav_label = "NAVS AS OF %s %d" % (latest_nav.strftime("%b").upper(),
+                                          latest_nav.day)
+    else:
+        nav_label = ((prev or {}).get("data_desk") or {}).get("nav_label")
+        if not nav_label:
+            fail("mutual fund feeds are down and no previous NAV label to carry")
+        carried.append("fund NAVs")
     desk["funds"] = funds
-    desk["date_label"] = nifty_date.strftime("%b %Y").upper() if nifty_date else TODAY.strftime("%b %Y").upper()
-    cd = nifty_date or TODAY.date()
+    cd = nifty_date or _prev_session_date(prev) or TODAY.date()
+    desk["date_label"] = cd.strftime("%b %Y").upper()
     desk["close_label"] = "CLOSE OF %s %d" % (cd.strftime("%b").upper(), cd.day)
     desk["session_date"] = cd.isoformat()
-    desk["nav_label"] = "NAVS AS OF %s %d" % (latest_nav.strftime("%b").upper(), latest_nav.day)
+    desk["nav_label"] = nav_label
     return desk
 
 
@@ -1394,10 +1555,10 @@ def main():
     today_str = TODAY.strftime("%A, %d %B %Y")
 
     trading, closed_reason = indian_trading_day(TODAY.date())
+    prev = load_previous_data()  # carry-forward source for any failed series
     mw = desk = None
     if not trading:
         print("Markets are shut today (%s) - non-trading-day edition." % closed_reason)
-        prev = load_previous_data()
         if prev is not None:
             mw, desk = prev["market_watch"], prev["data_desk"]
             try:
@@ -1416,11 +1577,11 @@ def main():
 
     if mw is None:
         print("Fetching market data...")
-        mw, market_summary = market_data()
+        mw, market_summary = market_data(prev)
         print(market_summary)
 
         print("Fetching data desk numbers (commodities, REITs/InvITs, caps, funds)...")
-        desk = data_desk()
+        desk = data_desk(prev)
         print("  data desk: %d commodities, %d alternatives, %d cap indices, %d funds (%s)"
               % (len(desk["commodities"]), len(desk["alternatives"]), len(desk["caps"]),
                  len(desk["funds"]), desk["nav_label"]))

@@ -2,9 +2,22 @@ name: Update Market Watch and Daily Brief
 
 on:
   schedule:
-    # 03:17 UTC = 08:47 IST, every day
+    # Main run 08:47 IST (03:17 UTC). GitHub's scheduler is best-effort and has
+    # skipped this run outright before, so the morning gets two backstops at
+    # 09:17 IST and 09:47 IST. Every run first checks whether today's issue is
+    # already published and no-ops if it is, so a skipped 08:47 run gets a
+    # second chance without ever double-publishing. The morning watchdog stays
+    # the final backstop: it checks the live site and dispatches this workflow
+    # by hand if the new issue is still missing.
     - cron: '17 3 * * *'
-  workflow_dispatch: # lets you run it by hand from the Actions tab
+    - cron: '47 3 * * *'
+    - cron: '17 4 * * *'
+  workflow_dispatch: # run by hand from the Actions tab; set force=true to republish a day that already has an issue
+    inputs:
+      force:
+        description: Republish even if today's issue is already live (true/false)
+        required: false
+        default: "false"
 
 permissions:
   contents: write # so the bot can commit the new data.json
@@ -16,19 +29,37 @@ jobs:
       - name: Download the repo
         uses: actions/checkout@v4
 
+      - name: Check whether today's issue is already published
+        id: state
+        run: |
+          TODAY_IST=$(TZ=Asia/Kolkata date +%F)
+          CURRENT=$(python3 -c "import json; print(json.load(open('data.json')).get('updated_ist', ''))" 2>/dev/null || true)
+          echo "issue on disk: ${CURRENT:-none} - today (IST): $TODAY_IST"
+          if [ "$CURRENT" = "$TODAY_IST" ] && [ "${{ github.event.inputs.force }}" != "true" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Today's issue is already published - nothing to do."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Set up Python
+        if: steps.state.outputs.skip != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
       - name: Ask Gemini for today's content
+        if: steps.state.outputs.skip != 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python generate_data.py
-        # If this step fails (API down, rate limit, bad answer), the job stops
-        # here and nothing is committed - the site keeps yesterday's content.
+        # A single dead market series no longer stops this step: the series is
+        # carried from the previous issue with an as-of label. Hard failures
+        # (Gemini down, news feeds out, no previous issue to carry from) still
+        # stop the job before any commit - the site keeps the previous issue.
 
       - name: Save the new data.json back to the repo
+        if: steps.state.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -39,3 +70,4 @@ jobs:
             git commit -m "Daily market update ($(date -u +'%Y-%m-%d'))"
             git push
           fi
+
