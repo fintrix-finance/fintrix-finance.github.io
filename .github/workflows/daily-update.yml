@@ -52,6 +52,7 @@ jobs:
         if: steps.state.outputs.skip != 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODELS: gemini-3.6-flash,gemini-3.5-flash,gemini-3.5-flash-lite
         run: python generate_data.py
         # A single dead market series no longer stops this step: the series is
         # carried from the previous issue with an as-of label. Hard failures
