@@ -1,141 +1,141 @@
 {
-  "updated_ist": "2026-09-29",
+  "updated_ist": "2026-09-30",
   "cover": {
-    "big_story_teaser": "Markets slide as oil tops $100 and RBI rate hike fears loom",
-    "venture_teaser": "How a ₹1 crore portfolio grew despite a 10% Nifty drop",
-    "market_watch_teaser": "Sensex down 0.88% as markets open lower",
-    "daily_brief_teaser": "RBI rate hike expectations grow as inflation broadens",
-    "inbrief_2": "RBI to raise rates",
-    "inbrief_3": "Will stock market crash",
-    "inbrief_4": "Market plunges weather",
-    "inbrief_1": "US-Iran Deal Stalls"
+    "big_story_teaser": "BSE joins the Nifty index as Wipro exits in major rejig",
+    "venture_teaser": "Primerry secures ₹7.1 Cr in pre-seed funding round",
+    "market_watch_teaser": "Nifty falls 0.08% while Brent crude drops 2.56% to $102.59/bbl in early trade.",
+    "daily_brief_teaser": "Sun Pharma plans ₹10,000 crore bond sale as Jaishankar reviews US trade talks.",
+    "inbrief_2": "Sun Pharma bond sale plans",
+    "inbrief_3": "Jaishankar on India-US trade",
+    "inbrief_4": "YouTube creator GDP impact",
+    "inbrief_1": "India-EU Trade Deal Near Finish"
   },
   "big_story": {
-    "headline": "Markets Sink On Oil And Inflation",
-    "subhead": "SENSEX AND NIFTY PLUNGE AS RISING CRUDE PRICES AND RATE HIKE FEARS WEIGH ON EQUITIES.",
+    "headline": "BSE ENTERS NIFTY",
+    "subhead": "BSE JOINS THE BENCHMARK INDEX AS WIPRO EXITS IN MAJOR REJIG",
     "paragraphs": [
-      "Indian equities opened sharply lower in today's session as weak global cues, elevated crude prices, and rising Treasury yields battered investor sentiment. The Nifty fell 0.88% in today's session so far, mirroring broader weakness across Asian and Western markets.",
-      "Crude oil prices surged past $100 per barrel as hopes of a breakthrough faded, adding immense pressure to importing nations like India. Meanwhile, expectations of a rate hike by the RBI to tackle broadening inflation have kept borrowing costs and bond yields under close watch.",
-      "As macroeconomic headwinds deepen, market participants are keeping a nervous eye on currency buffers and commodity volatility. Investors will need to navigate this high-inflation, high-interest-rate environment carefully as key domestic earnings and central bank decisions approach."
+      "The benchmark Nifty has undergone a major rejig with BSE officially joining the elite index while Wipro exits. Indian shares are reacting to shifting market dynamics as oil comes off its highs. Investors are closely monitoring how index weightages and structural changes impact overall portfolio allocations.",
+      "Index reconstitutions often trigger massive institutional rebalancing, compelling passive funds to adjust their holdings accordingly. Such shifts highlight the evolving prominence of exchange operators and financial infrastructure within India's capital markets. Analysts point out that inclusion in premier benchmarks brings heightened visibility and liquidity.",
+      "Market participants must navigate these structural changes while keeping an eye on broader macroeconomic indicators. As trading progresses, the inclusion of BSE alongside other index movements will shape institutional strategies. Understanding these portfolio shifts is essential for anyone tracking Dalal Street."
     ],
-    "pullbox": "Surging crude oil prices and tightening monetary policy are putting heavy pressure on Indian equities, driving indices down as geopolitical supply concerns mount.",
+    "pullbox": "Index reconstitutions trigger massive institutional rebalancing as BSE joins the Nifty while Wipro exits.",
     "image": {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/BSE_logo.svg/330px-BSE_logo.svg.png",
       "alt": "Bombay Stock Exchange"
     }
   },
   "explains": {
-    "title": "What are Treasury Yields?",
+    "title": "What is an Index Rejig?",
     "paragraphs": [
-      "Treasury yields represent the return an investor receives on government debt securities. When yields rise, borrowing costs across the broader economy typically follow suit.",
-      "Higher yields make safer government bonds more attractive compared to riskier assets like equities, often triggering capital outflows from emerging markets."
+      "An index rejig or reconstitution is the periodic review of a stock market index to ensure its constituents accurately reflect the broader market. Index providers add growing companies and remove underperforming or shrinking ones based on strict liquidity and market capitalization criteria.",
+      "When a prominent stock enters an index like the Nifty, institutional funds tracking that benchmark must automatically buy its shares. This dynamic often influences trading volumes and short-term price movements across Dalal Street."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Even as the Nifty faced a turbulent period, dropping 10% over a two-year stretch, certain disciplined investment strategies continued to buck the trend. A notable case highlighted how a ₹1 crore portfolio managed to grow by a significant margin despite broader market stagnation.",
-      "By focusing on asset allocation and resilient equity picks, investors found pathways to generate alpha while the broader indices struggled. This divergence underscores the importance of stock selection and portfolio balancing during volatile market cycles."
+      "Paediatric health-tech startup Primerry has successfully raised ₹7.1 crore in a fresh pre-seed funding round. The capital injection will enable the young enterprise to expand its specialised pediatric healthcare products and services across the market.",
+      "Early-stage venture backing allows innovative startups in niche sectors like pediatric health-tech to scale their operations rapidly. This funding milestone highlights growing investor appetite for technology-driven healthcare solutions tailored for families."
     ]
   },
   "market_watch": {
     "indian": [
       {
         "name": "Sensex",
-        "value": "72,130.54 ▼ 0.88%",
+        "value": "72,522.11 ▼ 0.01%",
         "dir": "down",
         "live": true
       },
       {
         "name": "Nifty 50",
-        "value": "22,579.60 ▼ 0.88%",
+        "value": "22,697.95 ▼ 0.08%",
         "dir": "down",
         "live": true
       },
       {
         "name": "Nifty Bank",
-        "value": "53,808.10 ▼ 1.22%",
-        "dir": "down",
+        "value": "54,519.70 ▲ 0.48%",
+        "dir": "up",
         "live": true
       }
     ],
     "asian": [
       {
         "name": "Nikkei 225",
-        "value": "65,877.62 ▼ 0.73%",
+        "value": "65,481.27 ▼ 0.60%",
         "dir": "down"
       },
       {
         "name": "Hang Seng",
-        "value": "24,642.51 ▲ 0.54%",
-        "dir": "up"
+        "value": "24,523.57 ▼ 0.48%",
+        "dir": "down"
       },
       {
         "name": "Shanghai Comp.",
-        "value": "3,823.62 ▼ 1.67%",
-        "dir": "down"
+        "value": "3,830.45 ▲ 0.18%",
+        "dir": "up"
       }
     ],
     "european": [
       {
         "name": "FTSE 100",
-        "value": "10,684.88 ▼ 0.10%",
+        "value": "10,636.71 ▼ 0.45%",
         "dir": "down"
       },
       {
         "name": "DAX",
-        "value": "25,374.42 ▼ 0.13%",
-        "dir": "down"
+        "value": "25,399.21 ▲ 0.10%",
+        "dir": "up"
       },
       {
         "name": "CAC 40",
-        "value": "8,078.48 ▲ 0.01%",
-        "dir": "up"
+        "value": "8,035.87 ▼ 0.53%",
+        "dir": "down"
       }
     ],
     "global": [
       {
         "name": "Dollar Index",
-        "value": "101.20 ▲ 0.23%",
+        "value": "101.37 ▲ 0.17%",
         "dir": "up"
       },
       {
         "name": "Brent Crude",
-        "value": "$105.28/bbl",
-        "dir": "up"
+        "value": "$102.59/bbl",
+        "dir": "down"
       },
       {
         "name": "Gold",
-        "value": "$4,168/oz",
-        "dir": "down"
+        "value": "$4,180/oz",
+        "dir": "up"
       }
     ],
     "losers": [
-      "Tata Motors PV",
-      "Adani Enterprises",
-      "Jio Financial"
+      "Titan",
+      "Wipro",
+      "HCLTech"
     ],
     "winners": [
-      "Dr. Reddy's",
-      "Infosys",
-      "HDFC Life"
+      "Adani Enterprises",
+      "Adani Ports",
+      "Dr. Reddy's"
     ],
-    "snapshot_strip": "The Nifty fell 0.88% in today's session so far",
+    "snapshot_strip": "The Nifty fell 0.08% in today's session so far",
     "date_label": "SEP 2026",
-    "close_label": "LIVE AS OF 10:22 AM IST",
+    "close_label": "LIVE AS OF 9:32 AM IST",
     "live": true,
-    "session_date": "2026-09-29",
+    "session_date": "2026-09-30",
     "ipo_desk": [
       {
-        "name": "Moneyview",
-        "note": "₹1,000 cr issue subscribed 98x, GMP signals 41% premium"
+        "name": "SRIT India IPO",
+        "note": "Subscribed 4.16x, retail leads demand"
       },
       {
-        "name": "SRIT India",
-        "note": "IPO Day 2 subscription status and key details"
+        "name": "Nityas Gems & Jewellery",
+        "note": "Issue opens today on primary markets"
       },
       {
-        "name": "Varmora Granito",
-        "note": "IPO listing today, GMP signals tepid debut"
+        "name": "SME IPOs",
+        "note": "8 SME issues open to raise ₹440 crore"
       }
     ]
   },
@@ -144,42 +144,42 @@
       {
         "name": "Gold",
         "unit": "$/oz",
-        "price": "4,168",
-        "day": "▼ 3.54%",
-        "week": "▼ 4.92%",
-        "dir": "down",
+        "price": "4,205",
+        "day": "▲ 0.87%",
+        "week": "▼ 3.92%",
+        "dir": "up",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,13.2 4.1,15.6 8.3,9.9 12.4,8.7 16.6,3.8 20.7,3.0 24.8,3.1 29.0,5.0 33.1,4.5 37.2,10.6 41.4,12.8 45.5,16.7 49.7,15.8 53.8,10.2 57.9,13.0 62.1,14.7 66.2,13.7 70.3,16.2 74.5,16.1 78.6,18.7 82.8,19.5 86.9,17.1 91.0,16.5 95.2,15.4 99.3,17.2 103.4,17.6 107.6,20.2 111.7,21.1 115.9,20.1 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,15.6 4.1,9.9 8.3,8.7 12.4,3.8 16.6,3.0 20.7,3.1 24.8,5.0 29.0,4.5 33.1,10.6 37.2,12.8 41.4,16.7 45.5,15.8 49.7,10.2 53.8,13.0 57.9,14.7 62.1,13.7 66.2,16.2 70.3,16.1 74.5,18.7 78.6,19.5 82.8,17.1 86.9,16.5 91.0,15.4 95.2,17.2 99.3,17.6 103.4,20.2 107.6,21.1 111.7,20.1 115.9,27.0 120.0,25.4\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"25.4\" r=\"2.4\" fill=\"#c1541f\"/></svg>"
       },
       {
         "name": "Silver",
         "unit": "$/oz",
-        "price": "61.22",
-        "day": "▼ 4.71%",
-        "week": "▼ 7.00%",
-        "dir": "down",
+        "price": "61.35",
+        "day": "▲ 0.22%",
+        "week": "▼ 6.94%",
+        "dir": "up",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,12.7 4.1,19.1 8.3,13.9 12.4,7.2 16.6,3.0 20.7,5.7 24.8,5.4 29.0,7.3 33.1,3.1 37.2,10.2 41.4,12.4 45.5,17.1 49.7,16.8 53.8,10.3 57.9,13.0 62.1,12.2 66.2,7.4 70.3,18.1 74.5,17.3 78.6,20.3 82.8,21.1 86.9,18.1 91.0,14.6 95.2,11.5 99.3,13.6 103.4,13.3 107.6,17.8 111.7,20.5 115.9,18.2 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,19.1 4.1,13.9 8.3,7.2 12.4,3.0 16.6,5.7 20.7,5.4 24.8,7.3 29.0,3.1 33.1,10.2 37.2,12.4 41.4,17.1 45.5,16.8 49.7,10.3 53.8,13.0 57.9,12.2 62.1,7.4 66.2,18.1 70.3,17.3 74.5,20.3 78.6,21.1 82.8,18.1 86.9,14.6 91.0,11.5 95.2,13.6 99.3,13.3 103.4,17.8 107.6,20.5 111.7,18.2 115.9,27.0 120.0,26.6\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"26.6\" r=\"2.4\" fill=\"#c1541f\"/></svg>"
       },
       {
         "name": "Brent Crude",
         "unit": "$/bbl",
-        "price": "105.28",
-        "day": "▲ 0.92%",
-        "week": "▲ 4.92%",
-        "dir": "up",
-        "dir_week": "up",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,23.5 4.1,23.4 8.3,22.7 12.4,20.2 16.6,19.5 20.7,22.0 24.8,26.2 29.0,27.0 33.1,24.9 37.2,25.3 41.4,24.0 45.5,19.2 49.7,18.1 53.8,18.2 57.9,17.3 62.1,15.4 66.2,11.7 70.3,4.3 74.5,7.8 78.6,6.5 82.8,3.0 86.9,6.4 91.0,7.5 95.2,8.6 99.3,12.7 103.4,13.9 107.6,9.5 111.7,5.5 115.9,8.1 120.0,7.0\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"7.0\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>"
+        "price": "96.54",
+        "day": "▼ 8.30%",
+        "week": "▼ 2.73%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,23.4 4.1,22.7 8.3,20.2 12.4,19.5 16.6,22.0 20.7,26.2 24.8,27.0 29.0,24.9 33.1,25.3 37.2,24.0 41.4,19.2 45.5,18.1 49.7,18.2 53.8,17.3 57.9,15.4 62.1,11.7 66.2,4.3 70.3,7.8 74.5,6.5 78.6,3.0 82.8,6.4 86.9,7.5 91.0,8.6 95.2,12.7 99.3,13.9 103.4,9.5 107.6,5.5 111.7,8.1 115.9,7.0 120.0,17.0\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"17.0\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>"
       },
       {
         "name": "WTI Crude",
         "unit": "$/bbl",
-        "price": "92.60",
-        "day": "▲ 0.21%",
-        "week": "▼ 3.32%",
-        "dir": "up",
+        "price": "89.79",
+        "day": "▼ 3.03%",
+        "week": "▼ 5.07%",
+        "dir": "down",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,24.7 4.1,24.2 8.3,23.3 12.4,21.3 16.6,22.1 20.7,24.2 24.8,26.9 29.0,27.0 33.1,25.7 37.2,25.8 41.4,23.4 45.5,18.9 49.7,18.1 53.8,17.8 57.9,17.6 62.1,16.0 66.2,12.9 70.3,6.4 74.5,8.9 78.6,7.5 82.8,3.0 86.9,6.5 91.0,7.0 95.2,8.6 99.3,13.2 103.4,14.4 107.6,16.9 111.7,14.4 115.9,16.6 120.0,16.5\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"16.5\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,24.2 4.1,23.3 8.3,21.3 12.4,22.1 16.6,24.2 20.7,26.9 24.8,27.0 29.0,25.7 33.1,25.8 37.2,23.4 41.4,18.9 45.5,18.1 49.7,17.8 53.8,17.6 57.9,16.0 62.1,12.9 66.2,6.4 70.3,8.9 74.5,7.5 78.6,3.0 82.8,6.5 86.9,7.0 91.0,8.6 95.2,13.2 99.3,14.4 103.4,16.9 107.6,14.4 111.7,16.6 115.9,16.5 120.0,19.3\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"19.3\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>"
       }
     ],
     "alternatives": [
@@ -201,26 +201,26 @@
       },
       {
         "name": "Mindspace REIT",
-        "price": "₹508.08",
-        "day": "▲ 0.69%",
-        "week": "▲ 0.49%",
-        "dir": "up",
-        "dir_week": "up"
+        "price": "₹495.83",
+        "day": "▼ 1.71%",
+        "week": "▼ 1.77%",
+        "dir": "down",
+        "dir_week": "down"
       },
       {
         "name": "Brookfield REIT",
-        "price": "₹337.77",
-        "day": "▼ 0.07%",
-        "week": "▼ 0.39%",
+        "price": "₹333.85",
+        "day": "▼ 1.16%",
+        "week": "▼ 1.51%",
         "dir": "down",
         "dir_week": "down"
       },
       {
         "name": "PowerGrid InvIT",
-        "price": "₹101.91",
-        "day": "▼ 0.03%",
-        "week": "▲ 0.53%",
-        "dir": "down",
+        "price": "₹102.01",
+        "day": "▲ 0.10%",
+        "week": "▲ 1.00%",
+        "dir": "up",
         "dir_week": "up"
       }
     ],
@@ -228,13 +228,13 @@
       {
         "name": "Nifty 50",
         "tag": "Large cap",
-        "level": "22,780.25",
-        "day": -1.56,
-        "week": -2.71,
-        "month": -5.44,
-        "day_txt": "▼ 1.56%",
-        "week_txt": "▼ 2.71%",
-        "month_txt": "▼ 5.44%",
+        "level": "22,716.20",
+        "day": -0.28,
+        "week": -2.63,
+        "month": -6.04,
+        "day_txt": "▼ 0.28%",
+        "week_txt": "▼ 2.63%",
+        "month_txt": "▼ 6.04%",
         "dir": "down",
         "dir_week": "down",
         "dir_month": "down"
@@ -242,13 +242,13 @@
       {
         "name": "Nifty Midcap 150",
         "tag": "Mid cap",
-        "level": "22,071.30",
-        "day": -1.63,
-        "week": -3.27,
-        "month": -6.11,
-        "day_txt": "▼ 1.63%",
-        "week_txt": "▼ 3.27%",
-        "month_txt": "▼ 6.11%",
+        "level": "21,853.30",
+        "day": -0.99,
+        "week": -4.1,
+        "month": -7.04,
+        "day_txt": "▼ 0.99%",
+        "week_txt": "▼ 4.10%",
+        "month_txt": "▼ 7.04%",
         "dir": "down",
         "dir_week": "down",
         "dir_month": "down"
@@ -256,44 +256,44 @@
       {
         "name": "Nifty Smallcap 250",
         "tag": "Small cap",
-        "level": "17,863.20",
-        "day": -1.63,
-        "week": -2.28,
-        "month": -3.09,
-        "day_txt": "▼ 1.63%",
-        "week_txt": "▼ 2.28%",
-        "month_txt": "▼ 3.09%",
+        "level": "17,747.25",
+        "day": -0.65,
+        "week": -2.81,
+        "month": -4.05,
+        "day_txt": "▼ 0.65%",
+        "week_txt": "▼ 2.81%",
+        "month_txt": "▼ 4.05%",
         "dir": "down",
         "dir_week": "down",
         "dir_month": "down"
       }
     ],
-    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"100.0\" width=\"22\" height=\"15.8\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"127.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.6</text><rect x=\"62.3\" y=\"100.0\" width=\"22\" height=\"27.5\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"139.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-2.7</text><rect x=\"90.3\" y=\"100.0\" width=\"22\" height=\"55.2\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"167.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-5.4</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"100.0\" width=\"22\" height=\"16.5\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"128.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.6</text><rect x=\"169.0\" y=\"100.0\" width=\"22\" height=\"33.2\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"145.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.3</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-6.1</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"100.0\" width=\"22\" height=\"16.5\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"128.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.6</text><rect x=\"275.7\" y=\"100.0\" width=\"22\" height=\"23.1\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"135.1\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-2.3</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"31.4\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"143.4\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.1</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"100.0\" width=\"22\" height=\"2.5\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"114.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.3</text><rect x=\"62.3\" y=\"100.0\" width=\"22\" height=\"23.2\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"135.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-2.6</text><rect x=\"90.3\" y=\"100.0\" width=\"22\" height=\"53.2\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"165.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-6.0</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"100.0\" width=\"22\" height=\"8.7\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"120.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.0</text><rect x=\"169.0\" y=\"100.0\" width=\"22\" height=\"36.1\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"148.1\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-4.1</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-7.0</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"100.0\" width=\"22\" height=\"5.7\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"117.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.7</text><rect x=\"275.7\" y=\"100.0\" width=\"22\" height=\"24.7\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"136.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-2.8</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"35.7\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"147.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-4.0</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
     "funds": [
       {
         "name": "ICICI Pru Large Cap",
         "cat": "Large cap",
-        "nav": "₹113.83",
-        "day": "▼ 1.51%",
-        "week": "▼ 2.38%",
+        "nav": "₹113.24",
+        "day": "▼ 0.52%",
+        "week": "▼ 2.61%",
         "dir": "down",
         "dir_week": "down"
       },
       {
         "name": "MO Midcap 150 Index",
         "cat": "Mid cap",
-        "nav": "₹40.07",
-        "day": "▼ 1.63%",
-        "week": "▼ 3.27%",
+        "nav": "₹39.67",
+        "day": "▼ 1.01%",
+        "week": "▼ 4.12%",
         "dir": "down",
         "dir_week": "down"
       },
       {
         "name": "Nippon Small Cap",
         "cat": "Small cap",
-        "nav": "₹204.75",
-        "day": "▼ 1.57%",
-        "week": "▼ 2.28%",
+        "nav": "₹204.36",
+        "day": "▼ 0.19%",
+        "week": "▼ 2.27%",
         "dir": "down",
         "dir_week": "down"
       },
@@ -308,165 +308,189 @@
       }
     ],
     "date_label": "SEP 2026",
-    "close_label": "CLOSE OF SEP 28",
-    "session_date": "2026-09-28",
+    "close_label": "CLOSE OF SEP 29",
+    "session_date": "2026-09-29",
     "nav_label": "NAVS AS OF SEP 28"
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "India | Monetary Policy",
-      "headline": "RBI to raise interest rates to 5.50% in October",
+      "kicker": "India | Corporate Debt",
+      "headline": "Sun Pharma Plans ₹10,000 Cr Bond Sale for Refinancing",
       "paragraphs": [
-        "The Reserve Bank of India is expected to raise interest rates to 5.50% in October as inflation continues to broaden across the economy. Economists polled by Reuters point to persistent price pressures as the primary driver behind the upcoming monetary policy shift.",
-        "Markets are closely monitoring the central bank's stance as elevated crude prices and currency buffers put additional pressure on domestic financial conditions. Borrowers and institutional investors alike are preparing for tighter credit costs in the coming quarter."
+        "Sun Pharma is planning to raise ₹10,000 crore through a rupee bond sale to refinance its loan for the Organon acquisition. The pharmaceutical major aims to restructure its debt portfolio following the deal. The transaction marks one of the largest corporate bond issuances by an Indian healthcare company this fiscal year.",
+        "Market watchers note that the bond sale will help lower borrowing costs and extend debt maturity. Investors are closely monitoring the company's capital allocation strategy as it consolidates its international operations."
       ],
       "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
-        "alt": "Reserve Bank of India"
+        "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/50/Sun_Pharma_logo.svg/330px-Sun_Pharma_logo.svg.png",
+        "alt": "Sun Pharma"
       }
     },
     "story_2": {
-      "kicker": "Global | Markets",
-      "headline": "Will stock market crash or open higher today?",
+      "kicker": "Global | Trade Relations",
+      "headline": "Jaishankar Outlines Friction Points in India-US Trade Deal",
       "paragraphs": [
-        "Investors faced a tense morning as regional equities opened lower amid a mix of challenging global cues, elevated crude prices, and shifting US Treasury yields. Market participants weighed the impact of international headwinds on domestic sentiment.",
-        "Analysts continue to debate whether current volatility will trigger a deeper correction or if buying support at lower levels can stabilize the benchmark indices through the remainder of the session."
+        "External Affairs Minister S. Jaishankar has highlighted key factors delaying the trade agreement between India and the United States. He noted that an ongoing US trade investigation under Section 301 poses challenges to concluding negotiations smoothly.",
+        "Despite hurdles, Jaishankar emphasized that a trade deal, if concluded, could significantly improve bilateral economic relations. Both nations continue talks to resolve regulatory concerns and trade friction."
       ]
     },
     "story_3": {
-      "kicker": "India | Markets",
-      "headline": "Market plunges as severe weather fears loom",
+      "kicker": "India | Digital Economy",
+      "headline": "YouTube Creator Economy Delivers ₹18,000 Cr GDP Boost",
       "paragraphs": [
-        "Indian equities experienced a sharp intraday plunge during today's session, adding to investor anxiety. Observers note that alongside macroeconomic pressures, more bad weather may lie ahead for vulnerable sectors."
+        "YouTube's creator ecosystem in India has generated an economic impact of over ₹18,000 crore on national GDP while supporting 9.6 lakh jobs. Meanwhile, Union Minister of State L. Murugan emphasized that future AI developments should empower digital creators rather than compete against them."
       ]
     },
     "also_today": {
       "items": [
-        "ITC completes 100% acquisition in Sproutlife Foods for Rs 645 crore to target Eastern India dairy growth",
-        "Container Corporation reports record high revenue with a net profit of ₹1,246 crore for FY26",
-        "Peak XV lifts its Surge seed investment limit to $5 million while backing an 18-startup cohort",
-        "Gujarat Themis secures $58 million in private credit to facilitate a strategic Japanese acquisition"
+        "Noel Tata hopes RBI and Tata Sons review proposal to avoid mandatory listing.",
+        "Tata Steel acquires 394 crore shares in T Steel Holdings for ₹3,260 crore.",
+        "Anupam Rasayan completes ₹1,750 crore acquisition of Bliss GVS Pharma.",
+        "SiMa.ai raises $150 million in Series C funding at $1.45 billion valuation."
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India | Energy & Geopolitics",
-    "headline": "US-Iran Hopes Fade, Oil Tops $100",
+    "kicker": "India | Trade",
+    "headline": "India-EU Free Trade Deal Moves Toward Finalisation",
     "paragraphs": [
-      "Hopes for a breakthrough in US-Iran relations have faded, sending oil prices surging past the hundred-dollar mark as supply fears intensify. Stalled negotiations over the Strait of Hormuz have heightened geopolitical risks in the Middle East, directly threatening energy supply lines essential for India.",
-      "As crude climbs toward higher price targets, Indian markets face severe headwinds from imported inflation and widening trade deficits. The impasse leaves energy importers vulnerable while policymakers grapple with surging commodity costs."
+      "The India-EU Free Trade Agreement is moving toward finalisation, marking a landmark deal for both economies. According to the new EU envoy, Paquet, this free trade deal sends a strong signal that rules-based commerce still matters in the global economy. Manuel Muñiz also highlighted India's rising global significance, stating that missing India means missing a large chunk of the 21st century.",
+      "As negotiations progress, the finalisation of this landmark deal represents a major step forward for bilateral commerce. For Indian businesses and markets, a successful agreement will open up new avenues for trade and investment with European partners. However, both sides must navigate the final stages of talks to ensure the agreement delivers on its promise of rules-based commerce."
     ],
     "world_60": [
-      "Gold drops below $4200 as firmer dollar and bond rout weigh on bullion",
-      "RBI rupee 96 buffer tested by rising US yields and oil headwinds",
-      "India protein food inflation under the lens from paneer to whey",
-      "US exempts India and 19 nations from 100 percent tariff on speciality drugs"
+      "Oil stays above $103 after Trump denies easing sanctions on Iran",
+      "Gold stabilises as markets gauge easing oil and rising US bond yields",
+      "US taps strategic oil reserve again as diesel prices top $6",
+      "Global shares mixed after Wall Street dips while oil prices stabilise"
     ],
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/A_port_view_of_the_guided_missile_frigate_USS_TAYLOR_%28FFG-50%29_as_it_passes_a_tanker_after_going_through_the_Strait_of_Hormuz_during_Operation_Desert_Shield_-_DPLA_-_1fb70620034c5304df096b4526972ace.jpeg/960px-thumbnail.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "alt": "A port view of the guided missile frigate USS TAYLOR (FFG-50) as it passes a tanker after going through the Strait of Hormuz during Operation Desert S"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
+      "alt": "New Delhi"
     }
   },
   "sources": {
     "big_story": [
       {
-        "title": "Indian equities open lower amid weak global cues, elevated crude prices and US yields",
-        "source": "chinimandi.com"
+        "title": "Indian shares likely to rise as oil comes off; BSE joins Nifty",
+        "source": "reuters.com"
       },
       {
-        "title": "Nifty, Sensex sink to 6-month low as US-Iran breakthrough hopes fade, oil tops $100 | India News",
-        "source": "Hindustan Times"
-      },
-      {
-        "title": "Sensex down 500 pts, Nifty near 22,600: Surging crude prices among key factors behind market decline",
-        "source": "Moneycontrol.com"
+        "title": "Nifty rejig kicks in: BSE joins as Wipro exits; what investors need to know",
+        "source": "Business Standard"
       }
     ],
     "venture_vault": [
       {
-        "title": "Nifty Fell 10% In 2 Years, But This Rs 1 Crore Portfolio Grew By Rs 16 Lakh. Here's How",
-        "source": "NDTV"
+        "title": "Paediatric Health-Tech Startup Primerry Raises Rs 7.1 Cr In Pre-Seed Round",
+        "source": "bwdisrupt.com"
+      },
+      {
+        "title": "Primerry Raises INR 7.1 Cr in Pre-Seed Funding to Expand Pediatric Healthcare Products",
+        "source": "Digital Health News"
       }
     ],
     "daily_brief_1": [
       {
-        "title": "RBI to raise interest rates to 5.50% in October as inflation broadens: Reuters poll",
-        "source": "Reuters"
+        "title": "Sun Pharma Plans Rs 10,000 Crore Rupee Debt Sale To Refinance Organon Deal: Report",
+        "source": "NDTV Profit"
+      },
+      {
+        "title": "Sun Pharma plans ₹10,000 crore bond sale to refinance Organon acquisition loan: Report",
+        "source": "Livemint"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "Sensex, Nifty opening: Will stock market crash or open higher today?",
-        "source": "India Today"
+        "title": "What's Delaying The India-US Trade Deal? S Jaishankar Explains",
+        "source": "NDTV"
+      },
+      {
+        "title": "What is Section 301? Why EAM Jaishankar says US trade probe could impact the deal",
+        "source": "Livemint"
+      },
+      {
+        "title": "India-US trade deal, if concluded, could help improve bilateral ties: Jaishankar",
+        "source": "The New Indian Express"
       }
     ],
     "daily_brief_3": [
       {
-        "title": "Market plunges, more bad weather may lie ahead",
-        "source": "The Indian Express"
+        "title": "YouTube’s India creator economy crosses ₹18,000 crore GDP impact, supports 9.6 lakh jobs",
+        "source": "MediaNews4U"
+      },
+      {
+        "title": "Future should be AI empowering creators, not AI versus creators: MoS Murugan",
+        "source": "DD India"
       }
     ],
     "also_today": [
       {
-        "title": "News by CNBC TV18 on TradingView, 2026-09-29 — cnbctv:b79d1069d094b:0",
-        "source": "TradingView"
+        "title": "Hope RBI, Tata Sons will review proposal to avoid listing: Noel Tata",
+        "source": "The Indian Express"
       },
       {
-        "title": "Seven times the dal: Decoding India’s protein food inflation, from paneer to whey",
-        "source": "ThePrint"
+        "title": "Anupam Rasayan completes Rs. 1,750 crore acquisition of Bliss GVS Pharma to build global platform",
+        "source": "Indian Pharma Post"
+      },
+      {
+        "title": "Tata Steel acquires 394 crore shares in subsidiary T Steel Holdings for ₹3,260 crore",
+        "source": "IndiaIPO"
+      },
+      {
+        "title": "Physical AI startup SiMa.ai raises $150 million in Series C funding at $1.45 billion valuation",
+        "source": "Indian Startup News"
       }
     ],
     "geopolitics": [
       {
-        "title": "Nifty, Sensex sink to 6-month low as US-Iran breakthrough hopes fade, oil tops $100 | India News",
-        "source": "Hindustan Times"
+        "title": "The India–EU Free Trade Agreement: A Landmark Deal Moves Toward Finalisation",
+        "source": "Cyril Amarchand Mangaldas"
       },
       {
-        "title": "Oil prices today: Brent Crude rises for second session as US-Iran conflict fuels supply concerns",
-        "source": "The Times of India"
+        "title": "India-EU free trade deal sends signal that rules-based commerce still matters, new EU envoy Paquet says",
+        "source": "WION"
       },
       {
-        "title": "Oil Price Today (September 29): Crude oil rises to $107 as US-Iran deal stalemate ups supply fears. $120 i",
-        "source": "The Economic Times"
-      },
-      {
-        "title": "Stocks drop and oil rises as Hormuz hopes fade",
-        "source": "Yahoo Finance Singapore"
+        "title": "‘If you miss India, you’ll miss a large chunk of the 21st century’: Manuel Muñiz",
+        "source": "The Hindu"
       }
     ],
     "world_60": [
       {
-        "title": "US exempts India and 19 nations from 100% tariff on certain speciality drugs: Report",
-        "source": "The Economic Times"
+        "title": "Global shares mixed after Wall Street dips; oil prices stabilise",
+        "source": "The Hindu"
       },
       {
-        "title": "Seven times the dal: Decoding India’s protein food inflation, from paneer to whey",
-        "source": "ThePrint"
+        "title": "Oil stays above $103 after Trump denies easing sanctions on Iran",
+        "source": "The Times of India"
       },
       {
-        "title": "Rising US yields, oil headwinds put RBI's rupee 96 buffer to the test",
-        "source": "Reuters"
+        "title": "Gold stabilises as market gauges easing oil prices amid rise in US bond yields",
+        "source": "CNBC TV18"
       },
       {
-        "title": "Gold slips 4% to fall below $4,200 on firmer dollar, bond rout, and Fed hike bets",
-        "source": "Investing.com India"
+        "title": "U.S. Taps Strategic Oil Reserve Again as Diesel Tops $6",
+        "source": "Crude Oil Prices Today | OilPrice.com"
       }
     ],
     "ipo_desk": [
       {
-        "title": "Moneyview IPO: 98x subscription, 3rd biggest ₹1,000 cr issue; GMP signals 41% premium - allotment, listing date",
-        "source": "IndiaIPO"
+        "title": "SRIT India IPO subscribed over 4x on Day 2; NII, retail investors lead demand",
+        "source": "Moneycontrol.com"
       },
       {
-        "title": "SRIT India, Shah Investor’s Home IPO Day 2: Check GMP, subscription status and key details",
+        "title": "SRIT India IPO Allotment Status: 4.16x Subscribed, Check Online",
+        "source": "Univest"
+      },
+      {
+        "title": "Nityas Gems & Jewellery IPO opens today. Check GMP, price band and key details",
         "source": "The Economic Times"
       },
       {
-        "title": "Varmora Granito IPO Listing Today: GMP Signals Tepid Debut; Check Expected Price",
-        "source": "NDTV Profit"
+        "title": "8 SME IPOs to open today, seek to raise Rs 440 crore; check price bands, lot sizes and key dates",
+        "source": "The Economic Times"
       }
     ],
-    "market_data": "Yahoo Finance (computed, session 2026-09-29)",
+    "market_data": "Yahoo Finance (computed, session 2026-09-30)",
     "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
   }
 }
