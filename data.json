@@ -1,40 +1,40 @@
 {
-  "updated_ist": "2026-10-01",
+  "updated_ist": "2026-10-02",
   "cover": {
-    "big_story_teaser": "RBI keeps repo rate unchanged while India Inc. faces rising short-term borrowing costs.",
-    "venture_teaser": "Arivihan raises $10 million in fresh funding to expand its AI tutoring platform.",
-    "market_watch_teaser": "Nifty 50 slips 0.19% while Nifty Bank surges 0.49% in early Thursday trading",
-    "daily_brief_teaser": "Sun Pharma plans bond sale, Modi-Trump review trade, AM Green wins €585M deal",
-    "inbrief_2": "Sun Pharma eyes ₹10,000 cr bonds",
-    "inbrief_3": "Modi and Trump review trade ties",
-    "inbrief_4": "AM Green wins €585M ammonia deal",
-    "inbrief_1": "Jaishankar on India-China Ties"
+    "big_story_teaser": "India and US discuss interim trade deal as key sticking points delay agreement.",
+    "venture_teaser": "Simple Energy secures ₹1,750 crore from Dr. A. Velumani family office and founders.",
+    "market_watch_teaser": "Markets shut for Gandhi Jayanti; Sensex closed down 0.13% at 72,388.66 on Thursday.",
+    "daily_brief_teaser": "Cabinet approves ₹1.86 lakh cr grid push as crude rally sparks inflation worries.",
+    "inbrief_2": "₹1.86 Lakh Cr Green Energy Grid",
+    "inbrief_3": "Surging Oil Sparks Inflation Dread",
+    "inbrief_4": "Indian Startups Raise $2.9B in Q3",
+    "inbrief_1": "Canada Trade Talks Gain Pace"
   },
   "big_story": {
-    "headline": "RBI Holds Rates Steady",
-    "subhead": "CENTRAL BANK HOLDS REPO RATE AS FIRMS NAVIGATE RISING BORROWING COSTS",
+    "headline": "Sticking Points in US Trade Deal",
+    "subhead": "PIYUSH GOYAL AND US ENVOY GREER DISCUSS INTERIM DEAL AS STICKING POINTS REMAIN",
     "paragraphs": [
-      "The Reserve Bank of India has decided to keep the repo rate unchanged, while projecting the nation's real GDP growth for the current fiscal year at 6.9 percent. This policy stance anchors monetary conditions even as the broader markets experience minor intraday pressures, with the Nifty falling 0.19 percent in today's session so far. Meanwhile, India Inc. continues to navigate a shifting credit environment as short-term yields surge across the financial sector.",
-      "While the benchmark interest rate remains stable, corporate borrowers are facing higher borrowing costs due to tightening conditions in the short-term debt markets. Experts analyzing corporate balance sheets note that strong fundamentals and robust cash reserves should help firms absorb these pressures without triggering widespread rating downgrades. However, the divergence between steady headline policy rates and elevated short-term yields requires careful treasury management from corporate leaders.",
-      "For college students and aspiring market analysts, this scenario illustrates the delicate balancing act central banks perform between supporting macroeconomic expansion and managing yield curves. Observers will be watching how corporate bond markets react and whether lenders adjust their transmission of credit rates in the upcoming quarters. Keeping an eye on debt sustainability will be crucial as firms fund their capital expenditures and growth plans."
+      "Union Commerce Minister Piyush Goyal held discussions with United States Trade Representative Jamieson Greer to pursue an early conclusion to an interim bilateral trade deal. However, USTR Greer clarified that a final deal is not imminent as critical sticking points have been identified between the two nations. The high-level dialog comes as Indian Prime Minister Narendra Modi and US President Donald Trump prepare to talk soon on bilateral relations.",
+      "Negotiators are seeking common ground on tariff structures and market access while managing broader geopolitical and economic concerns. Both sides remain actively engaged in high-level talks to build a framework that could ease ongoing trade friction. Despite recent momentum in negotiations, officials caution that resolving structural differences will require further extended dialogue.",
+      "An interim trade deal could offer significant relief to Indian exporters facing international trade uncertainty and ongoing tariff pressures. Market observers are closely watching upcoming leadership interactions to see if political momentum can break the trade impasse. For now, businesses in both economies must navigate an evolving policy landscape until a formal agreement is established."
     ],
-    "pullbox": "Steady repo rates provide macroeconomic breathing room, but rising short-term yields mean Indian firms must navigate tighter funding conditions.",
+    "pullbox": "While India and the US pursue an interim trade agreement, key sticking points mean a finalized deal remains out of immediate reach.",
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
-      "alt": "Reserve Bank of India"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Piyush_Goyal_crop.jpg/330px-Piyush_Goyal_crop.jpg",
+      "alt": "Piyush Goyal"
     }
   },
   "explains": {
-    "title": "What is the Repo Rate?",
+    "title": "What is an Interim Trade Deal?",
     "paragraphs": [
-      "The repo rate is the interest rate at which the central bank lends money to commercial banks in the event of any shortfall of funds. It serves as a primary tool for monetary policy, helping authorities manage inflation and steer overall economic liquidity.",
-      "When the central bank keeps the repo rate unchanged, it signals a neutral or steady stance on monetary policy, neither aggressively cooling down nor actively stimulating borrowing. In practice, this anchors baseline lending rates, allowing banks and corporations to plan their financial obligations with greater predictability."
+      "An interim trade deal is a temporary agreement between two nations that lowers specific trade barriers or tariffs before a comprehensive free trade agreement is fully negotiated. It allows participating countries to secure immediate commercial gains in select sectors while continuing long-term discussions on complex regulatory issues.",
+      "In practice, these agreements focus on early-harvest areas such as targeted goods tariffs or streamlined customs procedures. They buy time for negotiators to address tough sticking points without stalling broader economic cooperation."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Arivihan has successfully raised $10 million in a new funding round to scale its innovative AI tutoring platform. The capital infusion will enable the edtech startup to deepen its academic offerings and expand its learning modules across key educational segments.",
-      "Backed by forward-thinking investors who recognize the potential of artificial intelligence in education, Arivihan is betting on personalized, tech-driven learning paths for students. As investors become increasingly selective in the venture ecosystem, securing substantial backing highlights the strong market demand for scalable educational technologies."
+      "Electric vehicle manufacturer Simple Energy has raised ₹1,750 crore in a fresh funding round from Thyrocare founder Dr. A. Velumani's family office alongside the company's founders. The major capital injection highlights continuing investor enthusiasm for India's clean mobility sector.",
+      "The new investment provides Simple Energy with substantial runway to expand its operational footprints. The startup plans to deploy the capital towards scaling its manufacturing capabilities and widening its retail network across the nation."
     ]
   },
   "market_watch": {
@@ -121,17 +121,21 @@
     ],
     "snapshot_strip": "The Nifty fell 0.19% in today's session so far",
     "date_label": "OCT 2026",
-    "close_label": "LIVE AS OF 9:32 AM IST",
+    "close_label": "AS OF THURSDAY'S CLOSE, OCT 1",
     "live": true,
     "session_date": "2026-10-01",
     "ipo_desk": [
       {
-        "name": "Inox Clean Energy",
-        "note": "Files ₹10,000 crore IPO with Sebi"
+        "name": "SRIT India",
+        "note": "37% GMP as allotment status is finalized"
       },
       {
-        "name": "SRIT India",
-        "note": "Issue subscribed over 125x on Day 3"
+        "name": "Acme India Industries",
+        "note": "Day 2 subscription status hits 1.97x"
+      },
+      {
+        "name": "Jio",
+        "note": "DRHP filed as SEBI clears path for IPO"
       }
     ]
   },
@@ -304,170 +308,170 @@
       }
     ],
     "date_label": "SEP 2026",
-    "close_label": "CLOSE OF SEP 30",
+    "close_label": "AS OF THURSDAY'S CLOSE, OCT 1",
     "session_date": "2026-09-30",
     "nav_label": "NAVS AS OF SEP 29"
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "Corporate Finance | Debt Market",
-      "headline": "Sun Pharma Eyes ₹10,000 Cr Bond Sale",
+      "kicker": "India | Clean Energy",
+      "headline": "Cabinet Clears ₹1.86 Lakh Crore Green Energy Grid Push",
       "paragraphs": [
-        "Sun Pharma is preparing to launch a domestic bond sale worth up to ₹10,000 crore to refinance existing credit facilities. The fundraising effort is specifically structured to refinance loans taken for its strategic acquisition of Organon.",
-        "The pharmaceutical giant is tapping domestic debt markets to balance its debt maturity profile. Analysts expect strong institutional demand for the high-rated corporate paper as Indian corporate balance sheets remain robust."
+        "India has approved a massive ₹1.86 lakh crore green power grid initiative aimed at integrating 135 GW of renewable energy into the national network. The expansion seeks to bolster transmission infrastructure to accommodate rapidly growing solar and wind power capacities across major energy-producing states.",
+        "This strategic push forms a core component of the country's push toward decarbonisation while keeping the national grid stable. Modernising high-voltage lines is expected to lower regional power transmission bottlenecks and support sustainable industrial growth."
       ],
       "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/50/Sun_Pharma_logo.svg/330px-Sun_Pharma_logo.svg.png",
-        "alt": "Sun Pharma"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Electrical_and_Mechanical_Services_Department_Headquarters_Photovoltaics.jpg",
+        "alt": "Solar power"
       }
     },
     "story_2": {
-      "kicker": "International Trade | India-US",
-      "headline": "Modi and Trump Review Trade and Tech Ties",
+      "kicker": "Global | Macro Economy",
+      "headline": "Surging Oil Prices Revive Global Inflation Concerns",
       "paragraphs": [
-        "Prime Minister Narendra Modi held a productive telephone conversation with US President Donald Trump to discuss strengthening bilateral economic and strategic relations. The dialogue covered cooperation in trade, defence capabilities, energy security, and critical technologies.",
-        "The conversation comes as negotiators work toward concluding an early interim trade agreement between the two nations. Both leaders reiterated the importance of deepening market access and high-tech supply chain integration."
+        "Crude oil prices staying elevated have reignited global inflation worries, pushing government bond yields higher and forcing markets to rethink central bank interest rate paths. Benchmark US yields climbed to multi-decade highs as traders priced in sustained energy cost pressures.",
+        "Higher crude prices threaten to fuel imported inflation across energy-dependent Asian economies, pressuring local currencies. Analysts warn that prolonged energy price spikes could delay anticipated monetary easing cycles across major global central banks."
       ]
     },
     "story_3": {
-      "kicker": "Green Energy | Clean Tech",
-      "headline": "AM Green Secures €585 Million Ammonia Deal",
+      "kicker": "Startups | Venture Capital",
+      "headline": "Indian Startups Secure $2.9 Billion in Q3 Funding",
       "paragraphs": [
-        "Indian clean energy provider AM Green has won a major Germany-backed green ammonia auction, securing a supply deal valued at €585 million. The contract reinforces India's emerging position as an export hub for green hydrogen derivatives to European industrial markets."
+        "Indian startups raised $2.9 billion in venture funding during Q3 2026, driven predominantly by strong deal activity in electric vehicles and artificial intelligence. The quarterly total underscores investor confidence in high-growth technology segments despite broader public market caution."
       ]
     },
     "also_today": {
       "items": [
-        "ITC completes 100% acquisition of Yoga Bar parent Sproutlife Foods for ₹645 crore.",
-        "EV startup Simple Energy raises $182 million in a Series C funding round.",
-        "NSE moves closer to launching corporate bond index futures following approval from Sebi.",
-        "New Zealand and India officially ratify their bilateral free trade agreement."
+        "Simple Energy raises ₹1,750 crore from Thyrocare founder Dr. A. Velumani’s family office.",
+        "Indian Bank Q2 FY27 total business increases 14.2% YoY to ₹15.96 lakh crore.",
+        "Godfrey Phillips shares drop 8.5% as Q1 FY27 net profit falls 44% YoY on higher taxes.",
+        "Highway Infrastructure share price surges following a ₹220.66 crore deal win."
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India | China Ties",
-    "headline": "Jaishankar Sees Improved Ties With China Post Border Accord",
+    "kicker": "India | Canada Trade",
+    "headline": "Canada Foreign Minister to Visit India as Trade Talks Pace",
     "paragraphs": [
-      "External Affairs Minister S. Jaishankar stated that relations between India and China are better today following the resolution of the border standoff between the two Asian neighbours. Speaking on bilateral relations, the minister noted that resolving key points of contention along the frontier has helped restore stability. The development marks a notable shift after years of heightened military standoff and diplomatic friction between the two nations.",
-      "While diplomatic posture has eased, Indian businesses are evaluating how the thaw might impact trade flows and commercial ties. Key questions remain over cross-border investment scrutiny, visa approvals, and tech supply chains that were restricted during the dispute. A gradual normalization could provide relief to domestic manufacturers relying on critical imports and capital inputs."
+      "Canada's foreign minister is scheduled to visit India in mid-October as bilateral trade talks gain momentum between the two nations. The upcoming high-level visit signals a renewed effort to advance commercial negotiations and re-engage on economic priorities. Both countries are working to accelerate discussions aimed at strengthening trade ties.",
+      "While broader strategic dynamics remain under observation, the progress in economic talks offers a fresh pathway for bilateral commerce. Indian businesses and exporters will closely track the mid-October dialogue for signs of improved market access and trade facilitation."
     ],
     "world_60": [
-      "New Zealand and India ratify free trade agreement to expand commercial ties.",
-      "Norway reports increased trade with India on the first anniversary of TEPA pact.",
-      "Oil prices remain steady as investors monitor US-Iran talks and global fuel supply.",
-      "Gold prices hold flat as markets evaluate Fed outlook and upcoming US economic data."
+      "US benchmark yield touches highest level since 2002 as oil prices rise.",
+      "BofA warns extreme oil spike could pull gold below $3,750 in Q4.",
+      "Asian currencies stay under pressure as rising crude oil prices bite.",
+      "Sensex crashes 1,000 points as foreign investors sell Indian stocks."
     ],
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/The_official_portrait_of_External_Minister_Subrahmanyam_Jaishankar.jpg",
-      "alt": "S. Jaishankar"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
+      "alt": "New Delhi"
     }
   },
   "sources": {
     "big_story": [
       {
-        "title": "RBI keeps repo rate unchanged; Projects India’s real GDP growth for current fiscal at 6.9% | Akashvani News",
-        "source": "News On AIR"
+        "title": "India-US trade deal 'not imminent'; USTR Greer says 'sticking points' identified",
+        "source": "The Economic Times"
       },
       {
-        "title": "India Inc. Faces Higher Borrowing Costs as Short-Term Yields Surge",
-        "source": "bloomberg.com"
+        "title": "Piyush Goyal, US trade envoy Greer discuss early conclusion of India-US interim trade deal",
+        "source": "economictimes.indiatimes.com"
+      },
+      {
+        "title": "Nothing imminent: USTR Greer on India trade deal; Modi, Trump to talk soon",
+        "source": "Business Standard"
       }
     ],
     "venture_vault": [
       {
-        "title": "Arivihan Raises $10 Million for AI Tutoring",
-        "source": "telecomtalk.info"
+        "title": "Simple Energy raises Rs 1,750 crore from Thyrocare founder Dr. A. Velumani’s family office, founders",
+        "source": "Indian Startup News"
       }
     ],
     "daily_brief_1": [
       {
-        "title": "Sun Pharma Eyes Rs 10,000 Crore Bond Sale to Fund Organon Acquisition Loan",
-        "source": "Medical Dialogues"
+        "title": "India Clears INR 1.86 Lakh Crore Green Power Grid Push for 135 GW Renewable Energy",
+        "source": "India Business Trade"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "Modi speaks with Trump as India seeks interim deal with US",
-        "source": "Reuters"
+        "title": "US benchmark yield at its highest since 2002 amid rising oil prices",
+        "source": "Business Standard"
       },
       {
-        "title": "PM Modi, Trump Hold \"Productive\" Call, Review Trade, Defence, Energy and Tech Cooperation",
-        "source": "PGurus"
+        "title": "Gold and Silver Prices Fall Sharply as Higher Oil Revives Rate-Hike Concerns",
+        "source": "Kalkine India"
       },
       {
-        "title": "PM Modi, Trump Hold 'Productive Call' On Defence, Trade And Critical Technologies",
-        "source": "ETV Bharat"
-      },
-      {
-        "title": "PM Modi, President Trump Phone Call: Trade, defence, energy and critical technology take centre stage",
-        "source": "organiser.org"
+        "title": "Geopolitical tensions, high crude may fuel imported inflation, says government report",
+        "source": "Deccan Herald"
       }
     ],
     "daily_brief_3": [
       {
-        "title": "AM Green Wins Germany-Backed Green Ammonia Auction With €585 Million Deal",
-        "source": "India Business Trade"
+        "title": "Indian startups raise $2.9 Bn in Q3 2026 as EV, AI drive funding",
+        "source": "Entrackr"
       }
     ],
     "also_today": [
       {
-        "title": "NSE moves closer to corporate bond index futures after Sebi nod",
-        "source": "Business Standard"
+        "title": "Godfrey Phillips Shares Plunge 8.5% as Q1 FY27 Net Profit Drops 44% YoY on Higher Taxes",
+        "source": "The Indian Awaaz"
       },
       {
-        "title": "ITC completes 100% acquisition of Yoga Bar parent Sproutlife Foods for ₹645 crore",
-        "source": "India Retailing"
+        "title": "Indian Bank Q2FY27 Results: Total business rises 14.2% YoY to ₹15.96 lakh crore",
+        "source": "scanx.trade"
       },
       {
-        "title": "EV startup Simple Energy raises $182 Mn in Series C round",
-        "source": "Entrackr"
+        "title": "Highway Infrastructure share price today Surges on 220.66 crore Deal",
+        "source": "Alice Blue"
       },
       {
-        "title": "New Zealand and India ratify free trade agreement",
-        "source": "The Drinks Business"
+        "title": "Simple Energy raises Rs 1,750 crore from Thyrocare founder Dr. A. Velumani’s family office, founders",
+        "source": "Indian Startup News"
       }
     ],
     "geopolitics": [
       {
-        "title": "EAM Jaishankar says India-China ties better today after border standoff resolution",
-        "source": "News On AIR"
+        "title": "Canadian foreign minister to visit India in mid-October as trade talks gain pace | India News",
+        "source": "Hindustan Times"
       }
     ],
     "world_60": [
       {
-        "title": "New Zealand and India ratify free trade agreement",
-        "source": "The Drinks Business"
-      },
-      {
-        "title": "Norway says trade with India up on first anniversary of TEPA trade pact",
-        "source": "WION"
-      },
-      {
-        "title": "Oil prices steady as investors assess US-Iran peace talks, supply outlook",
+        "title": "US benchmark yield at its highest since 2002 amid rising oil prices",
         "source": "Business Standard"
       },
       {
-        "title": "Gold prices flat ahead of US jobs data",
-        "source": "The Economic Times"
+        "title": "Bank of America Warns: High Oil Prices Are the Top Threat to Gold in Q4 — Extreme Scenario Could See Prices Fall Below $3,750",
+        "source": "finance.biggo.com"
+      },
+      {
+        "title": "Bears maintain grip on oil-importing Asian currencies as crude prices bite",
+        "source": "Reuters"
+      },
+      {
+        "title": "Sensex Crashes 1,000 Points: Rs 9 Lakh Crore Wiped Out As Foreign Investors Sell Indian Stocks En-Masse",
+        "source": "NDTV"
       }
     ],
     "ipo_desk": [
       {
-        "title": "India’s Inox Clean Energy Plans INR 10,000 Crore IPO",
-        "source": "TaiyangNews"
+        "title": "SRIT India Allotment: How to check status on BSE, NSE, Kfin Technologies",
+        "source": "IndiaIPO"
       },
       {
-        "title": "Inox Clean Energy files ₹10,000 crore IPO with Sebi; set to be largest private renewable energy offering",
-        "source": "Fortune India"
-      },
-      {
-        "title": "SRIT India IPO subscribed over 125x on Day 3; GMP rises to 27%",
+        "title": "SRIT India IPO allotment today; GMP at 37% — check status at BSE, NSE and registrar",
         "source": "Moneycontrol.com"
       },
       {
-        "title": "SRIT India IPO Allotment Status: 125.16x Subscribed, Check Online",
-        "source": "Univest"
+        "title": "Acme India Industries IPO Day 2 Subscription Status: 1.97x",
+        "source": "HDFC Sky"
+      },
+      {
+        "title": "Jio IPO nears launch: DRHP filed, SEBI clears path",
+        "source": "yourstory.com"
       }
     ],
     "market_data": "Yahoo Finance (computed, session 2026-10-01)",
