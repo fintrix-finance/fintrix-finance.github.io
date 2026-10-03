@@ -1,40 +1,40 @@
 {
-  "updated_ist": "2026-10-02",
+  "updated_ist": "2026-10-03",
   "cover": {
-    "big_story_teaser": "India and US discuss interim trade deal as key sticking points delay agreement.",
-    "venture_teaser": "Simple Energy secures ₹1,750 crore from Dr. A. Velumani family office and founders.",
-    "market_watch_teaser": "Markets shut for Gandhi Jayanti; Sensex closed down 0.13% at 72,388.66 on Thursday.",
-    "daily_brief_teaser": "Cabinet approves ₹1.86 lakh cr grid push as crude rally sparks inflation worries.",
-    "inbrief_2": "₹1.86 Lakh Cr Green Energy Grid",
-    "inbrief_3": "Surging Oil Sparks Inflation Dread",
-    "inbrief_4": "Indian Startups Raise $2.9B in Q3",
-    "inbrief_1": "Canada Trade Talks Gain Pace"
+    "big_story_teaser": "Indian markets hit a 25-year record losing streak as FIIs pull out billions.",
+    "venture_teaser": "EV maker Simple Energy secures ₹1,750 crore funding boost.",
+    "market_watch_teaser": "Nifty dips 0.19% to 22,576.40 as markets stay shut for the weekend.",
+    "daily_brief_teaser": "Forex kitty drops $18.34B while G7 releases oil reserves to curb crude.",
+    "inbrief_2": "Forex kitty drops $18.34B",
+    "inbrief_3": "G7 releases emergency crude oil",
+    "inbrief_4": "UPI MDR share demand by firms",
+    "inbrief_1": "Stalled US Trade Deal Facing Heat"
   },
   "big_story": {
-    "headline": "Sticking Points in US Trade Deal",
-    "subhead": "PIYUSH GOYAL AND US ENVOY GREER DISCUSS INTERIM DEAL AS STICKING POINTS REMAIN",
+    "headline": "Markets In Freefall",
+    "subhead": "INDIAN BENCHMARK INDEXES RECORD LONGEST WEEKLY LOSING STREAK IN 25 YEARS AS FIIS FLEE",
     "paragraphs": [
-      "Union Commerce Minister Piyush Goyal held discussions with United States Trade Representative Jamieson Greer to pursue an early conclusion to an interim bilateral trade deal. However, USTR Greer clarified that a final deal is not imminent as critical sticking points have been identified between the two nations. The high-level dialog comes as Indian Prime Minister Narendra Modi and US President Donald Trump prepare to talk soon on bilateral relations.",
-      "Negotiators are seeking common ground on tariff structures and market access while managing broader geopolitical and economic concerns. Both sides remain actively engaged in high-level talks to build a framework that could ease ongoing trade friction. Despite recent momentum in negotiations, officials caution that resolving structural differences will require further extended dialogue.",
-      "An interim trade deal could offer significant relief to Indian exporters facing international trade uncertainty and ongoing tariff pressures. Market observers are closely watching upcoming leadership interactions to see if political momentum can break the trade impasse. For now, businesses in both economies must navigate an evolving policy landscape until a formal agreement is established."
+      "Indian benchmark stocks have hit a historic slump, marking their longest weekly losing run in 25 years as market sentiment deteriorated sharply. Both the Nifty 50 and Sensex closed lower in the recent trading session, extending a persistent slide across domestic equities. Foreign institutional investors pulled nearly ₹29,600 crore from Indian stocks in just three trading days. This intense foreign sell-off has put severe pressure on equity valuations across market sectors.",
+      "The unrelenting capital flight comes alongside mounting pressure on the domestic currency and international macroeconomic uncertainty. India's foreign exchange reserves plunged by a record $18.34 billion as foreign investors shifted capital away from emerging markets. Foreign portfolio managers have been rapidly reducing exposure to manage risks amid rising global headwinds. Consequently, domestic liquidity is facing its toughest stress test in recent memory.",
+      "Market participants are now watching closely to see if domestic institutional buying can stabilize asset prices against foreign selling. Analysts note that prolonged market weakness could weigh on investor sentiment and broader economic confidence over the coming quarters. Restoring market stability will depend on foreign fund flows and global economic signals. Traders remain on high alert for any indications of market stabilization."
     ],
-    "pullbox": "While India and the US pursue an interim trade agreement, key sticking points mean a finalized deal remains out of immediate reach.",
+    "pullbox": "Foreign institutional investors pulling nearly ₹29,600 crore in three days has triggered the market's longest weekly losing run in 25 years, testing domestic resilience.",
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Piyush_Goyal_crop.jpg/330px-Piyush_Goyal_crop.jpg",
-      "alt": "Piyush Goyal"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/BSE_logo.svg/330px-BSE_logo.svg.png",
+      "alt": "Bombay Stock Exchange"
     }
   },
   "explains": {
-    "title": "What is an Interim Trade Deal?",
+    "title": "What is Foreign Institutional Investment?",
     "paragraphs": [
-      "An interim trade deal is a temporary agreement between two nations that lowers specific trade barriers or tariffs before a comprehensive free trade agreement is fully negotiated. It allows participating countries to secure immediate commercial gains in select sectors while continuing long-term discussions on complex regulatory issues.",
-      "In practice, these agreements focus on early-harvest areas such as targeted goods tariffs or streamlined customs procedures. They buy time for negotiators to address tough sticking points without stalling broader economic cooperation."
+      "Foreign Institutional Investment (FII) refers to capital invested by foreign financial institutions into another country's financial markets. These overseas investors include global mutual funds, pension funds, hedge funds, and insurance companies seeking international asset exposure.",
+      "In Indian equity markets, FII movement serves as a key indicator of liquidity and foreign confidence. Large inflows can propel stock market rallies, while sudden capital pullouts by FIIs often lead to sharp market declines and currency pressure."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Electric vehicle manufacturer Simple Energy has raised ₹1,750 crore in a fresh funding round from Thyrocare founder Dr. A. Velumani's family office alongside the company's founders. The major capital injection highlights continuing investor enthusiasm for India's clean mobility sector.",
-      "The new investment provides Simple Energy with substantial runway to expand its operational footprints. The startup plans to deploy the capital towards scaling its manufacturing capabilities and widening its retail network across the nation."
+      "Electric vehicle startup Simple Energy has secured ₹1,750 crore in a major fresh funding round. The investment was led by the family office of Thyrocare founder Dr. A. Velumani, alongside participation from Simple Energy's founders.",
+      "The substantial capital injection will support the company's expansion plans in the competitive electric mobility sector. Investors are backing the EV company as Indian startup funding rebounds around clean energy and technology deals."
     ]
   },
   "market_watch": {
@@ -126,16 +126,16 @@
     "session_date": "2026-10-01",
     "ipo_desk": [
       {
+        "name": "Jio Platforms",
+        "note": "DRHP filed as mega launch nears"
+      },
+      {
         "name": "SRIT India",
-        "note": "37% GMP as allotment status is finalized"
+        "note": "GMP stands at 37% ahead of allotment"
       },
       {
         "name": "Acme India Industries",
-        "note": "Day 2 subscription status hits 1.97x"
-      },
-      {
-        "name": "Jio",
-        "note": "DRHP filed as SEBI clears path for IPO"
+        "note": "Day 2 issue subscribed 1.97x"
       }
     ]
   },
@@ -314,72 +314,76 @@
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "India | Clean Energy",
-      "headline": "Cabinet Clears ₹1.86 Lakh Crore Green Energy Grid Push",
+      "kicker": "India | Foreign Reserves",
+      "headline": "Forex Kitty Plunges $18.34 Billion as Rupee Faces Heat",
       "paragraphs": [
-        "India has approved a massive ₹1.86 lakh crore green power grid initiative aimed at integrating 135 GW of renewable energy into the national network. The expansion seeks to bolster transmission infrastructure to accommodate rapidly growing solar and wind power capacities across major energy-producing states.",
-        "This strategic push forms a core component of the country's push toward decarbonisation while keeping the national grid stable. Modernising high-voltage lines is expected to lower regional power transmission bottlenecks and support sustainable industrial growth."
+        "India's foreign exchange reserves plummeted by a record $18.34 billion to $747.56 billion, according to the latest data released by the Reserve Bank of India. The massive drawdown reflects aggressive central bank intervention in currency markets to defend the Indian Rupee against sustained depreciation pressures.",
+        "In addition to defending the currency, foreign exchange curbs implemented by the RBI have triggered losses of around $500 million for domestic banks. Economists warn that mounting import costs and capital outflows could keep reserve levels under continuous pressure."
       ],
       "image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Electrical_and_Mechanical_Services_Department_Headquarters_Photovoltaics.jpg",
-        "alt": "Solar power"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+        "alt": "Reserve Bank of India"
       }
     },
     "story_2": {
-      "kicker": "Global | Macro Economy",
-      "headline": "Surging Oil Prices Revive Global Inflation Concerns",
+      "kicker": "Global | Energy Markets",
+      "headline": "G7 Releases Oil Reserves to Tame Soaring Crude Prices",
       "paragraphs": [
-        "Crude oil prices staying elevated have reignited global inflation worries, pushing government bond yields higher and forcing markets to rethink central bank interest rate paths. Benchmark US yields climbed to multi-decade highs as traders priced in sustained energy cost pressures.",
-        "Higher crude prices threaten to fuel imported inflation across energy-dependent Asian economies, pressuring local currencies. Analysts warn that prolonged energy price spikes could delay anticipated monetary easing cycles across major global central banks."
+        "The G7 economies have announced an emergency release of 100 million barrels from strategic crude and diesel reserves to counter recent price surges in energy markets. The coordinated move aims to ease global supply anxieties and bring relief to inflation-weary economies.",
+        "Although the announcement knocked benchmark prices slightly lower, Brent crude managed to hold above $102 per barrel. Energy analysts note that while the intervention calms bond markets temporarily, long-term supply constraints remain a core concern."
       ]
     },
     "story_3": {
-      "kicker": "Startups | Venture Capital",
-      "headline": "Indian Startups Secure $2.9 Billion in Q3 Funding",
+      "kicker": "Fintech | Payment Regulations",
+      "headline": "Payment Firms Demand Higher Share of New UPI MDR",
       "paragraphs": [
-        "Indian startups raised $2.9 billion in venture funding during Q3 2026, driven predominantly by strong deal activity in electric vehicles and artificial intelligence. The quarterly total underscores investor confidence in high-growth technology segments despite broader public market caution."
+        "Digital payment companies in India are urging regulators for a larger cut of the Merchant Discount Rate under the new UPI framework. With the October 15 rollout date approaching quickly, fintech operators argue that higher revenue sharing is necessary to sustain transaction infrastructure and offset operational expenses."
       ]
     },
     "also_today": {
       "items": [
-        "Simple Energy raises ₹1,750 crore from Thyrocare founder Dr. A. Velumani’s family office.",
-        "Indian Bank Q2 FY27 total business increases 14.2% YoY to ₹15.96 lakh crore.",
-        "Godfrey Phillips shares drop 8.5% as Q1 FY27 net profit falls 44% YoY on higher taxes.",
-        "Highway Infrastructure share price surges following a ₹220.66 crore deal win."
+        "Economists expect the RBI to hike repo rate by 25 bps in its upcoming October meeting.",
+        "Godfrey Phillips shares plunge 8.5% after Q1 FY27 net profit drops 44% YoY on higher taxes.",
+        "India nears an ₹80,000 crore defense deal to build advanced naval submarines.",
+        "Simple Energy raises ₹1,750 crore from Dr. A. Velumani's family office and founders."
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India | Canada Trade",
-    "headline": "Canada Foreign Minister to Visit India as Trade Talks Pace",
+    "kicker": "India x US | Trade Talks",
+    "headline": "Stalled US Trade Deal Facing Heat As Friction Grows",
     "paragraphs": [
-      "Canada's foreign minister is scheduled to visit India in mid-October as bilateral trade talks gain momentum between the two nations. The upcoming high-level visit signals a renewed effort to advance commercial negotiations and re-engage on economic priorities. Both countries are working to accelerate discussions aimed at strengthening trade ties.",
-      "While broader strategic dynamics remain under observation, the progress in economic talks offers a fresh pathway for bilateral commerce. Indian businesses and exporters will closely track the mid-October dialogue for signs of improved market access and trade facilitation."
+      "Trade negotiations between India and the United States face significant delays, with a US official stating that a deal is nothing imminent. External Affairs Minister S. Jaishankar openly called out the US as friction grows over bilateral economic policies. Meanwhile, Commerce Minister Piyush Goyal defended India against US investigations alleging forced labour and excess capacity.",
+      "The standoff highlights US leverage in trade negotiations while leaving India with limited options to push terms forward. Tensions surrounding American investigations and delayed agreements could impact trade flows and cross-border investment sentiment. As formal progress remains stalled, Indian industries must prepare for continued regulatory scrutiny from Washington."
     ],
     "world_60": [
-      "US benchmark yield touches highest level since 2002 as oil prices rise.",
-      "BofA warns extreme oil spike could pull gold below $3,750 in Q4.",
-      "Asian currencies stay under pressure as rising crude oil prices bite.",
-      "Sensex crashes 1,000 points as foreign investors sell Indian stocks."
+      "Dollar hits 17-month high as oil tops $100, fueling inflation fears.",
+      "G7 releases emergency crude reserves to curb soaring energy prices.",
+      "India and Canada to resume trade deal talks starting October 5.",
+      "India exports 1 tonne of Bihar's makhana to Greece."
     ],
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
-      "alt": "New Delhi"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/The_official_portrait_of_External_Minister_Subrahmanyam_Jaishankar.jpg",
+      "alt": "S. Jaishankar"
     }
   },
   "sources": {
     "big_story": [
       {
-        "title": "India-US trade deal 'not imminent'; USTR Greer says 'sticking points' identified",
-        "source": "The Economic Times"
+        "title": "Indian benchmark shares post longest weekly losing run in 25 years",
+        "source": "Reuters"
       },
       {
-        "title": "Piyush Goyal, US trade envoy Greer discuss early conclusion of India-US interim trade deal",
-        "source": "economictimes.indiatimes.com"
+        "title": "Indian Stock Market Records Longest Weekly Losing Streak in 25 Years as Nifty, Sensex Slide",
+        "source": "CAclubindia"
       },
       {
-        "title": "Nothing imminent: USTR Greer on India trade deal; Modi, Trump to talk soon",
-        "source": "Business Standard"
+        "title": "Forex kitty plunges record $18.34 bn as rupee pressure mounts",
+        "source": "The New Indian Express"
+      },
+      {
+        "title": "FIIs Pull Nearly Rs 29,600 Crore From Indian Stocks in Three Days",
+        "source": "India Business Trade"
       }
     ],
     "venture_vault": [
@@ -390,42 +394,54 @@
     ],
     "daily_brief_1": [
       {
-        "title": "India Clears INR 1.86 Lakh Crore Green Power Grid Push for 135 GW Renewable Energy",
-        "source": "India Business Trade"
+        "title": "Indias forex reserves drop USD 18.34 bn to USD 747.56 bn: RBI data",
+        "source": "Daily Excelsior"
+      },
+      {
+        "title": "RBI Forex Curbs Trigger $ 500 Mn Losses For Indian Banks",
+        "source": "BW Businessworld"
+      },
+      {
+        "title": "Forex kitty plunges record $18.34 bn as rupee pressure mounts",
+        "source": "The New Indian Express"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "US benchmark yield at its highest since 2002 amid rising oil prices",
-        "source": "Business Standard"
+        "title": "Why are oil prices down today? G7 countries' oil reserve release plan to push crude rates lower",
+        "source": "The Economic Times"
       },
       {
-        "title": "Gold and Silver Prices Fall Sharply as Higher Oil Revives Rate-Hike Concerns",
-        "source": "Kalkine India"
+        "title": "Oil Ends Volatile Week Mixed as Emergency Reserve Release Knocks WTI Lower but Brent Holds Above $102",
+        "source": "energynow.com"
       },
       {
-        "title": "Geopolitical tensions, high crude may fuel imported inflation, says government report",
-        "source": "Deccan Herald"
+        "title": "100 million-barrel reserve release sends oil prices lower, IEA chief says",
+        "source": "Gulf Business"
+      },
+      {
+        "title": "G7 announces release of diesel, crude oil reserves to curb high prices",
+        "source": "upi.com"
       }
     ],
     "daily_brief_3": [
       {
-        "title": "Indian startups raise $2.9 Bn in Q3 2026 as EV, AI drive funding",
-        "source": "Entrackr"
+        "title": "Payment Firms Seek Bigger Share of New UPI MDR Ahead of October 15 Rollout",
+        "source": "India Business Trade"
       }
     ],
     "also_today": [
+      {
+        "title": "RBI may hike repo rate by 25 bps in October meet: Economists",
+        "source": "Fortune India"
+      },
       {
         "title": "Godfrey Phillips Shares Plunge 8.5% as Q1 FY27 Net Profit Drops 44% YoY on Higher Taxes",
         "source": "The Indian Awaaz"
       },
       {
-        "title": "Indian Bank Q2FY27 Results: Total business rises 14.2% YoY to ₹15.96 lakh crore",
-        "source": "scanx.trade"
-      },
-      {
-        "title": "Highway Infrastructure share price today Surges on 220.66 crore Deal",
-        "source": "Alice Blue"
+        "title": "India Nears Rs 80,000 Crore Submarine Deal",
+        "source": "Raksha Anirveda"
       },
       {
         "title": "Simple Energy raises Rs 1,750 crore from Thyrocare founder Dr. A. Velumani’s family office, founders",
@@ -434,32 +450,52 @@
     ],
     "geopolitics": [
       {
-        "title": "Canadian foreign minister to visit India in mid-October as trade talks gain pace | India News",
-        "source": "Hindustan Times"
+        "title": "India’s Foreign Minister Jaishankar Openly Calls Out the US",
+        "source": "The Diplomat – Asia-Pacific Current Affairs Magazine"
+      },
+      {
+        "title": "US leverage, India’s limited options: Why is the trade deal taking so long?",
+        "source": "The Indian Express"
+      },
+      {
+        "title": "‘Nothing imminent’: US official on trade deal with India",
+        "source": "Scroll.in"
+      },
+      {
+        "title": "Commerce Minister Goyal defends India against U.S. forced labour and excess capacity investigations",
+        "source": "The Hindu"
       }
     ],
     "world_60": [
       {
-        "title": "US benchmark yield at its highest since 2002 amid rising oil prices",
-        "source": "Business Standard"
+        "title": "Dollar hits 17-month high as oil tops $100, fueling inflation concerns",
+        "source": "وكالة الأنباء السورية – سانا"
       },
       {
-        "title": "Bank of America Warns: High Oil Prices Are the Top Threat to Gold in Q4 — Extreme Scenario Could See Prices Fall Below $3,750",
-        "source": "finance.biggo.com"
+        "title": "G7 announces release of diesel, crude oil reserves to curb high prices",
+        "source": "upi.com"
       },
       {
-        "title": "Bears maintain grip on oil-importing Asian currencies as crude prices bite",
-        "source": "Reuters"
+        "title": "India-Canada Trade Talks To Resume October 5 For 2026 Deal",
+        "source": "Sarkaritel.com"
       },
       {
-        "title": "Sensex Crashes 1,000 Points: Rs 9 Lakh Crore Wiped Out As Foreign Investors Sell Indian Stocks En-Masse",
-        "source": "NDTV"
+        "title": "India exports 1 tonne of Bihar's makhana to Greece",
+        "source": "The Economic Times"
       }
     ],
     "ipo_desk": [
       {
-        "title": "SRIT India Allotment: How to check status on BSE, NSE, Kfin Technologies",
-        "source": "IndiaIPO"
+        "title": "Jio IPO nears launch: DRHP filed, SEBI clears path",
+        "source": "YourStory.com"
+      },
+      {
+        "title": "Final touch underway for Jio Platforms IPO; latest GMP, expected launch date, size, valuation, shareholders quota",
+        "source": "Livemint"
+      },
+      {
+        "title": "SRIT India IPO GMP, Grey Market Premium Today",
+        "source": "IPO Watch"
       },
       {
         "title": "SRIT India IPO allotment today; GMP at 37% — check status at BSE, NSE and registrar",
@@ -468,10 +504,6 @@
       {
         "title": "Acme India Industries IPO Day 2 Subscription Status: 1.97x",
         "source": "HDFC Sky"
-      },
-      {
-        "title": "Jio IPO nears launch: DRHP filed, SEBI clears path",
-        "source": "yourstory.com"
       }
     ],
     "market_data": "Yahoo Finance (computed, session 2026-10-01)",
