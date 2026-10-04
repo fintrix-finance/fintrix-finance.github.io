@@ -92,6 +92,9 @@ h1,h2,h3,.display{ font-family:'Oswald',sans-serif; font-weight:700; letter-spac
   transition:opacity .2s ease, visibility .2s ease; }
 .scroll-cue.visible{ opacity:1; visibility:visible; }
 .cover-page.has-scroll-cue .swipe-hint{ visibility:hidden; }
+/* Reserve a cue strip above the fixed footer rather than covering the QR. */
+.page-inner.cover-page + .scroll-cue{ position:static; transform:none; flex-shrink:0; display:none; height:30px; box-shadow:none; border-radius:0; }
+.page-inner.cover-page + .scroll-cue.visible{ display:flex; }
 .scroll-cue .chevron{ font-size:16px; line-height:9px; color:var(--orange); animation:cue-bob 1.6s ease-in-out infinite; }
 @keyframes cue-bob{ 50%{ transform:translateY(3px); } }
 @media (prefers-reduced-motion:reduce){ .scroll-cue .chevron{ animation:none; } }
@@ -207,7 +210,7 @@ h1,h2,h3,.display{ font-family:'Oswald',sans-serif; font-weight:700; letter-spac
 .mw-lw{ display:flex; flex-direction:column; gap:10px; }
 .mw-bottom-row .box{ min-height:170px; }
 .stat-line{ display:flex; justify-content:space-between; padding:8px 12px; font-family:'Inter',sans-serif; font-size:10.5px; border-bottom:1px solid var(--border-soft); }
-.stat-line .val{ font-weight:700; }
+.stat-line .val{ font-weight:700; text-align:right; max-width:65%; }
 .stat-line .up{ color:var(--green); }
 .stat-line .down{ color:var(--orange); }
 .snapshot-strip{ border:1px solid var(--brown); min-height:48px; display:flex; align-items:center; justify-content:center; color:rgba(74,46,26,0.4); font-family:'PT Serif',serif; font-style:italic; font-size:10px; padding:10px; text-align:center; }
@@ -781,7 +784,7 @@ function dynStat(id, item){
   const el = document.getElementById(id);
   if(!el || !item || typeof item.value !== 'string' || !item.value.trim()) return;
   el.className = 'val' + (item.dir === 'up' ? ' up' : item.dir === 'down' ? ' down' : '');
-  el.textContent = item.value;
+  el.textContent = item.value + (item.session_date && !item.live ? " (as of " + item.session_date + ")" : "");
 }
 
 function dynList(prefix, arr){
@@ -847,6 +850,7 @@ function buildQRows(id, rows, kind){
     const n = document.createElement('span');
     n.className = 'qn';
     n.textContent = r.name || '';
+    if(r.session_date){ const stamp = document.createElement('small'); stamp.textContent = 'As of ' + r.session_date; n.appendChild(stamp); }
     const sub = kind === 'comm' ? r.unit : kind === 'funds' ? r.cat : kind === 'caps' ? r.tag : null;
     if(typeof sub === 'string' && sub){ const sm = document.createElement('small'); sm.textContent = sub; n.appendChild(sm); }
     row.appendChild(n);
@@ -894,6 +898,10 @@ function applyDynamic(d){
   const mw = d.market_watch || {};
   dynText('dyn-mw-date', mw.date_label);
   dynText('dyn-mw-close', mw.close_label);
+  const coverMarket = document.getElementById('dyn-cover-mw');
+  if(coverMarket && mw.close_label && !/as of|close of|live as of/i.test(coverMarket.textContent)){
+    coverMarket.textContent = mw.close_label + ': ' + coverMarket.textContent;
+  }
   const groups = {indian: 'dyn-mw-in-', asian: 'dyn-mw-as-', european: 'dyn-mw-eu-', global: 'dyn-mw-gl-'};
   Object.keys(groups).forEach(key => {
     const rows = mw[key];
