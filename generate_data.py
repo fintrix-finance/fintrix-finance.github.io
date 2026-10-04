@@ -573,6 +573,11 @@ def fmt_level(q):
     return "%s %s %.2f%%" % ("{:,.2f}".format(q["last"]), arrow(q["pct"]), abs(q["pct"]))
 
 
+def fmt_yield(g):
+    bp = (g["last"] - g["prev"]) * 100.0 if g.get("prev") else 0.0
+    return "%.2f%% %s %.1f bp" % (g["last"], arrow(bp), abs(bp))
+
+
 def market_data(prev=None):
     """Everything numeric on the Market Watch page, computed from real quotes.
 
@@ -583,6 +588,7 @@ def market_data(prev=None):
         "indian": [("Sensex", "^BSESN"), ("Nifty 50", "^NSEI"), ("Nifty Bank", "^NSEBANK")],
         "asian": [("Nikkei 225", "^N225"), ("Hang Seng", "^HSI"), ("Shanghai Comp.", "000001.SS")],
         "european": [("FTSE 100", "^FTSE"), ("DAX", "^GDAXI"), ("CAC 40", "^FCHI")],
+        "us": [("S&P 500", "^GSPC"), ("Nasdaq", "^IXIC"), ("Dow Jones", "^DJI")],
     }
     mw = {}
     q = {}
@@ -620,6 +626,9 @@ def market_data(prev=None):
          lambda g: "%.2f %s %.2f%%" % (g["last"], arrow(g["pct"]), abs(g["pct"]))),
         ("Brent Crude", "BZ=F", lambda g: "$%.2f/bbl" % g["last"]),
         ("Gold", "GC=F", lambda g: "${:,.0f}/oz".format(g["last"])),
+        # ^TNX is a yield level in percent, not a price: show it as a yield
+        # with the change in basis points.
+        ("US 10Y Yield", "^TNX", fmt_yield),
     ]
     gq = {}
     grow = []
@@ -730,7 +739,7 @@ def market_data(prev=None):
             "NOTE: these series are carried from the previous issue because their live "
             "feeds failed today: %s. Present them as last available closes (as labelled "
             "on the page), never as fresh moves." % ", ".join(carried))
-    for group in ("indian", "asian", "european", "global"):
+    for group in ("indian", "asian", "european", "us", "global"):
         for row in mw[group]:
             summary_lines.append("%s: %s (%s)" % (row["name"], row["value"], row["dir"]))
     if "BZ=F" in gq and "GC=F" in gq:
@@ -1363,7 +1372,7 @@ def _index_direction_claims(mw):
     polarities ("Sensex up as rupee falls"), carrying a past-time marker or an
     old year, or naming no published index make no checkable claim."""
     indices = {}
-    for group in ("indian", "asian", "european"):
+    for group in ("indian", "asian", "european", "us"):
         for row in mw.get(group) or []:
             if not isinstance(row, dict) or row.get("dir") not in ("up", "down"):
                 continue
@@ -1649,10 +1658,11 @@ def validate(d):
         fail("market_watch.date_label bad")
     if not is_str(mw.get("close_label"), 3, 35):
         fail("market_watch.close_label bad")
-    for group in ("indian", "asian", "european", "global"):
+    for group in ("indian", "asian", "european", "us", "global"):
         rows = mw.get(group)
-        if not isinstance(rows, list) or len(rows) != 3:
-            fail("market_watch.%s must have exactly 3 rows" % group)
+        want = 4 if group == "global" else 3
+        if not isinstance(rows, list) or len(rows) != want:
+            fail("market_watch.%s must have exactly %d rows" % (group, want))
         for i, row in enumerate(rows):
             check_stat(row, "market_watch.%s[%d]" % (group, i))
     for key in ("losers", "winners"):
@@ -1796,7 +1806,7 @@ def carried_market_summary(mw, session_date, reason):
              "exactly that way. The market_watch_teaser must present them as "
              "that session's close (markets shut today), never as today's live "
              "trading." % (reason, session_date.strftime("%A, %d %B %Y"))]
-    for group in ("indian", "asian", "european", "global"):
+    for group in ("indian", "asian", "european", "us", "global"):
         for row in mw.get(group) or []:
             if isinstance(row, dict):
                 lines.append("%s: %s (%s)" % (row.get("name"), row.get("value"),
