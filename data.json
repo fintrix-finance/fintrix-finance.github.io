@@ -1,40 +1,40 @@
 {
-  "updated_ist": "2026-10-03",
+  "updated_ist": "2026-10-04",
   "cover": {
-    "big_story_teaser": "Indian markets hit a 25-year record losing streak as FIIs pull out billions.",
-    "venture_teaser": "EV maker Simple Energy secures ₹1,750 crore funding boost.",
-    "market_watch_teaser": "Nifty dips 0.19% to 22,576.40 as markets stay shut for the weekend.",
-    "daily_brief_teaser": "Forex kitty drops $18.34B while G7 releases oil reserves to curb crude.",
-    "inbrief_2": "Forex kitty drops $18.34B",
-    "inbrief_3": "G7 releases emergency crude oil",
-    "inbrief_4": "UPI MDR share demand by firms",
-    "inbrief_1": "Stalled US Trade Deal Facing Heat"
+    "big_story_teaser": "RBI Governor warns of global debt and AI risks as repo rates face upward pressure.",
+    "venture_teaser": "Home interior startup Gravity secures $15 million funding led by 3one4 Capital.",
+    "market_watch_teaser": "Nifty slips 0.19% to 22,576.40 while Nifty Bank gains 0.49%",
+    "daily_brief_teaser": "Nikhil Kamath warns startups on funding while ITC seals ₹645 crore Yoga Bar deal",
+    "inbrief_2": "Kamath Funding Warning",
+    "inbrief_3": "ITC Yoga Bar Acquisition",
+    "inbrief_4": "Repo Rate May Hit 6%",
+    "inbrief_1": "India-Canada Trade Talks Resume"
   },
   "big_story": {
-    "headline": "Markets In Freefall",
-    "subhead": "INDIAN BENCHMARK INDEXES RECORD LONGEST WEEKLY LOSING STREAK IN 25 YEARS AS FIIS FLEE",
+    "headline": "RBI Flags New Risks To Stability",
+    "subhead": "GOVERNOR MALHOTRA WARNS OF GLOBAL DEBT AND AI THREATS AS REPO RATES MAY RISE TO 6%",
     "paragraphs": [
-      "Indian benchmark stocks have hit a historic slump, marking their longest weekly losing run in 25 years as market sentiment deteriorated sharply. Both the Nifty 50 and Sensex closed lower in the recent trading session, extending a persistent slide across domestic equities. Foreign institutional investors pulled nearly ₹29,600 crore from Indian stocks in just three trading days. This intense foreign sell-off has put severe pressure on equity valuations across market sectors.",
-      "The unrelenting capital flight comes alongside mounting pressure on the domestic currency and international macroeconomic uncertainty. India's foreign exchange reserves plunged by a record $18.34 billion as foreign investors shifted capital away from emerging markets. Foreign portfolio managers have been rapidly reducing exposure to manage risks amid rising global headwinds. Consequently, domestic liquidity is facing its toughest stress test in recent memory.",
-      "Market participants are now watching closely to see if domestic institutional buying can stabilize asset prices against foreign selling. Analysts note that prolonged market weakness could weigh on investor sentiment and broader economic confidence over the coming quarters. Restoring market stability will depend on foreign fund flows and global economic signals. Traders remain on high alert for any indications of market stabilization."
+      "Reserve Bank of India Governor Malhotra highlighted five critical financial stability threats facing the Indian economy, including ballooning global debt and emerging risks from artificial intelligence. Despite these mounting headwinds and recent West Asia crisis shocks, the governor assured that India's financial system remains resilient. However, a potential global AI stock correction could spill over into domestic markets, demanding vigilant regulatory oversight.",
+      "Adding to macro challenges, economic reports suggest that the RBI repo rate may climb to 6% in FY27. This potential rate increase is already putting upward pressure on Government Security (G-Sec) yields across the board. While the domestic financial structure has braved external shocks, shifting global rate dynamics continue to test borrowing costs.",
+      "For young investors and market observers, the interplay between monetary policy and global market volatility remains crucial. While global economists praise India's broader growth trajectory, regulatory caution around tech valuations and crypto assets will define the next phase of market stability. Keeping an eye on central bank signals will be key as fiscal and monetary policies recalibrate."
     ],
-    "pullbox": "Foreign institutional investors pulling nearly ₹29,600 crore in three days has triggered the market's longest weekly losing run in 25 years, testing domestic resilience.",
+    "pullbox": "With global debt expanding and AI market risks looming, the RBI remains cautious while policy forecasts point to potential repo rate hikes ahead.",
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/BSE_logo.svg/330px-BSE_logo.svg.png",
-      "alt": "Bombay Stock Exchange"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+      "alt": "Reserve Bank of India"
     }
   },
   "explains": {
-    "title": "What is Foreign Institutional Investment?",
+    "title": "What is the Repo Rate?",
     "paragraphs": [
-      "Foreign Institutional Investment (FII) refers to capital invested by foreign financial institutions into another country's financial markets. These overseas investors include global mutual funds, pension funds, hedge funds, and insurance companies seeking international asset exposure.",
-      "In Indian equity markets, FII movement serves as a key indicator of liquidity and foreign confidence. Large inflows can propel stock market rallies, while sudden capital pullouts by FIIs often lead to sharp market declines and currency pressure."
+      "The repo rate is the interest rate at which a country's central bank, such as the Reserve Bank of India, lends money to commercial banks against government securities. It serves as the primary tool for controlling inflation and regulating liquidity in the national economy.",
+      "When the central bank raises the repo rate, commercial borrowing becomes more expensive, slowing down credit expansion and cooling inflation. Conversely, cutting the rate lowers borrowing costs for businesses and individuals, encouraging investment and economic growth."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Electric vehicle startup Simple Energy has secured ₹1,750 crore in a major fresh funding round. The investment was led by the family office of Thyrocare founder Dr. A. Velumani, alongside participation from Simple Energy's founders.",
-      "The substantial capital injection will support the company's expansion plans in the competitive electric mobility sector. Investors are backing the EV company as Indian startup funding rebounds around clean energy and technology deals."
+      "Home interior materials startup Gravity has raised $15 million in its latest funding round. The investment was led by prominent venture capital firms 3one4 Capital and Info Edge Ventures.",
+      "Gravity plans to utilize the fresh capital to expand its material supply chain and scale operations across key regional markets. The backing from institutional investors underscores growing confidence in tech-enabled building and interior procurement platforms."
     ]
   },
   "market_watch": {
@@ -126,16 +126,16 @@
     "session_date": "2026-10-01",
     "ipo_desk": [
       {
-        "name": "Jio Platforms",
-        "note": "DRHP filed as mega launch nears"
+        "name": "Acme India Industries IPO",
+        "note": "Subscribed 1.92x on Day 2"
       },
       {
-        "name": "SRIT India",
-        "note": "GMP stands at 37% ahead of allotment"
+        "name": "Vishal Nirmiti IPO",
+        "note": "Grey market premium tracked ahead of listing"
       },
       {
-        "name": "Acme India Industries",
-        "note": "Day 2 issue subscribed 1.97x"
+        "name": "Jio Platforms IPO",
+        "note": "Final touches underway for mega launch"
       }
     ]
   },
@@ -314,196 +314,168 @@
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "India | Foreign Reserves",
-      "headline": "Forex Kitty Plunges $18.34 Billion as Rupee Faces Heat",
+      "kicker": "Startups | Venture Capital",
+      "headline": "Nikhil Kamath Warns of Tough Times for Startup Funding",
       "paragraphs": [
-        "India's foreign exchange reserves plummeted by a record $18.34 billion to $747.56 billion, according to the latest data released by the Reserve Bank of India. The massive drawdown reflects aggressive central bank intervention in currency markets to defend the Indian Rupee against sustained depreciation pressures.",
-        "In addition to defending the currency, foreign exchange curbs implemented by the RBI have triggered losses of around $500 million for domestic banks. Economists warn that mounting import costs and capital outflows could keep reserve levels under continuous pressure."
+        "Zerodha co-founder Nikhil Kamath has endorsed a grave warning for the Indian startup ecosystem, advising founders to raise capital now and keep cash. Kamath gave a 100% endorsement to a post urging startups to prepare for a difficult environment ahead. The warning suggests that next year could be bad for venture capital inflows, making fundraising significantly harder.",
+        "The advice comes at a time when VC inflows have maintained strong momentum, but investors are becoming increasingly cautious. Founders are being urged to focus on building fundraising-ready businesses rather than assuming easy capital will continue. Kamath's endorsement highlights the growing consensus that startups must prioritize runway and financial discipline."
       ],
       "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
-        "alt": "Reserve Bank of India"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Nikhil_Kamath_at_World_Economic_Forum.png/330px-Nikhil_Kamath_at_World_Economic_Forum.png",
+        "alt": "Nikhil Kamath"
       }
     },
     "story_2": {
-      "kicker": "Global | Energy Markets",
-      "headline": "G7 Releases Oil Reserves to Tame Soaring Crude Prices",
+      "kicker": "Corporate | Mergers & Acquisitions",
+      "headline": "ITC Takes Full Control of Yoga Bar Parent Sproutlife",
       "paragraphs": [
-        "The G7 economies have announced an emergency release of 100 million barrels from strategic crude and diesel reserves to counter recent price surges in energy markets. The coordinated move aims to ease global supply anxieties and bring relief to inflation-weary economies.",
-        "Although the announcement knocked benchmark prices slightly lower, Brent crude managed to hold above $102 per barrel. Energy analysts note that while the intervention calms bond markets temporarily, long-term supply constraints remain a core concern."
+        "Fast-moving consumer goods giant ITC has completed its acquisition of Sproutlife Foods, the parent company of healthy foods brand Yoga Bar. The deal, valued at ₹645 crore, sees ITC taking full control of the startup as part of its broader push into the premium health and wellness space.",
+        "This acquisition marks a significant exit in the Indian consumer brand space, highlighting the ongoing consolidation trend. By integrating Yoga Bar's product portfolio, ITC aims to strengthen its position in the rapidly growing healthy snacks and breakfast segment."
       ]
     },
     "story_3": {
-      "kicker": "Fintech | Payment Regulations",
-      "headline": "Payment Firms Demand Higher Share of New UPI MDR",
+      "kicker": "Macroeconomics | Interest Rates",
+      "headline": "RBI Repo Rate May Climb to 6% in FY27, Report Warns",
       "paragraphs": [
-        "Digital payment companies in India are urging regulators for a larger cut of the Merchant Discount Rate under the new UPI framework. With the October 15 rollout date approaching quickly, fintech operators argue that higher revenue sharing is necessary to sustain transaction infrastructure and offset operational expenses."
+        "A new report suggests that the Reserve Bank of India's repo rate may climb to 6% in the financial year 2027. This potential rate hike is expected to put upward pressure on government securities (G-Sec) yields, impacting borrowing costs across the economy. Investors and financial institutions are closely watching these macroeconomic indicators as they plan for the upcoming fiscal year."
       ]
     },
     "also_today": {
       "items": [
-        "Economists expect the RBI to hike repo rate by 25 bps in its upcoming October meeting.",
-        "Godfrey Phillips shares plunge 8.5% after Q1 FY27 net profit drops 44% YoY on higher taxes.",
-        "India nears an ₹80,000 crore defense deal to build advanced naval submarines.",
-        "Simple Energy raises ₹1,750 crore from Dr. A. Velumani's family office and founders."
+        "Union Bank of India Q2FY27 gross advances grow 18.53% year-on-year.",
+        "India's ₹80,000-crore Project-75(I) submarine push nears final approval.",
+        "Linux Laboratories raises $70 million from ChrysCapital and Tata Capital.",
+        "Shipping Corporation of India targets ₹2,000 crore profit in FY27."
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India x US | Trade Talks",
-    "headline": "Stalled US Trade Deal Facing Heat As Friction Grows",
+    "kicker": "India | Canada Trade",
+    "headline": "India-Canada Trade Talks Resume for 2026 Deal",
     "paragraphs": [
-      "Trade negotiations between India and the United States face significant delays, with a US official stating that a deal is nothing imminent. External Affairs Minister S. Jaishankar openly called out the US as friction grows over bilateral economic policies. Meanwhile, Commerce Minister Piyush Goyal defended India against US investigations alleging forced labour and excess capacity.",
-      "The standoff highlights US leverage in trade negotiations while leaving India with limited options to push terms forward. Tensions surrounding American investigations and delayed agreements could impact trade flows and cross-border investment sentiment. As formal progress remains stalled, Indian industries must prepare for continued regulatory scrutiny from Washington."
+      "India and Canada are set to resume bilateral trade talks on October 5 as both nations target a economic deal for 2026. The upcoming negotiations mark a key attempt to rebuild commercial momentum and enhance market access across key industries. Business groups are closely watching the resumption for signals of policy stability and tariff relief.",
+      "While the dialogue signals a pragmatic push toward trade ties, negotiators face the task of aligning key economic priorities amid global market shifts. Lowering non-tariff barriers and securing supply chains will be critical testing grounds for both sides. For Indian exporters, a successful accord could expand commercial footprint in North America."
     ],
     "world_60": [
-      "Dollar hits 17-month high as oil tops $100, fueling inflation fears.",
-      "G7 releases emergency crude reserves to curb soaring energy prices.",
-      "India and Canada to resume trade deal talks starting October 5.",
-      "India exports 1 tonne of Bihar's makhana to Greece."
+      "Oil slides as Brent drops below $100 on potential reserve release talks",
+      "Gold and silver prices decline across local and global markets",
+      "Asian shares slide following bond volatility while US jobs data looms",
+      "US CFOs report firms absorbed initial oil price shock, survey shows"
     ],
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/The_official_portrait_of_External_Minister_Subrahmanyam_Jaishankar.jpg",
-      "alt": "S. Jaishankar"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
+      "alt": "New Delhi"
     }
   },
   "sources": {
     "big_story": [
       {
-        "title": "Indian benchmark shares post longest weekly losing run in 25 years",
-        "source": "Reuters"
+        "title": "Global debt, AI risks among 5 financial stability threats, says RBI Governor Malhotra | India News",
+        "source": "Hindustan Times"
       },
       {
-        "title": "Indian Stock Market Records Longest Weekly Losing Streak in 25 Years as Nifty, Sensex Slide",
-        "source": "CAclubindia"
+        "title": "Finance system resilient, economy braved West Asia crisis: RBI governor",
+        "source": "The Times of India"
       },
       {
-        "title": "Forex kitty plunges record $18.34 bn as rupee pressure mounts",
-        "source": "The New Indian Express"
+        "title": "RBI repo rate may climb to 6% in FY27; G-Sec yields face upward pressure: Report",
+        "source": "The Economic Times"
       },
       {
-        "title": "FIIs Pull Nearly Rs 29,600 Crore From Indian Stocks in Three Days",
-        "source": "India Business Trade"
+        "title": "Global AI stock correction may benefit India, but RBI Governor flags market risks",
+        "source": "Livemint"
       }
     ],
     "venture_vault": [
       {
-        "title": "Simple Energy raises Rs 1,750 crore from Thyrocare founder Dr. A. Velumani’s family office, founders",
+        "title": "Home interior materials startup Gravity raises $15 million led by 3one4 Capital, Info Edge Ventures",
         "source": "Indian Startup News"
       }
     ],
     "daily_brief_1": [
       {
-        "title": "Indias forex reserves drop USD 18.34 bn to USD 747.56 bn: RBI data",
-        "source": "Daily Excelsior"
+        "title": "‘Next year could be bad’: Zerodha co-founder Nikhil Kamath endorses grave warning for startup funding",
+        "source": "Livemint"
       },
       {
-        "title": "RBI Forex Curbs Trigger $ 500 Mn Losses For Indian Banks",
-        "source": "BW Businessworld"
-      },
-      {
-        "title": "Forex kitty plunges record $18.34 bn as rupee pressure mounts",
-        "source": "The New Indian Express"
+        "title": "'Raise Now, Keep Cash': Nikhil Kamath Says '100%' To Startup Funding Advice",
+        "source": "NDTV Profit"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "Why are oil prices down today? G7 countries' oil reserve release plan to push crude rates lower",
-        "source": "The Economic Times"
+        "title": "ITC completes Rs 645 crore acquisition of Yoga Bar parent company",
+        "source": "indiantelevision.com"
       },
       {
-        "title": "Oil Ends Volatile Week Mixed as Emergency Reserve Release Knocks WTI Lower but Brent Holds Above $102",
-        "source": "energynow.com"
-      },
-      {
-        "title": "100 million-barrel reserve release sends oil prices lower, IEA chief says",
-        "source": "Gulf Business"
-      },
-      {
-        "title": "G7 announces release of diesel, crude oil reserves to curb high prices",
-        "source": "upi.com"
+        "title": "FMC giant ITC takes full control of Yoga Bar parent Sproutlife in Rs 645 crore deal",
+        "source": "Indian Startup News"
       }
     ],
     "daily_brief_3": [
       {
-        "title": "Payment Firms Seek Bigger Share of New UPI MDR Ahead of October 15 Rollout",
-        "source": "India Business Trade"
+        "title": "RBI repo rate may climb to 6% in FY27; G-Sec yields face upward pressure: Report",
+        "source": "The Economic Times"
       }
     ],
     "also_today": [
       {
-        "title": "RBI may hike repo rate by 25 bps in October meet: Economists",
-        "source": "Fortune India"
+        "title": "Union Bank of India Q2FY27 results: Gross advances grow 18.53% YoY",
+        "source": "scanx.trade"
       },
       {
-        "title": "Godfrey Phillips Shares Plunge 8.5% as Q1 FY27 Net Profit Drops 44% YoY on Higher Taxes",
-        "source": "The Indian Awaaz"
+        "title": "India’s ₹80,000-crore submarine push: Project-75(I) nears final approval",
+        "source": "Business Today"
       },
       {
-        "title": "India Nears Rs 80,000 Crore Submarine Deal",
-        "source": "Raksha Anirveda"
+        "title": "Shipping Corporation of India Targets ₹2,000 Crore FY27 Profit, Plans Fleet Expansion",
+        "source": "Sahi"
       },
       {
-        "title": "Simple Energy raises Rs 1,750 crore from Thyrocare founder Dr. A. Velumani’s family office, founders",
-        "source": "Indian Startup News"
+        "title": "Linux Laboratories Raises $70 Million From ChrysCapital, Tata Capital Healthcare Fund",
+        "source": "ascendants.in"
       }
     ],
     "geopolitics": [
       {
-        "title": "India’s Foreign Minister Jaishankar Openly Calls Out the US",
-        "source": "The Diplomat – Asia-Pacific Current Affairs Magazine"
-      },
-      {
-        "title": "US leverage, India’s limited options: Why is the trade deal taking so long?",
-        "source": "The Indian Express"
-      },
-      {
-        "title": "‘Nothing imminent’: US official on trade deal with India",
-        "source": "Scroll.in"
-      },
-      {
-        "title": "Commerce Minister Goyal defends India against U.S. forced labour and excess capacity investigations",
-        "source": "The Hindu"
+        "title": "India-Canada Trade Talks To Resume October 5 For 2026 Deal",
+        "source": "Sarkaritel.com"
       }
     ],
     "world_60": [
       {
-        "title": "Dollar hits 17-month high as oil tops $100, fueling inflation concerns",
-        "source": "وكالة الأنباء السورية – سانا"
+        "title": "Oil Prices Drop: WTI Down 3.78%, Brent Below $100 on Reserve Release Talks - News and Statistics",
+        "source": "IndexBox"
       },
       {
-        "title": "G7 announces release of diesel, crude oil reserves to curb high prices",
-        "source": "upi.com"
+        "title": "Gold, silver prices fall in local, global markets",
+        "source": "The Express Tribune"
       },
       {
-        "title": "India-Canada Trade Talks To Resume October 5 For 2026 Deal",
-        "source": "Sarkaritel.com"
+        "title": "Asian shares fall after wild swings in bonds, FX; US jobs data looms",
+        "source": "DD News"
       },
       {
-        "title": "India exports 1 tonne of Bihar's makhana to Greece",
-        "source": "The Economic Times"
+        "title": "US CFOs in Survey Say Firms Mostly Absorbed Oil Price Shock",
+        "source": "EnergyNow.com"
       }
     ],
     "ipo_desk": [
       {
-        "title": "Jio IPO nears launch: DRHP filed, SEBI clears path",
-        "source": "YourStory.com"
+        "title": "Acme India Industries IPO Day 2: Subscribed 1.92x; retail demand jumps 55.6%",
+        "source": "scanx.trade"
+      },
+      {
+        "title": "Vishal Nirmiti IPO GMP, Grey Market Premium Today",
+        "source": "IPO Watch"
+      },
+      {
+        "title": "IPO GMP compared: Vishal Nirmiti vs Nityas Gems and Jewellery - Key dates, subscription status, listing price prediction",
+        "source": "Livemint"
       },
       {
         "title": "Final touch underway for Jio Platforms IPO; latest GMP, expected launch date, size, valuation, shareholders quota",
         "source": "Livemint"
-      },
-      {
-        "title": "SRIT India IPO GMP, Grey Market Premium Today",
-        "source": "IPO Watch"
-      },
-      {
-        "title": "SRIT India IPO allotment today; GMP at 37% — check status at BSE, NSE and registrar",
-        "source": "Moneycontrol.com"
-      },
-      {
-        "title": "Acme India Industries IPO Day 2 Subscription Status: 1.97x",
-        "source": "HDFC Sky"
       }
     ],
     "market_data": "Yahoo Finance (computed, session 2026-10-01)",
