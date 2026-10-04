@@ -206,6 +206,7 @@ h1,h2,h3,.display{ font-family:'Oswald',sans-serif; font-weight:700; letter-spac
 .mw-body{ display:flex; flex-direction:column; gap:14px; padding-bottom:20px; }
 .mw-row{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
 .mw-row .box{ min-height:96px; }
+.mw-row .mw-wide{ grid-column:1 / -1; }
 .mw-bottom-row{ display:grid; grid-template-columns:1.5fr 1fr; gap:14px; }
 .mw-lw{ display:flex; flex-direction:column; gap:10px; }
 .mw-bottom-row .box{ min-height:170px; }
@@ -441,10 +442,19 @@ const PAGES_HTML = [
         <div class="stat-line" style="border-bottom:none;"><span>CAC 40</span><span id="dyn-mw-eu-2" class="val down">8,301.85 &#9660; 0.39%</span></div>
       </div>
       <div class="box">
+        <span class="box-label">US Markets</span>
+        <div class="stat-line"><span>S&amp;P 500</span><span id="dyn-mw-us-0" class="val"></span></div>
+        <div class="stat-line"><span>Nasdaq</span><span id="dyn-mw-us-1" class="val"></span></div>
+        <div class="stat-line" style="border-bottom:none;"><span>Dow Jones</span><span id="dyn-mw-us-2" class="val"></span></div>
+      </div>
+    </div>
+    <div class="mw-row">
+      <div class="box mw-wide">
         <span class="box-label">Global Snapshot</span>
         <div class="stat-line"><span>Dollar Index</span><span id="dyn-mw-gl-0" class="val up">&#9650; 0.27%</span></div>
         <div class="stat-line"><span>Brent Crude</span><span id="dyn-mw-gl-1" class="val up">&gt; $92/bbl</span></div>
-        <div class="stat-line" style="border-bottom:none;"><span>Gold</span><span id="dyn-mw-gl-2" class="val">~$4,440/oz</span></div>
+        <div class="stat-line"><span>Gold</span><span id="dyn-mw-gl-2" class="val">~$4,440/oz</span></div>
+        <div class="stat-line" style="border-bottom:none;"><span>US 10Y Yield</span><span id="dyn-mw-gl-3" class="val"></span></div>
       </div>
     </div>
     <div class="mw-bottom-row">
@@ -902,11 +912,11 @@ function applyDynamic(d){
   if(coverMarket && mw.close_label && !/as of|close of|live as of/i.test(coverMarket.textContent)){
     coverMarket.textContent = mw.close_label + ': ' + coverMarket.textContent;
   }
-  const groups = {indian: 'dyn-mw-in-', asian: 'dyn-mw-as-', european: 'dyn-mw-eu-', global: 'dyn-mw-gl-'};
+  const groups = {indian: 'dyn-mw-in-', asian: 'dyn-mw-as-', european: 'dyn-mw-eu-', us: 'dyn-mw-us-', global: 'dyn-mw-gl-'};
   Object.keys(groups).forEach(key => {
     const rows = mw[key];
     if(!Array.isArray(rows)) return;
-    rows.slice(0, 3).forEach((row, i) => dynStat(groups[key] + i, row));
+    rows.slice(0, 4).forEach((row, i) => dynStat(groups[key] + i, row));
   });
   dynList('dyn-mw-loser-', mw.losers);
   dynList('dyn-mw-winner-', mw.winners);
