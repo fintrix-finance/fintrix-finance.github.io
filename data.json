@@ -116,6 +116,12 @@
         "value": "$4,162/oz",
         "dir": "down",
         "session_date": "2026-10-02"
+      },
+      {
+        "name": "US 10Y Yield",
+        "value": "5.28% ▲ 4.0 bp",
+        "dir": "up",
+        "session_date": "2026-10-02"
       }
     ],
     "losers": [
@@ -144,6 +150,26 @@
       {
         "name": "Jio Platforms IPO",
         "note": "Final touches underway for mega launch"
+      }
+    ],
+    "us": [
+      {
+        "name": "S&P 500",
+        "value": "7,722.72 ▲ 0.73%",
+        "dir": "up",
+        "session_date": "2026-10-02"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "27,190.86 ▲ 1.19%",
+        "dir": "up",
+        "session_date": "2026-10-02"
+      },
+      {
+        "name": "Dow Jones",
+        "value": "51,176.96 ▲ 0.49%",
+        "dir": "up",
+        "session_date": "2026-10-02"
       }
     ]
   },
