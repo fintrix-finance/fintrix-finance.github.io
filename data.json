@@ -1,61 +1,61 @@
 {
-  "updated_ist": "2026-10-04",
+  "updated_ist": "2026-10-05",
   "cover": {
-    "big_story_teaser": "RBI Governor warns of global debt and AI risks as repo rates face upward pressure.",
-    "venture_teaser": "Home interior startup Gravity secures $15 million funding led by 3one4 Capital.",
-    "market_watch_teaser": "As of 2026-10-01 close: Nifty 50 22,421.95 ▼ 0.88%",
-    "daily_brief_teaser": "Nikhil Kamath warns startups on funding while ITC seals ₹645 crore Yoga Bar deal",
-    "inbrief_2": "Kamath Funding Warning",
-    "inbrief_3": "ITC Yoga Bar Acquisition",
-    "inbrief_4": "Repo Rate May Hit 6%",
-    "inbrief_1": "India-Canada Trade Talks Resume"
+    "big_story_teaser": "As inflation risks mount, markets bet on an RBI rate hike to mop up excess liquidity.",
+    "venture_teaser": "Simple Energy raises ₹1,750 crore to scale EV manufacturing and expand retail network.",
+    "market_watch_teaser": "LIVE AS OF 9:35 AM IST: Nifty 50 22,578.95 ▲ 0.70%",
+    "daily_brief_teaser": "Tata Sons' listing dilemma, India-Canada trade talks, and Simple Energy's ₹1,750cr funding",
+    "inbrief_2": "Tata Sons Listing Dilemma",
+    "inbrief_3": "India-Canada Trade Round",
+    "inbrief_4": "Simple Energy EV Funding",
+    "inbrief_1": "Swiss Prez Starts India EFTA Visit"
   },
   "big_story": {
-    "headline": "RBI Flags New Risks To Stability",
-    "subhead": "GOVERNOR MALHOTRA WARNS OF GLOBAL DEBT AND AI THREATS AS REPO RATES MAY RISE TO 6%",
+    "headline": "RBI Rate Hikes Back on Table",
+    "subhead": "INFLATION PRESSURE AND EXCESS LIQUIDITY FORCE CENTRAL BANK TO RETHINK MONETARY STANCE",
     "paragraphs": [
-      "Reserve Bank of India Governor Malhotra highlighted five critical financial stability threats facing the Indian economy, including ballooning global debt and emerging risks from artificial intelligence. Despite these mounting headwinds and recent West Asia crisis shocks, the governor assured that India's financial system remains resilient. However, a potential global AI stock correction could spill over into domestic markets, demanding vigilant regulatory oversight.",
-      "Adding to macro challenges, economic reports suggest that the RBI repo rate may climb to 6% in FY27. This potential rate increase is already putting upward pressure on Government Security (G-Sec) yields across the board. While the domestic financial structure has braved external shocks, shifting global rate dynamics continue to test borrowing costs.",
-      "For young investors and market observers, the interplay between monetary policy and global market volatility remains crucial. While global economists praise India's broader growth trajectory, regulatory caution around tech valuations and crypto assets will define the next phase of market stability. Keeping an eye on central bank signals will be key as fiscal and monetary policies recalibrate."
+      "Markets are bracing for a potential interest rate hike as the Reserve Bank of India grapples with persistent inflation pressures and excess liquidity in the financial system. Investors and analysts are reassessing monetary expectations ahead of the upcoming policy meeting. The shift comes as inflationary risks mount across key sectors, prompting bets that policy tightening could return to the agenda.",
+      "Excess liquidity in the banking system has complicated the central bank's inflation management strategy. While rapid economic growth continues, market returns have struggled to keep pace amid concerns over tighter financial conditions. Regulators have warned that prolonged tight conditions could eventually spill over to commercial banks if liquidity remains imbalanced.",
+      "A potential policy rate hike marks a significant pivot in market expectations after periods of stable rates. Traded yields and equity markets are closely monitoring the central bank's next moves to gauge borrowing costs. As the policy decision approaches, market participants remain focused on how the central bank balances growth impulses against price stability."
     ],
-    "pullbox": "With global debt expanding and AI market risks looming, the RBI remains cautious while policy forecasts point to potential repo rate hikes ahead.",
+    "pullbox": "With inflation pressures building and excess liquidity filling the system, the central bank faces a crucial test on whether to hike interest rates to maintain economic stability.",
     "image": {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
       "alt": "Reserve Bank of India"
     }
   },
   "explains": {
-    "title": "What is the Repo Rate?",
+    "title": "What is Excess Liquidity?",
     "paragraphs": [
-      "The repo rate is the interest rate at which a country's central bank, such as the Reserve Bank of India, lends money to commercial banks against government securities. It serves as the primary tool for controlling inflation and regulating liquidity in the national economy.",
-      "When the central bank raises the repo rate, commercial borrowing becomes more expensive, slowing down credit expansion and cooling inflation. Conversely, cutting the rate lowers borrowing costs for businesses and individuals, encouraging investment and economic growth."
+      "Excess liquidity refers to a situation where the banking system has cash reserves above the level required by central bank regulations. This surplus money sits with commercial banks and can spark inflationary pressures if not absorbed.",
+      "To manage this surplus, central banks use monetary tools such as liquidity absorption operations or policy rate hikes. Controlling excess money helps keep inflation in check and maintains stability across financial markets."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Home interior materials startup Gravity has raised $15 million in its latest funding round. The investment was led by prominent venture capital firms 3one4 Capital and Info Edge Ventures.",
-      "Gravity plans to utilize the fresh capital to expand its material supply chain and scale operations across key regional markets. The backing from institutional investors underscores growing confidence in tech-enabled building and interior procurement platforms."
+      "EV startup Simple Energy has raised ₹1,750 crore in funding to scale up its electric vehicle manufacturing capabilities and expand its retail network. The capital injection aims to strengthen the company's production capacity as demand for green mobility grows.",
+      "The funds will primarily support manufacturing infrastructure and wider distribution channels to compete in the expanding Indian EV market. By accelerating production and retail reach, Simple Energy bets on capitalizing on the nation's rapid transition toward sustainable transportation."
     ]
   },
   "market_watch": {
     "indian": [
       {
         "name": "Sensex",
-        "value": "71,909.70 ▼ 0.79%",
-        "dir": "down",
-        "session_date": "2026-10-01"
+        "value": "72,353.98 ▲ 0.62%",
+        "dir": "up",
+        "live": true
       },
       {
         "name": "Nifty 50",
-        "value": "22,421.95 ▼ 0.88%",
-        "dir": "down",
-        "session_date": "2026-10-01"
+        "value": "22,578.95 ▲ 0.70%",
+        "dir": "up",
+        "live": true
       },
       {
         "name": "Nifty Bank",
-        "value": "54,450.75 ▼ 0.33%",
-        "dir": "down",
-        "session_date": "2026-10-01"
+        "value": "55,104.20 ▲ 1.20%",
+        "dir": "up",
+        "live": true
       }
     ],
     "asian": [
@@ -73,7 +73,7 @@
       },
       {
         "name": "Shanghai Comp.",
-        "value": "3,842.19 ▲ 0.31%",
+        "value": "3,842.20 ▲ 0.31%",
         "dir": "up",
         "session_date": "2026-09-30"
       }
@@ -94,6 +94,26 @@
       {
         "name": "CAC 40",
         "value": "7,897.19 ▲ 0.79%",
+        "dir": "up",
+        "session_date": "2026-10-02"
+      }
+    ],
+    "us": [
+      {
+        "name": "S&P 500",
+        "value": "7,722.72 ▲ 0.73%",
+        "dir": "up",
+        "session_date": "2026-10-02"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "27,190.86 ▲ 1.19%",
+        "dir": "up",
+        "session_date": "2026-10-02"
+      },
+      {
+        "name": "Dow Jones",
+        "value": "51,176.96 ▲ 0.49%",
         "dir": "up",
         "session_date": "2026-10-02"
       }
@@ -134,42 +154,23 @@
       "HDFC Life",
       "HDFC Bank"
     ],
-    "snapshot_strip": "IT led; Auto and Metal lagged as the Nifty fell 0.88%",
+    "snapshot_strip": "The Nifty rose 0.70% in today's session so far",
     "date_label": "OCT 2026",
-    "close_label": "AS OF THURSDAY'S CLOSE, OCT 1",
-    "session_date": "2026-10-01",
+    "close_label": "LIVE AS OF 9:35 AM IST",
+    "live": true,
+    "session_date": "2026-10-05",
     "ipo_desk": [
       {
-        "name": "Acme India Industries IPO",
-        "note": "Subscribed 1.92x on Day 2"
+        "name": "RK Fashion Accessories",
+        "note": "Opens Oct 5 with price band of ₹77-82"
       },
       {
-        "name": "Vishal Nirmiti IPO",
-        "note": "Grey market premium tracked ahead of listing"
+        "name": "Orient Cables",
+        "note": "Lists today with GMP signaling 45% premium"
       },
       {
-        "name": "Jio Platforms IPO",
-        "note": "Final touches underway for mega launch"
-      }
-    ],
-    "us": [
-      {
-        "name": "S&P 500",
-        "value": "7,722.72 ▲ 0.73%",
-        "dir": "up",
-        "session_date": "2026-10-02"
-      },
-      {
-        "name": "Nasdaq",
-        "value": "27,190.86 ▲ 1.19%",
-        "dir": "up",
-        "session_date": "2026-10-02"
-      },
-      {
-        "name": "Dow Jones",
-        "value": "51,176.96 ▲ 0.49%",
-        "dir": "up",
-        "session_date": "2026-10-02"
+        "name": "Acme India Industries",
+        "note": "Day 3 subscription open on October 5"
       }
     ]
   },
@@ -178,46 +179,46 @@
       {
         "name": "Gold",
         "unit": "$/oz",
-        "price": "4,162",
-        "day": "▼ 0.95%",
-        "week": "▼ 3.68%",
-        "dir": "down",
-        "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.8 4.1,3.0 8.3,3.1 12.4,5.0 16.6,4.5 20.7,10.5 24.8,12.7 29.0,16.5 33.1,15.7 37.2,10.1 41.4,12.9 45.5,14.6 49.7,13.6 53.8,16.0 57.9,15.9 62.1,18.5 66.2,19.4 70.3,16.9 74.5,16.4 78.6,15.2 82.8,17.1 86.9,17.4 91.0,20.0 95.2,20.9 99.3,19.9 103.4,26.7 107.6,26.2 111.7,25.9 115.9,25.2 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
-        "session_date": "2026-10-02"
+        "price": "4,173",
+        "day": "▲ 0.26%",
+        "week": "▲ 0.11%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,3.1 8.3,5.0 12.4,4.5 16.6,10.5 20.7,12.7 24.8,16.5 29.0,15.7 33.1,10.1 37.2,12.9 41.4,14.6 45.5,13.6 49.7,16.0 53.8,15.9 57.9,18.5 62.1,19.4 66.2,16.9 70.3,16.4 74.5,15.2 78.6,17.1 82.8,17.4 86.9,20.0 91.0,20.9 95.2,19.9 99.3,26.7 103.4,26.2 107.6,25.9 111.7,25.2 115.9,27.0 120.0,26.5\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"26.5\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-04"
       },
       {
         "name": "Silver",
         "unit": "$/oz",
-        "price": "60.41",
-        "day": "▼ 0.51%",
-        "week": "▼ 5.96%",
-        "dir": "down",
-        "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,5.4 8.3,5.1 12.4,6.8 16.6,3.1 20.7,9.3 24.8,11.3 29.0,15.4 33.1,15.2 37.2,9.4 41.4,11.8 45.5,11.1 49.7,6.9 53.8,16.3 57.9,15.6 62.1,18.3 66.2,19.0 70.3,16.3 74.5,13.2 78.6,10.5 82.8,12.3 86.9,12.1 91.0,16.0 95.2,18.4 99.3,16.4 103.4,24.1 107.6,25.5 111.7,27.0 115.9,25.4 120.0,26.2\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"26.2\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
-        "session_date": "2026-10-02"
+        "price": "61.57",
+        "day": "▲ 2.66%",
+        "week": "▲ 0.57%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,5.3 4.1,5.0 8.3,6.7 12.4,3.0 16.6,9.2 20.7,11.1 24.8,15.2 29.0,14.9 33.1,9.2 37.2,11.6 41.4,11.0 45.5,6.8 49.7,16.1 53.8,15.4 57.9,18.0 62.1,18.7 66.2,16.1 70.3,13.1 74.5,10.3 78.6,12.2 82.8,11.9 86.9,15.8 91.0,18.2 95.2,16.2 99.3,23.8 103.4,25.2 107.6,26.7 111.7,25.1 115.9,27.0 120.0,23.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"23.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-04"
       },
       {
         "name": "Brent Crude",
         "unit": "$/bbl",
-        "price": "102.25",
-        "day": "▼ 0.06%",
-        "week": "▼ 1.98%",
+        "price": "101.39",
+        "day": "▼ 0.84%",
+        "week": "▼ 3.69%",
         "dir": "down",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,19.5 4.1,22.0 8.3,26.2 12.4,27.0 16.6,24.9 20.7,25.3 24.8,24.0 29.0,19.2 33.1,18.1 37.2,18.2 41.4,17.3 45.5,15.4 49.7,11.7 53.8,4.3 57.9,7.8 62.1,6.5 66.2,3.0 70.3,6.4 74.5,7.5 78.6,8.6 82.8,12.7 86.9,13.9 91.0,9.5 95.2,5.5 99.3,8.1 103.4,7.0 107.6,10.1 111.7,9.0 115.9,10.4 120.0,10.5\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"10.5\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
-        "session_date": "2026-10-02"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,22.0 4.1,26.2 8.3,27.0 12.4,24.9 16.6,25.3 20.7,24.0 24.8,19.2 29.0,18.1 33.1,18.2 37.2,17.3 41.4,15.4 45.5,11.7 49.7,4.3 53.8,7.8 57.9,6.5 62.1,3.0 66.2,6.4 70.3,7.5 74.5,8.6 78.6,12.7 82.8,13.9 86.9,9.5 91.0,5.5 95.2,8.1 99.3,7.0 103.4,10.1 107.6,9.0 111.7,10.4 115.9,10.5 120.0,11.4\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"11.4\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-04"
       },
       {
         "name": "WTI Crude",
         "unit": "$/bbl",
-        "price": "91.11",
-        "day": "▼ 1.90%",
-        "week": "▼ 1.41%",
+        "price": "89.98",
+        "day": "▼ 1.24%",
+        "week": "▼ 2.83%",
         "dir": "down",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,22.1 4.1,24.2 8.3,26.9 12.4,27.0 16.6,25.7 20.7,25.8 24.8,23.4 29.0,18.9 33.1,18.1 37.2,17.8 41.4,17.6 45.5,16.0 49.7,12.9 53.8,6.4 57.9,8.9 62.1,7.5 66.2,3.0 70.3,6.5 74.5,7.0 78.6,8.6 82.8,13.2 86.9,14.4 91.0,16.9 95.2,14.4 99.3,16.6 103.4,16.5 107.6,19.7 111.7,18.7 115.9,16.2 120.0,18.0\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"18.0\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
-        "session_date": "2026-10-02"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,24.2 4.1,26.9 8.3,27.0 12.4,25.7 16.6,25.8 20.7,23.4 24.8,18.9 29.0,18.1 33.1,17.8 37.2,17.6 41.4,16.0 45.5,12.9 49.7,6.4 53.8,8.9 57.9,7.5 62.1,3.0 66.2,6.5 70.3,7.0 74.5,8.6 78.6,13.2 82.8,14.4 86.9,16.9 91.0,14.4 95.2,16.6 99.3,16.5 103.4,19.7 107.6,18.7 111.7,16.2 115.9,18.0 120.0,19.1\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"19.1\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-04"
       }
     ],
     "alternatives": [
@@ -358,177 +359,185 @@
       }
     ],
     "date_label": "OCT 2026",
-    "close_label": "AS OF THURSDAY'S CLOSE, OCT 1",
+    "close_label": "CLOSE OF OCT 1",
     "session_date": "2026-10-01",
     "nav_label": "NAVS AS OF OCT 1"
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "Startups | Venture Capital",
-      "headline": "Nikhil Kamath Warns of Tough Times for Startup Funding",
+      "kicker": "India | Corporate Governance",
+      "headline": "The Tata Sons Listing Dilemma and the RBI Link",
       "paragraphs": [
-        "Zerodha co-founder Nikhil Kamath has endorsed a grave warning for the Indian startup ecosystem, advising founders to raise capital now and keep cash. Kamath gave a 100% endorsement to a post urging startups to prepare for a difficult environment ahead. The warning suggests that next year could be bad for venture capital inflows, making fundraising significantly harder.",
-        "The advice comes at a time when VC inflows have maintained strong momentum, but investors are becoming increasingly cautious. Founders are being urged to focus on building fundraising-ready businesses rather than assuming easy capital will continue. Kamath's endorsement highlights the growing consensus that startups must prioritize runway and financial discipline."
+        "Tata Sons is facing a critical decision regarding its potential public listing, a move closely tied to regulatory mandates from the Reserve Bank of India. The conglomerate's directors are navigating complex board links and compliance requirements as the deadline approaches. While some argue a public listing is inevitable, others suggest the central bank has alternative regulatory paths that could be explored.",
+        "The debate centers on whether Tata Sons must go public under the RBI's scale-based regulations for upper-layer non-banking financial companies. As discussions intensify, the outcome will have massive implications for India's largest conglomerate and the broader capital markets."
       ],
       "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Nikhil_Kamath_at_World_Economic_Forum.png/330px-Nikhil_Kamath_at_World_Economic_Forum.png",
-        "alt": "Nikhil Kamath"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Bombay_house_mast.jpg",
+        "alt": "Bombay House"
       }
     },
     "story_2": {
-      "kicker": "Corporate | Mergers & Acquisitions",
-      "headline": "ITC Takes Full Control of Yoga Bar Parent Sproutlife",
+      "kicker": "Trade | International Relations",
+      "headline": "India and Canada Launch Crucial Fifth Round of Trade Talks",
       "paragraphs": [
-        "Fast-moving consumer goods giant ITC has completed its acquisition of Sproutlife Foods, the parent company of healthy foods brand Yoga Bar. The deal, valued at ₹645 crore, sees ITC taking full control of the startup as part of its broader push into the premium health and wellness space.",
-        "This acquisition marks a significant exit in the Indian consumer brand space, highlighting the ongoing consolidation trend. By integrating Yoga Bar's product portfolio, ITC aims to strengthen its position in the rapidly growing healthy snacks and breakfast segment."
+        "India and Canada have commenced the fifth round of negotiations for a proposed Economic Partnership Agreement on October 5. Both nations are targeting a year-end deadline to wrap up the trade pact, aiming to significantly boost bilateral commerce.",
+        "These crucial discussions come amid efforts to deepen economic ties despite recent diplomatic challenges. A successful deal by December could pave the way for enhanced market access and investment flows between the two major economies."
       ]
     },
     "story_3": {
-      "kicker": "Macroeconomics | Interest Rates",
-      "headline": "RBI Repo Rate May Climb to 6% in FY27, Report Warns",
+      "kicker": "Startups | Electric Vehicles",
+      "headline": "Simple Energy Secures ₹1,750 Crore to Scale EV Production",
       "paragraphs": [
-        "A new report suggests that the Reserve Bank of India's repo rate may climb to 6% in the financial year 2027. This potential rate hike is expected to put upward pressure on government securities (G-Sec) yields, impacting borrowing costs across the economy. Investors and financial institutions are closely watching these macroeconomic indicators as they plan for the upcoming fiscal year."
+        "Electric vehicle startup Simple Energy has raised ₹1,750 crore in a fresh funding round. The capital will be deployed to scale up its manufacturing capabilities and expand its retail network across India. This massive funding boost highlights growing investor confidence in the Indian EV ecosystem."
       ]
     },
     "also_today": {
       "items": [
-        "Union Bank of India Q2FY27 gross advances grow 18.53% year-on-year.",
-        "India's ₹80,000-crore Project-75(I) submarine push nears final approval.",
-        "Linux Laboratories raises $70 million from ChrysCapital and Tata Capital.",
-        "Shipping Corporation of India targets ₹2,000 crore profit in FY27."
+        "Godfrey Phillips shares plunge 8.5% as Q1 net profit drops 44% on higher taxes",
+        "Swiss President Parmelin begins a three-day India visit to discuss trade and investment",
+        "Apollo Micro Systems reports ₹251.3 crore revenue in its Q1 FY27 financial results",
+        "India Shelter Finance to issue ₹100 crore non-convertible debentures at 8.10% yield"
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India | Canada Trade",
-    "headline": "India-Canada Trade Talks Resume for 2026 Deal",
+    "kicker": "India x EFTA | Trade",
+    "headline": "Swiss President Begins 3-Day India Visit for EFTA Trade",
     "paragraphs": [
-      "India and Canada are set to resume bilateral trade talks on October 5 as both nations target a economic deal for 2026. The upcoming negotiations mark a key attempt to rebuild commercial momentum and enhance market access across key industries. Business groups are closely watching the resumption for signals of policy stability and tariff relief.",
-      "While the dialogue signals a pragmatic push toward trade ties, negotiators face the task of aligning key economic priorities amid global market shifts. Lowering non-tariff barriers and securing supply chains will be critical testing grounds for both sides. For Indian exporters, a successful accord could expand commercial footprint in North America."
+      "Swiss President Parmelin has arrived in India for a three-day official visit starting October 5, 2026. Bilateral trade and strategic investments are at the top of the agenda as both nations evaluate the effectiveness of the EFTA deal. The visit highlights India's ongoing efforts to deepen trade relations across key European economic partners.",
+      "Business leaders are closely monitoring how effective the EFTA framework will be in generating real capital flows and trade access. Unsettled questions persist around tariff structures and foreign direct investment commitments. Stronger bilateral cooperation could unlock critical new channels for technology, machinery, and institutional capital."
     ],
     "world_60": [
-      "Oil slides as Brent drops below $100 on potential reserve release talks",
-      "Gold and silver prices decline across local and global markets",
-      "Asian shares slide following bond volatility while US jobs data looms",
-      "US CFOs report firms absorbed initial oil price shock, survey shows"
+      "Oil prices climb after Yemen's Houthi rebels attack Saudi Aramco sites.",
+      "Crude oil dips to $101 despite simmering Iran war tensions in Middle East.",
+      "Gold inches up as prospects for an October Fed rate hike fade.",
+      "Scottish salmon exporters launch a landmark trade mission to India."
     ],
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
-      "alt": "New Delhi"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Guy_Parmelin_%282026%29_%28cropped%29.jpg",
+      "alt": "President of the Swiss Confederation"
     }
   },
   "sources": {
     "big_story": [
       {
-        "title": "Global debt, AI risks among 5 financial stability threats, says RBI Governor Malhotra | India News",
-        "source": "Hindustan Times"
+        "title": "India Rate Hike Looms as RBI Grapples With Excess Liquidity",
+        "source": "Bloomberg.com"
       },
       {
-        "title": "Finance system resilient, economy braved West Asia crisis: RBI governor",
-        "source": "The Times of India"
+        "title": "Markets bet on RBI rate hike as inflation pressure builds",
+        "source": "Reuters"
       },
       {
-        "title": "RBI repo rate may climb to 6% in FY27; G-Sec yields face upward pressure: Report",
-        "source": "The Economic Times"
+        "title": "RBI rate hikes back on the table as inflation risks mount",
+        "source": "TradingView"
       },
       {
-        "title": "Global AI stock correction may benefit India, but RBI Governor flags market risks",
-        "source": "Livemint"
+        "title": "Tighter financial conditions could spill over to banks, warns Sanjay Malhotra",
+        "source": "Forbes India"
       }
     ],
     "venture_vault": [
       {
-        "title": "Home interior materials startup Gravity raises $15 million led by 3one4 Capital, Info Edge Ventures",
-        "source": "Indian Startup News"
+        "title": "Simple Energy Raises Rs 1,750 Cr To Scale EV Manufacturing, Retail Network",
+        "source": "BW Businessworld"
       }
     ],
     "daily_brief_1": [
       {
-        "title": "‘Next year could be bad’: Zerodha co-founder Nikhil Kamath endorses grave warning for startup funding",
-        "source": "Livemint"
+        "title": "Two boards, one listing battle: Inside Tata Sons’ directors RBI board link",
+        "source": "The Indian Express"
       },
       {
-        "title": "'Raise Now, Keep Cash': Nikhil Kamath Says '100%' To Startup Funding Advice",
-        "source": "NDTV Profit"
+        "title": "Must Tata Sons go public? India’s central bank has several other options that could be explored",
+        "source": "Livemint"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "ITC completes Rs 645 crore acquisition of Yoga Bar parent company",
-        "source": "indiantelevision.com"
+        "title": "India, Canada open crucial trade talks",
+        "source": "Telangana Today"
       },
       {
-        "title": "FMC giant ITC takes full control of Yoga Bar parent Sproutlife in Rs 645 crore deal",
-        "source": "Indian Startup News"
+        "title": "India, Canada to begin fifth round of trade pact talks as both sides target year-end deal",
+        "source": "The New Indian Express"
+      },
+      {
+        "title": "India, Canada Aim To Wrap Up CEPA Talks By December With Fifth Round Of Negotiations To Begin On 5 October",
+        "source": "Swarajya"
+      },
+      {
+        "title": "India, Canada to Begin 5th Round of Talks for Proposed Economic Partnership Pact on Oct 5",
+        "source": "PGurus"
       }
     ],
     "daily_brief_3": [
       {
-        "title": "RBI repo rate may climb to 6% in FY27; G-Sec yields face upward pressure: Report",
-        "source": "The Economic Times"
+        "title": "Simple Energy Raises Rs 1,750 Cr To Scale EV Manufacturing, Retail Network",
+        "source": "BW Businessworld"
       }
     ],
     "also_today": [
       {
-        "title": "Union Bank of India Q2FY27 results: Gross advances grow 18.53% YoY",
+        "title": "Apollo Micro Systems publishes Q1FY27 results, reports ₹251.3 crore revenue",
         "source": "scanx.trade"
       },
       {
-        "title": "India’s ₹80,000-crore submarine push: Project-75(I) nears final approval",
-        "source": "Business Today"
+        "title": "Godfrey Phillips Shares Plunge 8.5% as Q1 FY27 Net Profit Drops 44% YoY on Higher Taxes",
+        "source": "The Indian Awaaz"
       },
       {
-        "title": "Shipping Corporation of India Targets ₹2,000 Crore FY27 Profit, Plans Fleet Expansion",
-        "source": "Sahi"
+        "title": "India Shelter Finance to issue ₹100 crore NCDs at 8.10%",
+        "source": "scanx.trade"
       },
       {
-        "title": "Linux Laboratories Raises $70 Million From ChrysCapital, Tata Capital Healthcare Fund",
-        "source": "ascendants.in"
+        "title": "Swiss President Parmelin on 3-Day India Visit, Trade and Investment High on Agenda",
+        "source": "The Indian Awaaz"
       }
     ],
     "geopolitics": [
       {
-        "title": "India-Canada Trade Talks To Resume October 5 For 2026 Deal",
-        "source": "Sarkaritel.com"
+        "title": "How effective is Efta deal thus far: Swiss prez starts India visit on Oct 5",
+        "source": "business-standard.com"
+      },
+      {
+        "title": "Swiss President Parmelin on 3-Day India Visit, Trade and Investment High on Agenda",
+        "source": "The Indian Awaaz"
       }
     ],
     "world_60": [
       {
-        "title": "Oil Prices Drop: WTI Down 3.78%, Brent Below $100 on Reserve Release Talks - News and Statistics",
-        "source": "IndexBox"
+        "title": "Oil prices climb after Yemen's Houthi rebels attack Saudi Aramco sites",
+        "source": "business-standard.com"
       },
       {
-        "title": "Gold, silver prices fall in local, global markets",
-        "source": "The Express Tribune"
+        "title": "Oil Price Today (October 5): Crude oil dips to $101 despite simmering Iran war tensions. Here’s why",
+        "source": "The Economic Times"
       },
       {
-        "title": "Asian shares fall after wild swings in bonds, FX; US jobs data looms",
-        "source": "DD News"
+        "title": "Gold inches up as October Fed rate hike prospects fade",
+        "source": "The Economic Times"
       },
       {
-        "title": "US CFOs in Survey Say Firms Mostly Absorbed Oil Price Shock",
-        "source": "EnergyNow.com"
+        "title": "Scottish salmon exporters launch landmark India trade mission",
+        "source": "fishfarmermagazine.com"
       }
     ],
     "ipo_desk": [
       {
-        "title": "Acme India Industries IPO Day 2: Subscribed 1.92x; retail demand jumps 55.6%",
-        "source": "scanx.trade"
+        "title": "RK Fashion Accessories IPO Opens October 5; Price Band Set at Rs. 77-82",
+        "source": "Dalal Street Investment Journal"
       },
       {
-        "title": "Vishal Nirmiti IPO GMP, Grey Market Premium Today",
-        "source": "IPO Watch"
+        "title": "Orient Cables shares to list today; GMP signals 45% premium over issue price",
+        "source": "The Economic Times"
       },
       {
-        "title": "IPO GMP compared: Vishal Nirmiti vs Nityas Gems and Jewellery - Key dates, subscription status, listing price prediction",
-        "source": "Livemint"
-      },
-      {
-        "title": "Final touch underway for Jio Platforms IPO; latest GMP, expected launch date, size, valuation, shareholders quota",
-        "source": "Livemint"
+        "title": "Acme India Industries IPO Day 3: Subscription Status on 5 October 2026",
+        "source": "Univest"
       }
     ],
-    "market_data": "Yahoo Finance (computed, session 2026-10-01)",
+    "market_data": "Yahoo Finance (computed, session 2026-10-05)",
     "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
   }
 }
