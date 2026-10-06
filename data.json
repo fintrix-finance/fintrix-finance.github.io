@@ -1,24 +1,24 @@
 {
-  "updated_ist": "2026-10-05",
+  "updated_ist": "2026-10-06",
   "cover": {
-    "big_story_teaser": "As inflation risks mount, markets bet on an RBI rate hike to mop up excess liquidity.",
-    "venture_teaser": "Simple Energy raises ₹1,750 crore to scale EV manufacturing and expand retail network.",
-    "market_watch_teaser": "LIVE AS OF 9:35 AM IST: Nifty 50 22,578.95 ▲ 0.70%",
-    "daily_brief_teaser": "Tata Sons' listing dilemma, India-Canada trade talks, and Simple Energy's ₹1,750cr funding",
-    "inbrief_2": "Tata Sons Listing Dilemma",
-    "inbrief_3": "India-Canada Trade Round",
-    "inbrief_4": "Simple Energy EV Funding",
-    "inbrief_1": "Swiss Prez Starts India EFTA Visit"
+    "big_story_teaser": "Will the RBI hike rates? Inside the central bank's battle with excess liquidity.",
+    "venture_teaser": "Beyond Appliances secures ₹110 crore to expand manufacturing and product lines.",
+    "market_watch_teaser": "LIVE AS OF 10:21 AM IST: Nifty 50 22,642.55 ▲ 0.38%",
+    "daily_brief_teaser": "India-US trade talks hit a plateau, Brent crude hovers near $100, and ITC buys Yoga Bar",
+    "inbrief_2": "India-US trade talks hit plateau",
+    "inbrief_3": "Brent crude hovers near $100",
+    "inbrief_4": "ITC completes Yoga Bar buyout",
+    "inbrief_1": "India Seals Swiss TEPA Trade Deal"
   },
   "big_story": {
-    "headline": "RBI Rate Hikes Back on Table",
-    "subhead": "INFLATION PRESSURE AND EXCESS LIQUIDITY FORCE CENTRAL BANK TO RETHINK MONETARY STANCE",
+    "headline": "The RBI's High-Stakes Rate Move",
+    "subhead": "THE RBI PREPARES FOR A POTENTIAL RATE HIKE TO TACKLE PERSISTENT EXCESS LIQUIDITY",
     "paragraphs": [
-      "Markets are bracing for a potential interest rate hike as the Reserve Bank of India grapples with persistent inflation pressures and excess liquidity in the financial system. Investors and analysts are reassessing monetary expectations ahead of the upcoming policy meeting. The shift comes as inflationary risks mount across key sectors, prompting bets that policy tightening could return to the agenda.",
-      "Excess liquidity in the banking system has complicated the central bank's inflation management strategy. While rapid economic growth continues, market returns have struggled to keep pace amid concerns over tighter financial conditions. Regulators have warned that prolonged tight conditions could eventually spill over to commercial banks if liquidity remains imbalanced.",
-      "A potential policy rate hike marks a significant pivot in market expectations after periods of stable rates. Traded yields and equity markets are closely monitoring the central bank's next moves to gauge borrowing costs. As the policy decision approaches, market participants remain focused on how the central bank balances growth impulses against price stability."
+      "The Reserve Bank of India is widely expected to announce a 25 basis point interest rate hike, marking its first rate increase since February 2023. This potential move comes as the central bank grapples with persistent excess liquidity in the financial system. Meanwhile, Indian shares are poised to extend their rebound ahead of the policy verdict, with the Nifty 50 rising 0.38% in today's session so far.",
+      "The looming policy decision has kept India's bond markets boxed in a narrow range as traders await the official announcement. Analysts note that this would be India's first rate hike in almost four years, reflecting a significant shift in monetary policy. The decision is crucial as policymakers attempt to balance economic growth with liquidity management.",
+      "Investors are closely watching how the market reacts to the upcoming verdict. While the Sensex has risen 0.39% to 72,662.01 in today's session so far, any unexpected hawkish commentary could trigger volatility. The central bank's stance on liquidity withdrawal will be key to determining the trajectory of both equity and debt markets in the coming quarters."
     ],
-    "pullbox": "With inflation pressures building and excess liquidity filling the system, the central bank faces a crucial test on whether to hike interest rates to maintain economic stability.",
+    "pullbox": "A 25 basis point rate hike would mark the RBI's first tightening move since early 2023, signaling a decisive step to drain excess liquidity and anchor inflation expectations.",
     "image": {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
       "alt": "Reserve Bank of India"
@@ -27,33 +27,33 @@
   "explains": {
     "title": "What is Excess Liquidity?",
     "paragraphs": [
-      "Excess liquidity refers to a situation where the banking system has cash reserves above the level required by central bank regulations. This surplus money sits with commercial banks and can spark inflationary pressures if not absorbed.",
-      "To manage this surplus, central banks use monetary tools such as liquidity absorption operations or policy rate hikes. Controlling excess money helps keep inflation in check and maintains stability across financial markets."
+      "Excess liquidity refers to a situation where the banking system has more cash reserves than required to meet its daily operational and regulatory needs. This usually happens when central bank interventions or government spending inject more money into the economy than banks can readily lend out.",
+      "In practice, too much liquidity can fuel inflation and lead to asset price bubbles. Central banks manage this by raising interest rates or using tools like the cash reserve ratio to absorb the surplus cash and stabilize the financial system."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "EV startup Simple Energy has raised ₹1,750 crore in funding to scale up its electric vehicle manufacturing capabilities and expand its retail network. The capital injection aims to strengthen the company's production capacity as demand for green mobility grows.",
-      "The funds will primarily support manufacturing infrastructure and wider distribution channels to compete in the expanding Indian EV market. By accelerating production and retail reach, Simple Energy bets on capitalizing on the nation's rapid transition toward sustainable transportation."
+      "Indian consumer brand Beyond Appliances has successfully raised ₹110 crore in a Series B funding round. The fresh capital will be deployed to expand the company's product portfolio and boost its domestic manufacturing capabilities.",
+      "The funding round was led by Fireside Ventures, a prominent early-stage consumer brand investor. This capital injection highlights growing investor confidence in India's consumer appliance sector as brands seek to scale up local production."
     ]
   },
   "market_watch": {
     "indian": [
       {
         "name": "Sensex",
-        "value": "72,353.98 ▲ 0.62%",
+        "value": "72,662.01 ▲ 0.39%",
         "dir": "up",
         "live": true
       },
       {
         "name": "Nifty 50",
-        "value": "22,578.95 ▲ 0.70%",
+        "value": "22,642.55 ▲ 0.38%",
         "dir": "up",
         "live": true
       },
       {
         "name": "Nifty Bank",
-        "value": "55,104.20 ▲ 1.20%",
+        "value": "54,980.95 ▲ 0.49%",
         "dir": "up",
         "live": true
       }
@@ -61,15 +61,15 @@
     "asian": [
       {
         "name": "Nikkei 225",
-        "value": "68,309.46 ▼ 0.94%",
-        "dir": "down",
-        "session_date": "2026-10-02"
+        "value": "69,946.86 ▲ 2.40%",
+        "dir": "up",
+        "session_date": "2026-10-05"
       },
       {
         "name": "Hang Seng",
-        "value": "23,972.29 ▼ 2.60%",
-        "dir": "down",
-        "session_date": "2026-10-02"
+        "value": "24,040.34 ▲ 0.28%",
+        "dir": "up",
+        "session_date": "2026-10-05"
       },
       {
         "name": "Shanghai Comp.",
@@ -81,67 +81,67 @@
     "european": [
       {
         "name": "FTSE 100",
-        "value": "10,461.95 ▲ 0.32%",
+        "value": "10,497.94 ▲ 0.34%",
         "dir": "up",
-        "session_date": "2026-10-02"
+        "session_date": "2026-10-05"
       },
       {
         "name": "DAX",
-        "value": "25,231.20 ▲ 1.17%",
+        "value": "25,254.21 ▲ 0.09%",
         "dir": "up",
-        "session_date": "2026-10-02"
+        "session_date": "2026-10-05"
       },
       {
         "name": "CAC 40",
-        "value": "7,897.19 ▲ 0.79%",
-        "dir": "up",
-        "session_date": "2026-10-02"
+        "value": "7,834.10 ▼ 0.80%",
+        "dir": "down",
+        "session_date": "2026-10-05"
       }
     ],
     "us": [
       {
         "name": "S&P 500",
-        "value": "7,722.72 ▲ 0.73%",
+        "value": "7,773.95 ▲ 0.66%",
         "dir": "up",
-        "session_date": "2026-10-02"
+        "session_date": "2026-10-05"
       },
       {
         "name": "Nasdaq",
-        "value": "27,190.86 ▲ 1.19%",
+        "value": "27,477.31 ▲ 1.05%",
         "dir": "up",
-        "session_date": "2026-10-02"
+        "session_date": "2026-10-05"
       },
       {
         "name": "Dow Jones",
-        "value": "51,176.96 ▲ 0.49%",
+        "value": "51,267.90 ▲ 0.18%",
         "dir": "up",
-        "session_date": "2026-10-02"
+        "session_date": "2026-10-05"
       }
     ],
     "global": [
       {
         "name": "Dollar Index",
-        "value": "101.93 ▼ 0.17%",
-        "dir": "down",
-        "session_date": "2026-10-02"
+        "value": "102.17 ▲ 0.24%",
+        "dir": "up",
+        "session_date": "2026-10-05"
       },
       {
         "name": "Brent Crude",
-        "value": "$102.25/bbl",
+        "value": "$100.32/bbl",
         "dir": "down",
-        "session_date": "2026-10-02"
+        "session_date": "2026-10-05"
       },
       {
         "name": "Gold",
-        "value": "$4,162/oz",
+        "value": "$4,157/oz",
         "dir": "down",
-        "session_date": "2026-10-02"
+        "session_date": "2026-10-05"
       },
       {
         "name": "US 10Y Yield",
-        "value": "5.28% ▲ 4.0 bp",
+        "value": "5.31% ▲ 3.4 bp",
         "dir": "up",
-        "session_date": "2026-10-02"
+        "session_date": "2026-10-05"
       }
     ],
     "losers": [
@@ -154,23 +154,23 @@
       "HDFC Life",
       "HDFC Bank"
     ],
-    "snapshot_strip": "The Nifty rose 0.70% in today's session so far",
+    "snapshot_strip": "The Nifty rose 0.38% in today's session so far",
     "date_label": "OCT 2026",
-    "close_label": "LIVE AS OF 9:35 AM IST",
+    "close_label": "LIVE AS OF 10:21 AM IST",
     "live": true,
-    "session_date": "2026-10-05",
+    "session_date": "2026-10-06",
     "ipo_desk": [
       {
-        "name": "RK Fashion Accessories",
-        "note": "Opens Oct 5 with price band of ₹77-82"
-      },
-      {
-        "name": "Orient Cables",
-        "note": "Lists today with GMP signaling 45% premium"
-      },
-      {
         "name": "Acme India Industries",
-        "note": "Day 3 subscription open on October 5"
+        "note": "Day 4 subscription closes today, 6 October"
+      },
+      {
+        "name": "SRIT India",
+        "note": "May debut at nearly ₹190 vs ₹130 issue"
+      },
+      {
+        "name": "Shah Investor's Home",
+        "note": "Opens at ₹171 on NSE and BSE listing"
       }
     ]
   },
@@ -179,46 +179,46 @@
       {
         "name": "Gold",
         "unit": "$/oz",
-        "price": "4,173",
-        "day": "▲ 0.26%",
-        "week": "▲ 0.11%",
-        "dir": "up",
-        "dir_week": "up",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,3.1 8.3,5.0 12.4,4.5 16.6,10.5 20.7,12.7 24.8,16.5 29.0,15.7 33.1,10.1 37.2,12.9 41.4,14.6 45.5,13.6 49.7,16.0 53.8,15.9 57.9,18.5 62.1,19.4 66.2,16.9 70.3,16.4 74.5,15.2 78.6,17.1 82.8,17.4 86.9,20.0 91.0,20.9 95.2,19.9 99.3,26.7 103.4,26.2 107.6,25.9 111.7,25.2 115.9,27.0 120.0,26.5\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"26.5\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
-        "session_date": "2026-10-04"
+        "price": "4,157",
+        "day": "▼ 0.13%",
+        "week": "▼ 0.28%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,3.1 8.3,5.0 12.4,4.5 16.6,10.4 20.7,12.6 24.8,16.4 29.0,15.6 33.1,10.0 37.2,12.8 41.4,14.5 45.5,13.5 49.7,15.9 53.8,15.8 57.9,18.3 62.1,19.2 66.2,16.8 70.3,16.2 74.5,15.1 78.6,16.9 82.8,17.3 86.9,19.8 91.0,20.7 95.2,19.7 99.3,26.5 103.4,26.0 107.6,25.7 111.7,25.0 115.9,26.8 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-05"
       },
       {
         "name": "Silver",
         "unit": "$/oz",
-        "price": "61.57",
-        "day": "▲ 2.66%",
-        "week": "▲ 0.57%",
+        "price": "60.87",
+        "day": "▲ 1.49%",
+        "week": "▼ 0.57%",
         "dir": "up",
-        "dir_week": "up",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,5.3 4.1,5.0 8.3,6.7 12.4,3.0 16.6,9.2 20.7,11.1 24.8,15.2 29.0,14.9 33.1,9.2 37.2,11.6 41.4,11.0 45.5,6.8 49.7,16.1 53.8,15.4 57.9,18.0 62.1,18.7 66.2,16.1 70.3,13.1 74.5,10.3 78.6,12.2 82.8,11.9 86.9,15.8 91.0,18.2 95.2,16.2 99.3,23.8 103.4,25.2 107.6,26.7 111.7,25.1 115.9,27.0 120.0,23.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"23.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
-        "session_date": "2026-10-04"
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,5.3 4.1,5.0 8.3,6.7 12.4,3.0 16.6,9.2 20.7,11.1 24.8,15.2 29.0,14.9 33.1,9.2 37.2,11.6 41.4,11.0 45.5,6.8 49.7,16.1 53.8,15.4 57.9,18.0 62.1,18.7 66.2,16.1 70.3,13.1 74.5,10.3 78.6,12.2 82.8,11.9 86.9,15.8 91.0,18.2 95.2,16.2 99.3,23.8 103.4,25.2 107.6,26.7 111.7,25.1 115.9,27.0 120.0,24.7\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"24.7\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-05"
       },
       {
         "name": "Brent Crude",
         "unit": "$/bbl",
-        "price": "101.39",
-        "day": "▼ 0.84%",
-        "week": "▼ 3.69%",
+        "price": "100.32",
+        "day": "▼ 1.89%",
+        "week": "▼ 4.71%",
         "dir": "down",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,22.0 4.1,26.2 8.3,27.0 12.4,24.9 16.6,25.3 20.7,24.0 24.8,19.2 29.0,18.1 33.1,18.2 37.2,17.3 41.4,15.4 45.5,11.7 49.7,4.3 53.8,7.8 57.9,6.5 62.1,3.0 66.2,6.4 70.3,7.5 74.5,8.6 78.6,12.7 82.8,13.9 86.9,9.5 91.0,5.5 95.2,8.1 99.3,7.0 103.4,10.1 107.6,9.0 111.7,10.4 115.9,10.5 120.0,11.4\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"11.4\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
-        "session_date": "2026-10-04"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,22.0 4.1,26.2 8.3,27.0 12.4,24.9 16.6,25.3 20.7,24.0 24.8,19.2 29.0,18.1 33.1,18.2 37.2,17.3 41.4,15.4 45.5,11.7 49.7,4.3 53.8,7.8 57.9,6.5 62.1,3.0 66.2,6.4 70.3,7.5 74.5,8.6 78.6,12.7 82.8,13.9 86.9,9.5 91.0,5.5 95.2,8.1 99.3,7.0 103.4,10.1 107.6,9.0 111.7,10.4 115.9,10.5 120.0,12.7\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"12.7\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-05"
       },
       {
         "name": "WTI Crude",
         "unit": "$/bbl",
-        "price": "89.98",
-        "day": "▼ 1.24%",
-        "week": "▼ 2.83%",
+        "price": "89.43",
+        "day": "▼ 1.84%",
+        "week": "▼ 3.42%",
         "dir": "down",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,24.2 4.1,26.9 8.3,27.0 12.4,25.7 16.6,25.8 20.7,23.4 24.8,18.9 29.0,18.1 33.1,17.8 37.2,17.6 41.4,16.0 45.5,12.9 49.7,6.4 53.8,8.9 57.9,7.5 62.1,3.0 66.2,6.5 70.3,7.0 74.5,8.6 78.6,13.2 82.8,14.4 86.9,16.9 91.0,14.4 95.2,16.6 99.3,16.5 103.4,19.7 107.6,18.7 111.7,16.2 115.9,18.0 120.0,19.1\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"19.1\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
-        "session_date": "2026-10-04"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,24.2 4.1,26.9 8.3,27.0 12.4,25.7 16.6,25.8 20.7,23.4 24.8,18.9 29.0,18.1 33.1,17.8 37.2,17.6 41.4,16.0 45.5,12.9 49.7,6.4 53.8,8.9 57.9,7.5 62.1,3.0 66.2,6.5 70.3,7.0 74.5,8.6 78.6,13.2 82.8,14.4 86.9,16.9 91.0,14.4 95.2,16.6 99.3,16.5 103.4,19.7 107.6,18.7 111.7,16.2 115.9,18.0 120.0,19.7\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"19.7\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-05"
       }
     ],
     "alternatives": [
@@ -260,162 +260,162 @@
       },
       {
         "name": "PowerGrid InvIT",
-        "price": "₹101.84",
-        "day": "▼ 0.56%",
-        "week": "▼ 0.10%",
-        "dir": "down",
-        "dir_week": "down",
-        "session_date": "2026-10-01"
+        "price": "₹102.10",
+        "day": "▲ 0.26%",
+        "week": "▲ 0.09%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-05"
       }
     ],
     "caps": [
       {
         "name": "Nifty 50",
         "tag": "Large cap",
-        "level": "22,421.95",
-        "day": -0.88,
-        "week": -2.78,
-        "month": -6.79,
-        "day_txt": "▼ 0.88%",
-        "week_txt": "▼ 2.78%",
-        "month_txt": "▼ 6.79%",
-        "dir": "down",
+        "level": "22,555.75",
+        "day": 0.6,
+        "week": -2.53,
+        "month": -5.68,
+        "day_txt": "▲ 0.60%",
+        "week_txt": "▼ 2.53%",
+        "month_txt": "▼ 5.68%",
+        "dir": "up",
         "dir_week": "down",
         "dir_month": "down",
-        "session_date": "2026-10-01"
+        "session_date": "2026-10-05"
       },
       {
         "name": "Nifty Midcap 150",
         "tag": "Mid cap",
-        "level": "21,643.85",
-        "day": -1.02,
-        "week": -3.68,
-        "month": -6.92,
-        "day_txt": "▼ 1.02%",
-        "week_txt": "▼ 3.68%",
-        "month_txt": "▼ 6.92%",
-        "dir": "down",
+        "level": "21,755.30",
+        "day": 0.51,
+        "week": -3.04,
+        "month": -5.88,
+        "day_txt": "▲ 0.51%",
+        "week_txt": "▼ 3.04%",
+        "month_txt": "▼ 5.88%",
+        "dir": "up",
         "dir_week": "down",
         "dir_month": "down",
-        "session_date": "2026-10-01"
+        "session_date": "2026-10-05"
       },
       {
         "name": "Nifty Smallcap 250",
         "tag": "Small cap",
-        "level": "17,589.05",
-        "day": -1.18,
-        "week": -3.12,
-        "month": -4.22,
-        "day_txt": "▼ 1.18%",
-        "week_txt": "▼ 3.12%",
-        "month_txt": "▼ 4.22%",
-        "dir": "down",
+        "level": "17,655.35",
+        "day": 0.38,
+        "week": -2.77,
+        "month": -3.29,
+        "day_txt": "▲ 0.38%",
+        "week_txt": "▼ 2.77%",
+        "month_txt": "▼ 3.29%",
+        "dir": "up",
         "dir_week": "down",
         "dir_month": "down",
-        "session_date": "2026-10-01"
+        "session_date": "2026-10-05"
       }
     ],
-    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"100.0\" width=\"22\" height=\"7.9\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"119.9\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.9</text><rect x=\"62.3\" y=\"100.0\" width=\"22\" height=\"24.9\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"136.9\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-2.8</text><rect x=\"90.3\" y=\"100.0\" width=\"22\" height=\"60.8\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"172.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-6.8</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"100.0\" width=\"22\" height=\"9.1\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"121.1\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.0</text><rect x=\"169.0\" y=\"100.0\" width=\"22\" height=\"33.0\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"145.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.7</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-6.9</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"100.0\" width=\"22\" height=\"10.6\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"122.6\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.2</text><rect x=\"275.7\" y=\"100.0\" width=\"22\" height=\"28.0\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"140.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.1</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"37.8\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"149.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-4.2</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"93.7\" width=\"22\" height=\"6.3\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"88.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.6</text><rect x=\"62.3\" y=\"100.0\" width=\"22\" height=\"26.7\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"138.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-2.5</text><rect x=\"90.3\" y=\"100.0\" width=\"22\" height=\"59.9\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"171.9\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-5.7</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"94.6\" width=\"22\" height=\"5.4\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"89.6\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.5</text><rect x=\"169.0\" y=\"100.0\" width=\"22\" height=\"32.1\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"144.1\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.0</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-5.9</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"96.0\" width=\"22\" height=\"4.0\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"91.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.4</text><rect x=\"275.7\" y=\"100.0\" width=\"22\" height=\"29.2\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"141.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-2.8</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"34.7\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"146.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.3</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
     "funds": [
       {
         "name": "ICICI Pru Large Cap",
         "cat": "Large cap",
-        "nav": "₹112.29",
-        "day": "▼ 0.82%",
-        "week": "▼ 2.48%",
-        "dir": "down",
+        "nav": "₹112.67",
+        "day": "▲ 0.34%",
+        "week": "▼ 2.51%",
+        "dir": "up",
         "dir_week": "down",
-        "session_date": "2026-10-01"
+        "session_date": "2026-10-05"
       },
       {
         "name": "MO Midcap 150 Index",
         "cat": "Mid cap",
-        "nav": "₹39.29",
-        "day": "▼ 1.02%",
-        "week": "▼ 3.69%",
-        "dir": "down",
+        "nav": "₹39.50",
+        "day": "▲ 0.52%",
+        "week": "▼ 3.05%",
+        "dir": "up",
         "dir_week": "down",
-        "session_date": "2026-10-01"
+        "session_date": "2026-10-05"
       },
       {
         "name": "Nippon Small Cap",
         "cat": "Small cap",
-        "nav": "₹202.29",
-        "day": "▼ 1.12%",
-        "week": "▼ 2.61%",
-        "dir": "down",
+        "nav": "₹202.89",
+        "day": "▲ 0.30%",
+        "week": "▼ 2.46%",
+        "dir": "up",
         "dir_week": "down",
-        "session_date": "2026-10-01"
+        "session_date": "2026-10-05"
       },
       {
         "name": "Parag Parikh Flexi Cap",
         "cat": "Flexi cap",
-        "nav": "₹88.26",
-        "day": "▼ 0.65%",
-        "week": "▼ 1.50%",
-        "dir": "down",
+        "nav": "₹88.76",
+        "day": "▲ 0.57%",
+        "week": "▼ 1.33%",
+        "dir": "up",
         "dir_week": "down",
-        "session_date": "2026-10-01"
+        "session_date": "2026-10-05"
       }
     ],
     "date_label": "OCT 2026",
-    "close_label": "CLOSE OF OCT 1",
-    "session_date": "2026-10-01",
-    "nav_label": "NAVS AS OF OCT 1"
+    "close_label": "CLOSE OF OCT 5",
+    "session_date": "2026-10-05",
+    "nav_label": "NAVS AS OF OCT 5"
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "India | Corporate Governance",
-      "headline": "The Tata Sons Listing Dilemma and the RBI Link",
+      "kicker": "India | International Trade",
+      "headline": "India-US Trade Talks Hit a Plateau, Says FM",
       "paragraphs": [
-        "Tata Sons is facing a critical decision regarding its potential public listing, a move closely tied to regulatory mandates from the Reserve Bank of India. The conglomerate's directors are navigating complex board links and compliance requirements as the deadline approaches. While some argue a public listing is inevitable, others suggest the central bank has alternative regulatory paths that could be explored.",
-        "The debate centers on whether Tata Sons must go public under the RBI's scale-based regulations for upper-layer non-banking financial companies. As discussions intensify, the outcome will have massive implications for India's largest conglomerate and the broader capital markets."
+        "Finance Minister Nirmala Sitharaman stated that trade deal talks between India and the US may have reached a plateau. She noted that further concessions are difficult to achieve at this stage. However, she emphasized that the US remains a critical economic and strategic partner for India, and a deal could significantly boost the Indian economy.",
+        "External Affairs Minister S. Jaishankar also reiterated the importance of the US as a key strategic partner. While negotiations face hurdles, both nations continue to engage closely. Sitharaman added that one cannot simply blame the US for all trade problems, highlighting the complexity of bilateral negotiations."
       ],
       "image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Bombay_house_mast.jpg",
-        "alt": "Bombay House"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Am_11._April_2025_empfing_Au%C3%9Fenministerin_Beate_Meinl-Reisinger_die_indische_Finanzministerin_Nirmala_Sitharaman_in_Wien_%2854445397025%29_%28cropped%29.jpg",
+        "alt": "Nirmala Sitharaman"
       }
     },
     "story_2": {
-      "kicker": "Trade | International Relations",
-      "headline": "India and Canada Launch Crucial Fifth Round of Trade Talks",
+      "kicker": "Global | Commodity Markets",
+      "headline": "Brent Crude Hovers Near $100 Amid Gulf Tensions",
       "paragraphs": [
-        "India and Canada have commenced the fifth round of negotiations for a proposed Economic Partnership Agreement on October 5. Both nations are targeting a year-end deadline to wrap up the trade pact, aiming to significantly boost bilateral commerce.",
-        "These crucial discussions come amid efforts to deepen economic ties despite recent diplomatic challenges. A successful deal by December could pave the way for enhanced market access and investment flows between the two major economies."
+        "Brent crude oil prices are hovering near $100 per barrel as traders weigh geopolitical risks against steady supplies. Tensions in the Gulf and fears of conflict involving Iran have kept energy markets on edge. However, strong West Asian exports and a G7 reserve release have helped offset immediate supply disruptions.",
+        "Market participants are closely watching whether prices will soften if barrels of oil continue to flow freely from West Asia. While Gulf risks persist, the current balance between supply measures and geopolitical anxiety keeps oil prices stable around the $100 mark."
       ]
     },
     "story_3": {
-      "kicker": "Startups | Electric Vehicles",
-      "headline": "Simple Energy Secures ₹1,750 Crore to Scale EV Production",
+      "kicker": "India | Corporate M&A",
+      "headline": "ITC Completes Yoga Bar Acquisition",
       "paragraphs": [
-        "Electric vehicle startup Simple Energy has raised ₹1,750 crore in a fresh funding round. The capital will be deployed to scale up its manufacturing capabilities and expand its retail network across India. This massive funding boost highlights growing investor confidence in the Indian EV ecosystem."
+        "FMCG giant ITC Limited has completed its acquisition of Sproutlife Foods Private Limited, the company behind the healthy foods brand Yoga Bar. ITC acquired the remaining 52.5% stake in the company for approximately ₹645 crore, purchasing 13,445 equity shares. This move marks the full integration of the health-focused food brand into ITC's consumer portfolio."
       ]
     },
     "also_today": {
       "items": [
-        "Godfrey Phillips shares plunge 8.5% as Q1 net profit drops 44% on higher taxes",
-        "Swiss President Parmelin begins a three-day India visit to discuss trade and investment",
-        "Apollo Micro Systems reports ₹251.3 crore revenue in its Q1 FY27 financial results",
-        "India Shelter Finance to issue ₹100 crore non-convertible debentures at 8.10% yield"
+        "Moody's warns India will turn 'aged' in 16 years, getting old before getting rich.",
+        "Former RBI governor urges GST Council to treat UPI as a public good and keep it tax-free.",
+        "VC funding for September 2026 dips 8.2% as startup ecosystem faces funding slowdown.",
+        "Fintech startup Oolka is in talks to raise $45 million from Bessemer and Prosus."
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India x EFTA | Trade",
-    "headline": "Swiss President Begins 3-Day India Visit for EFTA Trade",
+    "kicker": "India-Switzerland | Trade",
+    "headline": "India Seals Historic TEPA Deal With Switzerland",
     "paragraphs": [
-      "Swiss President Parmelin has arrived in India for a three-day official visit starting October 5, 2026. Bilateral trade and strategic investments are at the top of the agenda as both nations evaluate the effectiveness of the EFTA deal. The visit highlights India's ongoing efforts to deepen trade relations across key European economic partners.",
-      "Business leaders are closely monitoring how effective the EFTA framework will be in generating real capital flows and trade access. Unsettled questions persist around tariff structures and foreign direct investment commitments. Stronger bilateral cooperation could unlock critical new channels for technology, machinery, and institutional capital."
+      "India and Switzerland have sealed a series of landmark pacts under the Trade and Economic Partnership Agreement. Prime Minister Narendra Modi and Swiss President Parmelin signed five Memorandums of Understanding, betting big on innovation, infrastructure, and people-to-people ties. This marks India's first trade deal with a European bloc, opening up new avenues for economic cooperation.",
+      "The agreement is being hailed as a win-win model that could pave the way for a massive $100 billion investment into the Indian economy. As the broader India-EFTA trade deal takes on new significance, both nations are looking to strengthen their strategic and economic ties. For Indian businesses, this pact offers a crucial gateway to European markets and technology."
     ],
     "world_60": [
-      "Oil prices climb after Yemen's Houthi rebels attack Saudi Aramco sites.",
-      "Crude oil dips to $101 despite simmering Iran war tensions in Middle East.",
-      "Gold inches up as prospects for an October Fed rate hike fade.",
-      "Scottish salmon exporters launch a landmark trade mission to India."
+      "US stocks open mixed as investors weigh rising Treasury yields and Fed outlook",
+      "Gold holds steady near $4,138 as elevated ISM prices keep US yields high",
+      "US yields and a stronger dollar remain key factors for gold and silver prices",
+      "D-Street snaps an eight-week losing streak ahead of key domestic policy decisions"
     ],
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Guy_Parmelin_%282026%29_%28cropped%29.jpg",
-      "alt": "President of the Swiss Confederation"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/The_official_portrait_of_Shri_Narendra_Modi%2C_the_Prime_Minister_of_the_Republic_of_India.jpg/330px-The_official_portrait_of_Shri_Narendra_Modi%2C_the_Prime_Minister_of_the_Republic_of_India.jpg",
+      "alt": "Narendra Modi"
     }
   },
   "sources": {
@@ -425,119 +425,143 @@
         "source": "Bloomberg.com"
       },
       {
-        "title": "Markets bet on RBI rate hike as inflation pressure builds",
+        "title": "Indian shares poised to extend rebound ahead of RBI policy verdict",
         "source": "Reuters"
       },
       {
-        "title": "RBI rate hikes back on the table as inflation risks mount",
-        "source": "TradingView"
+        "title": "RBI expected to announce 25 bps interest rate hike, the first since Feb 2023",
+        "source": "Fortune India"
       },
       {
-        "title": "Tighter financial conditions could spill over to banks, warns Sanjay Malhotra",
-        "source": "Forbes India"
+        "title": "India bonds seen boxed in narrow range, all eyes on RBI verdict",
+        "source": "BusinessLine"
+      },
+      {
+        "title": "India set for first rate hike in almost 4 years: Policy guide",
+        "source": "TradingView"
       }
     ],
     "venture_vault": [
       {
-        "title": "Simple Energy Raises Rs 1,750 Cr To Scale EV Manufacturing, Retail Network",
-        "source": "BW Businessworld"
+        "title": "Beyond Appliances Raises ₹110 Cr To Expand Product Portfolio, Boost Manufacturing",
+        "source": "Inc42"
+      },
+      {
+        "title": "Beyond Appliances Raises Rs 110 Cr In Series B Round Led By Fireside Ventures",
+        "source": "BW Disrupt"
       }
     ],
     "daily_brief_1": [
       {
-        "title": "Two boards, one listing battle: Inside Tata Sons’ directors RBI board link",
-        "source": "The Indian Express"
+        "title": "India-US trade deal talks may have reached a ‘plateau’, further concessions difficult: Nirmala Sitharaman",
+        "source": "The Economic Times"
       },
       {
-        "title": "Must Tata Sons go public? India’s central bank has several other options that could be explored",
-        "source": "Livemint"
+        "title": "‘Can’t say US is to blame for all trade problems’: America deal can boost Indian economy, says...",
+        "source": "Moneycontrol.com"
+      },
+      {
+        "title": "‘US remains a critical economic and strategic partner for India’: Jaishankar",
+        "source": "WION"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "India, Canada open crucial trade talks",
-        "source": "Telangana Today"
+        "title": "Oil prices hover near $100 as Middle East supply holds up, Gulf risks persist",
+        "source": "timesofindia.indiatimes.com"
       },
       {
-        "title": "India, Canada to begin fifth round of trade pact talks as both sides target year-end deal",
-        "source": "The New Indian Express"
+        "title": "Brent Crude Oil Hovers Near $100 As G7 Reserve Release Offsets Iran War Supply Fears",
+        "source": "NDTV Profit"
       },
       {
-        "title": "India, Canada Aim To Wrap Up CEPA Talks By December With Fifth Round Of Negotiations To Begin On 5 October",
-        "source": "Swarajya"
+        "title": "Oil slips as traders weigh strong West Asian exports against Gulf tensions",
+        "source": "Business Standard"
       },
       {
-        "title": "India, Canada to Begin 5th Round of Talks for Proposed Economic Partnership Pact on Oct 5",
-        "source": "PGurus"
+        "title": "Mint Quick Edit | If barrels of oil are flowing freely from West Asia again, shouldn’t prices soften?",
+        "source": "Livemint"
       }
     ],
     "daily_brief_3": [
       {
-        "title": "Simple Energy Raises Rs 1,750 Cr To Scale EV Manufacturing, Retail Network",
-        "source": "BW Businessworld"
+        "title": "ITC Limited has acquired the remaining 52.5% stake in Sproutlife Foods Private Limited, the company behind healthy foods brand Yoga Bar, for about Rs 645 crore, completing its acquisition of the business. The FMCG company acquired 13,445 equity shares",
+        "source": "instagram.com"
       }
     ],
     "also_today": [
       {
-        "title": "Apollo Micro Systems publishes Q1FY27 results, reports ₹251.3 crore revenue",
-        "source": "scanx.trade"
+        "title": "India Is Getting Old Before Getting Rich, Will Turn 'Aged' In 16 Years: Moody's",
+        "source": "NDTV"
       },
       {
-        "title": "Godfrey Phillips Shares Plunge 8.5% as Q1 FY27 Net Profit Drops 44% YoY on Higher Taxes",
-        "source": "The Indian Awaaz"
+        "title": "Ex-RBI governor urges GST council to treat UPI as public good & keep it tax-free",
+        "source": "The New Indian Express"
       },
       {
-        "title": "India Shelter Finance to issue ₹100 crore NCDs at 8.10%",
-        "source": "scanx.trade"
+        "title": "VC funding for September 2026 sees a 8.2% dip",
+        "source": "YourStory.com"
       },
       {
-        "title": "Swiss President Parmelin on 3-Day India Visit, Trade and Investment High on Agenda",
-        "source": "The Indian Awaaz"
+        "title": "Fintech startup Oolka in talks to raise $45 million from Bessemer, Prosus and others",
+        "source": "Moneycontrol.com"
       }
     ],
     "geopolitics": [
       {
-        "title": "How effective is Efta deal thus far: Swiss prez starts India visit on Oct 5",
-        "source": "business-standard.com"
+        "title": "Swiss President Parmelin hails TEPA Free Trade Deal as \"win-win\" model for India and Switzerland",
+        "source": "ANI News"
       },
       {
-        "title": "Swiss President Parmelin on 3-Day India Visit, Trade and Investment High on Agenda",
-        "source": "The Indian Awaaz"
+        "title": "‘First Trade Deal With a European Bloc’: India, Switzerland Seal Pacts as Modi Eyes $100 Bn Investment",
+        "source": "Open Magazine"
+      },
+      {
+        "title": "Modi, Swiss President sign 5 MoUs, bet big on innovation, infra, people-to-people ties",
+        "source": "The Federal"
+      },
+      {
+        "title": "India-EFTA trade deal takes on new significance",
+        "source": "The Indian EYE"
       }
     ],
     "world_60": [
       {
-        "title": "Oil prices climb after Yemen's Houthi rebels attack Saudi Aramco sites",
-        "source": "business-standard.com"
+        "title": "Gold, silver prices today: Why US yields and dollar remain key for bullion",
+        "source": "CNBC TV18"
       },
       {
-        "title": "Oil Price Today (October 5): Crude oil dips to $101 despite simmering Iran war tensions. Here’s why",
-        "source": "The Economic Times"
+        "title": "US stocks open mixed as investors weigh Treasury yields, Fed outlook",
+        "source": "IndiaIPO"
       },
       {
-        "title": "Gold inches up as October Fed rate hike prospects fade",
-        "source": "The Economic Times"
+        "title": "Gold holds near $4,138 as ISM prices keep yields elevated - Kitco PM Report",
+        "source": "kitco.com"
       },
       {
-        "title": "Scottish salmon exporters launch landmark India trade mission",
-        "source": "fishfarmermagazine.com"
+        "title": "D-Street snaps eight-week losing streak",
+        "source": "BusinessLine"
       }
     ],
     "ipo_desk": [
       {
-        "title": "RK Fashion Accessories IPO Opens October 5; Price Band Set at Rs. 77-82",
-        "source": "Dalal Street Investment Journal"
-      },
-      {
-        "title": "Orient Cables shares to list today; GMP signals 45% premium over issue price",
-        "source": "The Economic Times"
-      },
-      {
-        "title": "Acme India Industries IPO Day 3: Subscription Status on 5 October 2026",
+        "title": "Acme India Industries IPO Day 4: Subscription Closes Today, 6 October 2026",
         "source": "Univest"
+      },
+      {
+        "title": "Acme India Industries IPO Allotment Status: 3.76x Subscribed, Check Online",
+        "source": "Univest"
+      },
+      {
+        "title": "SRIT India IPO Listing Today: Shares May Debut With Strong Premium At Nearly Rs 190 Vs Rs 130 Issue Price",
+        "source": "News18"
+      },
+      {
+        "title": "Shah Investor's Home IPO listing: Stock opens at ₹171 on NSE, BSE",
+        "source": "CNBC TV18"
       }
     ],
-    "market_data": "Yahoo Finance (computed, session 2026-10-05)",
+    "market_data": "Yahoo Finance (computed, session 2026-10-06)",
     "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
   }
 }
