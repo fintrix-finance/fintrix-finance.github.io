@@ -1,61 +1,61 @@
 {
-  "updated_ist": "2026-10-09",
+  "updated_ist": "2026-10-10",
   "cover": {
-    "big_story_teaser": "Inside the RBI's surprise rate hike to 5.50% and its new policy stance.",
-    "venture_teaser": "DailyObjects secures ₹332 crore in Series C funding led by Xponentia Capital.",
-    "market_watch_teaser": "LIVE AS OF 12:34 PM IST: Nifty 50 22,478.30 ▲ 1.11%",
-    "daily_brief_teaser": "TCS Q2 profit hits ₹13,884 crore while India targets $1 trillion in exports",
-    "inbrief_2": "TCS Q2 Profit Hits ₹13,884 Crore",
-    "inbrief_3": "India Eyes $1 Trillion Export Goal",
-    "inbrief_4": "IT Rally Drives Market Rebound",
-    "inbrief_1": "India-EU FTA Set for Dec Signing"
+    "big_story_teaser": "Jio Platforms targets a record ₹30,200 crore raise with its upcoming mega IPO.",
+    "venture_teaser": "Wealth tech startup Zomint raises ₹36 crore from Lightspeed and Prime Venture Partners.",
+    "market_watch_teaser": "As of 2026-10-09 close: Nifty 50 22,520.45 ▲ 1.30%",
+    "daily_brief_teaser": "RBI acts on rupee and oil; WTTC summit heads to India",
+    "inbrief_2": "WTTC Global Summit 2027",
+    "inbrief_3": "Groww Nifty India ETF",
+    "inbrief_4": "TradingView Updates",
+    "inbrief_1": "India-US Trade: Policy Friction"
   },
   "big_story": {
-    "headline": "The RBI's Calibrated Tightening Pivot",
-    "subhead": "THE RESERVE BANK OF INDIA HIKES THE REPO RATE TO 5.50% TO COMBAT INFLATIONARY PRESSURES",
+    "headline": "Jio Targets Record Listing",
+    "subhead": "RELIANCE DIGITAL ARM SETS IPO PRICE BAND TO RAISE UP TO ₹30,200 CRORE",
     "paragraphs": [
-      "In a significant policy move, the Reserve Bank of India has hiked the repo rate to 5.50% and shifted its stance to calibrated tightening. This decision comes as the central bank navigates growing job complexity and seeks to deliver an adequate response to inflation. Despite the rate hike, the India-US bond yield spread remains near a 22-year low as global yields also adjust.",
-      "The pivot highlights the central bank's focus on maintaining fiscal prudence and managing domestic inflation. While the domestic economy has been strengthened by infrastructure investment and reforms, global pressures continue to complicate the monetary landscape. The policy shift aims to anchor inflation expectations while supporting the country's broader economic momentum.",
-      "For financial markets, the rate hike introduces a new phase of calibrated tightening that investors must carefully navigate. In today's session so far, the Nifty 50 rose 1.11% to 22,478.30, showing that equity markets are taking the policy tightening in stride. Analysts will be closely watching how the banking sector adapts to these higher borrowing costs in the coming quarters."
+      "Jio Platforms is preparing for India's biggest initial public offering with a targeted valuation of ₹10.3 lakh crore. The digital arm of Reliance Industries has reportedly set its price band between ₹1,065 and ₹1,119 per share. The company aims to raise up to ₹30,200 crore through this market debut. Sources indicate that this listing could value the telecom giant at approximately $106 billion.",
+      "The mega listing comes as conglomerate Reliance Industries looks to unlock value from its digital and telecom operations. Investors have closely watched the price band disclosure following weeks of market speculation. By fixing the upper band at ₹1,119, the firm establishes a clear benchmark for public investors. This issue is set to become one of the most prominent capital market events in domestic corporate history.",
+      "Market participants are evaluating how this massive liquidity requirement will impact broader equity flows. The listing will provide fresh domestic scale while testing retail and institutional appetite. Market watchers will closely observe allotment details and subscription metrics as the issue proceeds toward completion. The capital raised will mark a major structural milestone for the digital giant."
     ],
-    "pullbox": "The RBI's shift to calibrated tightening and a 5.50% repo rate signals a proactive stance against inflation, even as global bond yield spreads test historic lows.",
+    "pullbox": "Jio Platforms aims to raise ₹30,200 crore at a valuation of ₹10.3 lakh crore, setting a new benchmark for Indian market listings.",
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
-      "alt": "Reserve Bank of India"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Reliance_Jio_Logo.svg/960px-Reliance_Jio_Logo.svg.png",
+      "alt": "Jio"
     }
   },
   "explains": {
-    "title": "What is Calibrated Tightening?",
+    "title": "What is an IPO Price Band?",
     "paragraphs": [
-      "Calibrated tightening is a monetary policy stance where the central bank signals that it is on a path of raising interest rates, but will do so in a gradual, measured manner. It rules out any rate cuts in the immediate future while keeping the door open for further hikes depending on economic data.",
-      "In practice, this stance helps manage inflation expectations without shocking the financial system. By raising the repo rate to 5.50%, the RBI aims to curb excess liquidity and cool down price pressures while ensuring that credit remains available for productive sectors of the economy."
+      "An IPO price band is the minimum and maximum price range within which investors can bid for shares in an initial public offering. The lower figure is known as the floor price, while the higher figure is the cap price.",
+      "During the subscription window, institutional and retail bidders submit orders specifying the quantity and price within this range. Once bidding closes, the issuing firm calculates the final offer price based on overall market demand."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Indian lifestyle and design startup DailyObjects has successfully raised ₹332 crore in its Series C funding round. The funding round was led by private equity firm Xponentia Capital. DailyObjects plans to utilize this capital to fuel its next phase of growth and expand its product portfolio.",
-      "This significant capital injection highlights the growing investor confidence in India's consumer brand ecosystem. By securing backing from prominent investors like Xponentia Capital, the startup is well-positioned to scale its operations and strengthen its market presence."
+      "Wealth management startup Zomint has successfully raised ₹36 crore in its latest funding round. The investment was led by prominent venture capital firms Lightspeed and Prime Venture Partners. The startup provides technology-driven wealth management services to growing investor segments.",
+      "The fresh capital injection will help the company expand its service offerings and technological capabilities. Backing from established venture capital investors highlights ongoing interest in digital financial services across India. The funding round positions Zomint to scale its wealth tech operations."
     ]
   },
   "market_watch": {
     "indian": [
       {
         "name": "Sensex",
-        "value": "72,329.88 ▲ 1.03%",
+        "value": "72,472.33 ▲ 1.23%",
         "dir": "up",
-        "live": true
+        "session_date": "2026-10-09"
       },
       {
         "name": "Nifty 50",
-        "value": "22,478.30 ▲ 1.11%",
+        "value": "22,520.45 ▲ 1.30%",
         "dir": "up",
-        "live": true
+        "session_date": "2026-10-09"
       },
       {
         "name": "Nifty Bank",
-        "value": "55,154.15 ▲ 1.17%",
+        "value": "55,256.65 ▲ 1.36%",
         "dir": "up",
-        "live": true
+        "session_date": "2026-10-09"
       }
     ],
     "asian": [
@@ -67,13 +67,13 @@
       },
       {
         "name": "Hang Seng",
-        "value": "23,785.79 ▼ 1.43%",
-        "dir": "down",
-        "session_date": "2026-10-08"
+        "value": "24,211.35 ▲ 1.79%",
+        "dir": "up",
+        "session_date": "2026-10-09"
       },
       {
         "name": "Shanghai Comp.",
-        "value": "3,819.30 ▲ 0.19%",
+        "value": "3,813.79 ▲ 0.05%",
         "dir": "up",
         "session_date": "2026-10-09"
       }
@@ -81,96 +81,91 @@
     "european": [
       {
         "name": "FTSE 100",
-        "value": "10,441.60 ▼ 0.16%",
-        "dir": "down",
-        "session_date": "2026-10-08"
+        "value": "10,552.05 ▲ 1.06%",
+        "dir": "up",
+        "session_date": "2026-10-09"
       },
       {
         "name": "DAX",
-        "value": "24,806.97 ▼ 1.18%",
-        "dir": "down",
-        "session_date": "2026-10-08"
+        "value": "25,087.27 ▲ 1.13%",
+        "dir": "up",
+        "session_date": "2026-10-09"
       },
       {
         "name": "CAC 40",
-        "value": "7,729.69 ▼ 0.51%",
-        "dir": "down",
-        "session_date": "2026-10-08"
+        "value": "7,803.33 ▲ 0.95%",
+        "dir": "up",
+        "session_date": "2026-10-09"
       }
     ],
     "us": [
       {
         "name": "S&P 500",
-        "value": "7,765.36 ▼ 0.47%",
-        "dir": "down",
-        "session_date": "2026-10-08"
+        "value": "7,811.54 ▲ 0.59%",
+        "dir": "up",
+        "session_date": "2026-10-09"
       },
       {
         "name": "Nasdaq",
-        "value": "27,193.34 ▼ 1.25%",
-        "dir": "down",
-        "session_date": "2026-10-08"
+        "value": "27,366.17 ▲ 0.64%",
+        "dir": "up",
+        "session_date": "2026-10-09"
       },
       {
         "name": "Dow Jones",
-        "value": "51,231.64 ▲ 0.10%",
+        "value": "51,654.90 ▲ 0.83%",
         "dir": "up",
-        "session_date": "2026-10-08"
+        "session_date": "2026-10-09"
       }
     ],
     "global": [
       {
         "name": "Dollar Index",
-        "value": "102.14 ▼ 0.10%",
-        "dir": "down",
-        "session_date": "2026-10-08"
+        "value": "102.23 ▲ 0.09%",
+        "dir": "up",
+        "session_date": "2026-10-09"
       },
       {
         "name": "Brent Crude",
-        "value": "$104.28/bbl",
+        "value": "$104.43/bbl",
         "dir": "up",
-        "session_date": "2026-10-08"
+        "session_date": "2026-10-09"
       },
       {
         "name": "Gold",
-        "value": "$4,157/oz",
+        "value": "$4,220/oz",
         "dir": "up",
-        "session_date": "2026-10-08"
+        "session_date": "2026-10-09"
       },
       {
         "name": "US 10Y Yield",
-        "value": "5.23% ▼ 4.6 bp",
-        "dir": "down",
-        "session_date": "2026-10-08"
+        "value": "5.24% ▲ 1.3 bp",
+        "dir": "up",
+        "session_date": "2026-10-09"
       }
     ],
     "losers": [
-      "Adani Enterprises",
+      "Reliance Industries",
       "JSW Steel",
-      "ITC"
+      "Cipla"
     ],
     "winners": [
-      "Infosys",
-      "Tech Mahindra",
-      "Axis Bank"
+      "Apollo Hospitals",
+      "ITC",
+      "Eicher Motors"
     ],
-    "snapshot_strip": "The Nifty rose 1.11% in today's session so far",
+    "snapshot_strip": "IT and FMCG led as the Nifty rose 1.30%",
     "date_label": "OCT 2026",
-    "close_label": "LIVE AS OF 12:34 PM IST",
-    "live": true,
+    "close_label": "AS OF FRIDAY'S CLOSE, OCT 9",
     "session_date": "2026-10-09",
     "ipo_desk": [
       {
-        "name": "Fusion CX",
-        "note": "₹702 cr IPO price band set at ₹275-289"
+        "name": "HD Fire Protect",
+        "note": "IPO details and review updates announced"
       },
       {
-        "name": "Acme India Industries",
-        "note": "Lists at 13% premium on BSE SME"
-      },
-      {
-        "name": "Paramount Syntex",
-        "note": "SME IPO scheduled to list today"
+        "name": "Sollfege Smart Electronics",
+        "note": "Grey market premium figures released"
       }
     ]
   },
@@ -179,46 +174,46 @@
       {
         "name": "Gold",
         "unit": "$/oz",
-        "price": "4,157",
-        "day": "▲ 0.39%",
-        "week": "▼ 1.08%",
+        "price": "4,220",
+        "day": "▲ 1.52%",
+        "week": "▲ 1.39%",
         "dir": "up",
-        "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,9.2 8.3,11.4 12.4,15.3 16.6,14.4 20.7,8.7 24.8,11.6 29.0,13.3 33.1,12.3 37.2,14.8 41.4,14.7 45.5,17.3 49.7,18.2 53.8,15.7 57.9,15.1 62.1,14.0 66.2,15.8 70.3,16.2 74.5,18.9 78.6,19.8 82.8,18.7 86.9,25.7 91.0,25.2 95.2,24.9 99.3,24.2 103.4,26.0 107.6,26.3 111.7,24.9 115.9,27.0 120.0,26.3\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"26.3\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
-        "session_date": "2026-10-08"
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.6 4.1,6.5 8.3,11.6 12.4,10.5 16.6,3.0 20.7,6.8 24.8,9.1 29.0,7.8 33.1,11.0 37.2,10.9 41.4,14.3 45.5,15.5 49.7,12.2 53.8,11.4 57.9,9.9 62.1,12.4 66.2,12.8 70.3,16.3 74.5,17.5 78.6,16.1 82.8,25.3 86.9,24.7 91.0,24.2 95.2,23.3 99.3,25.7 103.4,26.0 107.6,24.2 111.7,27.0 115.9,26.0 120.0,22.2\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"22.2\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-09"
       },
       {
         "name": "Silver",
         "unit": "$/oz",
-        "price": "59.06",
-        "day": "▼ 1.39%",
-        "week": "▼ 2.74%",
-        "dir": "down",
-        "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,8.6 8.3,10.4 12.4,14.1 16.6,13.9 20.7,8.7 24.8,10.8 29.0,10.3 33.1,6.4 37.2,14.9 41.4,14.3 45.5,16.7 49.7,17.3 53.8,14.9 57.9,12.2 62.1,9.7 66.2,11.3 70.3,11.1 74.5,14.7 78.6,16.8 82.8,15.0 86.9,22.0 91.0,23.3 95.2,24.6 99.3,23.2 103.4,24.9 107.6,22.8 111.7,22.1 115.9,25.1 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
-        "session_date": "2026-10-08"
+        "price": "61.11",
+        "day": "▲ 3.46%",
+        "week": "▲ 1.89%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,5.6 4.1,7.7 8.3,12.0 12.4,11.7 16.6,5.6 20.7,8.1 24.8,7.4 29.0,3.0 33.1,12.9 37.2,12.2 41.4,15.0 45.5,15.7 49.7,12.9 53.8,9.7 57.9,6.7 62.1,8.7 66.2,8.4 70.3,12.6 74.5,15.1 78.6,13.0 82.8,21.2 86.9,22.7 91.0,24.2 95.2,22.5 99.3,24.5 103.4,22.1 107.6,21.3 111.7,24.7 115.9,27.0 120.0,21.5\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"21.5\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-09"
       },
       {
         "name": "Brent Crude",
         "unit": "$/bbl",
-        "price": "104.28",
-        "day": "▲ 4.07%",
-        "week": "▲ 1.93%",
+        "price": "104.43",
+        "day": "▲ 0.14%",
+        "week": "▲ 2.13%",
         "dir": "up",
         "dir_week": "up",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,26.5 4.1,27.0 8.3,25.5 12.4,20.4 16.6,19.2 20.7,19.3 24.8,18.4 29.0,16.4 33.1,12.3 37.2,4.4 41.4,8.1 45.5,6.8 49.7,3.0 53.8,6.6 57.9,7.9 62.1,9.0 66.2,13.4 70.3,14.7 74.5,10.0 78.6,5.7 82.8,8.5 86.9,7.3 91.0,10.6 95.2,9.4 99.3,11.0 103.4,11.0 107.6,13.4 111.7,13.1 115.9,13.6 120.0,8.5\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"8.5\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
-        "session_date": "2026-10-08"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,27.0 4.1,25.5 8.3,20.4 12.4,19.2 16.6,19.3 20.7,18.4 24.8,16.4 29.0,12.3 33.1,4.4 37.2,8.1 41.4,6.8 45.5,3.0 49.7,6.6 53.8,7.9 57.9,9.0 62.1,13.4 66.2,14.7 70.3,10.0 74.5,5.7 78.6,8.5 82.8,7.3 86.9,10.6 91.0,9.4 95.2,11.0 99.3,11.0 103.4,13.4 107.6,13.1 111.7,13.6 115.9,8.5 120.0,8.3\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"8.3\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-09"
       },
       {
         "name": "WTI Crude",
         "unit": "$/bbl",
-        "price": "91.49",
-        "day": "▲ 3.64%",
-        "week": "▼ 1.49%",
+        "price": "91.66",
+        "day": "▲ 0.19%",
+        "week": "▲ 0.60%",
         "dir": "up",
-        "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,26.9 4.1,27.0 8.3,24.5 12.4,19.7 16.6,18.9 20.7,18.5 24.8,18.4 29.0,16.7 33.1,13.5 37.2,6.6 41.4,9.2 45.5,7.8 49.7,3.0 53.8,6.6 57.9,7.2 62.1,8.9 66.2,13.8 70.3,15.0 74.5,17.6 78.6,15.0 82.8,17.4 86.9,17.2 91.0,20.6 95.2,19.5 99.3,16.9 103.4,18.8 107.6,20.5 111.7,20.5 115.9,21.8 120.0,18.3\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"18.3\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
-        "session_date": "2026-10-08"
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,27.0 4.1,24.5 8.3,19.7 12.4,18.9 16.6,18.5 20.7,18.4 24.8,16.7 29.0,13.5 33.1,6.6 37.2,9.2 41.4,7.8 45.5,3.0 49.7,6.6 53.8,7.2 57.9,8.9 62.1,13.8 66.2,15.0 70.3,17.6 74.5,15.0 78.6,17.4 82.8,17.2 86.9,20.6 91.0,19.5 95.2,16.9 99.3,18.8 103.4,20.5 107.6,20.5 111.7,21.8 115.9,18.3 120.0,18.2\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"18.2\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-09"
       }
     ],
     "alternatives": [
@@ -233,12 +228,12 @@
       },
       {
         "name": "Nexus Select REIT",
-        "price": "₹164.66",
-        "day": "▼ 0.09%",
-        "week": "▼ 0.02%",
-        "dir": "down",
+        "price": "₹164.82",
+        "day": "▲ 0.10%",
+        "week": "▼ 1.48%",
+        "dir": "up",
         "dir_week": "down",
-        "session_date": "2026-10-07"
+        "session_date": "2026-10-08"
       },
       {
         "name": "Mindspace REIT",
@@ -251,101 +246,101 @@
       },
       {
         "name": "Brookfield REIT",
-        "price": "₹329.60",
-        "day": "▼ 0.09%",
-        "week": "▼ 1.27%",
+        "price": "₹323.16",
+        "day": "▼ 1.95%",
+        "week": "▼ 3.83%",
         "dir": "down",
         "dir_week": "down",
-        "session_date": "2026-10-07"
+        "session_date": "2026-10-08"
       },
       {
         "name": "PowerGrid InvIT",
-        "price": "₹102.48",
-        "day": "▲ 0.24%",
-        "week": "▲ 0.44%",
+        "price": "₹102.54",
+        "day": "▲ 0.06%",
+        "week": "▲ 0.13%",
         "dir": "up",
         "dir_week": "up",
-        "session_date": "2026-10-07"
+        "session_date": "2026-10-08"
       }
     ],
     "caps": [
       {
         "name": "Nifty 50",
         "tag": "Large cap",
-        "level": "22,231.80",
-        "day": -1.64,
-        "week": -1.72,
-        "month": -6.51,
-        "day_txt": "▼ 1.64%",
-        "week_txt": "▼ 1.72%",
-        "month_txt": "▼ 6.51%",
-        "dir": "down",
-        "dir_week": "down",
+        "level": "22,520.45",
+        "day": 1.3,
+        "week": 0.44,
+        "month": -4.72,
+        "day_txt": "▲ 1.30%",
+        "week_txt": "▲ 0.44%",
+        "month_txt": "▼ 4.72%",
+        "dir": "up",
+        "dir_week": "up",
         "dir_month": "down",
-        "session_date": "2026-10-08"
+        "session_date": "2026-10-09"
       },
       {
         "name": "Nifty Midcap 150",
         "tag": "Mid cap",
-        "level": "21,311.50",
-        "day": -2.41,
-        "week": -2.54,
-        "month": -7.59,
-        "day_txt": "▼ 2.41%",
-        "week_txt": "▼ 2.54%",
-        "month_txt": "▼ 7.59%",
-        "dir": "down",
+        "level": "21,603.25",
+        "day": 1.37,
+        "week": -0.19,
+        "month": -6.44,
+        "day_txt": "▲ 1.37%",
+        "week_txt": "▼ 0.19%",
+        "month_txt": "▼ 6.44%",
+        "dir": "up",
         "dir_week": "down",
         "dir_month": "down",
-        "session_date": "2026-10-08"
+        "session_date": "2026-10-09"
       },
       {
         "name": "Nifty Smallcap 250",
         "tag": "Small cap",
-        "level": "17,488.30",
-        "day": -2.4,
-        "week": -1.74,
-        "month": -5.39,
-        "day_txt": "▼ 2.40%",
-        "week_txt": "▼ 1.74%",
-        "month_txt": "▼ 5.39%",
-        "dir": "down",
+        "level": "17,574.85",
+        "day": 0.49,
+        "week": -0.08,
+        "month": -5.14,
+        "day_txt": "▲ 0.49%",
+        "week_txt": "▼ 0.08%",
+        "month_txt": "▼ 5.14%",
+        "dir": "up",
         "dir_week": "down",
         "dir_month": "down",
-        "session_date": "2026-10-08"
+        "session_date": "2026-10-09"
       }
     ],
-    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"100.0\" width=\"22\" height=\"13.4\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"125.4\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.6</text><rect x=\"62.3\" y=\"100.0\" width=\"22\" height=\"14.1\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"126.1\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.7</text><rect x=\"90.3\" y=\"100.0\" width=\"22\" height=\"53.2\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"165.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-6.5</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"100.0\" width=\"22\" height=\"19.7\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"131.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-2.4</text><rect x=\"169.0\" y=\"100.0\" width=\"22\" height=\"20.7\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"132.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-2.5</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-7.6</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"100.0\" width=\"22\" height=\"19.6\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"131.6\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-2.4</text><rect x=\"275.7\" y=\"100.0\" width=\"22\" height=\"14.2\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"126.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.7</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"44.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"156.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-5.4</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"87.5\" width=\"22\" height=\"12.5\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"82.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.3</text><rect x=\"62.3\" y=\"95.8\" width=\"22\" height=\"4.2\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"90.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.4</text><rect x=\"90.3\" y=\"100.0\" width=\"22\" height=\"45.4\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"157.4\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-4.7</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"86.8\" width=\"22\" height=\"13.2\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"81.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.4</text><rect x=\"169.0\" y=\"100.0\" width=\"22\" height=\"1.8\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"113.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.2</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-6.4</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"95.3\" width=\"22\" height=\"4.7\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"90.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.5</text><rect x=\"275.7\" y=\"100.0\" width=\"22\" height=\"0.8\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"112.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.1</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"49.5\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"161.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-5.1</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
     "funds": [
       {
         "name": "ICICI Pru Large Cap",
         "cat": "Large cap",
-        "nav": "₹111.20",
-        "day": "▼ 1.65%",
-        "week": "▼ 1.78%",
-        "dir": "down",
-        "dir_week": "down",
-        "session_date": "2026-10-08"
+        "nav": "₹112.53",
+        "day": "▲ 1.20%",
+        "week": "▲ 0.21%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-09"
       },
       {
         "name": "MO Midcap 150 Index",
         "cat": "Mid cap",
-        "nav": "₹38.69",
-        "day": "▼ 2.41%",
-        "week": "▼ 2.53%",
-        "dir": "down",
+        "nav": "₹39.22",
+        "day": "▲ 1.37%",
+        "week": "▼ 0.18%",
+        "dir": "up",
         "dir_week": "down",
-        "session_date": "2026-10-08"
+        "session_date": "2026-10-09"
       },
       {
         "name": "Nippon Small Cap",
         "cat": "Small cap",
-        "nav": "₹200.94",
-        "day": "▼ 2.32%",
-        "week": "▼ 1.79%",
-        "dir": "down",
-        "dir_week": "down",
-        "session_date": "2026-10-08"
+        "nav": "₹202.30",
+        "day": "▲ 0.68%",
+        "week": "▲ 0.00%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-09"
       },
       {
         "name": "Parag Parikh Flexi Cap",
@@ -359,213 +354,173 @@
       }
     ],
     "date_label": "OCT 2026",
-    "close_label": "CLOSE OF OCT 8",
-    "session_date": "2026-10-08",
+    "close_label": "AS OF FRIDAY'S CLOSE, OCT 9",
+    "session_date": "2026-10-09",
     "nav_label": "NAVS AS OF OCT 8"
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "India | Corporate Earnings",
-      "headline": "TCS Q2 Profit Rises 15% to ₹13,884 Crore",
+      "kicker": "Global Events",
+      "headline": "India Selected to Host WTTC Global Summit 2027",
       "paragraphs": [
-        "Tata Consultancy Services reported a strong performance for the second quarter of FY27, with net profit rising 15% year-on-year to ₹13,884 crore. The IT major's revenue increased by 11.2% during the same period, showcasing resilient growth. Following the earnings announcement, TCS shares jumped 5.46% in today's trading session.",
-        "The company's operating margins remained flat, but its artificial intelligence deal flow is slowly picking up. Notably, AI projects have now crossed 10% of the company's topline, marking a significant milestone in its technology pivot."
+        "India has officially been selected to host the prestigious WTTC Global Summit 2027. Recognized widely as the world's most important tourism event, the gathering brings together global industry leaders and policymakers.",
+        "The announcement highlights the nation's growing prominence on the international tourism stage. Preparations for the landmark event are already drawing significant attention from hospitality and travel sectors."
       ],
       "image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Mumbai_Bandra-Worli_Sea_Link.jpg",
-        "alt": "Mumbai"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+        "alt": "Reserve Bank of India"
       }
     },
     "story_2": {
-      "kicker": "India | International Trade",
-      "headline": "India Targets $1 Trillion Exports Despite Weak Outlook",
+      "kicker": "Index Funds",
+      "headline": "Groww Nifty India Internet ETF Charts Performance",
       "paragraphs": [
-        "Union Minister Piyush Goyal announced that India is confident of achieving its ambitious target of $1 trillion in exports this fiscal year. Despite a weak global trade outlook and structural challenges, the government expects to sustain economic growth of over 7%.",
-        "Speaking at the CII Partnership Summit curtain raiser, Goyal emphasized that India's domestic momentum remains robust. The country is actively pursuing trade agreements, including an upcoming FTA with the European Union expected to be signed in December."
+        "The Groww Nifty India Internet ETF has published its latest live price charts and performance metrics on NSE and BSE platforms. Investors continue to monitor digital economy baskets closely.",
+        "Exchange-traded funds focusing on internet enterprises reflect shifting retail allocation trends. Market participants track these instruments for insights into broader sector momentum."
       ]
     },
     "story_3": {
-      "kicker": "India | Stock Markets",
-      "headline": "IT Stocks Propel Sensex and Nifty Rebound",
+      "kicker": "Market Intelligence",
+      "headline": "TradingView Releases CNBC TV18 Broadcast Feeds",
       "paragraphs": [
-        "Indian benchmark indices witnessed a strong rebound in today's session, with the Nifty 50 rising 1.11% to 22,478.30 and the Sensex climbing 1.03% to 72,329.88. The rally was primarily driven by major IT stocks like TCS, Infosys, and Tech Mahindra, which surged up to 5% following positive earnings sentiment."
+        "TradingView has integrated the latest market intelligence feeds from CNBC TV18 to aid technical analysis. Traders across domestic desks utilize these real-time charts for improved execution."
       ]
     },
     "also_today": {
       "items": [
-        "GQG Partners sells ₹24,400 crore of Indian equities in 2026, exiting ITC and Adani shares.",
-        "DailyObjects raises ₹332 crore in Series C funding round led by Xponentia Capital.",
-        "India and 14 other nations sign a joint ministerial statement to curb global excess capacity.",
-        "Pune-based AI startup CurvetAI raises ₹6 crore to build complex task-handling AI agents."
+        "RBI Governor notes 25-basis-point repo rate hike is unlikely to impact broader economic expansion.",
+        "SBI Research urges the Reserve Bank of India to prioritize currency stability alongside inflation.",
+        "World Bank lifts India's growth outlook to 7.1 percent as RBI signals calibrated tightening.",
+        "Affordable housing emerges as a major casualty of India's ongoing property boom, says expert."
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India x EU | Trade Deal",
-    "headline": "India-EU FTA Set for December Signing, Mid-2027 Rollout",
+    "kicker": "India x US | Trade Relations",
+    "headline": "India-US Trade Deal Faces Policy Friction",
     "paragraphs": [
-      "India and the European Union are scheduled to sign a landmark Free Trade Agreement in December. According to EU ambassador Paquet, the trade deal is expected to officially take effect by mid-2027. The agreement represents a key milestone in formalizing economic ties and expanding market opportunities between India and European markets.",
-      "While the December signing establishes the formal pact, full implementation will stretch to mid-2027. The timeline gives businesses and exporters lead time to adjust to new trade conditions. Strategic planners will be closely evaluating how the deal impacts long-term investment flows between both regions."
+      "Economic tensions between India and the US are becoming more visible amid tougher US immigration policies and trade uncertainty. Following Finance Minister Nirmala Sitharaman's plateau remark, officials clarified that the trade agreement is done and only fine print remains. However, political dynamics surrounding the 2026 US midterms indicate a Democratic House may not necessarily ease tariff pressure on Indian goods.",
+      "Strategic friction is growing as observers note the US wants India's power without accommodating its strategic autonomy. In response to persistent trade uncertainty, India's pharma industry is officially looking beyond the USA for growth. Businesses must now recalibrate supply chains to navigate shifting tariffs, immigration restrictions, and evolving trade terms."
     ],
     "world_60": [
-      "UAE and Thailand conclude talks on landmark trade agreement",
-      "UK Trade Minister leads Great North delegation to India",
-      "Crude oil dips 1% to $103 as Trump cites talks with Iran",
-      "Indian bond yields edge lower at opening on softer US treasuries"
+      "Trump announces Russian diesel deal to curb soaring US fuel prices",
+      "UNCTAD forecasts global trade growth slowing to 4% in 2026 from 4.4%",
+      "Swiss-India trade deal turns one as watch imports gain while pharma waits",
+      "Gold adds over 1% as global oil prices ease and US dollar softens"
     ],
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg/3840px-European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg",
-      "alt": "Seat of the European Parliament in Strasbourg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Am_11._April_2025_empfing_Au%C3%9Fenministerin_Beate_Meinl-Reisinger_die_indische_Finanzministerin_Nirmala_Sitharaman_in_Wien_%2854445397025%29_%28cropped%29.jpg",
+      "alt": "Nirmala Sitharaman"
     }
   },
   "sources": {
     "big_story": [
       {
-        "title": "RBI hikes repo rate to 5.50%; shifts policy stance to ‘calibrated tightening’",
-        "source": "SCC Online"
+        "title": "India's Jio Platforms targets $106 billion valuation in IPO, sources say",
+        "source": "Reuters"
       },
       {
-        "title": "Adequate response: on the RBI and inflation",
-        "source": "The Hindu"
+        "title": "Ambani’s Jio Said to Set IPO Price Band at 1,065-1,119 Rupees",
+        "source": "Bloomberg.com"
       },
       {
-        "title": "India-US bond yield spread stays near 22-year low despite RBI rate hike",
-        "source": "Business Standard"
+        "title": "Jio Platforms Sets IPO Price Band at Up to ₹1,119, Targeting Record ₹30,200 Crore Raise",
+        "source": "BigGo Finance"
       },
       {
-        "title": "RBI has pivoted even as its job complexity grows",
-        "source": "PressReader"
+        "title": "Jio Platforms IPO: RIL digital arm to raise ₹30,200 crore at ₹1,065-1,119 apiece; valuation pegged at ₹10.3 lakh crore",
+        "source": "Fortune India"
       }
     ],
     "venture_vault": [
       {
-        "title": "{Funding Alert} DailyObjects Raises Rs 332 Cr in Series C Funding Round Led by Xponentia Capital",
-        "source": "Indian Retailer"
+        "title": "Wealth management startup Zomint raises Rs 36 crore from Lightspeed, Prime Venture Partners",
+        "source": "Indian Startup News"
       }
     ],
     "daily_brief_1": [
       {
-        "title": "TCS Share Price Jumps 5.46% After Q2 FY27 Results; Net Profit Rises 4% QoQ to ₹13,884 Crore",
-        "source": "India Infoline"
-      },
-      {
-        "title": "TCS Q2 results: Net profit rises 15% to Rs 13,884 crore, revenue up 11%",
-        "source": "The Times of India"
-      },
-      {
-        "title": "TCS Q2 results: IT major posts 7.6% YoY rise in profit at ₹13,884 crore, revenue rises 11.2%",
-        "source": "Fortune India"
-      },
-      {
-        "title": "TCS Q2 results: Net profit rises 15% to ₹13,884 crore, revenue up 11.2%",
-        "source": "Business Standard"
-      },
-      {
-        "title": "TCS Q2 Results: Net profit at ₹13,884 crore, margins remain flat; AI crosses 10% of topline",
-        "source": "IndiaIPO"
+        "title": "India Selected to Host WTTC Global Summit 2027, the World’s Most Important Tourism Event",
+        "source": "World Travel & Tourism Council"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "India confident of achieving USD 1 trillion export target, sustaining over 7% growth: Piyush Goyal",
-        "source": "India Shipping News"
-      },
-      {
-        "title": "Exports to hit $1 trillion this fiscal: Piyush Goyal",
-        "source": "The Economic Times"
-      },
-      {
-        "title": "India eyes $1 trillion exports despite weak global trade outlook: Piyush Goyal",
-        "source": "Livemint"
-      },
-      {
-        "title": "Piyush Goyal Sets USD 1 Trillion Export Target at CII Partnership Summit Curtain Raiser",
-        "source": "KNN India"
+        "title": "Groww Nifty India Internet ETF Share Price NSE/BSE - Live Price Charts & Performance",
+        "source": "HDFC Sky"
       }
     ],
     "daily_brief_3": [
       {
-        "title": "Why is stock market up today? 'Good Friday' for Sensex, Nifty - 5 biggest contributors to D-Street party",
-        "source": "Livemint"
-      },
-      {
-        "title": "Why Is the Stock Market Rising Today? Sensex Jumps 745 Points, Nifty Gains 1.13%",
-        "source": "India Infoline"
-      },
-      {
-        "title": "Why is market rising today? Sensex jumps 800 points, Nifty above 22,500. 6 key factors driving D-Street re",
-        "source": "The Economic Times"
-      },
-      {
-        "title": "IT stocks propel Sensex over 650 pts, Nifty rebounds 1%; TCS, Infosys, TechM, HCLTech rally up to 5%",
-        "source": "Fortune India"
+        "title": "News by CNBC TV18 on TradingView, 2026-10-10 — cnbctv:5964e1d17094b:0",
+        "source": "TradingView"
       }
     ],
     "also_today": [
       {
-        "title": "GQG Partners sells Rs 24,400 cr worth of Indian stocks in 2026; ITC, Adani shares among key exits",
-        "source": "The Economic Times"
+        "title": "25-basis-point repo rate hike unlikely to impact economic expansion, says RBI Governor",
+        "source": "News On AIR"
       },
       {
-        "title": "Pune AI startup CurvetAI raises Rs 6 crore to build AI agents that can handle complex tasks",
-        "source": "Indian Startup News"
+        "title": "Rupee under pressure: SBI Research wants RBI to prioritise currency stability alongside inflation",
+        "source": "Business Today"
       },
       {
-        "title": "{Funding Alert} DailyObjects Raises Rs 332 Cr in Series C Funding Round Led by Xponentia Capital",
-        "source": "Indian Retailer"
+        "title": "RBI Signals Calibrated Tightening as World Bank Lifts India’s Growth Outlook to 7.1%",
+        "source": "DD India"
       },
       {
-        "title": "India, 14 others ink joint ministerial statement to curb structural excess capacity",
-        "source": "The Economic Times"
+        "title": "Affordable housing is real casualty of India’s property boom: Niranjan Hiranandani",
+        "source": "The Federal"
       }
     ],
     "geopolitics": [
       {
-        "title": "India-EU FTA to be signed in Dec, trade deal expected to take effect by mid-2027: EU ambassador Paquet | India News",
-        "source": "Hindustan Times"
+        "title": "US midterms 2026: Why a Democratic House may not ease Trump's tariff pressure on India",
+        "source": "Business Today"
+      },
+      {
+        "title": "India-US trade agreement: Sitharaman’s ‘plateau’ remark? Deal is done, fine print remains, says...",
+        "source": "Moneycontrol.com"
+      },
+      {
+        "title": "India-US Economic Tensions Become More Visible Amid Tougher US Immigration Policy and Trade Uncertainty",
+        "source": "ETV Bharat"
+      },
+      {
+        "title": "Head-on | US wants India’s power without its strategic autonomy",
+        "source": "Firstpost"
+      },
+      {
+        "title": "India's pharma industry looks beyond USA as trade uncertainty grows",
+        "source": "The Pharma Letter"
       }
     ],
     "world_60": [
       {
-        "title": "UK Trade Minister To Lead ‘Exciting’ Great North Delegation To India",
-        "source": "ETV Bharat"
-      },
-      {
-        "title": "UAE and Thailand conclude talks on landmark trade agreement",
-        "source": "TV BRICS"
-      },
-      {
-        "title": "Oil Price Today (October 9): Crude oil dips 1% to $103 as Trump rules out Iran attack before midterm elect",
+        "title": "Global trade to grow 4% in 2026, slower than 4.4% in 2025: UNCTAD",
         "source": "The Economic Times"
       },
       {
-        "title": "Bond yields edge lower at opening as softer US treasuries offer relief",
-        "source": "Moneycontrol.com"
+        "title": "Explainer: Watches win, pharma waits as Swiss-India trade deal turns one",
+        "source": "SWI swissinfo.ch"
+      },
+      {
+        "title": "Gold adds over 1% on easing oil prices, softer dollar",
+        "source": "BusinessLine"
+      },
+      {
+        "title": "Trump announces Russian diesel deal amid soaring US fuel prices",
+        "source": "Al Jazeera"
       }
     ],
     "ipo_desk": [
       {
-        "title": "Fusion CX IPO Price Set: Rs 275-289, Issue Size Rs 702 Cr",
-        "source": "Rediff MoneyWiz"
+        "title": "HD Fire Protect IPO Date, Review, Price, Allotment Details",
+        "source": "IPO Watch"
       },
       {
-        "title": "Fusion CX sets price band for Rs 702 crore IPO; issue opens on October 14",
-        "source": "The Economic Times"
-      },
-      {
-        "title": "Acme India Industries Jumps 13% After Strong IPO Demand",
-        "source": "HDFC Sky"
-      },
-      {
-        "title": "Acme India Industries shares list at 13% premium on BSE SME; here's how much investors made per lot",
-        "source": "Upstox"
-      },
-      {
-        "title": "3 SME IPOs to list today: Acme India Industries, TNA Solutions, Paramount Syntex; check key details",
-        "source": "The Economic Times"
-      },
-      {
-        "title": "Paramount Syntex IPO Date, Review, Price, Allotment Details",
+        "title": "Sollfege Smart Electronics IPO GMP, Grey Market Premium Today",
         "source": "IPO Watch"
       }
     ],
