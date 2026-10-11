@@ -1,40 +1,40 @@
 {
-  "updated_ist": "2026-10-10",
+  "updated_ist": "2026-10-11",
   "cover": {
-    "big_story_teaser": "Jio Platforms targets a record ₹30,200 crore raise with its upcoming mega IPO.",
-    "venture_teaser": "Wealth tech startup Zomint raises ₹36 crore from Lightspeed and Prime Venture Partners.",
+    "big_story_teaser": "RBI steps in to support rupee as forex reserves dip",
+    "venture_teaser": "Gramiyaa raises Rs 18.65 crore in Series A funding",
     "market_watch_teaser": "As of 2026-10-09 close: Nifty 50 22,520.45 ▲ 1.30%",
-    "daily_brief_teaser": "RBI acts on rupee and oil; WTTC summit heads to India",
-    "inbrief_2": "WTTC Global Summit 2027",
-    "inbrief_3": "Groww Nifty India ETF",
-    "inbrief_4": "TradingView Updates",
-    "inbrief_1": "India-US Trade: Policy Friction"
+    "daily_brief_teaser": "TCS profit surges, DMart reports Q2 results, and KEC bags orders",
+    "inbrief_2": "TCS Q2 profit rises",
+    "inbrief_3": "DMart Q2 results announced",
+    "inbrief_4": "KEC wins transmission orders",
+    "inbrief_1": "India-EU FTA: Absolute Game Changer"
   },
   "big_story": {
-    "headline": "Jio Targets Record Listing",
-    "subhead": "RELIANCE DIGITAL ARM SETS IPO PRICE BAND TO RAISE UP TO ₹30,200 CRORE",
+    "headline": "Defending the Rupee",
+    "subhead": "RBI STEPS UP INTERVENTION AS THE CURRENCY FACES INTENSE PRESSURE",
     "paragraphs": [
-      "Jio Platforms is preparing for India's biggest initial public offering with a targeted valuation of ₹10.3 lakh crore. The digital arm of Reliance Industries has reportedly set its price band between ₹1,065 and ₹1,119 per share. The company aims to raise up to ₹30,200 crore through this market debut. Sources indicate that this listing could value the telecom giant at approximately $106 billion.",
-      "The mega listing comes as conglomerate Reliance Industries looks to unlock value from its digital and telecom operations. Investors have closely watched the price band disclosure following weeks of market speculation. By fixing the upper band at ₹1,119, the firm establishes a clear benchmark for public investors. This issue is set to become one of the most prominent capital market events in domestic corporate history.",
-      "Market participants are evaluating how this massive liquidity requirement will impact broader equity flows. The listing will provide fresh domestic scale while testing retail and institutional appetite. Market watchers will closely observe allotment details and subscription metrics as the issue proceeds toward completion. The capital raised will mark a major structural milestone for the digital giant."
+      "The Reserve Bank of India has stepped up its defense of the domestic currency as forex reserves dip significantly over the past month. Policymakers are deploying multiple strategies, including raising the daily CRR requirement to 99% starting from October 16, to manage liquidity and stabilize the exchange rate. These aggressive moves have sparked intense debate among economists regarding how far central bank interventions can go.",
+      "As the rupee nears record lows, the central bank is borrowing playbooks from global peers to shore up the currency without sacrificing broader economic growth. Forex reserves have seen a notable drawdown as authorities continuously intervene in currency markets to curb excessive volatility. The ultimate success of these defensive measures will heavily depend on external factors like crude oil prices and foreign portfolio investor flows.",
+      "For college finance students and market watchers, understanding these currency dynamics is crucial for grasping modern monetary policy. While supporting the rupee prevents imported inflation, it tests the central bank's policy toolkit and liquidity management. Observers will be closely monitoring upcoming regulatory shifts and reserve adjustments to see how the local currency responds."
     ],
-    "pullbox": "Jio Platforms aims to raise ₹30,200 crore at a valuation of ₹10.3 lakh crore, setting a new benchmark for Indian market listings.",
+    "pullbox": "The RBI's aggressive defense of the rupee highlights the delicate balance between managing forex reserves and sustaining domestic economic growth.",
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Reliance_Jio_Logo.svg/960px-Reliance_Jio_Logo.svg.png",
-      "alt": "Jio"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+      "alt": "Reserve Bank of India"
     }
   },
   "explains": {
-    "title": "What is an IPO Price Band?",
+    "title": "What is Forex Reserve Defense?",
     "paragraphs": [
-      "An IPO price band is the minimum and maximum price range within which investors can bid for shares in an initial public offering. The lower figure is known as the floor price, while the higher figure is the cap price.",
-      "During the subscription window, institutional and retail bidders submit orders specifying the quantity and price within this range. Once bidding closes, the issuing firm calculates the final offer price based on overall market demand."
+      "Forex reserve defense refers to actions taken by a central bank to protect its national currency from sharp depreciation by buying or selling foreign currencies. When a currency faces heavy selling pressure, the central bank releases US dollars from its accumulated reserves into the market.",
+      "In practice, this reduces the circulating supply of local currency or absorbs excess liquidity to make short-term speculation more expensive. While it helps stabilize exchange rates, sustaining these operations over long periods depletes national reserves and requires careful domestic monetary adjustments."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Wealth management startup Zomint has successfully raised ₹36 crore in its latest funding round. The investment was led by prominent venture capital firms Lightspeed and Prime Venture Partners. The startup provides technology-driven wealth management services to growing investor segments.",
-      "The fresh capital injection will help the company expand its service offerings and technological capabilities. Backing from established venture capital investors highlights ongoing interest in digital financial services across India. The funding round positions Zomint to scale its wealth tech operations."
+      "Cold-pressed oil brand Gramiyaa has successfully raised Rs 18.65 crore in its latest Series A funding round. The startup focuses on traditional manufacturing processes to bring authentic, healthy cooking oils directly to modern consumers.",
+      "The fresh capital injection will enable the founders to scale operations, expand their distribution footprint, and enhance production capabilities. This investment highlights growing investor appetite for consumer brands modernizing traditional Indian food products."
     ]
   },
   "market_watch": {
@@ -113,7 +113,7 @@
       },
       {
         "name": "Dow Jones",
-        "value": "51,654.90 ▲ 0.83%",
+        "value": "51,654.95 ▲ 0.83%",
         "dir": "up",
         "session_date": "2026-10-09"
       }
@@ -121,19 +121,19 @@
     "global": [
       {
         "name": "Dollar Index",
-        "value": "102.23 ▲ 0.09%",
+        "value": "102.21 ▲ 0.07%",
         "dir": "up",
         "session_date": "2026-10-09"
       },
       {
         "name": "Brent Crude",
-        "value": "$104.43/bbl",
+        "value": "$104.72/bbl",
         "dir": "up",
         "session_date": "2026-10-09"
       },
       {
         "name": "Gold",
-        "value": "$4,220/oz",
+        "value": "$4,216/oz",
         "dir": "up",
         "session_date": "2026-10-09"
       },
@@ -160,12 +160,12 @@
     "session_date": "2026-10-09",
     "ipo_desk": [
       {
-        "name": "HD Fire Protect",
-        "note": "IPO details and review updates announced"
+        "name": "Jio Platforms",
+        "note": "Sets IPO price band up to ₹1,119"
       },
       {
-        "name": "Sollfege Smart Electronics",
-        "note": "Grey market premium figures released"
+        "name": "HD Fire Protect",
+        "note": "IPO date, review and price details"
       }
     ]
   },
@@ -174,93 +174,93 @@
       {
         "name": "Gold",
         "unit": "$/oz",
-        "price": "4,220",
-        "day": "▲ 1.52%",
-        "week": "▲ 1.39%",
+        "price": "4,216",
+        "day": "▲ 1.43%",
+        "week": "▲ 1.30%",
         "dir": "up",
         "dir_week": "up",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.6 4.1,6.5 8.3,11.6 12.4,10.5 16.6,3.0 20.7,6.8 24.8,9.1 29.0,7.8 33.1,11.0 37.2,10.9 41.4,14.3 45.5,15.5 49.7,12.2 53.8,11.4 57.9,9.9 62.1,12.4 66.2,12.8 70.3,16.3 74.5,17.5 78.6,16.1 82.8,25.3 86.9,24.7 91.0,24.2 95.2,23.3 99.3,25.7 103.4,26.0 107.6,24.2 111.7,27.0 115.9,26.0 120.0,22.2\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"22.2\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.6 4.1,6.5 8.3,11.6 12.4,10.5 16.6,3.0 20.7,6.8 24.8,9.1 29.0,7.8 33.1,11.0 37.2,10.9 41.4,14.3 45.5,15.5 49.7,12.2 53.8,11.4 57.9,9.9 62.1,12.4 66.2,12.8 70.3,16.3 74.5,17.5 78.6,16.1 82.8,25.3 86.9,24.7 91.0,24.2 95.2,23.3 99.3,25.7 103.4,26.0 107.6,24.2 111.7,27.0 115.9,26.0 120.0,22.5\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"22.5\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
         "session_date": "2026-10-09"
       },
       {
         "name": "Silver",
         "unit": "$/oz",
-        "price": "61.11",
-        "day": "▲ 3.46%",
-        "week": "▲ 1.89%",
+        "price": "61.05",
+        "day": "▲ 3.36%",
+        "week": "▲ 1.79%",
         "dir": "up",
         "dir_week": "up",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,5.6 4.1,7.7 8.3,12.0 12.4,11.7 16.6,5.6 20.7,8.1 24.8,7.4 29.0,3.0 33.1,12.9 37.2,12.2 41.4,15.0 45.5,15.7 49.7,12.9 53.8,9.7 57.9,6.7 62.1,8.7 66.2,8.4 70.3,12.6 74.5,15.1 78.6,13.0 82.8,21.2 86.9,22.7 91.0,24.2 95.2,22.5 99.3,24.5 103.4,22.1 107.6,21.3 111.7,24.7 115.9,27.0 120.0,21.5\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"21.5\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,5.6 4.1,7.7 8.3,12.0 12.4,11.7 16.6,5.6 20.7,8.1 24.8,7.4 29.0,3.0 33.1,12.9 37.2,12.2 41.4,15.0 45.5,15.7 49.7,12.9 53.8,9.7 57.9,6.7 62.1,8.7 66.2,8.4 70.3,12.6 74.5,15.1 78.6,13.0 82.8,21.2 86.9,22.7 91.0,24.2 95.2,22.5 99.3,24.5 103.4,22.1 107.6,21.3 111.7,24.7 115.9,27.0 120.0,21.6\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"21.6\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
         "session_date": "2026-10-09"
       },
       {
         "name": "Brent Crude",
         "unit": "$/bbl",
-        "price": "104.43",
-        "day": "▲ 0.14%",
-        "week": "▲ 2.13%",
+        "price": "104.72",
+        "day": "▲ 0.42%",
+        "week": "▲ 2.42%",
         "dir": "up",
         "dir_week": "up",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,27.0 4.1,25.5 8.3,20.4 12.4,19.2 16.6,19.3 20.7,18.4 24.8,16.4 29.0,12.3 33.1,4.4 37.2,8.1 41.4,6.8 45.5,3.0 49.7,6.6 53.8,7.9 57.9,9.0 62.1,13.4 66.2,14.7 70.3,10.0 74.5,5.7 78.6,8.5 82.8,7.3 86.9,10.6 91.0,9.4 95.2,11.0 99.3,11.0 103.4,13.4 107.6,13.1 111.7,13.6 115.9,8.5 120.0,8.3\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"8.3\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,27.0 4.1,25.5 8.3,20.4 12.4,19.2 16.6,19.3 20.7,18.4 24.8,16.4 29.0,12.3 33.1,4.4 37.2,8.1 41.4,6.8 45.5,3.0 49.7,6.6 53.8,7.9 57.9,9.0 62.1,13.4 66.2,14.7 70.3,10.0 74.5,5.7 78.6,8.5 82.8,7.3 86.9,10.6 91.0,9.4 95.2,11.0 99.3,11.0 103.4,13.4 107.6,13.1 111.7,13.6 115.9,8.5 120.0,8.0\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"8.0\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
         "session_date": "2026-10-09"
       },
       {
         "name": "WTI Crude",
         "unit": "$/bbl",
-        "price": "91.66",
-        "day": "▲ 0.19%",
-        "week": "▲ 0.60%",
+        "price": "91.85",
+        "day": "▲ 0.39%",
+        "week": "▲ 0.81%",
         "dir": "up",
         "dir_week": "up",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,27.0 4.1,24.5 8.3,19.7 12.4,18.9 16.6,18.5 20.7,18.4 24.8,16.7 29.0,13.5 33.1,6.6 37.2,9.2 41.4,7.8 45.5,3.0 49.7,6.6 53.8,7.2 57.9,8.9 62.1,13.8 66.2,15.0 70.3,17.6 74.5,15.0 78.6,17.4 82.8,17.2 86.9,20.6 91.0,19.5 95.2,16.9 99.3,18.8 103.4,20.5 107.6,20.5 111.7,21.8 115.9,18.3 120.0,18.2\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"18.2\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,27.0 4.1,24.5 8.3,19.7 12.4,18.9 16.6,18.5 20.7,18.4 24.8,16.7 29.0,13.5 33.1,6.6 37.2,9.2 41.4,7.8 45.5,3.0 49.7,6.6 53.8,7.2 57.9,8.9 62.1,13.8 66.2,15.0 70.3,17.6 74.5,15.0 78.6,17.4 82.8,17.2 86.9,20.6 91.0,19.5 95.2,16.9 99.3,18.8 103.4,20.5 107.6,20.5 111.7,21.8 115.9,18.3 120.0,18.0\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"18.0\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
         "session_date": "2026-10-09"
       }
     ],
     "alternatives": [
       {
         "name": "Embassy REIT",
-        "price": "₹431.27",
-        "day": "▼ 0.93%",
-        "week": "▼ 0.73%",
+        "price": "₹430.93",
+        "day": "▼ 0.08%",
+        "week": "▲ 0.52%",
         "dir": "down",
-        "dir_week": "down",
-        "session_date": "2026-10-08"
+        "dir_week": "up",
+        "session_date": "2026-10-09"
       },
       {
         "name": "Nexus Select REIT",
-        "price": "₹164.82",
-        "day": "▲ 0.10%",
-        "week": "▼ 1.48%",
-        "dir": "up",
+        "price": "₹164.81",
+        "day": "▼ 0.01%",
+        "week": "▼ 0.46%",
+        "dir": "down",
         "dir_week": "down",
-        "session_date": "2026-10-08"
+        "session_date": "2026-10-09"
       },
       {
         "name": "Mindspace REIT",
-        "price": "₹490.99",
-        "day": "▼ 0.53%",
-        "week": "▼ 1.93%",
-        "dir": "down",
+        "price": "₹493.73",
+        "day": "▲ 0.56%",
+        "week": "▼ 0.95%",
+        "dir": "up",
         "dir_week": "down",
-        "session_date": "2026-10-08"
+        "session_date": "2026-10-09"
       },
       {
         "name": "Brookfield REIT",
-        "price": "₹323.16",
-        "day": "▼ 1.95%",
-        "week": "▼ 3.83%",
-        "dir": "down",
+        "price": "₹325.33",
+        "day": "▲ 0.67%",
+        "week": "▼ 1.49%",
+        "dir": "up",
         "dir_week": "down",
-        "session_date": "2026-10-08"
+        "session_date": "2026-10-09"
       },
       {
         "name": "PowerGrid InvIT",
-        "price": "₹102.54",
-        "day": "▲ 0.06%",
-        "week": "▲ 0.13%",
+        "price": "₹102.82",
+        "day": "▲ 0.27%",
+        "week": "▲ 0.96%",
         "dir": "up",
         "dir_week": "up",
-        "session_date": "2026-10-08"
+        "session_date": "2026-10-09"
       }
     ],
     "caps": [
@@ -345,80 +345,168 @@
       {
         "name": "Parag Parikh Flexi Cap",
         "cat": "Flexi cap",
-        "nav": "₹87.66",
-        "day": "▼ 1.33%",
-        "week": "▼ 1.33%",
-        "dir": "down",
-        "dir_week": "down",
-        "session_date": "2026-10-08"
+        "nav": "₹88.93",
+        "day": "▲ 1.45%",
+        "week": "▲ 0.76%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-09"
       }
     ],
     "date_label": "OCT 2026",
     "close_label": "AS OF FRIDAY'S CLOSE, OCT 9",
     "session_date": "2026-10-09",
-    "nav_label": "NAVS AS OF OCT 8"
+    "nav_label": "NAVS AS OF OCT 9"
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "Global Events",
-      "headline": "India Selected to Host WTTC Global Summit 2027",
+      "kicker": "Corporate Earnings",
+      "headline": "TCS Q2 profit rises 15 per cent",
       "paragraphs": [
-        "India has officially been selected to host the prestigious WTTC Global Summit 2027. Recognized widely as the world's most important tourism event, the gathering brings together global industry leaders and policymakers.",
-        "The announcement highlights the nation's growing prominence on the international tourism stage. Preparations for the landmark event are already drawing significant attention from hospitality and travel sectors."
+        "Tata Consultancy Services has reported a strong performance for the second quarter, with net profit rising by 15 per cent. The company's overall revenue crossed the significant milestone of ₹73,000 crore during the period.",
+        "This solid growth underscores robust demand across key verticals and highlights resilient technology spending by enterprise clients in a competitive global market environment."
       ],
       "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
-        "alt": "Reserve Bank of India"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Mumbai_Bandra-Worli_Sea_Link.jpg",
+        "alt": "Mumbai"
       }
     },
     "story_2": {
-      "kicker": "Index Funds",
-      "headline": "Groww Nifty India Internet ETF Charts Performance",
+      "kicker": "Retail Sector",
+      "headline": "DMart Q2 profit rises 9% YoY",
       "paragraphs": [
-        "The Groww Nifty India Internet ETF has published its latest live price charts and performance metrics on NSE and BSE platforms. Investors continue to monitor digital economy baskets closely.",
-        "Exchange-traded funds focusing on internet enterprises reflect shifting retail allocation trends. Market participants track these instruments for insights into broader sector momentum."
+        "Avenue Supermarts, the operator of the popular supermarket chain DMart, announced its financial results for the second quarter. Consolidated net profit rose nearly 9% year-on-year to ₹743 crore.",
+        "Driven by steady consumer demand and ongoing store expansion across the country, the company's total revenue recorded a healthy jump of 18% compared to the same period in the previous fiscal year."
       ]
     },
     "story_3": {
-      "kicker": "Market Intelligence",
-      "headline": "TradingView Releases CNBC TV18 Broadcast Feeds",
+      "kicker": "Infrastructure Deals",
+      "headline": "KEC International bags transmission orders",
       "paragraphs": [
-        "TradingView has integrated the latest market intelligence feeds from CNBC TV18 to aid technical analysis. Traders across domestic desks utilize these real-time charts for improved execution."
+        "Infrastructure major KEC International has secured new transmission and distribution orders worth ₹1,014 crore in India, further bolstering its expanding order book and regional execution pipeline."
       ]
     },
     "also_today": {
       "items": [
-        "RBI Governor notes 25-basis-point repo rate hike is unlikely to impact broader economic expansion.",
-        "SBI Research urges the Reserve Bank of India to prioritize currency stability alongside inflation.",
-        "World Bank lifts India's growth outlook to 7.1 percent as RBI signals calibrated tightening.",
-        "Affordable housing emerges as a major casualty of India's ongoing property boom, says expert."
+        "Inox Green completes acquisition of Wind World India operating and maintenance business for ₹550 crore.",
+        "Can Fin Homes reports a 14% increase in net profit reaching ₹543 crore for the first half of fiscal year 27.",
+        "Consumer electronics brand Lumio raises $12 million in a Series A funding round led by Blume Ventures.",
+        "Piyush Goyal states India and Mexico are scheduled to launch bilateral trade deal talks next week."
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India x US | Trade Relations",
-    "headline": "India-US Trade Deal Faces Policy Friction",
+    "kicker": "India x EU | Trade Ties",
+    "headline": "India-EU FTA Hailed as an Absolute Game Changer",
     "paragraphs": [
-      "Economic tensions between India and the US are becoming more visible amid tougher US immigration policies and trade uncertainty. Following Finance Minister Nirmala Sitharaman's plateau remark, officials clarified that the trade agreement is done and only fine print remains. However, political dynamics surrounding the 2026 US midterms indicate a Democratic House may not necessarily ease tariff pressure on Indian goods.",
-      "Strategic friction is growing as observers note the US wants India's power without accommodating its strategic autonomy. In response to persistent trade uncertainty, India's pharma industry is officially looking beyond the USA for growth. Businesses must now recalibrate supply chains to navigate shifting tariffs, immigration restrictions, and evolving trade terms."
+      "The European Union envoy has described the upcoming India-EU Free Trade Agreement as an absolute game changer for bilateral economic and defence ties. Union Minister Ashwini Vaishnaw stated that Europe now views India as a primary hub for innovation and manufacturing. The initiative highlights a mutual drive to deepen commercial integration amid shifting global trade dynamics.",
+      "While official sentiment remains highly positive, negotiators continue working through tariff structures and regulatory standards. For Indian businesses, a successful pact offers strategic access to European markets and increased foreign investment. As both regions prioritize supply chain resilience, the outcome of these negotiations will shape trade policy for years to come."
     ],
     "world_60": [
-      "Trump announces Russian diesel deal to curb soaring US fuel prices",
-      "UNCTAD forecasts global trade growth slowing to 4% in 2026 from 4.4%",
-      "Swiss-India trade deal turns one as watch imports gain while pharma waits",
-      "Gold adds over 1% as global oil prices ease and US dollar softens"
+      "India and Mexico set to launch trade deal talks next week, says Piyush Goyal.",
+      "India and Switzerland expand ties as PM Modi targets $100 billion EFTA investment.",
+      "Depleted global oil inventories raise risks of a market-roiling price spike.",
+      "Proposed Trump-Russia diesel deal could ease tight global fuel supplies."
     ],
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Am_11._April_2025_empfing_Au%C3%9Fenministerin_Beate_Meinl-Reisinger_die_indische_Finanzministerin_Nirmala_Sitharaman_in_Wien_%2854445397025%29_%28cropped%29.jpg",
-      "alt": "Nirmala Sitharaman"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Ashwini_Vaishnaw_cropped.jpg",
+      "alt": "Ashwini Vaishnaw"
     }
   },
   "sources": {
     "big_story": [
       {
-        "title": "India's Jio Platforms targets $106 billion valuation in IPO, sources say",
-        "source": "Reuters"
+        "title": "India’s Rupee Defense Raises Question of How Far RBI Will Go",
+        "source": "Bloomberg.com"
       },
+      {
+        "title": "RBI steps in to support rupee as forex reserves dip $52bn in a month",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Slew of RBI steps to rescue the rupee",
+        "source": "The New Indian Express"
+      },
+      {
+        "title": "India’s central bank tries to shore up rupee as it nears record lows",
+        "source": "Financial Times"
+      },
+      {
+        "title": "RBI Raises Daily CRR Requirement to 99% From October 16",
+        "source": "India Business Trade"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "Cold-pressed oil brand Gramiyaa raises Rs 18.65 crore in Series A funding",
+        "source": "Indian Startup News"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "TCS Q2 profit rises 15 per cent as revenue crosses Rs 73,000 crore",
+        "source": "Indian Television Dot Com"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "DMart Q2 Results: Cons profit rises nearly 9% YoY to Rs 743 crore, revenue jumps 18%",
+        "source": "The Economic Times"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "KEC International Bags Rs 1,014 Crore Transmission And Distribution Orders In India",
+        "source": "NDTV Profit"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "Inox Green Completes Rs 550 Cr Wind World India O&M Deal",
+        "source": "BW Businessworld"
+      },
+      {
+        "title": "Can Fin Homes H1FY27 Results: Net profit up 14% to ₹543 crore",
+        "source": "scanx.trade"
+      },
+      {
+        "title": "Consumer electronics brand Lumio raises $12 million in Series A funding led by Blume Ventures",
+        "source": "Indian Startup News"
+      },
+      {
+        "title": "India, Mexico to launch trade deal talks next week, says Piyush Goyal",
+        "source": "CNBC TV18"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "Europe consider India a major hub for innovation and manufacturing, says I&B Minister Ashwini Vaishnaw",
+        "source": "News On AIR"
+      },
+      {
+        "title": "India-EU FTA 'An Absolute Game Changer': EU Envoy On Trade Deal, Defence Ties",
+        "source": "NDTV Profit"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "India, Mexico to launch trade deal talks next week, says Piyush Goyal",
+        "source": "CNBC TV18"
+      },
+      {
+        "title": "India, Switzerland deepen trade, mobility and infrastructure ties; PM Modi highlights $100 billion EFTA investment goal",
+        "source": "DD India"
+      },
+      {
+        "title": "Global Oil Inventories Depleted, Next Price Spike Could Roil Economies, Markets",
+        "source": "EnergyNow.com"
+      },
+      {
+        "title": "Trump-Russia Diesel Deal Could Ease Global Fuel Tightness",
+        "source": "India Business Trade"
+      }
+    ],
+    "ipo_desk": [
       {
         "title": "Ambani’s Jio Said to Set IPO Price Band at 1,065-1,119 Rupees",
         "source": "Bloomberg.com"
@@ -428,99 +516,7 @@
         "source": "BigGo Finance"
       },
       {
-        "title": "Jio Platforms IPO: RIL digital arm to raise ₹30,200 crore at ₹1,065-1,119 apiece; valuation pegged at ₹10.3 lakh crore",
-        "source": "Fortune India"
-      }
-    ],
-    "venture_vault": [
-      {
-        "title": "Wealth management startup Zomint raises Rs 36 crore from Lightspeed, Prime Venture Partners",
-        "source": "Indian Startup News"
-      }
-    ],
-    "daily_brief_1": [
-      {
-        "title": "India Selected to Host WTTC Global Summit 2027, the World’s Most Important Tourism Event",
-        "source": "World Travel & Tourism Council"
-      }
-    ],
-    "daily_brief_2": [
-      {
-        "title": "Groww Nifty India Internet ETF Share Price NSE/BSE - Live Price Charts & Performance",
-        "source": "HDFC Sky"
-      }
-    ],
-    "daily_brief_3": [
-      {
-        "title": "News by CNBC TV18 on TradingView, 2026-10-10 — cnbctv:5964e1d17094b:0",
-        "source": "TradingView"
-      }
-    ],
-    "also_today": [
-      {
-        "title": "25-basis-point repo rate hike unlikely to impact economic expansion, says RBI Governor",
-        "source": "News On AIR"
-      },
-      {
-        "title": "Rupee under pressure: SBI Research wants RBI to prioritise currency stability alongside inflation",
-        "source": "Business Today"
-      },
-      {
-        "title": "RBI Signals Calibrated Tightening as World Bank Lifts India’s Growth Outlook to 7.1%",
-        "source": "DD India"
-      },
-      {
-        "title": "Affordable housing is real casualty of India’s property boom: Niranjan Hiranandani",
-        "source": "The Federal"
-      }
-    ],
-    "geopolitics": [
-      {
-        "title": "US midterms 2026: Why a Democratic House may not ease Trump's tariff pressure on India",
-        "source": "Business Today"
-      },
-      {
-        "title": "India-US trade agreement: Sitharaman’s ‘plateau’ remark? Deal is done, fine print remains, says...",
-        "source": "Moneycontrol.com"
-      },
-      {
-        "title": "India-US Economic Tensions Become More Visible Amid Tougher US Immigration Policy and Trade Uncertainty",
-        "source": "ETV Bharat"
-      },
-      {
-        "title": "Head-on | US wants India’s power without its strategic autonomy",
-        "source": "Firstpost"
-      },
-      {
-        "title": "India's pharma industry looks beyond USA as trade uncertainty grows",
-        "source": "The Pharma Letter"
-      }
-    ],
-    "world_60": [
-      {
-        "title": "Global trade to grow 4% in 2026, slower than 4.4% in 2025: UNCTAD",
-        "source": "The Economic Times"
-      },
-      {
-        "title": "Explainer: Watches win, pharma waits as Swiss-India trade deal turns one",
-        "source": "SWI swissinfo.ch"
-      },
-      {
-        "title": "Gold adds over 1% on easing oil prices, softer dollar",
-        "source": "BusinessLine"
-      },
-      {
-        "title": "Trump announces Russian diesel deal amid soaring US fuel prices",
-        "source": "Al Jazeera"
-      }
-    ],
-    "ipo_desk": [
-      {
         "title": "HD Fire Protect IPO Date, Review, Price, Allotment Details",
-        "source": "IPO Watch"
-      },
-      {
-        "title": "Sollfege Smart Electronics IPO GMP, Grey Market Premium Today",
         "source": "IPO Watch"
       }
     ],
