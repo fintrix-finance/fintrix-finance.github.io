@@ -1,0 +1,25 @@
+name: Create FINTRIX alert draft in Brevo
+
+on:
+  workflow_run:
+    workflows: ["Update Market Watch and Daily Brief"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read   # reads data.json only; never writes to the repo
+
+jobs:
+  draft:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Create the draft (never sends)
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_LIST_ID: ${{ secrets.BREVO_LIST_ID }}
+        run: python brevo_alert_draft.py
