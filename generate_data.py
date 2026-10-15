@@ -325,12 +325,13 @@ Reply with ONLY a JSON object (no markdown fences, no commentary) in exactly thi
       "paragraph 2, 3-4 sentences, what is still unsettled and why it matters for business"
     ],
     "world_60": [
-      "max 90 characters, one-line world headline with a money angle",
-      "max 90 characters, another one",
-      "max 90 characters, another one",
-      "max 90 characters, another one"
+      "max 110 characters, one-line world headline with a money angle and a figure if the headline has one",
+      "max 110 characters, another one",
+      "max 110 characters, another one",
+      "max 110 characters, another one",
+      "max 110 characters, another one"
     ],
-    "world_60_sources": [8, 9, 10, 11]
+    "world_60_sources": [8, 9, 10, 11, 12]
   }}
 }}
 
@@ -339,11 +340,60 @@ Rules:
 - cover.inbrief_1 sits on the cover and links to this page, so it MUST be about the SAME
   story as the geopolitics headline and paragraphs - name the same country, leader or deal,
   and reuse at least one distinctive content word from the geopolitics headline or kicker.
-- "world_60" is a quick 4-item round-up of OTHER real global headlines from the list
+- Be dense: pack in concrete names, figures, dates and places from the headlines, and cut filler.
+- "world_60" is a quick 4-5 item round-up of OTHER real global headlines from the list
   (oil, gold, bonds, central banks, global markets, conflicts), different from the main story.
 - Tone: a smart college finance magazine - plain English, no jargon dumps, Indian angle.
 - Every string must be plain text. No HTML tags, no markdown, no links.
 """
+
+MORE_PROMPT = """You are the news editor of FINTRIX, a college finance club magazine in India.
+Today is {today} (India time).
+
+{headline_block}
+Each section below already has a lead story. Add 2 more FULL short stories per section so a page
+carries several stories. For each, pick one headline (by number) NOT about the lead story, and write
+a magazine headline (max 70 characters) and a 2-3 sentence paragraph (200-420 characters) saying
+what happened, the real names, and why it matters for India. Section topics:
+- big_story: Indian business, economy, markets, corporate news
+- venture_vault: startups, funding rounds, IPOs
+- geopolitics: trade, foreign policy, oil, global events affecting India
+Lead stories to avoid: {avoid}
+Never reuse a headline number across sections or twice. Use only headline numbers that exist.
+Every figure you write must appear in the headlines above; if a figure is not there, leave it out.
+Plain text only.
+
+Reply with ONLY a JSON object (no markdown) in this shape:
+{{
+  "big_story": [{{"id": 1, "headline": "...", "text": "..."}}, {{"id": 2, "headline": "...", "text": "..."}}],
+  "venture_vault": [{{"id": 3, "headline": "...", "text": "..."}}, {{"id": 4, "headline": "...", "text": "..."}}],
+  "geopolitics": [{{"id": 5, "headline": "...", "text": "..."}}, {{"id": 6, "headline": "...", "text": "..."}}]
+}}
+"""
+
+
+def check_more_pkg(n_items):
+    def check(pkg):
+        if not isinstance(pkg, dict):
+            return "not an object"
+        seen = set()
+        for sec in ("big_story", "venture_vault", "geopolitics"):
+            rows = pkg.get(sec)
+            if not isinstance(rows, list) or len(rows) < 2:
+                return "%s needs at least 2 stories" % sec
+            for r in rows:
+                if not isinstance(r, dict) or not isinstance(r.get("id"), int) or not (1 <= r["id"] <= n_items) \
+                        or r["id"] in seen or not is_str(r.get("headline"), 8, 90) or not is_str(r.get("text"), 120, 520):
+                    return "bad story in %s" % sec
+                seen.add(r["id"])
+        return None
+    return check
+
+
+def gpkg_for_more(geo):
+    g = (geo or {}).get("geopolitics")
+    return g if isinstance(g, dict) else {}
+
 
 STOPWORDS = {"with", "from", "that", "this", "into", "over", "amid", "after", "about",
              "their", "they", "what", "will", "than", "more", "near", "nears", "talks",
@@ -1705,7 +1755,7 @@ def validate(d):
         fail("geopolitics.headline bad (max 80 chars)")
     check_paragraphs(geo, "geopolitics", 2, 100, 900)
     w60 = geo.get("world_60")
-    if not isinstance(w60, list) or not (3 <= len(w60) <= 4) or not all(is_str(x, 10, 110) for x in w60):
+    if not isinstance(w60, list) or not (3 <= len(w60) <= 5) or not all(is_str(x, 10, 110) for x in w60):
         fail("geopolitics.world_60 must be 3-4 one-liners of 10-110 chars")
     dd = d.get("data_desk")
     if not isinstance(dd, dict):
@@ -1882,6 +1932,28 @@ def main():
     if geo is None:
         fail("could not generate the geopolitics package - leaving data.json untouched.")
 
+    # "Also in this section" briefs: optional extra. If it fails the sections just show one story.
+    more_out = {}
+    try:
+        used_ids = set()
+        for src_obj in (features.get("big_story"), features.get("venture_vault"), gpkg_for_more(geo)):
+            if isinstance(src_obj, dict):
+                used_ids.update(i for i in (src_obj.get("sources") or []) if isinstance(i, int))
+        lead_titles = "; ".join(t for t in (avoid_bs, (features.get("venture_vault") or {}).get("headline", ""),
+                                            gpkg_for_more(geo).get("headline", "")) if t) or "none"
+        more = generate(api_key, MORE_PROMPT.format(today=today_str, headline_block=block, avoid=lead_titles),
+                        "more briefs (also-in-section lists)",
+                        check=both(make_fact_check(all_headline_text, len(items)), check_more_pkg(len(items))))
+        if more:
+            by_id_m = {it["id"]: it for it in items}
+            for sec in ("big_story", "venture_vault", "geopolitics"):
+                more_out[sec] = [{"headline": r["headline"], "text": r["text"], "source": by_id_m[r["id"]]["source"] or "",
+                                  "published": by_id_m[r["id"]]["published"]}
+                                 for r in more[sec] if r["id"] not in used_ids]
+    except Exception as e:  # never block the issue for the extras
+        print("more briefs skipped: %s" % e)
+        more_out = {}
+
     # The cover In Brief labels and the stories they link to come from ONE answer
     # each (markets, geopolitics), but the model sometimes paraphrases a label past
     # recognition or teases the wrong story. Keep its label only when it verifiably
@@ -1980,6 +2052,7 @@ def main():
 
     out = {"updated_ist": TODAY.strftime("%Y-%m-%d")}
     out.update(data)
+    out["more"] = {k: v for k, v in more_out.items() if v}
     out["sources"] = sources
     tmp = DATA_FILE + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
