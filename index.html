@@ -247,6 +247,21 @@ h1,h2,h3,.display{ font-family:'Oswald',sans-serif; font-weight:700; letter-spac
 .story-block h2{ font-size:clamp(19px,4vw,25px); margin-bottom:10px; }
 .story-block.right-align{ text-align:right; margin-left:auto; max-width:80%; }
 .geo-boxed{ background:var(--orange); color:#fff; padding:20px 22px; margin-top:auto; margin-bottom:20px; flex-shrink:0; }
+.more-box{ margin:6px 0 16px; padding-top:8px; border-top:2px solid var(--orange); flex-shrink:0; }
+.more-box h4{ font-family:'Inter',sans-serif; font-size:9px; letter-spacing:.1em; text-transform:uppercase; color:var(--orange); margin-bottom:4px; }
+.mini-story{ margin-bottom:12px; }
+.mini-story h5{ font-family:'Oswald','Inter',sans-serif; font-size:15px; line-height:1.2; margin-bottom:4px; }
+.mini-story p{ font-family:'PT Serif',serif; font-size:11px; line-height:1.55; margin:0; }
+.mini-story small{ display:block; font-family:'Inter',sans-serif; font-size:8.5px; opacity:.6; margin-top:2px; }
+.more-box li small{ display:block; font-family:'Inter',sans-serif; font-size:8.5px; opacity:.6; margin-top:1px; }
+.geo-facts{ display:flex; gap:8px; margin:0 0 12px; }
+.geo-facts:empty{ display:none; }
+.geo-facts div{ flex:1; border-top:2px solid var(--orange); padding-top:5px; font-family:'Inter',sans-serif; }
+.geo-facts b{ display:block; font-size:8.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--orange); margin-bottom:2px; }
+.geo-facts span{ font-size:11px; font-weight:600; line-height:1.3; }
+.geo-boxed ul{ list-style:none; padding:0; margin:0; }
+.geo-boxed li{ font-family:'Inter',sans-serif; font-size:10.5px; line-height:1.5; padding:5px 0; border-top:1px solid rgba(255,255,255,.3); }
+.geo-boxed li:first-child{ border-top:0; padding-top:0; }
 .geo-boxed h3{ color:#fff; font-size:17px; margin-bottom:10px; }
 .geo-boxed p{ font-family:'Inter',sans-serif; font-size:10.5px; opacity:0.92; line-height:1.55; }
 
@@ -406,6 +421,7 @@ const PAGES_HTML = [
     <p>Economists have a name for this: the experience economy, and in India it is no longer a niche. Live events, travel, dining-as-theatre and wellness retreats have outgrown most consumer-goods categories through 2025 and into 2026, pulled along by a young, urban, disposable-income-rich cohort that treats a good story as worth more than a good product.</p>
     <p>For businesses, that means the product is no longer the point — the memory is. Brands are being rebuilt around staging, sequencing and social currency: how a purchase photographs, how it gets retold, how it makes the buyer feel seen. The companies getting this right aren't always the ones with the best product on paper. They're the ones that understood, early, they were never really selling a product at all.</p>
   </div>
+  <div class="more-box" id="dyn-more-bs" hidden></div>
   <div class="pullbox"><h3>The Big Idea</h3><p id="dyn-bs-pull">When a purchase is remembered more than it's used, the memory is the product — and pricing power follows whoever can manufacture that memory most reliably.</p></div>
 </div>
 <div class="page-footer">FINNEXUS &mdash; THE COMMERCE CLUB</div>
@@ -617,8 +633,10 @@ const PAGES_HTML = [
       <p>Nothing about the relationship is settled. Border talks between India's NSA Ajit Doval and Chinese officials continue alongside the diplomacy, and flashpoints — from disputed place names in Arunachal Pradesh to rare-earth and component supply — remain live. But the scale of the delegation is being read, on both sides, as a signal that Beijing wants the relationship managed rather than left to drift.</p>
     </div>
   </div>
+  <div class="more-box" id="dyn-more-geo" hidden></div>
   <div class="geo-boxed">
     <h3>The World in 60 Seconds</h3>
+    <ul id="dyn-geo-worldlist" hidden></ul>
     <p id="dyn-geo-world">Brent crude tops $92/bbl as Strait of Hormuz tensions escalate &nbsp;&middot;&nbsp; Gold cools to ~$4,440/oz after Fed's Warsh lifts rate-hike odds &nbsp;&middot;&nbsp; European markets slide as bond yields jump, DAX leads losses &nbsp;&middot;&nbsp; US 10-year yield nears 5%, the tightest since 2006</p>
   </div>
 </div>
@@ -647,6 +665,7 @@ const PAGES_HTML = [
       </div>
     </div>
   </div>
+  <div class="more-box" id="dyn-more-vv" hidden></div>
 </div>
 <div class="page-footer">FINNEXUS &mdash; THE COMMERCE CLUB</div>
 `,
@@ -980,9 +999,35 @@ function applyDynamic(d){
   dynText('dyn-geo-head', geo.headline);
   dynParas('dyn-geo-body', geo.paragraphs);
   dynImg('dyn-geo-img', geo.image);
+  const more = d.more || {};
+  [['big_story','dyn-more-bs','Also in business'],['venture_vault','dyn-more-vv','Also in startups & IPOs'],['geopolitics','dyn-more-geo','Also in the world']].forEach(([k, id, title]) => {
+    const box = document.getElementById(id), rows = more[k];
+    if(!box || !Array.isArray(rows)) return;
+    const ok = rows.filter(r => r && typeof r.text === 'string' && r.text.trim()).slice(0, 3);
+    if(!ok.length) return;
+    box.innerHTML = '';
+    const h = document.createElement('h4'); h.textContent = title; box.appendChild(h);
+    const ul = document.createElement('div');
+    ok.forEach(r => {
+      const li = document.createElement('div'); li.className = 'mini-story';
+      if(r.headline){ const hh = document.createElement('h5'); hh.textContent = r.headline; li.appendChild(hh); }
+      const tp = document.createElement('p'); tp.textContent = r.text; li.appendChild(tp);
+      if(r.source){ const sm = document.createElement('small'); sm.textContent = r.source + (r.published ? ' \u00b7 ' + r.published : ''); li.appendChild(sm); }
+      ul.appendChild(li);
+    });
+    box.appendChild(ul); box.hidden = false;
+  });
   if(Array.isArray(geo.world_60)){
     const items = geo.world_60.filter(x => typeof x === 'string' && x.trim());
-    if(items.length) dynText('dyn-geo-world', items.join(' \u00a0\u00b7\u00a0 '));
+    if(items.length){
+      dynText('dyn-geo-world', items.join(' \u00a0\u00b7\u00a0 '));
+      const ul = document.getElementById('dyn-geo-worldlist'), pp = document.getElementById('dyn-geo-world');
+      if(ul && pp){
+        ul.innerHTML = '';
+        items.forEach(x => { const li = document.createElement('li'); li.textContent = x; ul.appendChild(li); });
+        ul.hidden = false; pp.hidden = true;
+      }
+    }
   }
 
   const dd = d.data_desk || {};
