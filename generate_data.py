@@ -350,42 +350,60 @@ Rules:
 MORE_PROMPT = """You are the news editor of FINTRIX, a college finance club magazine in India.
 Today is {today} (India time).
 
-{headline_block}
-Each section below already has a lead story. Add 2 more FULL short stories per section so a page
-carries several stories. For each, pick one headline (by number) NOT about the lead story, and write
-a magazine headline (max 70 characters) and a 2-3 sentence paragraph (200-420 characters) saying
-what happened, the real names, and why it matters for India. Section topics:
-- big_story: Indian business, economy, markets, corporate news
-- venture_vault: startups, funding rounds, IPOs
-- geopolitics: trade, foreign policy, oil, global events affecting India
-Lead stories to avoid: {avoid}
-Never reuse a headline number across sections or twice. Use only headline numbers that exist.
-Every figure you write must appear in the headlines above; if a figure is not there, leave it out.
-Plain text only.
+Each section below already has a lead story. Add up to 2 more FULL short stories per section.
+Pick ONLY from that section's own numbered headlines (listed under it, with source and time).
+For each, write a magazine headline (max 70 characters) and a 2-3 sentence paragraph
+(200-420 characters): what happened, the real names, and why it matters for India.
+
+{sections}
+Lead stories to avoid (do not retell them): {avoid}
+Rules:
+- Use only headline numbers listed under that section; never reuse a number. If a section has
+  fewer good candidates, return fewer stories (at least 1).
+- Every figure must appear in the headlines; otherwise leave it out.
+- Company results: say whether a profit figure is standalone or consolidated, exactly as the headline
+  says. If the headline does not say, do not quote a profit figure. Never mix the two bases.
+- Plain text only.
 
 Reply with ONLY a JSON object (no markdown) in this shape:
 {{
-  "big_story": [{{"id": 1, "headline": "...", "text": "..."}}, {{"id": 2, "headline": "...", "text": "..."}}],
-  "venture_vault": [{{"id": 3, "headline": "...", "text": "..."}}, {{"id": 4, "headline": "...", "text": "..."}}],
-  "geopolitics": [{{"id": 5, "headline": "...", "text": "..."}}, {{"id": 6, "headline": "...", "text": "..."}}]
+  "big_story": [{{"id": 1, "headline": "...", "text": "..."}}],
+  "venture_vault": [{{"id": 2, "headline": "...", "text": "..."}}],
+  "geopolitics": [{{"id": 3, "headline": "...", "text": "..."}}]
 }}
 """
 
+MORE_SECTION_TOPICS = {
+    "big_story": ("india_business", "india_corporate"),
+    "venture_vault": ("startups", "ipo"),
+    "geopolitics": ("geopolitics",),
+}
+MORE_SECTION_TITLES = {
+    "big_story": "BIG STORY section - Indian business, economy, markets, companies",
+    "venture_vault": "VENTURE VAULT section - startups, funding rounds, IPOs",
+    "geopolitics": "GEOPOLITICS section - trade deals between countries, foreign policy, conflicts, sanctions, summits (NOT domestic economic data)",
+}
 
-def check_more_pkg(n_items):
+
+def check_more_pkg(allowed):
+    """allowed: {section: set of headline ids that section may use}."""
     def check(pkg):
         if not isinstance(pkg, dict):
             return "not an object"
         seen = set()
         for sec in ("big_story", "venture_vault", "geopolitics"):
             rows = pkg.get(sec)
-            if not isinstance(rows, list) or len(rows) < 2:
-                return "%s needs at least 2 stories" % sec
+            if not isinstance(rows, list) or len(rows) < 1 or len(rows) > 3:
+                return "%s needs 1-3 stories" % sec
             for r in rows:
-                if not isinstance(r, dict) or not isinstance(r.get("id"), int) or not (1 <= r["id"] <= n_items) \
+                if not isinstance(r, dict) or not isinstance(r.get("id"), int) or r["id"] not in allowed.get(sec, ()) \
                         or r["id"] in seen or not is_str(r.get("headline"), 8, 90) or not is_str(r.get("text"), 120, 520):
                     return "bad story in %s" % sec
                 seen.add(r["id"])
+                t = r["text"].lower()
+                if re.search(r"profit", t) and re.search(r"crore|lakh|billion|million", t) \
+                        and not re.search(r"standalone|consolidated", t):
+                    return "profit figure without standalone/consolidated basis"
         return None
     return check
 
@@ -1936,14 +1954,30 @@ def main():
     more_out = {}
     try:
         used_ids = set()
-        for src_obj in (features.get("big_story"), features.get("venture_vault"), gpkg_for_more(geo)):
+        gp = gpkg_for_more(geo)
+        for src_obj in (features.get("big_story"), features.get("venture_vault"), gp):
             if isinstance(src_obj, dict):
                 used_ids.update(i for i in (src_obj.get("sources") or []) if isinstance(i, int))
+        used_ids.update(i for i in (gp.get("world_60_sources") or []) if isinstance(i, int))
+        mdb_m = (markets.get("daily_brief") or {})
+        for k in ("story_1", "story_2", "story_3", "also_today"):
+            o = mdb_m.get(k)
+            if isinstance(o, dict):
+                used_ids.update(i for i in (o.get("sources") or []) if isinstance(i, int))
+        for o in (markets.get("ipo_desk") or []):
+            if isinstance(o, dict):
+                used_ids.update(i for i in (o.get("sources") or []) if isinstance(i, int))
         lead_titles = "; ".join(t for t in (avoid_bs, (features.get("venture_vault") or {}).get("headline", ""),
-                                            gpkg_for_more(geo).get("headline", "")) if t) or "none"
-        more = generate(api_key, MORE_PROMPT.format(today=today_str, headline_block=block, avoid=lead_titles),
+                                            gp.get("headline", "")) if t) or "none"
+        allowed, parts = {}, []
+        for sec, topics in MORE_SECTION_TOPICS.items():
+            cand = [it for it in items if it["topic"] in topics and it["id"] not in used_ids]
+            allowed[sec] = {it["id"] for it in cand}
+            parts.append("%s (key: %s):\n%s\n" % (MORE_SECTION_TITLES[sec], sec, "\n".join(
+                "[%d] %s (%s, %s)" % (it["id"], it["title"], it["source"] or "unknown", it["published"]) for it in cand)))
+        more = generate(api_key, MORE_PROMPT.format(today=today_str, sections="\n".join(parts), avoid=lead_titles),
                         "more briefs (also-in-section lists)",
-                        check=both(make_fact_check(all_headline_text, len(items)), check_more_pkg(len(items))))
+                        check=both(make_fact_check(all_headline_text, len(items)), check_more_pkg(allowed)))
         if more:
             by_id_m = {it["id"]: it for it in items}
             for sec in ("big_story", "venture_vault", "geopolitics"):
