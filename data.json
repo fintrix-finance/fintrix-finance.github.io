@@ -1,61 +1,61 @@
 {
-  "updated_ist": "2026-10-15",
+  "updated_ist": "2026-10-16",
   "cover": {
-    "big_story_teaser": "Reliance unveils Jio Platforms IPO price band at Rs 1,065-1,119",
-    "venture_teaser": "Enterprise AI startup Shamrock AI raises $5 million in seed funding",
-    "market_watch_teaser": "As of 2026-10-15 close: Nifty 50 22,997.35 ▲ 1.66%",
-    "daily_brief_teaser": "Sensex jumps over 1,500 points, Nestle reports results, lenders flag forwards",
-    "inbrief_2": "Sensex jumps over 1,500 points",
-    "inbrief_3": "Global markets trade mostly negative",
-    "inbrief_4": "Lenders flag freeze in forwards",
-    "inbrief_1": "India-US trade deal nears finish"
+    "big_story_teaser": "Mukesh Ambani sets price band for Jio's record ₹30,213 crore IPO.",
+    "venture_teaser": "Lunar robotics startup Cosmochute raises $1.5M from Accel and Prosus.",
+    "market_watch_teaser": "LIVE AS OF 9:33 AM IST: Nifty 50 22,933.75 ▼ 0.28%",
+    "daily_brief_teaser": "RBI tightens rules, US trade deal close, and Nestle profits surge",
+    "inbrief_2": "RBI clarifies rules",
+    "inbrief_3": "RBI Clarifies Forex Curbs",
+    "inbrief_4": "Daily CRR Maintenance Raised to 99%",
+    "inbrief_1": "India-US Trade Deal Nears"
   },
   "big_story": {
-    "headline": "Jio Platforms IPO Set",
-    "subhead": "RELIANCE SHARES CLIMB 3% AS THE MEGA LISTING BRINGS A NEW ERA FOR DIGITAL GROWTH.",
+    "headline": "Jio Prepares India's Biggest IPO",
+    "subhead": "AMBANI SETS ₹30,213 CRORE ISSUE AS JIO PLATFORMS TARGETS ₹10.3 LAKH CRORE VALUATION",
     "paragraphs": [
-      "Indian markets witnessed heavy trading action as Reliance Industries shares jumped nearly 3% following the official announcement of the Jio Platforms IPO price band. Set at Rs 1,065 to Rs 1,119, the mega issue values the digital arm at an astounding Rs 10.3 lakh crore, making it one of the most anticipated market debuts in recent financial history.",
-      "Industry leaders and market watchers have noted that the IPO will enable everyday investors to actively participate in the next massive phase of digital growth across the country. The valuation positions the tech giant to potentially become India's fourth most valued firm right behind parent company Reliance, Airtel, and HDFC Bank.",
-      "As the issue dates approach, the ripple effects are already being felt across broader benchmark indices, which closed higher with the Nifty 50 up 1.66%. Analysts suggest keeping a close watch on subscription figures and broader telecom sector valuations as public bidding gets underway."
+      "Mukesh Ambani's Jio Platforms has set its price band for what is poised to become India's largest IPO yet. Meta- and Google-backed Jio is aiming to raise up to $3.2 billion through a ₹30,213 crore issue. The share price is set at ₹1,119, giving the digital and telecom powerhouse a massive valuation of ₹10.3 lakh crore as it pitches its long-term growth story to investors.",
+      "The upcoming market debut marks a pivotal milestone for parent conglomerate Reliance Industries, with analysts predicting a strong listing pop for the telecom giant. Following the successful listing of Jio Platforms, Reliance Industries could potentially topple Tata to become India's most valuable corporate group. Market observers note that the fresh capital raised will significantly reshape the competitive telecom landscape.",
+      "As Jio Platforms prepares for its historic market entry, both domestic and global market participants are closely tracking institutional subscription demand. The record-setting issue serves as a benchmark test for Indian equity market depth and investor appetite for mega-scale technology assets. Success here could trigger a fresh wave of public listings across the country's broader technology ecosystem."
     ],
-    "pullbox": "The massive Jio Platforms IPO sets a new benchmark for Indian tech valuations, offering investors a direct stake in the nation's digital future.",
+    "pullbox": "Jio Platforms' ₹30,213 crore issue targets a ₹10.3 lakh crore valuation, marking India's largest IPO to date.",
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/0/0e/Reliance_Industries.svg/330px-Reliance_Industries.svg.png",
-      "alt": "Reliance Industries"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/BSE_logo.svg/330px-BSE_logo.svg.png",
+      "alt": "Bombay Stock Exchange"
     }
   },
   "explains": {
     "title": "What is an Initial Public Offering?",
     "paragraphs": [
-      "An Initial Public Offering, or IPO, is the process by which a privately held company offers shares to the public for the first time. It transforms a private firm into a publicly traded entity, allowing it to raise fresh capital from retail and institutional investors.",
-      "Companies typically go public to fund expansion, pay down debt, or provide an exit to early venture capital backers. In return, the newly listed shares trade freely on stock exchanges like the BSE and NSE."
+      "An Initial Public Offering, or IPO, is the process through which a private company sells its shares to the public for the first time. This mechanism allows growing businesses to raise fresh equity capital from both institutional funds and retail investors.",
+      "Once an IPO is complete, the company's stock is listed on formal exchanges for public trading. Listing enhances financial transparency, creates liquidity for early venture backers, and subjects the enterprise to regular public reporting standards."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Enterprise AI startup Shamrock AI has successfully raised $5 million in a seed funding round led by Endiya Partners. The fresh capital will fuel its technological expansion while keeping up to 80% of its workforce based right here in India.",
-      "The heavy backing from prominent venture firms underscores a growing investor appetite for deep-tech and artificial intelligence infrastructure. Founders are increasingly building global-facing products out of domestic hubs to tap into international enterprise demand."
+      "Lunar robotics startup Cosmochute has raised $1.5 million in pre-seed funding to build out its space technology solutions. The round was led by premier venture capital firms Accel and Prosus Ventures, marking an early vote of confidence in India's frontier technology sector.",
+      "The newly secured capital will enable Cosmochute to accelerate development of its autonomous lunar robotics platforms and expand core engineering teams. Backing from global funds like Accel and Prosus underscores growing investor interest in commercial space technologies originating out of India."
     ]
   },
   "market_watch": {
     "indian": [
       {
         "name": "Sensex",
-        "value": "74,315.61 ▲ 2.11%",
-        "dir": "up",
-        "session_date": "2026-10-15"
+        "value": "74,131.83 ▼ 0.25%",
+        "dir": "down",
+        "live": true
       },
       {
         "name": "Nifty 50",
-        "value": "22,997.35 ▲ 1.66%",
-        "dir": "up",
-        "session_date": "2026-10-15"
+        "value": "22,933.75 ▼ 0.28%",
+        "dir": "down",
+        "live": true
       },
       {
         "name": "Nifty Bank",
-        "value": "55,810.50 ▲ 0.89%",
-        "dir": "up",
-        "session_date": "2026-10-15"
+        "value": "55,568.30 ▼ 0.43%",
+        "dir": "down",
+        "live": true
       }
     ],
     "asian": [
@@ -81,67 +81,67 @@
     "european": [
       {
         "name": "FTSE 100",
-        "value": "10,724.90 ▲ 0.70%",
+        "value": "10,840.35 ▲ 1.08%",
         "dir": "up",
-        "session_date": "2026-10-14"
+        "session_date": "2026-10-15"
       },
       {
         "name": "DAX",
-        "value": "25,298.61 ▲ 0.15%",
+        "value": "25,382.62 ▲ 0.33%",
         "dir": "up",
-        "session_date": "2026-10-14"
+        "session_date": "2026-10-15"
       },
       {
         "name": "CAC 40",
-        "value": "7,873.11 ▲ 0.58%",
+        "value": "7,934.70 ▲ 0.78%",
         "dir": "up",
-        "session_date": "2026-10-14"
+        "session_date": "2026-10-15"
       }
     ],
     "us": [
       {
         "name": "S&P 500",
-        "value": "7,718.94 ▼ 1.11%",
-        "dir": "down",
-        "session_date": "2026-10-14"
+        "value": "7,744.06 ▲ 0.33%",
+        "dir": "up",
+        "session_date": "2026-10-15"
       },
       {
         "name": "Nasdaq",
-        "value": "26,692.87 ▼ 1.88%",
-        "dir": "down",
-        "session_date": "2026-10-14"
+        "value": "26,713.03 ▲ 0.08%",
+        "dir": "up",
+        "session_date": "2026-10-15"
       },
       {
         "name": "Dow Jones",
-        "value": "51,621.48 ▼ 0.09%",
-        "dir": "down",
-        "session_date": "2026-10-14"
+        "value": "52,177.69 ▲ 1.08%",
+        "dir": "up",
+        "session_date": "2026-10-15"
       }
     ],
     "global": [
       {
         "name": "Dollar Index",
-        "value": "102.55 ▲ 0.36%",
-        "dir": "up",
-        "session_date": "2026-10-14"
+        "value": "102.00 ▼ 0.54%",
+        "dir": "down",
+        "session_date": "2026-10-15"
       },
       {
         "name": "Brent Crude",
-        "value": "$106.06/bbl",
-        "dir": "up",
-        "session_date": "2026-10-14"
+        "value": "$105.92/bbl",
+        "dir": "down",
+        "session_date": "2026-10-15"
       },
       {
         "name": "Gold",
-        "value": "$4,108/oz",
-        "dir": "down",
-        "session_date": "2026-10-14"
+        "value": "$4,170/oz",
+        "dir": "up",
+        "session_date": "2026-10-15"
       },
       {
         "name": "US 10Y Yield",
-        "value": "5.19% ▼ 2.7 bp",
+        "value": "5.09% ▼ 10.1 bp",
         "dir": "down",
-        "session_date": "2026-10-14"
+        "session_date": "2026-10-15"
       }
     ],
     "losers": [
@@ -154,14 +154,23 @@
       "ICICI Bank",
       "Reliance Industries"
     ],
-    "snapshot_strip": "IT and Auto led; PSU Banks and Media lagged as the Nifty rose 1.66%",
+    "snapshot_strip": "The Nifty fell 0.28% in today's session so far",
     "date_label": "OCT 2026",
-    "close_label": "CLOSE OF OCT 15",
-    "session_date": "2026-10-15",
+    "close_label": "LIVE AS OF 9:33 AM IST",
+    "live": true,
+    "session_date": "2026-10-16",
     "ipo_desk": [
       {
-        "name": "Tonbo Imaging",
-        "note": "Day 1 subscription status reaches 4.00x"
+        "name": "Sahajanand Medical Technologies",
+        "note": "IPO Day 2 underway"
+      },
+      {
+        "name": "Shellz India",
+        "note": "IPO Day 2 underway"
+      },
+      {
+        "name": "Tonbo Imaging India",
+        "note": "IPO Day 1 underway"
       }
     ]
   },
@@ -170,84 +179,84 @@
       {
         "name": "Gold",
         "unit": "$/oz",
-        "price": "4,108",
-        "day": "▼ 1.66%",
-        "week": "▼ 0.79%",
-        "dir": "down",
-        "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,10.0 4.1,3.0 8.3,6.5 12.4,8.6 16.6,7.4 20.7,10.4 24.8,10.3 29.0,13.4 33.1,14.5 37.2,11.5 41.4,10.8 45.5,9.4 49.7,11.7 53.8,12.1 57.9,15.3 62.1,16.4 66.2,15.1 70.3,23.6 74.5,23.0 78.6,22.6 82.8,21.8 86.9,24.0 91.0,24.3 95.2,22.6 99.3,25.2 103.4,24.3 107.6,21.0 111.7,22.4 115.9,23.1 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
-        "session_date": "2026-10-14"
+        "price": "4,205",
+        "day": "▲ 2.36%",
+        "week": "▲ 1.15%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,6.5 8.3,8.6 12.4,7.4 16.6,10.4 20.7,10.3 24.8,13.4 29.0,14.5 33.1,11.5 37.2,10.8 41.4,9.4 45.5,11.7 49.7,12.1 53.8,15.3 57.9,16.4 62.1,15.1 66.2,23.6 70.3,23.0 74.5,22.6 78.6,21.8 82.8,24.0 86.9,24.3 91.0,22.6 95.2,25.2 99.3,24.3 103.4,21.0 107.6,22.4 111.7,23.1 115.9,27.0 120.0,21.6\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"21.6\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-15"
       },
       {
         "name": "Silver",
         "unit": "$/oz",
-        "price": "55.55",
-        "day": "▼ 6.10%",
-        "week": "▼ 7.26%",
-        "dir": "down",
+        "price": "58.09",
+        "day": "▲ 4.57%",
+        "week": "▼ 1.65%",
+        "dir": "up",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,9.2 4.1,4.9 8.3,6.7 12.4,6.2 16.6,3.0 20.7,10.1 24.8,9.6 29.0,11.6 33.1,12.1 37.2,10.1 41.4,7.8 45.5,5.7 49.7,7.1 53.8,6.9 57.9,9.9 62.1,11.7 66.2,10.2 70.3,16.0 74.5,17.1 78.6,18.2 82.8,17.0 86.9,18.4 91.0,16.7 95.2,16.1 99.3,18.6 103.4,20.2 107.6,17.1 111.7,18.1 115.9,20.0 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
-        "session_date": "2026-10-14"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,4.9 4.1,6.7 8.3,6.2 12.4,3.0 16.6,10.1 20.7,9.6 24.8,11.6 29.0,12.1 33.1,10.1 37.2,7.8 41.4,5.7 45.5,7.1 49.7,6.9 53.8,9.9 57.9,11.7 62.1,10.2 66.2,16.0 70.3,17.1 74.5,18.2 78.6,17.0 82.8,18.4 86.9,16.7 91.0,16.1 95.2,18.6 99.3,20.2 103.4,17.1 107.6,18.1 111.7,20.0 115.9,27.0 120.0,22.1\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"22.1\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-15"
       },
       {
         "name": "Brent Crude",
         "unit": "$/bbl",
-        "price": "106.06",
-        "day": "▲ 0.35%",
-        "week": "▲ 5.85%",
-        "dir": "up",
+        "price": "105.15",
+        "day": "▼ 0.86%",
+        "week": "▲ 0.83%",
+        "dir": "down",
         "dir_week": "up",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,26.8 4.1,27.0 8.3,25.6 12.4,22.6 16.6,16.7 20.7,5.0 24.8,10.5 29.0,8.6 33.1,3.0 37.2,8.3 41.4,10.1 45.5,11.9 49.7,18.3 53.8,20.2 57.9,13.3 62.1,6.9 66.2,11.0 70.3,9.3 74.5,14.2 78.6,12.5 82.8,14.7 86.9,14.8 91.0,18.3 95.2,17.8 99.3,18.5 103.4,11.1 107.6,10.3 111.7,6.8 115.9,8.6 120.0,7.9\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"7.9\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
-        "session_date": "2026-10-14"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,27.0 4.1,25.6 8.3,22.6 12.4,16.7 16.6,5.0 20.7,10.5 24.8,8.6 29.0,3.0 33.1,8.3 37.2,10.1 41.4,11.9 45.5,18.3 49.7,20.2 53.8,13.3 57.9,6.9 62.1,11.0 66.2,9.3 70.3,14.2 74.5,12.5 78.6,14.7 82.8,14.8 86.9,18.3 91.0,17.8 95.2,18.5 99.3,11.1 103.4,10.3 107.6,6.8 111.7,8.6 115.9,7.9 120.0,9.5\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"9.5\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-15"
       },
       {
         "name": "WTI Crude",
         "unit": "$/bbl",
-        "price": "95.09",
-        "day": "▲ 1.01%",
-        "week": "▲ 7.71%",
+        "price": "95.65",
+        "day": "▲ 0.59%",
+        "week": "▲ 4.55%",
         "dir": "up",
         "dir_week": "up",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,23.3 4.1,22.9 8.3,22.6 12.4,20.5 16.6,16.4 20.7,7.6 24.8,10.9 29.0,9.1 33.1,3.0 37.2,7.6 41.4,8.4 45.5,10.6 49.7,16.7 53.8,18.4 57.9,21.7 62.1,18.3 66.2,21.4 70.3,21.1 74.5,25.5 78.6,24.1 82.8,20.7 86.9,23.1 91.0,25.4 95.2,25.4 99.3,27.0 103.4,22.6 107.6,22.1 111.7,19.5 115.9,19.0 120.0,17.7\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"17.7\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
-        "session_date": "2026-10-14"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,22.9 4.1,22.6 8.3,20.5 12.4,16.4 16.6,7.6 20.7,10.9 24.8,9.1 29.0,3.0 33.1,7.6 37.2,8.4 41.4,10.6 45.5,16.7 49.7,18.4 53.8,21.7 57.9,18.3 62.1,21.4 66.2,21.1 70.3,25.5 74.5,24.1 78.6,20.7 82.8,23.1 86.9,25.4 91.0,25.4 95.2,27.0 99.3,22.6 103.4,22.1 107.6,19.5 111.7,19.0 115.9,17.7 120.0,16.9\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"16.9\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-15"
       }
     ],
     "alternatives": [
       {
         "name": "Embassy REIT",
-        "price": "₹434.91",
-        "day": "▲ 1.02%",
-        "week": "▼ 0.09%",
+        "price": "₹434.98",
+        "day": "▲ 0.02%",
+        "week": "▲ 0.86%",
         "dir": "up",
-        "dir_week": "down",
-        "session_date": "2026-10-14"
+        "dir_week": "up",
+        "session_date": "2026-10-15"
       },
       {
         "name": "Nexus Select REIT",
-        "price": "₹163.83",
-        "day": "▼ 0.61%",
-        "week": "▼ 0.50%",
+        "price": "₹163.64",
+        "day": "▼ 0.12%",
+        "week": "▼ 0.72%",
         "dir": "down",
         "dir_week": "down",
-        "session_date": "2026-10-14"
+        "session_date": "2026-10-15"
       },
       {
         "name": "Mindspace REIT",
-        "price": "₹495.02",
-        "day": "▲ 0.01%",
-        "week": "▲ 0.29%",
-        "dir": "up",
+        "price": "₹494.66",
+        "day": "▼ 0.07%",
+        "week": "▲ 0.75%",
+        "dir": "down",
         "dir_week": "up",
-        "session_date": "2026-10-14"
+        "session_date": "2026-10-15"
       },
       {
         "name": "Brookfield REIT",
-        "price": "₹322.24",
-        "day": "▼ 0.22%",
-        "week": "▼ 2.23%",
+        "price": "₹321.72",
+        "day": "▼ 0.16%",
+        "week": "▼ 0.45%",
         "dir": "down",
         "dir_week": "down",
-        "session_date": "2026-10-14"
+        "session_date": "2026-10-15"
       },
       {
         "name": "PowerGrid InvIT",
@@ -311,32 +320,32 @@
       {
         "name": "ICICI Pru Large Cap",
         "cat": "Large cap",
-        "nav": "₹112.77",
-        "day": "▼ 0.36%",
-        "week": "▼ 0.27%",
-        "dir": "down",
-        "dir_week": "down",
-        "session_date": "2026-10-14"
+        "nav": "₹114.31",
+        "day": "▲ 1.37%",
+        "week": "▲ 2.80%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-15"
       },
       {
         "name": "MO Midcap 150 Index",
         "cat": "Mid cap",
-        "nav": "₹39.62",
-        "day": "▼ 0.04%",
-        "week": "▼ 0.08%",
+        "nav": "₹39.50",
+        "day": "▼ 0.29%",
+        "week": "▲ 2.08%",
         "dir": "down",
-        "dir_week": "down",
-        "session_date": "2026-10-14"
+        "dir_week": "up",
+        "session_date": "2026-10-15"
       },
       {
         "name": "Nippon Small Cap",
         "cat": "Small cap",
-        "nav": "₹204.75",
-        "day": "▲ 0.39%",
-        "week": "▼ 0.47%",
-        "dir": "up",
-        "dir_week": "down",
-        "session_date": "2026-10-14"
+        "nav": "₹202.27",
+        "day": "▼ 1.21%",
+        "week": "▲ 0.66%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-10-15"
       },
       {
         "name": "Parag Parikh Flexi Cap",
@@ -356,11 +365,11 @@
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "India | Markets",
-      "headline": "Sensex Jumps Over 1,500 Points",
+      "kicker": "Central Banking",
+      "headline": "RBI Tightens Rules to Curb Rupee Speculation",
       "paragraphs": [
-        "Indian stock markets witnessed a massive rally as the Sensex jumped over 1,500 points during the session. Investors cheered domestic resilience as indices defied broader regional trends.",
-        "The strong market performance was supported by gains across key sectors, reflecting robust buying interest among domestic participants despite broader macroeconomic hurdles."
+        "The Reserve Bank of India has stepped up its defense of the domestic currency by introducing stricter regulations aimed at curbing speculative trading. These fresh measures arrive as ongoing depreciation pressures continue to weigh heavily on foreign exchange markets.",
+        "Bankers and traders are closely evaluating how these tighter compliance norms will impact liquidity and hedging strategies in the near term. The central bank remains vigilant as currency volatility persists across emerging markets."
       ],
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
@@ -368,214 +377,201 @@
       }
     },
     "story_2": {
-      "kicker": "Global | Markets",
-      "headline": "Global Markets Trade Mostly Negative",
+      "kicker": "Forex Markets",
+      "headline": "RBI Clarifies Forex Curbs After Market Swings",
       "paragraphs": [
-        "Global financial markets experienced downward pressure as investors reacted to accelerating inflation data out of the United States. Major equity indices across regions struggled to maintain positive momentum.",
-        "The shift in global sentiment highlights growing concerns over sustained monetary tightening and rising borrowing costs in major developed economies."
+        "Following noticeable swings in currency trading, the Reserve Bank of India has issued clarifications regarding the scope of its recent forex curbs. Market participants had sought regulatory certainty on hedging requirements.",
+        "The central bank aims to balance orderly market conditions with necessary flexibility for corporate hedgers as global currency dynamics continue to shift."
       ]
     },
     "story_3": {
-      "kicker": "India | Banking",
-      "headline": "Lenders Flag Freeze in Forwards",
+      "kicker": "Banking Policy",
+      "headline": "Daily CRR Maintenance Raised to 99%",
       "paragraphs": [
-        "Banking institutions have raised concerns with the Reserve Bank of India regarding a freeze in rupee forwards and emerging market distortions. Financial sector participants are seeking regulatory clarity amid ongoing currency management measures."
+        "The Reserve Bank of India has raised the daily Cash Reserve Ratio maintenance requirement for commercial banks to 99 percent. This regulatory adjustment aims to tighten short-term liquidity management across the banking system."
       ]
     },
     "also_today": {
       "items": [
-        "Nestle India Q2 standalone profit jumps 36 percent to Rs 1,027 crore as revenue rises 20 percent",
-        "India trade deficit widens to $30.21 billion in September despite 23 percent export jump",
-        "Enterprise AI startup Shamrock AI raises $5 million in seed funding led by Endiya Partners",
-        "Fairfax deal for IDBI Bank culminates in Rs 52,878 crore transaction signaling zest for assets"
+        "Nestle India Q2 net profit jumps 36 percent to Rs 1,027 crore as revenue rises 20 percent",
+        "India-US trade deal enters final phase of legal drafting, says Commerce Minister Piyush Goyal",
+        "Fairfax's Rs 52,878 crore IDBI Bank acquisition receives official Cabinet nod",
+        "India's September goods exports rise 23 percent as imports hit a six-month low"
       ]
     }
   },
   "geopolitics": {
     "kicker": "India | Trade",
-    "headline": "India-US Trade Pact Enters Final Legal Drafting",
+    "headline": "India-US Trade Deal Nears Finalisation",
     "paragraphs": [
-      "India and the United States are moving quickly toward finalizing an interim trade pact, with commerce officials confirming that the first phase has been settled and legal drafting is underway. Sergio Gor noted that the big framework and items are completed, while Commerce Minister Piyush Goyal emphasized that the agreement is being shaped with changed geopolitical and economic circumstances in mind. This milestone promises to recalibrate bilateral commerce and deepen commercial ties between the two nations.",
-      "As legal teams iron out the final texts, businesses are watching closely to see how tariffs, market access, and regulatory frameworks will shift under the new pact. With trade deficits widening to $30.21 billion in September, a finalized US deal could provide a vital boost to Indian exports and strategic economic stability. Final implementation details remain crucial for firms looking to leverage this evolving partnership."
+      "India and the United States are nearing the finalisation of their bilateral trade pact, with US envoy Sergio Gor stating that big items are done and both sides are close to a landing point. Commerce and Industry Minister Piyush Goyal confirmed that the first phase of the trade deal has been finalised and legal drafting is currently under way, keeping changed circumstances in mind. This critical economic milestone moves forward alongside India's broader trade strategy, including the India-New Zealand Free Trade Agreement coming into force on October 20 and a targeted Canada deal by year-end.",
+      "While the legal drafting process proceeds for the US pact, officials must navigate the remaining finer points before the agreement is formally signed and enacted. For Indian businesses and exporters, the successful conclusion of these major international trade deals promises to reshape market access and reduce cross-border frictions. As the first phase is locked in, market participants will watch closely to see how the implementation timeline impacts bilateral commerce and trade deficits."
     ],
     "world_60": [
-      "Sensex jumps over 1,500 points as Indian markets defy global sell-off and rupee strengthens.",
-      "Canada races to seal India trade pact by year-end and deepen European Union ties.",
-      "India trade deficit widens to $30.21 billion in September despite a 23% jump in exports.",
-      "Gold prices rise Rs 1,353 to Rs 1.47 lakh per 10 grams as crude oil softens.",
-      "AI infrastructure startup Modal raises $750 million at a $15.7 billion valuation."
+      "India's September goods exports rise 23% as imports hit six-month low, narrowing trade deficit.",
+      "Global oil inventories depleted; analysts warn next price spike could roil economies and markets.",
+      "Gold eases after climbing over 1% in the previous session amid shifting long-term yields.",
+      "GIFT NIFTY indicates gap up opening for Indian markets as Asian stocks rebound.",
+      "Indian markets continue rally; Nifty and Sensex close 2% up as rupee strengthens."
     ],
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Piyush_Goyal_crop.jpg/330px-Piyush_Goyal_crop.jpg",
-      "alt": "Piyush Goyal"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/US_Capitol_east_side.JPG/3840px-US_Capitol_east_side.JPG",
+      "alt": "United States Capitol"
     }
   },
-  "more": {
-    "big_story": [
-      {
-        "headline": "Sensex Soars Over 1,500 Points As Markets Rally",
-        "text": "The BSE Sensex soared over 1,500 points to cross 74,200 while the Nifty50 pushed above 22,300. Indian markets defied the broader Asian rout as domestic indices posted robust gains, providing a major boost to investor confidence.",
-        "source": "The Times of India",
-        "published": "15 Oct 10:50 IST"
-      },
-      {
-        "headline": "Nestle India Q2 Profit Climbs As Shares Slide",
-        "text": "Nestle India reported its Q2 results with net profit rising significantly to Rs 1,968 Crore. Despite the strong jump in earnings, company shares slid as investors weighed cost pressures and broader inflation concerns.",
-        "source": "APAC Media",
-        "published": "15 Oct 15:16 IST"
-      }
-    ],
-    "venture_vault": [
-      {
-        "headline": "Tonbo Imaging India IPO Opens For Day One",
-        "text": "The Tonbo Imaging India IPO kicked off its Day 1 subscription window. Investors are closely tracking the timeline, subscription status, and key issue details as the public offering gets underway.",
-        "source": "Groww",
-        "published": "15 Oct 10:39 IST"
-      }
-    ],
-    "geopolitics": [
-      {
-        "headline": "India's Trade Deficit Widens Amid Export Growth",
-        "text": "India's trade deficit widened to $30.21 billion in September. This shift occurred despite the country recording a strong 23% jump in its exports during the same period.",
-        "source": "The Economic Times",
-        "published": "15 Oct 14:31 IST"
-      },
-      {
-        "headline": "Gold And Silver Prices Rebound At Lower Levels",
-        "text": "Gold and silver prices staged a notable rebound following buying interest at lower levels. Gold prices rose to Rs 1.47 Lakh per 10 grams while silver also registered gains as crude oil softened.",
-        "source": "Deccan Chronicle",
-        "published": "15 Oct 12:27 IST"
-      }
-    ]
-  },
+  "more": {},
   "sources": {
     "big_story": [
       {
-        "title": "Jio Platforms IPO LIVE: Price band, issue dates and latest announcements",
-        "source": "India Today"
+        "title": "Mukesh Ambani's Jio sets price band for India IPO",
+        "source": "Reuters"
       },
       {
-        "title": "Jio Platforms IPO: Price Band Set At Rs 1,065-1,119, Valuation At Rs 10.3 Lakh Crore",
-        "source": "Outlook Money"
+        "title": "Meta- and Google-backed Jio sets IPO price range, aiming to raise up to $3.2 billion",
+        "source": "Quartz"
       },
       {
-        "title": "Reliance Industries shares extend gain past 2% on Jio price band for India's largest IPO - CNBC TV18",
-        "source": "LinkedIn"
+        "title": "After Jio's listing, Reliance Industries could topple Tata as India's most valuable group",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Jio Platforms pitches growth story ahead of India’s largest IPO",
+        "source": "Communications Today"
+      },
+      {
+        "title": "Jio Platforms IPO 2026: ₹30,213 Crore Issue, ₹10.3 Lakh Crore Valuation and ₹1,119 Share Price Set to Reshape Indian Telecom Market",
+        "source": "TelecomLead"
+      },
+      {
+        "title": "Ambani's Jio set for listing pop, analysts say ahead of record IPO",
+        "source": "Reuters"
       }
     ],
     "venture_vault": [
       {
-        "title": "Enterprise AI startup Shamrock AI raises $5 million in seed funding led by Endiya Partners",
-        "source": "Indian Startup News"
+        "title": "Cosmochute Raises $1.5 Million in Pre-Seed Funding Led by Accel and Prosus Ventures",
+        "source": "Indian Startup Times"
       },
       {
-        "title": "Shamrock AI Raises $5 Million, Plans to Keep Up to 80% of Workforce in India",
-        "source": "https://ascendants.in/"
+        "title": "Lunar robotics startup Cosmochute raises $1.5 million in funding led by Accel, Prosus Ventures",
+        "source": "Indian Startup News"
       }
     ],
     "daily_brief_1": [
       {
-        "title": "Sensex jumps over 1,500 points: 5 reasons why the stock market is rising today",
-        "source": "Firstpost"
+        "title": "India's RBI tightens rules to curb rupee speculation amid ongoing depreciation pressures.",
+        "source": "Pluang"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "Global markets trade mostly negative after US inflation accelerates",
-        "source": "Anadolu Ajansı"
+        "title": "India’s RBI Clarifies Scope of Forex Curbs After Market Swings",
+        "source": "Bloomberg"
       }
     ],
     "daily_brief_3": [
       {
-        "title": "Lenders Flag Freeze in Rupee Forwards, Market Distortions to RBI",
-        "source": "Bloomberg.com"
+        "title": "RBI Raises Daily CRR Maintenance Requirement for Banks to 99% from October 16",
+        "source": "News On AIR"
       }
     ],
     "also_today": [
-      {
-        "title": "Sensex jumped 1,500 points despite global sell-off: Why markets rose today?",
-        "source": "India Today"
-      },
-      {
-        "title": "Why India may need rate hikes, tax cuts to buoy rupee",
-        "source": "ThePrint"
-      },
       {
         "title": "Nestle India Q2 Results: Standalone profit jumps 36% YoY to Rs 1,027 crore, revenue rises 20%",
         "source": "The Economic Times"
       },
       {
-        "title": "India's trade deficit widens to $30.21 billion in September despite 23% jump in exports",
+        "title": "India-US trade pact in last leg of legal drafting, says Piyush Goyal",
         "source": "The Economic Times"
       },
       {
-        "title": "Enterprise AI startup Shamrock AI raises $5 million in seed funding led by Endiya Partners",
-        "source": "Indian Startup News"
+        "title": "IDBI Bank shares fall nearly 8 per cent after Rs 52,878-crore Fairfax deal gets Cabinet nod",
+        "source": "India Today NE"
       },
       {
-        "title": "IDBI Bank Stake Sale Culminates in ₹52,878 Crore Fairfax Deal",
-        "source": "India Business Trade"
+        "title": "India's September goods exports rise 23% as imports hit six-month low, narrowing trade deficit",
+        "source": "The Economic Times"
       }
     ],
     "geopolitics": [
       {
-        "title": "'Big picture, big framework, big items are done': Sergio Gor says India-US trade deal very close ahead of",
+        "title": "'Big items are done', India-US trade deal close to finalisation, says US envoy Sergio Gor",
+        "source": "The New Indian Express"
+      },
+      {
+        "title": "India-US trade pact in last leg of legal drafting, says Piyush Goyal",
         "source": "The Economic Times"
       },
       {
-        "title": "India-US trade deal: First phase finalised, legal drafting under way, says Piyush Goyal",
-        "source": "The Times of India"
+        "title": "India-US trade deal: 'Big items done', both sides close to pact, says Gor",
+        "source": "Business Standard"
+      },
+      {
+        "title": "India-US trade deal nears 'landing point’, big items done, says Ambassador Sergio Gor",
+        "source": "Firstpost"
       },
       {
         "title": "India-US Trade Pact To Be Finalised With Changed Circumstances In Mind: Piyush Goyal",
         "source": "India Business Trade"
       },
       {
-        "title": "India, US lock first phase of trade pact; legal drafting underway: Piyush Goyal",
-        "source": "The Economic Times"
+        "title": "India Says First Phase of US Trade Deal Finalized, Legal Drafting Underway",
+        "source": "BigGo Finance"
       },
       {
-        "title": "India-US interim trade deal undergoing legal drafting; to be finalised soon: Piyush Goyal",
-        "source": "Moneycontrol.com"
+        "title": "India-New Zealand FTA Comes Into Force on October 20; Canada Deal Targeted by Year-End",
+        "source": "Open Magazine"
       },
       {
-        "title": "Indian trade secretary Rajesh Agrawal says first phase of US trade deal finalised",
-        "source": "The Economic Times"
+        "title": "Canada courting Indian business partnerships in race to seal trade deal",
+        "source": "CBC"
+      },
+      {
+        "title": "India-US trade deal: First phase finalised, legal drafting under way, says Piyush Goyal",
+        "source": "The Times of India"
+      },
+      {
+        "title": "India-US Trade Pact First Phase Finalised, Legal Drafting Underway",
+        "source": "India Business Trade"
       }
     ],
     "world_60": [
       {
-        "title": "Indian markets continue rally; Nifty and Sensex close 2% up as rupee strengths",
-        "source": "The Hindu"
-      },
-      {
-        "title": "Sensex jumped 1,500 points despite global sell-off: Why markets rose today?",
-        "source": "India Today"
-      },
-      {
-        "title": "AI infra startup Modal raises $750 mn at $15.7 bn valuation",
-        "source": "The Times of India"
-      },
-      {
-        "title": "Canada races to seal India trade pact by year-end, deepen EU ties",
-        "source": "Reuters"
-      },
-      {
-        "title": "India's trade deficit widens to $30.21 billion in September despite 23% jump in exports",
+        "title": "India's September goods exports rise 23% as imports hit six-month low, narrowing trade deficit",
         "source": "The Economic Times"
       },
       {
-        "title": "Gold Prices Rise Rs 1,353 to Rs 1.47 Lakh per 10 Grams; Silver Gains Rs 561",
-        "source": "Deccan Chronicle"
+        "title": "Global Oil Inventories Depleted, Next Price Spike Could Roil Economies, Markets",
+        "source": "EnergyNow.com"
+      },
+      {
+        "title": "Gold eases after climbing over 1% in previous session",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "GIFT NIFTY indicates gap up opening for Indian markets; Asian stocks rebound",
+        "source": "Upstox"
+      },
+      {
+        "title": "Indian markets continue rally; Nifty and Sensex close 2% up as rupee strengthens",
+        "source": "The Hindu"
       }
     ],
     "ipo_desk": [
       {
-        "title": "Tonbo Imaging India IPO Day 1 Subscription Status: 4.00x",
-        "source": "HDFC Sky"
+        "title": "Sahajanand Medical Technologies IPO Day 2: Check GMP, subscription status and key details",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "Shellz India IPO Day 2: Subscription Status on 16 October 2026",
+        "source": "Univest"
+      },
+      {
+        "title": "Tonbo Imaging India IPO Day 1: Subscription Status, Timeline & Key Issue Details",
+        "source": "Groww"
       }
     ],
-    "market_data": "Yahoo Finance (computed, session 2026-10-15)",
+    "market_data": "Yahoo Finance (computed, session 2026-10-16)",
     "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
   }
 }
