@@ -385,25 +385,52 @@ MORE_SECTION_TITLES = {
 }
 
 
-def check_more_pkg(allowed):
-    """allowed: {section: set of headline ids that section may use}."""
+def _more_row_problem(r, sec, allowed, seen, fact_check):
+    """Why one extra story is unusable, or None. Only this story is dropped."""
+    if not isinstance(r, dict) or not isinstance(r.get("id"), int) or r["id"] not in allowed.get(sec, ()):
+        return "id not in its section list"
+    if r["id"] in seen:
+        return "repeated id"
+    if not is_str(r.get("headline"), 8, 90) or not is_str(r.get("text"), 120, 520):
+        return "headline/text length"
+    t = r["text"].lower()
+    if re.search(r"profit", t) and re.search(r"crore|lakh|billion|million", t) \
+            and not re.search(r"standalone|consolidated", t):
+        return "profit figure without standalone/consolidated basis"
+    if fact_check:
+        p = fact_check({"headline": r["headline"], "text": r["text"]})
+        if p:
+            return p
+    return None
+
+
+def clean_more_pkg(pkg, allowed, fact_check=None):
+    """Keep every valid extra story and drop only the bad ones.
+    Returns ({section: [rows]}, [dropped reasons])."""
+    out, dropped = {}, []
+    if not isinstance(pkg, dict):
+        return out, ["not an object"]
+    seen = set()
+    for sec in ("big_story", "venture_vault", "geopolitics"):
+        rows = pkg.get(sec)
+        if not isinstance(rows, list):
+            continue
+        for r in rows[:3]:
+            why = _more_row_problem(r, sec, allowed, seen, fact_check)
+            if why:
+                dropped.append("%s: %s" % (sec, why))
+                continue
+            seen.add(r["id"])
+            out.setdefault(sec, []).append(r)
+    return out, dropped
+
+
+def check_more_pkg(allowed, fact_check=None):
+    """Accept an answer when at least one story survives; bad stories are dropped later."""
     def check(pkg):
-        if not isinstance(pkg, dict):
-            return "not an object"
-        seen = set()
-        for sec in ("big_story", "venture_vault", "geopolitics"):
-            rows = pkg.get(sec)
-            if not isinstance(rows, list) or len(rows) < 1 or len(rows) > 3:
-                return "%s needs 1-3 stories" % sec
-            for r in rows:
-                if not isinstance(r, dict) or not isinstance(r.get("id"), int) or r["id"] not in allowed.get(sec, ()) \
-                        or r["id"] in seen or not is_str(r.get("headline"), 8, 90) or not is_str(r.get("text"), 120, 520):
-                    return "bad story in %s" % sec
-                seen.add(r["id"])
-                t = r["text"].lower()
-                if re.search(r"profit", t) and re.search(r"crore|lakh|billion|million", t) \
-                        and not re.search(r"standalone|consolidated", t):
-                    return "profit figure without standalone/consolidated basis"
+        kept, dropped = clean_more_pkg(pkg, allowed, fact_check)
+        if not kept:
+            return "no usable extra stories (%s)" % "; ".join(dropped[:3] or ["empty"])
         return None
     return check
 
@@ -1977,13 +2004,17 @@ def main():
                 "[%d] %s (%s, %s)" % (it["id"], it["title"], it["source"] or "unknown", it["published"]) for it in cand)))
         more = generate(api_key, MORE_PROMPT.format(today=today_str, sections="\n".join(parts), avoid=lead_titles),
                         "more briefs (also-in-section lists)",
-                        check=both(make_fact_check(all_headline_text, len(items)), check_more_pkg(allowed)))
+                        check=check_more_pkg(allowed, make_fact_check(all_headline_text, len(items))))
         if more:
             by_id_m = {it["id"]: it for it in items}
-            for sec in ("big_story", "venture_vault", "geopolitics"):
+            kept, dropped = clean_more_pkg(more, allowed, make_fact_check(all_headline_text, len(items)))
+            if dropped:
+                print("more briefs: dropped %d bad stor%s, kept the rest: %s"
+                      % (len(dropped), "y" if len(dropped) == 1 else "ies", "; ".join(dropped)))
+            for sec, rows in kept.items():
                 more_out[sec] = [{"headline": r["headline"], "text": r["text"], "source": by_id_m[r["id"]]["source"] or "",
                                   "published": by_id_m[r["id"]]["published"]}
-                                 for r in more[sec] if r["id"] not in used_ids]
+                                 for r in rows if r["id"] not in used_ids]
     except Exception as e:  # never block the issue for the extras
         print("more briefs skipped: %s" % e)
         more_out = {}
