@@ -59,15 +59,40 @@ jobs:
         # (Gemini down, news feeds out, no previous issue to carry from) still
         # stop the job before any commit - the site keeps the previous issue.
 
+      - name: Archive today's issue
+        if: steps.state.outputs.skip != 'true'
+        run: |
+          python3 - <<'PY'
+          import glob, json, os
+          d = json.load(open('data.json'))
+          day = str(d.get('updated_ist', ''))[:10]
+          assert day, "data.json has no updated_ist date"
+          os.makedirs('archive', exist_ok=True)
+          with open(f'archive/{day}.json', 'w') as f:
+              json.dump(d, f, indent=2, ensure_ascii=False)
+          items = []
+          for p in glob.glob('archive/????-??-??.json'):
+              try:
+                  j = json.load(open(p))
+                  hl = ((j.get('big_story') or {}).get('headline')) or ''
+              except Exception:
+                  hl = ''
+              items.append({'date': os.path.basename(p)[:10], 'headline': hl})
+          items.sort(key=lambda x: x['date'], reverse=True)
+          with open('archive/index.json', 'w') as f:
+              json.dump(items, f, indent=2, ensure_ascii=False)
+          print(f"Archived issue {day}; index now lists {len(items)} issues.")
+          PY
+
       - name: Save the new data.json back to the repo
         if: steps.state.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet data.json; then
+          if git diff --quiet data.json && git diff --quiet archive/ && [ -z "$(git ls-files --others --exclude-standard archive/)" ]; then
             echo "Content unchanged, nothing to commit."
           else
-            git add data.json
+            git add data.json archive/
             git commit -m "Daily market update ($(date -u +'%Y-%m-%d'))"
             git push
           fi
