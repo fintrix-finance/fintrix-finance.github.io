@@ -317,6 +317,11 @@ h1,h2,h3,.display{ font-family:'Oswald',sans-serif; font-weight:700; letter-spac
 .story-img.hero.fit-contain, .story-img.band.fit-contain{ object-fit:contain; object-position:50% 50%; padding:14px 18px;
   background: radial-gradient(ellipse at 50% 45%, #f6efe2 0%, var(--cream) 70%); }
 .story-block{ overflow:hidden; }
+.share-btn{ display:inline-flex; align-items:center; gap:5px; margin-left:10px; padding:3px 10px; border:1px solid var(--border); border-radius:999px; background:transparent; color:var(--orange); font-family:'Inter',sans-serif; font-size:9.5px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; cursor:pointer; vertical-align:2px; -webkit-tap-highlight-color:transparent; }
+.share-btn:active{ background:var(--cream); }
+.share-btn svg{ width:11px; height:11px; display:block; }
+.story-block .share-btn{ margin-left:0; margin-top:-4px; }
+.share-btn-block{ margin:2px 0 12px; }
 
 /* ---------- Also Today (quick briefs) ---------- */
 .also-box{ border-top:2px solid var(--brown); padding-top:12px; margin-bottom:20px; flex-shrink:0; }
@@ -428,6 +433,7 @@ const PAGES_HTML = [
   <div class="page-header"><span class="brand">FINTRIX</span><span class="section-name">Big Story</span><span class="page-num">Page 2</span></div>
   <h1 class="headline" id="dyn-bs-head">The Business of Experience</h1>
   <div class="subhead" id="dyn-bs-sub">WHY MEMORIES, EMOTION AND IMMERSION ARE BECOMING PRODUCTS</div>
+  <button class="share-btn share-btn-block" type="button" data-share-src="dyn-bs-head" aria-label="Share this story"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="10.7" x2="15.4" y2="6.3"/><line x1="8.6" y1="13.3" x2="15.4" y2="17.7"/></svg>Share</button>
   <img class="story-img hero" id="dyn-bs-img" alt="">
   <div class="body-copy" id="dyn-bs-body">
     <p>Concerts sell out in minutes. Immersive art shows sell timed-entry slots months out. A weekend trek through Himachal now competes for wallet share with a new phone. Across categories, spending is drifting away from things you can own and toward moments you can only live through.</p>
@@ -596,7 +602,7 @@ const PAGES_HTML = [
   <h1 style="font-size:clamp(26px,5.6vw,36px); margin-bottom:6px;">Economy</h1>
   <div class="subhead" style="border:none; padding:0; margin-bottom:24px;">A SNAPSHOT OF WHAT SHAPES GROWTH, PRICES AND POLICY &nbsp;&middot;&nbsp; SEPTEMBER 2026</div>
   <div class="story-block">
-    <span class="kicker" id="dyn-ec1-kicker">India &nbsp;|&nbsp; Monetary Policy</span>
+    <span class="kicker" id="dyn-ec1-kicker">India &nbsp;|&nbsp; Monetary Policy</span><button class="share-btn" type="button" data-share-src="dyn-ec1-head" aria-label="Share this story"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="10.7" x2="15.4" y2="6.3"/><line x1="8.6" y1="13.3" x2="15.4" y2="17.7"/></svg>Share</button>
     <h2 id="dyn-ec1-head">RBI pulls the brake on its dollar drive</h2>
     <img class="story-img side" id="dyn-ec1-img" alt="">
     <div class="body-copy" style="font-size:11px;" id="dyn-ec1-body">
@@ -605,7 +611,7 @@ const PAGES_HTML = [
     </div>
   </div>
   <div class="story-block right-align">
-    <span class="kicker" id="dyn-ec2-kicker">Global &nbsp;|&nbsp; Markets</span>
+    <span class="kicker" id="dyn-ec2-kicker">Global &nbsp;|&nbsp; Markets</span><button class="share-btn" type="button" data-share-src="dyn-ec2-head" aria-label="Share this story"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="10.7" x2="15.4" y2="6.3"/><line x1="8.6" y1="13.3" x2="15.4" y2="17.7"/></svg>Share</button>
     <h2 id="dyn-ec2-head">The AI Boom meets the Stock Market</h2>
     <div class="body-copy" style="font-size:11px; text-align:right;" id="dyn-ec2-body">
       <p>Wall Street closed out August with the Nasdaq up nearly 4% and the S&amp;P 500 up over 2.6%, a rally still led overwhelmingly by AI infrastructure and chip names. That concentration turned into a liability this week: rising Treasury yields and a fresh spike in oil prices on US-Iran tensions hit chip stocks hardest as September trading opened.</p>
@@ -613,7 +619,7 @@ const PAGES_HTML = [
     </div>
   </div>
   <div class="story-block">
-    <span class="kicker" id="dyn-ec3-kicker">India &nbsp;|&nbsp; Tax Policy</span>
+    <span class="kicker" id="dyn-ec3-kicker">India &nbsp;|&nbsp; Tax Policy</span><button class="share-btn" type="button" data-share-src="dyn-ec3-head" aria-label="Share this story"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="10.7" x2="15.4" y2="6.3"/><line x1="8.6" y1="13.3" x2="15.4" y2="17.7"/></svg>Share</button>
     <h2 id="dyn-ec3-head">GST 2.0 kicks in with a simpler two-slab structure</h2>
     <div class="body-copy" style="font-size:11px;" id="dyn-ec3-body">
       <p>The GST Council's rate revamp takes effect this month, collapsing the old four-slab structure into two main rates of 5% and 18%, with a 40% levy reserved for sin and luxury goods. Everyday items from soaps to small cars get cheaper, and the government is betting the consumption bump offsets the revenue give-away.</p>
@@ -638,7 +644,7 @@ const PAGES_HTML = [
   <h1 style="font-size:clamp(26px,5.6vw,36px); margin-bottom:6px;">Geopolitics</h1>
   <div class="subhead" style="border:none; padding:0; margin-bottom:24px;">POWER, TRADE AND STRATEGIC RELATIONSHIPS SHAPING BUSINESS</div>
   <div class="story-block">
-    <span class="kicker" id="dyn-geo-kicker">India x China</span>
+    <span class="kicker" id="dyn-geo-kicker">India x China</span><button class="share-btn" type="button" data-share-src="dyn-geo-head" aria-label="Share this story"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="10.7" x2="15.4" y2="6.3"/><line x1="8.6" y1="13.3" x2="15.4" y2="17.7"/></svg>Share</button>
     <h2 id="dyn-geo-head">Xi's possible Delhi visit signals a careful thaw</h2>
     <img class="story-img band" id="dyn-geo-img" alt="">
     <div class="body-copy" style="font-size:11px;" id="dyn-geo-body">
@@ -670,7 +676,7 @@ const PAGES_HTML = [
       </div>
     </div>
     <div class="block right">
-      <span class="kicker" style="color:var(--orange);">Venture Vault</span>
+      <span class="kicker" style="color:var(--orange);">Venture Vault</span><button class="share-btn" type="button" data-share-src="dyn-cover-vv" data-share-kicker="Venture Vault" aria-label="Share this story"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="10.7" x2="15.4" y2="6.3"/><line x1="8.6" y1="13.3" x2="15.4" y2="17.7"/></svg>Share</button>
       <h2 style="font-size:clamp(19px,4vw,25px); margin:10px 0 14px;">The Startup Story</h2>
       <div class="body-copy" style="font-size:11px; text-align:right;" id="dyn-vv-body">
         <p>San Francisco-based Wispr just closed a $280 million Series B at a $2 billion valuation, tripling its worth in under ten months. It makes Wispr Flow, a dictation tool that turns speech into clean, formatted text inside whatever app a user is working in — now used across more than 125,000 businesses and most of the Fortune 500, largely through employees adopting it on their own.</p>
@@ -1252,6 +1258,31 @@ function endSwipe(e, cancelled){
 }
 stage.addEventListener('touchend', e => endSwipe(e, false), {passive:true});
 stage.addEventListener('touchcancel', e => endSwipe(e, true), {passive:true});
+
+// ---------- Per-story share ----------
+// Small buttons by each story's kicker. Tapping shares the story headline
+// plus a link to this issue's archive snapshot via the phone's native share
+// sheet, falling back to a WhatsApp compose link where there isn't one.
+// Delegated to the stage so buttons survive stage re-renders on resize.
+stage.addEventListener('click', e => {
+  const sbtn = e.target.closest ? e.target.closest('.share-btn') : null;
+  if(!sbtn) return;
+  e.stopPropagation();
+  const srcEl = document.getElementById(sbtn.getAttribute('data-share-src') || '');
+  const head = srcEl ? srcEl.textContent.trim() : '';
+  if(!head) return;
+  const kick = sbtn.getAttribute('data-share-kicker');
+  const title = kick ? kick + ': ' + head : head;
+  let ds = issueDate;
+  if(!ds && FINTRIX_DATA && /^\d{4}-\d{2}-\d{2}$/.test(FINTRIX_DATA.updated_ist || '')) ds = FINTRIX_DATA.updated_ist;
+  const url = 'https://fintrix-finance.github.io/' + (ds ? '?issue=' + ds : '');
+  const text = title + ' - from FINTRIX, ' + (ds ? fmtIssueDate(ds) : 'today') + '\n' + url;
+  if(navigator.share){
+    navigator.share({ text }).catch(() => {});
+  } else {
+    window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank', 'noopener');
+  }
+});
 
 updateControls();
 </script>
