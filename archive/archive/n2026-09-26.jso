@@ -1,0 +1,494 @@
+{
+  "updated_ist": "2026-09-26",
+  "cover": {
+    "big_story_teaser": "RBI Bulletin: GDP grows 7.8% as forex reserves slide $14.9 billion",
+    "venture_teaser": "Hospitality AI startup Dextr AI secures $6.7 million seed round",
+    "market_watch_teaser": "Sensex gains 0.43% as Nifty closes up at 23,140.50",
+    "daily_brief_teaser": "RBI bulletin highlights resilient economy despite headwinds",
+    "inbrief_2": "Economy resilient amid West Asia risks",
+    "inbrief_3": "Economy resilient with downside",
+    "inbrief_4": "India Equity Indices on Losing",
+    "inbrief_1": "India-US Trade Pact Over 90% Done"
+  },
+  "big_story": {
+    "headline": "RBI Bulletin: Growth Amid Market Stress",
+    "subhead": "GDP TOUCHES 7.8% AS FOREX RESERVES DROP AND EQUITIES SLIP FOR A SEVENTH WEEK",
+    "paragraphs": [
+      "The Reserve Bank of India's latest bulletin highlights a resilient Indian economy registering 7.8% GDP growth despite persistent global headwinds and West Asia conflict risks. However, foreign exchange reserves plummeted by $14.88 billion in a single week to $765.90 billion for the week ended September 18. Meanwhile, Indian equity indices registered a seventh straight weekly loss, marking the longest Nifty losing streak since the Covid pandemic.",
+      "The market divergence is striking as RBI Deputy Governor Poonam Gupta noted that the bond market performed well while equities faced continuous selling pressure. Rupee gains backed by foreign currency non-resident deposits reversed in September due to elevated crude oil prices. Global trade tensions, inflation concerns, and geopolitical friction in West Asia continue to present downside risks to domestic financial stability.",
+      "Looking ahead, central bank officials remain optimistic that equities will become attractive again as domestic macroeconomic fundamentals stay robust. Investors are closely monitoring crude oil price movements and global interest rate bets that impact foreign capital flows. The coming weeks will reveal if bond market strength can translate into broader financial market stabilization."
+    ],
+    "pullbox": "While India maintains a solid 7.8% GDP growth rate, a $14.88 billion drop in forex reserves and a seven-week equity downturn highlight severe global headwinds.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+      "alt": "Reserve Bank of India"
+    }
+  },
+  "explains": {
+    "title": "What are Foreign Exchange Reserves?",
+    "paragraphs": [
+      "Foreign exchange reserves are foreign assets held by a central bank, such as the Reserve Bank of India, in foreign currencies. These reserves include foreign banknotes, treasury bills, and government securities used to meet international financial obligations.",
+      "In practice, strong reserves allow a nation to absorb global economic shocks and support its domestic currency during foreign exchange volatility. When import costs rise or foreign capital exits, central banks draw on these reserves to maintain exchange rate stability."
+    ]
+  },
+  "venture_vault": {
+    "paragraphs": [
+      "Hospitality AI startup Dextr AI has raised $6.7 million in a seed funding round led by Elevation Capital. The company builds automated AI agents specifically tailored for hotels to manage guest operations and digital workflows.",
+      "The fresh capital will be deployed to expand its specialized AI agents across international hotel chains and upgrade technology infrastructure. The funding comes as Indian tech startups raised $10.3 billion in 2026, with vertical AI applications drawing larger investor cheques."
+    ]
+  },
+  "market_watch": {
+    "indian": [
+      {
+        "name": "Sensex",
+        "value": "73,895.74 ▲ 0.43%",
+        "dir": "up"
+      },
+      {
+        "name": "Nifty 50",
+        "value": "23,140.50 ▲ 0.34%",
+        "dir": "up"
+      },
+      {
+        "name": "Nifty Bank",
+        "value": "55,580.40 ▲ 0.26%",
+        "dir": "up"
+      }
+    ],
+    "asian": [
+      {
+        "name": "Nikkei 225",
+        "value": "66,364.20 ▲ 1.30%",
+        "dir": "up"
+      },
+      {
+        "name": "Hang Seng",
+        "value": "24,510.09 ▼ 1.01%",
+        "dir": "down"
+      },
+      {
+        "name": "Shanghai Comp.",
+        "value": "3,888.37 ▼ 1.22%",
+        "dir": "down"
+      }
+    ],
+    "european": [
+      {
+        "name": "FTSE 100",
+        "value": "10,695.25 ▲ 0.14%",
+        "dir": "up"
+      },
+      {
+        "name": "DAX",
+        "value": "25,408.64 ▲ 0.56%",
+        "dir": "up"
+      },
+      {
+        "name": "CAC 40",
+        "value": "8,077.80 ▼ 0.04%",
+        "dir": "down"
+      }
+    ],
+    "global": [
+      {
+        "name": "Dollar Index",
+        "value": "101.03 ▼ 0.25%",
+        "dir": "down"
+      },
+      {
+        "name": "Brent Crude",
+        "value": "$97.44/bbl",
+        "dir": "down"
+      },
+      {
+        "name": "Gold",
+        "value": "$4,321/oz",
+        "dir": "up"
+      }
+    ],
+    "losers": [
+      "Max Healthcare",
+      "Tata Motors PV",
+      "Infosys"
+    ],
+    "winners": [
+      "Axis Bank",
+      "Asian Paints",
+      "Mahindra & Mahindra"
+    ],
+    "snapshot_strip": "Realty and Auto led; Media and IT lagged as the Nifty rose 0.34%",
+    "date_label": "SEP 2026",
+    "close_label": "CLOSE OF SEP 25",
+    "ipo_desk": [
+      {
+        "name": "German Green Steel",
+        "note": "IPO Day 1 subscription status 1.82x"
+      },
+      {
+        "name": "Orient Cables",
+        "note": "IPO Day 1 issue subscribed 2.07 times"
+      },
+      {
+        "name": "SRIT India",
+        "note": "IPO details and grey market premium update"
+      }
+    ]
+  },
+  "data_desk": {
+    "commodities": [
+      {
+        "name": "Gold",
+        "unit": "$/oz",
+        "price": "4,321",
+        "day": "▲ 0.54%",
+        "week": "▼ 2.34%",
+        "dir": "up",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,18.6 4.1,16.5 8.3,19.6 12.4,12.2 16.6,10.6 20.7,4.0 24.8,3.0 29.0,3.2 33.1,5.7 37.2,5.0 41.4,13.1 45.5,16.0 49.7,21.1 53.8,20.0 57.9,12.5 62.1,16.3 66.2,18.5 70.3,17.2 74.5,20.4 78.6,20.3 82.8,23.8 86.9,24.9 91.0,21.6 95.2,20.9 99.3,19.4 103.4,21.8 107.6,22.3 111.7,25.8 115.9,27.0 120.0,25.6\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"25.6\" r=\"2.4\" fill=\"#c1541f\"/></svg>"
+      },
+      {
+        "name": "Silver",
+        "unit": "$/oz",
+        "price": "64.80",
+        "day": "▲ 2.12%",
+        "week": "▼ 2.64%",
+        "dir": "up",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,20.3 4.1,15.9 8.3,24.3 12.4,17.4 16.6,8.5 20.7,3.0 24.8,6.6 29.0,6.2 33.1,8.7 37.2,3.1 41.4,12.5 45.5,15.5 49.7,21.7 53.8,21.3 57.9,12.6 62.1,16.2 66.2,15.2 70.3,8.9 74.5,23.0 78.6,21.9 82.8,25.9 86.9,27.0 91.0,22.9 95.2,18.4 99.3,14.2 103.4,17.0 107.6,16.6 111.7,22.6 115.9,26.1 120.0,21.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"21.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>"
+      },
+      {
+        "name": "Brent Crude",
+        "unit": "$/bbl",
+        "price": "97.44",
+        "day": "▼ 8.59%",
+        "week": "▼ 6.19%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,26.2 4.1,23.5 8.3,23.4 12.4,22.7 16.6,20.2 20.7,19.5 24.8,22.0 29.0,26.2 33.1,27.0 37.2,24.9 41.4,25.3 45.5,24.0 49.7,19.2 53.8,18.1 57.9,18.2 62.1,17.3 66.2,15.4 70.3,11.7 74.5,4.3 78.6,7.8 82.8,6.5 86.9,3.0 91.0,6.4 95.2,7.5 99.3,8.6 103.4,12.7 107.6,13.9 111.7,9.5 115.9,5.5 120.0,16.0\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"16.0\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>"
+      },
+      {
+        "name": "WTI Crude",
+        "unit": "$/bbl",
+        "price": "92.41",
+        "day": "▼ 2.33%",
+        "week": "▼ 7.87%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,26.8 4.1,24.7 8.3,24.2 12.4,23.3 16.6,21.3 20.7,22.1 24.8,24.2 29.0,26.9 33.1,27.0 37.2,25.7 41.4,25.8 45.5,23.4 49.7,18.9 53.8,18.1 57.9,17.8 62.1,17.6 66.2,16.0 70.3,12.9 74.5,6.4 78.6,8.9 82.8,7.5 86.9,3.0 91.0,6.5 95.2,7.0 99.3,8.6 103.4,13.2 107.6,14.4 111.7,16.9 115.9,14.4 120.0,16.6\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"16.6\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Embassy REIT",
+        "price": "₹437.66",
+        "day": "▼ 0.48%",
+        "week": "▼ 0.77%",
+        "dir": "down",
+        "dir_week": "down"
+      },
+      {
+        "name": "Nexus Select REIT",
+        "price": "₹165.94",
+        "day": "▼ 0.29%",
+        "week": "▼ 0.25%",
+        "dir": "down",
+        "dir_week": "down"
+      },
+      {
+        "name": "Mindspace REIT",
+        "price": "₹508.08",
+        "day": "▲ 0.69%",
+        "week": "▲ 0.49%",
+        "dir": "up",
+        "dir_week": "up"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹337.99",
+        "day": "▲ 0.30%",
+        "week": "▼ 0.17%",
+        "dir": "up",
+        "dir_week": "down"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹101.91",
+        "day": "▼ 0.03%",
+        "week": "▲ 0.53%",
+        "dir": "down",
+        "dir_week": "up"
+      }
+    ],
+    "caps": [
+      {
+        "name": "Nifty 50",
+        "tag": "Large cap",
+        "level": "23,140.50",
+        "day": 0.34,
+        "week": -0.88,
+        "month": -4.41,
+        "day_txt": "▲ 0.34%",
+        "week_txt": "▼ 0.88%",
+        "month_txt": "▼ 4.41%",
+        "dir": "up",
+        "dir_week": "down",
+        "dir_month": "down"
+      },
+      {
+        "name": "Nifty Midcap 150",
+        "tag": "Mid cap",
+        "level": "22,437.00",
+        "day": -0.15,
+        "week": -2.03,
+        "month": -4.65,
+        "day_txt": "▼ 0.15%",
+        "week_txt": "▼ 2.03%",
+        "month_txt": "▼ 4.65%",
+        "dir": "down",
+        "dir_week": "down",
+        "dir_month": "down"
+      },
+      {
+        "name": "Nifty Smallcap 250",
+        "tag": "Small cap",
+        "level": "18,158.90",
+        "day": 0.02,
+        "week": -0.7,
+        "month": -1.61,
+        "day_txt": "▲ 0.02%",
+        "week_txt": "▼ 0.70%",
+        "month_txt": "▼ 1.61%",
+        "dir": "up",
+        "dir_week": "down",
+        "dir_month": "down"
+      }
+    ],
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"95.5\" width=\"22\" height=\"4.5\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"90.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.3</text><rect x=\"62.3\" y=\"100.0\" width=\"22\" height=\"11.7\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"123.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.9</text><rect x=\"90.3\" y=\"100.0\" width=\"22\" height=\"58.8\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"170.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-4.4</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"100.0\" width=\"22\" height=\"2.0\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"114.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.1</text><rect x=\"169.0\" y=\"100.0\" width=\"22\" height=\"27.1\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"139.1\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-2.0</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-4.7</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"99.2\" width=\"22\" height=\"0.8\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"94.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.0</text><rect x=\"275.7\" y=\"100.0\" width=\"22\" height=\"9.3\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"121.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.7</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"21.5\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"133.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.6</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "funds": [
+      {
+        "name": "ICICI Pru Large Cap",
+        "cat": "Large cap",
+        "nav": "₹115.57",
+        "day": "▲ 0.37%",
+        "week": "▼ 0.70%",
+        "dir": "up",
+        "dir_week": "down"
+      },
+      {
+        "name": "MO Midcap 150 Index",
+        "cat": "Mid cap",
+        "nav": "₹40.74",
+        "day": "▼ 0.15%",
+        "week": "▼ 2.03%",
+        "dir": "down",
+        "dir_week": "down"
+      },
+      {
+        "name": "Nippon Small Cap",
+        "cat": "Small cap",
+        "nav": "₹208.02",
+        "day": "▲ 0.15%",
+        "week": "▼ 0.64%",
+        "dir": "up",
+        "dir_week": "down"
+      },
+      {
+        "name": "Parag Parikh Flexi Cap",
+        "cat": "Flexi cap",
+        "nav": "₹89.96",
+        "day": "▲ 0.40%",
+        "week": "▲ 0.11%",
+        "dir": "up",
+        "dir_week": "up"
+      }
+    ],
+    "date_label": "SEP 2026",
+    "close_label": "CLOSE OF SEP 25",
+    "nav_label": "NAVS AS OF SEP 25"
+  },
+  "daily_brief": {
+    "story_1": {
+      "kicker": "India | Economy",
+      "headline": "RBI bulletin: Indian economy performed well",
+      "paragraphs": [
+        "The Reserve Bank of India has released its latest bulletin indicating that the Indian economy performed well despite various global headwinds. The financial and external sectors continue to draw strength from a resilient domestic economic framework.",
+        "Policymakers noted that steady domestic activity has helped cushion the broader system against international shocks and external market volatility."
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Tower_and_building_of_Reserve_Bank_of_India%2C_Mumbai_04.jpg/960px-Tower_and_building_of_Reserve_Bank_of_India%2C_Mumbai_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Tower and building of Reserve Bank of India, Mumbai 04"
+      }
+    },
+    "story_2": {
+      "kicker": "Global | Geopolitics",
+      "headline": "Economy resilient with downside risks",
+      "paragraphs": [
+        "According to the RBI bulletin, the domestic economy remains resilient overall, though notable downside risks persist. These risks include ongoing tensions and conflicts emanating from the West Asia region.",
+        "Analysts continue to monitor these geopolitical flashpoints closely for potential spillover effects on commodity prices and international supply chains."
+      ]
+    },
+    "story_3": {
+      "kicker": "Markets | Equities",
+      "headline": "India Equity Indices on Losing Streak",
+      "paragraphs": [
+        "India equity indices have extended their downward pressure, marking a losing streak for the seventh straight week. Market participants continue to weigh shifting macroeconomic signals against prevailing valuations."
+      ]
+    },
+    "also_today": {
+      "items": [
+        "Forex reserves fall by USD 14.88 billion to USD 765.90 billion in the week ended September 18.",
+        "Adani Enterprises sees Rs 2,498 crore promoter group share deal completed.",
+        "Muthoot FinCorp wins Team India title rights in a 150 crore BCCI deal.",
+        "India-US trade deal is 90%-plus done according to an American official."
+      ]
+    }
+  },
+  "geopolitics": {
+    "kicker": "India x US | Trade Deal",
+    "headline": "India-US Trade Pact Over 90% Complete",
+    "paragraphs": [
+      "The India-US trade pact is over 90% complete and poised to unleash another level of bilateral ties, according to an American official. Union Commerce Minister Piyush Goyal stated that the deal is almost done and dusted. Meanwhile, Foreign Secretary Vikram Misri flagged tariff moves during his discussions with the US undersecretary.",
+      "While both nations are closing in on an agreement, unresolved tariff issues remain a vital topic of negotiations. Resolving these final points will determine how smoothly cross-border commerce moves forward. Businesses in both countries are watching closely as finalized terms could significantly boost trade and investment flows."
+    ],
+    "world_60": [
+      "India eases paperwork for UK imports under preferential tariff deal",
+      "Oil prices slide 2% as US and Iran explore talks to avoid conflict",
+      "Gold rises Rs 200 per 10 gm as weak US dollar and lower oil prices offer support",
+      "Dow surges 478 points as US-Iran talks show progress and oil prices pull back"
+    ],
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Piyush_Goyal_crop.jpg/330px-Piyush_Goyal_crop.jpg",
+      "alt": "Piyush Goyal"
+    }
+  },
+  "sources": {
+    "big_story": [
+      {
+        "title": "Bond market performed well, equities less so: RBI Deputy Governor Poonam Gupta on what lies ahead",
+        "source": "Livemint"
+      },
+      {
+        "title": "India's forex reserves fall by USD 14.88 billion to USD 765.90 billion in week ended September 18: RBI",
+        "source": "ChiniMandi"
+      },
+      {
+        "title": "India's Equity Indices on a Losing Streak for Seventh Straight Week",
+        "source": "TradingView"
+      },
+      {
+        "title": "RBI Bulletin: 7.8% GDP Growth, But Forex Reserves Slide $14.9 Billion",
+        "source": "NiftyTrader"
+      },
+      {
+        "title": "Longest Nifty Losing Streak Since Covid",
+        "source": "Rediff"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "Dextr AI Raises $6.7 Mn Seed Round Led by Elevation Capital",
+        "source": "Indian Startup Times"
+      },
+      {
+        "title": "Hospitality AI startup Dextr AI raises $6.7 million to expand its AI agents for hotels",
+        "source": "Indian Startup News"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "RBI bulletin: Indian economy performed well despite global headwinds",
+        "source": "Mid-Day"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "Economy resilient with downside risks from West Asia conflict: RBI bulletin",
+        "source": "thehindu.com"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "India's Equity Indices on a Losing Streak for Seventh Straight Week",
+        "source": "TradingView"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "India's forex reserves fall by USD 14.88 billion to USD 765.90 billion in week ended September 18: RBI",
+        "source": "ChiniMandi"
+      },
+      {
+        "title": "Adani Enterprises sees Rs 2,498 crore promoter group share deal",
+        "source": "The Federal"
+      },
+      {
+        "title": "Muthoot FinCorp wins Team India title rights in ₹150 crore BCCI deal",
+        "source": "sports.economictimes.indiatimes.com"
+      },
+      {
+        "title": "India-US trade pact to 'unleash another level' of ties, says American official; reveals deal is '90%-plus'",
+        "source": "The Economic Times"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "India-US trade pact to 'unleash another level' of ties, says American official; reveals deal is '90%-plus'",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "India-US trade deal almost done and dusted: Piyush Goyal",
+        "source": "Fibre2Fashion"
+      },
+      {
+        "title": "Foreign secretary Vikram Misri flags tariff move in talks with US undersecretary",
+        "source": "The Economic Times"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "India-UK trade deal: CBIC eases paperwork for UK imports seeking preferential tariffs",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "Oil prices slide about 2% as US, Iran explore path out of war",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "Gold snaps four-session losing streak; rises Rs 200 per 10 gm on weak US dollar, easing oil price",
+        "source": "Daily Excelsior"
+      },
+      {
+        "title": "US-Iran Talks Show Signs of Progress as Oil Prices Pull Back; Stocks Close Higher for the Week with Dow Surging 478 Points",
+        "source": "finance.biggo.com"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "German Green Steel IPO Day 1 Subscription Status: 1.82x",
+        "source": "HDFC Sky"
+      },
+      {
+        "title": "German Green Steel IPO Fully Subscribed on Day 1",
+        "source": "Rediff MoneyWiz"
+      },
+      {
+        "title": "Orient Cables IPO Subscription Status Day 1: Issue Subscribed 2.07 Times",
+        "source": "HDFC Sky"
+      },
+      {
+        "title": "SRIT India IPO Date, Review, Price, Allotment Details",
+        "source": "IPO Watch"
+      },
+      {
+        "title": "SRIT India Ltd IPO Date: Check Issue Date, Price, Lot size, Subscription, News and Details - Moneycontrol",
+        "source": "Moneycontrol.com"
+      },
+      {
+        "title": "SRIT India IPO GMP, Grey Market Premium Today",
+        "source": "IPO Watch"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session SEP 25)",
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
+  }
+}
