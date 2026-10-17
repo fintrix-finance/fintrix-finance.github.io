@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QV4EEF02CS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-QV4EEF02CS');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FINTRIX — The Archive</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper: #ddd2c1;
+  --brown: #4a2e1a;
+  --orange: #c1541f;
+  --ink: #2f1e10;
+  --cream: #ede5d6;
+  --border: rgba(74,46,26,0.32);
+  --border-soft: rgba(74,46,26,0.16);
+}
+*{box-sizing:border-box; margin:0; padding:0;}
+body{
+  background:#26190f;
+  font-family:'Inter',sans-serif;
+  color:var(--ink);
+  min-height:100dvh;
+  padding:18px 14px 40px;
+}
+.sheet{
+  max-width:640px; margin:0 auto; background:var(--paper);
+  border:1px solid rgba(0,0,0,0.14); border-radius:2px;
+  box-shadow:0 32px 64px -22px rgba(0,0,0,0.55), 0 12px 22px -10px rgba(0,0,0,0.35);
+  padding:22px 20px 30px;
+}
+.arch-top{ display:flex; align-items:baseline; justify-content:space-between; gap:10px; border-bottom:3px double var(--border); padding-bottom:10px; }
+.masthead{ font-family:'Oswald',sans-serif; font-weight:700; font-size:30px; letter-spacing:.08em; color:var(--brown); }
+.masthead a{ color:inherit; text-decoration:none; }
+.backlink{ font-size:11.5px; color:var(--orange); text-decoration:none; font-weight:600; white-space:nowrap; }
+.arch-title{ margin:16px 0 4px; font-family:'Oswald',sans-serif; font-size:19px; font-weight:600; letter-spacing:.05em; text-transform:uppercase; color:var(--brown); }
+.arch-sub{ font-size:12px; opacity:.75; margin-bottom:16px; }
+.month{ margin-top:18px; font-family:'Oswald',sans-serif; font-size:13px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:var(--orange); border-bottom:1px solid var(--border-soft); padding-bottom:4px; }
+.issue{ display:block; text-decoration:none; color:inherit; padding:10px 2px; border-bottom:1px solid var(--border-soft); }
+.issue:last-child{ border-bottom:none; }
+.issue-date{ font-family:'Oswald',sans-serif; font-size:12.5px; font-weight:600; letter-spacing:.06em; color:var(--brown); text-transform:uppercase; }
+.issue-head{ font-family:'PT Serif',serif; font-size:14px; line-height:1.35; margin-top:2px; }
+.issue:hover .issue-head{ color:var(--orange); }
+.issue:hover .issue-date{ color:var(--orange); }
+.empty{ font-size:13px; opacity:.7; padding:20px 0; }
+.arch-foot{ margin-top:22px; padding-top:10px; border-top:3px double var(--border); font-size:9.5px; letter-spacing:.12em; text-transform:uppercase; opacity:.6; text-align:center; }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="arch-top">
+    <div class="masthead"><a href="./">FINTRIX</a></div>
+    <a class="backlink" href="./">&larr; Today's issue</a>
+  </div>
+  <div class="arch-title">The Archive</div>
+  <div class="arch-sub">Every past issue, by date. Tap one to read it as it ran.</div>
+  <div id="issueList"><div class="empty">Loading&hellip;</div></div>
+  <div class="arch-foot">FINNEXUS &mdash; The Commerce Club</div>
+</div>
+<script>
+const WD=['SUN','MON','TUE','WED','THU','FRI','SAT'];
+const MO=['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+const MO_FULL=['January','February','March','April','May','June','July','August','September','October','November','December'];
+function fmt(dstr){
+  const m=dstr.match(/^(\d{4})-(\d{2})-(\d{2})$/); if(!m) return dstr;
+  const dt=new Date(Date.UTC(+m[1],+m[2]-1,+m[3]));
+  return WD[dt.getUTCDay()]+', '+dt.getUTCDate()+' '+MO[dt.getUTCMonth()]+' '+dt.getUTCFullYear();
+}
+function esc(s){ const el=document.createElement('span'); el.textContent=s||''; return el.innerHTML; }
+fetch('archive/index.json',{cache:'no-store'})
+  .then(r=>r.ok?r.json():[])
+  .then(items=>{
+    const list=document.getElementById('issueList');
+    if(!items.length){ list.innerHTML='<div class="empty">No past issues yet.</div>'; return; }
+    let html='', lastMonth='';
+    items.forEach(it=>{
+      const m=it.date.slice(0,7);
+      if(m!==lastMonth){
+        lastMonth=m;
+        html+='<div class="month">'+MO_FULL[+m.slice(5,7)-1]+' '+m.slice(0,4)+'</div>';
+      }
+      html+='<a class="issue" href="./?issue='+it.date+'">'
+        +'<div class="issue-date">'+fmt(it.date)+'</div>'
+        +(it.headline?'<div class="issue-head">'+esc(it.headline)+'</div>':'')
+        +'</a>';
+    });
+    list.innerHTML=html;
+  })
+  .catch(()=>{ document.getElementById('issueList').innerHTML='<div class="empty">Could not load the archive.</div>'; });
+</script>
+</body>
+</html>
