@@ -1,0 +1,526 @@
+{
+  "updated_ist": "2026-10-11",
+  "cover": {
+    "big_story_teaser": "RBI steps in to support rupee as forex reserves dip",
+    "venture_teaser": "Gramiyaa raises Rs 18.65 crore in Series A funding",
+    "market_watch_teaser": "As of 2026-10-09 close: Nifty 50 22,520.45 ▲ 1.30%",
+    "daily_brief_teaser": "TCS profit surges, DMart reports Q2 results, and KEC bags orders",
+    "inbrief_2": "TCS Q2 profit rises",
+    "inbrief_3": "DMart Q2 results announced",
+    "inbrief_4": "KEC wins transmission orders",
+    "inbrief_1": "India-EU FTA: Absolute Game Changer"
+  },
+  "big_story": {
+    "headline": "Defending the Rupee",
+    "subhead": "RBI STEPS UP INTERVENTION AS THE CURRENCY FACES INTENSE PRESSURE",
+    "paragraphs": [
+      "The Reserve Bank of India has stepped up its defense of the domestic currency as forex reserves dip significantly over the past month. Policymakers are deploying multiple strategies, including raising the daily CRR requirement to 99% starting from October 16, to manage liquidity and stabilize the exchange rate. These aggressive moves have sparked intense debate among economists regarding how far central bank interventions can go.",
+      "As the rupee nears record lows, the central bank is borrowing playbooks from global peers to shore up the currency without sacrificing broader economic growth. Forex reserves have seen a notable drawdown as authorities continuously intervene in currency markets to curb excessive volatility. The ultimate success of these defensive measures will heavily depend on external factors like crude oil prices and foreign portfolio investor flows.",
+      "For college finance students and market watchers, understanding these currency dynamics is crucial for grasping modern monetary policy. While supporting the rupee prevents imported inflation, it tests the central bank's policy toolkit and liquidity management. Observers will be closely monitoring upcoming regulatory shifts and reserve adjustments to see how the local currency responds."
+    ],
+    "pullbox": "The RBI's aggressive defense of the rupee highlights the delicate balance between managing forex reserves and sustaining domestic economic growth.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+      "alt": "Reserve Bank of India"
+    }
+  },
+  "explains": {
+    "title": "What is Forex Reserve Defense?",
+    "paragraphs": [
+      "Forex reserve defense refers to actions taken by a central bank to protect its national currency from sharp depreciation by buying or selling foreign currencies. When a currency faces heavy selling pressure, the central bank releases US dollars from its accumulated reserves into the market.",
+      "In practice, this reduces the circulating supply of local currency or absorbs excess liquidity to make short-term speculation more expensive. While it helps stabilize exchange rates, sustaining these operations over long periods depletes national reserves and requires careful domestic monetary adjustments."
+    ]
+  },
+  "venture_vault": {
+    "paragraphs": [
+      "Cold-pressed oil brand Gramiyaa has successfully raised Rs 18.65 crore in its latest Series A funding round. The startup focuses on traditional manufacturing processes to bring authentic, healthy cooking oils directly to modern consumers.",
+      "The fresh capital injection will enable the founders to scale operations, expand their distribution footprint, and enhance production capabilities. This investment highlights growing investor appetite for consumer brands modernizing traditional Indian food products."
+    ]
+  },
+  "market_watch": {
+    "indian": [
+      {
+        "name": "Sensex",
+        "value": "72,472.33 ▲ 1.23%",
+        "dir": "up",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "Nifty 50",
+        "value": "22,520.45 ▲ 1.30%",
+        "dir": "up",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "Nifty Bank",
+        "value": "55,256.65 ▲ 1.36%",
+        "dir": "up",
+        "session_date": "2026-10-09"
+      }
+    ],
+    "asian": [
+      {
+        "name": "Nikkei 225",
+        "value": "69,030.92 ▼ 0.02%",
+        "dir": "down",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "Hang Seng",
+        "value": "24,211.35 ▲ 1.79%",
+        "dir": "up",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "Shanghai Comp.",
+        "value": "3,813.79 ▲ 0.05%",
+        "dir": "up",
+        "session_date": "2026-10-09"
+      }
+    ],
+    "european": [
+      {
+        "name": "FTSE 100",
+        "value": "10,552.05 ▲ 1.06%",
+        "dir": "up",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "DAX",
+        "value": "25,087.27 ▲ 1.13%",
+        "dir": "up",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "CAC 40",
+        "value": "7,803.33 ▲ 0.95%",
+        "dir": "up",
+        "session_date": "2026-10-09"
+      }
+    ],
+    "us": [
+      {
+        "name": "S&P 500",
+        "value": "7,811.54 ▲ 0.59%",
+        "dir": "up",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "27,366.17 ▲ 0.64%",
+        "dir": "up",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "Dow Jones",
+        "value": "51,654.95 ▲ 0.83%",
+        "dir": "up",
+        "session_date": "2026-10-09"
+      }
+    ],
+    "global": [
+      {
+        "name": "Dollar Index",
+        "value": "102.21 ▲ 0.07%",
+        "dir": "up",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "Brent Crude",
+        "value": "$104.72/bbl",
+        "dir": "up",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "Gold",
+        "value": "$4,216/oz",
+        "dir": "up",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "US 10Y Yield",
+        "value": "5.24% ▲ 1.3 bp",
+        "dir": "up",
+        "session_date": "2026-10-09"
+      }
+    ],
+    "losers": [
+      "Reliance Industries",
+      "JSW Steel",
+      "Cipla"
+    ],
+    "winners": [
+      "Apollo Hospitals",
+      "ITC",
+      "Eicher Motors"
+    ],
+    "snapshot_strip": "IT and FMCG led as the Nifty rose 1.30%",
+    "date_label": "OCT 2026",
+    "close_label": "AS OF FRIDAY'S CLOSE, OCT 9",
+    "session_date": "2026-10-09",
+    "ipo_desk": [
+      {
+        "name": "Jio Platforms",
+        "note": "Sets IPO price band up to ₹1,119"
+      },
+      {
+        "name": "HD Fire Protect",
+        "note": "IPO date, review and price details"
+      }
+    ]
+  },
+  "data_desk": {
+    "commodities": [
+      {
+        "name": "Gold",
+        "unit": "$/oz",
+        "price": "4,216",
+        "day": "▲ 1.43%",
+        "week": "▲ 1.30%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.6 4.1,6.5 8.3,11.6 12.4,10.5 16.6,3.0 20.7,6.8 24.8,9.1 29.0,7.8 33.1,11.0 37.2,10.9 41.4,14.3 45.5,15.5 49.7,12.2 53.8,11.4 57.9,9.9 62.1,12.4 66.2,12.8 70.3,16.3 74.5,17.5 78.6,16.1 82.8,25.3 86.9,24.7 91.0,24.2 95.2,23.3 99.3,25.7 103.4,26.0 107.6,24.2 111.7,27.0 115.9,26.0 120.0,22.5\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"22.5\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "Silver",
+        "unit": "$/oz",
+        "price": "61.05",
+        "day": "▲ 3.36%",
+        "week": "▲ 1.79%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,5.6 4.1,7.7 8.3,12.0 12.4,11.7 16.6,5.6 20.7,8.1 24.8,7.4 29.0,3.0 33.1,12.9 37.2,12.2 41.4,15.0 45.5,15.7 49.7,12.9 53.8,9.7 57.9,6.7 62.1,8.7 66.2,8.4 70.3,12.6 74.5,15.1 78.6,13.0 82.8,21.2 86.9,22.7 91.0,24.2 95.2,22.5 99.3,24.5 103.4,22.1 107.6,21.3 111.7,24.7 115.9,27.0 120.0,21.6\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"21.6\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "Brent Crude",
+        "unit": "$/bbl",
+        "price": "104.72",
+        "day": "▲ 0.42%",
+        "week": "▲ 2.42%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,27.0 4.1,25.5 8.3,20.4 12.4,19.2 16.6,19.3 20.7,18.4 24.8,16.4 29.0,12.3 33.1,4.4 37.2,8.1 41.4,6.8 45.5,3.0 49.7,6.6 53.8,7.9 57.9,9.0 62.1,13.4 66.2,14.7 70.3,10.0 74.5,5.7 78.6,8.5 82.8,7.3 86.9,10.6 91.0,9.4 95.2,11.0 99.3,11.0 103.4,13.4 107.6,13.1 111.7,13.6 115.9,8.5 120.0,8.0\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"8.0\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "WTI Crude",
+        "unit": "$/bbl",
+        "price": "91.85",
+        "day": "▲ 0.39%",
+        "week": "▲ 0.81%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,27.0 4.1,24.5 8.3,19.7 12.4,18.9 16.6,18.5 20.7,18.4 24.8,16.7 29.0,13.5 33.1,6.6 37.2,9.2 41.4,7.8 45.5,3.0 49.7,6.6 53.8,7.2 57.9,8.9 62.1,13.8 66.2,15.0 70.3,17.6 74.5,15.0 78.6,17.4 82.8,17.2 86.9,20.6 91.0,19.5 95.2,16.9 99.3,18.8 103.4,20.5 107.6,20.5 111.7,21.8 115.9,18.3 120.0,18.0\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"18.0\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-09"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Embassy REIT",
+        "price": "₹430.93",
+        "day": "▼ 0.08%",
+        "week": "▲ 0.52%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "Nexus Select REIT",
+        "price": "₹164.81",
+        "day": "▼ 0.01%",
+        "week": "▼ 0.46%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "Mindspace REIT",
+        "price": "₹493.73",
+        "day": "▲ 0.56%",
+        "week": "▼ 0.95%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹325.33",
+        "day": "▲ 0.67%",
+        "week": "▼ 1.49%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹102.82",
+        "day": "▲ 0.27%",
+        "week": "▲ 0.96%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-09"
+      }
+    ],
+    "caps": [
+      {
+        "name": "Nifty 50",
+        "tag": "Large cap",
+        "level": "22,520.45",
+        "day": 1.3,
+        "week": 0.44,
+        "month": -4.72,
+        "day_txt": "▲ 1.30%",
+        "week_txt": "▲ 0.44%",
+        "month_txt": "▼ 4.72%",
+        "dir": "up",
+        "dir_week": "up",
+        "dir_month": "down",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "Nifty Midcap 150",
+        "tag": "Mid cap",
+        "level": "21,603.25",
+        "day": 1.37,
+        "week": -0.19,
+        "month": -6.44,
+        "day_txt": "▲ 1.37%",
+        "week_txt": "▼ 0.19%",
+        "month_txt": "▼ 6.44%",
+        "dir": "up",
+        "dir_week": "down",
+        "dir_month": "down",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "Nifty Smallcap 250",
+        "tag": "Small cap",
+        "level": "17,574.85",
+        "day": 0.49,
+        "week": -0.08,
+        "month": -5.14,
+        "day_txt": "▲ 0.49%",
+        "week_txt": "▼ 0.08%",
+        "month_txt": "▼ 5.14%",
+        "dir": "up",
+        "dir_week": "down",
+        "dir_month": "down",
+        "session_date": "2026-10-09"
+      }
+    ],
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"87.5\" width=\"22\" height=\"12.5\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"82.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.3</text><rect x=\"62.3\" y=\"95.8\" width=\"22\" height=\"4.2\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"90.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.4</text><rect x=\"90.3\" y=\"100.0\" width=\"22\" height=\"45.4\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"157.4\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-4.7</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"86.8\" width=\"22\" height=\"13.2\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"81.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.4</text><rect x=\"169.0\" y=\"100.0\" width=\"22\" height=\"1.8\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"113.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.2</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-6.4</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"95.3\" width=\"22\" height=\"4.7\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"90.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.5</text><rect x=\"275.7\" y=\"100.0\" width=\"22\" height=\"0.8\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"112.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.1</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"49.5\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"161.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-5.1</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "funds": [
+      {
+        "name": "ICICI Pru Large Cap",
+        "cat": "Large cap",
+        "nav": "₹112.53",
+        "day": "▲ 1.20%",
+        "week": "▲ 0.21%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "MO Midcap 150 Index",
+        "cat": "Mid cap",
+        "nav": "₹39.22",
+        "day": "▲ 1.37%",
+        "week": "▼ 0.18%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "Nippon Small Cap",
+        "cat": "Small cap",
+        "nav": "₹202.30",
+        "day": "▲ 0.68%",
+        "week": "▲ 0.00%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "Parag Parikh Flexi Cap",
+        "cat": "Flexi cap",
+        "nav": "₹88.93",
+        "day": "▲ 1.45%",
+        "week": "▲ 0.76%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-09"
+      }
+    ],
+    "date_label": "OCT 2026",
+    "close_label": "AS OF FRIDAY'S CLOSE, OCT 9",
+    "session_date": "2026-10-09",
+    "nav_label": "NAVS AS OF OCT 9"
+  },
+  "daily_brief": {
+    "story_1": {
+      "kicker": "Corporate Earnings",
+      "headline": "TCS Q2 profit rises 15 per cent",
+      "paragraphs": [
+        "Tata Consultancy Services has reported a strong performance for the second quarter, with net profit rising by 15 per cent. The company's overall revenue crossed the significant milestone of ₹73,000 crore during the period.",
+        "This solid growth underscores robust demand across key verticals and highlights resilient technology spending by enterprise clients in a competitive global market environment."
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Mumbai_Bandra-Worli_Sea_Link.jpg",
+        "alt": "Mumbai"
+      }
+    },
+    "story_2": {
+      "kicker": "Retail Sector",
+      "headline": "DMart Q2 profit rises 9% YoY",
+      "paragraphs": [
+        "Avenue Supermarts, the operator of the popular supermarket chain DMart, announced its financial results for the second quarter. Consolidated net profit rose nearly 9% year-on-year to ₹743 crore.",
+        "Driven by steady consumer demand and ongoing store expansion across the country, the company's total revenue recorded a healthy jump of 18% compared to the same period in the previous fiscal year."
+      ]
+    },
+    "story_3": {
+      "kicker": "Infrastructure Deals",
+      "headline": "KEC International bags transmission orders",
+      "paragraphs": [
+        "Infrastructure major KEC International has secured new transmission and distribution orders worth ₹1,014 crore in India, further bolstering its expanding order book and regional execution pipeline."
+      ]
+    },
+    "also_today": {
+      "items": [
+        "Inox Green completes acquisition of Wind World India operating and maintenance business for ₹550 crore.",
+        "Can Fin Homes reports a 14% increase in net profit reaching ₹543 crore for the first half of fiscal year 27.",
+        "Consumer electronics brand Lumio raises $12 million in a Series A funding round led by Blume Ventures.",
+        "Piyush Goyal states India and Mexico are scheduled to launch bilateral trade deal talks next week."
+      ]
+    }
+  },
+  "geopolitics": {
+    "kicker": "India x EU | Trade Ties",
+    "headline": "India-EU FTA Hailed as an Absolute Game Changer",
+    "paragraphs": [
+      "The European Union envoy has described the upcoming India-EU Free Trade Agreement as an absolute game changer for bilateral economic and defence ties. Union Minister Ashwini Vaishnaw stated that Europe now views India as a primary hub for innovation and manufacturing. The initiative highlights a mutual drive to deepen commercial integration amid shifting global trade dynamics.",
+      "While official sentiment remains highly positive, negotiators continue working through tariff structures and regulatory standards. For Indian businesses, a successful pact offers strategic access to European markets and increased foreign investment. As both regions prioritize supply chain resilience, the outcome of these negotiations will shape trade policy for years to come."
+    ],
+    "world_60": [
+      "India and Mexico set to launch trade deal talks next week, says Piyush Goyal.",
+      "India and Switzerland expand ties as PM Modi targets $100 billion EFTA investment.",
+      "Depleted global oil inventories raise risks of a market-roiling price spike.",
+      "Proposed Trump-Russia diesel deal could ease tight global fuel supplies."
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Ashwini_Vaishnaw_cropped.jpg",
+      "alt": "Ashwini Vaishnaw"
+    }
+  },
+  "sources": {
+    "big_story": [
+      {
+        "title": "India’s Rupee Defense Raises Question of How Far RBI Will Go",
+        "source": "Bloomberg.com"
+      },
+      {
+        "title": "RBI steps in to support rupee as forex reserves dip $52bn in a month",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Slew of RBI steps to rescue the rupee",
+        "source": "The New Indian Express"
+      },
+      {
+        "title": "India’s central bank tries to shore up rupee as it nears record lows",
+        "source": "Financial Times"
+      },
+      {
+        "title": "RBI Raises Daily CRR Requirement to 99% From October 16",
+        "source": "India Business Trade"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "Cold-pressed oil brand Gramiyaa raises Rs 18.65 crore in Series A funding",
+        "source": "Indian Startup News"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "TCS Q2 profit rises 15 per cent as revenue crosses Rs 73,000 crore",
+        "source": "Indian Television Dot Com"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "DMart Q2 Results: Cons profit rises nearly 9% YoY to Rs 743 crore, revenue jumps 18%",
+        "source": "The Economic Times"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "KEC International Bags Rs 1,014 Crore Transmission And Distribution Orders In India",
+        "source": "NDTV Profit"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "Inox Green Completes Rs 550 Cr Wind World India O&M Deal",
+        "source": "BW Businessworld"
+      },
+      {
+        "title": "Can Fin Homes H1FY27 Results: Net profit up 14% to ₹543 crore",
+        "source": "scanx.trade"
+      },
+      {
+        "title": "Consumer electronics brand Lumio raises $12 million in Series A funding led by Blume Ventures",
+        "source": "Indian Startup News"
+      },
+      {
+        "title": "India, Mexico to launch trade deal talks next week, says Piyush Goyal",
+        "source": "CNBC TV18"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "Europe consider India a major hub for innovation and manufacturing, says I&B Minister Ashwini Vaishnaw",
+        "source": "News On AIR"
+      },
+      {
+        "title": "India-EU FTA 'An Absolute Game Changer': EU Envoy On Trade Deal, Defence Ties",
+        "source": "NDTV Profit"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "India, Mexico to launch trade deal talks next week, says Piyush Goyal",
+        "source": "CNBC TV18"
+      },
+      {
+        "title": "India, Switzerland deepen trade, mobility and infrastructure ties; PM Modi highlights $100 billion EFTA investment goal",
+        "source": "DD India"
+      },
+      {
+        "title": "Global Oil Inventories Depleted, Next Price Spike Could Roil Economies, Markets",
+        "source": "EnergyNow.com"
+      },
+      {
+        "title": "Trump-Russia Diesel Deal Could Ease Global Fuel Tightness",
+        "source": "India Business Trade"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "Ambani’s Jio Said to Set IPO Price Band at 1,065-1,119 Rupees",
+        "source": "Bloomberg.com"
+      },
+      {
+        "title": "Jio Platforms Sets IPO Price Band at Up to ₹1,119, Targeting Record ₹30,200 Crore Raise",
+        "source": "BigGo Finance"
+      },
+      {
+        "title": "HD Fire Protect IPO Date, Review, Price, Allotment Details",
+        "source": "IPO Watch"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session 2026-10-09)",
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
+  }
+}
