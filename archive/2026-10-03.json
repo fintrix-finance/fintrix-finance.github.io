@@ -1,0 +1,512 @@
+{
+  "updated_ist": "2026-10-03",
+  "cover": {
+    "big_story_teaser": "Indian markets hit a 25-year record losing streak as FIIs pull out billions.",
+    "venture_teaser": "EV maker Simple Energy secures ₹1,750 crore funding boost.",
+    "market_watch_teaser": "Nifty dips 0.19% to 22,576.40 as markets stay shut for the weekend.",
+    "daily_brief_teaser": "Forex kitty drops $18.34B while G7 releases oil reserves to curb crude.",
+    "inbrief_2": "Forex kitty drops $18.34B",
+    "inbrief_3": "G7 releases emergency crude oil",
+    "inbrief_4": "UPI MDR share demand by firms",
+    "inbrief_1": "Stalled US Trade Deal Facing Heat"
+  },
+  "big_story": {
+    "headline": "Markets In Freefall",
+    "subhead": "INDIAN BENCHMARK INDEXES RECORD LONGEST WEEKLY LOSING STREAK IN 25 YEARS AS FIIS FLEE",
+    "paragraphs": [
+      "Indian benchmark stocks have hit a historic slump, marking their longest weekly losing run in 25 years as market sentiment deteriorated sharply. Both the Nifty 50 and Sensex closed lower in the recent trading session, extending a persistent slide across domestic equities. Foreign institutional investors pulled nearly ₹29,600 crore from Indian stocks in just three trading days. This intense foreign sell-off has put severe pressure on equity valuations across market sectors.",
+      "The unrelenting capital flight comes alongside mounting pressure on the domestic currency and international macroeconomic uncertainty. India's foreign exchange reserves plunged by a record $18.34 billion as foreign investors shifted capital away from emerging markets. Foreign portfolio managers have been rapidly reducing exposure to manage risks amid rising global headwinds. Consequently, domestic liquidity is facing its toughest stress test in recent memory.",
+      "Market participants are now watching closely to see if domestic institutional buying can stabilize asset prices against foreign selling. Analysts note that prolonged market weakness could weigh on investor sentiment and broader economic confidence over the coming quarters. Restoring market stability will depend on foreign fund flows and global economic signals. Traders remain on high alert for any indications of market stabilization."
+    ],
+    "pullbox": "Foreign institutional investors pulling nearly ₹29,600 crore in three days has triggered the market's longest weekly losing run in 25 years, testing domestic resilience.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/BSE_logo.svg/330px-BSE_logo.svg.png",
+      "alt": "Bombay Stock Exchange"
+    }
+  },
+  "explains": {
+    "title": "What is Foreign Institutional Investment?",
+    "paragraphs": [
+      "Foreign Institutional Investment (FII) refers to capital invested by foreign financial institutions into another country's financial markets. These overseas investors include global mutual funds, pension funds, hedge funds, and insurance companies seeking international asset exposure.",
+      "In Indian equity markets, FII movement serves as a key indicator of liquidity and foreign confidence. Large inflows can propel stock market rallies, while sudden capital pullouts by FIIs often lead to sharp market declines and currency pressure."
+    ]
+  },
+  "venture_vault": {
+    "paragraphs": [
+      "Electric vehicle startup Simple Energy has secured ₹1,750 crore in a major fresh funding round. The investment was led by the family office of Thyrocare founder Dr. A. Velumani, alongside participation from Simple Energy's founders.",
+      "The substantial capital injection will support the company's expansion plans in the competitive electric mobility sector. Investors are backing the EV company as Indian startup funding rebounds around clean energy and technology deals."
+    ]
+  },
+  "market_watch": {
+    "indian": [
+      {
+        "name": "Sensex",
+        "value": "72,388.66 ▼ 0.13%",
+        "dir": "down",
+        "live": true
+      },
+      {
+        "name": "Nifty 50",
+        "value": "22,576.40 ▼ 0.19%",
+        "dir": "down",
+        "live": true
+      },
+      {
+        "name": "Nifty Bank",
+        "value": "54,903.35 ▲ 0.49%",
+        "dir": "up",
+        "live": true
+      }
+    ],
+    "asian": [
+      {
+        "name": "Nikkei 225",
+        "value": "66,753.72 ▲ 1.94%",
+        "dir": "up"
+      },
+      {
+        "name": "Hang Seng",
+        "value": "24,613.27 ▲ 0.37%",
+        "dir": "up"
+      },
+      {
+        "name": "Shanghai Comp.",
+        "value": "3,842.20 ▲ 0.31%",
+        "dir": "up"
+      }
+    ],
+    "european": [
+      {
+        "name": "FTSE 100",
+        "value": "10,606.00 ▼ 0.29%",
+        "dir": "down"
+      },
+      {
+        "name": "DAX",
+        "value": "25,199.19 ▼ 0.79%",
+        "dir": "down"
+      },
+      {
+        "name": "CAC 40",
+        "value": "7,964.51 ▼ 0.89%",
+        "dir": "down"
+      }
+    ],
+    "global": [
+      {
+        "name": "Dollar Index",
+        "value": "101.45 ▲ 0.08%",
+        "dir": "up"
+      },
+      {
+        "name": "Brent Crude",
+        "value": "$103.53/bbl",
+        "dir": "up"
+      },
+      {
+        "name": "Gold",
+        "value": "$4,187/oz",
+        "dir": "up"
+      }
+    ],
+    "losers": [
+      "Apollo Hospitals",
+      "Max Healthcare",
+      "Nestle India"
+    ],
+    "winners": [
+      "Kotak Mahindra Bank",
+      "InterGlobe Aviation",
+      "ICICI Bank"
+    ],
+    "snapshot_strip": "The Nifty fell 0.19% in today's session so far",
+    "date_label": "OCT 2026",
+    "close_label": "AS OF THURSDAY'S CLOSE, OCT 1",
+    "live": true,
+    "session_date": "2026-10-01",
+    "ipo_desk": [
+      {
+        "name": "Jio Platforms",
+        "note": "DRHP filed as mega launch nears"
+      },
+      {
+        "name": "SRIT India",
+        "note": "GMP stands at 37% ahead of allotment"
+      },
+      {
+        "name": "Acme India Industries",
+        "note": "Day 2 issue subscribed 1.97x"
+      }
+    ]
+  },
+  "data_desk": {
+    "commodities": [
+      {
+        "name": "Gold",
+        "unit": "$/oz",
+        "price": "4,204",
+        "day": "▲ 0.57%",
+        "week": "▼ 2.66%",
+        "dir": "up",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,9.9 4.1,8.7 8.3,3.8 12.4,3.0 16.6,3.1 20.7,5.0 24.8,4.5 29.0,10.6 33.1,12.8 37.2,16.7 41.4,15.8 45.5,10.2 49.7,13.0 53.8,14.7 57.9,13.7 62.1,16.2 66.2,16.1 70.3,18.7 74.5,19.5 78.6,17.1 82.8,16.5 86.9,15.4 91.0,17.2 95.2,17.6 99.3,20.2 103.4,21.1 107.6,20.1 111.7,27.0 115.9,26.5 120.0,25.4\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"25.4\" r=\"2.4\" fill=\"#c1541f\"/></svg>"
+      },
+      {
+        "name": "Silver",
+        "unit": "$/oz",
+        "price": "61.43",
+        "day": "▲ 1.26%",
+        "week": "▼ 4.59%",
+        "dir": "up",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,13.2 4.1,6.9 8.3,3.0 12.4,5.5 16.6,5.3 20.7,7.0 24.8,3.1 29.0,9.7 33.1,11.9 37.2,16.2 41.4,15.9 45.5,9.8 49.7,12.3 53.8,11.6 57.9,7.2 62.1,17.1 66.2,16.4 70.3,19.2 74.5,20.0 78.6,17.1 82.8,13.9 86.9,10.9 91.0,12.9 95.2,12.6 99.3,16.9 103.4,19.4 107.6,17.2 111.7,25.5 115.9,27.0 120.0,24.9\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"24.9\" r=\"2.4\" fill=\"#c1541f\"/></svg>"
+      },
+      {
+        "name": "Brent Crude",
+        "unit": "$/bbl",
+        "price": "97.05",
+        "day": "▼ 5.40%",
+        "week": "▼ 5.85%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,22.7 4.1,20.2 8.3,19.5 12.4,22.0 16.6,26.2 20.7,27.0 24.8,24.9 29.0,25.3 33.1,24.0 37.2,19.2 41.4,18.1 45.5,18.2 49.7,17.3 53.8,15.4 57.9,11.7 62.1,4.3 66.2,7.8 70.3,6.5 74.5,3.0 78.6,6.4 82.8,7.5 86.9,8.6 91.0,12.7 95.2,13.9 99.3,9.5 103.4,5.5 107.6,8.1 111.7,7.0 115.9,10.1 120.0,16.4\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"16.4\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>"
+      },
+      {
+        "name": "WTI Crude",
+        "unit": "$/bbl",
+        "price": "89.33",
+        "day": "▼ 0.06%",
+        "week": "▼ 3.07%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,23.3 4.1,21.3 8.3,22.1 12.4,24.2 16.6,26.9 20.7,27.0 24.8,25.7 29.0,25.8 33.1,23.4 37.2,18.9 41.4,18.1 45.5,17.8 49.7,17.6 53.8,16.0 57.9,12.9 62.1,6.4 66.2,8.9 70.3,7.5 74.5,3.0 78.6,6.5 82.8,7.0 86.9,8.6 91.0,13.2 95.2,14.4 99.3,16.9 103.4,14.4 107.6,16.6 111.7,16.5 115.9,19.7 120.0,19.8\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"19.8\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Embassy REIT",
+        "price": "₹434.42",
+        "day": "▼ 0.75%",
+        "week": "▼ 0.69%",
+        "dir": "down",
+        "dir_week": "down"
+      },
+      {
+        "name": "Nexus Select REIT",
+        "price": "₹164.70",
+        "day": "▼ 0.66%",
+        "week": "▼ 1.01%",
+        "dir": "down",
+        "dir_week": "down"
+      },
+      {
+        "name": "Mindspace REIT",
+        "price": "₹495.83",
+        "day": "▼ 1.71%",
+        "week": "▼ 1.77%",
+        "dir": "down",
+        "dir_week": "down"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹336.03",
+        "day": "▲ 0.65%",
+        "week": "▼ 0.84%",
+        "dir": "up",
+        "dir_week": "down"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹102.41",
+        "day": "▲ 0.37%",
+        "week": "▲ 0.93%",
+        "dir": "up",
+        "dir_week": "up"
+      }
+    ],
+    "caps": [
+      {
+        "name": "Nifty 50",
+        "tag": "Large cap",
+        "level": "22,620.45",
+        "day": -0.42,
+        "week": -3.52,
+        "month": -6.06,
+        "day_txt": "▼ 0.42%",
+        "week_txt": "▼ 3.52%",
+        "month_txt": "▼ 6.06%",
+        "dir": "down",
+        "dir_week": "down",
+        "dir_month": "down"
+      },
+      {
+        "name": "Nifty Midcap 150",
+        "tag": "Mid cap",
+        "level": "21,867.50",
+        "day": 0.06,
+        "week": -4.63,
+        "month": -7.09,
+        "day_txt": "▲ 0.06%",
+        "week_txt": "▼ 4.63%",
+        "month_txt": "▼ 7.09%",
+        "dir": "up",
+        "dir_week": "down",
+        "dir_month": "down"
+      },
+      {
+        "name": "Nifty Smallcap 250",
+        "tag": "Small cap",
+        "level": "17,798.80",
+        "day": 0.29,
+        "week": -3.33,
+        "month": -3.12,
+        "day_txt": "▲ 0.29%",
+        "week_txt": "▼ 3.33%",
+        "month_txt": "▼ 3.12%",
+        "dir": "up",
+        "dir_week": "down",
+        "dir_month": "down"
+      }
+    ],
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"100.0\" width=\"22\" height=\"3.7\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"115.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.4</text><rect x=\"62.3\" y=\"100.0\" width=\"22\" height=\"30.8\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"142.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.5</text><rect x=\"90.3\" y=\"100.0\" width=\"22\" height=\"53.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"165.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-6.1</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"99.2\" width=\"22\" height=\"0.8\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"94.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.1</text><rect x=\"169.0\" y=\"100.0\" width=\"22\" height=\"40.5\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"152.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-4.6</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-7.1</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"97.5\" width=\"22\" height=\"2.5\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"92.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.3</text><rect x=\"275.7\" y=\"100.0\" width=\"22\" height=\"29.1\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"141.1\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.3</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"27.3\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"139.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.1</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "funds": [
+      {
+        "name": "ICICI Pru Large Cap",
+        "cat": "Large cap",
+        "nav": "₹113.22",
+        "day": "▼ 0.02%",
+        "week": "▼ 3.08%",
+        "dir": "down",
+        "dir_week": "down"
+      },
+      {
+        "name": "MO Midcap 150 Index",
+        "cat": "Mid cap",
+        "nav": "₹39.70",
+        "day": "▲ 0.07%",
+        "week": "▼ 4.64%",
+        "dir": "up",
+        "dir_week": "down"
+      },
+      {
+        "name": "Nippon Small Cap",
+        "cat": "Small cap",
+        "nav": "₹204.59",
+        "day": "▲ 0.12%",
+        "week": "▼ 2.75%",
+        "dir": "up",
+        "dir_week": "down"
+      },
+      {
+        "name": "Parag Parikh Flexi Cap",
+        "cat": "Flexi cap",
+        "nav": "₹88.72",
+        "day": "▼ 0.29%",
+        "week": "▼ 1.72%",
+        "dir": "down",
+        "dir_week": "down"
+      }
+    ],
+    "date_label": "SEP 2026",
+    "close_label": "AS OF THURSDAY'S CLOSE, OCT 1",
+    "session_date": "2026-09-30",
+    "nav_label": "NAVS AS OF SEP 29"
+  },
+  "daily_brief": {
+    "story_1": {
+      "kicker": "India | Foreign Reserves",
+      "headline": "Forex Kitty Plunges $18.34 Billion as Rupee Faces Heat",
+      "paragraphs": [
+        "India's foreign exchange reserves plummeted by a record $18.34 billion to $747.56 billion, according to the latest data released by the Reserve Bank of India. The massive drawdown reflects aggressive central bank intervention in currency markets to defend the Indian Rupee against sustained depreciation pressures.",
+        "In addition to defending the currency, foreign exchange curbs implemented by the RBI have triggered losses of around $500 million for domestic banks. Economists warn that mounting import costs and capital outflows could keep reserve levels under continuous pressure."
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+        "alt": "Reserve Bank of India"
+      }
+    },
+    "story_2": {
+      "kicker": "Global | Energy Markets",
+      "headline": "G7 Releases Oil Reserves to Tame Soaring Crude Prices",
+      "paragraphs": [
+        "The G7 economies have announced an emergency release of 100 million barrels from strategic crude and diesel reserves to counter recent price surges in energy markets. The coordinated move aims to ease global supply anxieties and bring relief to inflation-weary economies.",
+        "Although the announcement knocked benchmark prices slightly lower, Brent crude managed to hold above $102 per barrel. Energy analysts note that while the intervention calms bond markets temporarily, long-term supply constraints remain a core concern."
+      ]
+    },
+    "story_3": {
+      "kicker": "Fintech | Payment Regulations",
+      "headline": "Payment Firms Demand Higher Share of New UPI MDR",
+      "paragraphs": [
+        "Digital payment companies in India are urging regulators for a larger cut of the Merchant Discount Rate under the new UPI framework. With the October 15 rollout date approaching quickly, fintech operators argue that higher revenue sharing is necessary to sustain transaction infrastructure and offset operational expenses."
+      ]
+    },
+    "also_today": {
+      "items": [
+        "Economists expect the RBI to hike repo rate by 25 bps in its upcoming October meeting.",
+        "Godfrey Phillips shares plunge 8.5% after Q1 FY27 net profit drops 44% YoY on higher taxes.",
+        "India nears an ₹80,000 crore defense deal to build advanced naval submarines.",
+        "Simple Energy raises ₹1,750 crore from Dr. A. Velumani's family office and founders."
+      ]
+    }
+  },
+  "geopolitics": {
+    "kicker": "India x US | Trade Talks",
+    "headline": "Stalled US Trade Deal Facing Heat As Friction Grows",
+    "paragraphs": [
+      "Trade negotiations between India and the United States face significant delays, with a US official stating that a deal is nothing imminent. External Affairs Minister S. Jaishankar openly called out the US as friction grows over bilateral economic policies. Meanwhile, Commerce Minister Piyush Goyal defended India against US investigations alleging forced labour and excess capacity.",
+      "The standoff highlights US leverage in trade negotiations while leaving India with limited options to push terms forward. Tensions surrounding American investigations and delayed agreements could impact trade flows and cross-border investment sentiment. As formal progress remains stalled, Indian industries must prepare for continued regulatory scrutiny from Washington."
+    ],
+    "world_60": [
+      "Dollar hits 17-month high as oil tops $100, fueling inflation fears.",
+      "G7 releases emergency crude reserves to curb soaring energy prices.",
+      "India and Canada to resume trade deal talks starting October 5.",
+      "India exports 1 tonne of Bihar's makhana to Greece."
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/The_official_portrait_of_External_Minister_Subrahmanyam_Jaishankar.jpg",
+      "alt": "S. Jaishankar"
+    }
+  },
+  "sources": {
+    "big_story": [
+      {
+        "title": "Indian benchmark shares post longest weekly losing run in 25 years",
+        "source": "Reuters"
+      },
+      {
+        "title": "Indian Stock Market Records Longest Weekly Losing Streak in 25 Years as Nifty, Sensex Slide",
+        "source": "CAclubindia"
+      },
+      {
+        "title": "Forex kitty plunges record $18.34 bn as rupee pressure mounts",
+        "source": "The New Indian Express"
+      },
+      {
+        "title": "FIIs Pull Nearly Rs 29,600 Crore From Indian Stocks in Three Days",
+        "source": "India Business Trade"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "Simple Energy raises Rs 1,750 crore from Thyrocare founder Dr. A. Velumani’s family office, founders",
+        "source": "Indian Startup News"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "Indias forex reserves drop USD 18.34 bn to USD 747.56 bn: RBI data",
+        "source": "Daily Excelsior"
+      },
+      {
+        "title": "RBI Forex Curbs Trigger $ 500 Mn Losses For Indian Banks",
+        "source": "BW Businessworld"
+      },
+      {
+        "title": "Forex kitty plunges record $18.34 bn as rupee pressure mounts",
+        "source": "The New Indian Express"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "Why are oil prices down today? G7 countries' oil reserve release plan to push crude rates lower",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "Oil Ends Volatile Week Mixed as Emergency Reserve Release Knocks WTI Lower but Brent Holds Above $102",
+        "source": "energynow.com"
+      },
+      {
+        "title": "100 million-barrel reserve release sends oil prices lower, IEA chief says",
+        "source": "Gulf Business"
+      },
+      {
+        "title": "G7 announces release of diesel, crude oil reserves to curb high prices",
+        "source": "upi.com"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "Payment Firms Seek Bigger Share of New UPI MDR Ahead of October 15 Rollout",
+        "source": "India Business Trade"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "RBI may hike repo rate by 25 bps in October meet: Economists",
+        "source": "Fortune India"
+      },
+      {
+        "title": "Godfrey Phillips Shares Plunge 8.5% as Q1 FY27 Net Profit Drops 44% YoY on Higher Taxes",
+        "source": "The Indian Awaaz"
+      },
+      {
+        "title": "India Nears Rs 80,000 Crore Submarine Deal",
+        "source": "Raksha Anirveda"
+      },
+      {
+        "title": "Simple Energy raises Rs 1,750 crore from Thyrocare founder Dr. A. Velumani’s family office, founders",
+        "source": "Indian Startup News"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "India’s Foreign Minister Jaishankar Openly Calls Out the US",
+        "source": "The Diplomat – Asia-Pacific Current Affairs Magazine"
+      },
+      {
+        "title": "US leverage, India’s limited options: Why is the trade deal taking so long?",
+        "source": "The Indian Express"
+      },
+      {
+        "title": "‘Nothing imminent’: US official on trade deal with India",
+        "source": "Scroll.in"
+      },
+      {
+        "title": "Commerce Minister Goyal defends India against U.S. forced labour and excess capacity investigations",
+        "source": "The Hindu"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "Dollar hits 17-month high as oil tops $100, fueling inflation concerns",
+        "source": "وكالة الأنباء السورية – سانا"
+      },
+      {
+        "title": "G7 announces release of diesel, crude oil reserves to curb high prices",
+        "source": "upi.com"
+      },
+      {
+        "title": "India-Canada Trade Talks To Resume October 5 For 2026 Deal",
+        "source": "Sarkaritel.com"
+      },
+      {
+        "title": "India exports 1 tonne of Bihar's makhana to Greece",
+        "source": "The Economic Times"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "Jio IPO nears launch: DRHP filed, SEBI clears path",
+        "source": "YourStory.com"
+      },
+      {
+        "title": "Final touch underway for Jio Platforms IPO; latest GMP, expected launch date, size, valuation, shareholders quota",
+        "source": "Livemint"
+      },
+      {
+        "title": "SRIT India IPO GMP, Grey Market Premium Today",
+        "source": "IPO Watch"
+      },
+      {
+        "title": "SRIT India IPO allotment today; GMP at 37% — check status at BSE, NSE and registrar",
+        "source": "Moneycontrol.com"
+      },
+      {
+        "title": "Acme India Industries IPO Day 2 Subscription Status: 1.97x",
+        "source": "HDFC Sky"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session 2026-10-01)",
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
+  }
+}
