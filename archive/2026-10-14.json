@@ -1,0 +1,531 @@
+{
+  "updated_ist": "2026-10-14",
+  "cover": {
+    "big_story_teaser": "India's foreign policy and trade talks press ahead.",
+    "venture_teaser": "MakeO raises ₹90 crore to expand dental operations.",
+    "market_watch_teaser": "LIVE AS OF 10:00 AM IST: Nifty 50 22,721.15 ▼ 0.00%",
+    "daily_brief_teaser": "RBI introduces special forex facility for oil marketing companies",
+    "inbrief_2": "Forex facility",
+    "inbrief_3": "Importers fight rupee",
+    "inbrief_4": "Sensex opens flat",
+    "inbrief_1": "India-Canada Trade Pact"
+  },
+  "big_story": {
+    "headline": "India-US Trade Talks Near Landing Point",
+    "subhead": "EXTERNAL AFFAIRS MINISTER SAYS TRADE DISCUSSIONS ARE HEADING IN THE RIGHT DIRECTION",
+    "paragraphs": [
+      "Official diplomatic channels indicate that trade negotiations between India and the United States are steadily moving toward a definitive landing point. External Affairs Minister S Jaishankar noted that both nations are actively working to iron out the remaining details of the pact. This engagement highlights a shared commitment to strengthening economic ties despite broader geopolitical shifts.",
+      "The ongoing dialogue forms a crucial part of India's wider foreign policy objectives, balancing strategic partnerships across major global economies. As discussions progress, policymakers are focused on securing favorable terms that support domestic growth without compromising national interests. Observers are closely watching how these bilateral frameworks will shape future commercial exchanges.",
+      "A successful conclusion to these talks could unlock significant opportunities for exporters and industrial stakeholders in both countries. Markets will monitor official announcements for timelines regarding the final agreement. The development underscores India's growing stature as an indispensable partner in global trade architecture."
+    ],
+    "pullbox": "Trade negotiations between India and the United States reach a critical juncture as officials work to finalise a comprehensive agreement.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
+      "alt": "New Delhi"
+    }
+  },
+  "explains": {
+    "title": "What is a Bilateral Trade Deal?",
+    "paragraphs": [
+      "A bilateral trade deal is a formal agreement between two nations designed to expand commerce by reducing or eliminating tariffs, quotas, and other trade barriers. By establishing predictable rules, these pacts make it easier for businesses to sell goods and services across borders.",
+      "In practice, negotiators spend months or years ironing out specific sectors—ranging from agriculture to technology—to ensure mutual economic benefits. Once signed, the agreement provides legal certainty and lowers costs for importers and exporters alike."
+    ]
+  },
+  "venture_vault": {
+    "paragraphs": [
+      "Dental care brand MakeO, parent of Toothsi, has successfully raised ₹90 crore in a fresh funding round led by Singularity AMC. The capital injection will be deployed to scale up its dental care operations and expand its market reach across urban centers.",
+      "The round highlights growing investor confidence in tech-enabled healthcare solutions and specialized consumer services in India. Backed by prominent institutional investors, MakeO aims to strengthen its service delivery model and broaden its clinical footprint."
+    ]
+  },
+  "market_watch": {
+    "indian": [
+      {
+        "name": "Sensex",
+        "value": "73,125.98 ▲ 0.13%",
+        "dir": "up",
+        "live": true
+      },
+      {
+        "name": "Nifty 50",
+        "value": "22,721.15 ▼ 0.00%",
+        "dir": "down",
+        "live": true
+      },
+      {
+        "name": "Nifty Bank",
+        "value": "55,533.00 ▲ 0.09%",
+        "dir": "up",
+        "live": true
+      }
+    ],
+    "asian": [
+      {
+        "name": "Nikkei 225",
+        "value": "67,777.52 ▼ 1.82%",
+        "dir": "down",
+        "session_date": "2026-10-13"
+      },
+      {
+        "name": "Hang Seng",
+        "value": "24,345.22 ▲ 0.30%",
+        "dir": "up",
+        "session_date": "2026-10-13"
+      },
+      {
+        "name": "Shanghai Comp.",
+        "value": "3,800.86 ▲ 0.10%",
+        "dir": "up",
+        "session_date": "2026-10-13"
+      }
+    ],
+    "european": [
+      {
+        "name": "FTSE 100",
+        "value": "10,650.33 ▼ 0.06%",
+        "dir": "down",
+        "session_date": "2026-10-13"
+      },
+      {
+        "name": "DAX",
+        "value": "25,259.90 ▼ 0.07%",
+        "dir": "down",
+        "session_date": "2026-10-13"
+      },
+      {
+        "name": "CAC 40",
+        "value": "7,827.63 ▼ 0.07%",
+        "dir": "down",
+        "session_date": "2026-10-13"
+      }
+    ],
+    "us": [
+      {
+        "name": "S&P 500",
+        "value": "7,805.45 ▼ 0.02%",
+        "dir": "down",
+        "session_date": "2026-10-13"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "27,204.38 ▼ 0.15%",
+        "dir": "down",
+        "session_date": "2026-10-13"
+      },
+      {
+        "name": "Dow Jones",
+        "value": "51,670.10 ▼ 0.35%",
+        "dir": "down",
+        "session_date": "2026-10-13"
+      }
+    ],
+    "global": [
+      {
+        "name": "Dollar Index",
+        "value": "102.18 ▼ 0.39%",
+        "dir": "down",
+        "session_date": "2026-10-13"
+      },
+      {
+        "name": "Brent Crude",
+        "value": "$105.69/bbl",
+        "dir": "down",
+        "session_date": "2026-10-13"
+      },
+      {
+        "name": "Gold",
+        "value": "$4,177/oz",
+        "dir": "down",
+        "session_date": "2026-10-13"
+      },
+      {
+        "name": "US 10Y Yield",
+        "value": "5.22% ▼ 2.3 bp",
+        "dir": "down",
+        "session_date": "2026-10-13"
+      }
+    ],
+    "losers": [
+      "Kotak Mahindra Bank",
+      "Eternal",
+      "Maruti Suzuki"
+    ],
+    "winners": [
+      "HCLTech",
+      "TCS",
+      "Shriram Finance"
+    ],
+    "snapshot_strip": "The Nifty fell 0.00% in today's session so far",
+    "date_label": "OCT 2026",
+    "close_label": "LIVE AS OF 10:00 AM IST",
+    "live": true,
+    "session_date": "2026-10-14",
+    "ipo_desk": [
+      {
+        "name": "Fusion CX",
+        "note": "Price band of ₹702 crore issue in focus"
+      },
+      {
+        "name": "Jio Platforms",
+        "note": "Sets price band for biggest-ever IPO"
+      },
+      {
+        "name": "Tonbo Imaging India",
+        "note": "GMP at ₹490, estimated 70% gains"
+      }
+    ]
+  },
+  "data_desk": {
+    "commodities": [
+      {
+        "name": "Gold",
+        "unit": "$/oz",
+        "price": "4,177",
+        "day": "▼ 0.32%",
+        "week": "▼ 0.23%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,11.6 4.1,10.5 8.3,3.0 12.4,6.8 16.6,9.1 20.7,7.8 24.8,11.0 29.0,10.9 33.1,14.3 37.2,15.5 41.4,12.2 45.5,11.4 49.7,9.9 53.8,12.4 57.9,12.8 62.1,16.3 66.2,17.5 70.3,16.1 74.5,25.3 78.6,24.7 82.8,24.2 86.9,23.3 91.0,25.7 95.2,26.0 99.3,24.2 103.4,27.0 107.6,26.0 111.7,22.5 115.9,24.0 120.0,24.8\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"24.8\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-13"
+      },
+      {
+        "name": "Silver",
+        "unit": "$/oz",
+        "price": "59.16",
+        "day": "▼ 1.63%",
+        "week": "▼ 3.28%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,12.0 4.1,11.7 8.3,5.6 12.4,8.1 16.6,7.4 20.7,3.0 24.8,12.9 29.0,12.2 33.1,15.0 37.2,15.7 41.4,12.9 45.5,9.7 49.7,6.7 53.8,8.7 57.9,8.4 62.1,12.6 66.2,15.1 70.3,13.0 74.5,21.2 78.6,22.7 82.8,24.2 86.9,22.5 91.0,24.5 95.2,22.1 99.3,21.3 103.4,24.7 107.6,27.0 111.7,22.7 115.9,24.1 120.0,26.7\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"26.7\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-13"
+      },
+      {
+        "name": "Brent Crude",
+        "unit": "$/bbl",
+        "price": "105.69",
+        "day": "▼ 0.90%",
+        "week": "▲ 5.08%",
+        "dir": "down",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,27.0 4.1,25.3 8.3,25.5 12.4,24.2 16.6,21.4 20.7,15.8 24.8,4.9 29.0,10.0 33.1,8.2 37.2,3.0 41.4,8.0 45.5,9.7 49.7,11.3 53.8,17.3 57.9,19.2 62.1,12.7 66.2,6.7 70.3,10.5 74.5,8.9 78.6,13.5 82.8,11.9 86.9,14.0 91.0,14.1 95.2,17.3 99.3,16.9 103.4,17.6 107.6,10.6 111.7,9.9 115.9,6.6 120.0,8.2\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"8.2\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-13"
+      },
+      {
+        "name": "WTI Crude",
+        "unit": "$/bbl",
+        "price": "94.14",
+        "day": "▲ 0.43%",
+        "week": "▲ 5.25%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,24.3 4.1,23.3 8.3,22.9 12.4,22.6 16.6,20.5 20.7,16.4 24.8,7.6 29.0,10.9 33.1,9.1 37.2,3.0 41.4,7.6 45.5,8.4 49.7,10.6 53.8,16.7 57.9,18.4 62.1,21.7 66.2,18.3 70.3,21.4 74.5,21.1 78.6,25.5 82.8,24.1 86.9,20.7 91.0,23.1 95.2,25.4 99.3,25.4 103.4,27.0 107.6,22.6 111.7,22.1 115.9,19.5 120.0,19.0\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"19.0\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-13"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Embassy REIT",
+        "price": "₹430.52",
+        "day": "▼ 0.71%",
+        "week": "▼ 0.16%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-13"
+      },
+      {
+        "name": "Nexus Select REIT",
+        "price": "₹164.84",
+        "day": "▲ 0.07%",
+        "week": "▲ 0.02%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-13"
+      },
+      {
+        "name": "Mindspace REIT",
+        "price": "₹492.66",
+        "day": "▼ 0.22%",
+        "week": "▼ 1.02%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-12"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹322.94",
+        "day": "▼ 0.48%",
+        "week": "▼ 2.11%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-13"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹103.35",
+        "day": "▲ 0.52%",
+        "week": "▲ 1.22%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-12"
+      }
+    ],
+    "caps": [
+      {
+        "name": "Nifty 50",
+        "tag": "Large cap",
+        "level": "22,721.95",
+        "day": 1.6,
+        "week": -0.24,
+        "month": -3.22,
+        "day_txt": "▲ 1.60%",
+        "week_txt": "▼ 0.24%",
+        "month_txt": "▼ 3.22%",
+        "dir": "up",
+        "dir_week": "down",
+        "dir_month": "down",
+        "session_date": "2026-10-13"
+      },
+      {
+        "name": "Nifty Midcap 150",
+        "tag": "Mid cap",
+        "level": "21,829.40",
+        "day": 0.97,
+        "week": -0.68,
+        "month": -4.69,
+        "day_txt": "▲ 0.97%",
+        "week_txt": "▼ 0.68%",
+        "month_txt": "▼ 4.69%",
+        "dir": "up",
+        "dir_week": "down",
+        "dir_month": "down",
+        "session_date": "2026-10-13"
+      },
+      {
+        "name": "Nifty Smallcap 250",
+        "tag": "Small cap",
+        "level": "17,833.45",
+        "day": 0.34,
+        "week": -0.38,
+        "month": -3.25,
+        "day_txt": "▲ 0.34%",
+        "week_txt": "▼ 0.38%",
+        "month_txt": "▼ 3.25%",
+        "dir": "up",
+        "dir_week": "down",
+        "dir_month": "down",
+        "session_date": "2026-10-13"
+      }
+    ],
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"78.8\" width=\"22\" height=\"21.2\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"73.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.6</text><rect x=\"62.3\" y=\"100.0\" width=\"22\" height=\"3.2\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"115.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.2</text><rect x=\"90.3\" y=\"100.0\" width=\"22\" height=\"42.6\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"154.6\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.2</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"87.2\" width=\"22\" height=\"12.8\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"82.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.0</text><rect x=\"169.0\" y=\"100.0\" width=\"22\" height=\"9.0\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"121.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.7</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-4.7</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"95.5\" width=\"22\" height=\"4.5\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"90.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.3</text><rect x=\"275.7\" y=\"100.0\" width=\"22\" height=\"5.0\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"117.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.4</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"43.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"155.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.2</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "funds": [
+      {
+        "name": "ICICI Pru Large Cap",
+        "cat": "Large cap",
+        "nav": "₹113.18",
+        "day": "▲ 1.17%",
+        "week": "▼ 0.60%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-10-13"
+      },
+      {
+        "name": "MO Midcap 150 Index",
+        "cat": "Mid cap",
+        "nav": "₹39.63",
+        "day": "▲ 0.97%",
+        "week": "▼ 0.68%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-10-13"
+      },
+      {
+        "name": "Nippon Small Cap",
+        "cat": "Small cap",
+        "nav": "₹203.95",
+        "day": "▲ 0.23%",
+        "week": "▼ 1.05%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-10-13"
+      },
+      {
+        "name": "Parag Parikh Flexi Cap",
+        "cat": "Flexi cap",
+        "nav": "₹88.55",
+        "day": "▼ 0.42%",
+        "week": "▼ 0.23%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-12"
+      }
+    ],
+    "date_label": "OCT 2026",
+    "close_label": "CLOSE OF OCT 13",
+    "session_date": "2026-10-13",
+    "nav_label": "NAVS AS OF OCT 12"
+  },
+  "daily_brief": {
+    "story_1": {
+      "kicker": "RBI Policy",
+      "headline": "RBI Announces Special Forex Facility for OMCs",
+      "paragraphs": [
+        "The Reserve Bank of India has introduced a special foreign exchange facility aimed at supporting major public sector oil companies including IOCL, HPCL, and BPCL. This initiative arrives as state-run refiners navigate ongoing currency fluctuations and broader economic pressures across global commodity markets.",
+        "The dedicated forex mechanism is designed to ease dollar liquidity constraints for these critical petroleum importers. By providing targeted monetary support, the central bank seeks to insulate domestic energy procurement from broader foreign exchange volatility."
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+        "alt": "Reserve Bank of India"
+      }
+    },
+    "story_2": {
+      "kicker": "Foreign Exchange",
+      "headline": "Importers Drawn Into RBI Currency Fight",
+      "paragraphs": [
+        "As the Indian rupee faces a relentless slide against the dollar, corporate importers are increasingly drawn into the central bank's ongoing efforts to defend the domestic currency. Market participants are closely monitoring regulatory interventions and official statements supporting the foreign exchange reserves.",
+        "Governor-level commentary reinforcing currency support has helped build momentum for the local unit. However, sustained corporate hedging demand continues to test official resolve in the foreign exchange market."
+      ]
+    },
+    "story_3": {
+      "kicker": "Market Update",
+      "headline": "Sensex, Nifty Open Flat on Outflows",
+      "paragraphs": [
+        "Indian benchmark indices opened flat in today's session, weighed down by persistent foreign institutional investor outflows and elevated crude oil prices. While select information technology shares showed relative resilience, broader market sentiment remained cautious amidst mixed international cues."
+      ]
+    },
+    "also_today": {
+      "items": [
+        "Tata Elxsi reports Q2 net profit at ₹170 crore with revenue growing 15% year-on-year",
+        "AI-powered chemical R&D startup NuSynth Technologies raises ₹36.5 crore in funding",
+        "Fundamentum Frontier Advisors successfully raises ₹3,000 crore for artificial intelligence bets",
+        "Vikran Engineering share price jumps following a ₹2,941 crore loan from IREDA"
+      ]
+    }
+  },
+  "geopolitics": {
+    "kicker": "India | Canada Trade",
+    "headline": "India and Canada Push for Landmark Year-End Trade Deal",
+    "paragraphs": [
+      "Prime Minister Modi recently spoke regarding bilateral ties as India and Canada intensify trade negotiations. Both nations are working toward a comprehensive economic partnership with the ambitious target of reaching annual bilateral trade. The diplomatic push highlights a renewed commitment to deepening commercial cooperation across key sectors.",
+      "While discussions are moving forward rapidly to finalize a pact, negotiators still need to iron out structural details. Reaching the target requires resolving long-standing market access issues and regulatory alignments. For businesses and investors in both countries, a successful agreement could unlock massive new cross-border opportunities by year-end."
+    ],
+    "world_60": [
+      "Indian rupee seeks momentum after RBI chief reinforces currency support",
+      "Gold prices hold firm ahead of crucial US inflation data releases",
+      "Oil prices rise as traders weigh Saudi supply risks and Russian diesel flows",
+      "Asian stocks tick higher following positive signals regarding Fed rate paths"
+    ],
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Narendra_Modi_Portrait_2026.jpg/330px-Narendra_Modi_Portrait_2026.jpg",
+      "alt": "Narendra Modi"
+    }
+  },
+  "sources": {
+    "big_story": [
+      {
+        "title": "India-US trade deal heading towards ‘landing point’, EAM Jaishankar says",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "US Trade Deal Nears ‘Landing Point’, China Ties Need Stable Border: EAM Jaishankar",
+        "source": "Open Magazine"
+      },
+      {
+        "title": "India-US trade talks heading in right direction, Jaishankar says as both sides work to finalise a deal",
+        "source": "Livemint"
+      },
+      {
+        "title": "Indian Foreign Minister Jaishankar says India and US trade talks are heading in the right direction and a deal is currently being ironed out",
+        "source": "Newsquawk"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "Toothsi parent MakeO raises ₹90 crore to expand dental care operations",
+        "source": "Business Standard"
+      },
+      {
+        "title": "{Funding Alert} Toothsi Parent MakeO Raises Rs 90 Cr in Funding Led by Singularity AMC",
+        "source": "Indian Retailer"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "RBI Announces Special Forex Facility for IOCL, HPCL and BPCL",
+        "source": "News On AIR"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "Rupee’s Relentless Slide Draws Importers Into RBI Currency Fight",
+        "source": "Bloomberg.com"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "Sensex, Nifty open flat as crude oil and FII outflows weigh",
+        "source": "India Today"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "Stock market outlook today, 14 Oct: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+        "source": "Livemint"
+      },
+      {
+        "title": "Nifty 50 Rises 1.60%, Sensex Gains 1.54%: Five Factors to Watch Before the October 14 Market Session",
+        "source": "www.nationpathindia.com"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "Modi speaks to Carney amid trade deal talks as India and Canada seek year-end pact",
+        "source": "Telegraph India"
+      },
+      {
+        "title": "Beyond the trade deal, India and Canada look to build a wider economic partnership",
+        "source": "Firstpost"
+      },
+      {
+        "title": "Canada and India intensify trade deal talks, target 70 billion dollars in annual trade by 2030",
+        "source": "Telangana Today"
+      },
+      {
+        "title": "India, Canada push to finalise trade deal as Modi, Carney discuss bilateral ties",
+        "source": "CNBC TV18"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "Indian rupee to build on rally after RBI chief reinforces currency support",
+        "source": "Reuters"
+      },
+      {
+        "title": "Gold prices hold firm ahead of US inflation data",
+        "source": "Reuters"
+      },
+      {
+        "title": "Oil prices rise as traders weigh Saudi supply risk, Russian diesel flow",
+        "source": "Business Standard"
+      },
+      {
+        "title": "Global Market Today: Asian stocks rise on Fed rate signal, oil gains",
+        "source": "The Economic Times"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "Fusion CX IPO: GMP, price band of Rs 702 crore issue in focus",
+        "source": "IndiaIPO"
+      },
+      {
+        "title": "Jio Platforms sets price band for India's biggest-ever IPO",
+        "source": "Startup Fortune"
+      },
+      {
+        "title": "Tonbo Imaging India IPO GMP Today: Grey Market Premium At Rs 490, Listing Gains Estimated At 70%",
+        "source": "NDTV Profit"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session 2026-10-14)",
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
+  }
+}
