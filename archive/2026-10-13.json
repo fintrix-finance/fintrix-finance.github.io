@@ -1,0 +1,535 @@
+{
+  "updated_ist": "2026-10-13",
+  "cover": {
+    "big_story_teaser": "RBI steps in to defend rupee as reserves fall by over $50 billion",
+    "venture_teaser": "Boldfit secures over Rs 400 Cr in Series B funding from Bharat Value Fund",
+    "market_watch_teaser": "LIVE AS OF 9:32 AM IST: Nifty 50 22,474.80 ▲ 0.50%",
+    "daily_brief_teaser": "IMF projects strong growth while RBI raises daily CRR",
+    "inbrief_2": "IMF projects strong 7% growth",
+    "inbrief_3": "RBI raises CRR requirement",
+    "inbrief_4": "GIFT Nifty signals positive start",
+    "inbrief_1": "FTAs and US Trade Push Target $170"
+  },
+  "big_story": {
+    "headline": "Defending The Rupee",
+    "subhead": "RBI RAISES DAILY CRR TO 99% AS RESERVES FALL BY OVER $50 BILLION",
+    "paragraphs": [
+      "The Reserve Bank of India has taken aggressive steps to support the sliding rupee, raising the daily CRR maintenance requirement for banks to 99% starting October 16. This policy shift comes at a time when India's forex reserves have fallen by more than $50 billion, placing mounting pressure on the central bank's intervention firepower. Despite these headwinds, the rupee has shown signs of recovery as additional measures are deployed to ease market pressure.",
+      "Central banks frequently manage currency volatility by tightening liquidity requirements within the banking sector. Raising the cash reserve ratio obligations forces lenders to maintain higher balances, which helps stabilize domestic monetary conditions and dampens speculative currency outflows. These actions underscore the persistent friction between global dollar strength and emerging-market currencies.",
+      "As markets digest the RBI's latest liquidity moves, traders are watching closely to see if the rupee can extend its recovery path against the US dollar. With the dollar index holding firm and oil prices elevated, managing domestic liquidity will remain a core priority for policymakers. Investors should monitor banking sector liquidity reports and subsequent foreign exchange reserve updates for further guidance."
+    ],
+    "pullbox": "Raising the daily CRR requirement to 99% demonstrates the central bank's active stance in utilizing domestic monetary tools to defend the rupee.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+      "alt": "Reserve Bank of India"
+    }
+  },
+  "explains": {
+    "title": "What is the Cash Reserve Ratio?",
+    "paragraphs": [
+      "The Cash Reserve Ratio, or CRR, is the minimum percentage of total deposits that commercial banks must hold as reserves with the central bank. It serves as a vital monetary policy tool used to control liquidity in the banking system and manage inflation.",
+      "When the central bank raises the CRR requirement, banks have less lendable capital available, which helps cool down economic overheating or defend the domestic currency by tightening rupee liquidity."
+    ]
+  },
+  "venture_vault": {
+    "paragraphs": [
+      "Boldfit has raised over ₹400 crore in a Series B funding round led by the Bharat Value Fund. The capital injection is earmarked to accelerate the brand's expansive retail growth strategy across domestic markets.",
+      "Backed by strong investor confidence in consumer brands, this funding round highlights the robust appetite for homegrown retail players expanding their footprint. The founders' bet on scaling accessibility across fitness and lifestyle segments continues to attract significant institutional backing."
+    ]
+  },
+  "market_watch": {
+    "indian": [
+      {
+        "name": "Sensex",
+        "value": "72,134.18 ▲ 0.29%",
+        "dir": "up",
+        "live": true
+      },
+      {
+        "name": "Nifty 50",
+        "value": "22,474.80 ▲ 0.50%",
+        "dir": "up",
+        "live": true
+      },
+      {
+        "name": "Nifty Bank",
+        "value": "55,169.60 ▲ 0.46%",
+        "dir": "up",
+        "live": true
+      }
+    ],
+    "asian": [
+      {
+        "name": "Nikkei 225",
+        "value": "69,030.92 ▼ 0.02%",
+        "dir": "down",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "Hang Seng",
+        "value": "24,271.20 ▲ 0.25%",
+        "dir": "up",
+        "session_date": "2026-10-12"
+      },
+      {
+        "name": "Shanghai Comp.",
+        "value": "3,797.24 ▼ 0.43%",
+        "dir": "down",
+        "session_date": "2026-10-12"
+      }
+    ],
+    "european": [
+      {
+        "name": "FTSE 100",
+        "value": "10,656.28 ▲ 0.99%",
+        "dir": "up",
+        "session_date": "2026-10-12"
+      },
+      {
+        "name": "DAX",
+        "value": "25,277.68 ▲ 0.76%",
+        "dir": "up",
+        "session_date": "2026-10-12"
+      },
+      {
+        "name": "CAC 40",
+        "value": "7,832.88 ▲ 0.38%",
+        "dir": "up",
+        "session_date": "2026-10-12"
+      }
+    ],
+    "us": [
+      {
+        "name": "S&P 500",
+        "value": "7,807.24 ▼ 0.06%",
+        "dir": "down",
+        "session_date": "2026-10-12"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "27,245.90 ▼ 0.44%",
+        "dir": "down",
+        "session_date": "2026-10-12"
+      },
+      {
+        "name": "Dow Jones",
+        "value": "51,850.55 ▲ 0.38%",
+        "dir": "up",
+        "session_date": "2026-10-12"
+      }
+    ],
+    "global": [
+      {
+        "name": "Dollar Index",
+        "value": "102.58 ▲ 0.36%",
+        "dir": "up",
+        "session_date": "2026-10-12"
+      },
+      {
+        "name": "Brent Crude",
+        "value": "$106.65/bbl",
+        "dir": "up",
+        "session_date": "2026-10-12"
+      },
+      {
+        "name": "Gold",
+        "value": "$4,191/oz",
+        "dir": "down",
+        "session_date": "2026-10-12"
+      },
+      {
+        "name": "US 10Y Yield",
+        "value": "5.24% ▼ 0.4 bp",
+        "dir": "down",
+        "session_date": "2026-10-12"
+      }
+    ],
+    "losers": [
+      "Reliance Industries",
+      "JSW Steel",
+      "Cipla"
+    ],
+    "winners": [
+      "Apollo Hospitals",
+      "ITC",
+      "Eicher Motors"
+    ],
+    "snapshot_strip": "The Nifty rose 0.50% in today's session so far",
+    "date_label": "OCT 2026",
+    "close_label": "LIVE AS OF 9:32 AM IST",
+    "live": true,
+    "session_date": "2026-10-13",
+    "ipo_desk": [
+      {
+        "name": "Vaibhav Vyapaar",
+        "note": "IPO opens for subscription today"
+      },
+      {
+        "name": "Tonbo Imaging",
+        "note": "Sets ₹852 crore IPO price band"
+      },
+      {
+        "name": "Shellz India",
+        "note": "IPO to launch on October 15"
+      }
+    ]
+  },
+  "data_desk": {
+    "commodities": [
+      {
+        "name": "Gold",
+        "unit": "$/oz",
+        "price": "4,208",
+        "day": "▼ 0.18%",
+        "week": "▲ 1.24%",
+        "dir": "down",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,6.5 4.1,11.6 8.3,10.5 12.4,3.0 16.6,6.8 20.7,9.1 24.8,7.8 29.0,11.0 33.1,10.9 37.2,14.3 41.4,15.5 45.5,12.2 49.7,11.4 53.8,9.9 57.9,12.4 62.1,12.8 66.2,16.3 70.3,17.5 74.5,16.1 78.6,25.3 82.8,24.7 86.9,24.2 91.0,23.3 95.2,25.7 99.3,26.0 103.4,24.2 107.6,27.0 111.7,26.0 115.9,22.5 120.0,22.9\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"22.9\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-12"
+      },
+      {
+        "name": "Silver",
+        "unit": "$/oz",
+        "price": "60.67",
+        "day": "▲ 0.00%",
+        "week": "▼ 0.33%",
+        "dir": "up",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,7.7 4.1,12.0 8.3,11.7 12.4,5.6 16.6,8.1 20.7,7.4 24.8,3.0 29.0,12.9 33.1,12.2 37.2,15.0 41.4,15.7 45.5,12.9 49.7,9.7 53.8,6.7 57.9,8.7 62.1,8.4 66.2,12.6 70.3,15.1 74.5,13.0 78.6,21.2 82.8,22.7 86.9,24.2 91.0,22.5 95.2,24.5 99.3,22.1 103.4,21.3 107.6,24.7 111.7,27.0 115.9,22.7 120.0,22.7\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"22.7\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-12"
+      },
+      {
+        "name": "Brent Crude",
+        "unit": "$/bbl",
+        "price": "105.42",
+        "day": "▲ 0.67%",
+        "week": "▲ 5.08%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,27.0 4.1,21.5 8.3,20.2 12.4,20.4 16.6,19.4 20.7,17.2 24.8,12.9 29.0,4.5 33.1,8.4 37.2,7.0 41.4,3.0 45.5,6.8 49.7,8.2 53.8,9.4 57.9,14.1 62.1,15.5 66.2,10.5 70.3,5.8 74.5,8.8 78.6,7.6 82.8,11.1 86.9,9.9 91.0,11.5 95.2,11.5 99.3,14.1 103.4,13.7 107.6,14.2 111.7,8.9 115.9,8.3 120.0,7.4\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"7.4\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-12"
+      },
+      {
+        "name": "WTI Crude",
+        "unit": "$/bbl",
+        "price": "92.68",
+        "day": "▲ 0.90%",
+        "week": "▲ 3.63%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,27.0 4.1,21.7 8.3,20.7 12.4,20.4 16.6,20.2 20.7,18.3 24.8,14.7 29.0,7.0 33.1,9.9 37.2,8.3 41.4,3.0 45.5,7.1 49.7,7.7 53.8,9.6 57.9,15.0 62.1,16.4 66.2,19.3 70.3,16.4 74.5,19.0 78.6,18.8 82.8,22.7 86.9,21.4 91.0,18.5 95.2,20.6 99.3,22.6 103.4,22.6 107.6,24.0 111.7,20.1 115.9,19.7 120.0,18.7\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"18.7\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-12"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Embassy REIT",
+        "price": "₹430.93",
+        "day": "▼ 0.08%",
+        "week": "▲ 0.52%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "Nexus Select REIT",
+        "price": "₹164.81",
+        "day": "▼ 0.01%",
+        "week": "▼ 0.46%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "Mindspace REIT",
+        "price": "₹493.73",
+        "day": "▲ 0.56%",
+        "week": "▼ 0.95%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹325.33",
+        "day": "▲ 0.67%",
+        "week": "▼ 1.49%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-10-09"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹102.82",
+        "day": "▲ 0.27%",
+        "week": "▲ 0.96%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-09"
+      }
+    ],
+    "caps": [
+      {
+        "name": "Nifty 50",
+        "tag": "Large cap",
+        "level": "22,363.35",
+        "day": -0.7,
+        "week": -0.85,
+        "month": -4.56,
+        "day_txt": "▼ 0.70%",
+        "week_txt": "▼ 0.85%",
+        "month_txt": "▼ 4.56%",
+        "dir": "down",
+        "dir_week": "down",
+        "dir_month": "down",
+        "session_date": "2026-10-12"
+      },
+      {
+        "name": "Nifty Midcap 150",
+        "tag": "Mid cap",
+        "level": "21,620.50",
+        "day": 0.08,
+        "week": -0.62,
+        "month": -5.96,
+        "day_txt": "▲ 0.08%",
+        "week_txt": "▼ 0.62%",
+        "month_txt": "▼ 5.96%",
+        "dir": "up",
+        "dir_week": "down",
+        "dir_month": "down",
+        "session_date": "2026-10-12"
+      },
+      {
+        "name": "Nifty Smallcap 250",
+        "tag": "Small cap",
+        "level": "17,772.80",
+        "day": 1.13,
+        "week": 0.67,
+        "month": -3.58,
+        "day_txt": "▲ 1.13%",
+        "week_txt": "▲ 0.67%",
+        "month_txt": "▼ 3.58%",
+        "dir": "up",
+        "dir_week": "up",
+        "dir_month": "down",
+        "session_date": "2026-10-12"
+      }
+    ],
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"100.0\" width=\"22\" height=\"7.3\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"119.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.7</text><rect x=\"62.3\" y=\"100.0\" width=\"22\" height=\"8.8\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"120.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.8</text><rect x=\"90.3\" y=\"100.0\" width=\"22\" height=\"47.4\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"159.4\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-4.6</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"99.2\" width=\"22\" height=\"0.8\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"94.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.1</text><rect x=\"169.0\" y=\"100.0\" width=\"22\" height=\"6.4\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"118.4\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.6</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-6.0</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"88.2\" width=\"22\" height=\"11.8\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"83.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.1</text><rect x=\"275.7\" y=\"93.0\" width=\"22\" height=\"7.0\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"88.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.7</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"37.2\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"149.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.6</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "funds": [
+      {
+        "name": "ICICI Pru Large Cap",
+        "cat": "Large cap",
+        "nav": "₹111.87",
+        "day": "▼ 0.59%",
+        "week": "▼ 0.71%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-12"
+      },
+      {
+        "name": "MO Midcap 150 Index",
+        "cat": "Mid cap",
+        "nav": "₹39.25",
+        "day": "▲ 0.08%",
+        "week": "▼ 0.62%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-10-12"
+      },
+      {
+        "name": "Nippon Small Cap",
+        "cat": "Small cap",
+        "nav": "₹203.48",
+        "day": "▲ 0.59%",
+        "week": "▲ 0.29%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-12"
+      },
+      {
+        "name": "Parag Parikh Flexi Cap",
+        "cat": "Flexi cap",
+        "nav": "₹88.93",
+        "day": "▲ 1.45%",
+        "week": "▲ 0.76%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-09"
+      }
+    ],
+    "date_label": "OCT 2026",
+    "close_label": "CLOSE OF OCT 12",
+    "session_date": "2026-10-12",
+    "nav_label": "NAVS AS OF OCT 9"
+  },
+  "daily_brief": {
+    "story_1": {
+      "kicker": "India | Growth Forecast",
+      "headline": "IMF Projects India to Grow at 7%",
+      "paragraphs": [
+        "The International Monetary Fund has released new projections showing that India's economy is expected to grow at 7% while advanced economies are pegged at a much slower pace. The updated forecast highlights the resilient economic momentum across domestic markets despite a fragmented global outlook.",
+        "This strong expansion places the country well ahead of major international counterparts as policymakers navigate shifting global trade dynamics. Observers note that sustained domestic demand and structural reforms continue to anchor these positive expectations for the fiscal period."
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Headquarters_building_of_the_International_Monetary_fund%2C_Washington%2C_D.C_LCCN2011634654.tif/lossy-page1-960px-Headquarters_building_of_the_International_Monetary_fund%2C_Washington%2C_D.C_LCCN2011634654.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Headquarters building of the International Monetary fund, Washington, D.C LCCN2011634654"
+      }
+    },
+    "story_2": {
+      "kicker": "RBI | Monetary Policy",
+      "headline": "RBI Raises Daily CRR Requirement for Banks",
+      "paragraphs": [
+        "The Reserve Bank of India has announced an increase in the daily Cash Reserve Ratio maintenance requirement for banks to 99%, taking effect from October 16. This regulatory adjustment impacts liquidity management across the banking sector as institutions prepare for the upcoming operational changes.",
+        "Financial analysts are closely monitoring how the updated liquidity mandate will influence short-term lending rates and overall banking operations. The central bank continues to fine-tune its monetary levers to maintain financial stability."
+      ]
+    },
+    "story_3": {
+      "kicker": "Markets | Morning Cues",
+      "headline": "GIFT Nifty Signals Positive Start",
+      "paragraphs": [
+        "Stock market traders received positive early cues as GIFT Nifty pointed toward a steady opening for both the Sensex and Nifty benchmarks. Meanwhile, global crude oil prices hovered at elevated levels, topping the key threshold during early morning trade."
+      ]
+    },
+    "also_today": {
+      "items": [
+        "India's forex reserves fall by more than $50 billion as the central bank manages currency pressures.",
+        "HCLTech reports net profit rising 11% quarter-on-quarter to ₹5,132 crore with steady revenue growth.",
+        "Boldfit secures over ₹400 crore in Series B funding led by Bharat Value Fund for retail expansion.",
+        "E-commerce festive sales hit ₹24,000 crore in two days while venture funding sees a temporary dip."
+      ]
+    }
+  },
+  "geopolitics": {
+    "kicker": "India x Global Trade",
+    "headline": "FTAs and US Trade Push Target $170 Billion Boost",
+    "paragraphs": [
+      "India is aggressively advancing its trade pact strategy to navigate a shifting global economic landscape shaped by US tariffs and trade realignments. Commerce Minister Piyush Goyal noted that the long-awaited US trade deal is moving toward finalisation as changing circumstances alter bilateral dynamics. Meanwhile, free trade agreement pushes with partners like the UK and Canada are accelerating, with experts projecting massive GDP gains of up to $170 billion by 2035.",
+      "While trade missions arrive in India to sign major deals spanning AI and agriculture, businesses and policymakers must still navigate complex frameworks like source code rules and utilization data exchanges. These sweeping trade pacts aim to cushion the domestic economy against external pressures, offering vital avenues for growth even as global market fragmentation persists."
+    ],
+    "world_60": [
+      "India's forex reserves fall by more than $50 billion amid central bank market interventions",
+      "Stock market outlook balances global cues from the DJIA, S&P, NASDAQ, and Nikkei",
+      "IMF projects India's economy to grow at 7% while warning of a fragmented global outlook",
+      "Crude oil prices hold near $105 per barrel as traders assess Russian supply shifts"
+    ],
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Piyush_Goyal_crop.jpg/330px-Piyush_Goyal_crop.jpg",
+      "alt": "Piyush Goyal"
+    }
+  },
+  "sources": {
+    "big_story": [
+      {
+        "title": "How India has sought to defend the slumping rupee",
+        "source": "Reuters"
+      },
+      {
+        "title": "RBI Raises Daily CRR Maintenance Requirement for Banks to 99% from October 16",
+        "source": "News On AIR"
+      },
+      {
+        "title": "India’s Rupee Gains as RBI Takes More Steps to Support Currency: INR/USD",
+        "source": "Bloomberg.com"
+      },
+      {
+        "title": "India's forex reserves fall by more than $50 billion: How much firepower does the RBI have?",
+        "source": "bfsi.economictimes.indiatimes.com"
+      },
+      {
+        "title": "Rupee to extend recovery, RBI takes more steps to ease pressure",
+        "source": "Reuters"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "Boldfit Raises Over Rs 400 Cr In Series B Funding Led By Bharat Value Fund",
+        "source": "BW Disrupt"
+      },
+      {
+        "title": "Boldfit Raises Rs 400 Crore From Bharat Value Fund for Retail Expansion",
+        "source": "Siliconindia"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "India To Grow At 7%, Advanced Economies At 1.8% In 2027: IMF",
+        "source": "NDTV"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "RBI Raises Daily CRR Maintenance Requirement for Banks to 99% from October 16",
+        "source": "News On AIR"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "Stock Market Today LIVE: GIFT Nifty signals positive start for Sensex, Nifty; Crude tops $106",
+        "source": "IndiaIPO"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "India's forex reserves fall by more than $50 billion: How much firepower does the RBI have?",
+        "source": "bfsi.economictimes.indiatimes.com"
+      },
+      {
+        "title": "Stock market outlook today, 13 Oct: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+        "source": "Livemint"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "PM Modi's free trade push could lead to $140 billion GDP gain for India",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "US trade deal to be finalised as 'circumstances have changed': Piyush Goyal",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "US tariffs accelerate global trade realignment: How India’s FTAs could boost GDP",
+        "source": "Livemint"
+      },
+      {
+        "title": "'FTAs can add $170 billion to India's GDP by 2035, cushion US tariffs'",
+        "source": "Business Standard"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "India's forex reserves fall by more than $50 billion: How much firepower does the RBI have?",
+        "source": "bfsi.economictimes.indiatimes.com"
+      },
+      {
+        "title": "Stock market outlook today, 13 Oct: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+        "source": "Livemint"
+      },
+      {
+        "title": "IMF raises India growth forecast to 7%, warns of fragmented global outlook",
+        "source": "The Indian Express"
+      },
+      {
+        "title": "Oil Price Today (October 13): Crude oil falls to $105 as traders assess Russian supply, Mideast attacks. W",
+        "source": "The Economic Times"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "Vaibhav Vyapaar IPO opens for subscription today: Check price band and other key details",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "Tonbo Imaging sets Rs.852 crore IPO price band, targets Rs.4,010 crore valuation",
+        "source": "TradingView"
+      },
+      {
+        "title": "Shellz India to launch IPO on Oct 15 with price band set at Rs 170-179 per share",
+        "source": "Motilal Oswal"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session 2026-10-13)",
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
+  }
+}
