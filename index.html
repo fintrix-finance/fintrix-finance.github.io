@@ -341,6 +341,14 @@ h1,h2,h3,.display{ font-family:'Oswald',sans-serif; font-weight:700; letter-spac
   .stage{ flex:none; margin:0 auto; }
   .edge-tap{ width:10%; }
 }
+.archive-banner{ display:flex; align-items:center; gap:10px; padding:7px 14px; background:var(--brown); color:var(--cream); font-family:'Inter',sans-serif; font-size:11.5px; letter-spacing:.03em; flex-shrink:0; }
+.archive-banner[hidden]{ display:none; }
+.archive-banner .ab-label{ font-weight:700; color:#e8b07e; letter-spacing:.14em; font-size:9.5px; }
+.archive-banner .ab-date{ flex:1; opacity:.92; }
+.archive-banner a{ color:var(--cream); text-decoration:underline; text-underline-offset:2px; white-space:nowrap; }
+.archive-note{ margin-top:14px; font-family:'Inter',sans-serif; font-size:11.5px; text-align:center; }
+.archive-note a{ color:var(--orange); font-weight:600; text-decoration:none; }
+.archive-note a:hover{ text-decoration:underline; }
 @media (max-width:420px){
   .cover-columns{ grid-template-columns: 2fr 1fr; gap:14px; }
   .cover-right{ padding-left:12px; }
@@ -351,6 +359,11 @@ h1,h2,h3,.display{ font-family:'Oswald',sans-serif; font-weight:700; letter-spac
 <body>
 
 <div class="app">
+<div class="archive-banner" id="archiveBanner" hidden>
+  <span class="ab-label">ARCHIVE</span>
+  <span class="ab-date" id="archiveBannerDate"></span>
+  <a class="ab-back" href="./">&larr; Today's issue</a>
+</div>
   <div class="stage" id="stage"></div>
   <button class="edge-tap left" id="prevBtn" aria-label="Previous page"></button>
   <button class="edge-tap right" id="nextBtn" aria-label="Next page"></button>
@@ -682,6 +695,7 @@ const PAGES_HTML = [
     <p>New issue every market day - commodities, funds and the stories behind the numbers. Enter your email and confirm it to get an alert when the next FINTRIX issue is ready.</p>
     <a class="subscribe-btn" id="subscribeBtn" href="${SUBSCRIBE_URL}" target="_blank" rel="noopener">Subscribe</a>
   </div>
+  <p class="archive-note">Missed a day? <a href="archive.html">Browse past issues &rarr;</a></p>
 </div>
 <div class="page-footer">FINNEXUS &mdash; THE COMMERCE CLUB</div>
 `
@@ -1043,10 +1057,35 @@ function applyDynamic(d){
   requestAnimationFrame(updateScrollCues);
 }
 
-fetch('data.json', {cache: 'no-store'})
+// Archive mode: ?issue=YYYY-MM-DD loads that day's snapshot from archive/.
+const issueParam = new URLSearchParams(location.search).get('issue');
+const issueDate = /^\d{4}-\d{2}-\d{2}$/.test(issueParam || '') ? issueParam : null;
+const archiveBanner = document.getElementById('archiveBanner');
+function fmtIssueDate(dstr){
+  const m = dstr.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  const dt = new Date(Date.UTC(+m[1], +m[2] - 1, +m[3]));
+  const wd = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][dt.getUTCDay()];
+  const mo = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][dt.getUTCMonth()];
+  return wd + ', ' + dt.getUTCDate() + ' ' + mo + ' ' + dt.getUTCFullYear();
+}
+function showArchiveBanner(label){
+  if(!archiveBanner) return;
+  archiveBanner.hidden = false;
+  document.getElementById('archiveBannerDate').textContent = label;
+}
+fetch(issueDate ? 'archive/' + issueDate + '.json' : 'data.json', {cache: 'no-store'})
   .then(r => r.ok ? r.json() : null)
-  .then(d => { if(d){ FINTRIX_DATA = d; applyDynamic(d); } })
-  .catch(() => { /* no data.json or bad JSON: keep the built-in content */ });
+  .then(d => {
+    if(d){ FINTRIX_DATA = d; applyDynamic(d); }
+    if(issueDate){
+      showArchiveBanner(d ? fmtIssueDate(issueDate) : 'Issue not found');
+      if(d) document.title = 'FINTRIX — ' + fmtIssueDate(issueDate);
+    }
+  })
+  .catch(() => {
+    /* no data.json or bad JSON: keep the built-in content */
+    if(issueDate) showArchiveBanner('Issue not found');
+  });
 
 let resizeTimer;
 window.addEventListener('resize', () => {
