@@ -1,0 +1,442 @@
+{
+  "updated_ist": "2026-09-27",
+  "cover": {
+    "big_story_teaser": "India's rural economy transforms with GOBARdhan economics",
+    "venture_teaser": "Ultraviolette Automotive raises 74 million euros for US launch",
+    "market_watch_teaser": "Sensex closed up 0.43% at 73,895.74 as markets shut for the weekend.",
+    "daily_brief_teaser": "Defence Index, Bamboo Economy, and Agriculture Sector updates.",
+    "inbrief_2": "Defence Index Fund info released",
+    "inbrief_3": "Bamboo economy for sustainable growth",
+    "inbrief_4": "New Era of Indian Agriculture",
+    "inbrief_1": "US-India Tariffs Ruled Illegal"
+  },
+  "big_story": {
+    "headline": "Rural India's Green Turn",
+    "subhead": "HOW RURAL ECONOMICS AND SUSTAINABLE GROWTH ARE REDEFINING INDIA'S HORIZONS.",
+    "paragraphs": [
+      "India is witnessing a major shift in how rural economics and sustainable growth intersect across different regions. Initiatives like GOBARdhan are stepping in to change the economic landscape of rural India fundamentally. At the same time, regional leaders are emphasizing that states like Maharashtra must build a bamboo economy to ensure long-term sustainable growth.",
+      "These developments highlight a broader push toward leveraging local resources and eco-friendly models to drive financial resilience. Sustainable growth is no longer just an environmental goal but a core economic strategy for rural communities and state planners alike. By turning agricultural and natural byproducts into viable commercial assets, rural stakeholders are unlocking new revenue streams.",
+      "As these green economic models take root, observers will be watching how policy execution matches local ambition. The success of these initiatives could serve as a blueprint for other regions seeking sustainable ways to boost rural incomes. Investors and policymakers should keep a close eye on how traditional rural sectors adapt to modern economic demands."
+    ],
+    "pullbox": "Sustainable growth is transitioning from an environmental talking point into a primary driver of rural economic transformation across India.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+      "alt": "Reserve Bank of India"
+    }
+  },
+  "explains": {
+    "title": "What is GOBARdhan?",
+    "paragraphs": [
+      "GOBARdhan is an initiative designed to positively impact the economics of India's rural economy by converting waste into wealth. It focuses on managing and transforming cattle dung and organic waste into valuable resources like biogas and organic fertilizer.",
+      "In practice, the initiative helps rural households and communities generate clean energy while creating localized business opportunities. This dual benefit reduces dependence on external energy sources and keeps financial value within the rural ecosystem."
+    ]
+  },
+  "venture_vault": {
+    "paragraphs": [
+      "Ultraviolette Automotive has made headlines by successfully raising 74 million euros in a fresh funding round. The electric vehicle startup is using this capital injection to plot its upcoming expansion into the United States market.",
+      "This strategic move marks a significant milestone for Indian electric vehicle innovators aiming to scale their footprint globally. Backed by strong investor confidence, the company's founders are betting on high-performance design to carve out space in competitive international markets."
+    ]
+  },
+  "market_watch": {
+    "indian": [
+      {
+        "name": "Sensex",
+        "value": "73,895.74 ▲ 0.43%",
+        "dir": "up"
+      },
+      {
+        "name": "Nifty 50",
+        "value": "23,140.50 ▲ 0.34%",
+        "dir": "up"
+      },
+      {
+        "name": "Nifty Bank",
+        "value": "55,580.40 ▲ 0.26%",
+        "dir": "up"
+      }
+    ],
+    "asian": [
+      {
+        "name": "Nikkei 225",
+        "value": "66,364.20 ▲ 1.30%",
+        "dir": "up"
+      },
+      {
+        "name": "Hang Seng",
+        "value": "24,510.09 ▼ 1.01%",
+        "dir": "down"
+      },
+      {
+        "name": "Shanghai Comp.",
+        "value": "3,888.37 ▼ 1.22%",
+        "dir": "down"
+      }
+    ],
+    "european": [
+      {
+        "name": "FTSE 100",
+        "value": "10,695.25 ▲ 0.14%",
+        "dir": "up"
+      },
+      {
+        "name": "DAX",
+        "value": "25,408.64 ▲ 0.56%",
+        "dir": "up"
+      },
+      {
+        "name": "CAC 40",
+        "value": "8,077.80 ▼ 0.04%",
+        "dir": "down"
+      }
+    ],
+    "global": [
+      {
+        "name": "Dollar Index",
+        "value": "101.03 ▼ 0.25%",
+        "dir": "down"
+      },
+      {
+        "name": "Brent Crude",
+        "value": "$97.44/bbl",
+        "dir": "down"
+      },
+      {
+        "name": "Gold",
+        "value": "$4,321/oz",
+        "dir": "up"
+      }
+    ],
+    "losers": [
+      "Max Healthcare",
+      "Tata Motors PV",
+      "Infosys"
+    ],
+    "winners": [
+      "Axis Bank",
+      "Asian Paints",
+      "Mahindra & Mahindra"
+    ],
+    "snapshot_strip": "Realty and Auto led; Media and IT lagged as the Nifty rose 0.34%",
+    "date_label": "SEP 2026",
+    "close_label": "AS OF FRIDAY'S CLOSE, SEP 25",
+    "ipo_desk": [
+      {
+        "name": "Orient Cables",
+        "note": "2.07 times subscribed on day 1"
+      }
+    ]
+  },
+  "data_desk": {
+    "commodities": [
+      {
+        "name": "Gold",
+        "unit": "$/oz",
+        "price": "4,321",
+        "day": "▲ 0.54%",
+        "week": "▼ 2.34%",
+        "dir": "up",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,18.6 4.1,16.5 8.3,19.6 12.4,12.2 16.6,10.6 20.7,4.0 24.8,3.0 29.0,3.2 33.1,5.7 37.2,5.0 41.4,13.1 45.5,16.0 49.7,21.1 53.8,20.0 57.9,12.5 62.1,16.3 66.2,18.5 70.3,17.2 74.5,20.4 78.6,20.3 82.8,23.8 86.9,24.9 91.0,21.6 95.2,20.9 99.3,19.4 103.4,21.8 107.6,22.3 111.7,25.8 115.9,27.0 120.0,25.6\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"25.6\" r=\"2.4\" fill=\"#c1541f\"/></svg>"
+      },
+      {
+        "name": "Silver",
+        "unit": "$/oz",
+        "price": "64.80",
+        "day": "▲ 2.12%",
+        "week": "▼ 2.64%",
+        "dir": "up",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,20.3 4.1,15.9 8.3,24.3 12.4,17.4 16.6,8.5 20.7,3.0 24.8,6.6 29.0,6.2 33.1,8.7 37.2,3.1 41.4,12.5 45.5,15.5 49.7,21.7 53.8,21.3 57.9,12.6 62.1,16.2 66.2,15.2 70.3,8.9 74.5,23.0 78.6,21.9 82.8,25.9 86.9,27.0 91.0,22.9 95.2,18.4 99.3,14.2 103.4,17.0 107.6,16.6 111.7,22.6 115.9,26.1 120.0,21.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"21.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>"
+      },
+      {
+        "name": "Brent Crude",
+        "unit": "$/bbl",
+        "price": "97.44",
+        "day": "▼ 8.59%",
+        "week": "▼ 6.19%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,26.2 4.1,23.5 8.3,23.4 12.4,22.7 16.6,20.2 20.7,19.5 24.8,22.0 29.0,26.2 33.1,27.0 37.2,24.9 41.4,25.3 45.5,24.0 49.7,19.2 53.8,18.1 57.9,18.2 62.1,17.3 66.2,15.4 70.3,11.7 74.5,4.3 78.6,7.8 82.8,6.5 86.9,3.0 91.0,6.4 95.2,7.5 99.3,8.6 103.4,12.7 107.6,13.9 111.7,9.5 115.9,5.5 120.0,16.0\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"16.0\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>"
+      },
+      {
+        "name": "WTI Crude",
+        "unit": "$/bbl",
+        "price": "92.41",
+        "day": "▼ 2.33%",
+        "week": "▼ 7.87%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,26.8 4.1,24.7 8.3,24.2 12.4,23.3 16.6,21.3 20.7,22.1 24.8,24.2 29.0,26.9 33.1,27.0 37.2,25.7 41.4,25.8 45.5,23.4 49.7,18.9 53.8,18.1 57.9,17.8 62.1,17.6 66.2,16.0 70.3,12.9 74.5,6.4 78.6,8.9 82.8,7.5 86.9,3.0 91.0,6.5 95.2,7.0 99.3,8.6 103.4,13.2 107.6,14.4 111.7,16.9 115.9,14.4 120.0,16.6\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"16.6\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Embassy REIT",
+        "price": "₹437.66",
+        "day": "▼ 0.48%",
+        "week": "▼ 0.77%",
+        "dir": "down",
+        "dir_week": "down"
+      },
+      {
+        "name": "Nexus Select REIT",
+        "price": "₹165.94",
+        "day": "▼ 0.29%",
+        "week": "▼ 0.25%",
+        "dir": "down",
+        "dir_week": "down"
+      },
+      {
+        "name": "Mindspace REIT",
+        "price": "₹508.08",
+        "day": "▲ 0.69%",
+        "week": "▲ 0.49%",
+        "dir": "up",
+        "dir_week": "up"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹337.99",
+        "day": "▲ 0.30%",
+        "week": "▼ 0.17%",
+        "dir": "up",
+        "dir_week": "down"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹101.91",
+        "day": "▼ 0.03%",
+        "week": "▲ 0.53%",
+        "dir": "down",
+        "dir_week": "up"
+      }
+    ],
+    "caps": [
+      {
+        "name": "Nifty 50",
+        "tag": "Large cap",
+        "level": "23,140.50",
+        "day": 0.34,
+        "week": -0.88,
+        "month": -4.41,
+        "day_txt": "▲ 0.34%",
+        "week_txt": "▼ 0.88%",
+        "month_txt": "▼ 4.41%",
+        "dir": "up",
+        "dir_week": "down",
+        "dir_month": "down"
+      },
+      {
+        "name": "Nifty Midcap 150",
+        "tag": "Mid cap",
+        "level": "22,437.00",
+        "day": -0.15,
+        "week": -2.03,
+        "month": -4.65,
+        "day_txt": "▼ 0.15%",
+        "week_txt": "▼ 2.03%",
+        "month_txt": "▼ 4.65%",
+        "dir": "down",
+        "dir_week": "down",
+        "dir_month": "down"
+      },
+      {
+        "name": "Nifty Smallcap 250",
+        "tag": "Small cap",
+        "level": "18,158.90",
+        "day": 0.02,
+        "week": -0.7,
+        "month": -1.61,
+        "day_txt": "▲ 0.02%",
+        "week_txt": "▼ 0.70%",
+        "month_txt": "▼ 1.61%",
+        "dir": "up",
+        "dir_week": "down",
+        "dir_month": "down"
+      }
+    ],
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"95.5\" width=\"22\" height=\"4.5\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"90.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.3</text><rect x=\"62.3\" y=\"100.0\" width=\"22\" height=\"11.7\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"123.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.9</text><rect x=\"90.3\" y=\"100.0\" width=\"22\" height=\"58.8\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"170.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-4.4</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"100.0\" width=\"22\" height=\"2.0\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"114.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.1</text><rect x=\"169.0\" y=\"100.0\" width=\"22\" height=\"27.1\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"139.1\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-2.0</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-4.7</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"99.2\" width=\"22\" height=\"0.8\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"94.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.0</text><rect x=\"275.7\" y=\"100.0\" width=\"22\" height=\"9.3\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"121.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.7</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"21.5\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"133.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.6</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "funds": [
+      {
+        "name": "ICICI Pru Large Cap",
+        "cat": "Large cap",
+        "nav": "₹115.57",
+        "day": "▲ 0.37%",
+        "week": "▼ 0.70%",
+        "dir": "up",
+        "dir_week": "down"
+      },
+      {
+        "name": "MO Midcap 150 Index",
+        "cat": "Mid cap",
+        "nav": "₹40.74",
+        "day": "▼ 0.15%",
+        "week": "▼ 2.03%",
+        "dir": "down",
+        "dir_week": "down"
+      },
+      {
+        "name": "Nippon Small Cap",
+        "cat": "Small cap",
+        "nav": "₹208.02",
+        "day": "▲ 0.15%",
+        "week": "▼ 0.64%",
+        "dir": "up",
+        "dir_week": "down"
+      },
+      {
+        "name": "Parag Parikh Flexi Cap",
+        "cat": "Flexi cap",
+        "nav": "₹89.96",
+        "day": "▲ 0.40%",
+        "week": "▲ 0.11%",
+        "dir": "up",
+        "dir_week": "up"
+      }
+    ],
+    "date_label": "SEP 2026",
+    "close_label": "AS OF FRIDAY'S CLOSE, SEP 25",
+    "nav_label": "NAVS AS OF SEP 25"
+  },
+  "daily_brief": {
+    "story_1": {
+      "kicker": "Fund Watch",
+      "headline": "Invesco India Nifty India Defence Index Fund info",
+      "paragraphs": [
+        "The economic landscape continues to evolve with specialized fund offerings targeting key sectors of growth. Investors tracking industrial and strategic segments now have access to detailed fund information regarding the regular plan. Such index funds provide targeted exposure to manufacturers and technology providers within the broader ecosystem.",
+        "As portfolio diversification gains momentum among retail participants, thematic allocations offer distinct avenues for capital deployment. Observers note that structured products aligned with national security priorities attract consistent institutional and retail interest alike."
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/New_York_Stock_Exchange_-_panoramio_%282%29.jpg/3840px-New_York_Stock_Exchange_-_panoramio_%282%29.jpg",
+        "alt": "Stock exchange"
+      }
+    },
+    "story_2": {
+      "kicker": "Sustainable Growth",
+      "headline": "Maharashtra must build bamboo economy",
+      "paragraphs": [
+        "Regional development discussions have increasingly turned toward sustainable resource management and alternative green industries. Leadership emphasizes that cultivating specific renewable materials can significantly boost regional employment and industrial output. This strategic pivot aims to harmonize ecological preservation with commercial viability.",
+        "Proponents argue that structured investments in eco-friendly supply chains will strengthen local enterprises. By integrating traditional cultivation methods with modern processing techniques, the state positions itself at the forefront of green economic initiatives."
+      ]
+    },
+    "story_3": {
+      "kicker": "Agriculture",
+      "headline": "The New Era of Indian Agriculture and Allied Sectors",
+      "paragraphs": [
+        "Agricultural supply chains and allied industries are undergoing a profound technological transformation to enhance productivity and farmer incomes. Government initiatives focus on modernizing infrastructure and integrating digital tools across rural markets to unlock greater value."
+      ]
+    },
+    "also_today": {
+      "items": [
+        "Cochin Shipyard surges 7% after bagging massive ₹5,000 Cr defence deal",
+        "India's consumer durables market to touch ₹3-3.25 trillion by 2030",
+        "IIT Madras-backed Unicorn India Ventures raises ₹450 crore",
+        "Wheels India allots 11.97 lakh shares via QIP at ₹2,088, raises ₹249.99 crore"
+      ]
+    }
+  },
+  "geopolitics": {
+    "kicker": "India x US | Tariffs",
+    "headline": "US Court Voids 10% Universal Tariff on India",
+    "paragraphs": [
+      "In a major legal development for international trade, the US Court of International Trade has declared the Trump administration's 10 percent universal tariff levied on imports from India and other countries illegal. This unexpected ruling directly impacts the cost structure of cross-border commerce and brings immediate relief to exporters navigating complex protectionist measures. For months, trade dynamics between Washington and New Delhi have been strained by ongoing policy shifts, making this judicial intervention a critical turning point.",
+      "While the court ruling provides breathing room, the broader bilateral trade negotiations and tariff frameworks remain dynamic and unsettled. Business leaders and market analysts are closely watching how the administration responds to the legal setback as discussions toward finalising a bilateral trade deal continue. Understanding these shifting trade barriers is essential for assessing supply chain stability and export revenue potential in the coming quarters."
+    ],
+    "world_60": [
+      "Global oil inventories are depleted as next price spikes threaten economies.",
+      "Federal Reserve holds interest rates steady as US inflation hits three-year high.",
+      "China cuts gas price hikes while global markets react to changing inflation data.",
+      "Gold forecast remains under scrutiny as import duties weigh on Indian demand."
+    ],
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
+      "alt": "New Delhi"
+    }
+  },
+  "sources": {
+    "big_story": [
+      {
+        "title": "GOBARdhan could change the economics of India’s rural economy",
+        "source": "BusinessLine"
+      },
+      {
+        "title": "Maharashtra must build bamboo economy for sustainable growth: Governor Varma",
+        "source": "ThePrint"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "Ultraviolette Automotive raises €74 million, plots U.S. launch",
+        "source": "electrive.com"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "Invesco India Nifty India Defence Index Fund - Regular Plan Fund info",
+        "source": "The Economic Times"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "Maharashtra must build bamboo economy for sustainable growth: Governor Varma",
+        "source": "ThePrint"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "The New Era of Indian Agriculture and Allied Sectors",
+        "source": "PIB"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "Cochin Shipyard surges 7% after bagging massive ₹5,000 Cr defence deal",
+        "source": "Alice Blue"
+      },
+      {
+        "title": "India's consumer durables market to touch ₹3-3.25 trillion by 2030",
+        "source": "Business Standard"
+      },
+      {
+        "title": "IIT Madras-backed Unicorn India Ventures raises ₹450 crore; to complete the fund at ₹1,000 crore by December",
+        "source": "thehindu.com"
+      },
+      {
+        "title": "Wheels India allots 11.97 lakh shares via QIP at ₹2,088, raises ₹249.99 crore",
+        "source": "scanx.trade"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "US Court of International Trade declares Trump administration’s 10% universal tariff levied on imports from India & other countries illegal | Akashvani News",
+        "source": "News On AIR"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "Global Oil Inventories Depleted, Next Price Spike Could Roil Economies, Markets",
+        "source": "EnergyNow.com"
+      },
+      {
+        "title": "Gold forecast: XAU/USD breakout needs confirmation",
+        "source": "FOREX.com"
+      },
+      {
+        "title": "Gold Imports in India: Kotak Lowers FY2027 Forecast as Prices and Import Duty Weigh on Demand",
+        "source": "Sangri Today"
+      },
+      {
+        "title": "Fed holds interest rates steady as inflation hits 3-year high",
+        "source": "ABC News - Breaking News, Latest News and Videos"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "Orient Cables IPO Subscription Status Day 1: Issue Subscribed 2.07 Times",
+        "source": "HDFC Sky"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session AS OF FRIDAY'S CLOSE, SEP 25)",
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
+  }
+}
