@@ -1,0 +1,534 @@
+{
+  "updated_ist": "2026-10-04",
+  "cover": {
+    "big_story_teaser": "RBI Governor warns of global debt and AI risks as repo rates face upward pressure.",
+    "venture_teaser": "Home interior startup Gravity secures $15 million funding led by 3one4 Capital.",
+    "market_watch_teaser": "As of 2026-10-01 close: Nifty 50 22,421.95 ▼ 0.88%",
+    "daily_brief_teaser": "Nikhil Kamath warns startups on funding while ITC seals ₹645 crore Yoga Bar deal",
+    "inbrief_2": "Kamath Funding Warning",
+    "inbrief_3": "ITC Yoga Bar Acquisition",
+    "inbrief_4": "Repo Rate May Hit 6%",
+    "inbrief_1": "India-Canada Trade Talks Resume"
+  },
+  "big_story": {
+    "headline": "RBI Flags New Risks To Stability",
+    "subhead": "GOVERNOR MALHOTRA WARNS OF GLOBAL DEBT AND AI THREATS AS REPO RATES MAY RISE TO 6%",
+    "paragraphs": [
+      "Reserve Bank of India Governor Malhotra highlighted five critical financial stability threats facing the Indian economy, including ballooning global debt and emerging risks from artificial intelligence. Despite these mounting headwinds and recent West Asia crisis shocks, the governor assured that India's financial system remains resilient. However, a potential global AI stock correction could spill over into domestic markets, demanding vigilant regulatory oversight.",
+      "Adding to macro challenges, economic reports suggest that the RBI repo rate may climb to 6% in FY27. This potential rate increase is already putting upward pressure on Government Security (G-Sec) yields across the board. While the domestic financial structure has braved external shocks, shifting global rate dynamics continue to test borrowing costs.",
+      "For young investors and market observers, the interplay between monetary policy and global market volatility remains crucial. While global economists praise India's broader growth trajectory, regulatory caution around tech valuations and crypto assets will define the next phase of market stability. Keeping an eye on central bank signals will be key as fiscal and monetary policies recalibrate."
+    ],
+    "pullbox": "With global debt expanding and AI market risks looming, the RBI remains cautious while policy forecasts point to potential repo rate hikes ahead.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+      "alt": "Reserve Bank of India"
+    }
+  },
+  "explains": {
+    "title": "What is the Repo Rate?",
+    "paragraphs": [
+      "The repo rate is the interest rate at which a country's central bank, such as the Reserve Bank of India, lends money to commercial banks against government securities. It serves as the primary tool for controlling inflation and regulating liquidity in the national economy.",
+      "When the central bank raises the repo rate, commercial borrowing becomes more expensive, slowing down credit expansion and cooling inflation. Conversely, cutting the rate lowers borrowing costs for businesses and individuals, encouraging investment and economic growth."
+    ]
+  },
+  "venture_vault": {
+    "paragraphs": [
+      "Home interior materials startup Gravity has raised $15 million in its latest funding round. The investment was led by prominent venture capital firms 3one4 Capital and Info Edge Ventures.",
+      "Gravity plans to utilize the fresh capital to expand its material supply chain and scale operations across key regional markets. The backing from institutional investors underscores growing confidence in tech-enabled building and interior procurement platforms."
+    ]
+  },
+  "market_watch": {
+    "indian": [
+      {
+        "name": "Sensex",
+        "value": "71,909.70 ▼ 0.79%",
+        "dir": "down",
+        "session_date": "2026-10-01"
+      },
+      {
+        "name": "Nifty 50",
+        "value": "22,421.95 ▼ 0.88%",
+        "dir": "down",
+        "session_date": "2026-10-01"
+      },
+      {
+        "name": "Nifty Bank",
+        "value": "54,450.75 ▼ 0.33%",
+        "dir": "down",
+        "session_date": "2026-10-01"
+      }
+    ],
+    "asian": [
+      {
+        "name": "Nikkei 225",
+        "value": "68,309.46 ▼ 0.94%",
+        "dir": "down",
+        "session_date": "2026-10-02"
+      },
+      {
+        "name": "Hang Seng",
+        "value": "23,972.29 ▼ 2.60%",
+        "dir": "down",
+        "session_date": "2026-10-02"
+      },
+      {
+        "name": "Shanghai Comp.",
+        "value": "3,842.19 ▲ 0.31%",
+        "dir": "up",
+        "session_date": "2026-09-30"
+      }
+    ],
+    "european": [
+      {
+        "name": "FTSE 100",
+        "value": "10,461.95 ▲ 0.32%",
+        "dir": "up",
+        "session_date": "2026-10-02"
+      },
+      {
+        "name": "DAX",
+        "value": "25,231.20 ▲ 1.17%",
+        "dir": "up",
+        "session_date": "2026-10-02"
+      },
+      {
+        "name": "CAC 40",
+        "value": "7,897.19 ▲ 0.79%",
+        "dir": "up",
+        "session_date": "2026-10-02"
+      }
+    ],
+    "global": [
+      {
+        "name": "Dollar Index",
+        "value": "101.93 ▼ 0.17%",
+        "dir": "down",
+        "session_date": "2026-10-02"
+      },
+      {
+        "name": "Brent Crude",
+        "value": "$102.25/bbl",
+        "dir": "down",
+        "session_date": "2026-10-02"
+      },
+      {
+        "name": "Gold",
+        "value": "$4,162/oz",
+        "dir": "down",
+        "session_date": "2026-10-02"
+      },
+      {
+        "name": "US 10Y Yield",
+        "value": "5.28% ▲ 4.0 bp",
+        "dir": "up",
+        "session_date": "2026-10-02"
+      }
+    ],
+    "losers": [
+      "Bajaj Auto",
+      "Maruti Suzuki",
+      "Shriram Finance"
+    ],
+    "winners": [
+      "Infosys",
+      "HDFC Life",
+      "HDFC Bank"
+    ],
+    "snapshot_strip": "IT led; Auto and Metal lagged as the Nifty fell 0.88%",
+    "date_label": "OCT 2026",
+    "close_label": "AS OF THURSDAY'S CLOSE, OCT 1",
+    "session_date": "2026-10-01",
+    "ipo_desk": [
+      {
+        "name": "Acme India Industries IPO",
+        "note": "Subscribed 1.92x on Day 2"
+      },
+      {
+        "name": "Vishal Nirmiti IPO",
+        "note": "Grey market premium tracked ahead of listing"
+      },
+      {
+        "name": "Jio Platforms IPO",
+        "note": "Final touches underway for mega launch"
+      }
+    ],
+    "us": [
+      {
+        "name": "S&P 500",
+        "value": "7,722.72 ▲ 0.73%",
+        "dir": "up",
+        "session_date": "2026-10-02"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "27,190.86 ▲ 1.19%",
+        "dir": "up",
+        "session_date": "2026-10-02"
+      },
+      {
+        "name": "Dow Jones",
+        "value": "51,176.96 ▲ 0.49%",
+        "dir": "up",
+        "session_date": "2026-10-02"
+      }
+    ]
+  },
+  "data_desk": {
+    "commodities": [
+      {
+        "name": "Gold",
+        "unit": "$/oz",
+        "price": "4,162",
+        "day": "▼ 0.95%",
+        "week": "▼ 3.68%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.8 4.1,3.0 8.3,3.1 12.4,5.0 16.6,4.5 20.7,10.5 24.8,12.7 29.0,16.5 33.1,15.7 37.2,10.1 41.4,12.9 45.5,14.6 49.7,13.6 53.8,16.0 57.9,15.9 62.1,18.5 66.2,19.4 70.3,16.9 74.5,16.4 78.6,15.2 82.8,17.1 86.9,17.4 91.0,20.0 95.2,20.9 99.3,19.9 103.4,26.7 107.6,26.2 111.7,25.9 115.9,25.2 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-02"
+      },
+      {
+        "name": "Silver",
+        "unit": "$/oz",
+        "price": "60.41",
+        "day": "▼ 0.51%",
+        "week": "▼ 5.96%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,5.4 8.3,5.1 12.4,6.8 16.6,3.1 20.7,9.3 24.8,11.3 29.0,15.4 33.1,15.2 37.2,9.4 41.4,11.8 45.5,11.1 49.7,6.9 53.8,16.3 57.9,15.6 62.1,18.3 66.2,19.0 70.3,16.3 74.5,13.2 78.6,10.5 82.8,12.3 86.9,12.1 91.0,16.0 95.2,18.4 99.3,16.4 103.4,24.1 107.6,25.5 111.7,27.0 115.9,25.4 120.0,26.2\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"26.2\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-02"
+      },
+      {
+        "name": "Brent Crude",
+        "unit": "$/bbl",
+        "price": "102.25",
+        "day": "▼ 0.06%",
+        "week": "▼ 1.98%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,19.5 4.1,22.0 8.3,26.2 12.4,27.0 16.6,24.9 20.7,25.3 24.8,24.0 29.0,19.2 33.1,18.1 37.2,18.2 41.4,17.3 45.5,15.4 49.7,11.7 53.8,4.3 57.9,7.8 62.1,6.5 66.2,3.0 70.3,6.4 74.5,7.5 78.6,8.6 82.8,12.7 86.9,13.9 91.0,9.5 95.2,5.5 99.3,8.1 103.4,7.0 107.6,10.1 111.7,9.0 115.9,10.4 120.0,10.5\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"10.5\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-02"
+      },
+      {
+        "name": "WTI Crude",
+        "unit": "$/bbl",
+        "price": "91.11",
+        "day": "▼ 1.90%",
+        "week": "▼ 1.41%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,22.1 4.1,24.2 8.3,26.9 12.4,27.0 16.6,25.7 20.7,25.8 24.8,23.4 29.0,18.9 33.1,18.1 37.2,17.8 41.4,17.6 45.5,16.0 49.7,12.9 53.8,6.4 57.9,8.9 62.1,7.5 66.2,3.0 70.3,6.5 74.5,7.0 78.6,8.6 82.8,13.2 86.9,14.4 91.0,16.9 95.2,14.4 99.3,16.6 103.4,16.5 107.6,19.7 111.7,18.7 115.9,16.2 120.0,18.0\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"18.0\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-02"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Embassy REIT",
+        "price": "₹428.71",
+        "day": "▼ 1.31%",
+        "week": "▼ 2.51%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-01"
+      },
+      {
+        "name": "Nexus Select REIT",
+        "price": "₹165.57",
+        "day": "▼ 1.03%",
+        "week": "▼ 0.51%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-01"
+      },
+      {
+        "name": "Mindspace REIT",
+        "price": "₹498.46",
+        "day": "▼ 0.44%",
+        "week": "▼ 1.21%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-01"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹330.25",
+        "day": "▼ 1.72%",
+        "week": "▼ 2.00%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-01"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹101.84",
+        "day": "▼ 0.56%",
+        "week": "▼ 0.10%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-01"
+      }
+    ],
+    "caps": [
+      {
+        "name": "Nifty 50",
+        "tag": "Large cap",
+        "level": "22,421.95",
+        "day": -0.88,
+        "week": -2.78,
+        "month": -6.79,
+        "day_txt": "▼ 0.88%",
+        "week_txt": "▼ 2.78%",
+        "month_txt": "▼ 6.79%",
+        "dir": "down",
+        "dir_week": "down",
+        "dir_month": "down",
+        "session_date": "2026-10-01"
+      },
+      {
+        "name": "Nifty Midcap 150",
+        "tag": "Mid cap",
+        "level": "21,643.85",
+        "day": -1.02,
+        "week": -3.68,
+        "month": -6.92,
+        "day_txt": "▼ 1.02%",
+        "week_txt": "▼ 3.68%",
+        "month_txt": "▼ 6.92%",
+        "dir": "down",
+        "dir_week": "down",
+        "dir_month": "down",
+        "session_date": "2026-10-01"
+      },
+      {
+        "name": "Nifty Smallcap 250",
+        "tag": "Small cap",
+        "level": "17,589.05",
+        "day": -1.18,
+        "week": -3.12,
+        "month": -4.22,
+        "day_txt": "▼ 1.18%",
+        "week_txt": "▼ 3.12%",
+        "month_txt": "▼ 4.22%",
+        "dir": "down",
+        "dir_week": "down",
+        "dir_month": "down",
+        "session_date": "2026-10-01"
+      }
+    ],
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"100.0\" width=\"22\" height=\"7.9\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"119.9\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.9</text><rect x=\"62.3\" y=\"100.0\" width=\"22\" height=\"24.9\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"136.9\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-2.8</text><rect x=\"90.3\" y=\"100.0\" width=\"22\" height=\"60.8\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"172.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-6.8</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"100.0\" width=\"22\" height=\"9.1\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"121.1\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.0</text><rect x=\"169.0\" y=\"100.0\" width=\"22\" height=\"33.0\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"145.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.7</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-6.9</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"100.0\" width=\"22\" height=\"10.6\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"122.6\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.2</text><rect x=\"275.7\" y=\"100.0\" width=\"22\" height=\"28.0\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"140.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.1</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"37.8\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"149.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-4.2</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "funds": [
+      {
+        "name": "ICICI Pru Large Cap",
+        "cat": "Large cap",
+        "nav": "₹112.29",
+        "day": "▼ 0.82%",
+        "week": "▼ 2.48%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-01"
+      },
+      {
+        "name": "MO Midcap 150 Index",
+        "cat": "Mid cap",
+        "nav": "₹39.29",
+        "day": "▼ 1.02%",
+        "week": "▼ 3.69%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-01"
+      },
+      {
+        "name": "Nippon Small Cap",
+        "cat": "Small cap",
+        "nav": "₹202.29",
+        "day": "▼ 1.12%",
+        "week": "▼ 2.61%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-01"
+      },
+      {
+        "name": "Parag Parikh Flexi Cap",
+        "cat": "Flexi cap",
+        "nav": "₹88.26",
+        "day": "▼ 0.65%",
+        "week": "▼ 1.50%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-01"
+      }
+    ],
+    "date_label": "OCT 2026",
+    "close_label": "AS OF THURSDAY'S CLOSE, OCT 1",
+    "session_date": "2026-10-01",
+    "nav_label": "NAVS AS OF OCT 1"
+  },
+  "daily_brief": {
+    "story_1": {
+      "kicker": "Startups | Venture Capital",
+      "headline": "Nikhil Kamath Warns of Tough Times for Startup Funding",
+      "paragraphs": [
+        "Zerodha co-founder Nikhil Kamath has endorsed a grave warning for the Indian startup ecosystem, advising founders to raise capital now and keep cash. Kamath gave a 100% endorsement to a post urging startups to prepare for a difficult environment ahead. The warning suggests that next year could be bad for venture capital inflows, making fundraising significantly harder.",
+        "The advice comes at a time when VC inflows have maintained strong momentum, but investors are becoming increasingly cautious. Founders are being urged to focus on building fundraising-ready businesses rather than assuming easy capital will continue. Kamath's endorsement highlights the growing consensus that startups must prioritize runway and financial discipline."
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Nikhil_Kamath_at_World_Economic_Forum.png/330px-Nikhil_Kamath_at_World_Economic_Forum.png",
+        "alt": "Nikhil Kamath"
+      }
+    },
+    "story_2": {
+      "kicker": "Corporate | Mergers & Acquisitions",
+      "headline": "ITC Takes Full Control of Yoga Bar Parent Sproutlife",
+      "paragraphs": [
+        "Fast-moving consumer goods giant ITC has completed its acquisition of Sproutlife Foods, the parent company of healthy foods brand Yoga Bar. The deal, valued at ₹645 crore, sees ITC taking full control of the startup as part of its broader push into the premium health and wellness space.",
+        "This acquisition marks a significant exit in the Indian consumer brand space, highlighting the ongoing consolidation trend. By integrating Yoga Bar's product portfolio, ITC aims to strengthen its position in the rapidly growing healthy snacks and breakfast segment."
+      ]
+    },
+    "story_3": {
+      "kicker": "Macroeconomics | Interest Rates",
+      "headline": "RBI Repo Rate May Climb to 6% in FY27, Report Warns",
+      "paragraphs": [
+        "A new report suggests that the Reserve Bank of India's repo rate may climb to 6% in the financial year 2027. This potential rate hike is expected to put upward pressure on government securities (G-Sec) yields, impacting borrowing costs across the economy. Investors and financial institutions are closely watching these macroeconomic indicators as they plan for the upcoming fiscal year."
+      ]
+    },
+    "also_today": {
+      "items": [
+        "Union Bank of India Q2FY27 gross advances grow 18.53% year-on-year.",
+        "India's ₹80,000-crore Project-75(I) submarine push nears final approval.",
+        "Linux Laboratories raises $70 million from ChrysCapital and Tata Capital.",
+        "Shipping Corporation of India targets ₹2,000 crore profit in FY27."
+      ]
+    }
+  },
+  "geopolitics": {
+    "kicker": "India | Canada Trade",
+    "headline": "India-Canada Trade Talks Resume for 2026 Deal",
+    "paragraphs": [
+      "India and Canada are set to resume bilateral trade talks on October 5 as both nations target a economic deal for 2026. The upcoming negotiations mark a key attempt to rebuild commercial momentum and enhance market access across key industries. Business groups are closely watching the resumption for signals of policy stability and tariff relief.",
+      "While the dialogue signals a pragmatic push toward trade ties, negotiators face the task of aligning key economic priorities amid global market shifts. Lowering non-tariff barriers and securing supply chains will be critical testing grounds for both sides. For Indian exporters, a successful accord could expand commercial footprint in North America."
+    ],
+    "world_60": [
+      "Oil slides as Brent drops below $100 on potential reserve release talks",
+      "Gold and silver prices decline across local and global markets",
+      "Asian shares slide following bond volatility while US jobs data looms",
+      "US CFOs report firms absorbed initial oil price shock, survey shows"
+    ],
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
+      "alt": "New Delhi"
+    }
+  },
+  "sources": {
+    "big_story": [
+      {
+        "title": "Global debt, AI risks among 5 financial stability threats, says RBI Governor Malhotra | India News",
+        "source": "Hindustan Times"
+      },
+      {
+        "title": "Finance system resilient, economy braved West Asia crisis: RBI governor",
+        "source": "The Times of India"
+      },
+      {
+        "title": "RBI repo rate may climb to 6% in FY27; G-Sec yields face upward pressure: Report",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "Global AI stock correction may benefit India, but RBI Governor flags market risks",
+        "source": "Livemint"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "Home interior materials startup Gravity raises $15 million led by 3one4 Capital, Info Edge Ventures",
+        "source": "Indian Startup News"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "‘Next year could be bad’: Zerodha co-founder Nikhil Kamath endorses grave warning for startup funding",
+        "source": "Livemint"
+      },
+      {
+        "title": "'Raise Now, Keep Cash': Nikhil Kamath Says '100%' To Startup Funding Advice",
+        "source": "NDTV Profit"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "ITC completes Rs 645 crore acquisition of Yoga Bar parent company",
+        "source": "indiantelevision.com"
+      },
+      {
+        "title": "FMC giant ITC takes full control of Yoga Bar parent Sproutlife in Rs 645 crore deal",
+        "source": "Indian Startup News"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "RBI repo rate may climb to 6% in FY27; G-Sec yields face upward pressure: Report",
+        "source": "The Economic Times"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "Union Bank of India Q2FY27 results: Gross advances grow 18.53% YoY",
+        "source": "scanx.trade"
+      },
+      {
+        "title": "India’s ₹80,000-crore submarine push: Project-75(I) nears final approval",
+        "source": "Business Today"
+      },
+      {
+        "title": "Shipping Corporation of India Targets ₹2,000 Crore FY27 Profit, Plans Fleet Expansion",
+        "source": "Sahi"
+      },
+      {
+        "title": "Linux Laboratories Raises $70 Million From ChrysCapital, Tata Capital Healthcare Fund",
+        "source": "ascendants.in"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "India-Canada Trade Talks To Resume October 5 For 2026 Deal",
+        "source": "Sarkaritel.com"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "Oil Prices Drop: WTI Down 3.78%, Brent Below $100 on Reserve Release Talks - News and Statistics",
+        "source": "IndexBox"
+      },
+      {
+        "title": "Gold, silver prices fall in local, global markets",
+        "source": "The Express Tribune"
+      },
+      {
+        "title": "Asian shares fall after wild swings in bonds, FX; US jobs data looms",
+        "source": "DD News"
+      },
+      {
+        "title": "US CFOs in Survey Say Firms Mostly Absorbed Oil Price Shock",
+        "source": "EnergyNow.com"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "Acme India Industries IPO Day 2: Subscribed 1.92x; retail demand jumps 55.6%",
+        "source": "scanx.trade"
+      },
+      {
+        "title": "Vishal Nirmiti IPO GMP, Grey Market Premium Today",
+        "source": "IPO Watch"
+      },
+      {
+        "title": "IPO GMP compared: Vishal Nirmiti vs Nityas Gems and Jewellery - Key dates, subscription status, listing price prediction",
+        "source": "Livemint"
+      },
+      {
+        "title": "Final touch underway for Jio Platforms IPO; latest GMP, expected launch date, size, valuation, shareholders quota",
+        "source": "Livemint"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session 2026-10-01)",
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
+  }
+}
