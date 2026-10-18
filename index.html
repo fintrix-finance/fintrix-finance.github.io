@@ -15,6 +15,10 @@
 <title>FINTRIX — Finnexus, The Commerce Club</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script>
+// Apply a saved theme before first paint so dark readers never see a light flash.
+try{ if(localStorage.getItem('fintrix-theme') === 'dark') document.documentElement.setAttribute('data-theme','dark'); }catch(e){}
+</script>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
@@ -359,6 +363,54 @@ h1,h2,h3,.display{ font-family:'Oswald',sans-serif; font-weight:700; letter-spac
   .cover-right{ padding-left:12px; }
   .inbrief-num{ font-size:22px; }
 }
+
+/* ---------- Night mode (flat: no blur, no soft shadows) ---------- */
+[data-theme="dark"]{
+  --paper:#211a12;
+  --brown:#e8dcc6;
+  --orange:#d9763d;
+  --green:#7fae56;
+  --ink:#f0e7d7;
+  --border:rgba(232,220,198,0.34);
+  --border-soft:rgba(232,220,198,0.16);
+  --cream:#2b2218;
+}
+[data-theme="dark"] body{ background-color:#150e07; }
+[data-theme="dark"] .leaf{ border-color:rgba(232,220,198,0.18); }
+[data-theme="dark"] .leaf.is-spread .page{ border-color:rgba(232,220,198,0.18); }
+[data-theme="dark"] .box-fill{ color:rgba(240,231,215,0.45); }
+[data-theme="dark"] .box-cta:hover{ background:rgba(232,220,198,0.08); }
+[data-theme="dark"] .box-cta:active{ background:rgba(232,220,198,0.14); }
+[data-theme="dark"] .qr-tag:hover{ background:rgba(232,220,198,0.08); }
+[data-theme="dark"] .cover-page .box{ background:rgba(255,255,255,0.05); box-shadow:none; }
+[data-theme="dark"] .cover-page .lead-box{ box-shadow:4px 4px 0 var(--orange); }
+[data-theme="dark"] .cover-page .story-cta-row{ background:rgba(232,220,198,0.10); }
+[data-theme="dark"] .story-cta-row .txt span{ color:rgba(240,231,215,0.7); }
+[data-theme="dark"] .scroll-cue{ background:rgba(43,34,24,0.94); }
+[data-theme="dark"] .placeholder-copy p,
+[data-theme="dark"] .author-card .role{ color:rgba(240,231,215,0.55); }
+[data-theme="dark"] .qrow .qn small,
+[data-theme="dark"] .dd-note{ color:rgba(240,231,215,0.6); }
+[data-theme="dark"] .snapshot-strip{ color:rgba(240,231,215,0.45); }
+[data-theme="dark"] .story-img.hero.fit-contain, [data-theme="dark"] .story-img.band.fit-contain{ background:radial-gradient(ellipse at 50% 45%, #3a2e20 0%, var(--cream) 70%); }
+[data-theme="dark"] .subscribe-box p{ color:rgba(33,26,18,0.75); }
+[data-theme="dark"] .subscribe-btn{ color:#f6efe2; }
+[data-theme="dark"] .archive-banner .ab-label{ color:var(--orange); }
+[data-theme="dark"] .capchart svg [fill="#4a2e1a"]{ fill:#e8dcc6; }
+[data-theme="dark"] .capchart svg [stroke="#4a2e1a"]{ stroke:#e8dcc6; }
+[data-theme="dark"] .caplegend span:first-child i{ background:#e8dcc6 !important; }
+
+/* ---------- Theme toggle ---------- */
+#themeToggle{ position:fixed; right:12px; bottom:12px; z-index:60; width:38px; height:38px; border-radius:50%; border:1px solid var(--border); background:var(--paper); color:var(--brown); display:flex; align-items:center; justify-content:center; padding:0; cursor:pointer; -webkit-tap-highlight-color:transparent; }
+#themeToggle svg{ width:17px; height:17px; display:block; }
+#themeToggle .icon-sun{ display:none; }
+[data-theme="dark"] #themeToggle .icon-moon{ display:none; }
+[data-theme="dark"] #themeToggle .icon-sun{ display:block; }
+
+/* ---------- Today in one line (cover strip) ---------- */
+.oneline-strip{ display:flex; align-items:baseline; gap:10px; border-top:1px solid var(--brown); border-bottom:1px solid var(--brown); padding:7px 2px; margin-bottom:12px; flex-shrink:0; }
+.oneline-label{ font-family:'Inter',sans-serif; font-weight:700; font-size:8.5px; letter-spacing:0.14em; text-transform:uppercase; color:var(--orange); white-space:nowrap; }
+.oneline-text{ font-family:'PT Serif',serif; font-size:11.5px; line-height:1.35; color:var(--ink); }
 </style>
 </head>
 <body>
@@ -369,6 +421,7 @@ h1,h2,h3,.display{ font-family:'Oswald',sans-serif; font-weight:700; letter-spac
   <span class="ab-date" id="archiveBannerDate"></span>
   <a class="ab-back" href="./">&larr; Today's issue</a>
 </div>
+  <button id="themeToggle" type="button" aria-label="Switch to dark mode" title="Dark mode"><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><line x1="12" y1="1.8" x2="12" y2="4.4"/><line x1="12" y1="19.6" x2="12" y2="22.2"/><line x1="1.8" y1="12" x2="4.4" y2="12"/><line x1="19.6" y1="12" x2="22.2" y2="12"/><line x1="4.8" y1="4.8" x2="6.6" y2="6.6"/><line x1="17.4" y1="17.4" x2="19.2" y2="19.2"/><line x1="4.8" y1="19.2" x2="6.6" y2="17.4"/><line x1="17.4" y1="6.6" x2="19.2" y2="4.8"/></svg></button>
   <div class="stage" id="stage"></div>
   <button class="edge-tap left" id="prevBtn" aria-label="Previous page"></button>
   <button class="edge-tap right" id="nextBtn" aria-label="Next page"></button>
@@ -388,6 +441,7 @@ const PAGES_HTML = [
     <div class="masthead">FINTRIX</div>
     <div class="cover-tagline">FINANCE &bull; BUSINESS &bull; MARKETS &bull; IDEAS</div>
   </div>
+  <div class="oneline-strip"><span class="oneline-label">Today in one line</span><span class="oneline-text" id="dyn-oneline">Sensex and Nifty steady as investors track global cues</span></div>
   <div class="cover-columns">
     <div class="cover-left">
       <div class="box lead-box">
@@ -944,6 +998,7 @@ function applyDynamic(d){
   dynText('dyn-cover-ib2', c.inbrief_2);
   dynText('dyn-cover-ib3', c.inbrief_3);
   dynText('dyn-cover-ib4', c.inbrief_4);
+  dynText('dyn-oneline', c.big_story_teaser);
 
   const mw = d.market_watch || {};
   dynText('dyn-mw-date', mw.date_label);
@@ -1283,6 +1338,26 @@ stage.addEventListener('click', e => {
     window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank', 'noopener');
   }
 });
+
+// ---------- Night mode toggle ----------
+// Remembers the reader's choice on their own device; default stays the
+// original paper look. Sits outside the stage so swipe and pinch are untouched.
+(function(){
+  const btn = document.getElementById('themeToggle');
+  if(!btn) return;
+  const setLabels = dark => {
+    btn.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+    btn.setAttribute('title', dark ? 'Light mode' : 'Dark mode');
+  };
+  setLabels(document.documentElement.getAttribute('data-theme') === 'dark');
+  btn.addEventListener('click', () => {
+    const dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    if(dark) document.documentElement.removeAttribute('data-theme');
+    else document.documentElement.setAttribute('data-theme', 'dark');
+    try{ localStorage.setItem('fintrix-theme', dark ? '' : 'dark'); }catch(e){}
+    setLabels(!dark);
+  });
+})();
 
 updateControls();
 </script>
