@@ -1,40 +1,40 @@
 {
-  "updated_ist": "2026-10-17",
+  "updated_ist": "2026-10-18",
   "cover": {
-    "big_story_teaser": "Jio Platforms sets ₹1,065-1,119 price band for India's largest ₹30,213 crore IPO.",
-    "venture_teaser": "RapidCanvas raises $29 million in Series B funding led by Vertex Ventures.",
+    "big_story_teaser": "Jio Platforms readies India's biggest IPO with a Rs 30,213 crore issue size.",
+    "venture_teaser": "Fitness brand Boldfit raises Rs 400 crore from Bharat Value Fund to expand.",
     "market_watch_teaser": "As of 2026-10-16 close: Nifty 50 23,146.15 ▲ 0.65%",
-    "daily_brief_teaser": "Fairfax plans IDBI financial hub, Nasdaq drops 2%, RBI approves RBL-Emirates NBD merger.",
-    "inbrief_2": "Fairfax plans hub around IDBI Bank",
-    "inbrief_3": "Nasdaq plunges as oil hits $100",
-    "inbrief_4": "RBI approves RBL Bank merger deal",
-    "inbrief_1": "US Trade Deal Push as Rubio Visits"
+    "daily_brief_teaser": "Top 10% income threshold analyzed; creative economy expands",
+    "inbrief_2": "Earn Rs 80,000",
+    "inbrief_3": "Art platforms",
+    "inbrief_4": "GDP projection",
+    "inbrief_1": "US Tariff Waiver For Bharat"
   },
   "big_story": {
-    "headline": "Jio Platforms Sets Mega IPO Price Band",
-    "subhead": "INDIA'S LARGEST IPO SETS ₹1,065-1,119 BAND TO RAISE UP TO ₹30,213 CRORE IN RECORD ISSUE",
+    "headline": "Jio Prepares for Mega Public Debut",
+    "subhead": "JIO SETS PRICE BAND AT RS 1,065-1,119 FOR INDIA'S LARGEST IPO OPENING OCTOBER 21",
     "paragraphs": [
-      "Reliance-backed Jio Platforms has officially unveiled a price band of ₹1,065 to ₹1,119 per share for its upcoming market debut. The offer aims to raise up to ₹30,213 crore, or roughly $3.2 billion, positioning it as India's largest ever initial public offering. Shares are already commanding over a 20% premium in the grey market, reflecting immense investor interest ahead of the formal opening. Global tech giants Meta and Google, who previously acquired strategic stakes in the firm, stand to see significant valuation gains.",
-      "The massive issuance highlights the expanding capital requirements and investor enthusiasm surrounding India's digital communications landscape. Market analysts point out that the benchmark valuation will reshape expectations across the telecom and technology sectors. Foreign and domestic institutional investors are preparing large allocations for the historic issue. The deal structure provides major liquidity for early strategic backers while offering public markets direct exposure to India's digital core.",
-      "As subscription dates approach, street observers expect strong participation across both institutional and retail tranches. The listing comes as broader domestic markets show appetite for primary offerings despite recent volatility in overseas equity indices. Tracking grey market trends and institutional bidding will provide crucial clues for listing-day performance. For primary market investors, the offer represents a landmark moment in Indian financial history."
+      "India's stock market is bracing for a landmark listing as Reliance-backed Jio Platforms sets its price band at ₹1,065–1,119 per share. The massive public offer represents a ₹30,213 crore issue size, making it one of the largest market debuts in Indian history. Unlisted shares are already showing strong interest ahead of the official opening date on October 21. Market observers are closely monitoring early demand as retail and institutional investors prepare their bids.",
+      "The upcoming public debut has sparked significant excitement across primary markets, with early backers like Meta and Google standing to see substantial potential gains. Shares worth up to ₹2,500 crore have also been reserved specifically for existing shareholders within the Reliance network. Furthermore, the grey market reflects solid demand, with shares commanding over a 20% premium ahead of the launch. The conservative pricing below earlier street estimates aims to leave upside potential for incoming market participants.",
+      "As the October 21 opening date approaches, market participants will watch subscription rates across institutional and retail categories. Analysts note that a successful listing of this scale could inject fresh momentum into the broader equity ecosystem. Existing investors will evaluate listing day gains alongside long-term strategic prospects in digital infrastructure. For Indian capital markets, this record offer serves as a major test of domestic liquidity and investor appetite."
     ],
-    "pullbox": "Jio Platforms sets a price band of ₹1,065-1,119 per share to raise up to ₹30,213 crore in India's largest IPO, drawing strong investor interest with over 20% grey market premium.",
+    "pullbox": "With a ₹30,213 crore issue size and a price band of ₹1,065–1,119, Jio Platforms is gearing up for India's largest public offer, signaling massive investor interest ahead of its October 21 opening.",
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/0/0e/Reliance_Industries.svg/330px-Reliance_Industries.svg.png",
-      "alt": "Reliance Industries"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Reliance_Jio_Logo.svg/960px-Reliance_Jio_Logo.svg.png",
+      "alt": "Jio Platforms"
     }
   },
   "explains": {
-    "title": "What is an Initial Public Offering?",
+    "title": "What is Grey Market Premium?",
     "paragraphs": [
-      "An Initial Public Offering, or IPO, is the process through which a private company sells its equity shares to the general public for the first time. This mechanism allows growing businesses to raise capital from institutional and retail investors to fund expansion or enable early backers to monetize their stakes.",
-      "In practice, the company determines a price band alongside investment bankers, allowing market participants to submit bids within that range. Once the subscription period closes, shares are allocated to successful bidders and listed on stock exchanges for regular trading."
+      "Grey Market Premium, or GMP, is the extra price at which an IPO share is traded over its official issue price in an informal market before listing. It reflects early unofficial demand, investor sentiment, and expected listing gains prior to the official trading debut.",
+      "While GMP provides a useful snapshot of market excitement, it operates outside formal exchange oversight and can fluctuate rapidly. Investors frequently analyze it alongside fundamental valuation metrics to gauge short-term sentiment."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Enterprise AI startup RapidCanvas has secured $29 million in a Series B funding round led by Vertex Ventures. The company focuses on delivering automated machine learning platforms that help enterprise teams build custom artificial intelligence models without complex coding.",
-      "The fresh injection of capital will be used to accelerate technology development and expand international operations. Investors continue to place strong bets on enterprise AI platforms that simplify data workflows and automate business intelligence."
+      "Indian fitness brand Boldfit has raised ₹400 crore in funding from Bharat Value Fund to expand its business operations. The company provides a wide range of fitness equipment, health supplements, and activewear across domestic markets. The new injection of capital will support product diversification and accelerate commercial expansion.",
+      "This funding round highlights growing investor interest in direct-to-consumer health and wellness platforms in India. The capital from Bharat Value Fund equips Boldfit with strategic resources to scale its supply chain and distribution network. As consumer wellness spending rises, the brand aims to solidify its presence in the competitive market."
     ]
   },
   "market_watch": {
@@ -121,19 +121,19 @@
     "global": [
       {
         "name": "Dollar Index",
-        "value": "101.78 ▼ 0.22%",
+        "value": "101.84 ▼ 0.16%",
         "dir": "down",
         "session_date": "2026-10-16"
       },
       {
         "name": "Brent Crude",
-        "value": "$109.69/bbl",
+        "value": "$109.86/bbl",
         "dir": "up",
         "session_date": "2026-10-16"
       },
       {
         "name": "Gold",
-        "value": "$4,187/oz",
+        "value": "$4,181/oz",
         "dir": "up",
         "session_date": "2026-10-16"
       },
@@ -161,15 +161,11 @@
     "ipo_desk": [
       {
         "name": "Tonbo Imaging India",
-        "note": "71% GMP with 7.78x subscription on Day 2"
+        "note": "GMP at 71% on Day 2 of subscription"
       },
       {
-        "name": "Bonfiglioli Transmissions",
-        "note": "Day 2 issue sees 24% grey market premium"
-      },
-      {
-        "name": "Shellz India",
-        "note": "Subscribed 0.89 times on Day 2 of issue"
+        "name": "Zetwerk",
+        "note": "GMP today with listing gain expectation"
       }
     ]
   },
@@ -178,42 +174,42 @@
       {
         "name": "Gold",
         "unit": "$/oz",
-        "price": "4,187",
-        "day": "▲ 0.40%",
-        "week": "▼ 0.70%",
+        "price": "4,181",
+        "day": "▲ 0.26%",
+        "week": "▼ 0.83%",
         "dir": "up",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,5.4 8.3,4.0 12.4,7.5 16.6,7.4 20.7,11.1 24.8,12.4 29.0,8.8 33.1,8.0 37.2,6.4 41.4,9.0 45.5,9.5 49.7,13.3 53.8,14.6 57.9,13.1 62.1,23.1 66.2,22.3 70.3,21.9 74.5,20.9 78.6,23.5 82.8,23.8 86.9,21.8 91.0,24.9 95.2,23.8 99.3,19.9 103.4,21.6 107.6,22.5 111.7,27.0 115.9,23.0 120.0,21.9\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"21.9\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,5.4 8.3,4.0 12.4,7.5 16.6,7.4 20.7,11.1 24.8,12.4 29.0,8.8 33.1,8.0 37.2,6.4 41.4,9.0 45.5,9.5 49.7,13.3 53.8,14.6 57.9,13.1 62.1,23.1 66.2,22.3 70.3,21.9 74.5,20.9 78.6,23.5 82.8,23.8 86.9,21.8 91.0,24.9 95.2,23.8 99.3,19.9 103.4,21.6 107.6,22.5 111.7,27.0 115.9,23.0 120.0,22.2\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"22.2\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
         "session_date": "2026-10-16"
       },
       {
         "name": "Silver",
         "unit": "$/oz",
-        "price": "57.13",
-        "day": "▲ 0.52%",
-        "week": "▼ 5.83%",
+        "price": "57.30",
+        "day": "▲ 0.82%",
+        "week": "▼ 5.55%",
         "dir": "up",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,6.7 4.1,6.2 8.3,3.0 12.4,10.1 16.6,9.6 20.7,11.6 24.8,12.1 29.0,10.1 33.1,7.8 37.2,5.7 41.4,7.1 45.5,6.9 49.7,9.9 53.8,11.7 57.9,10.2 62.1,16.0 66.2,17.1 70.3,18.2 74.5,17.0 78.6,18.4 82.8,16.7 86.9,16.1 91.0,18.6 95.2,20.2 99.3,17.1 103.4,18.1 107.6,20.0 111.7,27.0 115.9,24.5 120.0,23.9\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"23.9\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,6.7 4.1,6.2 8.3,3.0 12.4,10.1 16.6,9.6 20.7,11.6 24.8,12.1 29.0,10.1 33.1,7.8 37.2,5.7 41.4,7.1 45.5,6.9 49.7,9.9 53.8,11.7 57.9,10.2 62.1,16.0 66.2,17.1 70.3,18.2 74.5,17.0 78.6,18.4 82.8,16.7 86.9,16.1 91.0,18.6 95.2,20.2 99.3,17.1 103.4,18.1 107.6,20.0 111.7,27.0 115.9,24.5 120.0,23.6\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"23.6\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
         "session_date": "2026-10-16"
       },
       {
         "name": "Brent Crude",
         "unit": "$/bbl",
-        "price": "109.69",
-        "day": "▲ 3.56%",
-        "week": "▲ 4.75%",
+        "price": "109.86",
+        "day": "▲ 3.72%",
+        "week": "▲ 4.91%",
         "dir": "up",
         "dir_week": "up",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,27.0 4.1,24.1 8.3,18.2 12.4,6.7 16.6,12.1 20.7,10.2 24.8,4.7 29.0,9.9 33.1,11.7 37.2,13.4 41.4,19.7 45.5,21.7 49.7,14.8 53.8,8.5 57.9,12.6 62.1,10.9 66.2,15.7 70.3,14.0 74.5,16.2 78.6,16.3 82.8,19.8 86.9,19.3 91.0,20.0 95.2,12.7 99.3,11.9 103.4,8.4 107.6,10.2 111.7,9.5 115.9,9.7 120.0,3.0\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"3.0\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,27.0 4.1,24.1 8.3,18.3 12.4,6.9 16.6,12.3 20.7,10.4 24.8,5.0 29.0,10.1 33.1,11.9 37.2,13.6 41.4,19.8 45.5,21.8 49.7,15.0 53.8,8.8 57.9,12.8 62.1,11.1 66.2,15.8 70.3,14.2 74.5,16.3 78.6,16.4 82.8,19.9 86.9,19.4 91.0,20.1 95.2,12.9 99.3,12.1 103.4,8.7 107.6,10.4 111.7,9.7 115.9,10.0 120.0,3.0\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"3.0\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
         "session_date": "2026-10-16"
       },
       {
         "name": "WTI Crude",
         "unit": "$/bbl",
-        "price": "99.04",
-        "day": "▲ 1.09%",
-        "week": "▲ 7.83%",
+        "price": "99.02",
+        "day": "▲ 1.07%",
+        "week": "▲ 7.81%",
         "dir": "up",
         "dir_week": "up",
         "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,22.6 4.1,20.5 8.3,16.4 12.4,7.6 16.6,10.9 20.7,9.1 24.8,3.0 29.0,7.6 33.1,8.4 37.2,10.6 41.4,16.7 45.5,18.4 49.7,21.7 53.8,18.3 57.9,21.4 62.1,21.1 66.2,25.5 70.3,24.1 74.5,20.7 78.6,23.1 82.8,25.4 86.9,25.4 91.0,27.0 95.2,22.6 99.3,22.1 103.4,19.5 107.6,19.0 111.7,17.7 115.9,13.7 120.0,12.3\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"12.3\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
@@ -232,21 +228,21 @@
       },
       {
         "name": "Nexus Select REIT",
-        "price": "₹163.64",
-        "day": "▼ 0.12%",
-        "week": "▼ 0.72%",
-        "dir": "down",
+        "price": "₹163.79",
+        "day": "▲ 0.09%",
+        "week": "▼ 0.62%",
+        "dir": "up",
         "dir_week": "down",
-        "session_date": "2026-10-15"
+        "session_date": "2026-10-16"
       },
       {
         "name": "Mindspace REIT",
-        "price": "₹494.66",
-        "day": "▼ 0.07%",
-        "week": "▲ 0.75%",
+        "price": "₹493.46",
+        "day": "▼ 0.24%",
+        "week": "▼ 0.05%",
         "dir": "down",
-        "dir_week": "up",
-        "session_date": "2026-10-15"
+        "dir_week": "down",
+        "session_date": "2026-10-16"
       },
       {
         "name": "Brookfield REIT",
@@ -259,12 +255,12 @@
       },
       {
         "name": "PowerGrid InvIT",
-        "price": "₹103.70",
-        "day": "▼ 0.13%",
-        "week": "▲ 1.13%",
+        "price": "₹103.69",
+        "day": "▼ 0.01%",
+        "week": "▲ 0.85%",
         "dir": "down",
         "dir_week": "up",
-        "session_date": "2026-10-15"
+        "session_date": "2026-10-16"
       }
     ],
     "caps": [
@@ -349,96 +345,103 @@
       {
         "name": "Parag Parikh Flexi Cap",
         "cat": "Flexi cap",
-        "nav": "₹90.60",
-        "day": "▲ 1.39%",
-        "week": "▲ 3.36%",
+        "nav": "₹90.88",
+        "day": "▲ 0.31%",
+        "week": "▲ 2.20%",
         "dir": "up",
         "dir_week": "up",
-        "session_date": "2026-10-15"
+        "session_date": "2026-10-16"
       }
     ],
     "date_label": "OCT 2026",
     "close_label": "AS OF FRIDAY'S CLOSE, OCT 16",
     "session_date": "2026-10-16",
-    "nav_label": "NAVS AS OF OCT 15"
+    "nav_label": "NAVS AS OF OCT 16"
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "Banking | M&A",
-      "headline": "Fairfax Plans Financial Group Around IDBI Bank",
+      "kicker": "Income Threshold",
+      "headline": "Earn Rs 80,000 a month? You are in India's top 10%",
       "paragraphs": [
-        "Fairfax Financial Holdings is planning to build a large financial services group centered around IDBI Bank following a massive ₹52,878 crore deal. The acquisition signals deep long-term foreign interest in India's financial sector as economic momentum continues to build. Analysts view the deal as a major boost for the domestic banking landscape.",
-        "The strategic move is expected to strengthen balance sheets and enhance cross-selling opportunities across insurance and retail credit. Industry observers believe Fairfax's backing could accelerate IDBI Bank's growth trajectory in coming years."
+        "A monthly earning of Rs 80,000 places individuals directly into India's top 10 percent bracket. Understanding income distribution helps economists analyze consumer spending patterns and retail demand across urban centers.",
+        "As economic mobility shifts, financial planners closely monitor these thresholds to gauge wealth accumulation and the changing dynamics of India's tax-paying population."
       ],
       "image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Mumbai_Bandra-Worli_Sea_Link.jpg",
-        "alt": "Mumbai"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+        "alt": "Reserve Bank of India"
       }
     },
     "story_2": {
-      "kicker": "Global Markets | Tech Selloff",
-      "headline": "Nasdaq Plunges Over 2% as Oil Tops $100",
+      "image_query": "art exhibition gallery",
+      "kicker": "Creative Economy",
+      "headline": "How art platforms strengthen the creative economy",
       "paragraphs": [
-        "US equity markets finished sharply lower on Friday, driven by severe pressure on technology shares and surging global crude prices. The tech-heavy Nasdaq index dropped 2.15% to close at 26,140.03 as investors grew concerned about valuations in the AI sector. Meanwhile, Brent crude prices surged above $100 per barrel, sparking fresh inflation fears across global markets.",
-        "The S&P 500 also fell 1.09%, while the Dow Jones Industrial Average slid 0.34%. Rising energy costs and persistent uncertainty over interest rates continue to weigh heavily on investor sentiment."
+        "Art platforms, exhibitions, and awards play a vital role in strengthening the creative economy by providing artists with exposure and monetization opportunities.",
+        "These initiatives help bridge the gap between creators and institutional buyers, fostering sustainable growth within the cultural sector."
       ]
     },
     "story_3": {
-      "kicker": "Banking | Regulatory Approval",
-      "headline": "RBI Approves Emirates NBD Merger with RBL Bank",
+      "kicker": "Macroeconomics",
+      "headline": "Deloitte projects India's GDP growth",
       "paragraphs": [
-        "The Reserve Bank of India has approved the merger of Emirates NBD's Indian branch operations with RBL Bank, effective December 1. The strategic integration is set to expand RBL Bank's reach and institutional client network. Market participants view the regulatory clearance as a positive step for international trade finance capabilities."
+        "Deloitte has projected India's gross domestic product to grow between 7.1 percent and 7.3 percent in the fiscal year 2027. This outlook highlights strong domestic fundamentals amidst shifting global macroeconomic trends."
       ]
     },
     "also_today": {
       "items": [
-        "India notifies FTA duty cuts on New Zealand wine, honey, and kiwi fruit starting Oct 20.",
-        "Federal Bank Q2 net profit surges 45% to a record ₹1,386 crore on strong NII growth.",
-        "Urban Company Q2 net loss widens to ₹182.48 crore despite a 41.4% revenue increase.",
-        "SGB 2020-21 Series VII investors to net 192% gains on premature redemption on Oct 19."
+        "India's space economy is poised to reach USD 40 to 45 billion in seven to eight years.",
+        "US President studying impact of possible tariffs as Marco Rubio calls India an important ally.",
+        "India to host the WTTC Global Summit in New Delhi in the year 2027.",
+        "DIPAM Secretary notes many learnings for the government from the IDBI restructuring."
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India-US Trade | Diplomacy",
-    "headline": "Sitharaman Pushes For Early US Deal As Rubio Visits India",
+    "kicker": "India | Energy Security",
+    "headline": "US Eases Pressure on India With Russia Oil Sanctions Waiver",
     "paragraphs": [
-      "As US Secretary of State Marco Rubio arrived in India for his October visit, Finance Minister Nirmala Sitharaman stated that an early closure of the bilateral trade deal is essential for global trade stability. The high-level bilateral talks coincide with a White House report highlighting over $330 billion in investment into the US from Indian businesses. The diplomatic engagement underlines a strategic partnership that remains robust despite lingering trade friction.",
-      "Navigating energy realities and market access issues remains pivotal as both nations work toward finalizing the long-awaited trade pact. Sitharaman voiced hope for an early signing to establish regulatory certainty for cross-border investments. With capital flows expanding across multiple sectors, securing a formal deal is seen as crucial for cementing economic ties between New Delhi and Washington."
+      "The United States has waived some Russia oil sanctions, providing a major relief for India's exporters and energy security. Marco Rubio noted that US President is studying the impact of possible tariffs on countries, while experts view the sanction waiver as a crucial buffer. This diplomatic thaw highlights how strategic autonomy holds the line amidst shifting global trade pressures.",
+      "While the waiver eases immediate pressure, exporters and energy planners remain cautious as global oil prices and inflation concerns continue to fluctuate. Markets are closely watching how these shifting policies will impact broader trade dynamics and bilateral relations with Western partners."
     ],
     "world_60": [
-      "India notifies New Zealand FTA duty cuts on wine and kiwi fruit from Oct 20.",
-      "India targets $100 billion in bilateral trade with Russia by 2030.",
-      "China states readiness to address trade concerns flagged by FM Sitharaman.",
-      "India posts a $45.4 billion balance of payments surplus in August, RBI says.",
-      "RBI curbs help the rupee post its best weekly performance in seven months."
+      "India's space economy is poised to reach USD 40-45 billion in the next 7 to 8 years.",
+      "Marco Rubio calls India an important ally as the US studies potential trade tariffs.",
+      "India is set to host the WTTC Global Summit in New Delhi in the year 2027.",
+      "Economists celebrate India's robust post-Covid economic performance as a major milestone.",
+      "DIPAM Secretary highlights key learnings for the government from the IDBI restructuring."
     ],
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Official_portrait_of_Secretary_Marco_Rubio_%28cropped%29%282%29.jpg/3840px-Official_portrait_of_Secretary_Marco_Rubio_%28cropped%29%282%29.jpg",
-      "alt": "Marco Rubio"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
+      "alt": "New Delhi"
     }
   },
   "more": {
     "venture_vault": [
       {
-        "headline": "GreenCell Mobility Raises Rs 330 Crore From Impact Fund Denmark",
-        "text": "Electric bus operator GreenCell Mobility has successfully raised Rs 330 crore from Impact Fund Denmark to expand its fleet. This funding deal highlights the growing investor appetite for green infrastructure and sustainable public transport solutions in India.",
+        "headline": "Clueso Raises $10 Million to Expand AI Video Creation",
+        "text": "IIT Madras alumni-founded AI video creation startup Clueso raised $10 million in fresh funding. This capital injection highlights the growing global competitiveness of Indian deep-tech ventures in the generative artificial intelligence landscape.",
         "source": "Indian Startup News",
-        "published": "16 Oct 13:31 IST"
+        "published": "17 Oct 18:27 IST"
       },
       {
-        "headline": "CapGrid Secures ₹46.28 Crore in Pre-Series B Funding",
-        "text": "B2B procurement platform CapGrid raised ₹46.28 crore in a Pre-Series B round led by Hero Enterprise Partner Ventures. The capital infusion will fuel its supply chain technology expansion, highlighting vibrant venture capital investments in Indian industrial startups.",
-        "source": "Indian Startup Times",
-        "published": "16 Oct 20:02 IST"
+        "headline": "Tonbo Imaging India IPO Booked Nearly 8x on Day 2",
+        "text": "Tonbo Imaging India saw robust investor interest as its IPO was booked nearly 8x on Day 2 with a grey market premium at 72 percent. High demand for defense tech listings demonstrates strong domestic retail and institutional appetite for niche public offerings.",
+        "source": "Moneycontrol.com",
+        "published": "16 Oct 10:27 IST"
       }
     ],
     "geopolitics": [
       {
-        "headline": "India and Canada Aim to Strike a $50-Billion Trade Deal",
-        "text": "India and Canada are navigating a $50-billion question as they negotiate an ambitious bilateral trade agreement ahead of Prime Minister Narendra Modi's visit. A successful deal would significantly deepen economic ties and open new export avenues between the two nations.",
+        "headline": "Rubio’s Jamnagar Visit Tied to Reliance Texas Deal",
+        "text": "Marco Rubio’s visit to Jamnagar aims to seal Reliance’s USD 300-billion Texas refinery deal, boosting political fortunes in the US. This major energy diplomacy move deepens bilateral industrial ties between India and the United States.",
+        "source": "ANI News",
+        "published": "17 Oct 22:29 IST"
+      },
+      {
+        "headline": "India Notifies First Tariff Cuts Under New Zealand FTA",
+        "text": "India has officially notified its first tariff cuts under the New Zealand FTA, opening up new bilateral trade pathways. This agreement expands export opportunities for Indian businesses and strengthens economic cooperation in the Asia-Pacific region.",
         "source": "The Economic Times",
-        "published": "16 Oct 14:49 IST"
+        "published": "18 Oct 00:41 IST"
       }
     ]
   },
@@ -449,132 +452,108 @@
         "source": "BusinessLine"
       },
       {
+        "title": "India's stock market is preparing for one of its biggest IPOs, but there's an added opportunity for investors already connected to the Reliance empire. As Jio Platforms approaches its public market debut, shares worth up to Rs 2,500 crore have been reserved sp",
+        "source": "Instagram"
+      },
+      {
+        "title": "Jio Platforms IPO GMP Today: Grey Market Premium Rises to ₹225 Ahead of October 21 Opening",
+        "source": "India Infoline"
+      },
+      {
         "title": "Jio share commands over 20% premium in grey market",
         "source": "The New Indian Express"
       },
       {
         "title": "Reliance-backed Jio Platforms IPO: ₹1 lakh crore gains for Meta, Google in ₹30,213 cr issue by Mukesh Ambani firm?",
         "source": "IndiaIPO"
-      },
-      {
-        "title": "Meta- and Google-backed Jio sets IPO price range, aiming to raise up to $3.2 billion",
-        "source": "Quartz"
       }
     ],
     "venture_vault": [
       {
-        "title": "RapidCanvas raises $29 million in Series B round led by Vertex Ventures",
-        "source": "Indian Startup Times"
+        "title": "Fitness brand Boldfit raises Rs 400 crore in funding from Bharat Value Fund to expand its business",
+        "source": "Indian Startup News"
       }
     ],
     "daily_brief_1": [
       {
-        "title": "Fairfax’s ₹52,878 crore bank deal signals zest for India assets",
-        "source": "BusinessLine"
-      },
-      {
-        "title": "Fairfax Plans to Build a Financial Services Group Around IDBI Bank After ₹52,878 Crore Deal",
-        "source": "www.nationpathindia.com"
+        "title": "Earn Rs 80,000 a month? You are in India's top 10%",
+        "source": "India Today"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "US stocks: US market ends down sharply; worries about AI trade and high oil prices weigh",
-        "source": "The Economic Times"
-      },
-      {
-        "title": "Nasdaq Plunges Over 2% in a Day as Oil Prices Top $100",
-        "source": "BigGo Finance"
+        "title": "How art platforms, exhibitions and awards strengthen the creative economy",
+        "source": "YourStory.com"
       }
     ],
     "daily_brief_3": [
       {
-        "title": "RBI Approves Merger Of Emirates NBD’s India Branches With RBL Bank",
-        "source": "TradingView"
-      },
-      {
-        "title": "RBI approves Emirates NBD India branches merger with RBL Bank from December 1",
+        "title": "Deloitte projects India's GDP to grow 7.1-7.3% in FY27",
         "source": "BusinessLine"
       }
     ],
     "also_today": [
       {
-        "title": "SGB 2020-21 Series VII: Investors to pocket 192% gains on premature redemption; RBI fixes October 19 date",
-        "source": "Livemint"
+        "title": "India’s Space Economy Poised to Reach USD 40–45 Billion in 7–8 Years: Jitendra Singh",
+        "source": "DD News"
       },
       {
-        "title": "Urban Company Q2 net loss widens to ₹182.48 crore; revenue up 41.4%",
-        "source": "Business Standard"
-      },
-      {
-        "title": "Federal Bank net profit surges 45% to record ₹1,386 crore on higher NII",
-        "source": "Business Standard"
-      },
-      {
-        "title": "India notifies first New Zealand FTA duty cuts; wine, honey, kiwi fruit to get concessions from Oct 20",
+        "title": "'India an important ally': Marco Rubio says US President studying impact of possible tariffs on countries",
         "source": "The Economic Times"
+      },
+      {
+        "title": "India to host WTTC Global Summit in New Delhi in 2027",
+        "source": "Fast Company Middle East"
+      },
+      {
+        "title": "Many learnings for govt from IDBI restructuring: DIPAM Secretary",
+        "source": "The New Indian Express"
       }
     ],
     "geopolitics": [
       {
-        "title": "As Rubio Lands in India, the U.S.-India Relationship Is Stronger Than It Looks",
-        "source": "Carnegie Endowment for International Peace"
-      },
-      {
-        "title": "‘For global trade’s sake, hope our US deal is inked soon’: FM Nirmala Sitharaman",
-        "source": "The Economic Times"
-      },
-      {
-        "title": "Navigating Friction And Energy Realities: An Analysis Of Marco Rubio's October Visit To India",
-        "source": "NDTV Profit"
-      },
-      {
-        "title": "Nirmala Sitharaman hopes for an early closure of India-US trade deal",
+        "title": "Trump waives some Russia oil sanctions, easing pressure on India",
         "source": "Livemint"
       },
       {
-        "title": "White House lists investment over $330 billion in US from India",
+        "title": "US' Russia sanction waiver a relief for India's exporters, energy security: Experts",
         "source": "The Economic Times"
       }
     ],
     "world_60": [
       {
-        "title": "India notifies first New Zealand FTA duty cuts; wine, honey, kiwi fruit to get concessions from Oct 20",
+        "title": "India’s Space Economy Poised to Reach USD 40–45 Billion in 7–8 Years: Jitendra Singh",
+        "source": "DD News"
+      },
+      {
+        "title": "'India an important ally': Marco Rubio says US President studying impact of possible tariffs on countries",
         "source": "The Economic Times"
       },
       {
-        "title": "India to reach 100 billion dollar of bilateral trade with Russia by 2030: Ambassador Vinay Kumar",
-        "source": "The Economic Times"
+        "title": "India to host WTTC Global Summit in New Delhi in 2027",
+        "source": "Fast Company Middle East"
       },
       {
-        "title": "China says ready to address each other's concerns after Sitharaman flags trade barriers",
-        "source": "The Economic Times"
+        "title": "'Deserves Celebration': Economist On India's Post-Covid Economic Performance",
+        "source": "NDTV"
       },
       {
-        "title": "India’s balance of payments posts USD 45.4 billion surplus in August: RBI",
-        "source": "ChiniMandi"
-      },
-      {
-        "title": "RBI curbs help rupee post best week in seven months",
+        "title": "Many learnings for govt from IDBI restructuring: DIPAM Secretary",
         "source": "The New Indian Express"
       }
     ],
     "ipo_desk": [
       {
+        "title": "Tonbo Imaging India IPO Day 2: Subscription Status, Timeline & Key Issue Details",
+        "source": "Groww"
+      },
+      {
         "title": "Tonbo Imaging India IPO Day 2: GMP at 71%, issue subscribed 4x; Check key details",
         "source": "The Economic Times"
       },
       {
-        "title": "Tonbo Imaging India IPO Day 2 Subscription Status: 7.78x",
-        "source": "HDFC Sky"
-      },
-      {
-        "title": "Bonfiglioli Transmissions IPO Day 2: GMP at 24%; Check subscription status. Should you subscribe?",
-        "source": "The Economic Times"
-      },
-      {
-        "title": "Shellz India IPO Subscription Status Day 2: Issue Subscribed 0.89 Times",
-        "source": "HDFC Sky"
+        "title": "Zetwerk IPO GMP Today with Listing Gain Expectation",
+        "source": "IPO Watch"
       }
     ],
     "market_data": "Yahoo Finance (computed, session 2026-10-16)",
