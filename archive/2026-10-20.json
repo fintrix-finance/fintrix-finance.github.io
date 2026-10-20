@@ -1,0 +1,565 @@
+{
+  "updated_ist": "2026-10-20",
+  "cover": {
+    "big_story_teaser": "Jio Platforms IPO draws record anchor bids",
+    "venture_teaser": "Even Healthcare raises $50 million",
+    "market_watch_teaser": "As of 2026-10-19 close: Nifty 50 22,888.95 ▼ 1.11%",
+    "daily_brief_teaser": "Viral music economics and RBI corporate sector reports",
+    "inbrief_2": "Viral Music Math",
+    "inbrief_3": "Corporate Sector Report",
+    "inbrief_4": "Coma Patients Savings",
+    "inbrief_1": "US Close to India Trade Deal"
+  },
+  "big_story": {
+    "headline": "Jio's Record IPO Arrival",
+    "subhead": "GLOBAL GIANTS PILE INTO INDIA'S LARGEST SHARE OFFERING",
+    "paragraphs": [
+      "The massive public offering from India's telecom major has drawn overwhelming institutional interest as anchor bids top billions of dollars. Global investment heavyweights and domestic institutions have rushed to secure allocations ahead of the public debut. The historic scale of the issue underscores massive investor appetite for India's premier digital infrastructure plays.",
+      "The massive institutional demand reflects strong confidence in the company's subscriber dominance and future revenue streams across digital services. Global heavyheads including prominent asset managers and sovereign funds have locked in major commitments during the anchor round. This massive liquidity influx highlights the expanding depth of India's primary capital markets.",
+      "As retail and institutional investors prepare for the trading debut, market participants are watching valuation multiples and potential index rebalancing effects. Analysts are assessing whether the immense liquidity raised could propel parent entities toward new valuation milestones. Observers will monitor listing day performance to gauge broader market sentiment for mega-cap tech issues."
+    ],
+    "pullbox": "Jio Platforms' record anchor book underscores global capital confidence in India's digital giants.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/0/0e/Reliance_Industries.svg/330px-Reliance_Industries.svg.png",
+      "alt": "Reliance Industries"
+    }
+  },
+  "explains": {
+    "title": "What is an Anchor Investor?",
+    "paragraphs": [
+      "Anchor investors are institutional buyers who are invited to subscribe to shares in an initial public offering a day before the issue opens to the public. This mechanism helps instil confidence among retail investors by demonstrating institutional backing.",
+      "In major offerings, these institutional heavyweights bid substantial sums to secure guaranteed allocations, stabilizing the order book and signalling robust underlying demand to the wider market."
+    ]
+  },
+  "venture_vault": {
+    "paragraphs": [
+      "Even Healthcare has secured $50 million in a funding round led by Khosla Ventures to revolutionise healthcare delivery across India. The startup is tackling traditional hospital economics by challenging conventional care models and expanding patient access.",
+      "The prominent backing highlights growing venture capital interest in innovative healthcare solutions that alter how Indians experience medical services. Founders are using these capital injections to scale operations and challenge entrenched industry structures."
+    ]
+  },
+  "market_watch": {
+    "indian": [
+      {
+        "name": "Sensex",
+        "value": "73,852.90 ▼ 1.17%",
+        "dir": "down",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Nifty 50",
+        "value": "22,888.95 ▼ 1.11%",
+        "dir": "down",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Nifty Bank",
+        "value": "55,488.10 ▼ 0.64%",
+        "dir": "down",
+        "session_date": "2026-10-19"
+      }
+    ],
+    "asian": [
+      {
+        "name": "Nikkei 225",
+        "value": "64,075.42 ▼ 1.30%",
+        "dir": "down",
+        "session_date": "2026-10-20"
+      },
+      {
+        "name": "Hang Seng",
+        "value": "23,867.74 ▼ 1.32%",
+        "dir": "down",
+        "session_date": "2026-10-20"
+      },
+      {
+        "name": "Shanghai Comp.",
+        "value": "3,735.37 ▲ 0.12%",
+        "dir": "up",
+        "session_date": "2026-10-20"
+      }
+    ],
+    "european": [
+      {
+        "name": "FTSE 100",
+        "value": "10,764.70 ▼ 1.08%",
+        "dir": "down",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "DAX",
+        "value": "25,319.77 ▼ 1.18%",
+        "dir": "down",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "CAC 40",
+        "value": "7,868.05 ▼ 1.11%",
+        "dir": "down",
+        "session_date": "2026-10-19"
+      }
+    ],
+    "us": [
+      {
+        "name": "S&P 500",
+        "value": "7,690.73 ▲ 0.41%",
+        "dir": "up",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "26,430.89 ▲ 1.11%",
+        "dir": "up",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Dow Jones",
+        "value": "51,966.03 ▼ 0.07%",
+        "dir": "down",
+        "session_date": "2026-10-19"
+      }
+    ],
+    "global": [
+      {
+        "name": "Dollar Index",
+        "value": "101.98 ▲ 0.14%",
+        "dir": "up",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Brent Crude",
+        "value": "$109.55/bbl",
+        "dir": "down",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Gold",
+        "value": "$4,160/oz",
+        "dir": "down",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "US 10Y Yield",
+        "value": "5.14% ▲ 3.8 bp",
+        "dir": "up",
+        "session_date": "2026-10-19"
+      }
+    ],
+    "losers": [
+      "Axis Bank",
+      "Tata Motors PV",
+      "Infosys"
+    ],
+    "winners": [
+      "JSW Steel",
+      "ONGC",
+      "State Bank of India"
+    ],
+    "snapshot_strip": "PSU Banks led; FMCG and IT lagged as the Nifty fell 1.11%",
+    "date_label": "OCT 2026",
+    "close_label": "AS OF MONDAY'S CLOSE, OCT 19",
+    "session_date": "2026-10-19",
+    "ipo_desk": [
+      {
+        "name": "Jio Platforms",
+        "note": "₹8,110 cr anchor book ahead of IPO opening"
+      }
+    ]
+  },
+  "data_desk": {
+    "commodities": [
+      {
+        "name": "Gold",
+        "unit": "$/oz",
+        "price": "4,160",
+        "day": "▼ 0.50%",
+        "week": "▼ 0.73%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,4.5 4.1,3.0 8.3,6.6 12.4,6.5 16.6,10.4 20.7,11.7 24.8,8.0 29.0,7.1 33.1,5.4 37.2,8.2 41.4,8.7 45.5,12.7 49.7,14.1 53.8,12.5 57.9,22.9 62.1,22.1 66.2,21.6 70.3,20.6 74.5,23.3 78.6,23.7 82.8,21.6 86.9,24.8 91.0,23.7 95.2,19.6 99.3,21.4 103.4,22.3 107.6,27.0 111.7,22.8 115.9,22.0 120.0,23.4\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"23.4\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Silver",
+        "unit": "$/oz",
+        "price": "56.97",
+        "day": "▼ 0.04%",
+        "week": "▼ 5.27%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,6.2 4.1,3.0 8.3,10.1 12.4,9.6 16.6,11.6 20.7,12.1 24.8,10.1 29.0,7.8 33.1,5.7 37.2,7.1 41.4,6.9 45.5,9.9 49.7,11.7 53.8,10.2 57.9,16.0 62.1,17.1 66.2,18.2 70.3,17.0 74.5,18.4 78.6,16.7 82.8,16.1 86.9,18.6 91.0,20.2 95.2,17.1 99.3,18.1 103.4,20.0 107.6,27.0 111.7,24.5 115.9,24.2 120.0,24.2\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"24.2\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Brent Crude",
+        "unit": "$/bbl",
+        "price": "109.55",
+        "day": "▼ 0.28%",
+        "week": "▲ 2.72%",
+        "dir": "down",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,27.0 4.1,20.4 8.3,7.5 12.4,13.6 16.6,11.4 20.7,5.2 24.8,11.1 29.0,13.1 33.1,15.0 37.2,22.1 41.4,24.3 45.5,16.6 49.7,9.6 53.8,14.1 57.9,12.2 62.1,17.6 66.2,15.7 70.3,18.2 74.5,18.3 78.6,22.2 82.8,21.7 86.9,22.4 91.0,14.2 95.2,13.3 99.3,9.5 103.4,11.4 107.6,10.6 111.7,10.9 115.9,3.0 120.0,3.6\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"3.6\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "WTI Crude",
+        "unit": "$/bbl",
+        "price": "103.66",
+        "day": "▲ 2.22%",
+        "week": "▲ 10.58%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,20.5 4.1,16.4 8.3,7.6 12.4,10.9 16.6,9.1 20.7,3.0 24.8,7.6 29.0,8.4 33.1,10.6 37.2,16.7 41.4,18.4 45.5,21.7 49.7,18.3 53.8,21.4 57.9,21.1 62.1,25.5 66.2,24.1 70.3,20.7 74.5,23.1 78.6,25.4 82.8,25.4 86.9,27.0 91.0,22.6 95.2,22.1 99.3,19.5 103.4,19.0 107.6,17.7 111.7,13.7 115.9,9.0 120.0,6.0\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"6.0\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-19"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Embassy REIT",
+        "price": "₹435.93",
+        "day": "▲ 0.12%",
+        "week": "▲ 0.53%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Nexus Select REIT",
+        "price": "₹164.02",
+        "day": "▲ 0.14%",
+        "week": "▼ 0.43%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Mindspace REIT",
+        "price": "₹493.34",
+        "day": "▼ 0.02%",
+        "week": "▲ 0.14%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹318.20",
+        "day": "▼ 0.56%",
+        "week": "▼ 1.94%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹103.00",
+        "day": "▼ 0.67%",
+        "week": "▼ 0.34%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-19"
+      }
+    ],
+    "caps": [
+      {
+        "name": "Nifty 50",
+        "tag": "Large cap",
+        "level": "22,888.95",
+        "day": -1.11,
+        "week": 2.35,
+        "month": -1.64,
+        "day_txt": "▼ 1.11%",
+        "week_txt": "▲ 2.35%",
+        "month_txt": "▼ 1.64%",
+        "dir": "down",
+        "dir_week": "up",
+        "dir_month": "down",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Nifty Midcap 150",
+        "tag": "Mid cap",
+        "level": "21,499.30",
+        "day": -1.09,
+        "week": -0.56,
+        "month": -4.74,
+        "day_txt": "▼ 1.09%",
+        "week_txt": "▼ 0.56%",
+        "month_txt": "▼ 4.74%",
+        "dir": "down",
+        "dir_week": "down",
+        "dir_month": "down",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Nifty Smallcap 250",
+        "tag": "Small cap",
+        "level": "17,435.15",
+        "day": -1.15,
+        "week": -1.9,
+        "month": -3.19,
+        "day_txt": "▼ 1.15%",
+        "week_txt": "▼ 1.90%",
+        "month_txt": "▼ 3.19%",
+        "dir": "down",
+        "dir_week": "down",
+        "dir_month": "down",
+        "session_date": "2026-10-19"
+      }
+    ],
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"100.0\" width=\"22\" height=\"14.5\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"126.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.1</text><rect x=\"62.3\" y=\"69.3\" width=\"22\" height=\"30.7\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"64.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+2.4</text><rect x=\"90.3\" y=\"100.0\" width=\"22\" height=\"21.5\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"133.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.6</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"100.0\" width=\"22\" height=\"14.3\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"126.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.1</text><rect x=\"169.0\" y=\"100.0\" width=\"22\" height=\"7.3\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"119.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.6</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-4.7</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"100.0\" width=\"22\" height=\"15.0\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"127.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.1</text><rect x=\"275.7\" y=\"100.0\" width=\"22\" height=\"24.9\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"136.9\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.9</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"41.7\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"153.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.2</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "funds": [
+      {
+        "name": "ICICI Pru Large Cap",
+        "cat": "Large cap",
+        "nav": "₹113.48",
+        "day": "▼ 1.13%",
+        "week": "▲ 1.44%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "MO Midcap 150 Index",
+        "cat": "Mid cap",
+        "nav": "₹39.03",
+        "day": "▼ 1.09%",
+        "week": "▼ 0.56%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Nippon Small Cap",
+        "cat": "Small cap",
+        "nav": "₹200.02",
+        "day": "▼ 1.11%",
+        "week": "▼ 1.70%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Parag Parikh Flexi Cap",
+        "cat": "Flexi cap",
+        "nav": "₹90.35",
+        "day": "▼ 0.58%",
+        "week": "▲ 2.03%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-10-19"
+      }
+    ],
+    "date_label": "OCT 2026",
+    "close_label": "AS OF MONDAY'S CLOSE, OCT 19",
+    "session_date": "2026-10-19",
+    "nav_label": "NAVS AS OF OCT 19"
+  },
+  "daily_brief": {
+    "story_1": {
+      "kicker": "Culture & Media",
+      "headline": "Hit Songs, Empty Pockets: India's Viral Music Boom",
+      "paragraphs": [
+        "The explosive growth of India's viral music streaming landscape conceals a paradox for the artists behind the tracks. While digital consumption breaks records daily, the financial returns reaching creators often fail to reflect the massive scale of listenership. Behind the viral hits lies a complex web of platform economics that redefines how revenue flows through the creative sector.",
+        "Students and young analysts studying modern digital media markets must examine the underlying math of streaming revenue distribution. Understanding these hidden cost structures is essential for evaluating the long-term sustainability of India's digital entertainment economy."
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+        "alt": "Reserve Bank of India"
+      }
+    },
+    "story_2": {
+      "kicker": "Corporate Finance",
+      "headline": "RBI Releases Private Corporate Sector Performance Report",
+      "paragraphs": [
+        "The Reserve Bank of India has published its comprehensive report tracking the operational performance of the private corporate business sector during the 2025-26 fiscal period. The data provides critical insights into corporate earnings trajectories, margin pressures, and capital allocation trends across key industries.",
+        "Financial researchers and market observers utilize these central bank metrics to assess broad economic health and corporate resilience amid fluctuating macroeconomic conditions."
+      ]
+    },
+    "story_3": {
+      "kicker": "Banking Law",
+      "headline": "Allahabad High Court Seeks RBI Response on Coma Patient Savings",
+      "paragraphs": [
+        "The Allahabad High Court has sought responses from the Centre and the Reserve Bank of India regarding mechanisms for dependants to access bank savings held by coma patients. The legal scrutiny highlights critical operational gaps in banking procedures when families face extraordinary medical emergencies."
+      ]
+    },
+    "also_today": {
+      "items": [
+        "India Cements reports a 160 percent surge in net profit to ₹38.85 crore for the second quarter.",
+        "Sobha records a drop in quarterly profit as revenue contracts 31 percent in latest results.",
+        "Union Bank posts net profit of ₹5,500 crore alongside improving asset quality metrics.",
+        "Central Bank of India announces a 21 percent year-on-year rise in net profit to ₹1,469 crore."
+      ]
+    }
+  },
+  "geopolitics": {
+    "kicker": "India x US | Trade Deal",
+    "headline": "US Close to Trade Deal as Rubio Visits India",
+    "paragraphs": [
+      "Marco Rubio has kicked off his visit to India, confirming that the US and India are very close to finalising a trade deal amid easing tensions. His agenda prominently features discussions on bilateral trade alongside Russian oil purchases. A visit to the world's largest oil refinery tops his itinerary during the trip.",
+      "The prospective deal arrives at a critical junction as New Delhi balances strategic relations with Washington alongside its energy needs. For Indian businesses and exporters, a finalised trade pact could reduce commercial friction and expand bilateral market access. However, balancing foreign policy demands while securing stable energy supplies remains an crucial test for policymakers."
+    ],
+    "world_60": [
+      "India-New Zealand trade pact goes live as New Delhi eyes a $20 billion opportunity.",
+      "Oil reaches $110 a barrel while US Treasury yields post biggest weekly drop in six months.",
+      "Sensex and Nifty drop over 1% each as elevated oil prices and bank selling rattle markets.",
+      "Gold falls 0.3% as rising oil costs fuel global inflation concerns.",
+      "RBI steps up scrutiny on $1 billion-plus overseas investments to support the rupee."
+    ],
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Official_portrait_of_Secretary_Marco_Rubio_%28cropped%29%282%29.jpg/3840px-Official_portrait_of_Secretary_Marco_Rubio_%28cropped%29%282%29.jpg",
+      "alt": "Marco Rubio"
+    }
+  },
+  "more": {
+    "venture_vault": [
+      {
+        "headline": "The Pant Project Raises Rs 109 Crore in Series B",
+        "text": "Premium menswear brand The Pant Project raised Rs 109 crore in Series B funding to expand its retail presence across India. The fresh capital will help the startup grow its physical store network and product portfolio. This investment demonstrates continued consumer brand growth within the Indian retail startup ecosystem.",
+        "source": "Indian Startup Times",
+        "published": "19 Oct 18:42 IST"
+      },
+      {
+        "headline": "India Auto Tech Startups Raise $1.3 Billion in 2026",
+        "text": "Indian auto tech startups have raised $1.3 billion in 2026 so far, marking a decline from the $2.1 billion raised during the same period in 2025. This funding shift points to changing investor sentiments within the country's electric vehicle and automotive technology sectors. The adjustment highlights a maturing market focusing on sustainable business models.",
+        "source": "CNBC TV18",
+        "published": "19 Oct 16:25 IST"
+      }
+    ],
+    "geopolitics": [
+      {
+        "headline": "India-New Zealand Trade Deal Kicks In",
+        "text": "The India-New Zealand trade deal has officially kicked in, outlining which sectors stand to gain the most from bilateral commerce. Under the agreement, tariffs on Indian exports will be eliminated, boosting international trade competitiveness. This pact opens up lucrative export opportunities for Indian businesses looking to expand globally.",
+        "source": "NDTV",
+        "published": "20 Oct 12:05 IST"
+      },
+      {
+        "headline": "Chennai Flags Off ₹63.78-Lakh Gems Shipment",
+        "text": "Following the implementation of the India-New Zealand FTA, Chennai flagged off a ₹63.78-lakh gems and gold jewellery shipment. This milestone event marks the immediate beginning of trade benefits for domestic exporters under the new pact. Such early shipments reinforce India's export capabilities in precious goods.",
+        "source": "ETV Bharat",
+        "published": "20 Oct 13:25 IST"
+      }
+    ]
+  },
+  "sources": {
+    "big_story": [
+      {
+        "title": "Jio Platforms IPO to Open on October 21, 2026: Check Price Band, Issue Size and Key Details",
+        "source": "Groww"
+      },
+      {
+        "title": "BlackRock, GIC among investors chasing Indian telecom major Jio's IPO as anchor bids top $26 billion",
+        "source": "CNBC"
+      },
+      {
+        "title": "Jio Platforms IPO Anchor Book Draws Record Rs 2.5 Lakh Cr Bids",
+        "source": "Rediff MoneyWiz"
+      },
+      {
+        "title": "Jio Platforms' IPO has witnessed strong institutional interest, with its anchor investor book subscribed more than 30 times ahead of the public offering. Global investment firms including BlackRock, GIC and Norges Bank, alongside domestic heavyweight SBI Mu",
+        "source": "Instagram"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "Even Healthcare raises $50 million to revolutionise healthcare in India",
+        "source": "Startupbusiness.it"
+      },
+      {
+        "title": "Even Healthcare raises $50 mn in funding led by Khosla Ventures",
+        "source": "Moneycontrol.com"
+      },
+      {
+        "title": "Khosla Ventures doubles down on Even Healthcare to challenge India’s hospital economics",
+        "source": "TechCrunch"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "Hit Songs, Empty Pockets: The Hidden Math Behind India's Viral Music Boom",
+        "source": "NDTV"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "RBI releases report on Performance of Private Corporate Business Sector during 2025-26",
+        "source": "News On AIR"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "How Can Dependants Access Bank Savings Of Coma Patients? Allahabad High Court Seeks Centre, RBI Response...",
+        "source": "Live Law"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "India Cements Q2FY27 results: Net profit up 160% YoY to ₹38.85 crore",
+        "source": "scanx.trade"
+      },
+      {
+        "title": "Sobha Q2 Results: Profit nearly halves to ₹33 crore, revenue drops 31%",
+        "source": "IndiaIPO"
+      },
+      {
+        "title": "Union Bank Reports Q2 Net Profit Of ₹5,500 Crore As Asset Quality Improves",
+        "source": "Sahi"
+      },
+      {
+        "title": "Central Bank of India Q2FY27 Results: Net profit up 21% YoY to ₹1,469 crore",
+        "source": "scanx.trade"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "Rubio kicks off India visit with trade deal, Russian oil on agenda",
+        "source": "Reuters"
+      },
+      {
+        "title": "Very close to finalising trade deal with India: Marco Rubio",
+        "source": "The Hitavada"
+      },
+      {
+        "title": "US ‘very close’ to finalising trade deal with India, says Marco Rubio",
+        "source": "The New Indian Express"
+      },
+      {
+        "title": "Marco Rubio visits India this week, with a trip to the world's largest oil refinery topping the agenda",
+        "source": "DW.com"
+      },
+      {
+        "title": "Rubio says US and India are ‘very close’ to finalizing trade deal amid easing tensions",
+        "source": "The American Bazaar"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "India eyes a $20 billion pot of gold in New Zealand as its trade pact goes live",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "Oil Pushes to $110 a Barrel While Treasury Yields Post Biggest Weekly Drop in Six Months — What Is the Bond Market Betting On?",
+        "source": "BigGo Finance"
+      },
+      {
+        "title": "Sensex, Nifty fall over 1% each as selling in private banks and elevated oil prices rattle markets",
+        "source": "The New Indian Express"
+      },
+      {
+        "title": "Gold falls 0.3% amid rising oil prices — Asharq Al-Awsat",
+        "source": "UA.NEWS"
+      },
+      {
+        "title": "RBI tightens scrutiny of $1 billion-plus overseas investments amid rupee pressure",
+        "source": "The Economic Times"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "Jio Platforms raises ₹8,110 crore from 212 anchor investors ahead IPO; LIC, New World Fund among top investors",
+        "source": "IndiaIPO"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session 2026-10-19)",
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
+  }
+}
