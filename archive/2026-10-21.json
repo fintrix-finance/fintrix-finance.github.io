@@ -1,0 +1,586 @@
+{
+  "updated_ist": "2026-10-21",
+  "cover": {
+    "big_story_teaser": "Jio Platforms IPO opens as markets track massive inflows.",
+    "venture_teaser": "Even Healthcare secures funding to scale hospital economics.",
+    "market_watch_teaser": "LIVE AS OF 9:59 AM IST: Nifty 50 23,024.65 ▲ 0.59%",
+    "daily_brief_teaser": "IMF lifts India's growth forecast and Bernstein cuts Nifty target",
+    "inbrief_2": "Nifty PE valuation debate",
+    "inbrief_3": "Global market sentiment",
+    "inbrief_4": "Konark Urban Co-op Bank",
+    "inbrief_1": "India-US Trade Pact"
+  },
+  "big_story": {
+    "headline": "Jio IPO Opens",
+    "subhead": "INDIA'S LARGEST PUBLIC ISSUE KICKS OFF AS MARKETS WATCH CLOSELY.",
+    "paragraphs": [
+      "The massive public offering from Jio Platforms has officially opened for subscription today, drawing immense attention from retail and institutional investors alike. Led by Akash Ambani, this mega issue stands as India's largest public offering to date. Market participants are closely monitoring the grey market signals and price band details as trading kicks off.",
+      "The timing of this mammoth share sale coincides with a dynamic market environment where broader indices like the Sensex and Nifty are seeing positive intraday moves. Analysts have shared bullish outlooks on the pricing and anchor investor participation. The capital raised is set to fuel future growth and technological expansion across the digital ecosystem.",
+      "As subscription windows remain open, investors are weighing valuations, brokerage views, and potential listing gains. The success of this issue could set a strong precedent for upcoming public offerings in the domestic market. Observers will be tracking subscription numbers closely over the coming days."
+    ],
+    "pullbox": "The massive Jio Platforms public issue marks a historic milestone for Indian capital markets as retail and institutional investors line up for subscription.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Reliance_Jio_Logo.svg/960px-Reliance_Jio_Logo.svg.png",
+      "alt": "Jio"
+    }
+  },
+  "explains": {
+    "title": "What is an Initial Public Offering?",
+    "paragraphs": [
+      "An Initial Public Offering, or IPO, is the process by which a private company offers its shares to the public for the first time. By transitioning to a publicly traded entity, companies can raise substantial capital from external investors.",
+      "In practice, investment bankers help determine the price band and manage the allocation of shares. Once listed on major stock exchanges, the shares can be freely bought and sold by retail and institutional participants."
+    ]
+  },
+  "venture_vault": {
+    "paragraphs": [
+      "Even Healthcare has secured $50 million in fresh funding to revolutionize hospital economics and healthcare delivery in India. The funding round was led by prominent backer Khosla Ventures, who is doubling down on the venture.",
+      "The founders are utilizing the capital to challenge traditional hospital models and expand medical services. This substantial backing highlights growing investor confidence in innovative healthcare startups targeting systemic changes."
+    ]
+  },
+  "market_watch": {
+    "indian": [
+      {
+        "name": "Sensex",
+        "value": "74,604.82 ▲ 1.02%",
+        "dir": "up",
+        "live": true
+      },
+      {
+        "name": "Nifty 50",
+        "value": "23,024.65 ▲ 0.59%",
+        "dir": "up",
+        "live": true
+      },
+      {
+        "name": "Nifty Bank",
+        "value": "55,570.15 ▲ 0.15%",
+        "dir": "up",
+        "live": true
+      }
+    ],
+    "asian": [
+      {
+        "name": "Nikkei 225",
+        "value": "64,075.42 ▼ 1.30%",
+        "dir": "down",
+        "session_date": "2026-10-20"
+      },
+      {
+        "name": "Hang Seng",
+        "value": "23,867.74 ▼ 1.32%",
+        "dir": "down",
+        "session_date": "2026-10-20"
+      },
+      {
+        "name": "Shanghai Comp.",
+        "value": "3,735.37 ▲ 0.12%",
+        "dir": "up",
+        "session_date": "2026-10-20"
+      }
+    ],
+    "european": [
+      {
+        "name": "FTSE 100",
+        "value": "10,733.00 ▼ 0.29%",
+        "dir": "down",
+        "session_date": "2026-10-20"
+      },
+      {
+        "name": "DAX",
+        "value": "25,304.42 ▼ 0.06%",
+        "dir": "down",
+        "session_date": "2026-10-20"
+      },
+      {
+        "name": "CAC 40",
+        "value": "7,838.49 ▼ 0.38%",
+        "dir": "down",
+        "session_date": "2026-10-20"
+      }
+    ],
+    "us": [
+      {
+        "name": "S&P 500",
+        "value": "7,712.57 ▲ 0.28%",
+        "dir": "up",
+        "session_date": "2026-10-20"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "26,424.82 ▼ 0.02%",
+        "dir": "down",
+        "session_date": "2026-10-20"
+      },
+      {
+        "name": "Dow Jones",
+        "value": "52,495.88 ▲ 1.02%",
+        "dir": "up",
+        "session_date": "2026-10-20"
+      }
+    ],
+    "global": [
+      {
+        "name": "Dollar Index",
+        "value": "101.73 ▼ 0.25%",
+        "dir": "down",
+        "session_date": "2026-10-20"
+      },
+      {
+        "name": "Brent Crude",
+        "value": "$108.79/bbl",
+        "dir": "down",
+        "session_date": "2026-10-20"
+      },
+      {
+        "name": "Gold",
+        "value": "$4,143/oz",
+        "dir": "down",
+        "session_date": "2026-10-20"
+      },
+      {
+        "name": "US 10Y Yield",
+        "value": "5.12% ▼ 1.9 bp",
+        "dir": "down",
+        "session_date": "2026-10-20"
+      }
+    ],
+    "losers": [
+      "Axis Bank",
+      "Tata Motors PV",
+      "Infosys"
+    ],
+    "winners": [
+      "JSW Steel",
+      "ONGC",
+      "State Bank of India"
+    ],
+    "snapshot_strip": "PSU Banks led; FMCG and IT lagged as the Nifty rose 0.59%",
+    "date_label": "OCT 2026",
+    "close_label": "LIVE AS OF 9:59 AM IST",
+    "live": true,
+    "session_date": "2026-10-21",
+    "ipo_desk": [
+      {
+        "name": "Jio Platforms",
+        "note": "₹30,213 crore issue opens today"
+      },
+      {
+        "name": "Paras Healthcare",
+        "note": "₹652.5 crore anchor round"
+      }
+    ]
+  },
+  "data_desk": {
+    "commodities": [
+      {
+        "name": "Gold",
+        "unit": "$/oz",
+        "price": "4,143",
+        "day": "▼ 0.42%",
+        "week": "▼ 0.83%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,6.6 8.3,6.5 12.4,10.4 16.6,11.7 20.7,8.0 24.8,7.1 29.0,5.4 33.1,8.2 37.2,8.7 41.4,12.7 45.5,14.1 49.7,12.5 53.8,22.9 57.9,22.1 62.1,21.6 66.2,20.6 70.3,23.3 74.5,23.7 78.6,21.6 82.8,24.8 86.9,23.7 91.0,19.6 95.2,21.4 99.3,22.3 103.4,27.0 107.6,22.8 111.7,22.0 115.9,23.4 120.0,24.6\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"24.6\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-20"
+      },
+      {
+        "name": "Silver",
+        "unit": "$/oz",
+        "price": "57.71",
+        "day": "▲ 1.28%",
+        "week": "▼ 2.46%",
+        "dir": "up",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,10.1 8.3,9.6 12.4,11.6 16.6,12.1 20.7,10.1 24.8,7.8 29.0,5.7 33.1,7.1 37.2,6.9 41.4,9.9 45.5,11.7 49.7,10.2 53.8,16.0 57.9,17.1 62.1,18.2 66.2,17.0 70.3,18.4 74.5,16.7 78.6,16.1 82.8,18.6 86.9,20.2 91.0,17.1 95.2,18.1 99.3,20.0 103.4,27.0 107.6,24.5 111.7,24.2 115.9,24.2 120.0,22.8\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"22.8\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-20"
+      },
+      {
+        "name": "Brent Crude",
+        "unit": "$/bbl",
+        "price": "108.79",
+        "day": "▼ 0.69%",
+        "week": "▲ 2.93%",
+        "dir": "down",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,22.6 4.1,8.0 8.3,14.9 12.4,12.5 16.6,5.5 20.7,12.1 24.8,14.4 29.0,16.5 33.1,24.5 37.2,27.0 41.4,18.3 45.5,10.4 49.7,15.5 53.8,13.4 57.9,19.4 62.1,17.3 66.2,20.1 70.3,20.2 74.5,24.6 78.6,24.0 82.8,24.9 86.9,15.6 91.0,14.6 95.2,10.3 99.3,12.4 103.4,11.6 107.6,11.9 111.7,3.0 115.9,3.7 120.0,5.4\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"5.4\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-20"
+      },
+      {
+        "name": "WTI Crude",
+        "unit": "$/bbl",
+        "price": "101.79",
+        "day": "▼ 1.80%",
+        "week": "▲ 8.13%",
+        "dir": "down",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,16.4 4.1,7.6 8.3,10.9 12.4,9.1 16.6,3.0 20.7,7.6 24.8,8.4 29.0,10.6 33.1,16.7 37.2,18.4 41.4,21.7 45.5,18.3 49.7,21.4 53.8,21.1 57.9,25.5 62.1,24.1 66.2,20.7 70.3,23.1 74.5,25.4 78.6,25.4 82.8,27.0 86.9,22.6 91.0,22.1 95.2,19.5 99.3,19.0 103.4,17.7 107.6,13.7 111.7,9.0 115.9,6.0 120.0,8.5\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"8.5\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-20"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Embassy REIT",
+        "price": "₹435.93",
+        "day": "▲ 0.12%",
+        "week": "▲ 0.53%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Nexus Select REIT",
+        "price": "₹164.02",
+        "day": "▲ 0.14%",
+        "week": "▼ 0.43%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Mindspace REIT",
+        "price": "₹493.34",
+        "day": "▼ 0.02%",
+        "week": "▲ 0.14%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹318.20",
+        "day": "▼ 0.56%",
+        "week": "▼ 1.94%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹103.00",
+        "day": "▼ 0.67%",
+        "week": "▼ 0.34%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-19"
+      }
+    ],
+    "caps": [
+      {
+        "name": "Nifty 50",
+        "tag": "Large cap",
+        "level": "22,888.95",
+        "day": -1.11,
+        "week": 2.35,
+        "month": -1.64,
+        "day_txt": "▼ 1.11%",
+        "week_txt": "▲ 2.35%",
+        "month_txt": "▼ 1.64%",
+        "dir": "down",
+        "dir_week": "up",
+        "dir_month": "down",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Nifty Midcap 150",
+        "tag": "Mid cap",
+        "level": "21,499.30",
+        "day": -1.09,
+        "week": -0.56,
+        "month": -4.74,
+        "day_txt": "▼ 1.09%",
+        "week_txt": "▼ 0.56%",
+        "month_txt": "▼ 4.74%",
+        "dir": "down",
+        "dir_week": "down",
+        "dir_month": "down",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Nifty Smallcap 250",
+        "tag": "Small cap",
+        "level": "17,435.15",
+        "day": -1.15,
+        "week": -1.9,
+        "month": -3.19,
+        "day_txt": "▼ 1.15%",
+        "week_txt": "▼ 1.90%",
+        "month_txt": "▼ 3.19%",
+        "dir": "down",
+        "dir_week": "down",
+        "dir_month": "down",
+        "session_date": "2026-10-19"
+      }
+    ],
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"100.0\" width=\"22\" height=\"14.5\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"126.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.1</text><rect x=\"62.3\" y=\"69.3\" width=\"22\" height=\"30.7\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"64.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+2.4</text><rect x=\"90.3\" y=\"100.0\" width=\"22\" height=\"21.5\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"133.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.6</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"100.0\" width=\"22\" height=\"14.3\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"126.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.1</text><rect x=\"169.0\" y=\"100.0\" width=\"22\" height=\"7.3\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"119.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.6</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-4.7</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"100.0\" width=\"22\" height=\"15.0\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"127.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.1</text><rect x=\"275.7\" y=\"100.0\" width=\"22\" height=\"24.9\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"136.9\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.9</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"41.7\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"153.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.2</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "funds": [
+      {
+        "name": "ICICI Pru Large Cap",
+        "cat": "Large cap",
+        "nav": "₹113.48",
+        "day": "▼ 1.13%",
+        "week": "▲ 1.44%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "MO Midcap 150 Index",
+        "cat": "Mid cap",
+        "nav": "₹39.03",
+        "day": "▼ 1.09%",
+        "week": "▼ 0.56%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Nippon Small Cap",
+        "cat": "Small cap",
+        "nav": "₹200.02",
+        "day": "▼ 1.11%",
+        "week": "▼ 1.70%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-19"
+      },
+      {
+        "name": "Parag Parikh Flexi Cap",
+        "cat": "Flexi cap",
+        "nav": "₹90.35",
+        "day": "▼ 0.58%",
+        "week": "▲ 2.03%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-10-19"
+      }
+    ],
+    "date_label": "OCT 2026",
+    "close_label": "CLOSE OF OCT 19",
+    "session_date": "2026-10-19",
+    "nav_label": "NAVS AS OF OCT 19"
+  },
+  "daily_brief": {
+    "story_1": {
+      "kicker": "Valuation Watch",
+      "headline": "Nifty TTM PE: Is it really ~19 OR 24 at 23000?",
+      "paragraphs": [
+        "As the Nifty 50 trades around the 23,000 level, analysts are engaged in a fierce debate regarding the true price-to-earnings ratio of the index. Questions center on whether the trailing twelve months valuation sits comfortably around 19 or stretches closer to 24.",
+        "Understanding this valuation metric is vital for investors trying to gauge whether the broader market is overvalued or reasonably priced. With earnings concerns weighing on sentiment, figuring out the correct baseline helps clarify future return expectations."
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+        "alt": "Reserve Bank of India"
+      }
+    },
+    "story_2": {
+      "kicker": "Global Cues",
+      "headline": "Asian and Western Markets Diverge on Regional Data",
+      "paragraphs": [
+        "Global stock markets presented a mixed picture as regional investors digested a wave of international economic data and commodity price shifts. While domestic indices in India pushed higher, several major Asian counterparts faced downward pressure during early trading sessions.",
+        "Market participants continue to monitor US futures alongside crude oil fluctuations and geopolitical tensions. These cross-border factors remain critical drivers of sentiment for portfolios exposed to international equities."
+      ]
+    },
+    "story_3": {
+      "kicker": "Banking Regulation",
+      "headline": "RBI Extends Restrictions on Konark Urban Co-op Bank",
+      "paragraphs": [
+        "The Reserve Bank of India has officially announced the extension of regulatory restrictions on Konark Urban Co-op Bank. The move highlights ongoing supervisory scrutiny within the cooperative banking sector to protect depositors and maintain financial stability."
+      ]
+    },
+    "also_today": {
+      "items": [
+        "IMF raises India's growth forecast to 7 percent for 2026, keeping it among the fastest-growing economies",
+        "Bernstein cuts Nifty target to 25,000, citing limited upside amid prevailing corporate earnings concerns",
+        "India aims to increase the size of its domestic space economy by fivefold over the next eight years",
+        "Technical analysis highlights key trading units for the Nippon India Nifty Pharma ETF on the BSE"
+      ]
+    }
+  },
+  "geopolitics": {
+    "kicker": "India | US Trade",
+    "headline": "India-US Trade Pact Nears Finish Line",
+    "paragraphs": [
+      "US officials including Marco Rubio and Ambassador Sergio Gor report that an India-US trade deal is very close, with a vast majority of the work already completed following high-level meetings with EAM Jaishankar. The upcoming agreement aims to drastically boost bilateral commerce, with Washington eyeing a massive target of $500 billion in trade within three years while simultaneously pushing energy sales to help India navigate global supply constraints.",
+      "Donald Trump signals that the upcoming pact will differ significantly from past frameworks as negotiations enter their final weeks. While energy security and investment links deepen between New Delhi and Washington, markets will watch closely to see how the final terms address tariff structures, bilateral market access, and energy procurement amid ongoing regional tensions."
+    ],
+    "world_60": [
+      "Brent crude tops $110 as Middle East tensions and Red Sea shipping risks threaten vital supplies.",
+      "Gold dips below $4,150 for the fourth session as an oil rally fans persistent inflation concerns.",
+      "IMF raises India’s GDP growth forecast to 7% for 2026, keeping it among major economies.",
+      "India and New Zealand officially bring their new free trade agreement into effect.",
+      "Apple India revenue crosses ₹1 Lakh Crore with annual profits jumping 66 percent."
+    ],
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Official_portrait_of_Secretary_Marco_Rubio_%28cropped%29%282%29.jpg/3840px-Official_portrait_of_Secretary_Marco_Rubio_%28cropped%29%282%29.jpg",
+      "alt": "Marco Rubio"
+    }
+  },
+  "more": {
+    "big_story": [
+      {
+        "headline": "Sun Pharma to Raise Rs 10,000 Crore for Organon Deal",
+        "text": "Sun Pharma announced plans to raise Rs 10,000 crore to part-finance its acquisition of Organon. This major transaction highlights the aggressive expansion strategies of leading Indian pharmaceutical giants. For India, such outbound healthcare investments reinforce the country's growing dominance in the global pharmaceutical landscape.",
+        "source": "The Economic Times",
+        "published": "21 Oct 06:46 IST"
+      },
+      {
+        "headline": "Rahul Agarwal Secures Rs 3.3 Crore Shark Tank USA Deal",
+        "text": "Indian-origin inventor Rahul Agarwal secured a Rs 3.3 crore deal on Shark Tank USA for his reimagined spoons. The successful pitch highlights the global potential of Indian product design and entrepreneurial talent. This international validation inspires domestic creators aiming to scale innovative consumer goods worldwide.",
+        "source": "Livemint",
+        "published": "21 Oct 09:11 IST"
+      }
+    ],
+    "venture_vault": [
+      {
+        "headline": "The Pant Project Secures Rs 109 Crore in Series B Funding",
+        "text": "Premium menswear brand The Pant Project raised Rs 109 crore in Series B funding to expand its retail presence across India. The capital injection will help the direct-to-consumer label scale its offline footprint and operations. This funding underscores strong investor appetite for specialized retail brands in the Indian market.",
+        "source": "Indian Startup Times",
+        "published": "19 Oct 18:42 IST"
+      },
+      {
+        "headline": "HD Fire Protect Shares List With 21 Oct Market Debut",
+        "text": "HD Fire Protect shares are set to list today, with the grey market signaling strong 26% listing gains. Investors closely monitor the debut as a gauge of current market appetite for small and mid-cap initial public offerings. Successful listings boost overall retail participation in the Indian primary market.",
+        "source": "The Economic Times",
+        "published": "21 Oct 09:11 IST"
+      }
+    ]
+  },
+  "sources": {
+    "big_story": [
+      {
+        "title": "Akash Ambani Leads Push for India’s Biggest IPO as Jio Opens ₹30,213 Crore Issue",
+        "source": "India Business Trade"
+      },
+      {
+        "title": "Jio Platforms IPO to Open on October 21, 2026: Check Price Band, Issue Size and Key Details",
+        "source": "Groww"
+      },
+      {
+        "title": "Jio IPO, India’s largest public issue, opens for subscription: Price band, GMP to brokerage views - top 1",
+        "source": "The Times of India"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "Even Healthcare raises $50 million to revolutionise healthcare in India",
+        "source": "Startupbusiness.it"
+      },
+      {
+        "title": "Khosla Ventures doubles down on Even Healthcare to challenge India’s hospital economics",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Even Healthcare raises $50 mn in funding led by Khosla Ventures",
+        "source": "Moneycontrol.com"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "Nifty TTM PE: Is it really ~19 OR 24 at 23000?",
+        "source": "Investing.com India"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "Stock market outlook today, 21 Oct: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+        "source": "Livemint"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "RBI extends Restrictions on Konark Urban Co-op Bank",
+        "source": "Indian Cooperative"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "India aims to increase size of its space economy fivefold in eight years",
+        "source": "TV BRICS"
+      },
+      {
+        "title": "Technical Analysis of Nippon India Nifty Pharma ETF Units Exchange Traded Fund (BSE:PHARMABEES)",
+        "source": "TradingView"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "India, U.S. trade deal to be much different: Donald Trump",
+        "source": "The Hindu"
+      },
+      {
+        "title": "India-US trade deal ‘pretty close’, Trump says; will be very different from earlier pacts",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "US targets $500 bn bilateral trade with India in three years, says Ambassador Sergio Gor",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "India, US weeks away from finalising trade deal, 99% of the work is done: Marco Rubio | Full interview",
+        "source": "The Indian Express"
+      },
+      {
+        "title": "Rubio Pushes US Energy Sales to India, Says Trade Deal Is Close During India Visit",
+        "source": "TheWire.in"
+      },
+      {
+        "title": "‘Very, very close’: Marco Rubio on India-US trade deal after meeting with EAM Jaishankar | India News",
+        "source": "Hindustan Times"
+      },
+      {
+        "title": "Rubio visits India seeking relief from global energy crunch",
+        "source": "The Washington Post"
+      },
+      {
+        "title": "Rubio and India's foreign minister hold talks in Mumbai as both sides aim to finalize a trade deal",
+        "source": "ABC News - Breaking News, Latest News and Videos"
+      },
+      {
+        "title": "India-US Close To A Trade Deal As Rubio Visit Focuses On Deeper Energy And Investment Links",
+        "source": "ETV Bharat"
+      },
+      {
+        "title": "Rubio says India-US trade deal is ‘very, very close’ after Jaishankar meeting",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "US targets $500bn bilateral trade with India in three years: Ambassador Sergio Gor at Freedom 250",
+        "source": "The Economic Times"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "IMF raises India’s growth forecast to 7% for 2026, keeps it among fastest-growing major economies",
+        "source": "DD News"
+      },
+      {
+        "title": "Apple India Revenue Crosses ₹1 Lakh Crore, Profit Jumps 66%",
+        "source": "Sarkaritel.com"
+      },
+      {
+        "title": "India-New Zealand FTA comes into effect, aims to boost exports and investment",
+        "source": "ET Government"
+      },
+      {
+        "title": "Oil prices today: Brent crude tops $110 as Middle East tensions threaten shipments",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Gold dips for fourth session as oil rally fans inflation concerns",
+        "source": "Reuters"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "Jio Platforms IPO to Open on October 21, 2026: Check Price Band, Issue Size and Key Details",
+        "source": "Groww"
+      },
+      {
+        "title": "Paras Healthcare Raises ₹652.5 Crore From Anchor Investors Ahead of IPO",
+        "source": "India Business Trade"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session 2026-10-21)",
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
+  }
+}
