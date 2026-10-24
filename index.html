@@ -138,6 +138,7 @@ h1,h2,h3,.display{ font-family:'Oswald',sans-serif; font-weight:700; letter-spac
 .inbrief-arrow{ font-weight:600; font-size:9px; color:var(--orange); }
 .explains-box{ background:var(--brown); color:var(--cream); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; padding:14px; text-align:center; min-height:90px; flex:1; cursor:pointer; transition:filter 0.15s; position:relative; z-index:25; }
 .explains-box:hover{ filter:brightness(1.15); }
+.funzone-pill{ flex:0 0 auto; min-height:0; padding:10px 14px; flex-direction:row; gap:8px; align-items:center; }
 .explains-box .bulb{ font-size:18px; }
 .explains-box .label{ font-weight:700; font-size:10px; letter-spacing:0.08em; }
 .story-cta-row{ display:flex; align-items:center; justify-content:space-between; gap:12px; background:var(--cream); border:1px solid var(--border); padding:10px 14px; flex-shrink:0; }
@@ -474,6 +475,7 @@ const PAGES_HTML = [
         </div>
       </div>
       <div class="explains-box" onclick="jumpToPage(7)"><span class="bulb">&#128161;</span><span class="label">Finnexus Explains</span><span class="explains-go">&rarr; Page 8</span></div>
+      <div class="explains-box funzone-pill" onclick="location.href='fun.html'"><span class="bulb">&#127918;</span><span class="label">Fun Zone</span><span class="explains-go">Beat the Market &rarr;</span></div>
     </div>
   </div>
   <div class="swipe-hint" id="swipeHint"><span class="chev left">&#8249;</span><span>SWIPE TO TURN PAGES</span><span class="chev right">&#8250;</span></div>
@@ -755,6 +757,7 @@ const PAGES_HTML = [
     <p>New issue every market day - commodities, funds and the stories behind the numbers. Enter your email and confirm it to get an alert when the next FINTRIX issue is ready.</p>
     <a class="subscribe-btn" id="subscribeBtn" href="${SUBSCRIBE_URL}" target="_blank" rel="noopener">Subscribe</a>
   </div>
+  <p class="archive-note">Feeling lucky? <a href="fun.html">Beat the Market in the Fun Zone &rarr;</a></p>
   <p class="archive-note">Missed a day? <a href="archive.html">Browse past issues &rarr;</a></p>
 </div>
 <div class="page-footer">FINNEXUS &mdash; THE COMMERCE CLUB</div>
