@@ -290,6 +290,29 @@ h1,h2,h3,.display{ font-family:'Oswald',sans-serif; font-weight:700; letter-spac
 .split-page .block.right{ text-align:right; }
 .split-page .block.right .body-copy{ text-align:right; }
 
+/* ---------- Case Studies page ---------- */
+.cases-page{ justify-content:flex-start; }
+.cs-kicker{ font-size:10px; letter-spacing:0.3em; text-transform:uppercase; color:var(--orange); font-weight:600; text-align:center; }
+.cs-title{ font-family:'Oswald',sans-serif; font-size:clamp(26px,6vw,34px); text-transform:uppercase; text-align:center; margin:4px 0 2px; color:var(--ink); }
+.cs-sub{ text-align:center; font-family:'PT Serif',serif; font-style:italic; font-size:12.5px; opacity:0.75; margin:0 0 14px; }
+.cs-case{ border:1px solid var(--border-soft); background:var(--cream); padding:14px 13px 12px; margin-bottom:12px; text-align:left; }
+.cs-sec{ font-size:9.5px; letter-spacing:0.26em; text-transform:uppercase; color:var(--orange); font-weight:700; }
+.cs-co{ font-family:'Oswald',sans-serif; font-size:24px; text-transform:uppercase; line-height:1.1; margin:4px 0 2px; color:var(--ink); }
+.cs-meta{ font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; font-weight:600; opacity:0.7; margin-bottom:8px; }
+.cs-tag{ display:inline-block; font-size:8.5px; letter-spacing:0.08em; text-transform:uppercase; font-weight:700; padding:2px 7px; border-radius:2px; margin-bottom:8px; }
+.cs-tag-proven{ color:var(--green); border:1px solid var(--green); }
+.cs-tag-alleged{ color:#b3402a; border:1px solid #b3402a; }
+[data-theme="dark"] .cs-tag-alleged{ color:#d9763d; border-color:#d9763d; }
+.cs-field{ margin-bottom:9px; }
+.cs-flabel{ display:block; font-size:9px; letter-spacing:0.12em; text-transform:uppercase; color:var(--orange); font-weight:700; margin-bottom:2px; }
+.cs-field p{ font-family:'PT Serif',serif; font-size:13px; line-height:1.5; }
+.cs-take{ border-left:3px solid var(--green); background:rgba(76,122,46,0.10); font-family:'PT Serif',serif; font-style:italic; font-size:12px; line-height:1.45; padding:7px 10px; margin:10px 0 8px; }
+[data-theme="dark"] .cs-take{ background:rgba(127,174,86,0.10); }
+.cs-srcs{ font-size:9.5px; line-height:1.5; opacity:0.8; }
+.cs-srcs a{ color:var(--brown); text-decoration:underline; text-underline-offset:2px; }
+.cs-next{ text-align:center; font-size:11px; font-weight:600; letter-spacing:0.04em; color:var(--orange); border:1px dashed var(--orange); padding:7px 9px; margin:2px 0 8px; }
+.cs-fine{ text-align:center; font-size:9px; opacity:0.65; margin-top:2px; }
+
 /* ---------- Credits ---------- */
 .credits-title{ text-align:center; margin: 10px 0 18px; flex-shrink:0; }
 .credits-title h1{ font-size:clamp(26px,5.6vw,34px); }
@@ -445,6 +468,134 @@ h1,h2,h3,.display{ font-family:'Oswald',sans-serif; font-weight:700; letter-spac
 <script>
 // Subscribe destination - swap this one URL to move the subscribe button anywhere.
 const SUBSCRIBE_URL = "https://2772fa5b.sibforms.com/serve/MUIFAFJGCJyD3Ztw9I_L5l3cB_FIx3XKdMuHD6pXQ_RlGniMulaG-QteiR9gdcnFrBWA3KMpD6550Qbfpwc81obpMELa1soXFIk2FKP4Akz6AMEcfgc5Wbr_fKHGuiSChF5HipkELSCwONOi1NbTwJT_84GkydFcDVg0Xk3oEWWIEdWCIttVS4jhVPU1ff9QlYlyaI7kHh5ru1-YKg==";
+
+// ---------- Case Studies page: one reviewed marketing + fraud pair, rotating ----------
+// Launch anchor (IST): the date the first pair went live. A fresh pair every two
+// IST calendar days. Only Mahleen-reviewed cases go in this list, in pair order.
+const CS_ANCHOR = '2026-10-25';
+const CS_CASES = [
+  {
+    section: 'Against the Playbook', tag: null, co: 'Amul', meta: 'India · running since 1966',
+    fields: [
+      { label: 'The move', text: 'In 1966 Amul dropped the routine, corporate ads of the day and put a hand-drawn girl in a polka-dot dress on Mumbai hoardings, cracking jokes about the week\u2019s news. The topical hoardings are still running, nearly 60 years on.' },
+      { label: 'Why it broke convention', text: 'Big brands planned polished campaigns months in advance and paid for celebrity faces. The hoardings went the other way: no stars in them, quick and cheap to make, and a new one out while the news was still fresh. Speed and wit over polish and spend.' },
+      { label: 'What happened', text: 'Amul\u2019s own telling: butter sales grew from about 1,000 tonnes a year in 1966 to over 25,000 tonnes by 1997, and the campaign is often cited as the world\u2019s longest-running. The hoardings did not do that alone, but they made a commodity butter a household name people feel fondly about.' },
+    ],
+    take: 'Takeaway: relevance can beat budget. A brand that reacts to today\u2019s news stays in the conversation for free.',
+    srcs: [
+      { name: 'Amul\u2019s official campaign history', url: 'https://www.amul.com/index.php?q=m%2Famul-topical-story' },
+      { name: 'Business Standard', url: 'https://www.business-standard.com/article/companies/utterly-butterly-even-at-50-112060600019_1.html' },
+    ],
+  },
+  {
+    section: 'Anatomy of a Fraud', tag: { text: 'Proven in court', kind: 'proven' }, co: 'Satyam Computers', meta: 'India · confessed 2009',
+    fields: [
+      { label: 'The claim', text: 'India\u2019s fourth-largest IT company, celebrated for its corporate governance, with over a billion dollars in cash on its books.' },
+      { label: 'How it worked', text: 'From chairman B. Ramalinga Raju\u2019s own confession letter: \u20B95,040 crore of cash and bank balances that did not exist, \u20B9376 crore of fake accrued interest, liabilities understated by \u20B91,230 crore and debtors overstated by \u20B9490 crore. Those gaps add up to about \u20B97,136 crore; press reports on the CBI case put the overall fraud at roughly \u20B97,800 crore.' },
+      { label: 'How it unravelled', text: 'After shareholders revolted against his plan to buy two family-owned firms, Raju wrote to the board on 7 January 2009 and confessed. His line: "It was like riding a tiger, not knowing how to get off without being eaten."' },
+      { label: 'Where it stands', text: 'In April 2015 a special CBI court convicted Raju and nine others; he got seven years\u2019 rigorous imprisonment and a \u20B95.5 crore fine. The convicts appealed, and the appeals are still moving: in August 2025 the High Court sent them to the Hyderabad sessions court, holding that is the court that must hear them. Tech Mahindra bought the company in 2009 and later merged it in.' },
+    ],
+    take: null,
+    srcs: [
+      { name: 'Raju\u2019s confession letter (SEC filing)', url: 'https://www.sec.gov/Archives/edgar/data/1106056/000114554909000025/u00107exv99w2.htm' },
+      { name: 'The Indian Express', url: 'https://indianexpress.com/article/business/business-others/satyam-scam-all-10-accused-including-founder-b-ramalinga-raju-found-guilty/' },
+      { name: 'Appeal status (One Law Street)', url: 'https://onelawstreet.com/satyam-scam-high-court-returns-appeal-to-sessions-court-holding-it-was-wrong-to-not-assume-jurisdiction/' },
+    ],
+  },
+  {
+    section: 'Against the Playbook', tag: null, co: 'Dollar Shave Club', meta: 'USA · 2012 launch',
+    fields: [
+      { label: 'The move', text: 'In March 2012, founder Michael Dubin launched with a 90-second video he wrote and starred in, shot in his own warehouse for about $4,500. Deadpan jokes, a forklift, a machete. Gillette was running glossy ads with Roger Federer; Dubin ran a skit.' },
+      { label: 'Why it broke convention', text: 'Razor marketing meant sports stars, lab coats and "shaving technology". DSC said the quiet part out loud: blades cost too much and buying them is annoying, so it sold a $1-a-month subscription with a joke instead of a celebrity.' },
+      { label: 'What happened', text: 'The site crashed from traffic and sold out its inventory within six hours, Dubin told Fortune. Revenue went from $4 million in 2012 to $65 million in 2014, and Unilever bought the company in 2016 for a reported $1 billion.' },
+    ],
+    take: 'Takeaway: a sharp voice can do what a giant budget does, if the joke lands on a real complaint.',
+    srcs: [
+      { name: 'Fortune interview with the founder', url: 'https://fortune.com/2015/03/10/dollar-shave-club-founding/' },
+      { name: 'Inc.', url: 'https://www.inc.com/magazine/201707/lindsay-blakely/how-i-did-it-michael-dubin-dollar-shave-club.html' },
+    ],
+  },
+  {
+    section: 'Anatomy of a Fraud', tag: { text: 'Proven in court', kind: 'proven' }, co: 'Theranos', meta: 'USA · collapsed 2018',
+    fields: [
+      { label: 'The claim', text: 'Hundreds of blood tests from a single finger prick, run on a small machine called Edison. Founder Elizabeth Holmes raised hundreds of millions of dollars and the company was once valued at $9 billion.' },
+      { label: 'How it worked', text: 'The Edison never worked as claimed. Theranos secretly ran many patient tests on modified third-party machines and diluted samples, while investors and partners were shown polished demos.' },
+      { label: 'How it unravelled', text: 'Wall Street Journal reporting in October 2015, followed by regulator findings. Theranos voided two years of test results and shut down in September 2018.' },
+      { label: 'Where it stands', text: 'A jury convicted Holmes in January 2022 on four counts of defrauding investors (she was acquitted on the patient-related counts) and she was sentenced to 11 years and 3 months. Balwani was convicted on 12 counts and sentenced to just under 13 years. In February 2025 a US appeals court upheld the convictions, the sentences and a $452 million restitution order; both are serving their sentences.' },
+    ],
+    take: null,
+    srcs: [
+      { name: 'US Dept. of Justice: Holmes', url: 'https://www.justice.gov/usao-ndca/pr/elizabeth-holmes-sentenced-more-11-years-defrauding-theranos-investors-hundreds' },
+      { name: 'US Dept. of Justice: Balwani', url: 'https://www.justice.gov/usao-ndca/pr/theranos-president-sentenced-more-12-years-fraud-jeopardized-patient-health-and-bilked' },
+      { name: 'Appeal decision, Feb 2025 (Reuters)', url: 'https://www.reuters.com/legal/us-court-upholds-theranos-founder-elizabeth-holmes-conviction-2025-02-24/' },
+    ],
+  },
+  {
+    section: 'Against the Playbook', tag: null, co: 'Liquid Death', meta: 'USA · founded 2017',
+    fields: [
+      { label: 'The move', text: 'It sells plain water in tallboy cans that look like beer, under heavy-metal artwork and the tagline "Murder Your Thirst". The whole water aisle said purity, mountains and yoga. Liquid Death said energy-drink chaos, minus the energy drink.' },
+      { label: 'Why it broke convention', text: 'Healthy products were marketed with calm, clean imagery. Liquid Death marketed water the way beer and energy drinks are marketed, aiming at concerts and festivals where the "fun" brands owned the cooler.' },
+      { label: 'What happened', text: 'The company reported $263 million in retail sales in 2023, triple-digit growth for a third straight year, and a $1.4 billion valuation in a March 2024 funding round. Sales figures are company-reported, so treat them as its own scorecard.' },
+    ],
+    take: 'Takeaway: you are often selling the attitude, not the product. Packaging can be the entire ad.',
+    srcs: [
+      { name: 'Company announcement (Business Wire)', url: 'https://www.businesswire.com/news/home/20240310837019/en/Liquid-Death-closes-%2467-million-in-strategic-financing-including-top-distributors-at-%241.4-billion-valuation' },
+      { name: 'The Guardian', url: 'https://www.theguardian.com/business/article/2024/may/28/liquid-death-the-viral-canned-water-brand-killing-it-with-gen-z' },
+    ],
+  },
+  {
+    section: 'Anatomy of a Fraud', tag: { text: 'Alleged, in court', kind: 'alleged' }, co: 'Nirav Modi / PNB', meta: 'India · surfaced 2018',
+    fields: [
+      { label: 'The accusation', text: 'Investigators say companies linked to jeweller Nirav Modi and his uncle Mehul Choksi used fraudulent bank guarantees (letters of undertaking) at Punjab National Bank to obtain about $2 billion, with the help of bank insiders.' },
+      { label: 'What has actually happened', text: 'Nirav Modi was arrested in London in 2019 and an Indian court has declared him a fugitive economic offender. As of September 2026 he is still in a UK prison contesting extradition to India.' },
+      { label: 'Why it is tagged "alleged"', text: 'He has not been convicted of the fraud. Until a court rules, every figure here is the investigators\u2019 version, not proven fact. This is what the tag is for.' },
+    ],
+    take: null,
+    srcs: [
+      { name: 'Hindustan Times, Sep 2026', url: 'https://www.hindustantimes.com/world-news/nirav-modi-fugitive-diamantaire-loses-legal-battle-as-uk-court-clears-sale-of-london-luxury-flat-101790773893539.html' },
+    ],
+  },
+];
+
+function csDayNum(y, m, d){ return Math.floor(Date.UTC(y, m, d) / 86400000); }
+function csIstDayNum(){
+  const n = new Date();
+  const ist = new Date(n.getTime() + (330 + n.getTimezoneOffset()) * 60000);
+  return csDayNum(ist.getFullYear(), ist.getMonth(), ist.getDate());
+}
+function csFmtDay(dayNumber){ return new Date(dayNumber * 86400000).toLocaleDateString('en-IN', { weekday:'short', day:'numeric', month:'short', timeZone:'UTC' }); }
+function csCaseHTML(c, num){
+  let h = '<div class="cs-case">'
+    + '<div class="cs-sec">' + c.section + '</div>'
+    + '<h2 class="cs-co">' + c.co + '</h2>'
+    + '<div class="cs-meta">Case No. ' + num + ' &middot; ' + c.meta + '</div>'
+    + (c.tag ? '<div><span class="cs-tag cs-tag-' + c.tag.kind + '">' + c.tag.text + '</span></div>' : '');
+  for(const f of c.fields){
+    h += '<div class="cs-field"><span class="cs-flabel">' + f.label + '</span><p>' + f.text + '</p></div>';
+  }
+  if(c.take){ h += '<p class="cs-take"><b>' + c.take.split(':')[0] + ':</b>' + c.take.slice(c.take.indexOf(':') + 1) + '</p>'; }
+  h += '<p class="cs-srcs">Sources: ' + c.srcs.map(s => '<a href="' + s.url + '" target="_blank" rel="noopener">' + s.name + '</a>').join(' &middot; ') + '</p></div>';
+  return h;
+}
+function renderCasesPage(){
+  const a = CS_ANCHOR.split('-').map(Number);
+  const anchorDay = csDayNum(a[0], a[1] - 1, a[2]);
+  const pairCount = Math.ceil(CS_CASES.length / 2);
+  const currentPair = Math.min(Math.floor(Math.max(0, csIstDayNum() - anchorDay) / 2), pairCount - 1);
+  const hasNextPair = (currentPair + 1) < pairCount;
+  let h = '<div class="cs-kicker">The FINTRIX casebook</div>'
+    + '<h1 class="cs-title">Case Studies</h1>'
+    + '<p class="cs-sub">One marketing move and one fraud, analysed properly - a fresh pair every two days.</p>'
+    + csCaseHTML(CS_CASES[currentPair * 2], currentPair * 2 + 1)
+    + csCaseHTML(CS_CASES[currentPair * 2 + 1], currentPair * 2 + 2);
+  if(hasNextPair){
+    h += '<div class="cs-next">Next pair <b>' + csFmtDay(anchorDay + (currentPair + 1) * 2) + '</b> &mdash; one marketing case, one fraud</div>';
+  } else {
+    h += '<div class="cs-next">The next pair is being researched and reviewed &mdash; check back soon</div>';
+  }
+  h += '<p class="cs-fine">Real cases, real sources. For learning - not investment advice.</p>';
+  return h;
+}
 
 const PAGES_HTML = [
 
@@ -759,10 +910,19 @@ const PAGES_HTML = [
 <div class="page-footer">FINNEXUS &mdash; THE COMMERCE CLUB</div>
 `,
 
-// PAGE 9 — FUN ZONE
+// PAGE 9 — CASE STUDIES
+`
+<div class="page-inner cases-page">
+  <div class="page-header"><span class="brand">FINTRIX</span><span class="section-name">Case Studies</span><span class="page-num">Page 9</span></div>
+  ${renderCasesPage()}
+</div>
+<div class="page-footer">FINNEXUS &mdash; THE COMMERCE CLUB</div>
+`,
+
+// PAGE 10 — FUN ZONE
 `
 <div class="page-inner funzone-page">
-  <div class="page-header"><span class="brand">FINTRIX</span><span class="section-name">Fun Zone</span><span class="page-num">Page 9</span></div>
+  <div class="page-header"><span class="brand">FINTRIX</span><span class="section-name">Fun Zone</span><span class="page-num">Page 10</span></div>
   <div class="fz-kicker">The FINTRIX Fun Zone</div>
   <h1 class="fz-title">Beat the Market</h1>
   <div class="fz-chart" aria-hidden="true"><svg viewBox="0 0 300 95"><line x1="0" y1="84" x2="300" y2="84" stroke="var(--brown)" stroke-width="1" stroke-dasharray="4 4" opacity="0.5"/><polyline points="0,72 28,58 52,66 82,42 108,52 138,34 164,44 192,24 216,36 242,16" fill="none" stroke="var(--orange)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="256" y="34" font-family="Oswald,sans-serif" font-size="30" font-weight="700" fill="var(--brown)">?</text></svg></div>
@@ -776,25 +936,6 @@ const PAGES_HTML = [
   </div>
   <a class="fz-play" href="fun.html">Play now</a>
   <p class="fz-fine">Five quick rounds. Real stocks, real history. Just for fun - not investment advice.</p>
-</div>
-<div class="page-footer">FINNEXUS &mdash; THE COMMERCE CLUB</div>
-`,
-
-// PAGE 10 — CASE STUDIES
-`
-<div class="page-inner funzone-page">
-  <div class="page-header"><span class="brand">FINTRIX</span><span class="section-name">Case Studies</span><span class="page-num">Page 10</span></div>
-  <div class="fz-kicker">The FINTRIX casebook</div>
-  <h1 class="fz-title">Case Studies</h1>
-  <div class="body-copy fz-copy">
-    <p>One case, analysed properly, every two days. Marketing masterstrokes and infamous frauds, in turns.</p>
-  </div>
-  <div class="fz-rules">
-    <div class="fz-rule"><span class="fz-num">01</span><span>Against the Playbook &mdash; marketing that broke the rules</span></div>
-    <div class="fz-rule"><span class="fz-num">02</span><span>Anatomy of a Fraud &mdash; how famous frauds worked</span></div>
-  </div>
-  <a class="fz-play" href="cases.html">Read now</a>
-  <p class="fz-fine">A new case every two days. Real events, real sources. For learning - not investment advice.</p>
 </div>
 <div class="page-footer">FINNEXUS &mdash; THE COMMERCE CLUB</div>
 `,
