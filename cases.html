@@ -82,6 +82,8 @@ body{
 .archive-note a{ color:inherit; }
 
 .foot{ text-align:center; font-size:10px; line-height:1.6; opacity:0.75; margin-top:16px; padding-top:10px; border-top:1px solid var(--hair); }
+.pair{ display:grid; grid-template-columns:1fr; gap:16px; }
+@media (min-width:920px){ .wrap{ max-width:1060px; } .pair{ grid-template-columns:1fr 1fr; align-items:start; } }
 @media (min-width:560px){ .title{ font-size:38px; } }
 </style>
 </head>
@@ -92,11 +94,12 @@ body{
     <span class="site-sub">Case Studies</span>
     <a class="back" href="index.html">&larr; Today&rsquo;s issue</a>
   </div>
-  <div class="card" id="app"></div>
+  <div id="app"></div>
 </div>
 <script>
-// Launch anchor (IST): the date case No. 1 went up. One case every two days,
-// marketing and fraud in turns. Only Mahleen-reviewed cases go in this list.
+// Launch anchor (IST): the date the first pair went live. One marketing case
+// and one fraud case together, replaced by a fresh pair every two IST days.
+// Only Mahleen-reviewed cases go in this list, marketing/fraud alternating in order.
 const ANCHOR = '2026-10-25'; // Sunday - case No. 1 live from this date
 const CASES = [
   {
@@ -197,54 +200,62 @@ const anchorDay = dayNum(anchor.y, anchor.m, anchor.d);
 const ist = istNow();
 const todayDay = dayNum(ist.getFullYear(), ist.getMonth(), ist.getDate());
 const days = Math.max(0, todayDay - anchorDay);
-const slot = Math.floor(days / 2);
-const currentIdx = Math.min(slot, CASES.length - 1);
-const hasNext = (currentIdx + 1) < CASES.length;
+const pairCount = Math.ceil(CASES.length / 2);
+const currentPair = Math.min(Math.floor(days / 2), pairCount - 1);
+const maxIdx = Math.min(currentPair * 2 + 1, CASES.length - 1);
+const hasNextPair = (currentPair + 1) < pairCount;
 
 const params = new URLSearchParams(location.search);
-let viewIdx = currentIdx;
+let viewIdx = null;
 if(params.has('c')){
   const n = parseInt(params.get('c'), 10);
-  if(!isNaN(n) && n >= 0 && n < CASES.length && n <= currentIdx) viewIdx = n;
+  if(!isNaN(n) && n >= 0 && n < CASES.length && n <= maxIdx) viewIdx = n;
 }
-const c = CASES[viewIdx];
-const viewingArchive = viewIdx !== currentIdx;
+const viewingArchive = viewIdx !== null;
+const nextChangeDay = anchorDay + (currentPair + 1) * 2;
 
-const nextChangeDay = anchorDay + (currentIdx + 1) * 2;
-const nextSection = hasNext ? CASES[currentIdx + 1].section : '';
+function caseHTML(c, num){
+  let h = '<div class="mast">'
+    + '<div class="kicker">' + c.section + '</div>'
+    + '<h1 class="title">' + c.co + '</h1>'
+    + '<div class="meta">Case No. ' + num + ' &middot; ' + c.meta + '</div>'
+    + (c.tag ? '<div><span class="tag tag-' + c.tag.kind + '">' + c.tag.text + '</span></div>' : '')
+    + '</div>';
+  for(const f of c.fields){
+    h += '<div class="field"><span class="flabel">' + f.label + '</span><p class="ftext">' + f.text + '</p></div>';
+  }
+  if(c.take){ h += '<p class="take"><b>' + c.take.split(':')[0] + ':</b>' + c.take.slice(c.take.indexOf(':') + 1) + '</p>'; }
+  h += '<p class="srcs">Sources: ' + c.srcs.map(s => '<a href="' + s.url + '" target="_blank" rel="noopener">' + s.name + '</a>').join(' &middot; ') + '</p>';
+  return h;
+}
 
 let html = '';
 if(viewingArchive){
-  html += '<div class="archive-note">From the casebook archive &middot; <a href="cases.html">see the current case &rarr;</a></div>';
-}
-html += '<div class="mast">'
-  + '<div class="kicker">' + c.section + '</div>'
-  + '<h1 class="title">' + c.co + '</h1>'
-  + '<div class="meta">Case No. ' + (viewIdx + 1) + ' &middot; ' + c.meta + '</div>'
-  + (c.tag ? '<div><span class="tag tag-' + c.tag.kind + '">' + c.tag.text + '</span></div>' : '')
-  + '</div>';
-for(const f of c.fields){
-  html += '<div class="field"><span class="flabel">' + f.label + '</span><p class="ftext">' + f.text + '</p></div>';
-}
-if(c.take){ html += '<p class="take"><b>' + c.take.split(':')[0] + ':</b>' + c.take.slice(c.take.indexOf(':') + 1) + '</p>'; }
-html += '<p class="srcs">Sources: ' + c.srcs.map(s => '<a href="' + s.url + '" target="_blank" rel="noopener">' + s.name + '</a>').join(' &middot; ') + '</p>';
-
-if(!viewingArchive){
-  if(hasNext){
-    html += '<div class="sched"><span class="big">Next up</span><p>A fresh case lands <b>' + fmtDay(nextChangeDay) + '</b> - '
-      + nextSection + '. One case every two days, marketing and frauds in turns.</p></div>';
+  html += '<div class="card">'
+    + '<div class="archive-note">From the casebook archive &middot; <a href="cases.html">see the current pair &rarr;</a></div>'
+    + caseHTML(CASES[viewIdx], viewIdx + 1);
+} else {
+  html += '<div class="pair">'
+    + '<div class="card">' + caseHTML(CASES[currentPair * 2], currentPair * 2 + 1) + '</div>'
+    + '<div class="card">' + caseHTML(CASES[currentPair * 2 + 1], currentPair * 2 + 2) + '</div>'
+    + '</div>';
+  html += '<div class="card" style="margin-top:16px">';
+  if(hasNextPair){
+    html += '<div class="sched"><span class="big">Next up</span><p>A fresh pair lands <b>' + fmtDay(nextChangeDay) + '</b> - one marketing case and one fraud, every two days.</p></div>';
   } else {
-    html += '<div class="sched"><span class="big">Next up</span><p>The next case is being researched and reviewed - check back soon.</p></div>';
+    html += '<div class="sched"><span class="big">Next up</span><p>The next pair is being researched and reviewed - check back soon.</p></div>';
   }
 }
-if(currentIdx > 0){
+if(currentPair > 0){
   html += '<div class="past"><h3>Earlier cases</h3>';
-  for(let i = currentIdx - 1; i >= 0; i--){
+  for(let i = currentPair * 2 - 1; i >= 0; i--){
+    if(viewingArchive && i === viewIdx) continue;
     html += '<a class="past-item" href="cases.html?c=' + i + '"><span class="pco">No. ' + (i+1) + ' - ' + CASES[i].co + '</span><span class="psec">' + CASES[i].section + '</span></a>';
   }
   html += '</div>';
 }
 html += '<p class="foot">Real cases, real sources. For learning - not investment advice.<br>FINTRIX Case Studies</p>';
+html += '</div>';
 document.getElementById('app').innerHTML = html;
 </script>
 </body>
