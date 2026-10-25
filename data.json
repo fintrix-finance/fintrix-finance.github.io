@@ -1,24 +1,24 @@
 {
-  "updated_ist": "2026-10-24",
+  "updated_ist": "2026-10-25",
   "cover": {
-    "big_story_teaser": "Jio Platforms IPO draws record $77 billion in bids as subscription hits 22 times.",
-    "venture_teaser": "Healthcare platform CureBay secures ₹100 crore to fuel pan-India expansion.",
+    "big_story_teaser": "Jio Platforms rewrites IPO history with over $77 billion in total investor bids.",
+    "venture_teaser": "Firstwork secures $15 million in Series A funding led by Earlybird Venture Capital.",
     "market_watch_teaser": "As of 2026-10-23 close: Nifty 50 22,600.00 ▼ 0.39%",
-    "daily_brief_teaser": "RBI on NBFC listing, oil rally pressures gold, and JSW Steel Q2",
-    "inbrief_2": "RBI reaffirms NBFC listing rules",
-    "inbrief_3": "Surging oil prices drag gold down",
-    "inbrief_4": "JSW Steel Q2 profit triples",
-    "inbrief_1": "India-EU FTA: €4B Duty Savings"
+    "daily_brief_teaser": "RBI clears Emirates NBD-RBL merger; Apple India revenue hits ₹1 lakh crore mark.",
+    "inbrief_2": "RBL Bank merges Emirates NBD unit",
+    "inbrief_3": "Gold falls under $4,000 level",
+    "inbrief_4": "Apple India hits ₹1 lakh crore",
+    "inbrief_1": "India-US Trade Deal Draft"
   },
   "big_story": {
-    "headline": "Jio's Mega IPO Blitz",
-    "subhead": "RELIANCE JIO PLATFORMS IPO SETS NEW RECORDS WITH SEVENTY SEVEN BILLION DOLLARS IN BIDS",
+    "headline": "Inside Reliance Jio's Record IPO",
+    "subhead": "MUKESH AMBANI'S TELECOM GIANT CROSSES ONE CRORE APPLICATIONS IN HISTORIC PUBLIC OFFERING",
     "paragraphs": [
-      "Billionaire Mukesh Ambani's Jio Platforms created history as its initial public offering received bids worth $77 billion, equivalent to ₹7.4 lakh crore. The mega IPO was subscribed 22.19 times over its three-day bidding window, driven by massive institutional demand. With over 1 crore applications submitted, the issue has officially become the most subscribed Indian IPO on record.",
-      "Investor appetite remained exceptionally strong throughout the subscription period, drawing ₹4.25 lakh crore in bids early in the offer. Sources indicate that the final issue price for Jio Platforms will be fixed at the upper end of its price band at ₹1,119 per share. Market enthusiasm remained high throughout, pointing to solid institutional participation ahead of the listing.",
-      "The record-breaking response underlines strong investor confidence in India's digital ecosystem and telecommunications sector. Market participants will now closely watch the allotment process and listing debut to gauge broader market liquidity. Analysts note that such monumental capital raising could set a fresh benchmark for upcoming primary market issuances in the country."
+      "Reliance Jio Platforms has rewritten global capital market records after drawing more than $77 billion in bids for its mega public issue. The offering became the first public offer globally to cross one crore applications, reflecting unprecedented retail and institutional interest. Institutional investors led the charge with a massive 70.55x subscription rate by the close of the bidding process. As the market prepares for its upcoming listing on October 28, the blockbuster demand highlights strong investor appetite for India's digital infrastructure.",
+      "The public issue demonstrated massive participation across all investor categories, reaching a total subscription status of 7.01 times on Day 3. Gray market premiums for the stock reached ₹245 ahead of its stock exchange debut on the NSE and BSE. Market analysts note that parent firm Reliance Industries continues to hold top market capitalisation ranking while Jio positions itself for listing among the top domestic corporate giants. The sheer scale of foreign and domestic capital flowing into the offer underscores deep institutional confidence in India's technology ecosystem.",
+      "This historic capital raise establishes new benchmarks for primary market offerings in India and worldwide. Bidders poured in record funds, converting the issue into the most subscribed Indian IPO in history. Market participants are now closely watching the secondary market debut to gauge wider valuation impacts across the telecommunications and technology sectors. Successful execution of this public issue signals robust liquidity and sustained momentum in Indian equity markets."
     ],
-    "pullbox": "With $77 billion in bids and a 22.19 times subscription rate, Jio Platforms has rewritten Indian primary market history.",
+    "pullbox": "With over $77 billion in bids and more than one crore applications, Reliance Jio's historic public offer sets an unprecedented global record for primary market investor demand.",
     "image": {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Reliance_Jio_Logo.svg/960px-Reliance_Jio_Logo.svg.png",
       "alt": "Jio"
@@ -27,14 +27,14 @@
   "explains": {
     "title": "What is an Initial Public Offering?",
     "paragraphs": [
-      "An Initial Public Offering, or IPO, is the process by which a private company offers its shares to the public for the first time. This allows the business to raise equity capital from institutional and retail investors while providing an entry point for public trading on stock exchanges.",
-      "During an IPO, the issuer specifies a price band, and investors submit bids indicating the price and quantity of shares they wish to buy. If demand significantly exceeds the total shares available, the IPO is declared oversubscribed, often driving up market interest prior to listing."
+      "An Initial Public Offering, or IPO, is the process through which a private company raises capital by offering shares to the public for the first time. This transition allows institutional and retail investors to own equity in the firm, turning a privately held business into a publicly traded corporation on stock exchanges.",
+      "During an IPO, investment banks underwrite the issue, assist in setting the share price band, and compile institutional and retail bids. Once bidding concludes and shares are allocated, the stock begins trading on public stock exchanges where its price fluctuates based on market demand."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Indian healthcare services platform CureBay has raised ₹100 crore in its latest funding round. The startup operates a technology-enabled healthcare model designed to deliver quality medical services to underserved and rural communities across India.",
-      "The newly secured capital will be deployed to accelerate CureBay's pan-India expansion and strengthen its healthcare delivery network. By integrating tech-driven diagnostics with physical care touchpoints, the platform aims to bridge the rural-urban healthcare access gap."
+      "Firstwork, an innovative startup backed by Y Combinator, has successfully raised $15 million in a Series A funding round. The investment round was led by Earlybird Venture Capital, propelling the startup's total capital raised to $20 million. The company intends to deploy the fresh capital toward expanding its operational scale and product offerings.",
+      "Securing substantial early-stage backing reflects growing investor appetite for tech-driven platforms backed by top accelerators. Earlybird Venture Capital's leadership in the round highlights foreign venture conviction in high-growth founding teams. The funding milestone positions Firstwork to accelerate its market trajectory in an increasingly competitive landscape."
     ]
   },
   "market_watch": {
@@ -73,7 +73,7 @@
       },
       {
         "name": "Shanghai Comp.",
-        "value": "3,690.47 ▲ 0.89%",
+        "value": "3,690.48 ▲ 0.89%",
         "dir": "up",
         "session_date": "2026-10-23"
       }
@@ -121,13 +121,13 @@
     "global": [
       {
         "name": "Dollar Index",
-        "value": "101.75 ▲ 0.14%",
+        "value": "101.81 ▲ 0.20%",
         "dir": "up",
         "session_date": "2026-10-23"
       },
       {
         "name": "Brent Crude",
-        "value": "$111.66/bbl",
+        "value": "$111.70/bbl",
         "dir": "down",
         "session_date": "2026-10-23"
       },
@@ -160,12 +160,16 @@
     "session_date": "2026-10-23",
     "ipo_desk": [
       {
-        "name": "EAAA India Alternatives",
-        "note": "₹1,200 cr issue opens Oct 26"
+        "name": "MK Sons Fine Jewels",
+        "note": "₹275 cr IPO opening next week"
       },
       {
-        "name": "Paras Healthcare",
-        "note": "Day 3 subscription underway"
+        "name": "EAAA India Alternatives",
+        "note": "₹1,200 cr issue; ₹1,585-1,665 band"
+      },
+      {
+        "name": "Bonfiglioli Transmissions",
+        "note": "Shares list at par despite 46x bids"
       }
     ]
   },
@@ -196,12 +200,12 @@
       {
         "name": "Brent Crude",
         "unit": "$/bbl",
-        "price": "111.66",
-        "day": "▼ 1.33%",
-        "week": "▲ 1.64%",
+        "price": "111.70",
+        "day": "▼ 1.30%",
+        "week": "▲ 1.67%",
         "dir": "down",
         "dir_week": "up",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,15.9 4.1,10.6 8.3,15.7 12.4,17.4 16.6,19.0 20.7,25.1 24.8,27.0 29.0,20.4 33.1,14.3 37.2,18.3 41.4,16.6 45.5,21.2 49.7,19.6 53.8,21.7 57.9,21.8 62.1,25.2 66.2,24.7 70.3,25.4 74.5,18.3 78.6,17.6 82.8,14.2 86.9,15.9 91.0,15.3 95.2,15.5 99.3,8.7 103.4,9.2 107.6,10.6 111.7,10.5 115.9,3.0 120.0,5.6\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"5.6\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,15.9 4.1,10.6 8.3,15.7 12.4,17.4 16.6,19.0 20.7,25.1 24.8,27.0 29.0,20.4 33.1,14.3 37.2,18.3 41.4,16.6 45.5,21.2 49.7,19.6 53.8,21.7 57.9,21.8 62.1,25.2 66.2,24.7 70.3,25.4 74.5,18.3 78.6,17.6 82.8,14.2 86.9,15.9 91.0,15.3 95.2,15.5 99.3,8.7 103.4,9.2 107.6,10.6 111.7,10.5 115.9,3.0 120.0,5.5\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"5.5\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
         "session_date": "2026-10-23"
       },
       {
@@ -228,12 +232,12 @@
       },
       {
         "name": "Nexus Select REIT",
-        "price": "₹159.07",
-        "day": "▼ 2.12%",
-        "week": "▼ 2.91%",
+        "price": "₹157.66",
+        "day": "▼ 0.89%",
+        "week": "▼ 3.65%",
         "dir": "down",
         "dir_week": "down",
-        "session_date": "2026-10-22"
+        "session_date": "2026-10-23"
       },
       {
         "name": "Mindspace REIT",
@@ -255,12 +259,12 @@
       },
       {
         "name": "PowerGrid InvIT",
-        "price": "₹102.96",
-        "day": "▼ 0.22%",
-        "week": "▼ 0.85%",
+        "price": "₹102.67",
+        "day": "▼ 0.28%",
+        "week": "▼ 0.99%",
         "dir": "down",
         "dir_week": "down",
-        "session_date": "2026-10-22"
+        "session_date": "2026-10-23"
       }
     ],
     "caps": [
@@ -345,26 +349,26 @@
       {
         "name": "Parag Parikh Flexi Cap",
         "cat": "Flexi cap",
-        "nav": "₹89.41",
-        "day": "▼ 0.60%",
-        "week": "▲ 0.05%",
+        "nav": "₹88.97",
+        "day": "▼ 0.49%",
+        "week": "▼ 1.80%",
         "dir": "down",
-        "dir_week": "up",
-        "session_date": "2026-10-22"
+        "dir_week": "down",
+        "session_date": "2026-10-23"
       }
     ],
     "date_label": "OCT 2026",
     "close_label": "AS OF FRIDAY'S CLOSE, OCT 23",
     "session_date": "2026-10-23",
-    "nav_label": "NAVS AS OF OCT 22"
+    "nav_label": "NAVS AS OF OCT 23"
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "India | Banking Regulation",
-      "headline": "RBI Governor Reaffirms Listing Rules for Upper-Layer NBFCs",
+      "kicker": "Banking | Regulatory Approval",
+      "headline": "RBI Approves Emirates NBD Branch Merger With RBL Bank",
       "paragraphs": [
-        "The Reserve Bank of India Governor reiterated mandatory listing requirements for top non-banking financial companies, directly addressing market focus surrounding Tata Sons. When questioned about compliance timelines, the central bank chief referred back to established framework rules governing major shadow banks.",
-        "Under current regulations, upper-layer NBFCs must list their shares within specified deadlines to broaden public ownership and elevate governance. The governor's remarks signal that regulators intend to enforce listing norms across large corporate holding entities."
+        "The Reserve Bank of India has officially approved the merger of Emirates NBD's Indian branches with RBL Bank. The regulatory integration is scheduled to take effect from December 1. This move allows the combined banking footprint to expand its operations across key Indian markets.",
+        "The deal strengthens cross-border financial links between India and the UAE. It is expected to provide RBL Bank with expanded capital backing and institutional trade finance capabilities."
       ],
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
@@ -372,221 +376,221 @@
       }
     },
     "story_2": {
-      "kicker": "Global | Commodities",
-      "headline": "Surging Oil Prices Push Gold Down Amid Rate Concerns",
+      "kicker": "Commodities | Macro Markets",
+      "headline": "Gold Falls Below $4,000 as Bond Markets Face Historic Strain",
       "paragraphs": [
-        "Crude oil prices extended their rally on global supply disruption fears, driving Brent crude higher and stoking fresh worries over persistent inflation. The energy price surge reinforced market expectations that central banks may keep interest rates elevated for longer.",
-        "The shift hit precious metals, sending gold and silver into steep weekly declines as a strengthening US dollar and elevated benchmark bond yields reduced demand for non-yielding bullion."
+        "Gold prices dropped below $4,000 per ounce as surging crude oil prices renewed inflation concerns among global investors. Meanwhile, Indian sovereign bonds recorded their worst losing streak in 30 years as Brent crude remained elevated at $111.70 per barrel. Elevated US treasury yields reaching 4.99% have further fueled sell-offs across debt securities.",
+        "Persistent energy inflation continues to push market expectations toward sustained high interest rates. The sharp pullbacks in precious metals reflect a broader risk-off move across international markets."
       ]
     },
     "story_3": {
-      "kicker": "Corporate | Earnings",
-      "headline": "JSW Steel Q2 Profit Triples to ₹5,279 Crore",
+      "kicker": "Corporate | Tech Growth",
+      "headline": "Apple India Revenue Crosses ₹1 Lakh Crore in FY26",
       "paragraphs": [
-        "JSW Steel reported a 225% year-on-year increase in second-quarter net profit to ₹5,279 crore, backed by a 21% growth in revenue. Strong domestic steel demand helped offset broader sectoral market weakness."
+        "Apple India reached a historic financial milestone by crossing ₹1 lakh crore in revenue for FY26. The tech major reported a massive 66% jump in net profit over the same period. Robust consumer demand and increased domestic retail expansion drove the record financial results."
       ]
     },
     "also_today": {
       "items": [
-        "Coforge Q2 net profit jumps 56.5% to ₹588 crore driven by AI deal execution.",
-        "Infosys cuts FY27 revenue guidance despite a 6.2% rise in Q2 net profit to ₹7,828 crore.",
-        "Apple India revenue grows 32% to surpass ₹1 lakh crore in FY26.",
-        "Proposed India-EU trade deal could save €4 billion annually in customs duties."
+        "IHCL raises FY27 revenue growth guidance to 15-17% following record Q2 performance.",
+        "India and Russia aim for $100 billion in bilateral trade by 2030 to deepen economic ties.",
+        "AI code testing startup Blacksmith raises $66 million at a $1 billion valuation.",
+        "Castrol India Q3 net profit slumps 23% to ₹176 crore due to elevated raw material costs."
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India | Global Trade",
-    "headline": "India-EU FTA Set to Save €4B Annually in Customs Duties",
+    "kicker": "India | US Trade Deal",
+    "headline": "India and US Close to Trade Deal Despite Gaps",
     "paragraphs": [
-      "Union Minister Piyush Goyal stated that India is not living in isolation as negotiations for the India-EU Free Trade Agreement and other pacts pave the way for deeper integration. A German minister highlighted that the proposed India-EU trade deal is expected to save €4 billion a year in customs duties. Furthermore, industry body ASSOCHAM projects that India's exports to Germany alone could cross $50 billion by 2030.",
-      "The massive tariff relief under the proposed agreement promises to give Indian manufacturers a competitive edge across European markets. However, negotiators must still clear key regulatory hurdles and finalize tariff schedules across sensitive sectors. As global economic volatility persists, fast-tracking these trade deals remains critical for sustaining India's export momentum."
+      "US President Donald Trump stated that India and the US are close to reaching a trade agreement. The trade deal draft is already ready, though negotiations continue as both sides navigate final differences.",
+      "While the framework moves forward, remaining gaps must be resolved before implementation. For Indian markets and exporters, the impending agreement marks a pivotal shift in bilateral economic ties."
     ],
     "world_60": [
-      "US-Iran war fuels fresh inflation risks, testing India's macroeconomic strength.",
-      "India-New Zealand FTA takes effect as Rubio courts Reliance's refining capacity.",
-      "Crude oil extends rally toward six-month high following Houthi attacks on Saudi Arabia.",
-      "United States taps Strategic Petroleum Reserve again to offset severe oil supply disruptions.",
-      "India-UAE economic ties extend beyond formal pacts, backed by historic trade trust."
+      "India and Russia aim for $100 billion trade by 2030 as Modi and Putin push cooperation.",
+      "German companies plan to double or triple growth in India over 3 to 5 years, says Piyush Goyal.",
+      "Pakistan textile exporters warn that an EU-India trade deal could erode their market advantage.",
+      "India-UK trade deal faces its first big test as a whisky tax row draws in Britain.",
+      "Panama positions itself as a Latin American trade gateway for Tamil Nadu industries."
     ],
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Piyush_Goyal_crop.jpg/330px-Piyush_Goyal_crop.jpg",
-      "alt": "Piyush Goyal"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
+      "alt": "New Delhi"
     }
   },
   "more": {
     "big_story": [
       {
-        "headline": "RBI Net Forex Purchases Reach Record $43 Billion in August",
-        "text": "The Reserve Bank of India recorded net foreign exchange purchases of $43 billion in August, balancing these transactions with dollar-rupee swaps. The central bank's active foreign exchange management aims to buffer India's reserves against external volatility. Managing forex flows remains critical for maintaining domestic currency stability amidst shifting global economic dynamics.",
-        "source": "The Economic Times",
-        "published": "24 Oct 07:50 IST"
+        "headline": "PM Modi to Inaugurate RBI Data Centre in Jatni",
+        "text": "Prime Minister Narendra Modi is set to visit Odisha to inaugurate a state-of-the-art Reserve Bank of India data centre and cybersecurity training institute in Jatni, near Bhubaneswar. The facility aims to strengthen the country's financial digital infrastructure against cyber threats. This critical investment highlights India's focus on securing its central banking network amidst rapid digitization.",
+        "source": "The New Indian Express",
+        "published": "25 Oct 09:35 IST"
       },
       {
-        "headline": "Nippon Life India AMC Settles Yes Bank AT1 Case for ₹96.8 Crore",
-        "text": "Nippon Life India Asset Management has settled the long-standing Yes Bank Additional Tier-1 bond case by paying ₹96.8 crore. The settlement addresses regulatory scrutiny surrounding the write-down of Yes Bank AT1 bonds that impacted mutual fund investors. Resolving these historical liabilities provides clarity for asset management operations and highlights India's evolving regulatory oversight in debt markets.",
+        "headline": "Kajaria Ceramics Posts 43% Rise in Q2 Consolidated Profit",
+        "text": "Tile manufacturer Kajaria Ceramics reported a robust 43% year-on-year increase in its consolidated net profit for the second quarter of FY27. The company's strong performance reflects growing demand driven by increased real estate construction and home renovation activities across Indian markets. This earnings surge underscores steady consumer spending in domestic infrastructure and housing sectors.",
         "source": "scanx.trade",
-        "published": "23 Oct 17:13 IST"
+        "published": "24 Oct 19:41 IST"
       }
     ],
     "venture_vault": [
       {
-        "headline": "TravClan Secures $5 Million to Expand Global Travel Operations",
-        "text": "B2B travel platform TravClan has raised $5 million in funding from Flipkart and August One. The capital will support the company's expansion of its global travel operations and tech infrastructure. The investment underscores rising investor confidence in tech-enabled travel platforms serving India's booming outbound tourism market.",
+        "headline": "TravClan Raises $5 Million to Expand Global Travel Platform",
+        "text": "B2B travel platform TravClan has secured $5 million in funding from Flipkart and venture firm August One to fuel its international expansion. The startup plans to enhance its technology stack and scale presence across key global markets. This strategic investment highlights big tech's growing appetite for digital travel solutions transforming India's tourism ecosystem.",
         "source": "Indian Startup Times",
         "published": "23 Oct 20:46 IST"
       },
       {
-        "headline": "Advanced Materials Startup Scimplify Secures $25 Million",
-        "text": "Indian advanced materials startup Scimplify has successfully raised $25 million in its latest funding round. The fresh capital will enable the company to expand its manufacturing capabilities and accelerate research and development. The deal highlights growing venture capital interest in India's deep-tech and specialized manufacturing sectors.",
-        "source": "Evertiq",
-        "published": "22 Oct 10:32 IST"
+        "headline": "Indian Startups Secure Over $184 Million in Weekly Funding",
+        "text": "Indian venture funding showed steady momentum as domestic startups raised over $184 million this week, led by deals in Even Health and The Pant Project. The funding inflow reflects sustained investor faith in diverse sectors ranging from healthcare technology to direct-to-consumer fashion. Strong capital allocation signals continuing market maturity across early-stage ecosystem ventures.",
+        "source": "Inc42",
+        "published": "24 Oct 09:00 IST"
       }
     ],
     "geopolitics": [
       {
-        "headline": "Indian Liquor Trade Group Seeks Clarity on UK Trade Deal Tariffs",
-        "text": "India's liquor trade group has requested urgent clarification from the government regarding Scotch tariffs under the proposed India-UK free trade agreement. Industry stakeholders are concerned over how import concessions on bulk concentrate will be structured. Resolving tariff definitions is vital for protecting domestic distillers while fostering bilateral trade relations between New Delhi and London.",
-        "source": "Vinetur",
-        "published": "24 Oct 00:17 IST"
+        "headline": "Jaishankar Holds Bilateral Talks with Uzbekistan in Azerbaijan",
+        "text": "External Affairs Minister S. Jaishankar met with his Uzbek counterpart during his official visit to Azerbaijan to review strategic bilateral relations. The discussions focused on deepening trade, transit connectivity, and regional security cooperation between India and Central Asia. This engagement highlights New Delhi's proactive diplomacy to secure economic partnerships along trade corridors.",
+        "source": "The Economic Times",
+        "published": "24 Oct 15:18 IST"
       },
       {
-        "headline": "Proposed India Trade Deal Offers Boost for New Zealand Exports",
-        "text": "New Zealand officials view the proposed bilateral trade deal with India as a strategic opportunity to build a smarter export economy. The deal aims to enhance trade flows across key sectors while expanding market access for agricultural and technology exports. Strengthening economic ties with India remains a crucial strategic priority for South Pacific nations seeking market diversification.",
-        "source": "NZ Herald",
-        "published": "24 Oct 01:31 IST"
+        "headline": "German Firms View India as R&D and Innovation Hub: Goyal",
+        "text": "Commerce Minister Piyush Goyal stated that German enterprises now see India as a premier hub for manufacturing, R&D, and innovation. The shift highlights growing European confidence in India's industrial capabilities and skilled workforce amidst supply chain realignments. This deepening tie boosts India's ambitions to become a global manufacturing superpower.",
+        "source": "The Economic Times",
+        "published": "24 Oct 13:21 IST"
       }
     ]
   },
   "sources": {
     "big_story": [
       {
-        "title": "India's Jio Platforms IPO Price Will Be Set At Upper End Of Price Band At 1,119 Indian Rupees/Share - Sources",
-        "source": "TradingView"
-      },
-      {
         "title": "Ambani's Jio becomes most subscribed Indian IPO with $77 billion in bids",
         "source": "Reuters"
       },
       {
-        "title": "Jio Platforms IPO rides institutional demand to 22.19 times subscription",
-        "source": "Business Standard"
+        "title": "Jio IPO GMP Today: Issue Subscribed 7.01 Times on Day 3; GMP at ₹245",
+        "source": "India Infoline"
       },
       {
-        "title": "Jio IPO booked 22.19 times, receives overall bids worth Rs 7.4 lakh crore",
-        "source": "The New Indian Express"
+        "title": "Jio IPO breaks multiple records: From fundraising to investor demand, how the mega issue rewrote India’s I",
+        "source": "The Economic Times"
       },
       {
-        "title": "Jio Platforms IPO draws ₹4.25 lakh crore in bids; subscription hits 9 times, crosses 1 crore applications",
-        "source": "Fortune India"
+        "title": "Jio Platforms' IPO becomes first public offer globally to cross 1 crore applications: Report",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Jio Platforms IPO Sees 70.55x Institutional Subscription As Bids Top $77 Billion",
+        "source": "BW Marketing World"
+      },
+      {
+        "title": "Reliance Jio IPO listing on Oct 28: Will Mukesh Ambani's firm be in top 5 m-cap? RIL to hold top spot",
+        "source": "Livemint"
       }
     ],
     "venture_vault": [
       {
-        "title": "Healthcare services platform CureBay raises ₹100 crore, plans pan-India expansion",
-        "source": "Fortune India"
+        "title": "Y Combinator-backed Firstwork raises $15 million Series A, takes total funding to $20 million",
+        "source": "Indian Startup News"
+      },
+      {
+        "title": "Firstwork Raises $15 Mn In Series A Round Led By Earlybird Venture Capital",
+        "source": "BW Disrupt"
       }
     ],
     "daily_brief_1": [
       {
-        "title": "India's RBI governor reiterates listing requirement for top NBFCs as focus intensifies on Tata Sons",
-        "source": "Reuters"
-      },
-      {
-        "title": "RBI Governor Was Asked About Tata Sons' Listing. He Read The Rulebook",
-        "source": "NDTV"
+        "title": "RBI Approves Merger of Emirates NBD's Indian Branches With RBL Bank Effective December 1",
+        "source": "INDIA New England News"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "Gold, Silver Fall for Third Straight Session as Dollar and Oil Prices Rise",
-        "source": "India Business Trade"
-      },
-      {
-        "title": "Gold price set for steep weekly loss as rising oil prices bolster Fed rate hike bets",
-        "source": "Mining.com"
-      },
-      {
-        "title": "Gold & Silver Prices Fall as Crude Tops $115, Dollar Strong",
+        "title": "Indian Bonds See Worst Losing Streak in 30 Years as Crude, US Yields Remain Elevated",
         "source": "Rediff"
+      },
+      {
+        "title": "Gold price falls below $4,000 as rising oil prices fuel inflation and interest rate fears",
+        "source": "Share Talk"
       }
     ],
     "daily_brief_3": [
       {
-        "title": "JSW Steel Q2 Results: Net profit rockets 225% YoY to Rs 5,279 crore; revenue rises 21%",
-        "source": "The Economic Times"
-      },
-      {
-        "title": "JSW Steel Q2 Results: Profit more than triples to Rs 5,279 crore, revenue climbs 21%",
-        "source": "Zee Business"
+        "title": "Apple India Revenue Crosses Rs 1 Lakh Crore In FY26, Profit Jumps 66%",
+        "source": "BW Marketing World"
       }
     ],
     "also_today": [
       {
-        "title": "Coforge Q2 Net Profit Jumps 56.5% to ₹588 Crore on AI-Led Deal Execution",
-        "source": "India Business Trade"
+        "title": "Castrol India Q3 net profit slumps 23% to ₹176 crore",
+        "source": "ET Auto"
       },
       {
-        "title": "Apple India Revenue Soars 32% to Cross ₹1 Lakh Cr in FY26",
-        "source": "Rediff"
-      },
-      {
-        "title": "Infosys cuts FY27 guidance; Q2 net profit rises 6.2% to ₹7,828 crore",
-        "source": "Business Standard"
-      },
-      {
-        "title": "India-EU trade deal to save €4 billion a year in customs duties, German minister says",
+        "title": "Castrol India Q3 results: Profit drops 49%, raw material costs weigh on margins",
         "source": "CNBC TV18"
+      },
+      {
+        "title": "IHCL raises FY27 revenue growth guidance to 15-17% after record Q2",
+        "source": "ET TravelWorld"
+      },
+      {
+        "title": "AI code testing startup Blacksmith raises $66 million at $1 billion valuation",
+        "source": "Indian Startup News"
+      },
+      {
+        "title": "India, Russia aim for $100 billion trade by 2030 as Modi, Putin push cooperation",
+        "source": "ET Government"
       }
     ],
     "geopolitics": [
       {
-        "title": "India is not living in isolation, says Piyush Goyal, as India-EU FTA and several trade pacts pave the way",
-        "source": "The Economic Times"
+        "title": "India & US are close to reaching trade deal, says US President Donald Trump",
+        "source": "News On AIR"
       },
       {
-        "title": "India's exports to Germany could cross $50 billion by 2030: ASSOCHAM",
-        "source": "The Economic Times"
-      },
-      {
-        "title": "India-EU trade deal to save €4 billion a year in customs duties, German minister says",
-        "source": "CNBC TV18"
+        "title": "India-U.S. Trade Deal draft is ready, but still there are few gaps",
+        "source": "The Northlines"
       }
     ],
     "world_60": [
       {
-        "title": "RBI Bulletin: India’s strength faces fresh test as US-Iran war fuels inflation",
-        "source": "Livemint"
+        "title": "India, Russia aim for $100 billion trade by 2030 as Modi, Putin push cooperation",
+        "source": "ET Government"
       },
       {
-        "title": "India-New Zealand FTA Takes Effect, Rubio Courts Reliance's Refining Power, and France Reels From Nationwide Riots",
-        "source": "DD India"
+        "title": "German companies plan to double, triple growth in India over 3-5 years: Piyush Goyal",
+        "source": "The Economic Times"
       },
       {
-        "title": "Oil prices extend rally to near six-month high amid Houthi attacks on Saudi Arabia",
-        "source": "The Hindu"
+        "title": "Pakistan textile exporters warn EU-India trade deal could erode market advantage",
+        "source": "Arab News PK"
       },
       {
-        "title": "U.S. Dips Into Strategic Oil Reserve Again Amid Supply Disruptions",
-        "source": "Crude Oil Prices Today | OilPrice.com"
+        "title": "India-UK trade deal faces first big test as whisky tax row draws in Britain",
+        "source": "The Statesman"
       },
       {
-        "title": "UAE Minister of Economy: India-UAE ties built over centuries of trust and familiarity, go beyond formal agreements",
-        "source": "DD News"
+        "title": "Panama positions itself as Latin American trade gateway for Tamil Nadu’s maritime and pharma industries",
+        "source": "ET Government"
       }
     ],
     "ipo_desk": [
       {
-        "title": "EAAA India Alternatives mops up Rs 360 crore from anchor investors; IPO opens on Oct 26",
-        "source": "The Economic Times"
+        "title": "Upcoming IPO: MK Sons Fine Jewels’ ₹275 cr opening next week – Company profile, key dates, share price band and more",
+        "source": "India IPO"
+      },
+      {
+        "title": "IPOs This Week: EAAA India Alternatives, BLS Polymers, M K Sons Fine Jewels Among Others To Hit Primary Market",
+        "source": "NDTV Profit"
       },
       {
         "title": "EAAA India Alternatives Sets INR 1,585–1,665 Price Band for INR 1,200 Crore IPO",
         "source": "Energetica India Magazine"
       },
       {
-        "title": "Paras Healthcare IPO Day 3: Subscription Status, Timeline & Key Issue Details",
-        "source": "Groww"
+        "title": "Bonfiglioli Transmissions shares list at par to IPO price despite 46x bids",
+        "source": "Business Standard"
       }
     ],
     "market_data": "Yahoo Finance (computed, session 2026-10-23)",

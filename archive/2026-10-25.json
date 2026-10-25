@@ -1,0 +1,599 @@
+{
+  "updated_ist": "2026-10-25",
+  "cover": {
+    "big_story_teaser": "Jio Platforms rewrites IPO history with over $77 billion in total investor bids.",
+    "venture_teaser": "Firstwork secures $15 million in Series A funding led by Earlybird Venture Capital.",
+    "market_watch_teaser": "As of 2026-10-23 close: Nifty 50 22,600.00 ▼ 0.39%",
+    "daily_brief_teaser": "RBI clears Emirates NBD-RBL merger; Apple India revenue hits ₹1 lakh crore mark.",
+    "inbrief_2": "RBL Bank merges Emirates NBD unit",
+    "inbrief_3": "Gold falls under $4,000 level",
+    "inbrief_4": "Apple India hits ₹1 lakh crore",
+    "inbrief_1": "India-US Trade Deal Draft"
+  },
+  "big_story": {
+    "headline": "Inside Reliance Jio's Record IPO",
+    "subhead": "MUKESH AMBANI'S TELECOM GIANT CROSSES ONE CRORE APPLICATIONS IN HISTORIC PUBLIC OFFERING",
+    "paragraphs": [
+      "Reliance Jio Platforms has rewritten global capital market records after drawing more than $77 billion in bids for its mega public issue. The offering became the first public offer globally to cross one crore applications, reflecting unprecedented retail and institutional interest. Institutional investors led the charge with a massive 70.55x subscription rate by the close of the bidding process. As the market prepares for its upcoming listing on October 28, the blockbuster demand highlights strong investor appetite for India's digital infrastructure.",
+      "The public issue demonstrated massive participation across all investor categories, reaching a total subscription status of 7.01 times on Day 3. Gray market premiums for the stock reached ₹245 ahead of its stock exchange debut on the NSE and BSE. Market analysts note that parent firm Reliance Industries continues to hold top market capitalisation ranking while Jio positions itself for listing among the top domestic corporate giants. The sheer scale of foreign and domestic capital flowing into the offer underscores deep institutional confidence in India's technology ecosystem.",
+      "This historic capital raise establishes new benchmarks for primary market offerings in India and worldwide. Bidders poured in record funds, converting the issue into the most subscribed Indian IPO in history. Market participants are now closely watching the secondary market debut to gauge wider valuation impacts across the telecommunications and technology sectors. Successful execution of this public issue signals robust liquidity and sustained momentum in Indian equity markets."
+    ],
+    "pullbox": "With over $77 billion in bids and more than one crore applications, Reliance Jio's historic public offer sets an unprecedented global record for primary market investor demand.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Reliance_Jio_Logo.svg/960px-Reliance_Jio_Logo.svg.png",
+      "alt": "Jio"
+    }
+  },
+  "explains": {
+    "title": "What is an Initial Public Offering?",
+    "paragraphs": [
+      "An Initial Public Offering, or IPO, is the process through which a private company raises capital by offering shares to the public for the first time. This transition allows institutional and retail investors to own equity in the firm, turning a privately held business into a publicly traded corporation on stock exchanges.",
+      "During an IPO, investment banks underwrite the issue, assist in setting the share price band, and compile institutional and retail bids. Once bidding concludes and shares are allocated, the stock begins trading on public stock exchanges where its price fluctuates based on market demand."
+    ]
+  },
+  "venture_vault": {
+    "paragraphs": [
+      "Firstwork, an innovative startup backed by Y Combinator, has successfully raised $15 million in a Series A funding round. The investment round was led by Earlybird Venture Capital, propelling the startup's total capital raised to $20 million. The company intends to deploy the fresh capital toward expanding its operational scale and product offerings.",
+      "Securing substantial early-stage backing reflects growing investor appetite for tech-driven platforms backed by top accelerators. Earlybird Venture Capital's leadership in the round highlights foreign venture conviction in high-growth founding teams. The funding milestone positions Firstwork to accelerate its market trajectory in an increasingly competitive landscape."
+    ]
+  },
+  "market_watch": {
+    "indian": [
+      {
+        "name": "Sensex",
+        "value": "73,123.83 ▼ 0.17%",
+        "dir": "down",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "Nifty 50",
+        "value": "22,600.00 ▼ 0.39%",
+        "dir": "down",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "Nifty Bank",
+        "value": "54,287.35 ▼ 1.16%",
+        "dir": "down",
+        "session_date": "2026-10-23"
+      }
+    ],
+    "asian": [
+      {
+        "name": "Nikkei 225",
+        "value": "62,693.16 ▼ 0.34%",
+        "dir": "down",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "Hang Seng",
+        "value": "23,093.37 ▲ 0.69%",
+        "dir": "up",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "Shanghai Comp.",
+        "value": "3,690.48 ▲ 0.89%",
+        "dir": "up",
+        "session_date": "2026-10-23"
+      }
+    ],
+    "european": [
+      {
+        "name": "FTSE 100",
+        "value": "10,690.36 ▼ 0.32%",
+        "dir": "down",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "DAX",
+        "value": "25,181.65 ▼ 0.75%",
+        "dir": "down",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "CAC 40",
+        "value": "7,782.82 ▼ 0.36%",
+        "dir": "down",
+        "session_date": "2026-10-23"
+      }
+    ],
+    "us": [
+      {
+        "name": "S&P 500",
+        "value": "7,623.68 ▼ 0.52%",
+        "dir": "down",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "25,955.34 ▼ 0.21%",
+        "dir": "down",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "Dow Jones",
+        "value": "52,215.16 ▼ 1.23%",
+        "dir": "down",
+        "session_date": "2026-10-23"
+      }
+    ],
+    "global": [
+      {
+        "name": "Dollar Index",
+        "value": "101.81 ▲ 0.20%",
+        "dir": "up",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "Brent Crude",
+        "value": "$111.70/bbl",
+        "dir": "down",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "Gold",
+        "value": "$4,008/oz",
+        "dir": "down",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "US 10Y Yield",
+        "value": "4.99% ▲ 3.5 bp",
+        "dir": "up",
+        "session_date": "2026-10-23"
+      }
+    ],
+    "losers": [
+      "Shriram Finance",
+      "Adani Enterprises",
+      "JSW Steel"
+    ],
+    "winners": [
+      "Eternal",
+      "Apollo Hospitals",
+      "ONGC"
+    ],
+    "snapshot_strip": "Metal and Realty lagged as the Nifty fell 0.39%",
+    "date_label": "OCT 2026",
+    "close_label": "AS OF FRIDAY'S CLOSE, OCT 23",
+    "session_date": "2026-10-23",
+    "ipo_desk": [
+      {
+        "name": "MK Sons Fine Jewels",
+        "note": "₹275 cr IPO opening next week"
+      },
+      {
+        "name": "EAAA India Alternatives",
+        "note": "₹1,200 cr issue; ₹1,585-1,665 band"
+      },
+      {
+        "name": "Bonfiglioli Transmissions",
+        "note": "Shares list at par despite 46x bids"
+      }
+    ]
+  },
+  "data_desk": {
+    "commodities": [
+      {
+        "name": "Gold",
+        "unit": "$/oz",
+        "price": "4,008",
+        "day": "▼ 1.29%",
+        "week": "▼ 4.14%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,7.2 4.1,8.3 8.3,5.2 12.4,4.5 16.6,3.0 20.7,5.4 24.8,5.8 29.0,9.1 33.1,10.3 37.2,9.0 41.4,17.8 45.5,17.1 49.7,16.7 53.8,15.8 57.9,18.1 62.1,18.4 66.2,16.7 70.3,19.4 74.5,18.4 78.6,15.0 82.8,16.5 86.9,17.3 91.0,21.2 95.2,17.7 99.3,17.0 103.4,18.2 107.6,19.2 111.7,18.8 115.9,24.0 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "Silver",
+        "unit": "$/oz",
+        "price": "53.95",
+        "day": "▼ 1.49%",
+        "week": "▼ 5.34%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,8.8 4.1,9.3 8.3,7.3 12.4,5.1 16.6,3.0 20.7,4.4 24.8,4.2 29.0,7.1 33.1,8.9 37.2,7.4 41.4,13.2 45.5,14.2 49.7,15.3 53.8,14.1 57.9,15.5 62.1,13.8 66.2,13.3 70.3,15.7 74.5,17.3 78.6,14.2 82.8,15.2 86.9,17.1 91.0,24.0 95.2,21.5 99.3,21.2 103.4,21.2 107.6,19.8 111.7,20.4 115.9,25.4 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "Brent Crude",
+        "unit": "$/bbl",
+        "price": "111.70",
+        "day": "▼ 1.30%",
+        "week": "▲ 1.67%",
+        "dir": "down",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,15.9 4.1,10.6 8.3,15.7 12.4,17.4 16.6,19.0 20.7,25.1 24.8,27.0 29.0,20.4 33.1,14.3 37.2,18.3 41.4,16.6 45.5,21.2 49.7,19.6 53.8,21.7 57.9,21.8 62.1,25.2 66.2,24.7 70.3,25.4 74.5,18.3 78.6,17.6 82.8,14.2 86.9,15.9 91.0,15.3 95.2,15.5 99.3,8.7 103.4,9.2 107.6,10.6 111.7,10.5 115.9,3.0 120.0,5.5\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"5.5\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "WTI Crude",
+        "unit": "$/bbl",
+        "price": "103.27",
+        "day": "▲ 3.82%",
+        "week": "▲ 1.83%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,9.1 4.1,3.0 8.3,7.6 12.4,8.4 16.6,10.6 20.7,16.7 24.8,18.4 29.0,21.7 33.1,18.3 37.2,21.4 41.4,21.1 45.5,25.5 49.7,24.1 53.8,20.7 57.9,23.1 62.1,25.4 66.2,25.4 70.3,27.0 74.5,22.6 78.6,22.1 82.8,19.5 86.9,19.0 91.0,17.7 95.2,13.7 99.3,9.0 103.4,6.0 107.6,8.5 111.7,14.9 115.9,11.7 120.0,6.5\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"6.5\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-23"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Embassy REIT",
+        "price": "₹421.94",
+        "day": "▼ 0.43%",
+        "week": "▼ 3.00%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "Nexus Select REIT",
+        "price": "₹157.66",
+        "day": "▼ 0.89%",
+        "week": "▼ 3.65%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "Mindspace REIT",
+        "price": "₹488.38",
+        "day": "▼ 0.72%",
+        "week": "▼ 1.27%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹304.46",
+        "day": "▼ 3.03%",
+        "week": "▼ 5.36%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹102.67",
+        "day": "▼ 0.28%",
+        "week": "▼ 0.99%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-23"
+      }
+    ],
+    "caps": [
+      {
+        "name": "Nifty 50",
+        "tag": "Large cap",
+        "level": "22,600.00",
+        "day": -0.39,
+        "week": -1.73,
+        "month": -3.12,
+        "day_txt": "▼ 0.39%",
+        "week_txt": "▼ 1.73%",
+        "month_txt": "▼ 3.12%",
+        "dir": "down",
+        "dir_week": "down",
+        "dir_month": "down",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "Nifty Midcap 150",
+        "tag": "Mid cap",
+        "level": "20,592.75",
+        "day": -2.07,
+        "week": -5.35,
+        "month": -9.63,
+        "day_txt": "▼ 2.07%",
+        "week_txt": "▼ 5.35%",
+        "month_txt": "▼ 9.63%",
+        "dir": "down",
+        "dir_week": "down",
+        "dir_month": "down",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "Nifty Smallcap 250",
+        "tag": "Small cap",
+        "level": "16,385.15",
+        "day": -2.79,
+        "week": -7.05,
+        "month": -10.27,
+        "day_txt": "▼ 2.79%",
+        "week_txt": "▼ 7.05%",
+        "month_txt": "▼ 10.27%",
+        "dir": "down",
+        "dir_week": "down",
+        "dir_month": "down",
+        "session_date": "2026-10-23"
+      }
+    ],
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"100.0\" width=\"22\" height=\"2.4\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"114.4\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.4</text><rect x=\"62.3\" y=\"100.0\" width=\"22\" height=\"10.4\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"122.4\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.7</text><rect x=\"90.3\" y=\"100.0\" width=\"22\" height=\"18.8\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"130.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.1</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"100.0\" width=\"22\" height=\"12.5\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"124.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-2.1</text><rect x=\"169.0\" y=\"100.0\" width=\"22\" height=\"32.3\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"144.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-5.3</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"58.1\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"170.1\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-9.6</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"100.0\" width=\"22\" height=\"16.8\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"128.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-2.8</text><rect x=\"275.7\" y=\"100.0\" width=\"22\" height=\"42.6\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"154.6\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-7.0</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-10.3</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "funds": [
+      {
+        "name": "ICICI Pru Large Cap",
+        "cat": "Large cap",
+        "nav": "₹111.40",
+        "day": "▼ 0.70%",
+        "week": "▼ 2.55%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "MO Midcap 150 Index",
+        "cat": "Mid cap",
+        "nav": "₹37.39",
+        "day": "▼ 2.06%",
+        "week": "▼ 5.34%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "Nippon Small Cap",
+        "cat": "Small cap",
+        "nav": "₹189.21",
+        "day": "▼ 2.39%",
+        "week": "▼ 6.46%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-23"
+      },
+      {
+        "name": "Parag Parikh Flexi Cap",
+        "cat": "Flexi cap",
+        "nav": "₹88.97",
+        "day": "▼ 0.49%",
+        "week": "▼ 1.80%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-23"
+      }
+    ],
+    "date_label": "OCT 2026",
+    "close_label": "AS OF FRIDAY'S CLOSE, OCT 23",
+    "session_date": "2026-10-23",
+    "nav_label": "NAVS AS OF OCT 23"
+  },
+  "daily_brief": {
+    "story_1": {
+      "kicker": "Banking | Regulatory Approval",
+      "headline": "RBI Approves Emirates NBD Branch Merger With RBL Bank",
+      "paragraphs": [
+        "The Reserve Bank of India has officially approved the merger of Emirates NBD's Indian branches with RBL Bank. The regulatory integration is scheduled to take effect from December 1. This move allows the combined banking footprint to expand its operations across key Indian markets.",
+        "The deal strengthens cross-border financial links between India and the UAE. It is expected to provide RBL Bank with expanded capital backing and institutional trade finance capabilities."
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+        "alt": "Reserve Bank of India"
+      }
+    },
+    "story_2": {
+      "kicker": "Commodities | Macro Markets",
+      "headline": "Gold Falls Below $4,000 as Bond Markets Face Historic Strain",
+      "paragraphs": [
+        "Gold prices dropped below $4,000 per ounce as surging crude oil prices renewed inflation concerns among global investors. Meanwhile, Indian sovereign bonds recorded their worst losing streak in 30 years as Brent crude remained elevated at $111.70 per barrel. Elevated US treasury yields reaching 4.99% have further fueled sell-offs across debt securities.",
+        "Persistent energy inflation continues to push market expectations toward sustained high interest rates. The sharp pullbacks in precious metals reflect a broader risk-off move across international markets."
+      ]
+    },
+    "story_3": {
+      "kicker": "Corporate | Tech Growth",
+      "headline": "Apple India Revenue Crosses ₹1 Lakh Crore in FY26",
+      "paragraphs": [
+        "Apple India reached a historic financial milestone by crossing ₹1 lakh crore in revenue for FY26. The tech major reported a massive 66% jump in net profit over the same period. Robust consumer demand and increased domestic retail expansion drove the record financial results."
+      ]
+    },
+    "also_today": {
+      "items": [
+        "IHCL raises FY27 revenue growth guidance to 15-17% following record Q2 performance.",
+        "India and Russia aim for $100 billion in bilateral trade by 2030 to deepen economic ties.",
+        "AI code testing startup Blacksmith raises $66 million at a $1 billion valuation.",
+        "Castrol India Q3 net profit slumps 23% to ₹176 crore due to elevated raw material costs."
+      ]
+    }
+  },
+  "geopolitics": {
+    "kicker": "India | US Trade Deal",
+    "headline": "India and US Close to Trade Deal Despite Gaps",
+    "paragraphs": [
+      "US President Donald Trump stated that India and the US are close to reaching a trade agreement. The trade deal draft is already ready, though negotiations continue as both sides navigate final differences.",
+      "While the framework moves forward, remaining gaps must be resolved before implementation. For Indian markets and exporters, the impending agreement marks a pivotal shift in bilateral economic ties."
+    ],
+    "world_60": [
+      "India and Russia aim for $100 billion trade by 2030 as Modi and Putin push cooperation.",
+      "German companies plan to double or triple growth in India over 3 to 5 years, says Piyush Goyal.",
+      "Pakistan textile exporters warn that an EU-India trade deal could erode their market advantage.",
+      "India-UK trade deal faces its first big test as a whisky tax row draws in Britain.",
+      "Panama positions itself as a Latin American trade gateway for Tamil Nadu industries."
+    ],
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
+      "alt": "New Delhi"
+    }
+  },
+  "more": {
+    "big_story": [
+      {
+        "headline": "PM Modi to Inaugurate RBI Data Centre in Jatni",
+        "text": "Prime Minister Narendra Modi is set to visit Odisha to inaugurate a state-of-the-art Reserve Bank of India data centre and cybersecurity training institute in Jatni, near Bhubaneswar. The facility aims to strengthen the country's financial digital infrastructure against cyber threats. This critical investment highlights India's focus on securing its central banking network amidst rapid digitization.",
+        "source": "The New Indian Express",
+        "published": "25 Oct 09:35 IST"
+      },
+      {
+        "headline": "Kajaria Ceramics Posts 43% Rise in Q2 Consolidated Profit",
+        "text": "Tile manufacturer Kajaria Ceramics reported a robust 43% year-on-year increase in its consolidated net profit for the second quarter of FY27. The company's strong performance reflects growing demand driven by increased real estate construction and home renovation activities across Indian markets. This earnings surge underscores steady consumer spending in domestic infrastructure and housing sectors.",
+        "source": "scanx.trade",
+        "published": "24 Oct 19:41 IST"
+      }
+    ],
+    "venture_vault": [
+      {
+        "headline": "TravClan Raises $5 Million to Expand Global Travel Platform",
+        "text": "B2B travel platform TravClan has secured $5 million in funding from Flipkart and venture firm August One to fuel its international expansion. The startup plans to enhance its technology stack and scale presence across key global markets. This strategic investment highlights big tech's growing appetite for digital travel solutions transforming India's tourism ecosystem.",
+        "source": "Indian Startup Times",
+        "published": "23 Oct 20:46 IST"
+      },
+      {
+        "headline": "Indian Startups Secure Over $184 Million in Weekly Funding",
+        "text": "Indian venture funding showed steady momentum as domestic startups raised over $184 million this week, led by deals in Even Health and The Pant Project. The funding inflow reflects sustained investor faith in diverse sectors ranging from healthcare technology to direct-to-consumer fashion. Strong capital allocation signals continuing market maturity across early-stage ecosystem ventures.",
+        "source": "Inc42",
+        "published": "24 Oct 09:00 IST"
+      }
+    ],
+    "geopolitics": [
+      {
+        "headline": "Jaishankar Holds Bilateral Talks with Uzbekistan in Azerbaijan",
+        "text": "External Affairs Minister S. Jaishankar met with his Uzbek counterpart during his official visit to Azerbaijan to review strategic bilateral relations. The discussions focused on deepening trade, transit connectivity, and regional security cooperation between India and Central Asia. This engagement highlights New Delhi's proactive diplomacy to secure economic partnerships along trade corridors.",
+        "source": "The Economic Times",
+        "published": "24 Oct 15:18 IST"
+      },
+      {
+        "headline": "German Firms View India as R&D and Innovation Hub: Goyal",
+        "text": "Commerce Minister Piyush Goyal stated that German enterprises now see India as a premier hub for manufacturing, R&D, and innovation. The shift highlights growing European confidence in India's industrial capabilities and skilled workforce amidst supply chain realignments. This deepening tie boosts India's ambitions to become a global manufacturing superpower.",
+        "source": "The Economic Times",
+        "published": "24 Oct 13:21 IST"
+      }
+    ]
+  },
+  "sources": {
+    "big_story": [
+      {
+        "title": "Ambani's Jio becomes most subscribed Indian IPO with $77 billion in bids",
+        "source": "Reuters"
+      },
+      {
+        "title": "Jio IPO GMP Today: Issue Subscribed 7.01 Times on Day 3; GMP at ₹245",
+        "source": "India Infoline"
+      },
+      {
+        "title": "Jio IPO breaks multiple records: From fundraising to investor demand, how the mega issue rewrote India’s I",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "Jio Platforms' IPO becomes first public offer globally to cross 1 crore applications: Report",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Jio Platforms IPO Sees 70.55x Institutional Subscription As Bids Top $77 Billion",
+        "source": "BW Marketing World"
+      },
+      {
+        "title": "Reliance Jio IPO listing on Oct 28: Will Mukesh Ambani's firm be in top 5 m-cap? RIL to hold top spot",
+        "source": "Livemint"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "Y Combinator-backed Firstwork raises $15 million Series A, takes total funding to $20 million",
+        "source": "Indian Startup News"
+      },
+      {
+        "title": "Firstwork Raises $15 Mn In Series A Round Led By Earlybird Venture Capital",
+        "source": "BW Disrupt"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "RBI Approves Merger of Emirates NBD's Indian Branches With RBL Bank Effective December 1",
+        "source": "INDIA New England News"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "Indian Bonds See Worst Losing Streak in 30 Years as Crude, US Yields Remain Elevated",
+        "source": "Rediff"
+      },
+      {
+        "title": "Gold price falls below $4,000 as rising oil prices fuel inflation and interest rate fears",
+        "source": "Share Talk"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "Apple India Revenue Crosses Rs 1 Lakh Crore In FY26, Profit Jumps 66%",
+        "source": "BW Marketing World"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "Castrol India Q3 net profit slumps 23% to ₹176 crore",
+        "source": "ET Auto"
+      },
+      {
+        "title": "Castrol India Q3 results: Profit drops 49%, raw material costs weigh on margins",
+        "source": "CNBC TV18"
+      },
+      {
+        "title": "IHCL raises FY27 revenue growth guidance to 15-17% after record Q2",
+        "source": "ET TravelWorld"
+      },
+      {
+        "title": "AI code testing startup Blacksmith raises $66 million at $1 billion valuation",
+        "source": "Indian Startup News"
+      },
+      {
+        "title": "India, Russia aim for $100 billion trade by 2030 as Modi, Putin push cooperation",
+        "source": "ET Government"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "India & US are close to reaching trade deal, says US President Donald Trump",
+        "source": "News On AIR"
+      },
+      {
+        "title": "India-U.S. Trade Deal draft is ready, but still there are few gaps",
+        "source": "The Northlines"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "India, Russia aim for $100 billion trade by 2030 as Modi, Putin push cooperation",
+        "source": "ET Government"
+      },
+      {
+        "title": "German companies plan to double, triple growth in India over 3-5 years: Piyush Goyal",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "Pakistan textile exporters warn EU-India trade deal could erode market advantage",
+        "source": "Arab News PK"
+      },
+      {
+        "title": "India-UK trade deal faces first big test as whisky tax row draws in Britain",
+        "source": "The Statesman"
+      },
+      {
+        "title": "Panama positions itself as Latin American trade gateway for Tamil Nadu’s maritime and pharma industries",
+        "source": "ET Government"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "Upcoming IPO: MK Sons Fine Jewels’ ₹275 cr opening next week – Company profile, key dates, share price band and more",
+        "source": "India IPO"
+      },
+      {
+        "title": "IPOs This Week: EAAA India Alternatives, BLS Polymers, M K Sons Fine Jewels Among Others To Hit Primary Market",
+        "source": "NDTV Profit"
+      },
+      {
+        "title": "EAAA India Alternatives Sets INR 1,585–1,665 Price Band for INR 1,200 Crore IPO",
+        "source": "Energetica India Magazine"
+      },
+      {
+        "title": "Bonfiglioli Transmissions shares list at par to IPO price despite 46x bids",
+        "source": "Business Standard"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session 2026-10-23)",
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
+  }
+}
