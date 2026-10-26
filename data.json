@@ -1,61 +1,61 @@
 {
-  "updated_ist": "2026-10-25",
+  "updated_ist": "2026-10-26",
   "cover": {
-    "big_story_teaser": "Jio Platforms rewrites IPO history with over $77 billion in total investor bids.",
-    "venture_teaser": "Firstwork secures $15 million in Series A funding led by Earlybird Venture Capital.",
-    "market_watch_teaser": "As of 2026-10-23 close: Nifty 50 22,600.00 ▼ 0.39%",
-    "daily_brief_teaser": "RBI clears Emirates NBD-RBL merger; Apple India revenue hits ₹1 lakh crore mark.",
-    "inbrief_2": "RBL Bank merges Emirates NBD unit",
-    "inbrief_3": "Gold falls under $4,000 level",
-    "inbrief_4": "Apple India hits ₹1 lakh crore",
-    "inbrief_1": "India-US Trade Deal Draft"
+    "big_story_teaser": "PM Modi inaugurates RBI cybersecurity training institute in Bhubaneswar",
+    "venture_teaser": "Firstwork secures $15 million Series A led by Earlybird Venture Capital",
+    "market_watch_teaser": "LIVE AS OF 9:59 AM IST: Nifty 50 22,647.50 ▲ 0.21%",
+    "daily_brief_teaser": "India-EU FTA targets December seal as FPI equity outflows top ₹48,056 crore",
+    "inbrief_2": "Dec target for India-EU FTA",
+    "inbrief_3": "FPIs pull out ₹48,056 crore",
+    "inbrief_4": "Piramal gains ₹3,000 cr from DHFL",
+    "inbrief_1": "India-US Interim Trade Deal Near"
   },
   "big_story": {
-    "headline": "Inside Reliance Jio's Record IPO",
-    "subhead": "MUKESH AMBANI'S TELECOM GIANT CROSSES ONE CRORE APPLICATIONS IN HISTORIC PUBLIC OFFERING",
+    "headline": "Shielding Banking from Cyber Threats",
+    "subhead": "PM MODI INAUGURATES RBI DATA CENTRE AND CYBERSECURITY INSTITUTE IN BHUBANESWAR",
     "paragraphs": [
-      "Reliance Jio Platforms has rewritten global capital market records after drawing more than $77 billion in bids for its mega public issue. The offering became the first public offer globally to cross one crore applications, reflecting unprecedented retail and institutional interest. Institutional investors led the charge with a massive 70.55x subscription rate by the close of the bidding process. As the market prepares for its upcoming listing on October 28, the blockbuster demand highlights strong investor appetite for India's digital infrastructure.",
-      "The public issue demonstrated massive participation across all investor categories, reaching a total subscription status of 7.01 times on Day 3. Gray market premiums for the stock reached ₹245 ahead of its stock exchange debut on the NSE and BSE. Market analysts note that parent firm Reliance Industries continues to hold top market capitalisation ranking while Jio positions itself for listing among the top domestic corporate giants. The sheer scale of foreign and domestic capital flowing into the offer underscores deep institutional confidence in India's technology ecosystem.",
-      "This historic capital raise establishes new benchmarks for primary market offerings in India and worldwide. Bidders poured in record funds, converting the issue into the most subscribed Indian IPO in history. Market participants are now closely watching the secondary market debut to gauge wider valuation impacts across the telecommunications and technology sectors. Successful execution of this public issue signals robust liquidity and sustained momentum in Indian equity markets."
+      "Prime Minister Narendra Modi inaugurated the Reserve Bank of India's newly established Data Centre and Cybersecurity Training Institute in Bhubaneswar, Odisha. The launch highlights a fresh strategic focus on protecting India's vital financial infrastructure from digital threats. Speaking at the inauguration, PM Modi warned against economic warfare and stressed the imperative need to shield the country's banking system from cyber terrorism.",
+      "The setup of these dedicated facilities reflects a modern priority for India as digital transaction volumes surge nationwide. By establishing localized security infrastructure, the central bank aims to strengthen defensive capabilities across critical payment channels. The Bhubaneswar center will also focus on specialized training to equip banking professionals with skills to neutralize cyber risks.",
+      "As global financial networks face increasingly complex digital attacks, India's proactive investment in cybersecurity signals a commitment to institutional resilience. Observers point out that building robust defenses is crucial to maintaining consumer confidence and economic stability. Financial institutions will now look to leverage the training and protocols established by the new RBI institute."
     ],
-    "pullbox": "With over $77 billion in bids and more than one crore applications, Reliance Jio's historic public offer sets an unprecedented global record for primary market investor demand.",
+    "pullbox": "Protecting digital financial networks against cyber warfare has become central to national security and banking stability in India.",
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Reliance_Jio_Logo.svg/960px-Reliance_Jio_Logo.svg.png",
-      "alt": "Jio"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+      "alt": "Reserve Bank of India"
     }
   },
   "explains": {
-    "title": "What is an Initial Public Offering?",
+    "title": "What is Financial Cybersecurity?",
     "paragraphs": [
-      "An Initial Public Offering, or IPO, is the process through which a private company raises capital by offering shares to the public for the first time. This transition allows institutional and retail investors to own equity in the firm, turning a privately held business into a publicly traded corporation on stock exchanges.",
-      "During an IPO, investment banks underwrite the issue, assist in setting the share price band, and compile institutional and retail bids. Once bidding concludes and shares are allocated, the stock begins trading on public stock exchanges where its price fluctuates based on market demand."
+      "Financial cybersecurity encompasses the technologies, policies, and operational controls designed to protect banking systems, payment networks, and sensitive data from digital attacks.",
+      "In practice, central banks establish dedicated data centers, encryption standards, and threat monitoring facilities to safeguard financial infrastructure from cyber terrorism and fraudulent breaches."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Firstwork, an innovative startup backed by Y Combinator, has successfully raised $15 million in a Series A funding round. The investment round was led by Earlybird Venture Capital, propelling the startup's total capital raised to $20 million. The company intends to deploy the fresh capital toward expanding its operational scale and product offerings.",
-      "Securing substantial early-stage backing reflects growing investor appetite for tech-driven platforms backed by top accelerators. Earlybird Venture Capital's leadership in the round highlights foreign venture conviction in high-growth founding teams. The funding milestone positions Firstwork to accelerate its market trajectory in an increasingly competitive landscape."
+      "Y Combinator-backed startup Firstwork has raised $15 million in a Series A funding round led by Earlybird Venture Capital. This latest injection brings the company's total funding raised to $20 million as it continues its expansion.",
+      "The investment comes as early-stage tech platforms draw targeted capital commitments from prominent venture firms. With backing from Earlybird Venture Capital and Y Combinator, Firstwork plans to deploy the new funds to accelerate product innovation and scale its operational footprint."
     ]
   },
   "market_watch": {
     "indian": [
       {
         "name": "Sensex",
-        "value": "73,123.83 ▼ 0.17%",
+        "value": "72,720.30 ▼ 0.55%",
         "dir": "down",
-        "session_date": "2026-10-23"
+        "live": true
       },
       {
         "name": "Nifty 50",
-        "value": "22,600.00 ▼ 0.39%",
-        "dir": "down",
-        "session_date": "2026-10-23"
+        "value": "22,647.50 ▲ 0.21%",
+        "dir": "up",
+        "live": true
       },
       {
         "name": "Nifty Bank",
-        "value": "54,287.35 ▼ 1.16%",
-        "dir": "down",
-        "session_date": "2026-10-23"
+        "value": "54,308.25 ▲ 0.04%",
+        "dir": "up",
+        "live": true
       }
     ],
     "asian": [
@@ -127,8 +127,8 @@
       },
       {
         "name": "Brent Crude",
-        "value": "$111.70/bbl",
-        "dir": "down",
+        "value": "$116.72/bbl",
+        "dir": "up",
         "session_date": "2026-10-23"
       },
       {
@@ -154,22 +154,19 @@
       "Apollo Hospitals",
       "ONGC"
     ],
-    "snapshot_strip": "Metal and Realty lagged as the Nifty fell 0.39%",
+    "snapshot_strip": "Metal and Realty lagged as the Nifty rose 0.21%",
     "date_label": "OCT 2026",
-    "close_label": "AS OF FRIDAY'S CLOSE, OCT 23",
-    "session_date": "2026-10-23",
+    "close_label": "LIVE AS OF 9:59 AM IST",
+    "live": true,
+    "session_date": "2026-10-26",
     "ipo_desk": [
       {
-        "name": "MK Sons Fine Jewels",
-        "note": "₹275 cr IPO opening next week"
-      },
-      {
         "name": "EAAA India Alternatives",
-        "note": "₹1,200 cr issue; ₹1,585-1,665 band"
+        "note": "₹1,200-crore issue opens for subscription"
       },
       {
-        "name": "Bonfiglioli Transmissions",
-        "note": "Shares list at par despite 46x bids"
+        "name": "Jio Platforms",
+        "note": "Eyes 22% GMP ahead of market listing"
       }
     ]
   },
@@ -189,23 +186,23 @@
       {
         "name": "Silver",
         "unit": "$/oz",
-        "price": "53.95",
-        "day": "▼ 1.49%",
-        "week": "▼ 5.34%",
+        "price": "53.71",
+        "day": "▼ 1.92%",
+        "week": "▼ 5.76%",
         "dir": "down",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,8.8 4.1,9.3 8.3,7.3 12.4,5.1 16.6,3.0 20.7,4.4 24.8,4.2 29.0,7.1 33.1,8.9 37.2,7.4 41.4,13.2 45.5,14.2 49.7,15.3 53.8,14.1 57.9,15.5 62.1,13.8 66.2,13.3 70.3,15.7 74.5,17.3 78.6,14.2 82.8,15.2 86.9,17.1 91.0,24.0 95.2,21.5 99.3,21.2 103.4,21.2 107.6,19.8 111.7,20.4 115.9,25.4 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,8.7 4.1,9.2 8.3,7.2 12.4,5.0 16.6,3.0 20.7,4.4 24.8,4.2 29.0,7.1 33.1,8.8 37.2,7.3 41.4,13.0 45.5,14.0 49.7,15.1 53.8,13.9 57.9,15.3 62.1,13.6 66.2,13.1 70.3,15.4 74.5,17.0 78.6,14.0 82.8,15.0 86.9,16.8 91.0,23.6 95.2,21.2 99.3,20.9 103.4,20.9 107.6,19.5 111.7,20.1 115.9,25.0 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
         "session_date": "2026-10-23"
       },
       {
         "name": "Brent Crude",
         "unit": "$/bbl",
-        "price": "111.70",
-        "day": "▼ 1.30%",
-        "week": "▲ 1.67%",
-        "dir": "down",
+        "price": "116.72",
+        "day": "▲ 3.14%",
+        "week": "▲ 6.24%",
+        "dir": "up",
         "dir_week": "up",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,15.9 4.1,10.6 8.3,15.7 12.4,17.4 16.6,19.0 20.7,25.1 24.8,27.0 29.0,20.4 33.1,14.3 37.2,18.3 41.4,16.6 45.5,21.2 49.7,19.6 53.8,21.7 57.9,21.8 62.1,25.2 66.2,24.7 70.3,25.4 74.5,18.3 78.6,17.6 82.8,14.2 86.9,15.9 91.0,15.3 95.2,15.5 99.3,8.7 103.4,9.2 107.6,10.6 111.7,10.5 115.9,3.0 120.0,5.5\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"5.5\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,18.2 4.1,13.9 8.3,18.0 12.4,19.3 16.6,20.7 20.7,25.5 24.8,27.0 29.0,21.7 33.1,16.9 37.2,20.0 41.4,18.7 45.5,22.4 49.7,21.1 53.8,22.8 57.9,22.9 62.1,25.5 66.2,25.2 70.3,25.7 74.5,20.1 78.6,19.5 82.8,16.8 86.9,18.2 91.0,17.6 95.2,17.8 99.3,12.4 103.4,12.9 107.6,13.9 111.7,13.9 115.9,7.9 120.0,3.0\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"3.0\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
         "session_date": "2026-10-23"
       },
       {
@@ -358,135 +355,131 @@
       }
     ],
     "date_label": "OCT 2026",
-    "close_label": "AS OF FRIDAY'S CLOSE, OCT 23",
+    "close_label": "CLOSE OF OCT 23",
     "session_date": "2026-10-23",
     "nav_label": "NAVS AS OF OCT 23"
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "Banking | Regulatory Approval",
-      "headline": "RBI Approves Emirates NBD Branch Merger With RBL Bank",
+      "kicker": "Trade | India-EU FTA",
+      "headline": "India and EU Target December Seal for Landmark FTA",
       "paragraphs": [
-        "The Reserve Bank of India has officially approved the merger of Emirates NBD's Indian branches with RBL Bank. The regulatory integration is scheduled to take effect from December 1. This move allows the combined banking footprint to expand its operations across key Indian markets.",
-        "The deal strengthens cross-border financial links between India and the UAE. It is expected to provide RBL Bank with expanded capital backing and institutional trade finance capabilities."
+        "India and the European Union are pushing to finalize their landmark Free Trade Agreement by December 2026. Union Commerce Minister Piyush Goyal confirmed that negotiations are on track for a year-end seal, setting up an operational rollout in the first quarter of next year.",
+        "The deal is expected to be signed during Prime Minister Narendra Modi's scheduled visit to Brussels in December. Port and trade authorities across Europe have expressed high expectations for boosted bilateral exchange following the pact."
       ],
       "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
-        "alt": "Reserve Bank of India"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/European_Parliament_logo.svg/330px-European_Parliament_logo.svg.png",
+        "alt": "European Parliament"
       }
     },
     "story_2": {
-      "kicker": "Commodities | Macro Markets",
-      "headline": "Gold Falls Below $4,000 as Bond Markets Face Historic Strain",
+      "kicker": "Markets | Capital Flows",
+      "headline": "FPIs Pull Out ₹48,056 Crore from Indian Equities",
       "paragraphs": [
-        "Gold prices dropped below $4,000 per ounce as surging crude oil prices renewed inflation concerns among global investors. Meanwhile, Indian sovereign bonds recorded their worst losing streak in 30 years as Brent crude remained elevated at $111.70 per barrel. Elevated US treasury yields reaching 4.99% have further fueled sell-offs across debt securities.",
-        "Persistent energy inflation continues to push market expectations toward sustained high interest rates. The sharp pullbacks in precious metals reflect a broader risk-off move across international markets."
+        "Foreign Portfolio Investors have pulled out ₹48,056 crore from Indian equities in October, driven by persistent global risk aversion. High international crude oil prices, ongoing Middle East tensions, and rising US Treasury yields have triggered significant foreign capital flight.",
+        "The massive monthly withdrawal marks one of the heaviest foreign sell-offs this year. Market participants continue to closely monitor US Federal Reserve policy expectations and global commodity trends for hints of stability."
       ]
     },
     "story_3": {
-      "kicker": "Corporate | Tech Growth",
-      "headline": "Apple India Revenue Crosses ₹1 Lakh Crore in FY26",
+      "kicker": "Corporate | Stressed Assets",
+      "headline": "Piramal Finance Gains ₹3,000 Cr from DHFL Assets",
       "paragraphs": [
-        "Apple India reached a historic financial milestone by crossing ₹1 lakh crore in revenue for FY26. The tech major reported a massive 66% jump in net profit over the same period. Robust consumer demand and increased domestic retail expansion drove the record financial results."
+        "Five years after acquiring Dewan Housing Finance Limited, Piramal Finance has gained ₹3,000 crore from stressed loans. The gain highlights steady recovery progress in resolving legacy non-performing assets taken over during the buyout."
       ]
     },
     "also_today": {
       "items": [
-        "IHCL raises FY27 revenue growth guidance to 15-17% following record Q2 performance.",
-        "India and Russia aim for $100 billion in bilateral trade by 2030 to deepen economic ties.",
-        "AI code testing startup Blacksmith raises $66 million at a $1 billion valuation.",
-        "Castrol India Q3 net profit slumps 23% to ₹176 crore due to elevated raw material costs."
+        "Coal India subsidiary Bharat Coking Coal reports ₹124 crore net profit with revenue up 40% YoY.",
+        "Y Combinator-backed Firstwork raises $15 million in Series A round led by Earlybird Venture Capital.",
+        "India and the US move closer to concluding an interim trade deal following high-level discussions.",
+        "Rice exporter KRBL posts a 73% jump in Q1 net profit to ₹261 crore driven by margin expansion."
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India | US Trade Deal",
-    "headline": "India and US Close to Trade Deal Despite Gaps",
+    "kicker": "India x US | Trade Deal",
+    "headline": "India and US Near Interim Trade Deal as Trump Policy Looms",
     "paragraphs": [
-      "US President Donald Trump stated that India and the US are close to reaching a trade agreement. The trade deal draft is already ready, though negotiations continue as both sides navigate final differences.",
-      "While the framework moves forward, remaining gaps must be resolved before implementation. For Indian markets and exporters, the impending agreement marks a pivotal shift in bilateral economic ties."
+      "India and the US are close to reaching a trade deal, according to US President Donald Trump. Indian Commerce Minister Piyush Goyal and the US Trade Representative recently held discussions on an early conclusion to an interim trade deal. Bilateral relations are moving toward deal-making as both sides work to lock in trade terms.",
+      "However, wider geopolitical issues such as Trump's looming policy on Iran add complexity to the negotiations. Indian businesses and exporters are tracking the talks closely to gauge market access and strategic alignment. A successful interim pact could provide much-needed policy certainty for cross-border trade."
     ],
     "world_60": [
-      "India and Russia aim for $100 billion trade by 2030 as Modi and Putin push cooperation.",
-      "German companies plan to double or triple growth in India over 3 to 5 years, says Piyush Goyal.",
-      "Pakistan textile exporters warn that an EU-India trade deal could erode their market advantage.",
-      "India-UK trade deal faces its first big test as a whisky tax row draws in Britain.",
-      "Panama positions itself as a Latin American trade gateway for Tamil Nadu industries."
+      "Trump signs oil deal with Russia despite imposing sanctions on India last month.",
+      "Crude prices ease from six-month highs with Brent at $115 per barrel and WTI at $101.",
+      "Gold reclaims $4,000 per ounce as US-Russia-Ukraine trilateral talks draw near.",
+      "Bangladesh per capita GDP is forecast to outstrip India's.",
+      "Gokaldas eyes doubling its Europe export share to cut reliance on the US market."
     ],
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
-      "alt": "New Delhi"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg",
+      "alt": "Donald Trump"
     }
   },
   "more": {
     "big_story": [
       {
-        "headline": "PM Modi to Inaugurate RBI Data Centre in Jatni",
-        "text": "Prime Minister Narendra Modi is set to visit Odisha to inaugurate a state-of-the-art Reserve Bank of India data centre and cybersecurity training institute in Jatni, near Bhubaneswar. The facility aims to strengthen the country's financial digital infrastructure against cyber threats. This critical investment highlights India's focus on securing its central banking network amidst rapid digitization.",
-        "source": "The New Indian Express",
-        "published": "25 Oct 09:35 IST"
+        "headline": "Market Sell-Off: Sensex Drops 400 Points, Infosys Down 3%",
+        "text": "Indian stock markets opened sharply lower on Monday as the Sensex dropped 400 points and the Nifty fell below 22,500. Technology giant Infosys led the decline, sliding 3 percent in early trade. The drop reflects cautious sentiment across domestic equities as broader valuation pressures weigh on Indian stock benchmarks.",
+        "source": "India Today",
+        "published": "26 Oct 09:20 IST"
       },
       {
-        "headline": "Kajaria Ceramics Posts 43% Rise in Q2 Consolidated Profit",
-        "text": "Tile manufacturer Kajaria Ceramics reported a robust 43% year-on-year increase in its consolidated net profit for the second quarter of FY27. The company's strong performance reflects growing demand driven by increased real estate construction and home renovation activities across Indian markets. This earnings surge underscores steady consumer spending in domestic infrastructure and housing sectors.",
-        "source": "scanx.trade",
-        "published": "24 Oct 19:41 IST"
+        "headline": "ED Attaches ₹43.65 Crore in Electrotherm Bank Fraud Probe",
+        "text": "The Enforcement Directorate attached assets worth ₹43.65 crore linked to Electrotherm as part of an investigation into an old ₹81.97-crore bank-fraud trail. Regulatory authorities continue to tighten action around historic financial default cases. For Indian banking oversight, it underscores persistent legal scrutiny against corporate fraud.",
+        "source": "Inventiva",
+        "published": "26 Oct 04:01 IST"
       }
     ],
     "venture_vault": [
       {
-        "headline": "TravClan Raises $5 Million to Expand Global Travel Platform",
-        "text": "B2B travel platform TravClan has secured $5 million in funding from Flipkart and venture firm August One to fuel its international expansion. The startup plans to enhance its technology stack and scale presence across key global markets. This strategic investment highlights big tech's growing appetite for digital travel solutions transforming India's tourism ecosystem.",
-        "source": "Indian Startup Times",
-        "published": "23 Oct 20:46 IST"
+        "headline": "Indian Startup Funding Drops 22% to ₹1,747 Crore Driven by AI Shift",
+        "text": "Weekly startup funding in India fell 22 percent to ₹1,747 crore, even as artificial intelligence ventures captured half of the overall capital deployed. The investment concentration highlights a sharp pivot by venture capital toward deeptech platforms. For India's ecosystem, it shows how AI demand is restructuring startup financing.",
+        "source": "The420.in",
+        "published": "25 Oct 20:29 IST"
       },
       {
-        "headline": "Indian Startups Secure Over $184 Million in Weekly Funding",
-        "text": "Indian venture funding showed steady momentum as domestic startups raised over $184 million this week, led by deals in Even Health and The Pant Project. The funding inflow reflects sustained investor faith in diverse sectors ranging from healthcare technology to direct-to-consumer fashion. Strong capital allocation signals continuing market maturity across early-stage ecosystem ventures.",
-        "source": "Inc42",
-        "published": "24 Oct 09:00 IST"
+        "headline": "Blacksmith Hits Unicorn Status with $66 Million Funding Round",
+        "text": "AI code testing platform Blacksmith raised $66 million in fresh capital, reaching a $1 billion valuation to achieve unicorn status. The round underscores rapid market demand for automated software infrastructure tools. The successful raise highlights global investor confidence in developer-focused artificial intelligence startups.",
+        "source": "Indian Startup News",
+        "published": "24 Oct 13:21 IST"
       }
     ],
     "geopolitics": [
       {
-        "headline": "Jaishankar Holds Bilateral Talks with Uzbekistan in Azerbaijan",
-        "text": "External Affairs Minister S. Jaishankar met with his Uzbek counterpart during his official visit to Azerbaijan to review strategic bilateral relations. The discussions focused on deepening trade, transit connectivity, and regional security cooperation between India and Central Asia. This engagement highlights New Delhi's proactive diplomacy to secure economic partnerships along trade corridors.",
+        "headline": "Rotterdam Port Chief Sets High Hopes on India-EU Free Trade Deal",
+        "text": "The chief of the Port of Rotterdam expressed very high expectations regarding the proposed India-EU Free Trade Agreement. Trade talks aim to deepen commercial shipping links and lower barriers between European markets and India. A finalised pact could significantly boost bilateral supply chain integration and port infrastructure investment.",
         "source": "The Economic Times",
-        "published": "24 Oct 15:18 IST"
+        "published": "25 Oct 20:34 IST"
       },
       {
-        "headline": "German Firms View India as R&D and Innovation Hub: Goyal",
-        "text": "Commerce Minister Piyush Goyal stated that German enterprises now see India as a premier hub for manufacturing, R&D, and innovation. The shift highlights growing European confidence in India's industrial capabilities and skilled workforce amidst supply chain realignments. This deepening tie boosts India's ambitions to become a global manufacturing superpower.",
-        "source": "The Economic Times",
-        "published": "24 Oct 13:21 IST"
+        "headline": "Tensions in West Asia and Rising Crude Prices Pressure Markets",
+        "text": "Escalating conflict in West Asia combined with rising crude oil prices threatens to put sustained pressure on Indian financial markets. Higher global energy costs pose risks to India's import bill, currency stability, and inflation trajectory. The geopolitical stress highlights India's ongoing vulnerability to imported commodity shocks.",
+        "source": "Deccan Herald",
+        "published": "26 Oct 03:17 IST"
       }
     ]
   },
   "sources": {
     "big_story": [
       {
-        "title": "Ambani's Jio becomes most subscribed Indian IPO with $77 billion in bids",
-        "source": "Reuters"
+        "title": "PM inaugurates RBI’s newly established Data Centre and Cybersecurity Training Institute in Bhubaneswar, Odisha",
+        "source": "PM India"
       },
       {
-        "title": "Jio IPO GMP Today: Issue Subscribed 7.01 Times on Day 3; GMP at ₹245",
-        "source": "India Infoline"
+        "title": "PM Modi warns against economic warfare, stressing need to shield country’s banking system from cyber terrorism",
+        "source": "News On AIR"
       },
       {
-        "title": "Jio IPO breaks multiple records: From fundraising to investor demand, how the mega issue rewrote India’s I",
-        "source": "The Economic Times"
+        "title": "Odisha's new Data Centre and Cybersecurity Training Institute facilities of the RBI reflect a new priority for India: PM Modi",
+        "source": "NarendraModi.in"
       },
       {
-        "title": "Jio Platforms' IPO becomes first public offer globally to cross 1 crore applications: Report",
-        "source": "The Times of India"
+        "title": "PM Modi Inaugurates RBI Data Centre and Cybersecurity Training Institute in Odisha",
+        "source": "www.nationpathindia.com"
       },
       {
-        "title": "Jio Platforms IPO Sees 70.55x Institutional Subscription As Bids Top $77 Billion",
-        "source": "BW Marketing World"
-      },
-      {
-        "title": "Reliance Jio IPO listing on Oct 28: Will Mukesh Ambani's firm be in top 5 m-cap? RIL to hold top spot",
-        "source": "Livemint"
+        "title": "PM Modi inaugurates RBI data centre, cyber security institute in Bhubaneswar",
+        "source": "Greater Kashmir"
       }
     ],
     "venture_vault": [
@@ -501,46 +494,50 @@
     ],
     "daily_brief_1": [
       {
-        "title": "RBI Approves Merger of Emirates NBD's Indian Branches With RBL Bank Effective December 1",
-        "source": "INDIA New England News"
+        "title": "India-EU FTA Set For Year-End Seal, Operational Rollout Slated For Q1 Next Year: Piyush Goyal",
+        "source": "NDTV Profit"
+      },
+      {
+        "title": "India and EU Race to Sign Landmark Free Trade Agreement in December During PM Modi's Brussels Visit",
+        "source": "Pragativadi"
+      },
+      {
+        "title": "India-EU Trade Deal May Be Signed During PM Modi’s Brussels Visit In December: Report",
+        "source": "Outlook India"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "Indian Bonds See Worst Losing Streak in 30 Years as Crude, US Yields Remain Elevated",
-        "source": "Rediff"
+        "title": "FPIs Pull Out Rs 48,056 Crore From Indian Equities in October: Three Key Triggers Behind Selloff",
+        "source": "NDTV Profit"
       },
       {
-        "title": "Gold price falls below $4,000 as rising oil prices fuel inflation and interest rate fears",
-        "source": "Share Talk"
+        "title": "Stock Market Today: Gift Nifty, FPI Outflows To Oil Prices; Five Key Factors For Sensex, Nifty 50 On October 26",
+        "source": "NDTV Profit"
       }
     ],
     "daily_brief_3": [
       {
-        "title": "Apple India Revenue Crosses Rs 1 Lakh Crore In FY26, Profit Jumps 66%",
-        "source": "BW Marketing World"
+        "title": "Five years after DHFL buyout, Piramal Finance gains Rs 3,000 crore from stressed loans",
+        "source": "The New Indian Express"
       }
     ],
     "also_today": [
       {
-        "title": "Castrol India Q3 net profit slumps 23% to ₹176 crore",
-        "source": "ET Auto"
+        "title": "Bharat Coking Coal Q2 Results: PSU Coal India Arm Swings To Profit, Revenue Jumps 40% YoY",
+        "source": "NDTV Profit"
       },
       {
-        "title": "Castrol India Q3 results: Profit drops 49%, raw material costs weigh on margins",
-        "source": "CNBC TV18"
+        "title": "KRBL Q1FY27 net profit rises 73% to ₹261 crore on margin expansion",
+        "source": "scanx.trade"
       },
       {
-        "title": "IHCL raises FY27 revenue growth guidance to 15-17% after record Q2",
-        "source": "ET TravelWorld"
-      },
-      {
-        "title": "AI code testing startup Blacksmith raises $66 million at $1 billion valuation",
+        "title": "Y Combinator-backed Firstwork raises $15 million Series A, takes total funding to $20 million",
         "source": "Indian Startup News"
       },
       {
-        "title": "India, Russia aim for $100 billion trade by 2030 as Modi, Putin push cooperation",
-        "source": "ET Government"
+        "title": "India & US are close to reaching trade deal, says US President Donald Trump",
+        "source": "News On AIR"
       }
     ],
     "geopolitics": [
@@ -549,51 +546,47 @@
         "source": "News On AIR"
       },
       {
-        "title": "India-U.S. Trade Deal draft is ready, but still there are few gaps",
-        "source": "The Northlines"
+        "title": "India-US ties shift to deal-making as Trump's Iran policy looms",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "Piyush Goyal, US Trade Representative Discuss Early Conclusion of India-US Interim Trade Deal",
+        "source": "INDIA New England News"
       }
     ],
     "world_60": [
       {
-        "title": "India, Russia aim for $100 billion trade by 2030 as Modi, Putin push cooperation",
-        "source": "ET Government"
+        "title": "Trump Signs Oil Deal With Russia Despite Imposing Sanctions On India Last Month",
+        "source": "Inventiva"
       },
       {
-        "title": "German companies plan to double, triple growth in India over 3-5 years: Piyush Goyal",
-        "source": "The Economic Times"
+        "title": "Crude prices fall from six-month highs; WTI stands at $101 per barrel, Brent costs $115",
+        "source": "The Times of India"
       },
       {
-        "title": "Pakistan textile exporters warn EU-India trade deal could erode market advantage",
-        "source": "Arab News PK"
+        "title": "As US-Russia-Ukraine Trilateral Talks Near, Global Oil Prices Plunge and Gold Reclaims $4,000",
+        "source": "BigGo Finance"
       },
       {
-        "title": "India-UK trade deal faces first big test as whisky tax row draws in Britain",
-        "source": "The Statesman"
+        "title": "Bangladesh per capita GDP forecast to outstrip India’s: What does it mean?",
+        "source": "Al Jazeera"
       },
       {
-        "title": "Panama positions itself as Latin American trade gateway for Tamil Nadu’s maritime and pharma industries",
-        "source": "ET Government"
+        "title": "Gap apparel supplier Gokaldas eyes doubling Europe exports share to cut US reliance",
+        "source": "Reuters"
       }
     ],
     "ipo_desk": [
       {
-        "title": "Upcoming IPO: MK Sons Fine Jewels’ ₹275 cr opening next week – Company profile, key dates, share price band and more",
-        "source": "India IPO"
+        "title": "EAAA India Alternatives IPO: ₹1,200-crore issue opens for subscription today",
+        "source": "CNBC TV18"
       },
       {
-        "title": "IPOs This Week: EAAA India Alternatives, BLS Polymers, M K Sons Fine Jewels Among Others To Hit Primary Market",
-        "source": "NDTV Profit"
-      },
-      {
-        "title": "EAAA India Alternatives Sets INR 1,585–1,665 Price Band for INR 1,200 Crore IPO",
-        "source": "Energetica India Magazine"
-      },
-      {
-        "title": "Bonfiglioli Transmissions shares list at par to IPO price despite 46x bids",
-        "source": "Business Standard"
+        "title": "Jio IPO: At 22% GMP, Jio could pip Airtel to become India’s second-most valued firm; Reliance Group eyes Tata’s m-cap crown",
+        "source": "Fortune India"
       }
     ],
-    "market_data": "Yahoo Finance (computed, session 2026-10-23)",
+    "market_data": "Yahoo Finance (computed, session 2026-10-26)",
     "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
   }
 }
