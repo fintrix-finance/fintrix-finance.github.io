@@ -61,10 +61,11 @@
         "name": "Nifty Bank",
         "value": "54,697.80 ▲ 0.79%",
         "dir": "up",
-        "live": true,
+        "live": false,
         "as_of": "2026-10-29 14:01 IST",
         "change_points": 430.4,
-        "previous_close": 54267.4
+        "previous_close": 54267.4,
+        "session_date": "2:01 PM IST"
       }
     ],
     "asian": [
