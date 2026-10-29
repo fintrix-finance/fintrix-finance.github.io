@@ -1,9 +1,9 @@
 {
   "updated_ist": "2026-10-29",
   "cover": {
-    "big_story_teaser": "Sensex jumps over 1,100 points as markets rally on US Fed hold and tax comments.",
+    "big_story_teaser": "Sensex and Nifty rose in afternoon trade; Fed kept rates steady.",
     "venture_teaser": "ISLAND Beauty raises funding to build out its brand.",
-    "market_watch_teaser": "LIVE AS OF 2:03 PM IST: Nifty 50 22,897.65 ▲ 0.65%",
+    "market_watch_teaser": "AS OF OCT 29, 2:03 PM IST: Sensex 73,954.80 ▲ 0.97%",
     "daily_brief_teaser": "US trade deal safeguards, Vedanta Q2 surge, and PM Modi cyber warning",
     "inbrief_2": "Goyal Assures Farmers on US Deal",
     "inbrief_3": "Vedanta Q2 Profit Zooms 78%",
@@ -11,14 +11,14 @@
     "inbrief_1": "India Mexico Trade Deal Talks"
   },
   "big_story": {
-    "headline": "Markets Rally on Fed Hold",
-    "subhead": "SENSEX AND NIFTY SURGE AS THE US CENTRAL BANK HOLDS RATES AND TAX COMMENTS BOOST SENTIMENT.",
+    "headline": "Indian Shares Advance; Sensex Up 709 Points by 2:03 PM",
+    "subhead": "AT 2:03 PM IST ON OCT 29, SENSEX WAS 73,954.80 (+708.77, +0.97%) AND NIFTY 50 WAS 22,890.35 (+191.50, +0.84%).",
     "paragraphs": [
-      "Indian equity markets surged during the session, with the Sensex jumping over 1,100 points as investor sentiment was lifted by the Finance Minister's tax comments and the US Federal Reserve keeping interest rates unchanged. The Nifty 50 traded higher near the 22,900 mark, supported by gains across key sectors like Auto and Pharma despite elevated crude oil prices remaining a persistent concern. Analysts note that the Fed's decision to pause has provided much-needed breathing room for domestic markets.",
-      "The positive momentum drove widespread gains across the broader market, resulting in significant value creation during the session. While IT and Energy lagged, robust buying in major stocks propelled the benchmark indices upward. Meanwhile, the India VIX cooled down, reflecting reduced immediate volatility as domestic cues aligned with favorable global developments.",
-      "Investors will continue to monitor macroeconomic indicators, particularly crude oil price movements and currency fluctuations, as the rupee navigates sticky dollar bids. With central banks maintaining a cautious stance, market participants await further clarity on global monetary policy shifts and upcoming domestic corporate scorecards."
+      "Indian benchmark indices traded higher on Thursday, October 29. At 2:03 PM IST, the Sensex stood at 73,954.80, up 708.77 points (0.97%) from Wednesday's close; the Nifty 50 was 22,890.35, up 191.50 points (0.84%).",
+      "At 2:01 PM IST, Nifty Bank was 54,697.80, up 430.40 points (0.79%) from its October 28 close of 54,267.40. Moneycontrol's 2:03 PM market update reported broad advances, with Auto the exception among sector indices; FMCG, Media and PSU Bank were each up about 1%.",
+      "On October 28, the Federal Open Market Committee voted to maintain the federal funds target range at 3.75%-4%, according to the Federal Reserve. These are time-stamped intraday figures, not closing levels."
     ],
-    "pullbox": "The Fed's rate pause and domestic tax commentary ignited a powerful rally, driving Sensex up over 1,100 points and lifting the Nifty toward 22,900.",
+    "pullbox": "On October 28, the Federal Open Market Committee voted to maintain the federal funds target range at 3.75%-4%, according to the Federal Reserve. These are time-stamped intraday figures, not closing levels.",
     "image": {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/BSE_logo.svg/330px-BSE_logo.svg.png",
       "alt": "Bombay Stock Exchange"
@@ -41,21 +41,30 @@
     "indian": [
       {
         "name": "Sensex",
-        "value": "73,858.30 ▲ 0.35%",
+        "value": "73,954.80 ▲ 0.97%",
         "dir": "up",
-        "live": true
+        "live": true,
+        "as_of": "2026-10-29 14:03 IST",
+        "change_points": 708.77,
+        "previous_close": 73246.03
       },
       {
         "name": "Nifty 50",
-        "value": "22,897.65 ▲ 0.65%",
+        "value": "22,890.35 ▲ 0.84%",
         "dir": "up",
-        "live": true
+        "live": true,
+        "as_of": "2026-10-29 14:03 IST",
+        "change_points": 191.5,
+        "previous_close": 22698.85
       },
       {
         "name": "Nifty Bank",
-        "value": "54,721.75 ▲ 1.38%",
+        "value": "54,697.80 ▲ 0.79%",
         "dir": "up",
-        "live": true
+        "live": true,
+        "as_of": "2026-10-29 14:01 IST",
+        "change_points": 430.4,
+        "previous_close": 54267.4
       }
     ],
     "asian": [
@@ -154,9 +163,9 @@
       "Bharti Airtel",
       "Bajaj Auto"
     ],
-    "snapshot_strip": "Auto and Pharma led; IT and Energy lagged as the Nifty rose 0.65%",
+    "snapshot_strip": "Markets were higher at 2:03 PM IST; Auto was the only sectoral laggard in the 2:03 PM market update.",
     "date_label": "OCT 2026",
-    "close_label": "LIVE AS OF 2:03 PM IST",
+    "close_label": "AS OF OCT 29, 2:03 PM IST",
     "live": true,
     "session_date": "2026-10-29",
     "ipo_desk": [
@@ -460,20 +469,14 @@
   "sources": {
     "big_story": [
       {
-        "title": "Why is market rising today? Sensex jumps 600 points, Nifty nears 22,900. 6 key factors behind Rs 3 lakh crore gains",
-        "source": "The Economic Times"
+        "title": "Sensex Today | Stock Market LIVE Updates: GIFT Nifty hints at a firm opening; US markets gain, Asian peers trade flat",
+        "source": "Moneycontrol",
+        "url": "https://www.moneycontrol.com/news/business/markets/stock-market-live-updates-nifty50-share-price-sensex-share-price-crude-fii-gift-nifty-rupee-latest-updates-29-10-2026-alpha-liveblog-14062910.html"
       },
       {
-        "title": "Sensex Jumps Over 1,100 Points as Finance Minister’s Tax Comments Lift Indian Markets",
-        "source": "INDIA New England News"
-      },
-      {
-        "title": "Sensex, Nifty trade higher after US Fed holds rates; crude oil remains a concern",
-        "source": "India Today"
-      },
-      {
-        "title": "US Fed Holds Rates, But Another Hike Looms: What It Means For Indian Stock Market",
-        "source": "NDTV Profit"
+        "title": "Federal Reserve issues FOMC statement",
+        "source": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
       }
     ],
     "venture_vault": [
