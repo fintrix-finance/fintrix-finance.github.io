@@ -1,71 +1,61 @@
 {
-  "updated_ist": "2026-10-29",
+  "updated_ist": "2026-10-30",
   "cover": {
-    "big_story_teaser": "Sensex and Nifty rose in afternoon trade; Fed kept rates steady.",
-    "venture_teaser": "ISLAND Beauty raises funding to build out its brand.",
-    "market_watch_teaser": "AS OF OCT 29, 2:03 PM IST: Sensex 73,954.80 ▲ 0.97%",
-    "daily_brief_teaser": "US trade deal safeguards, Vedanta Q2 surge, and PM Modi cyber warning",
-    "inbrief_2": "Goyal Assures Farmers on US Deal",
-    "inbrief_3": "Vedanta Q2 Profit Zooms 78%",
-    "inbrief_4": "Modi Warns on Cyber Attacks",
-    "inbrief_1": "India Mexico Trade Deal Talks"
+    "big_story_teaser": "India pushes for trade deals with the US and EU while protecting farmers and key sectors.",
+    "venture_teaser": "Bengaluru startup Simplismart raises $14 million in a round joined by NVIDIA.",
+    "market_watch_teaser": "LIVE AS OF 9:59 AM IST: Nifty 50 22,982.40 ▲ 0.20%",
+    "daily_brief_teaser": "Coal India posts 53% Q2 profit rise while Brent crude nears $116",
+    "inbrief_2": "Coal India Q2 Profit Jumps 53%",
+    "inbrief_3": "Brent Crude Nears $116 on Attacks",
+    "inbrief_4": "Small Investors Dump Stocks",
+    "inbrief_1": "India-EU Trade Deal in Brussels"
   },
   "big_story": {
-    "headline": "Indian Shares Advance; Sensex Up 709 Points by 2:03 PM",
-    "subhead": "AT 2:03 PM IST ON OCT 29, SENSEX WAS 73,954.80 (+708.77, +0.97%) AND NIFTY 50 WAS 22,890.35 (+191.50, +0.84%).",
+    "headline": "Shielding Agriculture, Expanding Trade",
+    "subhead": "PIYUSH GOYAL ASSERTS NEW TRADE DEALS WILL PROTECT FARMERS WHILE BOOSTING EXPORTS",
     "paragraphs": [
-      "Indian benchmark indices traded higher on Thursday, October 29. At 2:03 PM IST, the Sensex stood at 73,954.80, up 708.77 points (0.97%) from Wednesday's close; the Nifty 50 was 22,890.35, up 191.50 points (0.84%).",
-      "At 2:01 PM IST, Nifty Bank was 54,697.80, up 430.40 points (0.79%) from its October 28 close of 54,267.40. Moneycontrol's 2:03 PM market update reported broad advances, with Auto the exception among sector indices; FMCG, Media and PSU Bank were each up about 1%.",
-      "On October 28, the Federal Open Market Committee voted to maintain the federal funds target range at 3.75%-4%, according to the Federal Reserve. These are time-stamped intraday figures, not closing levels."
+      "Union Commerce Minister Piyush Goyal has assured that upcoming trade agreements with major foreign partners will safeguard all sensitive domestic sectors. Addressing concerns over market opening, Goyal highlighted that the India-US trade deal will protect the interests of Indian farmers and critical industries. He emphasized that the deal is designed to give the country a strong comparative advantage on the global stage.",
+      "The trade push comes alongside a significant bilateral schedule with European partners as well. European leaders confirmed that Prime Minister Narendra Modi is scheduled to travel to Brussels in December to officially sign the India-EU trade deal. The agreement is expected to see a full rollout in mid-2027 as industries seek faster regulatory approvals and easier market access.",
+      "Despite prevailing global macroeconomic headwinds, the government remains optimistic about external trade metrics. Goyal stated that India can still achieve its ambitious target of $1 trillion in exports for the current fiscal year. Investors and trade groups will be closely monitoring how domestic policy protections align with foreign market concessions in the coming months."
     ],
-    "pullbox": "On October 28, the Federal Open Market Committee voted to maintain the federal funds target range at 3.75%-4%, according to the Federal Reserve. These are time-stamped intraday figures, not closing levels.",
+    "pullbox": "Safeguard measures in new trade pacts aim to protect Indian farmers while positioning domestic exporters to achieve the country's $1 trillion export target this fiscal year.",
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/BSE_logo.svg/330px-BSE_logo.svg.png",
-      "alt": "Bombay Stock Exchange"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Piyush_Goyal_crop.jpg/330px-Piyush_Goyal_crop.jpg",
+      "alt": "Piyush Goyal"
     }
   },
   "explains": {
-    "title": "What is Quantitative Easing?",
+    "title": "What is Comparative Advantage?",
     "paragraphs": [
-      "Quantitative easing is a monetary policy where a central bank buys government bonds or other financial assets to inject liquidity directly into the economy.",
-      "By increasing the money supply, central banks aim to lower borrowing costs and encourage lending when standard interest rates are already near zero."
+      "Comparative advantage is an economic principle describing how a nation produces goods or services at a lower opportunity cost than its trading partners. Instead of trying to excel at everything, a country focuses resources on sectors where it holds the greatest relative efficiency.",
+      "In international trade negotiations, leveraging comparative advantage allows a nation to export its most competitive products while protecting sensitive domestic markets. This strategy helps boost overall trade volume without disrupting vulnerable local industries like agriculture."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Indian skincare brand ISLAND Beauty, founded by Shirley Setia, has successfully raised ₹2.58 crore in funding from AJ VC. The startup aims to use the capital to build out its product offerings and expand its market presence.",
-      "The funding round highlights the growing investor appetite for consumer-facing beauty brands backed by prominent creators. With this new capital, the founders plan to strengthen their operational capabilities and scale up operations."
+      "Bengaluru-based artificial intelligence startup Simplismart has raised $14 million in its latest funding round. The investment round was led by Dallas VC along with participation from global tech leader NVIDIA, valuing the startup at $100 million.",
+      "The funding highlights growing investor appetite for foundational AI infrastructure technologies built out of India. Simplismart plans to utilize the newly raised capital to expand its engineering capabilities and scale its AI model deployment platform for global markets."
     ]
   },
   "market_watch": {
     "indian": [
       {
         "name": "Sensex",
-        "value": "73,954.80 ▲ 0.97%",
+        "value": "74,250.90 ▲ 0.13%",
         "dir": "up",
-        "live": true,
-        "as_of": "2026-10-29 14:03 IST",
-        "change_points": 708.77,
-        "previous_close": 73246.03
+        "live": true
       },
       {
         "name": "Nifty 50",
-        "value": "22,890.35 ▲ 0.84%",
+        "value": "22,982.40 ▲ 0.20%",
         "dir": "up",
-        "live": true,
-        "as_of": "2026-10-29 14:03 IST",
-        "change_points": 191.5,
-        "previous_close": 22698.85
+        "live": true
       },
       {
         "name": "Nifty Bank",
-        "value": "54,697.80 ▲ 0.79%",
-        "dir": "up",
-        "live": false,
-        "as_of": "2026-10-29 14:01 IST",
-        "change_points": 430.4,
-        "previous_close": 54267.4,
-        "session_date": "2:01 PM IST"
+        "value": "54,727.55 ▼ 0.33%",
+        "dir": "down",
+        "live": true
       }
     ],
     "asian": [
@@ -91,96 +81,96 @@
     "european": [
       {
         "name": "FTSE 100",
-        "value": "10,694.50 ▲ 0.07%",
+        "value": "10,722.07 ▲ 0.26%",
         "dir": "up",
-        "session_date": "2026-10-28"
+        "session_date": "2026-10-29"
       },
       {
         "name": "DAX",
-        "value": "25,704.02 ▲ 0.44%",
+        "value": "26,039.68 ▲ 1.31%",
         "dir": "up",
-        "session_date": "2026-10-28"
+        "session_date": "2026-10-29"
       },
       {
         "name": "CAC 40",
-        "value": "7,886.96 ▼ 0.00%",
-        "dir": "down",
-        "session_date": "2026-10-28"
+        "value": "7,970.00 ▲ 1.05%",
+        "dir": "up",
+        "session_date": "2026-10-29"
       }
     ],
     "us": [
       {
         "name": "S&P 500",
-        "value": "7,743.98 ▲ 0.28%",
-        "dir": "up",
-        "session_date": "2026-10-28"
+        "value": "7,720.39 ▼ 0.30%",
+        "dir": "down",
+        "session_date": "2026-10-29"
       },
       {
         "name": "Nasdaq",
-        "value": "26,549.85 ▲ 0.27%",
-        "dir": "up",
-        "session_date": "2026-10-28"
+        "value": "26,184.72 ▼ 1.38%",
+        "dir": "down",
+        "session_date": "2026-10-29"
       },
       {
         "name": "Dow Jones",
-        "value": "52,475.10 ▲ 0.19%",
-        "dir": "up",
-        "session_date": "2026-10-28"
+        "value": "52,342.56 ▼ 0.25%",
+        "dir": "down",
+        "session_date": "2026-10-29"
       }
     ],
     "global": [
       {
         "name": "Dollar Index",
-        "value": "102.19 ▼ 0.13%",
+        "value": "102.04 ▼ 0.15%",
         "dir": "down",
-        "session_date": "2026-10-28"
+        "session_date": "2026-10-29"
       },
       {
         "name": "Brent Crude",
-        "value": "$115.32/bbl",
-        "dir": "up",
-        "session_date": "2026-10-28"
+        "value": "$114.88/bbl",
+        "dir": "down",
+        "session_date": "2026-10-29"
       },
       {
         "name": "Gold",
-        "value": "$4,052/oz",
+        "value": "$4,031/oz",
         "dir": "down",
-        "session_date": "2026-10-28"
+        "session_date": "2026-10-29"
       },
       {
         "name": "US 10Y Yield",
-        "value": "5.04% ▲ 5.2 bp",
-        "dir": "up",
-        "session_date": "2026-10-28"
+        "value": "4.99% ▼ 5.6 bp",
+        "dir": "down",
+        "session_date": "2026-10-29"
       }
     ],
     "losers": [
-      "Asian Paints",
-      "Coal India",
-      "Grasim"
-    ],
-    "winners": [
-      "Tata Consumer",
-      "Bharti Airtel",
+      "Trent",
+      "Maruti Suzuki",
       "Bajaj Auto"
     ],
-    "snapshot_strip": "Markets were higher at 2:03 PM IST; Auto was the only sectoral laggard in the 2:03 PM market update.",
+    "winners": [
+      "Adani Ports",
+      "Adani Enterprises",
+      "Kotak Mahindra Bank"
+    ],
+    "snapshot_strip": "Realty and FMCG led; Auto lagged as the Nifty rose 0.20%",
     "date_label": "OCT 2026",
-    "close_label": "AS OF OCT 29, 2:03 PM IST",
+    "close_label": "LIVE AS OF 9:59 AM IST",
     "live": true,
-    "session_date": "2026-10-29",
+    "session_date": "2026-10-30",
     "ipo_desk": [
       {
-        "name": "Antala Industries",
-        "note": "SME IPO opens today with key details"
+        "name": "Jio Platforms",
+        "note": "Debut at ₹1,357 after 21% premium listing"
       },
       {
-        "name": "Bombay Coated",
-        "note": "Special Steels IPO opens today"
+        "name": "Core4 Engineers",
+        "note": "SME issue shares to list today"
       },
       {
-        "name": "Carver Roboweld",
-        "note": "IPO price band and details set"
+        "name": "BLS Polymers",
+        "note": "IPO issue subscribed 240 times"
       }
     ]
   },
@@ -189,46 +179,46 @@
       {
         "name": "Gold",
         "unit": "$/oz",
-        "price": "4,052",
-        "day": "▼ 0.56%",
-        "week": "▼ 2.37%",
+        "price": "4,031",
+        "day": "▼ 0.50%",
+        "week": "▼ 0.71%",
         "dir": "down",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,4.5 4.1,3.0 8.3,5.4 12.4,5.8 16.6,9.1 20.7,10.3 24.8,9.0 29.0,17.8 33.1,17.1 37.2,16.7 41.4,15.8 45.5,18.1 49.7,18.4 53.8,16.7 57.9,19.4 62.1,18.4 66.2,15.0 70.3,16.5 74.5,17.3 78.6,21.2 82.8,17.7 86.9,17.0 91.0,18.2 95.2,19.2 99.3,18.8 103.4,24.0 107.6,27.0 111.7,25.2 115.9,23.2 120.0,24.5\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"24.5\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
-        "session_date": "2026-10-28"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,5.4 8.3,5.8 12.4,9.1 16.6,10.3 20.7,9.0 24.8,17.8 29.0,17.1 33.1,16.7 37.2,15.8 41.4,18.1 45.5,18.4 49.7,16.7 53.8,19.4 57.9,18.4 62.1,15.0 66.2,16.5 70.3,17.3 74.5,21.2 78.6,17.7 82.8,17.0 86.9,18.2 91.0,19.2 95.2,18.8 99.3,24.0 103.4,27.0 107.6,25.2 111.7,23.2 115.9,24.5 120.0,25.6\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"25.6\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-29"
       },
       {
         "name": "Silver",
         "unit": "$/oz",
-        "price": "53.46",
-        "day": "▼ 1.54%",
-        "week": "▼ 6.91%",
+        "price": "52.19",
+        "day": "▼ 2.37%",
+        "week": "▼ 4.70%",
         "dir": "down",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,5.0 4.1,3.0 8.3,4.3 12.4,4.1 16.6,7.0 20.7,8.7 24.8,7.2 29.0,12.8 33.1,13.8 37.2,14.8 41.4,13.7 45.5,15.1 49.7,13.4 53.8,12.9 57.9,15.2 62.1,16.7 66.2,13.8 70.3,14.8 74.5,16.5 78.6,23.2 82.8,20.8 86.9,20.5 91.0,20.6 95.2,19.2 99.3,19.7 103.4,24.6 107.6,26.5 111.7,25.8 115.9,25.5 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
-        "session_date": "2026-10-28"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,4.2 8.3,4.0 12.4,6.6 16.6,8.2 20.7,6.9 24.8,11.9 29.0,12.8 33.1,13.8 37.2,12.7 41.4,14.0 45.5,12.5 49.7,12.0 53.8,14.1 57.9,15.5 62.1,12.8 66.2,13.7 70.3,15.4 74.5,21.4 78.6,19.2 82.8,19.0 86.9,19.0 91.0,17.8 95.2,18.3 99.3,22.7 103.4,24.5 107.6,23.8 111.7,23.5 115.9,24.9 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-29"
       },
       {
         "name": "Brent Crude",
         "unit": "$/bbl",
-        "price": "115.32",
-        "day": "▲ 1.26%",
-        "week": "▲ 5.97%",
-        "dir": "up",
+        "price": "114.88",
+        "day": "▼ 0.38%",
+        "week": "▲ 1.51%",
+        "dir": "down",
         "dir_week": "up",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,19.3 4.1,20.7 8.3,25.5 12.4,27.0 16.6,21.7 20.7,16.9 24.8,20.0 29.0,18.7 33.1,22.4 37.2,21.1 41.4,22.8 45.5,22.9 49.7,25.5 53.8,25.2 57.9,25.7 62.1,20.1 66.2,19.5 70.3,16.8 74.5,18.2 78.6,17.6 82.8,17.8 86.9,12.4 91.0,12.9 95.2,13.9 99.3,13.9 103.4,7.9 107.6,3.0 111.7,4.3 115.9,6.9 120.0,4.9\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"4.9\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
-        "session_date": "2026-10-28"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,20.7 4.1,25.5 8.3,27.0 12.4,21.7 16.6,16.9 20.7,20.0 24.8,18.7 29.0,22.4 33.1,21.1 37.2,22.8 41.4,22.9 45.5,25.5 49.7,25.2 53.8,25.7 57.9,20.1 62.1,19.5 66.2,16.8 70.3,18.2 74.5,17.6 78.6,17.8 82.8,12.4 86.9,12.9 91.0,13.9 95.2,13.9 99.3,7.9 103.4,3.0 107.6,4.3 111.7,6.9 115.9,4.9 120.0,5.5\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"5.5\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-29"
       },
       {
         "name": "WTI Crude",
         "unit": "$/bbl",
-        "price": "102.78",
-        "day": "▲ 2.88%",
-        "week": "▲ 5.80%",
-        "dir": "up",
+        "price": "102.00",
+        "day": "▼ 0.76%",
+        "week": "▲ 2.54%",
+        "dir": "down",
         "dir_week": "up",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,5.7 4.1,8.2 8.3,15.3 12.4,17.2 16.6,20.9 20.7,17.1 24.8,20.6 29.0,20.3 33.1,25.3 37.2,23.7 41.4,19.8 45.5,22.6 49.7,25.2 53.8,25.2 57.9,27.0 62.1,22.0 66.2,21.4 70.3,18.5 74.5,17.9 78.6,16.4 82.8,11.9 86.9,6.5 91.0,3.0 95.2,5.9 99.3,13.2 103.4,9.5 107.6,3.6 111.7,6.0 115.9,8.9 120.0,4.4\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"4.4\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
-        "session_date": "2026-10-28"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,8.2 4.1,15.3 8.3,17.2 12.4,20.9 16.6,17.1 20.7,20.6 24.8,20.3 29.0,25.3 33.1,23.7 37.2,19.8 41.4,22.6 45.5,25.2 49.7,25.2 53.8,27.0 57.9,22.0 62.1,21.4 66.2,18.5 70.3,17.9 74.5,16.4 78.6,11.9 82.8,6.5 86.9,3.0 91.0,5.9 95.2,13.2 99.3,9.5 103.4,3.6 107.6,6.0 111.7,8.9 115.9,4.4 120.0,5.6\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"5.6\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-29"
       }
     ],
     "alternatives": [
@@ -243,119 +233,119 @@
       },
       {
         "name": "Nexus Select REIT",
-        "price": "₹157.99",
-        "day": "▼ 0.31%",
-        "week": "▼ 3.68%",
-        "dir": "down",
-        "dir_week": "down",
-        "session_date": "2026-10-27"
-      },
-      {
-        "name": "Mindspace REIT",
-        "price": "₹482.94",
-        "day": "▼ 0.46%",
-        "week": "▼ 2.11%",
-        "dir": "down",
-        "dir_week": "down",
-        "session_date": "2026-10-27"
-      },
-      {
-        "name": "Brookfield REIT",
-        "price": "₹307.87",
-        "day": "▼ 0.12%",
-        "week": "▼ 2.47%",
+        "price": "₹156.85",
+        "day": "▼ 0.72%",
+        "week": "▼ 3.48%",
         "dir": "down",
         "dir_week": "down",
         "session_date": "2026-10-28"
       },
       {
-        "name": "PowerGrid InvIT",
-        "price": "₹102.32",
-        "day": "▼ 0.01%",
-        "week": "▼ 0.66%",
+        "name": "Mindspace REIT",
+        "price": "₹476.17",
+        "day": "▼ 1.44%",
+        "week": "▼ 3.20%",
         "dir": "down",
         "dir_week": "down",
-        "session_date": "2026-10-27"
+        "session_date": "2026-10-29"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹308.60",
+        "day": "▲ 0.24%",
+        "week": "▼ 1.71%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-10-29"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹103.47",
+        "day": "▲ 1.34%",
+        "week": "▲ 0.50%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-29"
       }
     ],
     "caps": [
       {
         "name": "Nifty 50",
         "tag": "Large cap",
-        "level": "22,698.85",
-        "day": -0.22,
-        "week": -0.49,
-        "month": -1.91,
-        "day_txt": "▼ 0.22%",
-        "week_txt": "▼ 0.49%",
-        "month_txt": "▼ 1.91%",
-        "dir": "down",
-        "dir_week": "down",
-        "dir_month": "down",
-        "session_date": "2026-10-28"
+        "level": "22,936.75",
+        "day": 1.05,
+        "week": 1.1,
+        "month": 0.69,
+        "day_txt": "▲ 1.05%",
+        "week_txt": "▲ 1.10%",
+        "month_txt": "▲ 0.69%",
+        "dir": "up",
+        "dir_week": "up",
+        "dir_month": "up",
+        "session_date": "2026-10-29"
       },
       {
         "name": "Nifty Midcap 150",
         "tag": "Mid cap",
-        "level": "21,064.80",
-        "day": 0.29,
-        "week": -0.64,
-        "month": -6.12,
-        "day_txt": "▲ 0.29%",
-        "week_txt": "▼ 0.64%",
-        "month_txt": "▼ 6.12%",
+        "level": "21,245.30",
+        "day": 0.86,
+        "week": 1.03,
+        "month": -3.74,
+        "day_txt": "▲ 0.86%",
+        "week_txt": "▲ 1.03%",
+        "month_txt": "▼ 3.74%",
         "dir": "up",
-        "dir_week": "down",
+        "dir_week": "up",
         "dir_month": "down",
-        "session_date": "2026-10-28"
+        "session_date": "2026-10-29"
       },
       {
         "name": "Nifty Smallcap 250",
         "tag": "Small cap",
-        "level": "16,989.40",
-        "day": 0.33,
-        "week": -0.31,
-        "month": -6.44,
-        "day_txt": "▲ 0.33%",
-        "week_txt": "▼ 0.31%",
-        "month_txt": "▼ 6.44%",
+        "level": "17,101.10",
+        "day": 0.66,
+        "week": 1.45,
+        "month": -4.27,
+        "day_txt": "▲ 0.66%",
+        "week_txt": "▲ 1.45%",
+        "month_txt": "▼ 4.27%",
         "dir": "up",
-        "dir_week": "down",
+        "dir_week": "up",
         "dir_month": "down",
-        "session_date": "2026-10-28"
+        "session_date": "2026-10-29"
       }
     ],
-    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"100.0\" width=\"22\" height=\"2.1\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"114.1\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.2</text><rect x=\"62.3\" y=\"100.0\" width=\"22\" height=\"4.7\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"116.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.5</text><rect x=\"90.3\" y=\"100.0\" width=\"22\" height=\"18.4\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"130.4\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.9</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"97.2\" width=\"22\" height=\"2.8\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"92.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.3</text><rect x=\"169.0\" y=\"100.0\" width=\"22\" height=\"6.2\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"118.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.6</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"58.9\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"170.9\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-6.1</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"96.8\" width=\"22\" height=\"3.2\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"91.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.3</text><rect x=\"275.7\" y=\"100.0\" width=\"22\" height=\"3.0\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"115.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.3</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-6.4</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"84.8\" width=\"22\" height=\"15.2\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"79.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.1</text><rect x=\"62.3\" y=\"84.0\" width=\"22\" height=\"16.0\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"79.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.1</text><rect x=\"90.3\" y=\"90.0\" width=\"22\" height=\"10.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"85.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.7</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"87.5\" width=\"22\" height=\"12.5\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"82.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.9</text><rect x=\"169.0\" y=\"85.0\" width=\"22\" height=\"15.0\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"80.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.0</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"54.3\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"166.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.7</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"90.4\" width=\"22\" height=\"9.6\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"85.4\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.7</text><rect x=\"275.7\" y=\"78.9\" width=\"22\" height=\"21.1\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"73.9\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.4</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-4.3</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
     "funds": [
       {
         "name": "ICICI Pru Large Cap",
         "cat": "Large cap",
-        "nav": "₹112.34",
-        "day": "▲ 0.00%",
-        "week": "▼ 0.39%",
+        "nav": "₹113.17",
+        "day": "▲ 0.74%",
+        "week": "▲ 0.88%",
         "dir": "up",
-        "dir_week": "down",
-        "session_date": "2026-10-28"
+        "dir_week": "up",
+        "session_date": "2026-10-29"
       },
       {
         "name": "MO Midcap 150 Index",
         "cat": "Mid cap",
-        "nav": "₹38.25",
-        "day": "▲ 0.30%",
-        "week": "▼ 0.62%",
+        "nav": "₹38.58",
+        "day": "▲ 0.86%",
+        "week": "▲ 1.05%",
         "dir": "up",
-        "dir_week": "down",
-        "session_date": "2026-10-28"
+        "dir_week": "up",
+        "session_date": "2026-10-29"
       },
       {
         "name": "Nippon Small Cap",
         "cat": "Small cap",
-        "nav": "₹194.72",
-        "day": "▲ 0.46%",
-        "week": "▼ 0.42%",
+        "nav": "₹196.03",
+        "day": "▲ 0.68%",
+        "week": "▲ 1.13%",
         "dir": "up",
-        "dir_week": "down",
-        "session_date": "2026-10-28"
+        "dir_week": "up",
+        "session_date": "2026-10-29"
       },
       {
         "name": "Parag Parikh Flexi Cap",
@@ -369,230 +359,204 @@
       }
     ],
     "date_label": "OCT 2026",
-    "close_label": "CLOSE OF OCT 28",
-    "session_date": "2026-10-28",
+    "close_label": "CLOSE OF OCT 29",
+    "session_date": "2026-10-29",
     "nav_label": "NAVS AS OF OCT 28"
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "Trade | Policy Outlook",
-      "headline": "Goyal Assures Farmers Protected in US Trade Deal",
+      "kicker": "Corporate | Earnings",
+      "headline": "Coal India Q2 Net Profit Jumps 53% to ₹6,516 Crore",
       "paragraphs": [
-        "Union Commerce Minister Piyush Goyal stated that India will gain a strong comparative advantage once the details of the proposed trade deal with the United States are officially released. Addressing concerns from domestic stakeholders, Goyal emphasized that the interests of Indian farmers and local industries will not be compromised under the agreement. He noted that the nation will celebrate the outcomes once the finalized terms are made public.",
-        "The trade agreement aims to deepen bilateral commercial ties between the two nations while safeguarding sensitive domestic sectors. Official discussions have focused on expanding market access without diluting domestic protections for core agricultural sectors."
+        "Coal India reported a strong second-quarter performance, with net profit surging 53% year-on-year to ₹6,516 crore. Robust operational gains helped propel earnings growth despite recent global energy market volatility. Revenue expansion across major mining divisions supported the bottom-line performance.",
+        "In tandem with the profit growth, the board declared a second interim dividend for FY27. Shareholders are set to receive ₹10.25 per share, reinforcing the PSU's dividend yield profile."
       ],
       "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Piyush_Goyal_crop.jpg/330px-Piyush_Goyal_crop.jpg",
-        "alt": "Piyush Goyal"
+        "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/49/Coal_India_Logo.svg/330px-Coal_India_Logo.svg.png",
+        "alt": "Coal India"
       }
     },
     "story_2": {
-      "kicker": "Corporate | Q2 Earnings",
-      "headline": "Vedanta Q2 Net Profit Zooms 78% to ₹6,202 Crore",
+      "kicker": "Global Energy | Supply Risks",
+      "headline": "Brent Crude Nears $116 as Houthi Attacks Escalation",
       "paragraphs": [
-        "Mining giant Vedanta reported a remarkable 78% year-on-year surge in net profit for the second quarter, reaching ₹6,202 crore. The strong profit expansion was driven by a robust 57% growth in operational revenue during the period.",
-        "Operational efficiencies and strong performance across key business verticals helped boost overall profitability despite broader commodity price volatility."
+        "Global oil benchmarks spiked significantly as fresh Houthi drone strikes targeted key infrastructure in Saudi Arabia. Brent crude advanced toward $116 per barrel as market participants priced in heightened geopolitical risks across the Middle East.",
+        "Traders caution that continued escalation could push prices higher toward $118 per barrel. The sharp rally presents fresh inflation challenges for energy-importing economies across Asia."
       ]
     },
     "story_3": {
-      "kicker": "Cybersecurity | National Policy",
-      "headline": "PM Modi Warns Against Cyber Threats to Banking",
+      "kicker": "Retail Investing | Equities",
+      "headline": "Small Investors Dump Secondary Stocks for IPOs",
       "paragraphs": [
-        "Prime Minister Narendra Modi cautioned against economic warfare, stressing the urgent need to shield the national banking system from cyber terrorism. He highlighted that robust digital security measures are crucial to protecting vital financial networks from emerging global operational risks."
+        "India's retail investors are actively selling off secondary market holdings to fund participation in mainboard initial public offerings. Driven by substantial listing-day premiums, individual traders are reallocating capital into primary market issues. The strategic shift comes as secondary equity markets experience volatile rangebound trading."
       ]
     },
     "also_today": {
       "items": [
-        "Hero MotoCorp Q2 net profit soars 42% to ₹1,861 crore on robust demand.",
-        "India and Mexico sign Terms of Reference to begin negotiations for a trade agreement.",
-        "Kids' snack brand Troovy raises ₹100 crore in Series B funding led by Fireside Ventures.",
-        "Hyundai Motor India Q2 profit drops 24% to ₹1,189 crore despite an 18% rise in revenue."
+        "Trent reports 23% YoY net profit rise to ₹464 crore with improved operating margins.",
+        "Hyundai Motor India Q2 revenue crosses ₹20,000 crore for the first time.",
+        "RBI raises Floating Rate Bond 2034 interest rate by 81 basis points.",
+        "Simplismart raises $14 million funding from NVIDIA at $100 million valuation."
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India x Mexico | Trade",
-    "headline": "India and Mexico Launch Talks for Preferential Trade Deal",
+    "kicker": "India x EU | Trade Deal",
+    "headline": "PM Modi to Travel to Brussels for India-EU Trade Pact",
     "paragraphs": [
-      "India and Mexico have signed a framework and Terms of Reference to officially launch negotiations for a preferential trade agreement. The bilateral initiative aims to deepen trade ties and strengthen economic cooperation between the two nations. This move opens up Latin America's second-largest economy for Indian exporters looking to expand their global footprint.",
-      "While formal negotiations are now underway, both sides will need to finalize tariff reductions and clear regulatory hurdles across key sectors. For Indian enterprise, a preferential deal with Mexico provides a strategic foothold in North American trade corridors. Market observers will track the progress of these talks as both countries work toward a binding commerce agreement."
+      "Prime Minister Narendra Modi will travel to Brussels in December to officially sign the landmark India-EU Free Trade Agreement, as confirmed by the EU chief. The comprehensive trade deal is expected to roll out in mid-2027, marking a pivotal moment in bilateral economic relations. In preparation for the pact, Indian industry leaders are urging for faster regulatory approvals and easier market access across key sectors.",
+      "The agreement comes as Indian exporters aim to diversify trade channels and build long-term resilience against global economic headwinds. Business representatives emphasize that clear market access terms will be vital before the mid-2027 rollout takes effect. As final preparations ramp up for the December summit, domestic enterprises are aligning strategies to leverage enhanced trade pathways into European markets."
     ],
     "world_60": [
-      "Gold drops 1% as markets assess US Fed interest rate signals and await fresh inflation data.",
-      "Crude oil dips to $113 per barrel as hopes of US-Iran diplomatic talks ease global supply fears.",
-      "Gold outlook hinges on breaking $4,220 resistance to potentially rally toward $4,640 per ounce.",
-      "Indian Rupee hits a two-week low against the US dollar as elevated crude oil prices weigh on sentiment.",
-      "Proposed India-EU FTA called mother of all deals as EU committee chair sees 2027 implementation."
+      "Fed rate pause and falling US yields lift market sentiment as bulls return to equities.",
+      "Reserve Bank of India raises Floating Rate Bond 2034 interest rate by 81 basis points.",
+      "Gold slips as rising oil prices and persistent US inflation bolster Fed rate hike bets.",
+      "Delhi gold stays steady at Rs 1.46 lakh per 10 grams while silver increases by Rs 500/kg.",
+      "Global equity markets hold recent gains following Fed interest rate decision."
     ],
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
-      "alt": "New Delhi"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/960px-Flag_of_Europe.svg.png",
+      "alt": "European Union"
     }
   },
   "more": {
     "big_story": [
       {
-        "headline": "Sapphire Foods Reports 21% YoY Jump in Q2 FY27 EBITDA to ₹1,286 Crore",
-        "text": "Sapphire Foods reported its Q2 FY27 financial performance, highlighting a 21% year-on-year surge in earnings before interest, taxes, depreciation, and amortization (EBITDA) to ₹1,286 crore. The operator of Yum! Brands outlets in India continues to expand its footprint amid steady consumer demand. This robust operational performance reflects resilience in India's quick-service restaurant industry despite inflationary pressure.",
-        "source": "scanx.trade",
-        "published": "29 Oct 02:58 IST"
-      }
-    ],
-    "venture_vault": [
-      {
-        "headline": "Indian Indic AI Startups Raise $687 Million as Funding Concentrates",
-        "text": "According to data from Tracxn, Indian startups building Indic AI models have collectively raised $687 million in venture capital, though funding remains tightly concentrated among a few top players. The surge underscores growing investor interest in building native language models tailored for India's diverse linguistic demographic. Expanding domestic AI capabilities is key to democratizing tech access across India.",
-        "source": "Fortune India",
-        "published": "28 Oct 15:17 IST"
-      },
-      {
-        "headline": "Simplismart Raises $14 Million at $100 Million Valuation",
-        "text": "Bengaluru-based AI infrastructure startup Simplismart secured $14 million in funding from investors including NVIDIA and Dallas VC at a valuation of $100 million. The startup provides optimized enterprise tools for deploying artificial intelligence models efficiently. The strategic backing from global tech leaders highlights India's rising prominence as a hub for deep-tech software innovations.",
-        "source": "Indian Startup News",
-        "published": "28 Oct 14:35 IST"
-      }
-    ],
-    "geopolitics": [
-      {
-        "headline": "India and Mauritius Eye Expansion of Bilateral Trade Ties",
-        "text": "India and Mauritius are seeking to further expand their bilateral trade and economic partnership across strategic sectors. The two nations are exploring enhanced market access and investment cooperation to deepen economic integration in the Western Indian Ocean region. For New Delhi, strengthening economic ties with Mauritius reinforces its SAGAR initiative and consolidates its position as a preferred partner.",
-        "source": "India Business Trade",
-        "published": "29 Oct 08:03 IST"
-      },
-      {
-        "headline": "US Senator Marco Rubio Leads Strategic Trade Mission to India",
-        "text": "US Senator Marco Rubio has arrived in India leading a high-level trade mission aimed at boosting economic and strategic cooperation between the two nations. The discussions focus on enhancing supply chain resilience, technology transfer, and bilateral commercial ties amid shifting global trade dynamics. The visit underscores Washington's continued push to deepen economic alignment with India in key sectors.",
-        "source": "Daily Excelsior",
-        "published": "29 Oct 04:00 IST"
+        "headline": "Nitin Gadkari Highlights Infrastructure Path to $5 Trillion Economy",
+        "text": "Speaking at the CII conference, Union Minister Nitin Gadkari emphasized that infrastructure plays a crucial role in building a $5 trillion Indian economy. He noted that expanding transit and logistics will help elevate India to the third-largest economy in the world. This focus guarantees sustained public spending across core infrastructure sectors.",
+        "source": "Reserve Bank of India",
+        "published": "29 Oct 19:54 IST"
       }
     ]
   },
   "sources": {
     "big_story": [
       {
-        "title": "Sensex Today | Stock Market LIVE Updates: GIFT Nifty hints at a firm opening; US markets gain, Asian peers trade flat",
-        "source": "Moneycontrol",
-        "url": "https://www.moneycontrol.com/news/business/markets/stock-market-live-updates-nifty50-share-price-sensex-share-price-crude-fii-gift-nifty-rupee-latest-updates-29-10-2026-alpha-liveblog-14062910.html"
+        "title": "US trade deal will protect all sensitive Indian interests, says Piyush Goyal",
+        "source": "The Economic Times"
       },
       {
-        "title": "Federal Reserve issues FOMC statement",
-        "source": "Federal Reserve",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+        "title": "India-US trade deal will protect farmers' interests, put India at comparative advantage: Piyush Goyal",
+        "source": "The New Indian Express"
+      },
+      {
+        "title": "India can achieve $1 trillion exports target this fiscal despite global headwinds: Piyush Goyal",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "India-EU FTA likely to rollout in mid-2027, PM Modi to travel to Brussels for official signing in December",
+        "source": "The Economic Times"
       }
     ],
     "venture_vault": [
       {
-        "title": "Shirley Setia-founded ISLAND Beauty raises Rs 2.58 crore funding; says 'I wanted to build something'",
+        "title": "NVIDIA, Dallas VC, others invest $14 million in Bengaluru-based Simplismart at $100 million valuation",
         "source": "Indian Startup News"
-      },
-      {
-        "title": "{Funding Alert} Indian Skincare Brand ISLAND Beauty Raises Rs 2.58 Cr from AJ VC",
-        "source": "Indian Retailer"
       }
     ],
     "daily_brief_1": [
       {
-        "title": "India will gain strong comparative advantage after US trade deal: Piyush Goyal",
-        "source": "The Economic Times"
-      },
-      {
-        "title": "‘India will celebrate’ when US trade deal details are out, farmers’ interests protected: Piyush...",
+        "title": "Coal India Q2 results: Net profit rises 53% to Rs 6,516 crore; declares Rs 10.25 dividend",
         "source": "Moneycontrol.com"
       },
       {
-        "title": "India-US trade deal: 'Farmers or domestic industry won't be compromised,' says Piyush Goyal",
-        "source": "Business Today"
+        "title": "Coal India Q2 results: Net profit rises 53% to ₹6,516 crore YoY; board declares second dividend for FY27",
+        "source": "Upstox"
+      },
+      {
+        "title": "Coal India dividend 2026 declared - Check amount; PSU quarterly profit up 57% - When is record date?",
+        "source": "Livemint"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "Vedanta Q2 Results: Profit zooms 78% YoY to Rs 6,202 crore; revenue surges 57%",
+        "title": "Oil prices rise on supply concerns as Houthis attack Saudi Arabia",
+        "source": "Business Standard"
+      },
+      {
+        "title": "Oil prices rise as Houthi attacks on Saudi Arabia stoke supply fears; Brent nears $116",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Oil Price Today (October 30): Crude oil jumps to $118 as Trump weighs fresh attacks after midterm. What ar",
         "source": "The Economic Times"
       }
     ],
     "daily_brief_3": [
       {
-        "title": "PM Modi warns against economic warfare, stressing need to shield country’s banking system from cyber terrorism",
-        "source": "News On AIR"
+        "title": "India’s Small Investors Dump Stocks, Chase New Listings",
+        "source": "Bloomberg"
       }
     ],
     "also_today": [
       {
-        "title": "Hero MotoCorp Q2FY27 results: Net profit soars 42% to ₹1,861 crore",
-        "source": "Business Standard"
+        "title": "RBI raises Floating Rate Bond 2034 interest rate by 81 basis points; check revised rate for October 2026–April 2027",
+        "source": "Livemint"
       },
       {
-        "title": "Hyundai Motor India Q2 Results: Standalone profit falls 24% to Rs 1,189 crore, but revenue rises 18% YoY",
-        "source": "The Economic Times"
+        "title": "Hyundai Motor India Q2 revenue crosses ₹20,000 crore for first time",
+        "source": "Storyboard18"
       },
       {
-        "title": "Troovy Raises Rs 100 Crore in Series B Funding Led by Fireside Ventures",
-        "source": "Indian Startup Times"
+        "title": "Trent Q2 results: Net profit rises 23% YoY to ₹464 crore; operating margin improves by 137 basis points",
+        "source": "Upstox"
       },
       {
-        "title": "India and Mexico sign Terms of Reference for preferential trade agreement negotiations to begin",
-        "source": "The Hindu"
+        "title": "NVIDIA, Dallas VC, others invest $14 million in Bengaluru-based Simplismart at $100 million valuation",
+        "source": "Indian Startup News"
       }
     ],
     "geopolitics": [
       {
-        "title": "India and Mexico sign Terms of Reference for preferential trade agreement negotiations to begin",
-        "source": "The Hindu"
+        "title": "EU chief confirms PM Modi’s December visit to sign India-EU trade deal",
+        "source": "Moneycontrol.com"
       },
       {
-        "title": "India and Mexico Launch Negotiations for Trade Agreement",
-        "source": "Utkarsh Classes"
+        "title": "Video | India-EU FTA: Industry Seeks Faster Approvals, Easier Market Access",
+        "source": "NDTV"
       },
       {
-        "title": "India and Mexico sign framework to deepen trade ties",
-        "source": "Newsband"
+        "title": "India-EU FTA likely to rollout in mid-2027, PM Modi to travel to Brussels for official signing in December",
+        "source": "The Economic Times"
       }
     ],
     "world_60": [
       {
-        "title": "EU's Foreign Affairs Committee chair expects India trade deal to take effect in 2027; sees Delhi playing constructive role on Ukraine",
-        "source": "WION"
+        "title": "RBI raises Floating Rate Bond 2034 interest rate by 81 basis points; check revised rate for October 2026–April 2027",
+        "source": "Livemint"
       },
       {
-        "title": "Radhakrishnan Calls Proposed India-EU FTA ‘Mother of All Deals’, Hopes It Will Be Signed This Year",
-        "source": "DD News"
-      },
-      {
-        "title": "Indian Rupee falls to two-week low as higher oil prices continue to weigh",
-        "source": "www.tmgm.com"
-      },
-      {
-        "title": "Gold drops 1% as markets assess Fed signals, await US inflation data",
-        "source": "Reuters"
-      },
-      {
-        "title": "Oil Price Today (October 29): Crude oil dips to $113 as diplomatic talks outweigh infra attacks. Will oil",
+        "title": "Bulls return as Fed rate pause, dip in US yields lift sentiment",
         "source": "The Economic Times"
       },
       {
-        "title": "Oil prices fall as hopes of US-Iran peace talks ease supply fears",
-        "source": "Business Standard"
+        "title": "Gold slips as higher oil, US inflation data bolster Fed hike bets",
+        "source": "Reuters"
       },
       {
-        "title": "Gold Price Outlook: Can Yellow Metal Break $4,220 To Rally Towards $4,640?",
-        "source": "ETV Bharat"
+        "title": "Global stocks hold gains after Fed decision, oil prices rise",
+        "source": "Euronext Markets: Real-time Stock Market Data | live"
+      },
+      {
+        "title": "Gold steady at Rs 1.46 lakh/10 gm in Delhi; silver rises Rs 500/kg",
+        "source": "Daily Excelsior"
       }
     ],
     "ipo_desk": [
       {
-        "title": "Antala Industries SME IPO opens today: Check price band and key details",
+        "title": "Jio Platforms shares list at 21% premium, debut at Rs 1,357 against IPO price",
+        "source": "Firstpost"
+      },
+      {
+        "title": "Core4 Engineers SME shares to list today: Check IPO subscription status and other key details",
         "source": "The Economic Times"
       },
       {
-        "title": "Bombay Coated & Special Steels IPO opens today; GMP at 11%. Should you subscribe?",
-        "source": "The Economic Times"
-      },
-      {
-        "title": "Carver Roboweld IPO: Date, Price Band, GMP & Details",
-        "source": "IndiaIPO"
+        "title": "IPO: BLS Polymers Subscribed 240 Times; SFC Environmental Issue Booked 9.25 Times",
+        "source": "The Indian Awaaz"
       }
     ],
-    "market_data": "Yahoo Finance (computed, session 2026-10-29)",
+    "market_data": "Yahoo Finance (computed, session 2026-10-30)",
     "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
   }
 }
