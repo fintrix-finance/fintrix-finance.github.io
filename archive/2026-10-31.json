@@ -1,0 +1,567 @@
+{
+  "updated_ist": "2026-10-31",
+  "cover": {
+    "big_story_teaser": "India expands global trade reach with new FTAs targeting an $85 trillion market.",
+    "venture_teaser": "Coratia raises ₹18 crore to build underwater robots for the Indian Navy.",
+    "market_watch_teaser": "As of 2026-10-30 close: Nifty 50 23,053.10 ▲ 0.51%",
+    "daily_brief_teaser": "Coal production shields economy, crude imports set record",
+    "inbrief_2": "Domestic coal shields economy",
+    "inbrief_3": "Crude imports hit record",
+    "inbrief_4": "Bank credit movements",
+    "inbrief_1": "US Imposes Temporary 10% Tariff"
+  },
+  "big_story": {
+    "headline": "India's Global Trade Push",
+    "subhead": "NEW TRADE AGREEMENTS OPEN DOORS TO AN $85 TRILLION GLOBAL MARKET",
+    "paragraphs": [
+      "India is accelerating its global economic push as New Zealand's Parliament cleared its bilateral Free Trade Agreement with the nation. Commerce Minister Piyush Goyal announced that India's expanding network of FTAs will open access to an $85 trillion global market. Negotiations are advancing rapidly as Prime Minister Narendra Modi is set to sign the India-EU trade deal in December. Additionally, India and Canada are seeking to seal a trade deal by year-end.",
+      "The trade offensive reflects New Delhi's strategy to integrate Indian producers into global supply chains and diversify export destinations. Commerce Minister Piyush Goyal urged domestic exporters to go global and capitalise on these newly opening markets. The government aims to protect domestic interests while securing favorable terms for Indian manufacturing and service sectors.",
+      "These pacts aim to boost manufacturing output, expand service exports, and attract long-term foreign direct investment into key domestic industries. As trade barriers decline across partner countries, Indian businesses gain wider access to high-income consumer bases. Markets will closely monitor the final signing dates and implementation details of these trade agreements over the coming months."
+    ],
+    "pullbox": "India's aggressive trade pact strategy aims to unlock access to an $85 trillion global market, providing domestic exporters with unprecedented reach across major economies.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Piyush_Goyal_crop.jpg/330px-Piyush_Goyal_crop.jpg",
+      "alt": "Piyush Goyal"
+    }
+  },
+  "explains": {
+    "title": "What is a Free Trade Agreement?",
+    "paragraphs": [
+      "A Free Trade Agreement is a pact between two or more nations designed to reduce or eliminate tariffs, import quotas, and trade barriers on goods and services. By lowering duties at international borders, such deals make cross-border trade cheaper and more accessible for companies.",
+      "In practice, these agreements establish standard regulations for market access, intellectual property protection, and foreign investment. They enable local manufacturers to export goods efficiently while giving consumers access to competitively priced international products."
+    ]
+  },
+  "venture_vault": {
+    "paragraphs": [
+      "Underwater robotics startup Coratia has raised ₹18 crore to support its expansion and technological development. The defense-tech enterprise builds specialized robotic systems tailored for marine exploration and defense sector tasks.",
+      "The fresh funding will be utilized to build advanced underwater robots specifically designed for the Indian Navy. This investment underscores rising investor confidence in domestic hardware innovation and defense technology solutions."
+    ]
+  },
+  "market_watch": {
+    "indian": [
+      {
+        "name": "Sensex",
+        "value": "74,459.53 ▲ 0.42%",
+        "dir": "up",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Nifty 50",
+        "value": "23,053.10 ▲ 0.51%",
+        "dir": "up",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Nifty Bank",
+        "value": "54,686.95 ▼ 0.41%",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      }
+    ],
+    "asian": [
+      {
+        "name": "Nikkei 225",
+        "value": "63,290.11 ▼ 2.12%",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Hang Seng",
+        "value": "23,294.42 ▲ 1.46%",
+        "dir": "up",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Shanghai Comp.",
+        "value": "3,599.02 ▼ 1.44%",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      }
+    ],
+    "european": [
+      {
+        "name": "FTSE 100",
+        "value": "10,729.78 ▲ 0.07%",
+        "dir": "up",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "DAX",
+        "value": "25,818.21 ▼ 0.85%",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "CAC 40",
+        "value": "7,969.42 ▼ 0.01%",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      }
+    ],
+    "us": [
+      {
+        "name": "S&P 500",
+        "value": "7,580.07 ▼ 1.82%",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "25,437.00 ▼ 2.86%",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Dow Jones",
+        "value": "51,770.31 ▼ 1.09%",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      }
+    ],
+    "global": [
+      {
+        "name": "Dollar Index",
+        "value": "101.96 ▼ 0.07%",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Brent Crude",
+        "value": "$113.43/bbl",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Gold",
+        "value": "$3,899/oz",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "US 10Y Yield",
+        "value": "4.93% ▼ 6.0 bp",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      }
+    ],
+    "losers": [
+      "Shriram Finance",
+      "Nestle India",
+      "Mahindra & Mahindra"
+    ],
+    "winners": [
+      "Trent",
+      "InterGlobe Aviation",
+      "Wipro"
+    ],
+    "snapshot_strip": "IT and Pharma led; Media and Energy lagged as the Nifty rose 0.51%",
+    "date_label": "OCT 2026",
+    "close_label": "AS OF FRIDAY'S CLOSE, OCT 30",
+    "session_date": "2026-10-30",
+    "ipo_desk": [
+      {
+        "name": "GAIL Gas",
+        "note": "Board approves IPO, 25% stake to be diluted"
+      },
+      {
+        "name": "BLS Polymers",
+        "note": "Subscribed 240 times, allotment today"
+      }
+    ]
+  },
+  "data_desk": {
+    "commodities": [
+      {
+        "name": "Gold",
+        "unit": "$/oz",
+        "price": "3,899",
+        "day": "▼ 3.29%",
+        "week": "▼ 2.72%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,3.4 8.3,6.2 12.4,7.3 16.6,6.1 20.7,13.7 24.8,13.1 29.0,12.8 33.1,12.0 37.2,14.0 41.4,14.2 45.5,12.7 49.7,15.0 53.8,14.2 57.9,11.3 62.1,12.6 66.2,13.2 70.3,16.7 74.5,13.6 78.6,13.0 82.8,14.1 86.9,14.9 91.0,14.6 95.2,19.0 99.3,21.6 103.4,20.1 107.6,18.3 111.7,19.4 115.9,20.4 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Silver",
+        "unit": "$/oz",
+        "price": "49.28",
+        "day": "▼ 5.59%",
+        "week": "▼ 8.26%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.2 4.1,3.0 8.3,5.2 12.4,6.6 16.6,5.4 20.7,9.8 24.8,10.6 29.0,11.4 33.1,10.5 37.2,11.6 41.4,10.3 45.5,9.9 49.7,11.7 53.8,12.9 57.9,10.6 62.1,11.3 66.2,12.8 70.3,18.0 74.5,16.1 78.6,15.9 82.8,15.9 86.9,14.9 91.0,15.3 95.2,19.1 99.3,20.6 103.4,20.0 107.6,19.8 111.7,21.0 115.9,22.8 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Brent Crude",
+        "unit": "$/bbl",
+        "price": "113.43",
+        "day": "▼ 1.26%",
+        "week": "▼ 2.82%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,25.5 4.1,27.0 8.3,21.7 12.4,16.9 16.6,20.0 20.7,18.7 24.8,22.4 29.0,21.1 33.1,22.8 37.2,22.9 41.4,25.5 45.5,25.2 49.7,25.7 53.8,20.1 57.9,19.5 62.1,16.8 66.2,18.2 70.3,17.6 74.5,17.8 78.6,12.4 82.8,12.9 86.9,13.9 91.0,13.9 95.2,7.9 99.3,3.0 103.4,4.3 107.6,6.9 111.7,4.9 115.9,5.5 120.0,7.5\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"7.5\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "WTI Crude",
+        "unit": "$/bbl",
+        "price": "104.12",
+        "day": "▲ 2.08%",
+        "week": "▲ 0.82%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,15.6 4.1,17.4 8.3,21.1 12.4,17.4 16.6,20.7 20.7,20.5 24.8,25.3 29.0,23.8 33.1,20.0 37.2,22.7 41.4,25.3 45.5,25.2 49.7,27.0 53.8,22.1 57.9,21.6 62.1,18.7 66.2,18.1 70.3,16.7 74.5,12.3 78.6,7.1 82.8,3.7 86.9,6.5 91.0,13.6 95.2,10.0 99.3,4.3 103.4,6.6 107.6,9.4 111.7,5.0 115.9,6.2 120.0,3.0\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"3.0\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-30"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Embassy REIT",
+        "price": "₹415.15",
+        "day": "▲ 0.17%",
+        "week": "▼ 2.04%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-10-29"
+      },
+      {
+        "name": "Nexus Select REIT",
+        "price": "₹155.78",
+        "day": "▼ 0.68%",
+        "week": "▼ 2.07%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-29"
+      },
+      {
+        "name": "Mindspace REIT",
+        "price": "₹476.17",
+        "day": "▼ 1.44%",
+        "week": "▼ 3.20%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-29"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹308.60",
+        "day": "▲ 0.24%",
+        "week": "▼ 1.71%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-10-29"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹103.48",
+        "day": "▲ 0.01%",
+        "week": "▲ 0.79%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-30"
+      }
+    ],
+    "caps": [
+      {
+        "name": "Nifty 50",
+        "tag": "Large cap",
+        "level": "23,053.10",
+        "day": 0.51,
+        "week": 2.0,
+        "month": 1.48,
+        "day_txt": "▲ 0.51%",
+        "week_txt": "▲ 2.00%",
+        "month_txt": "▲ 1.48%",
+        "dir": "up",
+        "dir_week": "up",
+        "dir_month": "up",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Nifty Midcap 150",
+        "tag": "Mid cap",
+        "level": "21,047.50",
+        "day": -0.93,
+        "week": 2.21,
+        "month": -3.69,
+        "day_txt": "▼ 0.93%",
+        "week_txt": "▲ 2.21%",
+        "month_txt": "▼ 3.69%",
+        "dir": "down",
+        "dir_week": "up",
+        "dir_month": "down",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Nifty Smallcap 250",
+        "tag": "Small cap",
+        "level": "16,764.55",
+        "day": -1.97,
+        "week": 2.32,
+        "month": -5.54,
+        "day_txt": "▼ 1.97%",
+        "week_txt": "▲ 2.32%",
+        "month_txt": "▼ 5.54%",
+        "dir": "down",
+        "dir_week": "up",
+        "dir_month": "down",
+        "session_date": "2026-10-30"
+      }
+    ],
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"94.3\" width=\"22\" height=\"5.7\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"89.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.5</text><rect x=\"62.3\" y=\"77.6\" width=\"22\" height=\"22.4\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"72.6\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+2.0</text><rect x=\"90.3\" y=\"83.4\" width=\"22\" height=\"16.6\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"78.4\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.5</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"100.0\" width=\"22\" height=\"10.4\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"122.4\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.9</text><rect x=\"169.0\" y=\"75.3\" width=\"22\" height=\"24.7\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"70.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+2.2</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"41.3\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"153.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.7</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"100.0\" width=\"22\" height=\"22.0\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"134.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-2.0</text><rect x=\"275.7\" y=\"74.0\" width=\"22\" height=\"26.0\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"69.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+2.3</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-5.5</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "funds": [
+      {
+        "name": "ICICI Pru Large Cap",
+        "cat": "Large cap",
+        "nav": "₹113.46",
+        "day": "▲ 0.26%",
+        "week": "▲ 1.85%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "MO Midcap 150 Index",
+        "cat": "Mid cap",
+        "nav": "₹38.23",
+        "day": "▼ 0.90%",
+        "week": "▲ 2.25%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Nippon Small Cap",
+        "cat": "Small cap",
+        "nav": "₹192.76",
+        "day": "▼ 1.67%",
+        "week": "▲ 1.87%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Parag Parikh Flexi Cap",
+        "cat": "Flexi cap",
+        "nav": "₹89.23",
+        "day": "▲ 0.30%",
+        "week": "▲ 0.30%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-30"
+      }
+    ],
+    "date_label": "OCT 2026",
+    "close_label": "AS OF FRIDAY'S CLOSE, OCT 30",
+    "session_date": "2026-10-30",
+    "nav_label": "NAVS AS OF OCT 30"
+  },
+  "daily_brief": {
+    "story_1": {
+      "kicker": "Energy Sector",
+      "headline": "Domestic Coal Production Shields India's Economy",
+      "paragraphs": [
+        "Domestic coal production continues to shield India's economy from severe global price swings as pressure on the energy sector persists. The Coal Secretary highlighted that local output provides a vital buffer against international market volatility.",
+        "This domestic insulation helps stabilize industrial input costs across the broader manufacturing and power generation sectors as global commodity markets experience ongoing turbulence."
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Coal_mine_Wyoming.jpg",
+        "alt": "Coal mining"
+      }
+    },
+    "story_2": {
+      "kicker": "Commodities",
+      "headline": "Crude Imports Set to Record Highest Ever Levels",
+      "paragraphs": [
+        "India's crude imports are set to record their highest-ever levels at 5.4 to 5.6 million barrels per day in October as refiners actively diversify their supply sources. This strategic shift underscores the country's growing refining capacity and robust domestic fuel demand.",
+        "The steady inflow of diversified crude shipments also plays a crucial role in managing national energy security amid shifting geopolitical trade routes and fluctuating global oil benchmarks."
+      ]
+    },
+    "story_3": {
+      "kicker": "Banking & Rates",
+      "headline": "RBI Reports Significant Credit and Rate Trends",
+      "paragraphs": [
+        "The Reserve Bank of India has released data showing significant movements in bank credit and interest rate trends for September. These updates offer critical insights into credit growth across various economic sectors as monetary policy developments unfold."
+      ]
+    },
+    "also_today": {
+      "items": [
+        "Sensex jumps 1,534 points as falling oil prices lift domestic Indian stocks during the session.",
+        "IMF highlights El Nino downside risks for India and suggests RBI allow the rupee to move freely.",
+        "Jio Platforms reports Q2 profit rises 13.7 percent to 8,387 crore rupees with strong revenue growth.",
+        "Gold prices plunge below 3,900 dollars as rising oil and inflation fuel rate hike expectations."
+      ]
+    }
+  },
+  "geopolitics": {
+    "kicker": "India x US | Tariffs",
+    "headline": "US Confirms Temporary 10% Tariff on India",
+    "paragraphs": [
+      "The White House has confirmed a temporary 10 per cent tariff for India following a US Supreme Court ruling. The announcement arrived as External Affairs Minister S. Jaishankar met US Secretary of State Rubio on the sidelines of the G20 summit to assess bilateral cooperation. Both nations are navigating adjusted duty frameworks amid ongoing strategic dialogue.",
+      "The temporary levy introduces fresh compliance costs for Indian exporters targeting the American market. Finance professionals are closely monitoring how upcoming bilateral trade talks will respond to protect key export sectors from prolonged margin pressures."
+    ],
+    "world_60": [
+      "Oil prices soared 14% in October to a six-month high as the US considers fresh Iran strikes.",
+      "Gold prices plunged to a one-year low below $3,900 as crude oil surges weighed on market sentiment.",
+      "A tanker attack in the Strait of Hormuz lifted oil prices, causing spot gold to fall below $3,910.",
+      "Silver hit an 11-month low, crashing sharply across global commodity exchanges and Delhi markets.",
+      "New Zealand's Parliament officially cleared its Free Trade Agreement with India to boost trade."
+    ],
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/White_House_north_and_south_sides.jpg/3840px-White_House_north_and_south_sides.jpg",
+      "alt": "White House"
+    }
+  },
+  "more": {
+    "big_story": [
+      {
+        "headline": "India's Foreign Exchange Reserves Fall to Over Two-Month Low",
+        "text": "India’s foreign exchange reserves declined for the seventh consecutive week, touching an over two-month low according to data from Reuters. The persistent drop in reserves reflects ongoing pressure on the Indian rupee amid global macroeconomic volatility and sustained foreign capital outflows. Maintaining robust reserves remains crucial for the Reserve Bank of India to buffer against currency shocks.",
+        "source": "Reuters",
+        "published": "30 Oct 19:03 IST"
+      },
+      {
+        "headline": "RBI Monetary Policy Committee Begins Key Meeting on Rate Outlook",
+        "text": "The Reserve Bank of India's Monetary Policy Committee has commenced its deliberations, focusing heavily on macroeconomic growth and persistent inflation trends. With consumer prices and market liquidity under close scrutiny, the central bank's rate decisions directly influence borrowing costs, corporate investments, and overall consumer sentiment across India.",
+        "source": "DD News",
+        "published": "31 Oct 00:38 IST"
+      }
+    ],
+    "venture_vault": [
+      {
+        "headline": "Tensrai Secures ₹3.4 Crore to Automate Existing Industrial Machinery",
+        "text": "Hyderabad-based physical artificial intelligence startup Tensrai has raised ₹3.4 crore in funding to develop technology that allows legacy industrial machines to operate autonomously. The capital infusion will help the startup scale its automation retrofits, aiding Indian manufacturing units in boosting operational efficiency without capital-intensive hardware replacements.",
+        "source": "Indian Startup News",
+        "published": "30 Oct 13:57 IST"
+      },
+      {
+        "headline": "QwikBuild Raises $2.3 Million Pre-Seed Funding Led by Globalway",
+        "text": "Proptech startup QwikBuild has secured $2.3 million in a pre-seed funding round led by Japanese firm Globalway. The new capital will support the company's product development and expansion plans in India's rapidly modernizing construction technology ecosystem as demand for digital tools soars.",
+        "source": "Indian Startup Times",
+        "published": "29 Oct 15:26 IST"
+      }
+    ],
+    "geopolitics": [
+      {
+        "headline": "India-Brazil Bilateral Trade Targeted to Reach $20 Billion",
+        "text": "Bilateral trade between India and Brazil is projected to touch $20 billion, driven by collaboration in critical minerals, artificial intelligence, and defence technology. Brazil's diplomatic envoy highlighted these growth vectors, underscoring expanding South-South economic partnerships for India's resource security and strategic industrial manufacturing.",
+        "source": "The Economic Times",
+        "published": "31 Oct 07:23 IST"
+      },
+      {
+        "headline": "Piyush Goyal Discusses Early India-US Interim Trade Pact Conclusion",
+        "text": "Union Commerce Minister Piyush Goyal held discussions with the US Trade Representative aimed at finalizing an interim bilateral trade agreement. Securing an early resolution to trade friction is crucial for Indian exporters seeking predictable market access in the United States while bolstering economic ties between both nations.",
+        "source": "INDIA New England News",
+        "published": "30 Oct 15:16 IST"
+      }
+    ]
+  },
+  "sources": {
+    "big_story": [
+      {
+        "title": "New Zealand Parliament clears FTA with India",
+        "source": "DD News"
+      },
+      {
+        "title": "India’s FTAs to open access to $85 trillion market; Piyush Goyal urges exporters to go global",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "PM Modi To Sign India-EU Trade Deal In December",
+        "source": "Apparel Views"
+      },
+      {
+        "title": "India, Canada seek to seal trade deal by year-end",
+        "source": "The Tribune"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "Underwater robotics startup Coratia raises Rs 18 crore as it builds robots for the Indian Navy",
+        "source": "Indian Startup News"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "Domestic coal production shields India’s economy from global price swings as pressure on energy sector persists: Coal Secretary",
+        "source": "BusinessLine"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "India’s crude imports set to record highest-ever 5.4-5.6 mn b/d in October as refiners diversify supplies",
+        "source": "ThePrint"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "Bank credit and interest rate trends for September show significant movements: RBI",
+        "source": "News On AIR"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "Sensex Jumps 1,534 Points as Falling Oil Prices Lift Indian Stocks",
+        "source": "INDIA New England News"
+      },
+      {
+        "title": "El Nino Downside Risk For India; RBI Should Allow Rupee To Move Freely: IMF",
+        "source": "Deccan Chronicle"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "White House confirms temporary 10 per cent tariff for India after US Supreme Court ruling | Akashvani News",
+        "source": "News On AIR"
+      },
+      {
+        "title": "'Took stock of our bilateral cooperation': EAM Jaishankar meets US Secy of State Rubio on sidelines of G20",
+        "source": "The Economic Times"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "New Zealand Parliament clears FTA with India",
+        "source": "DD News"
+      },
+      {
+        "title": "Gold prices plunge to one-year low below $3,900 as higher oil prices fuel fears of more pain ahead",
+        "source": "Kitco"
+      },
+      {
+        "title": "Oil prices soar 14% in October to 6-month high as US weighs fresh Iran strikes after midterms. More pain a",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "Tanker Attack in Strait of Hormuz Lifts Oil Prices; Spot Gold Falls Below $3,910, Plunging More Than $110 in a Single Day",
+        "source": "BigGo Finance"
+      },
+      {
+        "title": "Silver Hits 11-Month Low: Prices Crash Globally & in Delhi",
+        "source": "Rediff MoneyWiz"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "GAIL Q2 Results: Profit zooms 139% YoY to Rs 4,720 crore, revenue rises 33%; board approves GAIL Gas IPO",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "GAIL Gas IPO gets board nod, 25% stake to be diluted",
+        "source": "Moneycontrol.com"
+      },
+      {
+        "title": "IPO: BLS Polymers Subscribed 240 Times; SFC Environmental Issue Booked 9.25 Times",
+        "source": "The Indian Awaaz"
+      },
+      {
+        "title": "BLS Polymers IPO allotment today; GMP at 45% — check status on BSE, NSE and registrar",
+        "source": "Moneycontrol.com"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session 2026-10-30)",
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
+  }
+}
