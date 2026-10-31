@@ -1,34 +1,37 @@
 {
   "updated_ist": "2026-10-31",
   "cover": {
-    "big_story_teaser": "India expands global trade reach with new FTAs targeting an $85 trillion market.",
+    "big_story_teaser": "$6.3 billion stolen from Binance in largest crypto theft on record",
     "venture_teaser": "Coratia raises ₹18 crore to build underwater robots for the Indian Navy.",
     "market_watch_teaser": "As of 2026-10-30 close: Nifty 50 23,053.10 ▲ 0.51%",
     "daily_brief_teaser": "Coal production shields economy, crude imports set record",
-    "inbrief_2": "Domestic coal shields economy",
+    "inbrief_2": "Oil near $118 as tanker attacks multiply in the Strait of Hormuz",
     "inbrief_3": "Crude imports hit record",
     "inbrief_4": "Bank credit movements",
-    "inbrief_1": "US Imposes Temporary 10% Tariff"
+    "inbrief_1": "Iran claims it seized a US drone over Hormuz; Washington calls it false",
+    "inbrief_2_target": 6
   },
   "big_story": {
-    "headline": "India's Global Trade Push",
-    "subhead": "NEW TRADE AGREEMENTS OPEN DOORS TO AN $85 TRILLION GLOBAL MARKET",
+    "headline": "$6.3 Billion Stolen from Binance in Largest Crypto Theft on Record",
+    "subhead": "IT IS THE LARGEST CRYPTO THEFT ON RECORD, EXCEEDING THE $1.46 BILLION STOLEN FROM THE BYBIT EXCHANGE IN FEBRUARY 2025.",
     "paragraphs": [
-      "India is accelerating its global economic push as New Zealand's Parliament cleared its bilateral Free Trade Agreement with the nation. Commerce Minister Piyush Goyal announced that India's expanding network of FTAs will open access to an $85 trillion global market. Negotiations are advancing rapidly as Prime Minister Narendra Modi is set to sign the India-EU trade deal in December. Additionally, India and Canada are seeking to seal a trade deal by year-end.",
-      "The trade offensive reflects New Delhi's strategy to integrate Indian producers into global supply chains and diversify export destinations. Commerce Minister Piyush Goyal urged domestic exporters to go global and capitalise on these newly opening markets. The government aims to protect domestic interests while securing favorable terms for Indian manufacturing and service sectors.",
-      "These pacts aim to boost manufacturing output, expand service exports, and attract long-term foreign direct investment into key domestic industries. As trade barriers decline across partner countries, Indian businesses gain wider access to high-income consumer bases. Markets will closely monitor the final signing dates and implementation details of these trade agreements over the coming months."
+      "Binance, the world's largest crypto exchange, said about $6.3 billion in crypto was taken in a security incident on Thursday. Blockchain analytics firm TRM Labs said an attacker moved roughly $6.36 billion out of Binance wallets across ten blockchains, most of it in about 20 minutes. It is the largest crypto theft on record, exceeding the $1.46 billion stolen from the Bybit exchange in February 2025.",
+      "In its official statement, Binance said its initial investigation suggests the incident \"may involve a compromised DevOps engineer's laptop,\" which allowed an attacker to access a service container and submit unauthorised withdrawal transactions. Binance said it has found no evidence of a wallet private-key leak and will publish a technical post-mortem and an updated Proof of Reserves once the investigation and remediation are complete.",
+      "TRM Labs attributed the attack with \"high confidence\" to TraderTraitor, a North Korean hacking unit; Chainalysis also said it has high confidence North Korea was behind it. That is an assessment by private blockchain-intelligence firms and has not been confirmed by law enforcement. The US Secret Service says its investigators are working to identify, freeze, trace and recover the funds.",
+      "Binance said about $3 billion of the affected assets has been frozen on-chain with blockchain partners. Freezing is not recovery: issuers such as Tether and Circle can freeze stablecoins remotely, which limits the attacker's ability to cash out but does not by itself return the funds. No issuer can freeze bitcoin or ether that way; for those, tracing and recovery are still possible if the coins move through cooperative exchanges or investigators obtain the keys. Binance says it will cover all losses from its SAFU fund and company funds and that user funds are safe; SAFU held about $1 billion as of February 2026, according to Binance's own FAQ. Withdrawals are temporarily suspended while security checks are completed; deposits continue as normal (Binance statement, updated October 30).",
+      "Bitcoin fell about 4-5% over 24 hours to around $77,000 in Friday afternoon New York trading (as of about 1:30 PM ET), after touching a six-week low near $76,300. More than $1.5 billion in leveraged crypto positions was liquidated in 24 hours, mostly long bets (CoinGlass data via CoinDesk). Analysts noted the fall was smaller than the average first-day drop after past exchange hacks, because the breach hit a centralised exchange, not the Bitcoin network itself.",
+      "For Indian users: Binance is registered with India's Financial Intelligence Unit (FIU-IND) as a reporting entity under anti-money-laundering rules. That registration is a reporting obligation, not a government endorsement or investor protection. Binance says balances are safe, but withdrawals stay paused until its security checks finish."
     ],
-    "pullbox": "India's aggressive trade pact strategy aims to unlock access to an $85 trillion global market, providing domestic exporters with unprecedented reach across major economies.",
+    "pullbox": "Freezing is not recovery: issuers such as Tether and Circle can freeze stablecoins remotely, which limits the attacker's ability to cash out but does not by itself return the funds.",
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Piyush_Goyal_crop.jpg/330px-Piyush_Goyal_crop.jpg",
-      "alt": "Piyush Goyal"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Binance_logo.svg",
+      "alt": "Binance logo"
     }
   },
   "explains": {
-    "title": "What is a Free Trade Agreement?",
+    "title": "The New Speed of Cyberattacks",
     "paragraphs": [
-      "A Free Trade Agreement is a pact between two or more nations designed to reduce or eliminate tariffs, import quotas, and trade barriers on goods and services. By lowering duties at international borders, such deals make cross-border trade cheaper and more accessible for companies.",
-      "In practice, these agreements establish standard regulations for market access, intellectual property protection, and foreign investment. They enable local manufacturers to export goods efficiently while giving consumers access to competitively priced international products."
+      "The thread connecting October's biggest incidents is stolen credentials plus faster tooling, not one campaign, and not AI everywhere. No AI link has been established in the Binance or Bitget breaches. Chainalysis said proceeds of September's $388 million Bitget theft were being mixed with funds from the Binance breach - a laundering step, not a connection between the two attacks."
     ]
   },
   "venture_vault": {
@@ -396,11 +399,13 @@
     }
   },
   "geopolitics": {
-    "kicker": "India x US | Tariffs",
-    "headline": "US Confirms Temporary 10% Tariff on India",
+    "kicker": "Strait of Hormuz",
+    "headline": "Iran Claims It Seized a US Drone Over the Strait of Hormuz; Washington Says the Report Is False",
     "paragraphs": [
-      "The White House has confirmed a temporary 10 per cent tariff for India following a US Supreme Court ruling. The announcement arrived as External Affairs Minister S. Jaishankar met US Secretary of State Rubio on the sidelines of the G20 summit to assess bilateral cooperation. Both nations are navigating adjusted duty frameworks amid ongoing strategic dialogue.",
-      "The temporary levy introduces fresh compliance costs for Indian exporters targeting the American market. Finance professionals are closely monitoring how upcoming bilateral trade talks will respond to protect key export sectors from prolonged margin pressures."
+      "Iran's Revolutionary Guard Corps (IRGC) Navy said on Thursday that its electronic-warfare unit detected a US MQM-170 Outlaw drone west of the Strait of Hormuz, took control of its guidance systems and landed it intact on Iranian territory. The IRGC claimed the drone was identifying Iranian air defences along the Gulf coast and had taken off from a southern Gulf state's coast. Iranian state television aired the claim.",
+      "US Central Command said the report was false. \"In the past weeks and months, the IRGC has repeatedly lied out of desperation, and today is no different,\" CENTCOM spokesman Capt. Tim Hawkins told the Associated Press. The MQM-170 Outlaw, built by Griffon Aerospace, is used by the US military mainly as an aerial target for training and testing, according to The War Zone.",
+      "Hours earlier, the IRGC said it destroyed a US MQ-1 drone east of the strait, which it called the 14th such drone it has downed. Iran claims to have destroyed more than 50 US MQ-9 Reaper drones since the war began; DPA notes such claims generally cannot be independently verified, though the US Congressional Research Service says the United States has reported losing or damaging dozens of aircraft and drones since joining Israel's campaign. In 2011, Iran displayed a CIA RQ-170 Sentinel it said it had brought down electronically; the US said that drone malfunctioned.",
+      "The US-Israeli war with Iran began on February 28. The Wall Street Journal reported this week that Washington has told Gulf Arab states to prepare for a \"short, intense military campaign\" against Tehran after the November 3 US midterm elections, though no final decision has been made. Qatari mediators returned to Tehran on Friday (Reuters), and President Trump said he believes the war will end soon."
     ],
     "world_60": [
       "Oil prices soared 14% in October to a six-month high as the US considers fresh Iran strikes.",
@@ -410,25 +415,11 @@
       "New Zealand's Parliament officially cleared its Free Trade Agreement with India to boost trade."
     ],
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/White_House_north_and_south_sides.jpg/3840px-White_House_north_and_south_sides.jpg",
-      "alt": "White House"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Strait_of_hormuz_full.jpg",
+      "alt": "Map of the Strait of Hormuz"
     }
   },
   "more": {
-    "big_story": [
-      {
-        "headline": "India's Foreign Exchange Reserves Fall to Over Two-Month Low",
-        "text": "India’s foreign exchange reserves declined for the seventh consecutive week, touching an over two-month low according to data from Reuters. The persistent drop in reserves reflects ongoing pressure on the Indian rupee amid global macroeconomic volatility and sustained foreign capital outflows. Maintaining robust reserves remains crucial for the Reserve Bank of India to buffer against currency shocks.",
-        "source": "Reuters",
-        "published": "30 Oct 19:03 IST"
-      },
-      {
-        "headline": "RBI Monetary Policy Committee Begins Key Meeting on Rate Outlook",
-        "text": "The Reserve Bank of India's Monetary Policy Committee has commenced its deliberations, focusing heavily on macroeconomic growth and persistent inflation trends. With consumer prices and market liquidity under close scrutiny, the central bank's rate decisions directly influence borrowing costs, corporate investments, and overall consumer sentiment across India.",
-        "source": "DD News",
-        "published": "31 Oct 00:38 IST"
-      }
-    ],
     "venture_vault": [
       {
         "headline": "Tensrai Secures ₹3.4 Crore to Automate Existing Industrial Machinery",
@@ -445,36 +436,90 @@
     ],
     "geopolitics": [
       {
-        "headline": "India-Brazil Bilateral Trade Targeted to Reach $20 Billion",
-        "text": "Bilateral trade between India and Brazil is projected to touch $20 billion, driven by collaboration in critical minerals, artificial intelligence, and defence technology. Brazil's diplomatic envoy highlighted these growth vectors, underscoring expanding South-South economic partnerships for India's resource security and strategic industrial manufacturing.",
-        "source": "The Economic Times",
-        "published": "31 Oct 07:23 IST"
+        "headline": "Oil Nears $118 as Hormuz Tanker Attacks Multiply",
+        "text": "A tanker transiting the Strait of Hormuz was hit on Thursday night by explosives attached to its hull from a small boat, the first successful limpet-mine attack of the war, the UK Maritime Trade Operations agency said. Iran's IRGC said another tanker struck a mine on Friday on what it called an unauthorised route. Brent futures traded near $117.6-118 a barrel on Friday evening Gulf time (about 9-9:30 PM IST), up roughly 2.5% and the highest since late April, heading for a fourth straight monthly gain of about 13-14%. US WTI traded near $104. Oil exports through the strait fell again last week, shipping data provider Kpler said.",
+        "source": "Reuters · UK Maritime Trade Operations · Kpler",
+        "published": "October 30"
+      }
+    ],
+    "explains": [
+      {
+        "headline": "AI Agents Targeted More Than 2,250 Microsoft 365 Tenants After a ConnectWise Credential Theft",
+        "text": "October showed how AI tooling is changing the tempo of some major attacks. On October 21, Microsoft reported that a China-state-aligned group it tracks as Storm-0940 used ARTEX, an open-source framework in which AI agents run penetration-test tasks with little human involvement, after a ConnectWise cloud-backup credential was stolen: sign-in attempts against more than 2,250 Microsoft 365 tenants followed, and in several cases the attackers won privileged cloud access within three hours of first targeting an organisation. Security firm Huntress confirmed unauthorised sign-ins at 162 tenants. Microsoft says its own systems were not compromised, and that a sign-in does not by itself prove data was taken.",
+        "source": "Microsoft Security Blog · Huntress",
+        "published": "October 21"
       },
       {
-        "headline": "Piyush Goyal Discusses Early India-US Interim Trade Pact Conclusion",
-        "text": "Union Commerce Minister Piyush Goyal held discussions with the US Trade Representative aimed at finalizing an interim bilateral trade agreement. Securing an early resolution to trade friction is crucial for Indian exporters seeking predictable market access in the United States while bolstering economic ties between both nations.",
-        "source": "INDIA New England News",
-        "published": "30 Oct 15:16 IST"
+        "headline": "CERT-In Warns Indian Financial Firms After Payment-API Fund-Transfer Attacks",
+        "text": "India received its own warning. CERT-In's October 9 advisory, rated critical, says attackers stole payment and partner-bank API credentials at NBFCs, digital lenders, payment firms and wallet operators, then called fund-transfer APIs directly from the victims' own trusted servers, bypassing KYC, sanction and limit checks. The advisory notes the possible use of AI-assisted tools and faster compromise-to-transfer times. The Economic Times reported about 20 institutions were affected. A second CERT-In advisory on October 15 warned of the misuse of open-source agentic AI tools against Indian systems.",
+        "source": "CERT-In · The Economic Times",
+        "published": "October 9 and 15"
+      }
+    ],
+    "explains_rea": [
+      {
+        "headline": "REA - separate capability note",
+        "text": "Separately, October made a phenomenon of REA, short for \"Reverse Engineer Anything\" - a viral open-source project whose pseudonymous creator, Morluto, spoke to Scientific American this week. REA lets an AI coding agent drive established reverse-engineering tools such as Ghidra, software originally developed by the US National Security Agency, to inspect an app it has no source code for and explain how its features work. That makes software inspection far more accessible: useful for researchers, preservationists and builders studying systems they own, and dual-use in that the same accessibility can serve attackers. There is no evidence linking REA to any of the incidents above.",
+        "source": "Scientific American"
       }
     ]
   },
   "sources": {
     "big_story": [
       {
-        "title": "New Zealand Parliament clears FTA with India",
-        "source": "DD News"
+        "title": "Binance official statement (updated Oct 30)",
+        "source": "binance.com",
+        "url": "https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7"
       },
       {
-        "title": "India’s FTAs to open access to $85 trillion market; Piyush Goyal urges exporters to go global",
-        "source": "The Economic Times"
+        "title": "Binance SAFU FAQ",
+        "source": "binance.com",
+        "url": "https://www.binance.com/en/support/faq/detail/028799e730294ae4a9b382d60d350116"
       },
       {
-        "title": "PM Modi To Sign India-EU Trade Deal In December",
-        "source": "Apparel Views"
+        "title": "Times of India: TRM Labs attribution and North Korea link",
+        "source": "timesofindia.indiatimes.com",
+        "url": "https://timesofindia.indiatimes.com/business/international-business/6-3-billion-gone-north-korea-link-inside-the-crypto-heist-at-worlds-largest-exchange-binance/articleshow/135351366.cms"
       },
       {
-        "title": "India, Canada seek to seal trade deal by year-end",
-        "source": "The Tribune"
+        "title": "Times of India: the report you sent",
+        "source": "timesofindia.indiatimes.com",
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/hackers-steal-6-3-billion-from-worlds-largest-cryptocurrency-exchange-binance-in-what-analysts-say-the-biggest-crypto-hack-ever-co-ceo-speaks-directly-about-what-happened/articleshow/135354182.cms"
+      },
+      {
+        "title": "Channel NewsAsia explainer",
+        "source": "channelnewsasia.com",
+        "url": "https://www.channelnewsasia.com/business/binance-cryptocurrency-heist-biggest-20-minutes-explainer-6506676"
+      },
+      {
+        "title": "BBC live coverage (US Secret Service)",
+        "source": "bbc.com",
+        "url": "https://www.bbc.com/news/live/cqrmynd3042gt"
+      },
+      {
+        "title": "CoinDesk: bitcoin and ether fall, liquidations",
+        "source": "coindesk.com",
+        "url": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead"
+      },
+      {
+        "title": "CNBC: Tether and Circle freeze affected funds",
+        "source": "cnbc.com",
+        "url": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html"
+      },
+      {
+        "title": "CNBC: bitcoin price after the hack",
+        "source": "cnbc.com",
+        "url": "https://www.cnbc.com/2026/10/30/binance-hack-bitcoin-price.html"
+      },
+      {
+        "title": "Economic Times (Reuters): freeze is not recovery; Chainalysis on fund mixing",
+        "source": "economictimes.indiatimes.com",
+        "url": "https://economictimes.indiatimes.com/news/international/world-news/cryptos-biggest-ever-heist-how-hackers-stole-6-3-billion-in-just-20-minutes/articleshow/135357593.cms"
+      },
+      {
+        "title": "Moneycontrol: bitcoin at six-week low",
+        "source": "moneycontrol.com",
+        "url": "https://www.moneycontrol.com/news/business/personal-finance/bitcoin-falls-6-week-low-near-77-266-as-binance-security-scare-rattles-crypto-markets-14064131.html"
       }
     ],
     "venture_vault": [
@@ -513,12 +558,29 @@
     ],
     "geopolitics": [
       {
-        "title": "White House confirms temporary 10 per cent tariff for India after US Supreme Court ruling | Akashvani News",
-        "source": "News On AIR"
+        "title": "Tasnim News: IRGC claim of capturing the drone",
+        "source": "tasnimnews.ir",
+        "url": "https://www.tasnimnews.ir/en/news/2026/10/29/3735375/irgc-navy-captures-us-spy-drone-intact"
       },
       {
-        "title": "'Took stock of our bilateral cooperation': EAM Jaishankar meets US Secy of State Rubio on sidelines of G20",
-        "source": "The Economic Times"
+        "title": "News18 (AP): CENTCOM denial",
+        "source": "news18.com",
+        "url": "https://www.news18.com/agency-feeds/us-military-denies-claim-that-iran-captured-american-drone-10403841.html"
+      },
+      {
+        "title": "The War Zone: what the MQM-170 Outlaw is used for",
+        "source": "twz.com",
+        "url": "https://www.twz.com/news-features/lets-talk-about-the-u-s-target-drone-iran-claims-to-have-recovered-intact"
+      },
+      {
+        "title": "Firstpost: the report you sent (WSJ campaign report, Reaper claims)",
+        "source": "firstpost.com",
+        "url": "https://www.firstpost.com/world/iran-claims-shooting-down-us-military-drone-near-hormuz-as-trump-weighs-fresh-strikes-14056280.html"
+      },
+      {
+        "title": "CNBC: oil prices on Hormuz supply concerns",
+        "source": "cnbc.com",
+        "url": "https://www.cnbc.com/2026/10/30/oil-rises-on-supply-concerns-as-houthis-attack-saudi-arabia.html"
       }
     ],
     "world_60": [
@@ -562,6 +624,58 @@
       }
     ],
     "market_data": "Yahoo Finance (computed, session 2026-10-30)",
-    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in",
+    "explains": [
+      {
+        "title": "Microsoft Security Blog: Storm-0940 and ARTEX (Oct 21)",
+        "source": "microsoft.com",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/"
+      },
+      {
+        "title": "Huntress: 162 tenants with unauthorised sign-ins",
+        "source": "huntress.com",
+        "url": "https://www.huntress.com/blog/connectwise-attack-ai"
+      },
+      {
+        "title": "CERT-In current activity (advisories CIAD-2026-0046 and AI agents, Oct 9 and 15)",
+        "source": "cert-in.org.in",
+        "url": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBWEL03"
+      },
+      {
+        "title": "Economic Times: about 20 institutions affected",
+        "source": "economictimes.indiatimes.com",
+        "url": "https://economictimes.indiatimes.com/industry/banking/finance/cyberattacks-affect-20-financial-institutions-cert-in-warns-on-api-vulnerabilities-and-security-measures/articleshow/134950731.cms"
+      },
+      {
+        "title": "Moneycontrol: CERT-In warning to NBFCs and fintech firms",
+        "source": "moneycontrol.com",
+        "url": "https://www.moneycontrol.com/technology/cert-in-warns-nbfcs-and-fintech-firms-of-cyberattacks-targeting-payment-apis-for-unauthorised-fund-transfers-article-14048920.html"
+      },
+      {
+        "title": "Bitget: September security incident page",
+        "source": "bitget.com",
+        "url": "https://www.bitget.com/campaigns/bitget-security-incident-2026"
+      },
+      {
+        "title": "REA on GitHub",
+        "source": "github.com/morluto/rea",
+        "url": "https://github.com/morluto/rea"
+      },
+      {
+        "title": "REA project site",
+        "source": "morluto.github.io/rea",
+        "url": "https://morluto.github.io/rea/"
+      },
+      {
+        "title": "Scientific American interview with Morluto",
+        "source": "scientificamerican.com",
+        "url": "https://www.scientificamerican.com/article/an-exclusive-conversation-with-the-developer-of-rea-the-viral-ai-reverse-engineering-tool/"
+      },
+      {
+        "title": "InfoQ: how REA works",
+        "source": "infoq.com",
+        "url": "https://www.infoq.com/news/2026/10/reverse-engineer-anything/"
+      }
+    ]
   }
 }
