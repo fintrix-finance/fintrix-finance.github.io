@@ -633,7 +633,7 @@ const PAGES_HTML = [
         <div class="inbrief-label" style="margin-bottom:14px;">In Brief</div>
         <div class="inbrief-list">
           <div class="inbrief-item" onclick="jumpToPage(6)"><div class="inbrief-num">01</div><div class="inbrief-label-txt" id="dyn-cover-ib1">Xi's Delhi visit nears</div><div class="inbrief-arrow">&rarr; Page 7</div></div>
-          <div class="inbrief-item" onclick="jumpToPage(5)"><div class="inbrief-num">02</div><div class="inbrief-label-txt" id="dyn-cover-ib2">RBI builds record reserves</div><div class="inbrief-arrow">&rarr; Page 6</div></div>
+          <div class="inbrief-item" onclick="jumpToPage(5)"><div class="inbrief-num">02</div><div class="inbrief-label-txt" id="dyn-cover-ib2">RBI builds record reserves</div><div class="inbrief-arrow" id="dyn-cover-ib2-arrow">&rarr; Page 6</div></div>
           <div class="inbrief-item" onclick="jumpToPage(5)"><div class="inbrief-num">03</div><div class="inbrief-label-txt" id="dyn-cover-ib3">AI rally hits a wobble</div><div class="inbrief-arrow">&rarr; Page 6</div></div>
           <div class="inbrief-item" onclick="jumpToPage(5)"><div class="inbrief-num">04</div><div class="inbrief-label-txt" id="dyn-cover-ib4">GST 2.0 slabs take effect</div><div class="inbrief-arrow">&rarr; Page 6</div></div>
           <div class="inbrief-item" onclick="jumpToPage(3)"><div class="inbrief-num">05</div><div class="inbrief-label-txt">Gold, REITs &amp; fund returns</div><div class="inbrief-arrow">&rarr; Page 4</div></div>
@@ -891,10 +891,12 @@ const PAGES_HTML = [
     <div class="block">
       <span class="kicker" style="color:var(--orange);">Finnexus Explains</span>
       <h2 style="font-size:clamp(19px,4vw,25px); margin:10px 0 14px;" id="dyn-ex-title">What is Experience Economy?</h2>
+      <div class="more-box" id="dyn-more-ex" hidden></div>
       <div class="body-copy" style="font-size:11px;" id="dyn-ex-body">
         <p>The term was coined by B. Joseph Pine II and James Gilmore in a 1998 Harvard Business Review piece, which argued economies move through stages — commodities, goods, services, and finally experiences — each commanding a higher price than the one before. A cup of coffee sold as a commodity is worth a few rupees; brewed and served in a themed caf&eacute; built for Instagram, it's a multiple of that.</p>
         <p>In practice, it means businesses increasingly compete on staging rather than specification — the same trend behind gyms selling community instead of equipment access, and airlines investing in "moments" over amenities.</p>
       </div>
+      <div class="more-box" id="dyn-more-ex-rea" hidden></div>
     </div>
     <div class="block right">
       <span class="kicker" style="color:var(--orange);">Venture Vault</span><button class="share-btn" type="button" data-share-src="dyn-cover-vv" data-share-kicker="Venture Vault" aria-label="Share this story"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="10.7" x2="15.4" y2="6.3"/><line x1="8.6" y1="13.3" x2="15.4" y2="17.7"/></svg>Share</button>
@@ -1194,6 +1196,13 @@ function applyDynamic(d){
   dynText('dyn-cover-vv', c.venture_teaser);
   dynText('dyn-cover-ib1', c.inbrief_1);
   dynText('dyn-cover-ib2', c.inbrief_2);
+  const ib2t = c.inbrief_2_target;
+  if(Number.isInteger(ib2t) && ib2t >= 0 && ib2t < 16){
+    const ib2item = document.getElementById('dyn-cover-ib2').closest('.inbrief-item');
+    if(ib2item) ib2item.onclick = function(){ jumpToPage(ib2t); };
+    const ib2arrow = document.getElementById('dyn-cover-ib2-arrow');
+    if(ib2arrow) ib2arrow.textContent = '\u2192 Page ' + (ib2t + 1);
+  }
   dynText('dyn-cover-ib3', c.inbrief_3);
   dynText('dyn-cover-ib4', c.inbrief_4);
   dynText('dyn-oneline', c.big_story_teaser);
@@ -1274,13 +1283,13 @@ function applyDynamic(d){
   dynParas('dyn-geo-body', geo.paragraphs);
   dynImg('dyn-geo-img', geo.image);
   const more = d.more || {};
-  [['big_story','dyn-more-bs','Also in business'],['venture_vault','dyn-more-vv','Also in startups & IPOs'],['geopolitics','dyn-more-geo','Also in the world']].forEach(([k, id, title]) => {
+  [['big_story','dyn-more-bs','Also in business'],['venture_vault','dyn-more-vv','Also in startups & IPOs'],['geopolitics','dyn-more-geo','Also in the world'],['explains','dyn-more-ex',''],['explains_rea','dyn-more-ex-rea','']].forEach(([k, id, title]) => {
     const box = document.getElementById(id), rows = more[k];
     if(!box || !Array.isArray(rows)) return;
     const ok = rows.filter(r => r && typeof r.text === 'string' && r.text.trim()).slice(0, 3);
     if(!ok.length) return;
     box.innerHTML = '';
-    const h = document.createElement('h4'); h.textContent = title; box.appendChild(h);
+    if(title){ const h = document.createElement('h4'); h.textContent = title; box.appendChild(h); }
     const ul = document.createElement('div');
     ok.forEach(r => {
       const li = document.createElement('div'); li.className = 'mini-story';
@@ -1561,4 +1570,5 @@ updateControls();
 </script>
 </body>
   </html>
+
 
