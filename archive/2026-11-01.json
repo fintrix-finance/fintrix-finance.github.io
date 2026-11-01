@@ -1,0 +1,585 @@
+{
+  "updated_ist": "2026-11-01",
+  "cover": {
+    "big_story_teaser": "Scotch tariff disputes hit India-UK trade pact negotiations as govt opens talks",
+    "venture_teaser": "Manastu Space raises ₹22 crore in funding to scale green space propulsion tech",
+    "market_watch_teaser": "As of 2026-10-30 close: Nifty 50 23,053.10 ▲ 0.51%",
+    "daily_brief_teaser": "Indian Oil Q2 profit triples, Gold dips below $3,900, RBI sees 6.7% GDP growth",
+    "inbrief_2": "Indian Oil Q2 profit triples",
+    "inbrief_3": "Gold drops below $3,900 mark",
+    "inbrief_4": "RBI foresees 6.7% GDP growth",
+    "inbrief_1": "India-US Trade Deal at Finish Line"
+  },
+  "big_story": {
+    "headline": "Stumbling Over Scotch",
+    "subhead": "INDIA-UK TRADE DEAL HITS A SNAG AS BULK LIQUOR TARIFF DISPUTE PROMPTS GOVT TALKS",
+    "paragraphs": [
+      "Negotiations for the proposed India-UK trade deal have encountered a major roadblock over import tariffs on Scotch whisky. The Indian government has called domestic and foreign liquor giants for talks to resolve the contentious issue. Domestic firms have joined foreign peers in opposing specific tariff rulings, threatening the momentum of the pact.",
+      "The dispute centres around duty structures on bulk Scotch shipments entering the country. While global distillers seek lower tariffs to access India's expanding consumer market, domestic manufacturers are raising concerns over fair competition and market protection. This standoff presents a critical test for trade negotiators attempting to finalize the bilateral agreement.",
+      "As government officials convene meetings with industry stakeholders, market observers are watching closely to see if a compromise can be struck. A resolution on liquor tariffs could clear the path for signing the trade agreement, while persistent friction risks delaying broader economic cooperation between India and the UK."
+    ],
+    "pullbox": "The Scotch tariff row highlights the delicate balance between domestic market protection and bilateral trade concessions in high-stakes negotiations.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Bowmore_whisky_12_years.JPG/1920px-Bowmore_whisky_12_years.JPG",
+      "alt": "Scotch whisky"
+    }
+  },
+  "explains": {
+    "title": "What is a Tariff Barrier?",
+    "paragraphs": [
+      "A tariff barrier is a tax or duty imposed by a government on imported goods to make foreign products more expensive relative to domestic ones. These financial levies are traditionally used to protect local industries from overseas competition and generate government revenue.",
+      "In international trade negotiations, countries often negotiate to lower or eliminate tariffs across specific sectors. When tariffs are reduced, imported items become cheaper for consumers, but domestic producers must adapt to increased foreign competition."
+    ]
+  },
+  "venture_vault": {
+    "paragraphs": [
+      "Space tech startup Manastu Space has secured ₹22 crore in an ongoing funding round to accelerate its propulsion and space safety technology. The deeptech firm focuses on developing green propulsion systems and satellite safety solutions for the commercial space industry.",
+      "The fresh capital will enable the founders to advance thruster testing and scale deployment capabilities. As commercial satellite launches expand globally, Indian space startups are attracting heightened investor interest for specialized orbital technology."
+    ]
+  },
+  "market_watch": {
+    "indian": [
+      {
+        "name": "Sensex",
+        "value": "74,459.53 ▲ 0.42%",
+        "dir": "up",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Nifty 50",
+        "value": "23,053.10 ▲ 0.51%",
+        "dir": "up",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Nifty Bank",
+        "value": "54,686.95 ▼ 0.41%",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      }
+    ],
+    "asian": [
+      {
+        "name": "Nikkei 225",
+        "value": "63,290.11 ▼ 2.12%",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Hang Seng",
+        "value": "23,294.42 ▲ 1.46%",
+        "dir": "up",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Shanghai Comp.",
+        "value": "3,599.02 ▼ 1.44%",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      }
+    ],
+    "european": [
+      {
+        "name": "FTSE 100",
+        "value": "10,729.78 ▲ 0.07%",
+        "dir": "up",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "DAX",
+        "value": "25,818.21 ▼ 0.85%",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "CAC 40",
+        "value": "7,969.42 ▼ 0.01%",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      }
+    ],
+    "us": [
+      {
+        "name": "S&P 500",
+        "value": "7,580.07 ▼ 1.82%",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "25,437.00 ▼ 2.86%",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Dow Jones",
+        "value": "51,770.31 ▼ 1.09%",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      }
+    ],
+    "global": [
+      {
+        "name": "Dollar Index",
+        "value": "101.88 ▼ 0.16%",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Brent Crude",
+        "value": "$113.43/bbl",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Gold",
+        "value": "$3,899/oz",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "US 10Y Yield",
+        "value": "4.93% ▼ 6.0 bp",
+        "dir": "down",
+        "session_date": "2026-10-30"
+      }
+    ],
+    "losers": [
+      "Shriram Finance",
+      "Nestle India",
+      "Mahindra & Mahindra"
+    ],
+    "winners": [
+      "Trent",
+      "InterGlobe Aviation",
+      "Wipro"
+    ],
+    "snapshot_strip": "IT and Pharma led; Media and Energy lagged as the Nifty rose 0.51%",
+    "date_label": "OCT 2026",
+    "close_label": "AS OF FRIDAY'S CLOSE, OCT 30",
+    "session_date": "2026-10-30",
+    "ipo_desk": [
+      {
+        "name": "GAIL Gas IPO",
+        "note": "Board approves 25% stake dilution"
+      },
+      {
+        "name": "Bombay Coated & Special Steels IPO",
+        "note": "Issue booked nearly 4x on Day 2"
+      },
+      {
+        "name": "Core4 Engineers IPO",
+        "note": "Lists at ₹74.40 and gains 5% to ₹78.12"
+      }
+    ]
+  },
+  "data_desk": {
+    "commodities": [
+      {
+        "name": "Gold",
+        "unit": "$/oz",
+        "price": "3,899",
+        "day": "▼ 3.29%",
+        "week": "▼ 2.72%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,3.4 8.3,6.2 12.4,7.3 16.6,6.1 20.7,13.7 24.8,13.1 29.0,12.8 33.1,12.0 37.2,14.0 41.4,14.2 45.5,12.7 49.7,15.0 53.8,14.2 57.9,11.3 62.1,12.6 66.2,13.2 70.3,16.7 74.5,13.6 78.6,13.0 82.8,14.1 86.9,14.9 91.0,14.6 95.2,19.0 99.3,21.6 103.4,20.1 107.6,18.3 111.7,19.4 115.9,20.4 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Silver",
+        "unit": "$/oz",
+        "price": "49.28",
+        "day": "▼ 5.59%",
+        "week": "▼ 8.26%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.2 4.1,3.0 8.3,5.2 12.4,6.6 16.6,5.4 20.7,9.8 24.8,10.6 29.0,11.4 33.1,10.5 37.2,11.6 41.4,10.3 45.5,9.9 49.7,11.7 53.8,12.9 57.9,10.6 62.1,11.3 66.2,12.8 70.3,18.0 74.5,16.1 78.6,15.9 82.8,15.9 86.9,14.9 91.0,15.3 95.2,19.1 99.3,20.6 103.4,20.0 107.6,19.8 111.7,21.0 115.9,22.8 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Brent Crude",
+        "unit": "$/bbl",
+        "price": "113.43",
+        "day": "▼ 1.26%",
+        "week": "▼ 2.82%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,25.5 4.1,27.0 8.3,21.7 12.4,16.9 16.6,20.0 20.7,18.7 24.8,22.4 29.0,21.1 33.1,22.8 37.2,22.9 41.4,25.5 45.5,25.2 49.7,25.7 53.8,20.1 57.9,19.5 62.1,16.8 66.2,18.2 70.3,17.6 74.5,17.8 78.6,12.4 82.8,12.9 86.9,13.9 91.0,13.9 95.2,7.9 99.3,3.0 103.4,4.3 107.6,6.9 111.7,4.9 115.9,5.5 120.0,7.5\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"7.5\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "WTI Crude",
+        "unit": "$/bbl",
+        "price": "104.12",
+        "day": "▲ 2.08%",
+        "week": "▲ 0.82%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,15.6 4.1,17.4 8.3,21.1 12.4,17.4 16.6,20.7 20.7,20.5 24.8,25.3 29.0,23.8 33.1,20.0 37.2,22.7 41.4,25.3 45.5,25.2 49.7,27.0 53.8,22.1 57.9,21.6 62.1,18.7 66.2,18.1 70.3,16.7 74.5,12.3 78.6,7.1 82.8,3.7 86.9,6.5 91.0,13.6 95.2,10.0 99.3,4.3 103.4,6.6 107.6,9.4 111.7,5.0 115.9,6.2 120.0,3.0\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"3.0\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-30"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Embassy REIT",
+        "price": "₹414.24",
+        "day": "▼ 0.22%",
+        "week": "▼ 1.82%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Nexus Select REIT",
+        "price": "₹159.66",
+        "day": "▲ 2.49%",
+        "week": "▲ 1.27%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Mindspace REIT",
+        "price": "₹483.08",
+        "day": "▲ 1.45%",
+        "week": "▼ 1.09%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹314.70",
+        "day": "▲ 1.98%",
+        "week": "▲ 3.36%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹103.48",
+        "day": "▲ 0.01%",
+        "week": "▲ 0.79%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-30"
+      }
+    ],
+    "caps": [
+      {
+        "name": "Nifty 50",
+        "tag": "Large cap",
+        "level": "23,053.10",
+        "day": 0.51,
+        "week": 2.0,
+        "month": 1.48,
+        "day_txt": "▲ 0.51%",
+        "week_txt": "▲ 2.00%",
+        "month_txt": "▲ 1.48%",
+        "dir": "up",
+        "dir_week": "up",
+        "dir_month": "up",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Nifty Midcap 150",
+        "tag": "Mid cap",
+        "level": "21,047.50",
+        "day": -0.93,
+        "week": 2.21,
+        "month": -3.69,
+        "day_txt": "▼ 0.93%",
+        "week_txt": "▲ 2.21%",
+        "month_txt": "▼ 3.69%",
+        "dir": "down",
+        "dir_week": "up",
+        "dir_month": "down",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Nifty Smallcap 250",
+        "tag": "Small cap",
+        "level": "16,764.55",
+        "day": -1.97,
+        "week": 2.32,
+        "month": -5.54,
+        "day_txt": "▼ 1.97%",
+        "week_txt": "▲ 2.32%",
+        "month_txt": "▼ 5.54%",
+        "dir": "down",
+        "dir_week": "up",
+        "dir_month": "down",
+        "session_date": "2026-10-30"
+      }
+    ],
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"94.3\" width=\"22\" height=\"5.7\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"89.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.5</text><rect x=\"62.3\" y=\"77.6\" width=\"22\" height=\"22.4\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"72.6\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+2.0</text><rect x=\"90.3\" y=\"83.4\" width=\"22\" height=\"16.6\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"78.4\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.5</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"100.0\" width=\"22\" height=\"10.4\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"122.4\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.9</text><rect x=\"169.0\" y=\"75.3\" width=\"22\" height=\"24.7\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"70.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+2.2</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"41.3\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"153.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.7</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"100.0\" width=\"22\" height=\"22.0\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"134.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-2.0</text><rect x=\"275.7\" y=\"74.0\" width=\"22\" height=\"26.0\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"69.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+2.3</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"174.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-5.5</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "funds": [
+      {
+        "name": "ICICI Pru Large Cap",
+        "cat": "Large cap",
+        "nav": "₹113.46",
+        "day": "▲ 0.26%",
+        "week": "▲ 1.85%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "MO Midcap 150 Index",
+        "cat": "Mid cap",
+        "nav": "₹38.23",
+        "day": "▼ 0.90%",
+        "week": "▲ 2.25%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Nippon Small Cap",
+        "cat": "Small cap",
+        "nav": "₹192.76",
+        "day": "▼ 1.67%",
+        "week": "▲ 1.87%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-10-30"
+      },
+      {
+        "name": "Parag Parikh Flexi Cap",
+        "cat": "Flexi cap",
+        "nav": "₹89.23",
+        "day": "▲ 0.30%",
+        "week": "▲ 0.30%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-30"
+      }
+    ],
+    "date_label": "OCT 2026",
+    "close_label": "AS OF FRIDAY'S CLOSE, OCT 30",
+    "session_date": "2026-10-30",
+    "nav_label": "NAVS AS OF OCT 30"
+  },
+  "daily_brief": {
+    "story_1": {
+      "kicker": "Indian Economy | Corporate Earnings",
+      "headline": "Indian Oil Q2 Net Profit Triples to ₹21,630 Crore",
+      "paragraphs": [
+        "Indian Oil Corporation reported a robust financial performance for Q2 FY27, with net profit nearly tripling to ₹21,630 crore. The sharp gain was supported by higher refining margins and official LPG compensation payouts.",
+        "Despite the strong surge in headline profits, persistent LPG risks remain a key consideration for the state-run refiner amidst volatile global energy conditions."
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Indian_Oil_Logo.svg/960px-Indian_Oil_Logo.svg.png",
+        "alt": "Indian Oil Corporation"
+      }
+    },
+    "story_2": {
+      "kicker": "Global Markets | Commodities",
+      "headline": "Gold Drops Below $3,900/oz Amid Global Market Selloff",
+      "paragraphs": [
+        "International gold prices broke below the $3,900 per ounce threshold amid a wider selloff across global markets. Concerns over high US interest rates and liquidity pressures led traders to liquidate safe-haven positions.",
+        "The precious metal extended its October decline, reflecting elevated market anxiety as persistent oil price volatility continues to complicate global monetary outlooks."
+      ]
+    },
+    "story_3": {
+      "kicker": "Macroeconomy | Growth Outlook",
+      "headline": "RBI Projects 6.7% GDP Growth for FY27",
+      "paragraphs": [
+        "The Reserve Bank of India projects India's economy to grow at 6.7% in FY27, anchored by strong domestic demand and manufacturing activity. Resilience in internal consumption is expected to keep growth steady despite external economic headwinds."
+      ]
+    },
+    "also_today": {
+      "items": [
+        "NTPC Q2 standalone net profit rises 14% YoY to ₹5,320 crore with revenue up 17%.",
+        "CDSL Q2 net profit jumps 24% to ₹174 crore as demat accounts grow 17% YoY.",
+        "Indian startups raise $115 million in a week led by AI firms Simplismart and Live2.ai.",
+        "India and UK sign a social security agreement for short-term overseas assignments."
+      ]
+    }
+  },
+  "geopolitics": {
+    "kicker": "India-US Relations",
+    "headline": "India-US Trade Deal Reaches Finish Line",
+    "paragraphs": [
+      "US envoy Sergio Gor announced that the proposed India-US trade deal is nearing completion, expressing determination to push the pact across the finish line ahead of the G20 summit. Highlighting surging bilateral defense ties, Gor hinted at exciting outcomes from the ongoing talks. Meanwhile, Commerce Minister Piyush Goyal stated that the deal will protect Indian farmers' interests.",
+      "Despite diplomatic momentum, potential political shifts in the upcoming US midterms could impact Congress, H-1B visas, and trade policy. Navigating agricultural protections while expanding bilateral commercial opportunities remains a central priority for negotiators. For market observers, the final terms will signal the trajectory of long-term strategic and economic alignment."
+    ],
+    "world_60": [
+      "Global crude oil prices jumped over 5% after Donald Trump pulled the US out of the Iran peace deal.",
+      "Oil prices soared 14% in October to a six-month high as the US considers new strikes on Iran.",
+      "Commerce Minister Piyush Goyal stated India can achieve $1 trillion in exports this fiscal year.",
+      "India and Canada are working to seal a bilateral trade deal by the end of the calendar year.",
+      "IEA's Birol reported that global oil prices are beginning to drop following reserve release decisions."
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Sergio_Gor%2C_official_portrait_%282025%29.jpg",
+      "alt": "Sergio Gor"
+    }
+  },
+  "more": {
+    "big_story": [
+      {
+        "headline": "CDSL Q2 Consolidated Net Profit Rises 24% to Rs 174 Crore",
+        "text": "Central Depository Services (India) Limited (CDSL) reported a 24% rise in consolidated net profit to Rs 174 crore for the second quarter, alongside a 23.5% increase in revenue. The strong financial performance reflects robust market activity and retail investor growth across India. This underscores the steady expansion of the nation's capital market infrastructure.",
+        "source": "NDTV Profit",
+        "published": "31 Oct 16:10 IST"
+      },
+      {
+        "headline": "Former RBI Governor C Rangarajan Urges Building Strategic Oil Reserves",
+        "text": "Former Reserve Bank of India Governor C Rangarajan stated that India must recalibrate its development strategy and build strategic oil reserves. He highlighted the necessity of shielding the domestic economy from international energy price fluctuations. Strengthening energy reserves is critical for safeguarding India's long-term macroeconomic stability against global trade shocks.",
+        "source": "Deccan Herald",
+        "published": "01 Nov 00:56 IST"
+      }
+    ],
+    "venture_vault": [
+      {
+        "headline": "Hardware AI Startup CopperPilot Secures $390,000 in Funding",
+        "text": "Electronics hardware AI design agent startup CopperPilot raised $390,000 in its latest funding round. The company focuses on developing AI tools to streamline circuit board engineering and hardware innovation. This deal highlights investor confidence in Indian deeptech startups offering specialized automation products for global technology sectors.",
+        "source": "Indian Startup News",
+        "published": "31 Oct 17:02 IST"
+      },
+      {
+        "headline": "Deeptech Startup Viridian Ingni Raises Rs 1.47 Crore from IPV",
+        "text": "IIT Madras-incubated deeptech startup Viridian Ingni Propulsion raised Rs 1.47 crore in funding from Inflection Point Ventures (IPV). The company develops innovative propulsion systems to support space hardware and satellite operations. The funding underscores rising private investment in India's emerging commercial spacetech ecosystem.",
+        "source": "Indian Startup News",
+        "published": "31 Oct 17:29 IST"
+      }
+    ]
+  },
+  "sources": {
+    "big_story": [
+      {
+        "title": "Scotch prices row: India-UK trade deal faces big test as govt calls liquor giants for talks",
+        "source": "The Times of India"
+      },
+      {
+        "title": "India to meet liquor firms as domestic giants join foreign peers in Scotch dispute",
+        "source": "Euronext Markets: Real-time Stock Market Data | live"
+      },
+      {
+        "title": "Scotch whisky row: India-UK trade deal hits a snag as liquor companies oppose tariff ruling",
+        "source": "DhanamOnline"
+      },
+      {
+        "title": "Govt to meet liquor firms as bulk Scotch tariff row threatens UK trade pact",
+        "source": "Business Standard"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "Manastu Space Raises Rs 22 Crore in Ongoing Funding Round",
+        "source": "Equitypandit"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "Indian Oil Q2 FY27 Results: Profit Jumps 184% to ₹21,630 Crore; LPG Risk Persists",
+        "source": "NiftyTrader"
+      },
+      {
+        "title": "Indian Oil Q2 Results: Net Profit Nearly Triples to ₹21,630 Crore on Higher Margins, LPG Compensation",
+        "source": "APAC Media"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "International Gold Price Falls Below $3,900 Mark; Chinese Jewelry Prices Retreat Nearly 550 Yuan per Gram This Year",
+        "source": "BigGo Finance"
+      },
+      {
+        "title": "Gold, silver prices fall amid global selloff and US Fed rate concerns",
+        "source": "BusinessLine"
+      },
+      {
+        "title": "Gold price falls below $4,000 as stock market selloff triggers liquidity pressure",
+        "source": "Equiti Global"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "Domestic demand, manufacturing to drive 6.7% GDP growth in FY27: RBI",
+        "source": "DD News"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "NTPC Q2 Results: Standalone profit rises 14% YoY to Rs 5,320 crore; revenue up 17%",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "CDSL Q2 results: Profit grows 24% to ₹174 crore; demat account base expands 17% YoY",
+        "source": "CNBC TV18"
+      },
+      {
+        "title": "Indian Startups Raise $115 Million In A Week As Simplismart And Live2.ai Lead AI Funding Activity",
+        "source": "News18"
+      },
+      {
+        "title": "India and UK sign agreement on social security for employees on short-term overseas assignments",
+        "source": "DD News"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "Commerce Minister Piyush Goyal says proposed India-US trade deal will protect farmers’ interests",
+        "source": "News On AIR"
+      },
+      {
+        "title": "Gor hopes to take US-India trade deal 'across the finish line'; hints at 'exciting outcomes' ahead of G20",
+        "source": "Moneycontrol.com"
+      },
+      {
+        "title": "US midterms: How a Congress flip in the election could affect India, H-1B visas and trade",
+        "source": "The Indian Express"
+      },
+      {
+        "title": "\"Determined to get it across finish line\": US envoy Sergio Gor on India-US trade deal",
+        "source": "ANI News"
+      },
+      {
+        "title": "'India-US trade deal at finish line', says Sergio Gor; highlights surging defense ties",
+        "source": "Business Today"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "Global crude oil prices rise more than 5% as Trump pulls out of Iran peace deal",
+        "source": "DD News"
+      },
+      {
+        "title": "Oil prices soar 14% in October to 6-month high as US weighs fresh Iran strikes after midterms. More pain a",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "India can achieve $1 trillion exports target this fiscal despite global headwinds: Piyush Goyal",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "India, Canada seek to seal trade deal by year-end",
+        "source": "The Tribune"
+      },
+      {
+        "title": "IEA’s Birol Says Oil Prices Starting to Fall After Reserve Release Decision",
+        "source": "EnergyNow.com"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "GAIL Gas IPO gets board nod, 25% stake to be diluted",
+        "source": "Moneycontrol.com"
+      },
+      {
+        "title": "Bombay Coated & Special Steels IPO: Issue booked nearly 4x on Day 2 as QIBs lead; check key dates, price band, other details",
+        "source": "Upstox"
+      },
+      {
+        "title": "Core4 Engineers IPO Listing: Shares Debut At ₹74.40, Rise 5% To ₹78.12 On BSE SME",
+        "source": "HDFC Sky"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session 2026-10-30)",
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
+  }
+}

@@ -1,43 +1,40 @@
 {
-  "updated_ist": "2026-10-31",
+  "updated_ist": "2026-11-01",
   "cover": {
-    "big_story_teaser": "$6.3 billion stolen from Binance in largest crypto theft on record",
-    "venture_teaser": "Coratia raises ₹18 crore to build underwater robots for the Indian Navy.",
+    "big_story_teaser": "Scotch tariff disputes hit India-UK trade pact negotiations as govt opens talks",
+    "venture_teaser": "Manastu Space raises ₹22 crore in funding to scale green space propulsion tech",
     "market_watch_teaser": "As of 2026-10-30 close: Nifty 50 23,053.10 ▲ 0.51%",
-    "daily_brief_teaser": "Coal production shields economy, crude imports set record",
-    "inbrief_2": "Oil near $118 as tanker attacks multiply in the Strait of Hormuz",
-    "inbrief_3": "Crude imports hit record",
-    "inbrief_4": "Bank credit movements",
-    "inbrief_1": "Iran claims it seized a US drone over Hormuz; Washington calls it false",
-    "inbrief_2_target": 6
+    "daily_brief_teaser": "Indian Oil Q2 profit triples, Gold dips below $3,900, RBI sees 6.7% GDP growth",
+    "inbrief_2": "Indian Oil Q2 profit triples",
+    "inbrief_3": "Gold drops below $3,900 mark",
+    "inbrief_4": "RBI foresees 6.7% GDP growth",
+    "inbrief_1": "India-US Trade Deal at Finish Line"
   },
   "big_story": {
-    "headline": "$6.3 Billion Stolen from Binance in Largest Crypto Theft on Record",
-    "subhead": "IT IS THE LARGEST CRYPTO THEFT ON RECORD, EXCEEDING THE $1.46 BILLION STOLEN FROM THE BYBIT EXCHANGE IN FEBRUARY 2025.",
+    "headline": "Stumbling Over Scotch",
+    "subhead": "INDIA-UK TRADE DEAL HITS A SNAG AS BULK LIQUOR TARIFF DISPUTE PROMPTS GOVT TALKS",
     "paragraphs": [
-      "Binance, the world's largest crypto exchange, said about $6.3 billion in crypto was taken in a security incident on Thursday. Blockchain analytics firm TRM Labs said an attacker moved roughly $6.36 billion out of Binance wallets across ten blockchains, most of it in about 20 minutes. It is the largest crypto theft on record, exceeding the $1.46 billion stolen from the Bybit exchange in February 2025.",
-      "In its official statement, Binance said its initial investigation suggests the incident \"may involve a compromised DevOps engineer's laptop,\" which allowed an attacker to access a service container and submit unauthorised withdrawal transactions. Binance said it has found no evidence of a wallet private-key leak and will publish a technical post-mortem and an updated Proof of Reserves once the investigation and remediation are complete.",
-      "TRM Labs attributed the attack with \"high confidence\" to TraderTraitor, a North Korean hacking unit; Chainalysis also said it has high confidence North Korea was behind it. That is an assessment by private blockchain-intelligence firms and has not been confirmed by law enforcement. The US Secret Service says its investigators are working to identify, freeze, trace and recover the funds.",
-      "Binance said about $3 billion of the affected assets has been frozen on-chain with blockchain partners. Freezing is not recovery: issuers such as Tether and Circle can freeze stablecoins remotely, which limits the attacker's ability to cash out but does not by itself return the funds. No issuer can freeze bitcoin or ether that way; for those, tracing and recovery are still possible if the coins move through cooperative exchanges or investigators obtain the keys. Binance says it will cover all losses from its SAFU fund and company funds and that user funds are safe; SAFU held about $1 billion as of February 2026, according to Binance's own FAQ. Withdrawals are temporarily suspended while security checks are completed; deposits continue as normal (Binance statement, updated October 30).",
-      "Bitcoin fell about 4-5% over 24 hours to around $77,000 in Friday afternoon New York trading (as of about 1:30 PM ET), after touching a six-week low near $76,300. More than $1.5 billion in leveraged crypto positions was liquidated in 24 hours, mostly long bets (CoinGlass data via CoinDesk). Analysts noted the fall was smaller than the average first-day drop after past exchange hacks, because the breach hit a centralised exchange, not the Bitcoin network itself.",
-      "For Indian users: Binance is registered with India's Financial Intelligence Unit (FIU-IND) as a reporting entity under anti-money-laundering rules. That registration is a reporting obligation, not a government endorsement or investor protection. Binance says balances are safe, but withdrawals stay paused until its security checks finish."
+      "Negotiations for the proposed India-UK trade deal have encountered a major roadblock over import tariffs on Scotch whisky. The Indian government has called domestic and foreign liquor giants for talks to resolve the contentious issue. Domestic firms have joined foreign peers in opposing specific tariff rulings, threatening the momentum of the pact.",
+      "The dispute centres around duty structures on bulk Scotch shipments entering the country. While global distillers seek lower tariffs to access India's expanding consumer market, domestic manufacturers are raising concerns over fair competition and market protection. This standoff presents a critical test for trade negotiators attempting to finalize the bilateral agreement.",
+      "As government officials convene meetings with industry stakeholders, market observers are watching closely to see if a compromise can be struck. A resolution on liquor tariffs could clear the path for signing the trade agreement, while persistent friction risks delaying broader economic cooperation between India and the UK."
     ],
-    "pullbox": "Freezing is not recovery: issuers such as Tether and Circle can freeze stablecoins remotely, which limits the attacker's ability to cash out but does not by itself return the funds.",
+    "pullbox": "The Scotch tariff row highlights the delicate balance between domestic market protection and bilateral trade concessions in high-stakes negotiations.",
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Binance_logo.svg",
-      "alt": "Binance logo"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Bowmore_whisky_12_years.JPG/1920px-Bowmore_whisky_12_years.JPG",
+      "alt": "Scotch whisky"
     }
   },
   "explains": {
-    "title": "The New Speed of Cyberattacks",
+    "title": "What is a Tariff Barrier?",
     "paragraphs": [
-      "The thread connecting October's biggest incidents is stolen credentials plus faster tooling, not one campaign, and not AI everywhere. No AI link has been established in the Binance or Bitget breaches. Chainalysis said proceeds of September's $388 million Bitget theft were being mixed with funds from the Binance breach - a laundering step, not a connection between the two attacks."
+      "A tariff barrier is a tax or duty imposed by a government on imported goods to make foreign products more expensive relative to domestic ones. These financial levies are traditionally used to protect local industries from overseas competition and generate government revenue.",
+      "In international trade negotiations, countries often negotiate to lower or eliminate tariffs across specific sectors. When tariffs are reduced, imported items become cheaper for consumers, but domestic producers must adapt to increased foreign competition."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Underwater robotics startup Coratia has raised ₹18 crore to support its expansion and technological development. The defense-tech enterprise builds specialized robotic systems tailored for marine exploration and defense sector tasks.",
-      "The fresh funding will be utilized to build advanced underwater robots specifically designed for the Indian Navy. This investment underscores rising investor confidence in domestic hardware innovation and defense technology solutions."
+      "Space tech startup Manastu Space has secured ₹22 crore in an ongoing funding round to accelerate its propulsion and space safety technology. The deeptech firm focuses on developing green propulsion systems and satellite safety solutions for the commercial space industry.",
+      "The fresh capital will enable the founders to advance thruster testing and scale deployment capabilities. As commercial satellite launches expand globally, Indian space startups are attracting heightened investor interest for specialized orbital technology."
     ]
   },
   "market_watch": {
@@ -124,7 +121,7 @@
     "global": [
       {
         "name": "Dollar Index",
-        "value": "101.96 ▼ 0.07%",
+        "value": "101.88 ▼ 0.16%",
         "dir": "down",
         "session_date": "2026-10-30"
       },
@@ -163,12 +160,16 @@
     "session_date": "2026-10-30",
     "ipo_desk": [
       {
-        "name": "GAIL Gas",
-        "note": "Board approves IPO, 25% stake to be diluted"
+        "name": "GAIL Gas IPO",
+        "note": "Board approves 25% stake dilution"
       },
       {
-        "name": "BLS Polymers",
-        "note": "Subscribed 240 times, allotment today"
+        "name": "Bombay Coated & Special Steels IPO",
+        "note": "Issue booked nearly 4x on Day 2"
+      },
+      {
+        "name": "Core4 Engineers IPO",
+        "note": "Lists at ₹74.40 and gains 5% to ₹78.12"
       }
     ]
   },
@@ -222,39 +223,39 @@
     "alternatives": [
       {
         "name": "Embassy REIT",
-        "price": "₹415.15",
-        "day": "▲ 0.17%",
-        "week": "▼ 2.04%",
-        "dir": "up",
+        "price": "₹414.24",
+        "day": "▼ 0.22%",
+        "week": "▼ 1.82%",
+        "dir": "down",
         "dir_week": "down",
-        "session_date": "2026-10-29"
+        "session_date": "2026-10-30"
       },
       {
         "name": "Nexus Select REIT",
-        "price": "₹155.78",
-        "day": "▼ 0.68%",
-        "week": "▼ 2.07%",
-        "dir": "down",
-        "dir_week": "down",
-        "session_date": "2026-10-29"
+        "price": "₹159.66",
+        "day": "▲ 2.49%",
+        "week": "▲ 1.27%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-10-30"
       },
       {
         "name": "Mindspace REIT",
-        "price": "₹476.17",
-        "day": "▼ 1.44%",
-        "week": "▼ 3.20%",
-        "dir": "down",
+        "price": "₹483.08",
+        "day": "▲ 1.45%",
+        "week": "▼ 1.09%",
+        "dir": "up",
         "dir_week": "down",
-        "session_date": "2026-10-29"
+        "session_date": "2026-10-30"
       },
       {
         "name": "Brookfield REIT",
-        "price": "₹308.60",
-        "day": "▲ 0.24%",
-        "week": "▼ 1.71%",
+        "price": "₹314.70",
+        "day": "▲ 1.98%",
+        "week": "▲ 3.36%",
         "dir": "up",
-        "dir_week": "down",
-        "session_date": "2026-10-29"
+        "dir_week": "up",
+        "session_date": "2026-10-30"
       },
       {
         "name": "PowerGrid InvIT",
@@ -363,319 +364,222 @@
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "Energy Sector",
-      "headline": "Domestic Coal Production Shields India's Economy",
+      "kicker": "Indian Economy | Corporate Earnings",
+      "headline": "Indian Oil Q2 Net Profit Triples to ₹21,630 Crore",
       "paragraphs": [
-        "Domestic coal production continues to shield India's economy from severe global price swings as pressure on the energy sector persists. The Coal Secretary highlighted that local output provides a vital buffer against international market volatility.",
-        "This domestic insulation helps stabilize industrial input costs across the broader manufacturing and power generation sectors as global commodity markets experience ongoing turbulence."
+        "Indian Oil Corporation reported a robust financial performance for Q2 FY27, with net profit nearly tripling to ₹21,630 crore. The sharp gain was supported by higher refining margins and official LPG compensation payouts.",
+        "Despite the strong surge in headline profits, persistent LPG risks remain a key consideration for the state-run refiner amidst volatile global energy conditions."
       ],
       "image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Coal_mine_Wyoming.jpg",
-        "alt": "Coal mining"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Indian_Oil_Logo.svg/960px-Indian_Oil_Logo.svg.png",
+        "alt": "Indian Oil Corporation"
       }
     },
     "story_2": {
-      "kicker": "Commodities",
-      "headline": "Crude Imports Set to Record Highest Ever Levels",
+      "kicker": "Global Markets | Commodities",
+      "headline": "Gold Drops Below $3,900/oz Amid Global Market Selloff",
       "paragraphs": [
-        "India's crude imports are set to record their highest-ever levels at 5.4 to 5.6 million barrels per day in October as refiners actively diversify their supply sources. This strategic shift underscores the country's growing refining capacity and robust domestic fuel demand.",
-        "The steady inflow of diversified crude shipments also plays a crucial role in managing national energy security amid shifting geopolitical trade routes and fluctuating global oil benchmarks."
+        "International gold prices broke below the $3,900 per ounce threshold amid a wider selloff across global markets. Concerns over high US interest rates and liquidity pressures led traders to liquidate safe-haven positions.",
+        "The precious metal extended its October decline, reflecting elevated market anxiety as persistent oil price volatility continues to complicate global monetary outlooks."
       ]
     },
     "story_3": {
-      "kicker": "Banking & Rates",
-      "headline": "RBI Reports Significant Credit and Rate Trends",
+      "kicker": "Macroeconomy | Growth Outlook",
+      "headline": "RBI Projects 6.7% GDP Growth for FY27",
       "paragraphs": [
-        "The Reserve Bank of India has released data showing significant movements in bank credit and interest rate trends for September. These updates offer critical insights into credit growth across various economic sectors as monetary policy developments unfold."
+        "The Reserve Bank of India projects India's economy to grow at 6.7% in FY27, anchored by strong domestic demand and manufacturing activity. Resilience in internal consumption is expected to keep growth steady despite external economic headwinds."
       ]
     },
     "also_today": {
       "items": [
-        "Sensex jumps 1,534 points as falling oil prices lift domestic Indian stocks during the session.",
-        "IMF highlights El Nino downside risks for India and suggests RBI allow the rupee to move freely.",
-        "Jio Platforms reports Q2 profit rises 13.7 percent to 8,387 crore rupees with strong revenue growth.",
-        "Gold prices plunge below 3,900 dollars as rising oil and inflation fuel rate hike expectations."
+        "NTPC Q2 standalone net profit rises 14% YoY to ₹5,320 crore with revenue up 17%.",
+        "CDSL Q2 net profit jumps 24% to ₹174 crore as demat accounts grow 17% YoY.",
+        "Indian startups raise $115 million in a week led by AI firms Simplismart and Live2.ai.",
+        "India and UK sign a social security agreement for short-term overseas assignments."
       ]
     }
   },
   "geopolitics": {
-    "kicker": "Strait of Hormuz",
-    "headline": "Iran Claims It Seized a US Drone Over the Strait of Hormuz; Washington Says the Report Is False",
+    "kicker": "India-US Relations",
+    "headline": "India-US Trade Deal Reaches Finish Line",
     "paragraphs": [
-      "Iran's Revolutionary Guard Corps (IRGC) Navy said on Thursday that its electronic-warfare unit detected a US MQM-170 Outlaw drone west of the Strait of Hormuz, took control of its guidance systems and landed it intact on Iranian territory. The IRGC claimed the drone was identifying Iranian air defences along the Gulf coast and had taken off from a southern Gulf state's coast. Iranian state television aired the claim.",
-      "US Central Command said the report was false. \"In the past weeks and months, the IRGC has repeatedly lied out of desperation, and today is no different,\" CENTCOM spokesman Capt. Tim Hawkins told the Associated Press. The MQM-170 Outlaw, built by Griffon Aerospace, is used by the US military mainly as an aerial target for training and testing, according to The War Zone.",
-      "Hours earlier, the IRGC said it destroyed a US MQ-1 drone east of the strait, which it called the 14th such drone it has downed. Iran claims to have destroyed more than 50 US MQ-9 Reaper drones since the war began; DPA notes such claims generally cannot be independently verified, though the US Congressional Research Service says the United States has reported losing or damaging dozens of aircraft and drones since joining Israel's campaign. In 2011, Iran displayed a CIA RQ-170 Sentinel it said it had brought down electronically; the US said that drone malfunctioned.",
-      "The US-Israeli war with Iran began on February 28. The Wall Street Journal reported this week that Washington has told Gulf Arab states to prepare for a \"short, intense military campaign\" against Tehran after the November 3 US midterm elections, though no final decision has been made. Qatari mediators returned to Tehran on Friday (Reuters), and President Trump said he believes the war will end soon."
+      "US envoy Sergio Gor announced that the proposed India-US trade deal is nearing completion, expressing determination to push the pact across the finish line ahead of the G20 summit. Highlighting surging bilateral defense ties, Gor hinted at exciting outcomes from the ongoing talks. Meanwhile, Commerce Minister Piyush Goyal stated that the deal will protect Indian farmers' interests.",
+      "Despite diplomatic momentum, potential political shifts in the upcoming US midterms could impact Congress, H-1B visas, and trade policy. Navigating agricultural protections while expanding bilateral commercial opportunities remains a central priority for negotiators. For market observers, the final terms will signal the trajectory of long-term strategic and economic alignment."
     ],
     "world_60": [
-      "Oil prices soared 14% in October to a six-month high as the US considers fresh Iran strikes.",
-      "Gold prices plunged to a one-year low below $3,900 as crude oil surges weighed on market sentiment.",
-      "A tanker attack in the Strait of Hormuz lifted oil prices, causing spot gold to fall below $3,910.",
-      "Silver hit an 11-month low, crashing sharply across global commodity exchanges and Delhi markets.",
-      "New Zealand's Parliament officially cleared its Free Trade Agreement with India to boost trade."
+      "Global crude oil prices jumped over 5% after Donald Trump pulled the US out of the Iran peace deal.",
+      "Oil prices soared 14% in October to a six-month high as the US considers new strikes on Iran.",
+      "Commerce Minister Piyush Goyal stated India can achieve $1 trillion in exports this fiscal year.",
+      "India and Canada are working to seal a bilateral trade deal by the end of the calendar year.",
+      "IEA's Birol reported that global oil prices are beginning to drop following reserve release decisions."
     ],
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Strait_of_hormuz_full.jpg",
-      "alt": "Map of the Strait of Hormuz"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Sergio_Gor%2C_official_portrait_%282025%29.jpg",
+      "alt": "Sergio Gor"
     }
   },
   "more": {
+    "big_story": [
+      {
+        "headline": "CDSL Q2 Consolidated Net Profit Rises 24% to Rs 174 Crore",
+        "text": "Central Depository Services (India) Limited (CDSL) reported a 24% rise in consolidated net profit to Rs 174 crore for the second quarter, alongside a 23.5% increase in revenue. The strong financial performance reflects robust market activity and retail investor growth across India. This underscores the steady expansion of the nation's capital market infrastructure.",
+        "source": "NDTV Profit",
+        "published": "31 Oct 16:10 IST"
+      },
+      {
+        "headline": "Former RBI Governor C Rangarajan Urges Building Strategic Oil Reserves",
+        "text": "Former Reserve Bank of India Governor C Rangarajan stated that India must recalibrate its development strategy and build strategic oil reserves. He highlighted the necessity of shielding the domestic economy from international energy price fluctuations. Strengthening energy reserves is critical for safeguarding India's long-term macroeconomic stability against global trade shocks.",
+        "source": "Deccan Herald",
+        "published": "01 Nov 00:56 IST"
+      }
+    ],
     "venture_vault": [
       {
-        "headline": "Tensrai Secures ₹3.4 Crore to Automate Existing Industrial Machinery",
-        "text": "Hyderabad-based physical artificial intelligence startup Tensrai has raised ₹3.4 crore in funding to develop technology that allows legacy industrial machines to operate autonomously. The capital infusion will help the startup scale its automation retrofits, aiding Indian manufacturing units in boosting operational efficiency without capital-intensive hardware replacements.",
+        "headline": "Hardware AI Startup CopperPilot Secures $390,000 in Funding",
+        "text": "Electronics hardware AI design agent startup CopperPilot raised $390,000 in its latest funding round. The company focuses on developing AI tools to streamline circuit board engineering and hardware innovation. This deal highlights investor confidence in Indian deeptech startups offering specialized automation products for global technology sectors.",
         "source": "Indian Startup News",
-        "published": "30 Oct 13:57 IST"
+        "published": "31 Oct 17:02 IST"
       },
       {
-        "headline": "QwikBuild Raises $2.3 Million Pre-Seed Funding Led by Globalway",
-        "text": "Proptech startup QwikBuild has secured $2.3 million in a pre-seed funding round led by Japanese firm Globalway. The new capital will support the company's product development and expansion plans in India's rapidly modernizing construction technology ecosystem as demand for digital tools soars.",
-        "source": "Indian Startup Times",
-        "published": "29 Oct 15:26 IST"
-      }
-    ],
-    "geopolitics": [
-      {
-        "headline": "Oil Nears $118 as Hormuz Tanker Attacks Multiply",
-        "text": "A tanker transiting the Strait of Hormuz was hit on Thursday night by explosives attached to its hull from a small boat, the first successful limpet-mine attack of the war, the UK Maritime Trade Operations agency said. Iran's IRGC said another tanker struck a mine on Friday on what it called an unauthorised route. Brent futures traded near $117.6-118 a barrel on Friday evening Gulf time (about 9-9:30 PM IST), up roughly 2.5% and the highest since late April, heading for a fourth straight monthly gain of about 13-14%. US WTI traded near $104. Oil exports through the strait fell again last week, shipping data provider Kpler said.",
-        "source": "Reuters · UK Maritime Trade Operations · Kpler",
-        "published": "October 30"
-      }
-    ],
-    "explains": [
-      {
-        "headline": "AI Agents Targeted More Than 2,250 Microsoft 365 Tenants After a ConnectWise Credential Theft",
-        "text": "October showed how AI tooling is changing the tempo of some major attacks. On October 21, Microsoft reported that a China-state-aligned group it tracks as Storm-0940 used ARTEX, an open-source framework in which AI agents run penetration-test tasks with little human involvement, after a ConnectWise cloud-backup credential was stolen: sign-in attempts against more than 2,250 Microsoft 365 tenants followed, and in several cases the attackers won privileged cloud access within three hours of first targeting an organisation. Security firm Huntress confirmed unauthorised sign-ins at 162 tenants. Microsoft says its own systems were not compromised, and that a sign-in does not by itself prove data was taken.",
-        "source": "Microsoft Security Blog · Huntress",
-        "published": "October 21"
-      },
-      {
-        "headline": "CERT-In Warns Indian Financial Firms After Payment-API Fund-Transfer Attacks",
-        "text": "India received its own warning. CERT-In's October 9 advisory, rated critical, says attackers stole payment and partner-bank API credentials at NBFCs, digital lenders, payment firms and wallet operators, then called fund-transfer APIs directly from the victims' own trusted servers, bypassing KYC, sanction and limit checks. The advisory notes the possible use of AI-assisted tools and faster compromise-to-transfer times. The Economic Times reported about 20 institutions were affected. A second CERT-In advisory on October 15 warned of the misuse of open-source agentic AI tools against Indian systems.",
-        "source": "CERT-In · The Economic Times",
-        "published": "October 9 and 15"
-      }
-    ],
-    "explains_rea": [
-      {
-        "headline": "REA - separate capability note",
-        "text": "Separately, October made a phenomenon of REA, short for \"Reverse Engineer Anything\" - a viral open-source project whose pseudonymous creator, Morluto, spoke to Scientific American this week. REA lets an AI coding agent drive established reverse-engineering tools such as Ghidra, software originally developed by the US National Security Agency, to inspect an app it has no source code for and explain how its features work. That makes software inspection far more accessible: useful for researchers, preservationists and builders studying systems they own, and dual-use in that the same accessibility can serve attackers. There is no evidence linking REA to any of the incidents above.",
-        "source": "Scientific American"
+        "headline": "Deeptech Startup Viridian Ingni Raises Rs 1.47 Crore from IPV",
+        "text": "IIT Madras-incubated deeptech startup Viridian Ingni Propulsion raised Rs 1.47 crore in funding from Inflection Point Ventures (IPV). The company develops innovative propulsion systems to support space hardware and satellite operations. The funding underscores rising private investment in India's emerging commercial spacetech ecosystem.",
+        "source": "Indian Startup News",
+        "published": "31 Oct 17:29 IST"
       }
     ]
   },
   "sources": {
     "big_story": [
       {
-        "title": "Binance official statement (updated Oct 30)",
-        "source": "binance.com",
-        "url": "https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7"
+        "title": "Scotch prices row: India-UK trade deal faces big test as govt calls liquor giants for talks",
+        "source": "The Times of India"
       },
       {
-        "title": "Binance SAFU FAQ",
-        "source": "binance.com",
-        "url": "https://www.binance.com/en/support/faq/detail/028799e730294ae4a9b382d60d350116"
+        "title": "India to meet liquor firms as domestic giants join foreign peers in Scotch dispute",
+        "source": "Euronext Markets: Real-time Stock Market Data | live"
       },
       {
-        "title": "Times of India: TRM Labs attribution and North Korea link",
-        "source": "timesofindia.indiatimes.com",
-        "url": "https://timesofindia.indiatimes.com/business/international-business/6-3-billion-gone-north-korea-link-inside-the-crypto-heist-at-worlds-largest-exchange-binance/articleshow/135351366.cms"
+        "title": "Scotch whisky row: India-UK trade deal hits a snag as liquor companies oppose tariff ruling",
+        "source": "DhanamOnline"
       },
       {
-        "title": "Times of India: the report you sent",
-        "source": "timesofindia.indiatimes.com",
-        "url": "https://timesofindia.indiatimes.com/technology/tech-news/hackers-steal-6-3-billion-from-worlds-largest-cryptocurrency-exchange-binance-in-what-analysts-say-the-biggest-crypto-hack-ever-co-ceo-speaks-directly-about-what-happened/articleshow/135354182.cms"
-      },
-      {
-        "title": "Channel NewsAsia explainer",
-        "source": "channelnewsasia.com",
-        "url": "https://www.channelnewsasia.com/business/binance-cryptocurrency-heist-biggest-20-minutes-explainer-6506676"
-      },
-      {
-        "title": "BBC live coverage (US Secret Service)",
-        "source": "bbc.com",
-        "url": "https://www.bbc.com/news/live/cqrmynd3042gt"
-      },
-      {
-        "title": "CoinDesk: bitcoin and ether fall, liquidations",
-        "source": "coindesk.com",
-        "url": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead"
-      },
-      {
-        "title": "CNBC: Tether and Circle freeze affected funds",
-        "source": "cnbc.com",
-        "url": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html"
-      },
-      {
-        "title": "CNBC: bitcoin price after the hack",
-        "source": "cnbc.com",
-        "url": "https://www.cnbc.com/2026/10/30/binance-hack-bitcoin-price.html"
-      },
-      {
-        "title": "Economic Times (Reuters): freeze is not recovery; Chainalysis on fund mixing",
-        "source": "economictimes.indiatimes.com",
-        "url": "https://economictimes.indiatimes.com/news/international/world-news/cryptos-biggest-ever-heist-how-hackers-stole-6-3-billion-in-just-20-minutes/articleshow/135357593.cms"
-      },
-      {
-        "title": "Moneycontrol: bitcoin at six-week low",
-        "source": "moneycontrol.com",
-        "url": "https://www.moneycontrol.com/news/business/personal-finance/bitcoin-falls-6-week-low-near-77-266-as-binance-security-scare-rattles-crypto-markets-14064131.html"
+        "title": "Govt to meet liquor firms as bulk Scotch tariff row threatens UK trade pact",
+        "source": "Business Standard"
       }
     ],
     "venture_vault": [
       {
-        "title": "Underwater robotics startup Coratia raises Rs 18 crore as it builds robots for the Indian Navy",
-        "source": "Indian Startup News"
+        "title": "Manastu Space Raises Rs 22 Crore in Ongoing Funding Round",
+        "source": "Equitypandit"
       }
     ],
     "daily_brief_1": [
       {
-        "title": "Domestic coal production shields India’s economy from global price swings as pressure on energy sector persists: Coal Secretary",
-        "source": "BusinessLine"
+        "title": "Indian Oil Q2 FY27 Results: Profit Jumps 184% to ₹21,630 Crore; LPG Risk Persists",
+        "source": "NiftyTrader"
+      },
+      {
+        "title": "Indian Oil Q2 Results: Net Profit Nearly Triples to ₹21,630 Crore on Higher Margins, LPG Compensation",
+        "source": "APAC Media"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "India’s crude imports set to record highest-ever 5.4-5.6 mn b/d in October as refiners diversify supplies",
-        "source": "ThePrint"
+        "title": "International Gold Price Falls Below $3,900 Mark; Chinese Jewelry Prices Retreat Nearly 550 Yuan per Gram This Year",
+        "source": "BigGo Finance"
+      },
+      {
+        "title": "Gold, silver prices fall amid global selloff and US Fed rate concerns",
+        "source": "BusinessLine"
+      },
+      {
+        "title": "Gold price falls below $4,000 as stock market selloff triggers liquidity pressure",
+        "source": "Equiti Global"
       }
     ],
     "daily_brief_3": [
       {
-        "title": "Bank credit and interest rate trends for September show significant movements: RBI",
-        "source": "News On AIR"
+        "title": "Domestic demand, manufacturing to drive 6.7% GDP growth in FY27: RBI",
+        "source": "DD News"
       }
     ],
     "also_today": [
       {
-        "title": "Sensex Jumps 1,534 Points as Falling Oil Prices Lift Indian Stocks",
-        "source": "INDIA New England News"
+        "title": "NTPC Q2 Results: Standalone profit rises 14% YoY to Rs 5,320 crore; revenue up 17%",
+        "source": "The Economic Times"
       },
       {
-        "title": "El Nino Downside Risk For India; RBI Should Allow Rupee To Move Freely: IMF",
-        "source": "Deccan Chronicle"
+        "title": "CDSL Q2 results: Profit grows 24% to ₹174 crore; demat account base expands 17% YoY",
+        "source": "CNBC TV18"
+      },
+      {
+        "title": "Indian Startups Raise $115 Million In A Week As Simplismart And Live2.ai Lead AI Funding Activity",
+        "source": "News18"
+      },
+      {
+        "title": "India and UK sign agreement on social security for employees on short-term overseas assignments",
+        "source": "DD News"
       }
     ],
     "geopolitics": [
       {
-        "title": "Tasnim News: IRGC claim of capturing the drone",
-        "source": "tasnimnews.ir",
-        "url": "https://www.tasnimnews.ir/en/news/2026/10/29/3735375/irgc-navy-captures-us-spy-drone-intact"
+        "title": "Commerce Minister Piyush Goyal says proposed India-US trade deal will protect farmers’ interests",
+        "source": "News On AIR"
       },
       {
-        "title": "News18 (AP): CENTCOM denial",
-        "source": "news18.com",
-        "url": "https://www.news18.com/agency-feeds/us-military-denies-claim-that-iran-captured-american-drone-10403841.html"
+        "title": "Gor hopes to take US-India trade deal 'across the finish line'; hints at 'exciting outcomes' ahead of G20",
+        "source": "Moneycontrol.com"
       },
       {
-        "title": "The War Zone: what the MQM-170 Outlaw is used for",
-        "source": "twz.com",
-        "url": "https://www.twz.com/news-features/lets-talk-about-the-u-s-target-drone-iran-claims-to-have-recovered-intact"
+        "title": "US midterms: How a Congress flip in the election could affect India, H-1B visas and trade",
+        "source": "The Indian Express"
       },
       {
-        "title": "Firstpost: the report you sent (WSJ campaign report, Reaper claims)",
-        "source": "firstpost.com",
-        "url": "https://www.firstpost.com/world/iran-claims-shooting-down-us-military-drone-near-hormuz-as-trump-weighs-fresh-strikes-14056280.html"
+        "title": "\"Determined to get it across finish line\": US envoy Sergio Gor on India-US trade deal",
+        "source": "ANI News"
       },
       {
-        "title": "CNBC: oil prices on Hormuz supply concerns",
-        "source": "cnbc.com",
-        "url": "https://www.cnbc.com/2026/10/30/oil-rises-on-supply-concerns-as-houthis-attack-saudi-arabia.html"
+        "title": "'India-US trade deal at finish line', says Sergio Gor; highlights surging defense ties",
+        "source": "Business Today"
       }
     ],
     "world_60": [
       {
-        "title": "New Zealand Parliament clears FTA with India",
+        "title": "Global crude oil prices rise more than 5% as Trump pulls out of Iran peace deal",
         "source": "DD News"
-      },
-      {
-        "title": "Gold prices plunge to one-year low below $3,900 as higher oil prices fuel fears of more pain ahead",
-        "source": "Kitco"
       },
       {
         "title": "Oil prices soar 14% in October to 6-month high as US weighs fresh Iran strikes after midterms. More pain a",
         "source": "The Economic Times"
       },
       {
-        "title": "Tanker Attack in Strait of Hormuz Lifts Oil Prices; Spot Gold Falls Below $3,910, Plunging More Than $110 in a Single Day",
-        "source": "BigGo Finance"
+        "title": "India can achieve $1 trillion exports target this fiscal despite global headwinds: Piyush Goyal",
+        "source": "The Economic Times"
       },
       {
-        "title": "Silver Hits 11-Month Low: Prices Crash Globally & in Delhi",
-        "source": "Rediff MoneyWiz"
+        "title": "India, Canada seek to seal trade deal by year-end",
+        "source": "The Tribune"
+      },
+      {
+        "title": "IEA’s Birol Says Oil Prices Starting to Fall After Reserve Release Decision",
+        "source": "EnergyNow.com"
       }
     ],
     "ipo_desk": [
-      {
-        "title": "GAIL Q2 Results: Profit zooms 139% YoY to Rs 4,720 crore, revenue rises 33%; board approves GAIL Gas IPO",
-        "source": "The Economic Times"
-      },
       {
         "title": "GAIL Gas IPO gets board nod, 25% stake to be diluted",
         "source": "Moneycontrol.com"
       },
       {
-        "title": "IPO: BLS Polymers Subscribed 240 Times; SFC Environmental Issue Booked 9.25 Times",
-        "source": "The Indian Awaaz"
+        "title": "Bombay Coated & Special Steels IPO: Issue booked nearly 4x on Day 2 as QIBs lead; check key dates, price band, other details",
+        "source": "Upstox"
       },
       {
-        "title": "BLS Polymers IPO allotment today; GMP at 45% — check status on BSE, NSE and registrar",
-        "source": "Moneycontrol.com"
+        "title": "Core4 Engineers IPO Listing: Shares Debut At ₹74.40, Rise 5% To ₹78.12 On BSE SME",
+        "source": "HDFC Sky"
       }
     ],
     "market_data": "Yahoo Finance (computed, session 2026-10-30)",
-    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in",
-    "explains": [
-      {
-        "title": "Microsoft Security Blog: Storm-0940 and ARTEX (Oct 21)",
-        "source": "microsoft.com",
-        "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/"
-      },
-      {
-        "title": "Huntress: 162 tenants with unauthorised sign-ins",
-        "source": "huntress.com",
-        "url": "https://www.huntress.com/blog/connectwise-attack-ai"
-      },
-      {
-        "title": "CERT-In current activity (advisories CIAD-2026-0046 and AI agents, Oct 9 and 15)",
-        "source": "cert-in.org.in",
-        "url": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBWEL03"
-      },
-      {
-        "title": "Economic Times: about 20 institutions affected",
-        "source": "economictimes.indiatimes.com",
-        "url": "https://economictimes.indiatimes.com/industry/banking/finance/cyberattacks-affect-20-financial-institutions-cert-in-warns-on-api-vulnerabilities-and-security-measures/articleshow/134950731.cms"
-      },
-      {
-        "title": "Moneycontrol: CERT-In warning to NBFCs and fintech firms",
-        "source": "moneycontrol.com",
-        "url": "https://www.moneycontrol.com/technology/cert-in-warns-nbfcs-and-fintech-firms-of-cyberattacks-targeting-payment-apis-for-unauthorised-fund-transfers-article-14048920.html"
-      },
-      {
-        "title": "Bitget: September security incident page",
-        "source": "bitget.com",
-        "url": "https://www.bitget.com/campaigns/bitget-security-incident-2026"
-      },
-      {
-        "title": "REA on GitHub",
-        "source": "github.com/morluto/rea",
-        "url": "https://github.com/morluto/rea"
-      },
-      {
-        "title": "REA project site",
-        "source": "morluto.github.io/rea",
-        "url": "https://morluto.github.io/rea/"
-      },
-      {
-        "title": "Scientific American interview with Morluto",
-        "source": "scientificamerican.com",
-        "url": "https://www.scientificamerican.com/article/an-exclusive-conversation-with-the-developer-of-rea-the-viral-ai-reverse-engineering-tool/"
-      },
-      {
-        "title": "InfoQ: how REA works",
-        "source": "infoq.com",
-        "url": "https://www.infoq.com/news/2026/10/reverse-engineer-anything/"
-      }
-    ]
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
   }
 }
