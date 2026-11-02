@@ -1,61 +1,61 @@
 {
-  "updated_ist": "2026-11-01",
+  "updated_ist": "2026-11-02",
   "cover": {
-    "big_story_teaser": "Scotch tariff disputes hit India-UK trade pact negotiations as govt opens talks",
-    "venture_teaser": "Manastu Space raises ₹22 crore in funding to scale green space propulsion tech",
-    "market_watch_teaser": "As of 2026-10-30 close: Nifty 50 23,053.10 ▲ 0.51%",
-    "daily_brief_teaser": "Indian Oil Q2 profit triples, Gold dips below $3,900, RBI sees 6.7% GDP growth",
-    "inbrief_2": "Indian Oil Q2 profit triples",
-    "inbrief_3": "Gold drops below $3,900 mark",
-    "inbrief_4": "RBI foresees 6.7% GDP growth",
+    "big_story_teaser": "India's Q2 FY27 growth projected at 7.35% amid RBI resilience note",
+    "venture_teaser": "Two Point O Capital raises $10 million for clean energy financing",
+    "market_watch_teaser": "LIVE AS OF 9:59 AM IST: Nifty 50 23,317.10 ▲ 1.15%",
+    "daily_brief_teaser": "Sensex opens higher with RIL jumps, Tata Sons safety case examined",
+    "inbrief_2": "Sensex jumps 700 points",
+    "inbrief_3": "Tata Sons case safety",
+    "inbrief_4": "RBI economy resilient",
     "inbrief_1": "India-US Trade Deal at Finish Line"
   },
   "big_story": {
-    "headline": "Stumbling Over Scotch",
-    "subhead": "INDIA-UK TRADE DEAL HITS A SNAG AS BULK LIQUOR TARIFF DISPUTE PROMPTS GOVT TALKS",
+    "headline": "India's Q2 FY27 Growth Forecast at 7.35%",
+    "subhead": "RBI HIGHLIGHTS RESILIENCE AS Q2 GDP EXPANSION PROJECTIONS REACH 7.35 PERCENT",
     "paragraphs": [
-      "Negotiations for the proposed India-UK trade deal have encountered a major roadblock over import tariffs on Scotch whisky. The Indian government has called domestic and foreign liquor giants for talks to resolve the contentious issue. Domestic firms have joined foreign peers in opposing specific tariff rulings, threatening the momentum of the pact.",
-      "The dispute centres around duty structures on bulk Scotch shipments entering the country. While global distillers seek lower tariffs to access India's expanding consumer market, domestic manufacturers are raising concerns over fair competition and market protection. This standoff presents a critical test for trade negotiators attempting to finalize the bilateral agreement.",
-      "As government officials convene meetings with industry stakeholders, market observers are watching closely to see if a compromise can be struck. A resolution on liquor tariffs could clear the path for signing the trade agreement, while persistent friction risks delaying broader economic cooperation between India and the UK."
+      "India’s economy is projected to grow by 7.35% in Q2 FY27, underscoring sustained momentum across key domestic sectors. According to the Reserve Bank of India, the broader economic ecosystem remains resilient even as long-term external challenges persist in global markets. Recent RBI data for September also points to significant movements in bank credit and interest rate trends across the banking sector.",
+      "The positive growth forecast reflects robust domestic activity buoyed by private consumption and credit demand. However, the central bank cautioned that external headwinds and volatile global macroeconomic conditions could create ongoing pressure. Despite these international risks, domestic institutions continue to see active capital allocation and stable financial conditions.",
+      "Maintaining this expansion rate will depend on how effectively Indian businesses navigate global supply chain shifts and high international interest rates. Watching bank credit deployment over the coming months will offer critical insights into commercial appetite and industrial production. For now, solid macro indicators continue to position India as a steady performer in the region."
     ],
-    "pullbox": "The Scotch tariff row highlights the delicate balance between domestic market protection and bilateral trade concessions in high-stakes negotiations.",
+    "pullbox": "With Q2 FY27 GDP growth projected at 7.35%, India showcases economic resilience driven by steady bank credit growth, despite lingering external global challenges.",
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Bowmore_whisky_12_years.JPG/1920px-Bowmore_whisky_12_years.JPG",
-      "alt": "Scotch whisky"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+      "alt": "Reserve Bank of India"
     }
   },
   "explains": {
-    "title": "What is a Tariff Barrier?",
+    "title": "What is Bank Credit Growth?",
     "paragraphs": [
-      "A tariff barrier is a tax or duty imposed by a government on imported goods to make foreign products more expensive relative to domestic ones. These financial levies are traditionally used to protect local industries from overseas competition and generate government revenue.",
-      "In international trade negotiations, countries often negotiate to lower or eliminate tariffs across specific sectors. When tariffs are reduced, imported items become cheaper for consumers, but domestic producers must adapt to increased foreign competition."
+      "Bank credit growth measures the rate at which commercial financial institutions issue new loans and credit facilities to businesses and consumers over a given timeframe. It acts as a primary barometer for overall economic activity and business confidence.",
+      "When bank credit expands rapidly, companies are actively borrowing to fund capital expenditure, inventory, and payroll, while consumers borrow for large purchases. A healthy credit trend typically points to strong underlying demand within the real economy."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Space tech startup Manastu Space has secured ₹22 crore in an ongoing funding round to accelerate its propulsion and space safety technology. The deeptech firm focuses on developing green propulsion systems and satellite safety solutions for the commercial space industry.",
-      "The fresh capital will enable the founders to advance thruster testing and scale deployment capabilities. As commercial satellite launches expand globally, Indian space startups are attracting heightened investor interest for specialized orbital technology."
+      "Indian clean energy startup Two Point O Capital has raised $10 million in fresh funding to expand its operations. The company focuses on building specialized financing solutions aimed at accelerating clean energy infrastructure across the country.",
+      "The newly secured capital will be deployed to scale debt financing facilities for renewable projects and enterprise clients. The funding round underscores growing investor interest in India's expanding climate-tech and green energy financing ecosystem."
     ]
   },
   "market_watch": {
     "indian": [
       {
         "name": "Sensex",
-        "value": "74,459.53 ▲ 0.42%",
+        "value": "75,416.16 ▲ 1.28%",
         "dir": "up",
-        "session_date": "2026-10-30"
+        "live": true
       },
       {
         "name": "Nifty 50",
-        "value": "23,053.10 ▲ 0.51%",
+        "value": "23,317.10 ▲ 1.15%",
         "dir": "up",
-        "session_date": "2026-10-30"
+        "live": true
       },
       {
         "name": "Nifty Bank",
-        "value": "54,686.95 ▼ 0.41%",
-        "dir": "down",
-        "session_date": "2026-10-30"
+        "value": "54,920.05 ▲ 0.43%",
+        "dir": "up",
+        "live": true
       }
     ],
     "asian": [
@@ -123,19 +123,19 @@
         "name": "Dollar Index",
         "value": "101.88 ▼ 0.16%",
         "dir": "down",
-        "session_date": "2026-10-30"
+        "session_date": "2026-10-29"
       },
       {
         "name": "Brent Crude",
-        "value": "$113.43/bbl",
-        "dir": "down",
-        "session_date": "2026-10-30"
+        "value": "$117.64/bbl",
+        "dir": "up",
+        "session_date": "2026-10-29"
       },
       {
         "name": "Gold",
         "value": "$3,899/oz",
         "dir": "down",
-        "session_date": "2026-10-30"
+        "session_date": "2026-10-29"
       },
       {
         "name": "US 10Y Yield",
@@ -154,22 +154,15 @@
       "InterGlobe Aviation",
       "Wipro"
     ],
-    "snapshot_strip": "IT and Pharma led; Media and Energy lagged as the Nifty rose 0.51%",
-    "date_label": "OCT 2026",
-    "close_label": "AS OF FRIDAY'S CLOSE, OCT 30",
-    "session_date": "2026-10-30",
+    "snapshot_strip": "IT and Pharma led; Energy and PSU Banks lagged as the Nifty rose 1.15%",
+    "date_label": "NOV 2026",
+    "close_label": "LIVE AS OF 9:59 AM IST",
+    "live": true,
+    "session_date": "2026-11-02",
     "ipo_desk": [
       {
-        "name": "GAIL Gas IPO",
-        "note": "Board approves 25% stake dilution"
-      },
-      {
-        "name": "Bombay Coated & Special Steels IPO",
-        "note": "Issue booked nearly 4x on Day 2"
-      },
-      {
-        "name": "Core4 Engineers IPO",
-        "note": "Lists at ₹74.40 and gains 5% to ₹78.12"
+        "name": "EAAA India Alternatives",
+        "note": "Shares list today with GMP in focus"
       }
     ]
   },
@@ -184,29 +177,29 @@
         "dir": "down",
         "dir_week": "down",
         "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,3.4 8.3,6.2 12.4,7.3 16.6,6.1 20.7,13.7 24.8,13.1 29.0,12.8 33.1,12.0 37.2,14.0 41.4,14.2 45.5,12.7 49.7,15.0 53.8,14.2 57.9,11.3 62.1,12.6 66.2,13.2 70.3,16.7 74.5,13.6 78.6,13.0 82.8,14.1 86.9,14.9 91.0,14.6 95.2,19.0 99.3,21.6 103.4,20.1 107.6,18.3 111.7,19.4 115.9,20.4 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
-        "session_date": "2026-10-30"
+        "session_date": "2026-10-29"
       },
       {
         "name": "Silver",
         "unit": "$/oz",
-        "price": "49.28",
-        "day": "▼ 5.59%",
-        "week": "▼ 8.26%",
+        "price": "49.10",
+        "day": "▼ 5.93%",
+        "week": "▼ 8.59%",
         "dir": "down",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.2 4.1,3.0 8.3,5.2 12.4,6.6 16.6,5.4 20.7,9.8 24.8,10.6 29.0,11.4 33.1,10.5 37.2,11.6 41.4,10.3 45.5,9.9 49.7,11.7 53.8,12.9 57.9,10.6 62.1,11.3 66.2,12.8 70.3,18.0 74.5,16.1 78.6,15.9 82.8,15.9 86.9,14.9 91.0,15.3 95.2,19.1 99.3,20.6 103.4,20.0 107.6,19.8 111.7,21.0 115.9,22.8 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
-        "session_date": "2026-10-30"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.2 4.1,3.0 8.3,5.2 12.4,6.5 16.6,5.4 20.7,9.7 24.8,10.5 29.0,11.3 33.1,10.4 37.2,11.5 41.4,10.2 45.5,9.8 49.7,11.6 53.8,12.8 57.9,10.5 62.1,11.3 66.2,12.7 70.3,17.8 74.5,16.0 78.6,15.7 82.8,15.8 86.9,14.7 91.0,15.1 95.2,18.9 99.3,20.4 103.4,19.9 107.6,19.6 111.7,20.8 115.9,22.6 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-10-29"
       },
       {
         "name": "Brent Crude",
         "unit": "$/bbl",
-        "price": "113.43",
-        "day": "▼ 1.26%",
-        "week": "▼ 2.82%",
-        "dir": "down",
-        "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,25.5 4.1,27.0 8.3,21.7 12.4,16.9 16.6,20.0 20.7,18.7 24.8,22.4 29.0,21.1 33.1,22.8 37.2,22.9 41.4,25.5 45.5,25.2 49.7,25.7 53.8,20.1 57.9,19.5 62.1,16.8 66.2,18.2 70.3,17.6 74.5,17.8 78.6,12.4 82.8,12.9 86.9,13.9 91.0,13.9 95.2,7.9 99.3,3.0 103.4,4.3 107.6,6.9 111.7,4.9 115.9,5.5 120.0,7.5\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"7.5\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
-        "session_date": "2026-10-30"
+        "price": "117.64",
+        "day": "▲ 2.40%",
+        "week": "▲ 0.79%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,25.6 4.1,27.0 8.3,22.0 12.4,17.4 16.6,20.4 20.7,19.1 24.8,22.6 29.0,21.4 33.1,23.0 37.2,23.1 41.4,25.6 45.5,25.3 49.7,25.8 53.8,20.4 57.9,19.9 62.1,17.3 66.2,18.6 70.3,18.1 74.5,18.3 78.6,13.2 82.8,13.6 86.9,14.5 91.0,14.5 95.2,8.8 99.3,4.2 103.4,5.4 107.6,7.9 111.7,6.0 115.9,6.6 120.0,3.0\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"3.0\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-10-29"
       },
       {
         "name": "WTI Crude",
@@ -217,7 +210,7 @@
         "dir": "up",
         "dir_week": "up",
         "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,15.6 4.1,17.4 8.3,21.1 12.4,17.4 16.6,20.7 20.7,20.5 24.8,25.3 29.0,23.8 33.1,20.0 37.2,22.7 41.4,25.3 45.5,25.2 49.7,27.0 53.8,22.1 57.9,21.6 62.1,18.7 66.2,18.1 70.3,16.7 74.5,12.3 78.6,7.1 82.8,3.7 86.9,6.5 91.0,13.6 95.2,10.0 99.3,4.3 103.4,6.6 107.6,9.4 111.7,5.0 115.9,6.2 120.0,3.0\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"3.0\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
-        "session_date": "2026-10-30"
+        "session_date": "2026-10-29"
       }
     ],
     "alternatives": [
@@ -358,60 +351,60 @@
       }
     ],
     "date_label": "OCT 2026",
-    "close_label": "AS OF FRIDAY'S CLOSE, OCT 30",
+    "close_label": "CLOSE OF OCT 30",
     "session_date": "2026-10-30",
     "nav_label": "NAVS AS OF OCT 30"
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "Indian Economy | Corporate Earnings",
-      "headline": "Indian Oil Q2 Net Profit Triples to ₹21,630 Crore",
+      "kicker": "Markets Rally",
+      "headline": "Sensex opens 700 points higher, Nifty above 23,200",
       "paragraphs": [
-        "Indian Oil Corporation reported a robust financial performance for Q2 FY27, with net profit nearly tripling to ₹21,630 crore. The sharp gain was supported by higher refining margins and official LPG compensation payouts.",
-        "Despite the strong surge in headline profits, persistent LPG risks remain a key consideration for the state-run refiner amidst volatile global energy conditions."
+        "The Indian stock market kicked off the week with strong momentum as the Sensex surged over 700 points at the open. The Nifty successfully reclaimed levels above 23,200, buoyed by notable activity across major heavyweights including Reliance Industries.",
+        "Market participants are closely tracking multiple factors at the start of the week, including Gift Nifty trends, technology sector movements, and fluctuating oil prices. Analysts note that these key market drivers continue to dictate the immediate trajectory for indices."
       ],
       "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Indian_Oil_Logo.svg/960px-Indian_Oil_Logo.svg.png",
-        "alt": "Indian Oil Corporation"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Stamp_of_India_-_2016_-_Colnect_627075_-_Bombay_Stock_Exchange.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Stamp of India - 2016 - Colnect 627075 - Bombay Stock Exchange"
       }
     },
     "story_2": {
-      "kicker": "Global Markets | Commodities",
-      "headline": "Gold Drops Below $3,900/oz Amid Global Market Selloff",
+      "kicker": "Corporate Governance",
+      "headline": "Tata Sons case spotlights financial system safety",
       "paragraphs": [
-        "International gold prices broke below the $3,900 per ounce threshold amid a wider selloff across global markets. Concerns over high US interest rates and liquidity pressures led traders to liquidate safe-haven positions.",
-        "The precious metal extended its October decline, reflecting elevated market anxiety as persistent oil price volatility continues to complicate global monetary outlooks."
+        "Recent developments surrounding the Tata Sons case have brought crucial questions regarding the safety of the financial system back into focus. Observers emphasize that systemic stability and robust governance frameworks remain paramount for maintaining institutional trust.",
+        "As discussions surrounding the matter unfold, experts are analyzing the broader implications for corporate India and regulatory oversight, ensuring that large conglomerate structures align with systemic risk management standards."
       ]
     },
     "story_3": {
-      "kicker": "Macroeconomy | Growth Outlook",
-      "headline": "RBI Projects 6.7% GDP Growth for FY27",
+      "kicker": "Economic Outlook",
+      "headline": "RBI highlights economic resilience",
       "paragraphs": [
-        "The Reserve Bank of India projects India's economy to grow at 6.7% in FY27, anchored by strong domestic demand and manufacturing activity. Resilience in internal consumption is expected to keep growth steady despite external economic headwinds."
+        "The Reserve Bank of India has stated that the domestic economy remains resilient despite ongoing global headwinds. However, central bank officials cautioned that long-term external challenges continue to warrant careful vigilance."
       ]
     },
     "also_today": {
       "items": [
-        "NTPC Q2 standalone net profit rises 14% YoY to ₹5,320 crore with revenue up 17%.",
-        "CDSL Q2 net profit jumps 24% to ₹174 crore as demat accounts grow 17% YoY.",
-        "Indian startups raise $115 million in a week led by AI firms Simplismart and Live2.ai.",
-        "India and UK sign a social security agreement for short-term overseas assignments."
+        "Power Grid reported an 8.4% rise in Q2 net profit to ₹3,866 crore and approved an interim dividend.",
+        "Following the collapse of China's AI bubble, experts question if India needs caution in its AI economy.",
+        "Indian Oil shares rose over 3% following better-than-expected results, with analysts seeing upside.",
+        "Assam signed a ₹600 crore deal to establish India's first state-run proton therapy center."
       ]
     }
   },
   "geopolitics": {
     "kicker": "India-US Relations",
-    "headline": "India-US Trade Deal Reaches Finish Line",
+    "headline": "India-US Trade Deal Nears Finish Line Ahead of Midterms",
     "paragraphs": [
-      "US envoy Sergio Gor announced that the proposed India-US trade deal is nearing completion, expressing determination to push the pact across the finish line ahead of the G20 summit. Highlighting surging bilateral defense ties, Gor hinted at exciting outcomes from the ongoing talks. Meanwhile, Commerce Minister Piyush Goyal stated that the deal will protect Indian farmers' interests.",
-      "Despite diplomatic momentum, potential political shifts in the upcoming US midterms could impact Congress, H-1B visas, and trade policy. Navigating agricultural protections while expanding bilateral commercial opportunities remains a central priority for negotiators. For market observers, the final terms will signal the trajectory of long-term strategic and economic alignment."
+      "Sergio Gor has stated that the India-US trade deal is at the finish line, highlighting surging defense ties between the two nations. The announcement comes ahead of the US midterm elections, where experts note that even if a defeat stalls Donald Trump's domestic agenda, India trade talks remain safe. The bilateral push underscores expanding strategic cooperation alongside growing commercial agreements.",
+      "With domestic policy friction expected if Democrats control Congress, executive action may guide future US economic moves. However, the continuity of trade negotiations provides stability for Indian exporters and defense contractors looking for expanded market access. Finalizing the trade pact will solidify bilateral supply chains and bolster investor confidence across Indian equity markets."
     ],
     "world_60": [
-      "Global crude oil prices jumped over 5% after Donald Trump pulled the US out of the Iran peace deal.",
-      "Oil prices soared 14% in October to a six-month high as the US considers new strikes on Iran.",
-      "Commerce Minister Piyush Goyal stated India can achieve $1 trillion in exports this fiscal year.",
-      "India and Canada are working to seal a bilateral trade deal by the end of the calendar year.",
-      "IEA's Birol reported that global oil prices are beginning to drop following reserve release decisions."
+      "Brent crude falls below $112 as Iran peace talks gather pace, with crude oil slipping to $111.",
+      "Gold lingers near a one-year low as firming Federal Reserve rate hike expectations pressure bullion.",
+      "Silver outpaces gold as precious metal prices have more than tripled since 2018-19.",
+      "EAM Jaishankar discusses Ukraine-Russia conflict solutions amid the G20 summit.",
+      "NSA Ajit Doval arrives in Hanoi to review expanding India-Vietnam strategic ties."
     ],
     "image": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Sergio_Gor%2C_official_portrait_%282025%29.jpg",
@@ -421,121 +414,119 @@
   "more": {
     "big_story": [
       {
-        "headline": "CDSL Q2 Consolidated Net Profit Rises 24% to Rs 174 Crore",
-        "text": "Central Depository Services (India) Limited (CDSL) reported a 24% rise in consolidated net profit to Rs 174 crore for the second quarter, alongside a 23.5% increase in revenue. The strong financial performance reflects robust market activity and retail investor growth across India. This underscores the steady expansion of the nation's capital market infrastructure.",
-        "source": "NDTV Profit",
-        "published": "31 Oct 16:10 IST"
+        "headline": "Sensex Rallies 1,000 Points as Market Sentiment Rebounds",
+        "text": "The BSE Sensex jumped over 1,000 points today driven by strong domestic cues and positive momentum across global markets. The surge signals a strong start to November trading for Indian investors, highlighting renewed confidence in key benchmark indices after recent market volatility.",
+        "source": "India Today",
+        "published": "02 Nov 09:44 IST"
       },
       {
-        "headline": "Former RBI Governor C Rangarajan Urges Building Strategic Oil Reserves",
-        "text": "Former Reserve Bank of India Governor C Rangarajan stated that India must recalibrate its development strategy and build strategic oil reserves. He highlighted the necessity of shielding the domestic economy from international energy price fluctuations. Strengthening energy reserves is critical for safeguarding India's long-term macroeconomic stability against global trade shocks.",
-        "source": "Deccan Herald",
-        "published": "01 Nov 00:56 IST"
+        "headline": "Gabriel India Targets ₹50,000 Crore Revenue Benchmark by 2030",
+        "text": "Auto component manufacturer Gabriel India has set an ambitious target to achieve ₹50,000 crore in revenue by 2030. The company's expansion plan underlines the rapid scaling of India's automotive supply chain and underscores domestic manufacturing potential within the broader mobility sector.",
+        "source": "scanx.trade",
+        "published": "01 Nov 10:31 IST"
       }
     ],
     "venture_vault": [
       {
-        "headline": "Hardware AI Startup CopperPilot Secures $390,000 in Funding",
-        "text": "Electronics hardware AI design agent startup CopperPilot raised $390,000 in its latest funding round. The company focuses on developing AI tools to streamline circuit board engineering and hardware innovation. This deal highlights investor confidence in Indian deeptech startups offering specialized automation products for global technology sectors.",
-        "source": "Indian Startup News",
-        "published": "31 Oct 17:02 IST"
+        "headline": "Three College Founders Raise $10 Million for Brain App Matiks",
+        "text": "Indian brain gaming application Matiks, founded by three college friends, has successfully raised $10 million in funding. The investment highlights growing venture capital interest in India's consumer technology ecosystem as young entrepreneurs build scalable products for global markets.",
+        "source": "Hindustan Times",
+        "published": "01 Nov 11:38 IST"
       },
       {
-        "headline": "Deeptech Startup Viridian Ingni Raises Rs 1.47 Crore from IPV",
-        "text": "IIT Madras-incubated deeptech startup Viridian Ingni Propulsion raised Rs 1.47 crore in funding from Inflection Point Ventures (IPV). The company develops innovative propulsion systems to support space hardware and satellite operations. The funding underscores rising private investment in India's emerging commercial spacetech ecosystem.",
+        "headline": "Viridian Ingni Propulsion Secures ₹1.47 Crore Seed Funding",
+        "text": "IIT Madras-incubated deeptech startup Viridian Ingni Propulsion has secured ₹1.47 crore in funding from IPV. The capital will support early-stage propulsion technology development, highlighting increasing investor interest in academic deeptech spin-offs in India.",
         "source": "Indian Startup News",
         "published": "31 Oct 17:29 IST"
+      }
+    ],
+    "geopolitics": [
+      {
+        "headline": "India Steps In as Bulk Scotch Import Row Escalates Globally",
+        "text": "The Indian government will hold formal talks with major global liquor giants to resolve an escalating dispute over bulk Scotch imports. Resolving trade frictions around foreign liquor imports is critical for maintaining stable bilateral trade relations and protecting domestic market interests.",
+        "source": "India Business Trade",
+        "published": "01 Nov 18:19 IST"
+      },
+      {
+        "headline": "Emkay Warns of Crude Oil Volatility Amid US Midterm Elections",
+        "text": "Brokerage firm Emkay has warned of potential crude oil price risks for Indian markets as the Iran conflict threatens to escalate around the US midterm elections. Escalating geopolitical friction could increase import bills and create inflationary pressure across the domestic economy.",
+        "source": "The Statesman",
+        "published": "01 Nov 10:45 IST"
       }
     ]
   },
   "sources": {
     "big_story": [
       {
-        "title": "Scotch prices row: India-UK trade deal faces big test as govt calls liquor giants for talks",
-        "source": "The Times of India"
+        "title": "India’s Economy Projected to Grow by 7.35% in Q2 FY27",
+        "source": "News On AIR"
       },
       {
-        "title": "India to meet liquor firms as domestic giants join foreign peers in Scotch dispute",
-        "source": "Euronext Markets: Real-time Stock Market Data | live"
+        "title": "RBI says economy resilient, long term external challenges remain",
+        "source": "Awaz The Voice"
       },
       {
-        "title": "Scotch whisky row: India-UK trade deal hits a snag as liquor companies oppose tariff ruling",
-        "source": "DhanamOnline"
-      },
-      {
-        "title": "Govt to meet liquor firms as bulk Scotch tariff row threatens UK trade pact",
-        "source": "Business Standard"
+        "title": "Bank credit and interest rate trends for September show significant movements: RBI",
+        "source": "News On AIR"
       }
     ],
     "venture_vault": [
       {
-        "title": "Manastu Space Raises Rs 22 Crore in Ongoing Funding Round",
-        "source": "Equitypandit"
+        "title": "Indian clean energy startup Two Point O Capital raises $10m",
+        "source": "Tech in Asia"
+      },
+      {
+        "title": "Two Point O Capital raises $10 million to expand clean energy financing",
+        "source": "The Times of India"
       }
     ],
     "daily_brief_1": [
       {
-        "title": "Indian Oil Q2 FY27 Results: Profit Jumps 184% to ₹21,630 Crore; LPG Risk Persists",
-        "source": "NiftyTrader"
+        "title": "Sensex opens 700 points higher, Nifty above 23,200; RIL jumps 5%",
+        "source": "India Today"
       },
       {
-        "title": "Indian Oil Q2 Results: Net Profit Nearly Triples to ₹21,630 Crore on Higher Margins, LPG Compensation",
-        "source": "APAC Media"
+        "title": "Stock Market Today: Gift Nifty, Tech Stocks Selloff To Oil Prices; Five Key Factors For Sensex, Nifty 50 On Nov 2",
+        "source": "NDTV Profit"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "International Gold Price Falls Below $3,900 Mark; Chinese Jewelry Prices Retreat Nearly 550 Yuan per Gram This Year",
-        "source": "BigGo Finance"
-      },
-      {
-        "title": "Gold, silver prices fall amid global selloff and US Fed rate concerns",
-        "source": "BusinessLine"
-      },
-      {
-        "title": "Gold price falls below $4,000 as stock market selloff triggers liquidity pressure",
-        "source": "Equiti Global"
+        "title": "Tata Sons case is about the financial system’s safety",
+        "source": "The Indian Express"
       }
     ],
     "daily_brief_3": [
       {
-        "title": "Domestic demand, manufacturing to drive 6.7% GDP growth in FY27: RBI",
-        "source": "DD News"
+        "title": "RBI says economy resilient, long term external challenges remain",
+        "source": "Awaz The Voice"
       }
     ],
     "also_today": [
       {
-        "title": "NTPC Q2 Results: Standalone profit rises 14% YoY to Rs 5,320 crore; revenue up 17%",
+        "title": "GIFT Nifty up 172 pts; RIL, Jio Platforms, BEL, EAAA India, BoB, autos among top stocks in focus",
+        "source": "Business Today"
+      },
+      {
+        "title": "Following the collapse of China’s AI bubble, experts are now wondering if India needs to be cautious of its growing AI economy",
+        "source": "Education Times"
+      },
+      {
+        "title": "Power Grid Q2 results: Net profit up 8.4% to ₹3,866 crore; approved interim dividend of ₹3 per share",
+        "source": "Upstox"
+      },
+      {
+        "title": "Assam signs Rs 600 crore deal for India's first state-run proton therapy centre",
         "source": "The Economic Times"
       },
       {
-        "title": "CDSL Q2 results: Profit grows 24% to ₹174 crore; demat account base expands 17% YoY",
+        "title": "Indian Oil shares rise over 3% after results beat; Nomura sees 42% upside",
         "source": "CNBC TV18"
-      },
-      {
-        "title": "Indian Startups Raise $115 Million In A Week As Simplismart And Live2.ai Lead AI Funding Activity",
-        "source": "News18"
-      },
-      {
-        "title": "India and UK sign agreement on social security for employees on short-term overseas assignments",
-        "source": "DD News"
       }
     ],
     "geopolitics": [
       {
-        "title": "Commerce Minister Piyush Goyal says proposed India-US trade deal will protect farmers’ interests",
-        "source": "News On AIR"
-      },
-      {
-        "title": "Gor hopes to take US-India trade deal 'across the finish line'; hints at 'exciting outcomes' ahead of G20",
-        "source": "Moneycontrol.com"
-      },
-      {
-        "title": "US midterms: How a Congress flip in the election could affect India, H-1B visas and trade",
-        "source": "The Indian Express"
-      },
-      {
-        "title": "\"Determined to get it across finish line\": US envoy Sergio Gor on India-US trade deal",
+        "title": "US Midterms: Defeat could stall Trump's domestic agenda, but India trade talks safe, says expert",
         "source": "ANI News"
       },
       {
@@ -545,41 +536,41 @@
     ],
     "world_60": [
       {
-        "title": "Global crude oil prices rise more than 5% as Trump pulls out of Iran peace deal",
-        "source": "DD News"
-      },
-      {
-        "title": "Oil prices soar 14% in October to 6-month high as US weighs fresh Iran strikes after midterms. More pain a",
+        "title": "EAM Jaishankar discusses Ukraine-Russia conflict solutions amid G20 summit",
         "source": "The Economic Times"
       },
       {
-        "title": "India can achieve $1 trillion exports target this fiscal despite global headwinds: Piyush Goyal",
+        "title": "NSA Ajit Doval in Hanoi to review India-Vietnam strategic ties",
+        "source": "The New Indian Express"
+      },
+      {
+        "title": "Silver Outpaces Gold as Precious Metal Prices More Than Triple Since 2018-19",
+        "source": "FACTLY"
+      },
+      {
+        "title": "Gold lingers near one-year low as Fed hike expectations firm",
         "source": "The Economic Times"
       },
       {
-        "title": "India, Canada seek to seal trade deal by year-end",
-        "source": "The Tribune"
+        "title": "Oil prices fall over 1% as Iran peace talks gather pace; Brent slips below $112",
+        "source": "Moneycontrol.com"
       },
       {
-        "title": "IEA’s Birol Says Oil Prices Starting to Fall After Reserve Release Decision",
-        "source": "EnergyNow.com"
+        "title": "Oil Price Today (November 2): Crude oil falls to $111 as Iran-Qatar talks continue to end war. What are ex",
+        "source": "The Economic Times"
       }
     ],
     "ipo_desk": [
       {
-        "title": "GAIL Gas IPO gets board nod, 25% stake to be diluted",
-        "source": "Moneycontrol.com"
+        "title": "EAAA India Alternatives shares to list today: Check GMP ahead of market debut",
+        "source": "The Economic Times"
       },
       {
-        "title": "Bombay Coated & Special Steels IPO: Issue booked nearly 4x on Day 2 as QIBs lead; check key dates, price band, other details",
-        "source": "Upstox"
-      },
-      {
-        "title": "Core4 Engineers IPO Listing: Shares Debut At ₹74.40, Rise 5% To ₹78.12 On BSE SME",
-        "source": "HDFC Sky"
+        "title": "EAAA India Alternatives IPO GMP Today with Listing Gain Expectation",
+        "source": "IPO Watch"
       }
     ],
-    "market_data": "Yahoo Finance (computed, session 2026-10-30)",
+    "market_data": "Yahoo Finance (computed, session 2026-11-02)",
     "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
   }
 }
