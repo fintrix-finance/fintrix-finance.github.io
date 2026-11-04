@@ -1,0 +1,584 @@
+{
+  "updated_ist": "2026-11-04",
+  "cover": {
+    "big_story_teaser": "RBI sets up key financial markets panel headed by Deputy Governor Rohit Jain.",
+    "venture_teaser": "IIT Bombay-incubated Peppermint Robotics secures ₹100 crore funding.",
+    "market_watch_teaser": "LIVE AS OF 2:03 PM IST: Nifty 50 23,872.60 ▲ 1.84%",
+    "daily_brief_teaser": "US Midterms ripple through Sensex, Nifty and RBI panels",
+    "inbrief_2": "US Midterms and Sensex",
+    "inbrief_3": "RBI forms financial markets panel",
+    "inbrief_4": "US Treasury holdings hit USD 220B",
+    "inbrief_1": "Trump Setback: US Trade Pressure"
+  },
+  "big_story": {
+    "headline": "RBI Forms Financial Markets Panel",
+    "subhead": "DEPUTY GOVERNOR ROHIT JAIN TO HEAD NEW TECHNICAL COMMITTEE WITH TOP GLOBAL AND INDIAN BANKS",
+    "paragraphs": [
+      "The Reserve Bank of India has constituted a new Technical Consultative Committee for Financial Markets to strengthen dialogue across domestic banking and global market channels. Headed by RBI Deputy Governor Rohit Jain, the panel brings together key industry representatives to review market mechanisms and liquidity dynamics. Major domestic lenders such as State Bank of India, ICICI Bank, and Axis Bank have been named as members alongside global banking giants Citi and Morgan Stanley.",
+      "The establishment of this consultative body comes amid shifting capital flows and fresh regulatory oversight in domestic foreign exchange and money markets. Recent RBI actions aimed at curbing speculative activity have led to a slump in dollar hedging, prompting a need for structured industry feedback. By involving both domestic balance-sheet leaders and global investment houses, the central bank aims to balance systemic stability with market efficiency.",
+      "Analysts believe the committee will provide crucial technical inputs on market infrastructure, trading rules, and hedging instruments. As Indian financial markets handle rising foreign participation and domestic retail volumes, formal consultations offer a smoother path for future policy execution. Market participants will closely track the panel's early recommendations on market liquidity and currency risk management."
+    ],
+    "pullbox": "By bringing giants like SBI, ICICI, Citi, and Morgan Stanley into a formal technical committee, the RBI is building a direct bridge between monetary policy and real-world market liquidity.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+      "alt": "Reserve Bank of India"
+    }
+  },
+  "explains": {
+    "title": "What is a Market Consultative Committee?",
+    "paragraphs": [
+      "A market consultative committee is a formal advisory panel created by a central bank or financial regulator to gather feedback from active market participants. It brings together commercial bankers, market makers, and institutional traders to discuss operational rules and policy impacts.",
+      "Rather than setting interest rates directly, these committees focus on technical aspects such as trading infrastructure, settlement procedures, and liquidity conditions. Their recommendations help regulators design practical financial rules without causing unintended market disruptions."
+    ]
+  },
+  "venture_vault": {
+    "paragraphs": [
+      "Peppermint Robotics, an industrial automation startup incubated at IIT Bombay, has secured ₹100 crore in its latest funding round. The company manufactures commercial cleaning robots designed to automate facility maintenance across large industrial and commercial sites.",
+      "The newly raised capital will be used to expand its operational footprint across nine countries and scale up the production of its automated robotics. As global demand for automated facility management increases, the startup aims to deepen its engineering capabilities and expand into key international markets."
+    ]
+  },
+  "market_watch": {
+    "indian": [
+      {
+        "name": "Sensex",
+        "value": "77,168.80 ▲ 1.95%",
+        "dir": "up",
+        "live": true
+      },
+      {
+        "name": "Nifty 50",
+        "value": "23,872.60 ▲ 1.84%",
+        "dir": "up",
+        "live": true
+      },
+      {
+        "name": "Nifty Bank",
+        "value": "55,742.65 ▲ 1.35%",
+        "dir": "up",
+        "live": true
+      }
+    ],
+    "asian": [
+      {
+        "name": "Nikkei 225",
+        "value": "62,188.63 ▼ 1.42%",
+        "dir": "down",
+        "session_date": "2026-11-04"
+      },
+      {
+        "name": "Hang Seng",
+        "value": "23,919.50 ▲ 1.67%",
+        "dir": "up",
+        "session_date": "2026-11-04"
+      },
+      {
+        "name": "Shanghai Comp.",
+        "value": "3,686.17 ▲ 2.16%",
+        "dir": "up",
+        "session_date": "2026-11-04"
+      }
+    ],
+    "european": [
+      {
+        "name": "FTSE 100",
+        "value": "10,638.40 ▼ 1.14%",
+        "dir": "down",
+        "session_date": "2026-11-03"
+      },
+      {
+        "name": "DAX",
+        "value": "25,864.62 ▼ 0.45%",
+        "dir": "down",
+        "session_date": "2026-11-03"
+      },
+      {
+        "name": "CAC 40",
+        "value": "8,020.31 ▼ 0.34%",
+        "dir": "down",
+        "session_date": "2026-11-03"
+      }
+    ],
+    "us": [
+      {
+        "name": "S&P 500",
+        "value": "7,568.92 ▲ 0.36%",
+        "dir": "up",
+        "session_date": "2026-11-03"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "25,372.01 ▲ 0.83%",
+        "dir": "up",
+        "session_date": "2026-11-03"
+      },
+      {
+        "name": "Dow Jones",
+        "value": "51,786.70 ▼ 0.38%",
+        "dir": "down",
+        "session_date": "2026-11-03"
+      }
+    ],
+    "global": [
+      {
+        "name": "Dollar Index",
+        "value": "101.87 ▲ 0.12%",
+        "dir": "up",
+        "session_date": "2026-11-03"
+      },
+      {
+        "name": "Brent Crude",
+        "value": "$103.60/bbl",
+        "dir": "down",
+        "session_date": "2026-11-03"
+      },
+      {
+        "name": "Gold",
+        "value": "$3,940/oz",
+        "dir": "down",
+        "session_date": "2026-11-03"
+      },
+      {
+        "name": "US 10Y Yield",
+        "value": "4.95% ▲ 5.8 bp",
+        "dir": "up",
+        "session_date": "2026-11-03"
+      }
+    ],
+    "losers": [
+      "Power Grid",
+      "State Bank of India",
+      "ONGC"
+    ],
+    "winners": [
+      "Nestle India",
+      "Tata Consumer",
+      "Bharti Airtel"
+    ],
+    "snapshot_strip": "FMCG and Realty led; PSU Banks and Metal lagged as the Nifty rose 1.84%",
+    "date_label": "NOV 2026",
+    "close_label": "LIVE AS OF 2:03 PM IST",
+    "live": true,
+    "session_date": "2026-11-04",
+    "ipo_desk": [
+      {
+        "name": "M.K. Sons Fine Jewels",
+        "note": "Shares list at 6% premium over IPO price"
+      },
+      {
+        "name": "HGS (India)",
+        "note": "IPO subscribed 248.56 times on Day 3"
+      }
+    ]
+  },
+  "data_desk": {
+    "commodities": [
+      {
+        "name": "Gold",
+        "unit": "$/oz",
+        "price": "3,940",
+        "day": "▼ 0.74%",
+        "week": "▼ 3.29%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.2 4.1,4.3 8.3,3.0 12.4,11.7 16.6,11.0 20.7,10.6 24.8,9.8 29.0,12.0 33.1,12.3 37.2,10.6 41.4,13.3 45.5,12.3 49.7,9.0 53.8,10.4 57.9,11.2 62.1,15.1 66.2,11.6 70.3,11.0 74.5,12.2 78.6,13.2 82.8,12.7 86.9,17.8 91.0,20.8 95.2,19.1 99.3,17.0 103.4,18.3 107.6,19.5 111.7,27.0 115.9,23.0 120.0,24.6\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"24.6\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-03"
+      },
+      {
+        "name": "Silver",
+        "unit": "$/oz",
+        "price": "49.59",
+        "day": "▼ 2.23%",
+        "week": "▼ 8.67%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,4.5 8.3,3.2 12.4,8.0 16.6,8.8 20.7,9.7 24.8,8.7 29.0,9.9 33.1,8.5 37.2,8.0 41.4,10.0 45.5,11.4 49.7,8.8 53.8,9.7 57.9,11.2 62.1,16.9 66.2,14.8 70.3,14.6 74.5,14.6 78.6,13.5 82.8,13.9 86.9,18.1 91.0,19.8 95.2,19.1 99.3,18.8 103.4,20.2 107.6,22.1 111.7,27.0 115.9,24.5 120.0,26.2\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"26.2\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-03"
+      },
+      {
+        "name": "Brent Crude",
+        "unit": "$/bbl",
+        "price": "103.60",
+        "day": "▼ 1.12%",
+        "week": "▼ 9.03%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,23.0 4.1,18.2 8.3,21.3 12.4,20.0 16.6,23.7 20.7,22.4 24.8,24.1 29.0,24.2 33.1,26.8 37.2,26.5 41.4,27.0 45.5,21.4 49.7,20.8 53.8,18.1 57.9,19.4 62.1,18.9 66.2,19.1 70.3,13.7 74.5,14.1 78.6,15.2 82.8,15.1 86.9,9.2 91.0,4.3 95.2,5.5 99.3,8.2 103.4,6.2 107.6,6.8 111.7,3.0 115.9,20.7 120.0,22.3\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"22.3\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-11-03"
+      },
+      {
+        "name": "WTI Crude",
+        "unit": "$/bbl",
+        "price": "96.09",
+        "day": "▼ 0.38%",
+        "week": "▼ 3.81%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,21.1 4.1,17.4 8.3,20.7 12.4,20.5 16.6,25.3 20.7,23.8 24.8,20.0 29.0,22.7 33.1,25.3 37.2,25.2 41.4,27.0 45.5,22.1 49.7,21.6 53.8,18.7 57.9,18.1 62.1,16.7 66.2,12.3 70.3,7.1 74.5,3.7 78.6,6.5 82.8,13.6 86.9,10.0 91.0,4.3 95.2,6.6 99.3,9.4 103.4,5.0 107.6,6.2 111.7,3.0 115.9,14.6 120.0,15.2\" fill=\"none\" stroke=\"#4c7a2e\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"15.2\" r=\"2.4\" fill=\"#4c7a2e\"/></svg>",
+        "session_date": "2026-11-03"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Embassy REIT",
+        "price": "₹408.76",
+        "day": "▼ 0.59%",
+        "week": "▼ 2.39%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-11-03"
+      },
+      {
+        "name": "Nexus Select REIT",
+        "price": "₹158.74",
+        "day": "▼ 0.58%",
+        "week": "▲ 0.16%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-02"
+      },
+      {
+        "name": "Mindspace REIT",
+        "price": "₹486.73",
+        "day": "▲ 0.76%",
+        "week": "▲ 0.32%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-02"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹313.67",
+        "day": "▼ 0.33%",
+        "week": "▲ 1.30%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-02"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹105.22",
+        "day": "▲ 1.68%",
+        "week": "▲ 2.82%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-02"
+      }
+    ],
+    "caps": [
+      {
+        "name": "Nifty 50",
+        "tag": "Large cap",
+        "level": "23,810.85",
+        "day": 1.58,
+        "week": 4.66,
+        "month": 6.19,
+        "day_txt": "▲ 1.58%",
+        "week_txt": "▲ 4.66%",
+        "month_txt": "▲ 6.19%",
+        "dir": "up",
+        "dir_week": "up",
+        "dir_month": "up",
+        "session_date": "2026-11-03"
+      },
+      {
+        "name": "Nifty Midcap 150",
+        "tag": "Mid cap",
+        "level": "21,523.35",
+        "day": 1.0,
+        "week": 2.48,
+        "month": -0.56,
+        "day_txt": "▲ 1.00%",
+        "week_txt": "▲ 2.48%",
+        "month_txt": "▼ 0.56%",
+        "dir": "up",
+        "dir_week": "up",
+        "dir_month": "down",
+        "session_date": "2026-11-03"
+      },
+      {
+        "name": "Nifty Smallcap 250",
+        "tag": "Small cap",
+        "level": "17,061.65",
+        "day": 0.42,
+        "week": 0.76,
+        "month": -3.0,
+        "day_txt": "▲ 0.42%",
+        "week_txt": "▲ 0.76%",
+        "month_txt": "▼ 3.00%",
+        "dir": "up",
+        "dir_week": "up",
+        "dir_month": "down",
+        "session_date": "2026-11-03"
+      }
+    ],
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"84.2\" width=\"22\" height=\"15.8\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"79.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.6</text><rect x=\"62.3\" y=\"53.3\" width=\"22\" height=\"46.7\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"48.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+4.7</text><rect x=\"90.3\" y=\"38.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"33.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+6.2</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"90.0\" width=\"22\" height=\"10.0\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"85.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.0</text><rect x=\"169.0\" y=\"75.2\" width=\"22\" height=\"24.8\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"70.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+2.5</text><rect x=\"197.0\" y=\"100.0\" width=\"22\" height=\"5.6\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"117.6\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.6</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"95.8\" width=\"22\" height=\"4.2\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"90.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.4</text><rect x=\"275.7\" y=\"92.4\" width=\"22\" height=\"7.6\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"87.4\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.8</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"30.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"142.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.0</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "funds": [
+      {
+        "name": "ICICI Pru Large Cap",
+        "cat": "Large cap",
+        "nav": "₹116.98",
+        "day": "▲ 1.61%",
+        "week": "▲ 4.13%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-03"
+      },
+      {
+        "name": "MO Midcap 150 Index",
+        "cat": "Mid cap",
+        "nav": "₹39.10",
+        "day": "▲ 1.00%",
+        "week": "▲ 2.52%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-03"
+      },
+      {
+        "name": "Nippon Small Cap",
+        "cat": "Small cap",
+        "nav": "₹196.56",
+        "day": "▲ 0.55%",
+        "week": "▲ 1.41%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-03"
+      },
+      {
+        "name": "Parag Parikh Flexi Cap",
+        "cat": "Flexi cap",
+        "nav": "₹90.70",
+        "day": "▲ 1.07%",
+        "week": "▲ 1.60%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-03"
+      }
+    ],
+    "date_label": "NOV 2026",
+    "close_label": "CLOSE OF NOV 3",
+    "session_date": "2026-11-03",
+    "nav_label": "NAVS AS OF NOV 3"
+  },
+  "daily_brief": {
+    "story_1": {
+      "kicker": "Geopolitics",
+      "headline": "What US Midterms Mean for Sensex and Nifty",
+      "paragraphs": [
+        "As the US midterm elections unfold, investors are assessing how political shifts abroad could ripple through Dalal Street. Analysts are closely watching trade policy adjustments and foreign fund flows as key indicators for domestic market momentum.",
+        "With the Sensex and Nifty showing strong intraday gains, market participants are weighing the long-term implications of a changing American political landscape on Indian equities and cross-border trade agreements."
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/US_Capitol_east_side.JPG/3840px-US_Capitol_east_side.JPG",
+        "alt": "United States Capitol"
+      }
+    },
+    "story_2": {
+      "kicker": "Banking",
+      "headline": "RBI Forms Financial Markets Consultative Panel",
+      "paragraphs": [
+        "The Reserve Bank of India has constituted a new technical consultative committee for financial markets to deepen engagement with key market participants. Headed by Deputy Governor Rohit Jain, the panel includes major financial institutions like Citi, Morgan Stanley, and State Bank of India.",
+        "This committee aims to strengthen market infrastructure and improve dialogue between regulators and institutional stakeholders amidst evolving global economic conditions and foreign exchange dynamics."
+      ]
+    },
+    "story_3": {
+      "kicker": "Reserves",
+      "headline": "India Treasury Holdings Climb to USD 220 Billion",
+      "paragraphs": [
+        "India's holdings of US Treasuries climbed to USD 220 billion in August as the Reserve Bank of India actively absorbed record dollar inflows. The accumulation reflects robust foreign capital inflows and active management of domestic liquidity by the central bank."
+      ]
+    },
+    "also_today": {
+      "items": [
+        "ITC Share Price adds 2%, listing firmly among the top Nifty performers in today's trading session.",
+        "Tax cut hopes and US midterms may fuel India's nascent stock rebound as investors evaluate momentum.",
+        "Graphite India reports FY26 PAT falling 41.6% to ₹264 crore alongside Q2 revenue figures.",
+        "Peppermint Robotics raises ₹100 crore in funding to expand industrial automation across nine countries."
+      ]
+    }
+  },
+  "geopolitics": {
+    "kicker": "India x US | Trade Deal",
+    "headline": "Trump Setback Raises US-India Trade Pressure",
+    "paragraphs": [
+      "Following Donald Trump's setback in the US midterm elections where Democrats gained ground, research group GTRI warned that Washington may pressure India for a quick trade deal on American terms. Trump's tariff proposals and trade deal pitch ran into a reality check following the midterm results. The shifting political balance in Washington means proposed tariffs targeting Indian imports face fresh legislative challenges.",
+      "Reports suggest a lame-duck US administration could seek rapid execution of a bilateral trade deal before its political leverage wanes further. While the White House previously highlighted an India trade deal among its promises, diplomatic efforts now enter a unpredictable phase. For Indian negotiators and businesses, pressure for an expedited agreement will test strategic resistance on tariffs and market access."
+    ],
+    "world_60": [
+      "Brent crude hovers near $104 per barrel amid uncertainty over US-Iran peace talks.",
+      "Gold jumps over 2% on a softer dollar following Democratic US midterm election sweep.",
+      "New Zealand Parliament officially clears free trade agreement with India.",
+      "Swedish Ambassador says India-EU FTA will reinforce corporate cooperation.",
+      "Gold falls Rs 700 to Rs 1.41 lakh per 10 gm as global selloff weighs."
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg",
+      "alt": "Donald Trump"
+    }
+  },
+  "more": {
+    "big_story": [
+      {
+        "headline": "Sangam India Q2 Consolidated Net Profit Surges to ₹53.4 Crore",
+        "text": "Sangam India reported a surge in its Q2 consolidated net profit to ₹53.4 crore, up from ₹23.1 crore in the corresponding quarter last year. The textile manufacturer's strong operational performance highlights demand resilience in domestic manufacturing. This robust earnings growth reflects improving margins and operational efficiency across Indian textile markets.",
+        "source": "Sahi",
+        "published": "04 Nov 12:48 IST"
+      },
+      {
+        "headline": "Upsurge India Leads ₹50 Crore Secondary Deal in iD Fresh Food",
+        "text": "Upsurge India has led a ₹50 crore secondary transaction in fresh food brand iD Fresh Food, facilitating an exit for investor Blue Ashva. The transaction signals sustained institutional appetite for consumer brand scale-ups in India. Such secondary buyouts provide crucial liquidity to early-stage funds while supporting long-term growth.",
+        "source": "ET Retail",
+        "published": "04 Nov 09:34 IST"
+      }
+    ],
+    "venture_vault": [
+      {
+        "headline": "GIVA Secures $100 Million Funding Round Led by Multiples",
+        "text": "D2C jewellery brand GIVA has raised $100 million in a new funding round led by private equity firm Multiples. The major capital infusion comes amid a massive ₹3 lakh crore data center buildout across India's technology ecosystem. This mega investment reflects robust investor appetite for India's consumer retail brands and expanding digital infrastructure.",
+        "source": "YourStory.com",
+        "published": "04 Nov 07:45 IST"
+      },
+      {
+        "headline": "Dispatch Network Secures ₹5 Crore Pre-Seed Round Led by Antler",
+        "text": "Logistics startup Dispatch Network has secured ₹5 crore in pre-seed funding led by Antler India to construct an AI-powered delivery network. The capital will enable the firm to enhance its supply chain technology infrastructure. This early-stage investment highlights growing investor interest in AI-driven automation for India's rapidly expanding logistics market.",
+        "source": "Analytics India Magazine",
+        "published": "03 Nov 12:11 IST"
+      }
+    ],
+    "geopolitics": [
+      {
+        "headline": "India FTA Success Hinges on First Three Years, Says Vanushi Walters",
+        "text": "New Zealand politician Vanushi Walters stated that the success of a free trade agreement with India will depend heavily on execution during its first three years. The bilateral trade discussions aim to expand market access and strengthen economic integration between the two nations. Early progress in key export sectors will be critical to sustaining long-term strategic and trade momentum.",
+        "source": "RNZ",
+        "published": "04 Nov 08:37 IST"
+      },
+      {
+        "headline": "Democrats Secure US Senate Victory with Global Trade Implications",
+        "text": "The Democratic Party secured a key victory in the US Senate midterm elections, shifting the political balance in Washington. The shift in congressional power is expected to impact American foreign policy, global trade negotiations, and international climate commitments. For India, a changing US legislative landscape could reshape diplomatic engagement and strategic defense partnerships.",
+        "source": "Deccan Chronicle",
+        "published": "04 Nov 11:36 IST"
+      }
+    ]
+  },
+  "sources": {
+    "big_story": [
+      {
+        "title": "RBI constitutes Technical Consultative Committee for Financial Markets",
+        "source": "The Hindu"
+      },
+      {
+        "title": "India central bank forms markets panel with Citi, Morgan Stanley, SBI as members",
+        "source": "Reuters"
+      },
+      {
+        "title": "RBI forms financial markets consultative panel headed by Dy Guv Rohit Jain",
+        "source": "Business Standard"
+      },
+      {
+        "title": "RBI sets up technical consultative committee for financial markets; SBI, Axis, ICICI, Citi among members",
+        "source": "bfsi.economictimes.indiatimes.com"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "From IIT Bombay to 9 countries: Cleaning robot maker Peppermint Robotics raises Rs 100 crore funding",
+        "source": "Indian Startup News"
+      },
+      {
+        "title": "Peppermint Robotics Raises ₹100 Crore to Expand Industrial Automation",
+        "source": "https://ascendants.in/"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "What will Trump losing US midterm elections mean for Sensex, Nifty? Explained",
+        "source": "The Times of India"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "RBI forms financial markets consultative panel headed by Dy Guv Rohit Jain",
+        "source": "Business Standard"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "India’s US Treasury holdings climbed to $220 billion in August as RBI absorbed record dollar inflows",
+        "source": "TradingView"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "ITC Share Price adds 2%. Lists on Top Nifty Performers Today",
+        "source": "India Infoline"
+      },
+      {
+        "title": "Tax Cut Hopes, US Midterms May Fuel India’s Nascent Stock Rebound",
+        "source": "Bloomberg.com"
+      },
+      {
+        "title": "Graphite India FY26 PAT falls 41.6% to ₹264 crore",
+        "source": "scanx.trade"
+      },
+      {
+        "title": "From IIT Bombay to 9 countries: Cleaning robot maker Peppermint Robotics raises Rs 100 crore funding",
+        "source": "Indian Startup News"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "Trump's midterm setback may put India under pressure for quick trade deal on US terms: GTRI",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "Midterm blues: Why a 'lame' duck Donald Trump may push for a quick India-US trade deal",
+        "source": "The Times of India"
+      },
+      {
+        "title": "US midterms 2026: How Trump’s India trade deal pitch, peace claims ran into reality check",
+        "source": "The Indian Express"
+      },
+      {
+        "title": "Democrats gain ground in US midterm election: Could Trump's tariff for India face fresh challenges?",
+        "source": "Moneycontrol.com"
+      },
+      {
+        "title": "White House Lists India-Pakistan Ceasefire, Trade Deal Among Trump's 'Promises Kept'",
+        "source": "BW Businessworld"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "Oil Prices Today: Brent Crude Hovers Near $104 Amid Uncertainty Over US-Iran Peace Talks",
+        "source": "NDTV Profit"
+      },
+      {
+        "title": "Gold jumps more than 2% on softer dollar after Democratic midterm sweep",
+        "source": "Reuters"
+      },
+      {
+        "title": "New Zealand Parliament clears FTA with India",
+        "source": "DD News"
+      },
+      {
+        "title": "India-EU FTA to simplify and reinforce corporate cooperation, says Swedish Ambassador Petra Menander",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "Gold falls Rs 700 to Rs 1.41 lakh per 10 gm as higher oil prices, global selloff weigh on bullion",
+        "source": "Daily Excelsior"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "M.K. Sons Fine Jewels shares list at 6% premium over IPO price",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "HGS (India) IPO Subscription Status Day 3: Issue Subscribed 248.56 Times",
+        "source": "HDFC Sky"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session 2026-11-04)",
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
+  }
+}
