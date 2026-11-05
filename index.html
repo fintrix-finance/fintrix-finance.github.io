@@ -449,6 +449,19 @@ h1,h2,h3,.display{ font-family:'Oswald',sans-serif; font-weight:700; letter-spac
 .oneline-strip{ display:flex; align-items:baseline; gap:10px; border-top:1px solid var(--brown); border-bottom:1px solid var(--brown); padding:7px 2px; margin-bottom:12px; flex-shrink:0; }
 .oneline-label{ font-family:'Inter',sans-serif; font-weight:700; font-size:8.5px; letter-spacing:0.14em; text-transform:uppercase; color:var(--orange); white-space:nowrap; }
 .oneline-text{ font-family:'PT Serif',serif; font-size:11.5px; line-height:1.35; color:var(--ink); }
+
+/* ---------- Lite issue mode (writing pipeline down: numbers + linked headlines) ---------- */
+.lite-hl{ margin:0 0 10px; line-height:1.4; }
+.lite-hl a{ color:var(--brown); text-decoration:none; border-bottom:1px solid var(--orange); }
+.lite-hl a:hover{ color:var(--orange); }
+.lite-src{ display:block; font-family:'Inter',sans-serif; font-size:9px; color:#8a6f5c; margin-top:2px; }
+#dyn-geo-worldlist li{ margin-bottom:8px; }
+#dyn-geo-worldlist .lite-src{ display:block; margin-top:1px; }
+#dyn-geo-worldlist a{ color:var(--brown); text-decoration:none; border-bottom:1px solid var(--orange); }
+#dyn-geo-worldlist a:hover{ color:var(--orange); }
+.geo-boxed.lite-plain{ background:transparent; color:inherit; padding:16px 0 0; border-top:2px solid var(--orange); margin-top:16px; }
+.geo-boxed.lite-plain h3{ color:var(--brown); font-size:15px; }
+.geo-boxed.lite-plain li{ border-top:0; padding:0; }
 </style>
 </head>
 <body>
@@ -1175,6 +1188,158 @@ function buildQRows(id, rows, kind){
   });
 }
 
+
+// ---------- Lite issue mode ----------
+// When data.json is a lite issue (the writing pipeline was unavailable), the
+// story pages are replaced with feed numbers and real, linked headlines.
+// Full issues are untouched: applyLite only runs when d.lite is true.
+function liteFill(el, items){
+  if(!el) return;
+  el.innerHTML = '';
+  (items || []).forEach(it => {
+    if(!it || !it.title) return;
+    const p = document.createElement('p');
+    p.className = 'lite-hl';
+    if(it.link){
+      const a = document.createElement('a');
+      a.href = it.link; a.target = '_blank'; a.rel = 'noopener';
+      a.textContent = it.title;
+      p.appendChild(a);
+    } else {
+      p.appendChild(document.createTextNode(it.title));
+    }
+    const s = document.createElement('span');
+    s.className = 'lite-src';
+    s.textContent = (it.source || '') + (it.published ? ' \u00b7 ' + it.published : '');
+    p.appendChild(s);
+    el.appendChild(p);
+  });
+}
+function applyLite(d){
+  const groups = {};
+  (Array.isArray(d.lite_headlines) ? d.lite_headlines : []).forEach(g => {
+    if(g && g.label) groups[g.label] = g.items || [];
+  });
+  const G = l => groups[l] || [];
+  const note = d.lite_note || "Lite issue: numbers and linked headlines only.";
+  const src = d.sources || {};
+
+  // Cover: teasers become the lite notice; In Brief carries top headlines.
+  dynText('dyn-cover-bs', 'LITE ISSUE - numbers and linked headlines only, no AI-written stories today');
+  dynText('dyn-cover-db', 'Latest headlines: pages 2, 6 and 7');
+  dynText('dyn-cover-vv', 'Paused today - returns with the next full issue');
+  dynText('dyn-oneline', (d.market_watch || {}).snapshot_strip || 'Markets and headlines, without the AI-written stories');
+  const ib = [G('India Business')[0], G('Corporate & Deals')[0], G('Geopolitics')[0], G('Global Markets')[0]];
+  const ibPages = [2, 2, 7, 7]; // lite layout: India+Corporate on page 2, Geo+Global on page 7
+  ['dyn-cover-ib1','dyn-cover-ib2','dyn-cover-ib3','dyn-cover-ib4'].forEach((id, i) => {
+    const it = ib[i];
+    if(it) dynText(id, it.title.length > 48 ? it.title.slice(0, 45) + '\u2026' : it.title);
+    const el = document.getElementById(id);
+    const item = el && el.closest('.inbrief-item');
+    if(item){
+      item.setAttribute('onclick', 'jumpToPage(' + ibPages[i] + ')');
+      const ar = item.querySelector('.inbrief-arrow');
+      if(ar) ar.textContent = '\u2192 Page ' + ibPages[i];
+    }
+  });
+
+  // Page 2 (Big Story) -> India Business + Corporate & Deals headlines
+  dynText('dyn-bs-head', 'The Latest Headlines');
+  dynText('dyn-bs-sub', 'INDIA BUSINESS & CORPORATE \u00b7 LINKED TO SOURCE \u00b7 LAST 48 HOURS');
+  liteFill(document.getElementById('dyn-bs-body'), G('India Business').concat(G('Corporate & Deals')));
+  dynText('dyn-bs-pull', note);
+
+  // Page 6 (Economy) -> Startups + IPO Desk headlines, plus the lite explanation
+  dynText('dyn-ec1-kicker', 'Latest headlines \u00b7 linked to source');
+  dynText('dyn-ec1-head', 'Startups');
+  liteFill(document.getElementById('dyn-ec1-body'), G('Startups'));
+  dynText('dyn-ec2-kicker', 'Latest headlines \u00b7 linked to source');
+  dynText('dyn-ec2-head', 'IPO Desk');
+  liteFill(document.getElementById('dyn-ec2-body'), G('IPO Desk'));
+  dynText('dyn-ec3-kicker', 'About this issue');
+  dynText('dyn-ec3-head', 'Why today is a lite issue');
+  const ec3 = document.getElementById('dyn-ec3-body');
+  if(ec3){ ec3.innerHTML=''; const p=document.createElement('p'); p.textContent=note; ec3.appendChild(p); }
+  const also = document.getElementById('dyn-ec-also');
+  if(also){
+    also.innerHTML='';
+    ['Each market shows its last completed session: India and Asia close earlier in our day, so Europe and the US show their previous close until their sessions end.',
+     'Headlines open the publisher\u2019s site via Google News.'].forEach(t => {
+      const li = document.createElement('li'); li.textContent = t; also.appendChild(li);
+    });
+  }
+
+  // Page 7 (Geopolitics) -> Geopolitics + Global Markets headlines
+  dynText('dyn-geo-kicker', 'Latest headlines \u00b7 linked to source');
+  dynText('dyn-geo-head', 'Geopolitics');
+  liteFill(document.getElementById('dyn-geo-body'), G('Geopolitics'));
+  const gw = document.getElementById('dyn-geo-world');
+  if(gw) gw.hidden = true;
+  const ul = document.getElementById('dyn-geo-worldlist');
+  if(ul){
+    ul.innerHTML = '';
+    G('Global Markets').forEach(it => {
+      if(!it || !it.title) return;
+      const li = document.createElement('li');
+      if(it.link){
+        const a = document.createElement('a');
+        a.href = it.link; a.target = '_blank'; a.rel = 'noopener';
+        a.textContent = it.title; li.appendChild(a);
+      } else li.textContent = it.title;
+      const sp = document.createElement('span');
+      sp.className = 'lite-src';
+      sp.textContent = (it.source || '') + (it.published ? ' \u00b7 ' + it.published : '');
+      li.appendChild(sp);
+      ul.appendChild(li);
+    });
+    ul.hidden = false;
+    const boxed = ul.closest('.geo-boxed');
+    if(boxed){
+      boxed.classList.add('lite-plain');
+      const h3 = boxed.querySelector('h3');
+      if(h3) h3.textContent = 'GLOBAL MARKETS \u00b7 LINKED TO SOURCE';
+    }
+  }
+
+  // Lite sections are headline lists, not stories: drop the per-story share buttons
+  document.querySelectorAll('.share-btn').forEach(b => { b.style.display = 'none'; });
+
+  // Page 8 (Explains & Venture Vault) -> about this issue + sources
+  dynText('dyn-ex-title', 'About this lite issue');
+  const exb = document.getElementById('dyn-ex-body');
+  if(exb){
+    exb.innerHTML = '';
+    [note,
+     'Data: ' + (src.market_data || 'Yahoo Finance (computed)') + '. ' + (src.data_desk || ''),
+     'Headlines: ' + (src.headlines || 'Google News RSS') + '. No AI-generated text appears in this issue.'
+    ].forEach(t => { const p = document.createElement('p'); p.textContent = t; exb.appendChild(p); });
+  }
+  const vv = document.getElementById('dyn-vv-body');
+  if(vv){
+    vv.innerHTML = '';
+    const p = document.createElement('p');
+    p.textContent = 'Venture Vault is paused today - it returns with the next full issue.';
+    vv.appendChild(p);
+  }
+
+  // Cover Market Watch teaser: real feed numbers, not the stale template line
+  const mwT = [(d.market_watch || {}).close_label, (d.market_watch || {}).snapshot_strip].filter(Boolean).join(': ');
+  if(mwT) dynText('dyn-cover-mw', mwT);
+  // The fifth In Brief slot is static template content: drop it on lite days
+  const ibAll = document.querySelectorAll('.inbrief-item');
+  if(ibAll[4]) ibAll[4].style.display = 'none';
+
+  // Market Watch IPO desk box (the id appears twice in the template): point to page 6
+  document.querySelectorAll('[id="dyn-mw-ipo"]').forEach(el => {
+    el.textContent = 'See IPO Desk headlines on page 6.';
+  });
+
+  // The Economy page's static month line would misdate a lite issue
+  document.querySelectorAll('.subhead').forEach(el => {
+    if(/SEPTEMBER 2026/.test(el.textContent)) el.textContent = 'REAL HEADLINES, LINKED TO SOURCE \u00b7 LAST 48 HOURS';
+  });
+}
+
 function applyDynamic(d){
   if(!d || typeof d !== 'object') return;
 
@@ -1323,6 +1488,7 @@ function applyDynamic(d){
   buildQRows('dyn-fw-caps', dd.caps, 'caps');
   buildQRows('dyn-fw-funds', dd.funds, 'funds');
   dynSvg(document.getElementById('dyn-fw-chart'), dd.caps_chart);
+  if(d.lite) applyLite(d);
   requestAnimationFrame(updateScrollCues);
 }
 
@@ -1570,5 +1736,4 @@ updateControls();
 </script>
 </body>
   </html>
-
 
