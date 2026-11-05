@@ -1120,11 +1120,13 @@ def headlines():
                 continue
             if source and title.endswith(" - " + source):
                 title = title[: -len(" - " + source)]
+            link = (it.findtext("link") or "").strip()
             key = re.sub(r"\W+", " ", title.lower()).strip()[:80]
             if key in seen:
                 continue
             seen.add(key)
             items.append({"topic": topic, "title": title, "source": source,
+                          "link": link,
                           "published": pub.astimezone(IST).strftime("%d %b %H:%M IST")})
     if failures > 2 or len(items) < 15:
         fail("news feed returned too little (%d headlines, %d feeds failed)" % (len(items), failures))
@@ -1192,7 +1194,9 @@ def generate(api_key, prompt, label, check=None):
                 last_err = "HTTP %s from %s: %s" % (e.code, model, detail)
                 print("  " + last_err)
                 if e.code in (401, 403):
-                    fail("Gemini rejected the API key. Check the GEMINI_API_KEY secret.")
+                    print("  Gemini rejected the API key - the writing pipeline is "
+                          "unavailable, so this run publishes a lite issue.")
+                    return None
                 if e.code in (404,):
                     break  # model not available - go to the next one
                 time.sleep(5)
@@ -1914,6 +1918,106 @@ def carried_market_summary(mw, session_date, reason):
 
 # ---------------------------------------------------------------- main
 
+
+# ---------------------------------------------------------------- lite issue
+# Fallback for days the writing pipeline (Gemini) fails: publish a shorter
+# issue with only feed numbers and real, linked headlines - no AI-written
+# text at all. Full issues stay the primary output; lite only replaces the
+# three hard fail() points where a required package could not be generated.
+
+LITE_TOPIC_LABELS = [
+    ("india_business", "India Business"),
+    ("india_corporate", "Corporate & Deals"),
+    ("startups", "Startups"),
+    ("ipo", "IPO Desk"),
+    ("geopolitics", "Geopolitics"),
+    ("global", "Global Markets"),
+]
+# Titles that arrive visibly cut off by the feed must not be published:
+# trailing ellipsis, or ending on a stop word.
+LITE_BAD_END = re.compile(
+    r"(\.\.\.|\u2026|\s(b|to|the|a|an|of|for|in|on|at|as|by|and|or|but|with|after|over|under|from|into|says|per|rs)\W*)$",
+    re.I)
+# Outlets we do not surface on lite days: known AI-content aggregators,
+# trading-tool feeds, grey-market tip sheets and broker blogs. Additive list -
+# extend here when a source proves unqualified.
+LITE_SOURCE_BLOCK = {"multibagg ai", "scanx.trade", "indiaipo", "hdfc sky", "linkedin"}
+
+
+def lite_clean_title(title):
+    """Strip a trailing outlet suffix the feed left in the title (' | Outlet')."""
+    if " | " in title:
+        head, _, tail = title.rpartition(" | ")
+        if head and 2 <= len(tail) <= 40 and re.search(r"[A-Za-z]", tail):
+            return head.strip()
+    return title.strip()
+
+
+def lite_headlines(items, per_topic=6):
+    """Grouped, linked, hygiene-filtered headlines for a lite issue."""
+    out = []
+    for topic, label in LITE_TOPIC_LABELS:
+        seen_keys = set()
+        group = []
+        for it in items:
+            if it.get("topic") != topic:
+                continue
+            title = lite_clean_title(it.get("title") or "")
+            source = (it.get("source") or "").strip()
+            if not title or LITE_BAD_END.search(title):
+                continue
+            if not source or source.lower() in LITE_SOURCE_BLOCK or source.startswith(("http://", "https://")):
+                continue
+            k = re.sub(r"\W+", " ", title.lower()).strip()[:60]
+            if k in seen_keys:
+                continue
+            seen_keys.add(k)
+            group.append({"title": title, "source": it.get("source") or "",
+                          "published": it.get("published") or "",
+                          "link": it.get("link") or ""})
+            if len(group) >= per_topic:
+                break
+        if group:
+            out.append({"label": label, "items": group})
+    return out
+
+
+def build_lite_issue(mw, desk, items, reason):
+    """The shorter, sourced fallback issue: numbers and linked headlines only."""
+    groups = lite_headlines(items)
+    if not groups:
+        fail("lite issue needs headlines, but none survived filtering")
+    print("lite issue reason: %s" % reason)
+    note = ("Lite issue. FINTRIX's AI writing pipeline was unavailable today, so "
+            "instead of risking unverified text this issue carries only numbers "
+            "retrieved from live market feeds and the day's real headlines with "
+            "direct links. No story text was generated.")
+    return {
+        "updated_ist": TODAY.strftime("%Y-%m-%d"),
+        "lite": True,
+        "lite_note": note,
+        "market_watch": mw,
+        "data_desk": desk,
+        "lite_headlines": groups,
+        "sources": {
+            "market_data": "Yahoo Finance (computed, session %s)" % (mw.get("session_date") or mw["close_label"]),
+            "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in",
+            "headlines": "Google News RSS, linking to the named publishers",
+        },
+    }
+
+
+def publish_lite(mw, desk, items, reason):
+    """Write today's lite issue through the same safe path as a full issue."""
+    out = build_lite_issue(mw, desk, items, reason)
+    tmp = DATA_FILE + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    os.replace(tmp, DATA_FILE)
+    print("Wrote LITE issue to %s for %s (%s)" % (DATA_FILE, out["updated_ist"], reason))
+
+
 def main():
     api_key = os.environ.get("GEMINI_API_KEY", "").strip()
     if not api_key:
@@ -1949,7 +2053,7 @@ def main():
                         "features (big story, explains, venture vault)",
                         check=both(fact_check, check_features_pkg, check_big_story_direction(mw)))
     if features is None:
-        fail("could not generate the features package - leaving data.json untouched.")
+        return publish_lite(mw, desk, items, "the features package failed its checks")
 
     bs = features.get("big_story") or {}
     avoid_bs = bs.get("headline", "") if isinstance(bs, dict) else ""
@@ -1959,7 +2063,7 @@ def main():
                        "markets (daily brief, ipo desk, cover lines)",
                        check=both(fact_check, check_markets_pkg, check_markets_direction(mw)))
     if markets is None:
-        fail("could not generate the markets package - leaving data.json untouched.")
+        return publish_lite(mw, desk, items, "the markets package failed its checks")
 
     taken = [t for t in [avoid_bs] if t]
     for s in ((markets.get("daily_brief") or {}).get("story_1"),
@@ -1975,7 +2079,7 @@ def main():
                    "geopolitics (geopolitics page, in brief 01)",
                    check=both(fact_check, check_geopolitics_pkg))
     if geo is None:
-        fail("could not generate the geopolitics package - leaving data.json untouched.")
+        return publish_lite(mw, desk, items, "the geopolitics package failed its checks")
 
     # "Also in this section" briefs: optional extra. If it fails the sections just show one story.
     more_out = {}
