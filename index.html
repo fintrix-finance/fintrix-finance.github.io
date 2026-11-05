@@ -1311,7 +1311,7 @@ function applyLite(d){
     exb.innerHTML = '';
     [note,
      'Data: ' + (src.market_data || 'Yahoo Finance (computed)') + '. ' + (src.data_desk || ''),
-     'Headlines: ' + (src.headlines || 'Google News RSS') + '. No AI-generated text appears in this issue.'
+     'Headlines: ' + (src.headlines || 'Google News RSS') + '. No new stories were written for this issue; the Casebook page is standing content.'
     ].forEach(t => { const p = document.createElement('p'); p.textContent = t; exb.appendChild(p); });
   }
   const vv = document.getElementById('dyn-vv-body');
