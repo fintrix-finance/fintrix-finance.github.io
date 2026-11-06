@@ -1,0 +1,580 @@
+{
+  "updated_ist": "2026-11-06",
+  "cover": {
+    "big_story_teaser": "India defies Asia tech rout as foreign inflows cushion markets",
+    "venture_teaser": "Cosmoserve raises $6 Mn in seed funding for space debris",
+    "market_watch_teaser": "LIVE AS OF 9:59 AM IST: Nifty 50 24,624.30 ▲ 0.36%",
+    "daily_brief_teaser": "Sensex holds firm, RBI proposes PSL rulebook, and global tech tumbles",
+    "inbrief_2": "Sensex holds firm",
+    "inbrief_3": "Sensex holds firm despite Wall",
+    "inbrief_4": "RBI proposes PSL Rulebook",
+    "inbrief_1": "US Midterms & India Trade Deal"
+  },
+  "big_story": {
+    "headline": "India Defies Asia Tech Rout",
+    "subhead": "OIL SLIDE AND FOREIGN BUYING CUSHION MARKETS AS GLOBAL STOCKS TUMBLE",
+    "paragraphs": [
+      "As global markets face a severe sell-off and tech stocks tumble worldwide, Indian benchmark indices continue to hold firm. Overseas funds have pumped in ₹14,975 crore, providing robust support to domestic equities amidst widespread international volatility.",
+      "The resilience on Dalal Street comes even as Wall Street suffered a major crash, with major US indices plunging significantly. Meanwhile, falling oil prices and strong foreign institutional buying have helped insulate the local economy from the broader Asian tech rout.",
+      "Investors are closely watching macroeconomic indicators and global crude movements as the Nifty navigates overbought territory. Analysts suggest that domestic tailwinds and institutional liquidity will remain key drivers for Indian equities in the near term."
+    ],
+    "pullbox": "Despite severe global headwinds and a tech rout across major international exchanges, India's markets remain resilient backed by strong foreign fund inflows.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+      "alt": "Reserve Bank of India"
+    }
+  },
+  "explains": {
+    "title": "What is Foreign Portfolio Investment?",
+    "paragraphs": [
+      "Foreign Portfolio Investment involves investors purchasing securities such as stocks and bonds residing in another country. It provides individuals and institutions with international diversification for their investment portfolios.",
+      "In practice, large institutional flows from overseas investors can significantly influence domestic market liquidity and asset prices, acting as a powerful buffer during global downturns."
+    ]
+  },
+  "venture_vault": {
+    "paragraphs": [
+      "Cosmoserve has successfully raised $6 million in seed funding to advance its innovative space debris removal technology. The startup aims to achieve full commercialisation of its orbital cleanup solutions by 2028.",
+      "The latest capital injection will accelerate research and development efforts as the company targets growing commercial demand for sustainable space operations. Backers are betting on the burgeoning commercial space economy and the urgent need to manage orbital congestion."
+    ]
+  },
+  "market_watch": {
+    "indian": [
+      {
+        "name": "Sensex",
+        "value": "79,647.20 ▲ 0.43%",
+        "dir": "up",
+        "live": true
+      },
+      {
+        "name": "Nifty 50",
+        "value": "24,624.30 ▲ 0.36%",
+        "dir": "up",
+        "live": true
+      },
+      {
+        "name": "Nifty Bank",
+        "value": "57,821.95 ▲ 0.08%",
+        "dir": "up",
+        "live": true
+      }
+    ],
+    "asian": [
+      {
+        "name": "Nikkei 225",
+        "value": "61,077.90 ▼ 1.79%",
+        "dir": "down",
+        "session_date": "2026-11-05"
+      },
+      {
+        "name": "Hang Seng",
+        "value": "24,796.98 ▲ 3.67%",
+        "dir": "up",
+        "session_date": "2026-11-05"
+      },
+      {
+        "name": "Shanghai Comp.",
+        "value": "3,689.91 ▲ 0.10%",
+        "dir": "up",
+        "session_date": "2026-11-05"
+      }
+    ],
+    "european": [
+      {
+        "name": "FTSE 100",
+        "value": "10,782.66 ▼ 0.43%",
+        "dir": "down",
+        "session_date": "2026-11-05"
+      },
+      {
+        "name": "DAX",
+        "value": "26,325.01 ▼ 0.43%",
+        "dir": "down",
+        "session_date": "2026-11-05"
+      },
+      {
+        "name": "CAC 40",
+        "value": "8,205.37 ▲ 0.34%",
+        "dir": "up",
+        "session_date": "2026-11-05"
+      }
+    ],
+    "us": [
+      {
+        "name": "S&P 500",
+        "value": "7,353.73 ▼ 4.36%",
+        "dir": "down",
+        "session_date": "2026-11-05"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "24,315.00 ▼ 5.52%",
+        "dir": "down",
+        "session_date": "2026-11-05"
+      },
+      {
+        "name": "Dow Jones",
+        "value": "51,523.06 ▼ 3.44%",
+        "dir": "down",
+        "session_date": "2026-11-05"
+      }
+    ],
+    "global": [
+      {
+        "name": "Dollar Index",
+        "value": "101.55 ▲ 0.04%",
+        "dir": "up",
+        "session_date": "2026-11-05"
+      },
+      {
+        "name": "Brent Crude",
+        "value": "$98.29/bbl",
+        "dir": "up",
+        "session_date": "2026-11-05"
+      },
+      {
+        "name": "Gold",
+        "value": "$4,114/oz",
+        "dir": "up",
+        "session_date": "2026-11-05"
+      },
+      {
+        "name": "US 10Y Yield",
+        "value": "4.84% ▼ 5.7 bp",
+        "dir": "down",
+        "session_date": "2026-11-05"
+      }
+    ],
+    "losers": [
+      "Apollo Hospitals",
+      "ONGC",
+      "NTPC"
+    ],
+    "winners": [
+      "Bajaj Finance",
+      "Shriram Finance",
+      "Mahindra & Mahindra"
+    ],
+    "snapshot_strip": "Auto and Realty led; Energy lagged as the Nifty rose 0.36%",
+    "date_label": "NOV 2026",
+    "close_label": "LIVE AS OF 9:59 AM IST",
+    "live": true,
+    "session_date": "2026-11-06",
+    "ipo_desk": [
+      {
+        "name": "NTPC Green Energy",
+        "note": "IPO details and expected listing gain in focus"
+      },
+      {
+        "name": "Gem Aromatics",
+        "note": "GMP and expected listing gains discussed"
+      },
+      {
+        "name": "Bombay Coated",
+        "note": "Shares list at 12 percent premium on BSE"
+      }
+    ]
+  },
+  "data_desk": {
+    "commodities": [
+      {
+        "name": "Gold",
+        "unit": "$/oz",
+        "price": "4,114",
+        "day": "▲ 0.99%",
+        "week": "▲ 2.04%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,11.7 8.3,11.0 12.4,10.6 16.6,9.8 20.7,12.0 24.8,12.3 29.0,10.6 33.1,13.3 37.2,12.3 41.4,9.0 45.5,10.4 49.7,11.2 53.8,15.1 57.9,11.6 62.1,11.0 66.2,12.2 70.3,13.2 74.5,12.7 78.6,17.8 82.8,20.8 86.9,19.1 91.0,17.0 95.2,18.3 99.3,19.5 103.4,27.0 107.6,23.0 111.7,24.6 115.9,17.1 120.0,14.8\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"14.8\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-05"
+      },
+      {
+        "name": "Silver",
+        "unit": "$/oz",
+        "price": "52.23",
+        "day": "▲ 0.22%",
+        "week": "▲ 0.08%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,7.8 8.3,8.7 12.4,9.6 16.6,8.6 20.7,9.8 24.8,8.3 29.0,7.9 33.1,9.9 37.2,11.2 41.4,8.7 45.5,9.5 49.7,11.1 53.8,16.8 57.9,14.7 62.1,14.5 66.2,14.5 70.3,13.4 74.5,13.8 78.6,18.0 82.8,19.7 86.9,19.1 91.0,18.8 95.2,20.1 99.3,22.1 103.4,27.0 107.6,24.4 111.7,26.2 115.9,22.2 120.0,22.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"22.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-05"
+      },
+      {
+        "name": "Brent Crude",
+        "unit": "$/bbl",
+        "price": "98.29",
+        "day": "▲ 3.88%",
+        "week": "▼ 14.44%",
+        "dir": "up",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,16.9 4.1,15.9 8.3,18.7 12.4,17.7 16.6,19.0 20.7,19.0 24.8,21.1 29.0,20.8 33.1,21.2 37.2,16.9 41.4,16.5 45.5,14.5 49.7,15.5 53.8,15.1 57.9,15.2 62.1,11.1 66.2,11.4 70.3,12.2 74.5,12.2 78.6,7.7 82.8,4.0 86.9,4.9 91.0,6.9 95.2,5.4 99.3,5.9 103.4,3.0 107.6,16.4 111.7,17.6 115.9,27.0 120.0,23.2\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"23.2\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-05"
+      },
+      {
+        "name": "WTI Crude",
+        "unit": "$/bbl",
+        "price": "90.52",
+        "day": "▲ 2.72%",
+        "week": "▼ 11.25%",
+        "dir": "up",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,20.6 4.1,20.3 8.3,25.1 12.4,23.6 16.6,19.9 20.7,22.5 24.8,25.0 29.0,25.0 33.1,26.8 37.2,21.9 41.4,21.4 45.5,18.6 49.7,18.0 53.8,16.5 57.9,12.2 62.1,7.1 66.2,3.7 70.3,6.5 74.5,13.5 78.6,10.0 82.8,4.3 86.9,6.5 91.0,9.3 95.2,5.0 99.3,6.2 103.4,3.0 107.6,14.5 111.7,15.0 115.9,27.0 120.0,23.4\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"23.4\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-05"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Embassy REIT",
+        "price": "₹411.05",
+        "day": "▲ 0.56%",
+        "week": "▼ 0.82%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-11-04"
+      },
+      {
+        "name": "Nexus Select REIT",
+        "price": "₹159.95",
+        "day": "▼ 0.02%",
+        "week": "▲ 1.98%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-04"
+      },
+      {
+        "name": "Mindspace REIT",
+        "price": "₹497.44",
+        "day": "▲ 1.11%",
+        "week": "▲ 4.47%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-05"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹320.23",
+        "day": "▲ 0.14%",
+        "week": "▲ 3.77%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-05"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹104.92",
+        "day": "▼ 0.53%",
+        "week": "▲ 2.76%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-04"
+      }
+    ],
+    "caps": [
+      {
+        "name": "Nifty 50",
+        "tag": "Large cap",
+        "level": "24,536.60",
+        "day": 2.4,
+        "week": 6.98,
+        "month": 7.73,
+        "day_txt": "▲ 2.40%",
+        "week_txt": "▲ 6.98%",
+        "month_txt": "▲ 7.73%",
+        "dir": "up",
+        "dir_week": "up",
+        "dir_month": "up",
+        "session_date": "2026-11-05"
+      },
+      {
+        "name": "Nifty Midcap 150",
+        "tag": "Mid cap",
+        "level": "22,290.40",
+        "day": 1.93,
+        "week": 4.92,
+        "month": 1.41,
+        "day_txt": "▲ 1.93%",
+        "week_txt": "▲ 4.92%",
+        "month_txt": "▲ 1.41%",
+        "dir": "up",
+        "dir_week": "up",
+        "dir_month": "up",
+        "session_date": "2026-11-05"
+      },
+      {
+        "name": "Nifty Smallcap 250",
+        "tag": "Small cap",
+        "level": "17,535.70",
+        "day": 0.79,
+        "week": 2.54,
+        "month": -2.05,
+        "day_txt": "▲ 0.79%",
+        "week_txt": "▲ 2.54%",
+        "month_txt": "▼ 2.05%",
+        "dir": "up",
+        "dir_week": "up",
+        "dir_month": "down",
+        "session_date": "2026-11-05"
+      }
+    ],
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"80.8\" width=\"22\" height=\"19.2\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"75.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+2.4</text><rect x=\"62.3\" y=\"44.0\" width=\"22\" height=\"56.0\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"39.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+7.0</text><rect x=\"90.3\" y=\"38.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"33.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+7.7</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"84.5\" width=\"22\" height=\"15.5\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"79.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.9</text><rect x=\"169.0\" y=\"60.5\" width=\"22\" height=\"39.5\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"55.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+4.9</text><rect x=\"197.0\" y=\"88.7\" width=\"22\" height=\"11.3\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"83.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.4</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"93.7\" width=\"22\" height=\"6.3\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"88.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.8</text><rect x=\"275.7\" y=\"79.6\" width=\"22\" height=\"20.4\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"74.6\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+2.5</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"16.4\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"128.4\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-2.0</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "funds": [
+      {
+        "name": "ICICI Pru Large Cap",
+        "cat": "Large cap",
+        "nav": "₹120.53",
+        "day": "▲ 2.13%",
+        "week": "▲ 6.50%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-05"
+      },
+      {
+        "name": "MO Midcap 150 Index",
+        "cat": "Mid cap",
+        "nav": "₹40.49",
+        "day": "▲ 1.93%",
+        "week": "▲ 4.95%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-05"
+      },
+      {
+        "name": "Nippon Small Cap",
+        "cat": "Small cap",
+        "nav": "₹200.74",
+        "day": "▲ 0.63%",
+        "week": "▲ 2.40%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-05"
+      },
+      {
+        "name": "Parag Parikh Flexi Cap",
+        "cat": "Flexi cap",
+        "nav": "₹91.40",
+        "day": "▲ 0.76%",
+        "week": "▲ 2.92%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-04"
+      }
+    ],
+    "date_label": "NOV 2026",
+    "close_label": "CLOSE OF NOV 5",
+    "session_date": "2026-11-05",
+    "nav_label": "NAVS AS OF NOV 4"
+  },
+  "daily_brief": {
+    "story_1": {
+      "kicker": "Market Cues",
+      "headline": "Sensex and Nifty trade amid five key factors",
+      "paragraphs": [
+        "As the trading session unfolds, investors are weighing multiple indicators ranging from Gift Nifty trends to the broader Nikkei selloff. Market participants continue to track these global and domestic developments closely to gauge short-term direction.",
+        "The interplay of international cues and local sentiment remains a critical driver for domestic indices as the trading week progresses."
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Stamp_of_India_-_2016_-_Colnect_627075_-_Bombay_Stock_Exchange.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Stamp of India - 2016 - Colnect 627075 - Bombay Stock Exchange"
+      }
+    },
+    "story_2": {
+      "kicker": "Global Markets",
+      "headline": "Sensex holds firm despite Wall Street crash",
+      "paragraphs": [
+        "Domestic indices displayed remarkable resilience as the Sensex held firm despite a severe Wall Street crash. Meanwhile, the Nifty experienced some downward pressure, slipping below the psychological threshold.",
+        "Traders are closely watching how local equities absorb the broader international selloff, contrasting sharply with severe pullbacks seen across major Western benchmarks."
+      ]
+    },
+    "story_3": {
+      "kicker": "Banking Policy",
+      "headline": "RBI Proposes PSL Rulebook for UCBs",
+      "paragraphs": [
+        "The Reserve Bank of India has proposed a new Priority Sector Lending rulebook for Urban Cooperative Banks, keeping the target unchanged at sixty percent."
+      ]
+    },
+    "also_today": {
+      "items": [
+        "Havells India reported an 11 percent rise in quarterly profit to reach Rs 353 crore.",
+        "LIC reported a 20 percent increase in net profit alongside strong net premium income growth.",
+        "Bharti Airtel posted a 31 percent rise in net profit to Rs 8,888 crore while missing estimates.",
+        "Fintech startup OneStack raised Rs 12.5 crore to bring cooperative banks onto UPI."
+      ]
+    }
+  },
+  "geopolitics": {
+    "kicker": "India | US Trade",
+    "headline": "US Midterm Aftermath and the India Trade Deal",
+    "paragraphs": [
+      "Following the US midterm elections, experts suggest that a setback for President Trump could pave the way to fast-track an India-US interim trade deal within two months. Analysts point out that a Democrat-controlled Congress or a political rout may prompt Washington to ease pressures, bringing relief to India on tariffs and visa regulations. While sources indicate that the core bilateral interim trade agreement remains on track regardless of the midterm results, opinions remain divided on how a complex Washington landscape will impact future negotiations.",
+      "At the same time, institutions like CareEdge warn that while the midterms may offer some trade relief, specific tariff and visa risks persist for Indian interests. Ex-diplomats and trade analysts argue that President Trump retains significant executive power on tariffs and foreign policy matters like Iran. As New Delhi navigates this evolving geopolitical shift, businesses await clearer signals on how the American political balance will shape upcoming trade pacts and investment flows."
+    ],
+    "world_60": [
+      "Global crude oil prices rise over 5 percent as Trump pulls out of the Iran peace deal.",
+      "Brent crude oil trades near 100 dollars per barrel following a sharp weekly pullback.",
+      "Gold prices climb as the broader technology selloff on Wall Street keeps the dollar subdued.",
+      "Canada's dollar remains steady while global currency markets react to climbing oil prices.",
+      "European currencies fall amid growing political uncertainty and rising energy costs."
+    ],
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
+      "alt": "New Delhi"
+    }
+  },
+  "more": {
+    "big_story": [
+      {
+        "headline": "ONGC Q2 Consolidated PAT Jumps 47%",
+        "text": "ONGC reported a massive jump in its Q2 consolidated PAT, soaring 47% YoY to Rs 18,535 crore, alongside an interim dividend announcement of Rs 8/share. This stellar performance by the energy behemoth signals robust domestic production and strong cash flows, bolstering broader investor confidence in India's core public sector enterprises.",
+        "source": "The Economic Times",
+        "published": "05 Nov 19:00 IST"
+      }
+    ],
+    "venture_vault": [
+      {
+        "headline": "altM Raises $10.3M for Agri-Chemicals",
+        "text": "Deep-tech startup altM secured $10.3 million in funding to scale the production of specialty chemicals derived from agricultural waste. Founded by former Tesla executives, the company transforms materials like rice straw and bagasse into high-value items, offering a sustainable dual solution for India's stubble burning crisis and industrial chemical demands.",
+        "source": "https://ascendants.in/",
+        "published": "05 Nov 11:12 IST"
+      },
+      {
+        "headline": "Bombay Coated Debuts at 12% Premium",
+        "text": "Bombay Coated & Special Steels made a strong entry on the bourses, listing at a 12% premium over its IPO price. The successful market debut underscores sustained retail and institutional appetite for niche manufacturing and specialty steel segments within India's expanding industrial landscape.",
+        "source": "Business Standard",
+        "published": "05 Nov 10:04 IST"
+      }
+    ]
+  },
+  "sources": {
+    "big_story": [
+      {
+        "title": "India defies Asia tech rout as oil slide, foreign buying cushion markets",
+        "source": "Reuters"
+      },
+      {
+        "title": "Overbought Nifty May Find Fresh Fuel as AI Stocks Tumble Globally",
+        "source": "Bloomberg.com"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "Cosmoserve Raises $6 Mn in Seed Funding to Advance Space Debris Removal Technology, Targets Commercialisation by 2028",
+        "source": "Indian Startup Times"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "Stock Market Today: Gift Nifty To Nasdaq, Nikkei Selloff; Five Key Factors For Sensex, Nifty 50 On Nov 6",
+        "source": "NDTV Profit"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "Sensex holds firm despite Wall Street crash, Nifty slips below 24,550",
+        "source": "India Today"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "RBI Proposes PSL Rulebook for UCBs; 60% Target Unchanged",
+        "source": "Indian Cooperative"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "Stock Market Today: Sensex, Nifty likely to open lower as global selloff rattles US, Asian markets",
+        "source": "IndiaIPO"
+      },
+      {
+        "title": "Sensex rallies as overseas funds pump in Rs 14,975 crore",
+        "source": "The Economic Times"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "'No impact on India-US ties': Tharoor says Trump retains power on tariffs, Iran war",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Trump's midterm election setback may fast-track India-US trade deal within two months says founder, GTRI",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "\"Sense will now come back\": Ex-diplomat Soni on US midterm results bringing relief to India on tariffs, visas",
+        "source": "ANI News"
+      },
+      {
+        "title": "India Faces Less Pressure to Finalize U.S. Trade Deal Following Midterm Elections, Emkay Global Says",
+        "source": "INDIA New England News"
+      },
+      {
+        "title": "American midterm results will not have an impact on India-US interim trade deal: Sources",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "US midterm loss may push Trump tofast-track India trade deal: Experts",
+        "source": "Nagaland Post"
+      },
+      {
+        "title": "US Midterm Elections results impact on India-US trade deal: Experts decode how Trump's loss will affect big investments",
+        "source": "TradingView"
+      },
+      {
+        "title": "Why Trump's midterm rout may be bad news for India",
+        "source": "The Week"
+      },
+      {
+        "title": "Will India Have To Navigate A Far More Complex Washington Between Trump And A Democrat-Controlled Congress?",
+        "source": "ETV Bharat"
+      },
+      {
+        "title": "US blue wave may not hit FTA with India",
+        "source": "The Tribune"
+      },
+      {
+        "title": "US Midterm Results Marginally Positive for India, but Trade and Visa Risks Remain: CareEdge",
+        "source": "Moneylife"
+      },
+      {
+        "title": "US Midterm Elections Bring India Trade Relief, but Tariff Risks Remain",
+        "source": "Siliconindia"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "Gold eases on inflation worries from higher oil; US payrolls data in focus",
+        "source": "Reuters"
+      },
+      {
+        "title": "Global crude oil prices rise more than 5% as Trump pulls out of Iran peace deal",
+        "source": "DD News"
+      },
+      {
+        "title": "Gold prices climb as tech rout on Wall Street keeps the dollar subdued By Investing.com",
+        "source": "Investing.com India"
+      },
+      {
+        "title": "Euro Falls as Oil Prices Climb Amid Political and Market Uncertainty",
+        "source": "Global Banking & Finance Review"
+      },
+      {
+        "title": "Canadian Dollar remains steady as oil prices continue to recover",
+        "source": "www.tmgm.com"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "NTPC Green Energy Limited IPO, GMP, Details, Price, And Review IPO GMP Today, Expected Listing Gain & Price Band",
+        "source": "IndiaIPO"
+      },
+      {
+        "title": "Gem Aromatics IPO GMP Today, Expected Listing Gain & Price Band",
+        "source": "IndiaIPO"
+      },
+      {
+        "title": "Bombay Coated & Special Steels shares list at 12% premium on BSE — should you buy, sell or hold?",
+        "source": "Moneycontrol.com"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session 2026-11-06)",
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
+  }
+}
