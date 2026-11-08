@@ -1,0 +1,559 @@
+{
+  "updated_ist": "2026-11-08",
+  "cover": {
+    "big_story_teaser": "Nifty bulls reclaim 25,000 as FIIs buy Indian equities",
+    "venture_teaser": "GIVA raises Rs 975 crore to cross 1,000 outlets",
+    "market_watch_teaser": "As of 2026-11-06 close: Nifty 50 25,030.35 ▲ 2.01%",
+    "daily_brief_teaser": "Sebi rules on currency derivatives, RBI dismisses cheque book rumors",
+    "inbrief_2": "Sebi currency rules",
+    "inbrief_3": "RBI clears cheque book",
+    "inbrief_4": "Jeffrey Sachs prediction",
+    "inbrief_1": "US Midterms: Impact on Trade Deals"
+  },
+  "big_story": {
+    "headline": "Bulls Reclaim 25,000",
+    "subhead": "NIFTY BULLS RECLAIM THE 25,000 MARK AS FII BUYING LIFTS D-STREET",
+    "paragraphs": [
+      "Indian equities have seen strong momentum as Nifty bulls successfully reclaimed the 25,000 mark. Foreign institutional investors have stepped up their buying in India, providing a fresh tailwind to domestic markets. Meanwhile, investors are also looking back at history and analyzing special Diwali trading data.",
+      "This market movement occurs against a backdrop of global shifts, where traders are weighing various factors including oil prices and FPI flows. As Samvat 2083 approaches, market participants are keeping a close watch on potential volatility and macroeconomic indicators.",
+      "For college finance enthusiasts, this divergence between local strength and global trends offers a fascinating case study in market resilience. Staying informed on institutional flows and policy updates will be crucial as D-Street navigates its next phase."
+    ],
+    "pullbox": "As FIIs step up buying and bulls reclaim key milestones, D-Street balances domestic resilience against global market volatility.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/IT7A2275_copy_%28cropped%29.jpg/3840px-IT7A2275_copy_%28cropped%29.jpg",
+      "alt": "National Stock Exchange of India"
+    }
+  },
+  "explains": {
+    "title": "What are FIIs and D-Street?",
+    "paragraphs": [
+      "FII stands for Foreign Institutional Investor, referring to large funds and entities outside India that invest in domestic financial assets. D-Street is a popular colloquial term for Dalal Street in Mumbai, home to major Indian stock exchanges.",
+      "When FIIs step up their buying in domestic equities, it injects substantial capital into Indian markets, often driving benchmarks higher. Understanding these institutional flows helps explain sudden rallies and market movements."
+    ]
+  },
+  "venture_vault": {
+    "paragraphs": [
+      "Jewellery brand GIVA has raised Rs 975 crore in a funding round led by Multiples PE. The fresh capital injection will help the company expand its retail footprint as it aims to cross 1,000 outlets in the coming years.",
+      "Backed by prominent investors, GIVA's aggressive expansion strategy highlights strong consumer appetite in India's retail and direct-to-consumer sectors. The massive funding round underscores continued investor confidence in scaling homegrown brands."
+    ]
+  },
+  "market_watch": {
+    "indian": [
+      {
+        "name": "Sensex",
+        "value": "81,028.02 ▲ 2.17%",
+        "dir": "up",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "Nifty 50",
+        "value": "25,030.35 ▲ 2.01%",
+        "dir": "up",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "Nifty Bank",
+        "value": "59,086.00 ▲ 2.27%",
+        "dir": "up",
+        "session_date": "2026-11-06"
+      }
+    ],
+    "asian": [
+      {
+        "name": "Nikkei 225",
+        "value": "57,434.77 ▼ 5.96%",
+        "dir": "down",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "Hang Seng",
+        "value": "24,481.86 ▼ 1.27%",
+        "dir": "down",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "Shanghai Comp.",
+        "value": "3,649.18 ▼ 1.10%",
+        "dir": "down",
+        "session_date": "2026-11-06"
+      }
+    ],
+    "european": [
+      {
+        "name": "FTSE 100",
+        "value": "10,673.94 ▼ 1.01%",
+        "dir": "down",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "DAX",
+        "value": "25,820.36 ▼ 1.92%",
+        "dir": "down",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "CAC 40",
+        "value": "8,139.00 ▼ 0.81%",
+        "dir": "down",
+        "session_date": "2026-11-06"
+      }
+    ],
+    "us": [
+      {
+        "name": "S&P 500",
+        "value": "7,376.86 ▲ 0.31%",
+        "dir": "up",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "24,579.42 ▲ 1.09%",
+        "dir": "up",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "Dow Jones",
+        "value": "51,285.73 ▼ 0.46%",
+        "dir": "down",
+        "session_date": "2026-11-06"
+      }
+    ],
+    "global": [
+      {
+        "name": "Dollar Index",
+        "value": "102.30 ▲ 0.74%",
+        "dir": "up",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "Brent Crude",
+        "value": "$98.32/bbl",
+        "dir": "up",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "Gold",
+        "value": "$4,075/oz",
+        "dir": "down",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "US 10Y Yield",
+        "value": "4.86% ▲ 2.2 bp",
+        "dir": "up",
+        "session_date": "2026-11-06"
+      }
+    ],
+    "losers": [
+      "Tata Motors PV",
+      "Eicher Motors",
+      "Power Grid"
+    ],
+    "winners": [
+      "Mahindra & Mahindra",
+      "ICICI Bank",
+      "HDFC Life"
+    ],
+    "snapshot_strip": "Banks and Pharma led; Media and Energy lagged as the Nifty rose 2.01%",
+    "date_label": "NOV 2026",
+    "close_label": "AS OF FRIDAY'S CLOSE, NOV 6",
+    "session_date": "2026-11-06",
+    "ipo_desk": [
+      {
+        "name": "Hindustan Coca-Cola",
+        "note": "Bottler files DRHP for IPO"
+      }
+    ]
+  },
+  "data_desk": {
+    "commodities": [
+      {
+        "name": "Gold",
+        "unit": "$/oz",
+        "price": "4,075",
+        "day": "▼ 0.94%",
+        "week": "▲ 4.51%",
+        "dir": "down",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,6.6 4.1,5.8 8.3,5.2 12.4,4.1 16.6,7.1 20.7,7.5 24.8,5.2 29.0,8.7 33.1,7.5 37.2,3.0 41.4,4.9 45.5,5.9 49.7,11.2 53.8,6.5 57.9,5.7 62.1,7.2 66.2,8.6 70.3,8.0 74.5,14.8 78.6,18.8 82.8,16.5 86.9,13.7 91.0,15.5 95.2,17.0 99.3,27.0 103.4,21.7 107.6,23.9 111.7,13.8 115.9,10.8 120.0,13.7\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"13.7\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "Silver",
+        "unit": "$/oz",
+        "price": "51.94",
+        "day": "▼ 0.56%",
+        "week": "▲ 5.79%",
+        "dir": "down",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,4.1 8.3,5.2 12.4,4.0 16.6,5.5 20.7,3.7 24.8,3.1 29.0,5.6 33.1,7.3 37.2,4.1 41.4,5.1 45.5,7.1 49.7,14.2 53.8,11.7 57.9,11.4 62.1,11.4 66.2,10.0 70.3,10.5 74.5,15.8 78.6,17.9 82.8,17.1 86.9,16.7 91.0,18.4 95.2,20.9 99.3,27.0 103.4,23.8 107.6,26.0 111.7,21.0 115.9,20.8 120.0,21.4\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"21.4\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "Brent Crude",
+        "unit": "$/bbl",
+        "price": "98.32",
+        "day": "▲ 0.03%",
+        "week": "▼ 16.42%",
+        "dir": "up",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,15.9 4.1,18.7 8.3,17.7 12.4,19.0 16.6,19.0 20.7,21.1 24.8,20.8 29.0,21.2 33.1,16.9 37.2,16.5 41.4,14.5 45.5,15.5 49.7,15.1 53.8,15.2 57.9,11.1 62.1,11.4 66.2,12.2 70.3,12.2 74.5,7.7 78.6,4.0 82.8,4.9 86.9,6.9 91.0,5.4 95.2,5.9 99.3,3.0 103.4,16.4 107.6,17.6 111.7,27.0 115.9,23.2 120.0,23.1\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"23.1\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "WTI Crude",
+        "unit": "$/bbl",
+        "price": "90.83",
+        "day": "▲ 0.34%",
+        "week": "▼ 12.76%",
+        "dir": "up",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,20.3 4.1,25.1 8.3,23.6 12.4,19.9 16.6,22.5 20.7,25.0 24.8,25.0 29.0,26.8 33.1,21.9 37.2,21.4 41.4,18.6 45.5,18.0 49.7,16.5 53.8,12.2 57.9,7.1 62.1,3.7 66.2,6.5 70.3,13.5 74.5,10.0 78.6,4.3 82.8,6.5 86.9,9.3 91.0,5.0 95.2,6.2 99.3,3.0 103.4,14.5 107.6,15.0 111.7,27.0 115.9,23.4 120.0,22.9\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"22.9\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-06"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Embassy REIT",
+        "price": "₹416.83",
+        "day": "▲ 0.11%",
+        "week": "▲ 0.63%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "Nexus Select REIT",
+        "price": "₹158.99",
+        "day": "▼ 0.54%",
+        "week": "▼ 0.42%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "Mindspace REIT",
+        "price": "₹498.06",
+        "day": "▲ 0.12%",
+        "week": "▲ 3.10%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹320.87",
+        "day": "▲ 0.20%",
+        "week": "▲ 1.96%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹105.38",
+        "day": "▼ 0.01%",
+        "week": "▲ 1.84%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-06"
+      }
+    ],
+    "caps": [
+      {
+        "name": "Nifty 50",
+        "tag": "Large cap",
+        "level": "25,030.35",
+        "day": 2.01,
+        "week": 8.58,
+        "month": 10.74,
+        "day_txt": "▲ 2.01%",
+        "week_txt": "▲ 8.58%",
+        "month_txt": "▲ 10.74%",
+        "dir": "up",
+        "dir_week": "up",
+        "dir_month": "up",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "Nifty Midcap 150",
+        "tag": "Mid cap",
+        "level": "22,271.15",
+        "day": -0.09,
+        "week": 5.81,
+        "month": 1.98,
+        "day_txt": "▼ 0.09%",
+        "week_txt": "▲ 5.81%",
+        "month_txt": "▲ 1.98%",
+        "dir": "down",
+        "dir_week": "up",
+        "dir_month": "up",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "Nifty Smallcap 250",
+        "tag": "Small cap",
+        "level": "17,386.15",
+        "day": -0.85,
+        "week": 3.71,
+        "month": -2.97,
+        "day_txt": "▼ 0.85%",
+        "week_txt": "▲ 3.71%",
+        "month_txt": "▼ 2.97%",
+        "dir": "down",
+        "dir_week": "up",
+        "dir_month": "down",
+        "session_date": "2026-11-06"
+      }
+    ],
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"88.4\" width=\"22\" height=\"11.6\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"83.4\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+2.0</text><rect x=\"62.3\" y=\"50.5\" width=\"22\" height=\"49.5\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"45.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+8.6</text><rect x=\"90.3\" y=\"38.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"33.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+10.7</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"100.0\" width=\"22\" height=\"0.8\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"112.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.1</text><rect x=\"169.0\" y=\"66.5\" width=\"22\" height=\"33.5\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"61.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+5.8</text><rect x=\"197.0\" y=\"88.6\" width=\"22\" height=\"11.4\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"83.6\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+2.0</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"100.0\" width=\"22\" height=\"4.9\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"116.9\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.8</text><rect x=\"275.7\" y=\"78.6\" width=\"22\" height=\"21.4\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"73.6\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+3.7</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"17.1\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"129.1\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-3.0</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "funds": [
+      {
+        "name": "ICICI Pru Large Cap",
+        "cat": "Large cap",
+        "nav": "₹122.59",
+        "day": "▲ 1.71%",
+        "week": "▲ 8.05%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "MO Midcap 150 Index",
+        "cat": "Mid cap",
+        "nav": "₹40.46",
+        "day": "▼ 0.07%",
+        "week": "▲ 5.83%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "Nippon Small Cap",
+        "cat": "Small cap",
+        "nav": "₹199.14",
+        "day": "▼ 0.79%",
+        "week": "▲ 3.31%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-06"
+      },
+      {
+        "name": "Parag Parikh Flexi Cap",
+        "cat": "Flexi cap",
+        "nav": "₹93.95",
+        "day": "▲ 1.34%",
+        "week": "▲ 5.28%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-06"
+      }
+    ],
+    "date_label": "NOV 2026",
+    "close_label": "AS OF FRIDAY'S CLOSE, NOV 6",
+    "session_date": "2026-11-06",
+    "nav_label": "NAVS AS OF NOV 6"
+  },
+  "daily_brief": {
+    "story_1": {
+      "kicker": "India | Currency Derivatives",
+      "headline": "Mint Explainer: Sebi rules on currency derivatives",
+      "paragraphs": [
+        "As market regulators step up efforts to stabilize domestic financial instruments, questions are being raised regarding whether new Sebi rules on currency derivatives will help the falling rupee. The market has been closely monitoring regulatory updates concerning currency trading frameworks.",
+        "Observers note that structural changes in derivatives markets require careful assessment by institutional and retail participants alike."
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+        "alt": "Reserve Bank of India"
+      }
+    },
+    "story_2": {
+      "kicker": "India | Banking Regulation",
+      "headline": "RBI dismisses claims of new cheque book rules",
+      "paragraphs": [
+        "The Reserve Bank of India has officially dismissed circulating claims regarding new cheque book rules scheduled for January. Authorities have urged caution against misleading claims spreading across digital platforms.",
+        "Bank customers are advised to rely strictly on official notifications rather than unverified reports concerning banking operations."
+      ]
+    },
+    "story_3": {
+      "kicker": "Global | Long-Term Economy",
+      "headline": "Will India become world's largest economy by 2100?",
+      "paragraphs": [
+        "Economist Jeffrey Sachs has shared long-term projections examining whether India could eventually become the world's largest economy by the year 2100, sparking wider discussions on growth trajectories and demographic advantages."
+      ]
+    },
+    "also_today": {
+      "items": [
+        "Tata Steel reports a 20 percent rise in Q2 India profit to 5,055 crore rupees",
+        "Samvat 2083 outlook: Oil prices and FPI flows to keep Indian equities volatile",
+        "India stocks are noted as being at their cheapest in six years",
+        "GIVA raises 975 crore rupees in funding as it aims to expand outlets"
+      ]
+    }
+  },
+  "geopolitics": {
+    "kicker": "US Midterms | India Trade",
+    "headline": "Democratic Sweep Puts US Tariffs and Trade Deal in Focus",
+    "paragraphs": [
+      "Following the 2026 US midterm elections, a Democratic sweep dubbed the Bluenami effect has reshuffled Washington's political landscape. Democrats revealed a blueprint aimed at halting proposed import tariffs, creating new uncertainty around Donald Trump's trade policies. The election outcome directly impacts ongoing discussions surrounding the India-US trade deal and broader economic cooperation.",
+      "A weakened presidential leverage could limit unilateral tariff actions, offering relief to Indian exporters concerned about trade barriers. However, market observers note that shifting congressional priorities will dictate the pace and scope of future bilateral trade agreements, making policy predictability a key concern for global investors."
+    ],
+    "world_60": [
+      "India stresses security and trade connectivity at the 25th SCO Economic Ministers meeting in Tajikistan.",
+      "Pakistan’s foreign debt nearly doubles to $135 billion, with China emerging as its largest lender.",
+      "British High Commission in India hails progress on the bilateral FTA deal amid Diwali celebrations.",
+      "Global gold drops over 1% amid higher oil prices as investors watch upcoming US payrolls data.",
+      "S&P 500 tumbles 4.4% in a single day as global AI and semiconductor stocks plunge."
+    ],
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/US_Capitol_east_side.JPG/3840px-US_Capitol_east_side.JPG",
+      "alt": "United States Capitol"
+    }
+  },
+  "more": {
+    "big_story": [
+      {
+        "headline": "Meesho Acquires Majority Stakes in Kirana Club and Retail Pulse Labs",
+        "text": "E-commerce platform Meesho has completed the acquisition of majority stakes in Kirana Club and Retail Pulse Labs. The strategic move expands Meesho’s presence across local offline retail ecosystems and strengthens its supply network. For Indian retail tech, this consolidation underlines how major e-commerce players are integrating traditional kirana networks to boost last-mile penetration.",
+        "source": "IndiaIPO",
+        "published": "07 Nov 20:02 IST"
+      },
+      {
+        "headline": "Indian Equities Rally Amid Global Market Swings",
+        "text": "Indian stock markets experienced a distinct surge, rallying strongly even as global equity markets swooned in recent trading. The divergence reflects strong domestic institutional flows and resilient local economic fundamentals shielding Indian equities from global headwinds. This trend highlights India's growing decoupling from short-term international market downturns.",
+        "source": "IndraStra Global",
+        "published": "08 Nov 09:54 IST"
+      }
+    ],
+    "venture_vault": [
+      {
+        "headline": "Space-Tech Startup Cosmoserve Secures $6 Million Seed Funding",
+        "text": "Satellite servicing technology startup Cosmoserve has raised $6 million in a seed funding round to advance its satellite servicing capabilities. The capital injection will allow the firm to scale its technology and tap into the growing commercial space ecosystem. For India's booming spacetech landscape, this investment highlights rising investor trust in advanced deep-tech innovations.",
+        "source": "Indian Startup Times",
+        "published": "06 Nov 17:21 IST"
+      },
+      {
+        "headline": "Ottonomy Secures ₹40.6 Crore Funding for Autonomous Robotics",
+        "text": "Robotics startup Ottonomy has secured ₹40.6 crore in fresh funding to scale its autonomous hospital robots globally, which assist in carrying blood samples indoors. The capital will support its international expansion and technology deployment. For India’s hardware robotics sector, this successful funding round underscores the rising demand for specialized healthcare automation.",
+        "source": "Indian Startup News",
+        "published": "06 Nov 17:48 IST"
+      }
+    ],
+    "geopolitics": [
+      {
+        "headline": "UK High Commission Hails Progress on Bilateral India Trade Deal",
+        "text": "The British High Commission in India has expressed strong optimism regarding the ongoing India-UK trade deal negotiations during Diwali celebrations, indicating significant progress ahead. The strategic pact aims to lower tariffs and streamline market access across key export sectors. For India, a completed agreement with the United Kingdom will bolster bilateral trade and spur foreign investment.",
+        "source": "The Times of India",
+        "published": "07 Nov 20:28 IST"
+      },
+      {
+        "headline": "Latvia Evaluates Opportunities in Free Trade Agreements With India",
+        "text": "Latvia is evaluating the strategic economic impact of incoming free trade agreements involving India, South America, and Australia. The European Baltic nation aims to expand trade routes, diversify supply chains, and tap into growing emerging markets. For India, engaging in trade dialogues with Latvia strengthens economic linkages with Eastern Europe and enhances Baltic market access.",
+        "source": "LSM",
+        "published": "07 Nov 17:00 IST"
+      }
+    ]
+  },
+  "sources": {
+    "big_story": [
+      {
+        "title": "Nifty bulls reclaim 25,000 mark as FIIs step up India buying: 5 factors that will determine D-Street's fat",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "Samvat 2083: Oil prices, FPI flows to keep Indian equities volatile",
+        "source": "Business Standard"
+      },
+      {
+        "title": "Muhurat trading last 10 years data: Nifty 50, Bank Nifty, Sensex; what history tells amid Special Diwali session today",
+        "source": "Livemint"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "Jewellery brand GIVA raises Rs 975 crore as it aims to cross 1,000 outlets in the next 3-5 years",
+        "source": "Indian Startup News"
+      },
+      {
+        "title": "GIVA raises over $100 Mn in funding round led by Multiples PE | Startup Story",
+        "source": "Startup Story"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "Mint Explainer: Will Sebi's new rules on currency derivatives help the falling rupee?",
+        "source": "TradingView"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "\"Fake\": RBI Dismisses Claims Of New Cheque Book Rules From January",
+        "source": "NDTV"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "Will India become world’s largest economy by 2100? Jeffrey Sachs’ prediction explained",
+        "source": "The Federal"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "RBI alert: No new cheque book rules from January 2027; beware of misleading claims",
+        "source": "Upstox"
+      },
+      {
+        "title": "Samvat 2083: Oil prices, FPI flows to keep Indian equities volatile",
+        "source": "Business Standard"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "US midterm elections 2026: What Trump’s defeat means for India–US trade deal and tariffs?",
+        "source": "Bhaskar English"
+      },
+      {
+        "title": "US midterm elections: What does\nDemocratic sweep mean for Trump,\nIndia and the world?",
+        "source": "The New Indian Express"
+      },
+      {
+        "title": "Democrats Reveal BLUE-PRINT To Stop Trump’s ‘Stupid Tariffs’ After Stunning Midterm Victory",
+        "source": "Oneindia"
+      },
+      {
+        "title": "US midterms: The Bluenami effect for India",
+        "source": "The Sunday Guardian"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "25th SCO Economic and Foreign Trade Ministers’ meeting held in Tajikistan; India highlights security, connectivity and opportunity",
+        "source": "DD News"
+      },
+      {
+        "title": "Pakistan’s Foreign Debt Nearly Doubles to $135 Billion, China Emerges as Biggest Lender",
+        "source": "India Business Trade"
+      },
+      {
+        "title": "\"Loads more ahead\": British High Commission in India hails FTA deal amid Diwali celebrations",
+        "source": "ANI News"
+      },
+      {
+        "title": "Gold Drops Over 1% on Higher Oil Prices; US Payrolls Data in Focus",
+        "source": "ASHARQ AL-AWSAT English"
+      },
+      {
+        "title": "Global AI and Semiconductor Stocks Plunge; S&P 500 Tumbles 4.4% in a Single Day as Markets Watch Whether Three Central Banks Will Raise Rates in December",
+        "source": "BigGo Finance"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "Upcoming IPO: Coca-Cola India bottler HCCH files DRHP for public issue, majority shareholder to sell up to 15% stake",
+        "source": "Livemint"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session 2026-11-06)",
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
+  }
+}
