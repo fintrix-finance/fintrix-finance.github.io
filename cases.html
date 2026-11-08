@@ -183,6 +183,42 @@ const CASES = [
       { name: 'Hindustan Times, Sep 2026', url: 'https://www.hindustantimes.com/world-news/nirav-modi-fugitive-diamantaire-loses-legal-battle-as-uk-court-clears-sale-of-london-luxury-flat-101790773893539.html' },
     ],
   },
+  {
+    section: 'Against the Playbook', tag: null, co: 'CRED', meta: 'India · founded 2018',
+    fields: [
+      { label: 'The move', text: 'CRED launched in 2018 as an invite-only app for paying credit card bills, open only to people with a credit score of 750 or above. Instead of explaining its features, it ran jokes - most famously an April 2021 ad where Rahul Dravid, long known for his calm public image, rages in Bengaluru traffic and declares himself "Indiranagar ka gunda".' },
+      { label: 'Why it broke convention', text: 'Fintech apps usually sell trust, safety and seriousness, and chase the widest possible audience. CRED did the opposite: it excluded most applicants by design ("not everyone gets it") and sold status and humour instead of features. The Dravid ad flipped a public persona built on calm - the joke lands because losing his cool is the last thing people expect from him.' },
+      { label: 'What happened', text: 'The ad crossed 3 million views within a day and drew a reaction tweet from Virat Kohli (Indian Express, April 2021). That is the ad\'s documented impact. The business around it, in dated figures: investors valued CRED at $6.4 billion in June 2022 (Entrackr). For the year ended March 2025 the company reported operating revenue of ₹2,735 crore (up 16% year on year), operating losses down 51% to ₹298 crore, and a net loss of ₹1,457 crore, narrower than the year before but still a loss (company press release via Entrackr, January 2026; figures company-reported). In June 2026 Meta invested $900 million at a $4.5 billion valuation, below the 2022 peak, and CRED founder Kunal Shah was tapped to head WhatsApp globally (Reuters, June 2026).' },
+    ],
+    take: 'Takeaway: making people feel selected can build a brand everyone talks about. Whether the math works is a separate, longer question.',
+    srcs: [
+      { name: 'cred.club (membership rules, tagline)', url: 'https://cred.club/' },
+      { name: 'Indian Express (Dravid ad, views, Kohli tweet)', url: 'https://indianexpress.com/article/explained/how-rahul-dravid-became-indiranagar-ka-gunda-7267547/' },
+      { name: 'Entrackr (June 2022 Series F valuation)', url: 'https://entrackr.com/2022/06/cred-raises-140-mn-in-series-f-at-6-4-bn-valuation/' },
+      { name: 'Entrackr (FY25 results)', url: 'https://entrackr.com/news/cred-reports-rs-2735-cr-revenue-in-fy25-operating-losses-fall-51-11058243' },
+      { name: 'Reuters (Meta investment, Shah to WhatsApp)', url: 'https://www.reuters.com/world/india/indian-fintech-firm-cred-raise-900-million-meta-45-billion-valuation-2026-06-22/' },
+    ],
+  },
+  {
+    section: 'Anatomy of a Fraud', tag: { text: 'Proven in court', kind: 'proven' }, co: 'FTX', meta: 'Bahamas · collapsed 2022',
+    fields: [
+      { label: 'The claim', text: 'A polished global crypto exchange run by Sam Bankman-Fried, a 20-something billionaire who talked about effective altruism and working with regulators. In January 2022 investors valued FTX at $32 billion (Reuters).' },
+      { label: 'How it worked', text: 'Behind the exchange sat Alameda Research, a trading firm Bankman-Fried also owned. Billions of dollars of FTX customer deposits were moved to Alameda and used to cover its trades and loans - money customers believed was sitting safely in their accounts (US Dept. of Justice).' },
+      { label: 'How it unravelled', text: 'On November 2, 2022, CoinDesk reported that Alameda\'s balance sheet rested heavily on FTT, a token FTX itself had created, rather than an independent asset. Customers rushed to withdraw, the money was not there, and on November 11, 2022 FTX and about 130 affiliated companies filed for Chapter 11 bankruptcy in the US. Bankman-Fried resigned the same day (CoinDesk).' },
+      { label: 'Where it stands', text: 'A jury convicted Bankman-Fried in November 2023 on all seven fraud and conspiracy counts; in March 2024 he was sentenced to 25 years in prison and ordered to forfeit $11 billion (US Dept. of Justice). His appeal was rejected in June 2026 (US Court of Appeals for the Second Circuit), and his follow-up petition to the US Supreme Court is pending, with the government\'s response due in December (docket 26-349). He remains in prison. Alameda CEO Caroline Ellison, who cooperated with prosecutors, was sentenced to two years and released in January 2026 after about 14 months (Business Insider). Repayments: claims were valued in US dollars at November 2022 prices, an approach some customers challenged as short-changing them given later crypto prices (Reuters). Through five distributions, the latest about $900 million on July 31, 2026, the customer classes stand at 105% of allowed claims and other creditor classes between 103% and 120% (FTX Recovery Trust) - percentages of the 2022 dollar values, not of what the crypto would be worth later.' },
+    ],
+    take: null,
+    srcs: [
+      { name: 'CoinDesk (Alameda balance sheet, Nov 2022)', url: 'https://www.coindesk.com/business/2022/11/02/divisions-in-sam-bankman-frieds-crypto-empire-blur-on-his-trading-titan-alamedas-balance-sheet' },
+      { name: 'CoinDesk (Chapter 11 + resignation, Nov 2022)', url: 'https://www.coindesk.com/policy/2022/11/11/ftx-files-for-bankruptcy-protections-in-us' },
+      { name: 'US Dept. of Justice (25-year sentence, Mar 2024)', url: 'https://www.justice.gov/usao-sdny/pr/samuel-bankman-fried-sentenced-25-years-prison' },
+      { name: 'Second Circuit opinion 24-961-cr (Jun 2026)', url: 'https://ww3.ca2.uscourts.gov/decisions/OPN/24-961_opn.pdf' },
+      { name: 'Supreme Court docket 26-349 (petition pending)', url: 'https://www.supremecourt.gov/docket/docketfiles/html/public/26-349.html' },
+      { name: 'Business Insider (Ellison release, Jan 2026)', url: 'https://www.businessinsider.com/ftx-exec-caroline-ellison-prison-release-2026-1' },
+      { name: 'Reuters (petition-date valuation dispute)', url: 'https://www.reuters.com/legal/transactional/ftx-customers-feel-short-changed-by-companys-crypto-valuations-2024-01-11/' },
+      { name: 'FTX Recovery Trust (fifth distribution, Jul 2026)', url: 'https://www.prnewswire.com/news-releases/ftx-announces-fifth-distribution-of-approximately-900-million-to-creditors-on-july-31-2026-302828726.html' },
+    ],
+  },
 ];
 
 // Exact IST calendar-day math: reduce both dates to IST wall-calendar day
