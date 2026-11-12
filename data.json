@@ -1,24 +1,24 @@
 {
-  "updated_ist": "2026-11-11",
+  "updated_ist": "2026-11-12",
   "lite": true,
   "lite_note": "Lite issue. FINTRIX's AI writing pipeline was unavailable today, so instead of risking unverified text this issue carries only numbers retrieved from live market feeds and the day's real headlines with direct links. No story text was generated.",
   "market_watch": {
     "indian": [
       {
         "name": "Sensex",
-        "value": "82,496.79 ▲ 1.71%",
+        "value": "82,178.68 ▲ 0.37%",
         "dir": "up",
         "live": true
       },
       {
         "name": "Nifty 50",
-        "value": "25,370.90 ▲ 1.30%",
+        "value": "25,374.95 ▲ 0.47%",
         "dir": "up",
         "live": true
       },
       {
         "name": "Nifty Bank",
-        "value": "60,832.45 ▲ 1.83%",
+        "value": "61,349.70 ▲ 0.92%",
         "dir": "up",
         "live": true
       }
@@ -26,161 +26,161 @@
     "asian": [
       {
         "name": "Nikkei 225",
-        "value": "60,459.58 ▲ 2.87%",
+        "value": "61,248.59 ▲ 1.31%",
         "dir": "up",
-        "session_date": "2026-11-10"
+        "session_date": "2026-11-11"
       },
       {
         "name": "Hang Seng",
-        "value": "24,557.04 ▲ 0.44%",
-        "dir": "up",
-        "session_date": "2026-11-10"
+        "value": "24,315.92 ▼ 0.98%",
+        "dir": "down",
+        "session_date": "2026-11-11"
       },
       {
         "name": "Shanghai Comp.",
-        "value": "3,663.72 ▲ 0.08%",
+        "value": "3,680.64 ▲ 0.46%",
         "dir": "up",
-        "session_date": "2026-11-10"
+        "session_date": "2026-11-11"
       }
     ],
     "european": [
       {
         "name": "FTSE 100",
-        "value": "10,751.59 ▼ 0.29%",
-        "dir": "down",
-        "session_date": "2026-11-10"
+        "value": "10,835.47 ▲ 0.78%",
+        "dir": "up",
+        "session_date": "2026-11-11"
       },
       {
         "name": "DAX",
-        "value": "26,347.45 ▲ 0.31%",
+        "value": "26,662.77 ▲ 1.20%",
         "dir": "up",
-        "session_date": "2026-11-10"
+        "session_date": "2026-11-11"
       },
       {
         "name": "CAC 40",
-        "value": "8,278.59 ▲ 0.55%",
+        "value": "8,332.87 ▲ 0.66%",
         "dir": "up",
-        "session_date": "2026-11-10"
+        "session_date": "2026-11-11"
       }
     ],
     "us": [
       {
         "name": "S&P 500",
-        "value": "7,520.93 ▼ 0.38%",
-        "dir": "down",
-        "session_date": "2026-11-10"
+        "value": "7,619.38 ▲ 1.31%",
+        "dir": "up",
+        "session_date": "2026-11-11"
       },
       {
         "name": "Nasdaq",
-        "value": "25,065.88 ▼ 0.74%",
-        "dir": "down",
-        "session_date": "2026-11-10"
+        "value": "25,466.19 ▲ 1.60%",
+        "dir": "up",
+        "session_date": "2026-11-11"
       },
       {
         "name": "Dow Jones",
-        "value": "52,231.90 ▼ 0.30%",
-        "dir": "down",
-        "session_date": "2026-11-10"
+        "value": "52,486.50 ▲ 0.49%",
+        "dir": "up",
+        "session_date": "2026-11-11"
       }
     ],
     "global": [
       {
         "name": "Dollar Index",
-        "value": "102.23 ▲ 0.57%",
+        "value": "102.91 ▲ 0.67%",
         "dir": "up",
-        "session_date": "2026-11-10"
+        "session_date": "2026-11-11"
       },
       {
         "name": "Brent Crude",
-        "value": "$91.49/bbl",
-        "dir": "down",
-        "session_date": "2026-11-10"
+        "value": "$92.76/bbl",
+        "dir": "up",
+        "session_date": "2026-11-11"
       },
       {
         "name": "Gold",
-        "value": "$4,030/oz",
+        "value": "$4,000/oz",
         "dir": "down",
-        "session_date": "2026-11-10"
+        "session_date": "2026-11-11"
       },
       {
         "name": "US 10Y Yield",
-        "value": "4.98% ▲ 11.9 bp",
+        "value": "5.00% ▲ 1.5 bp",
         "dir": "up",
-        "session_date": "2026-11-10"
+        "session_date": "2026-11-11"
       }
     ],
     "losers": [
-      "Infosys",
-      "HCLTech",
-      "Bajaj Finance"
+      "Adani Ports",
+      "ICICI Bank",
+      "Tech Mahindra"
     ],
     "winners": [
-      "Sun Pharma",
-      "State Bank of India",
-      "NTPC"
+      "Mahindra & Mahindra",
+      "InterGlobe Aviation",
+      "Trent"
     ],
-    "snapshot_strip": "Pharma and PSU Banks led; IT and FMCG lagged as the Nifty rose 1.30%",
+    "snapshot_strip": "PSU Banks and Auto led; IT and Realty lagged as the Nifty rose 0.47%",
     "date_label": "NOV 2026",
     "close_label": "LIVE AS OF 10:00 AM IST",
     "live": true,
-    "session_date": "2026-11-11"
+    "session_date": "2026-11-12"
   },
   "data_desk": {
     "commodities": [
       {
         "name": "Gold",
         "unit": "$/oz",
-        "price": "4,030",
-        "day": "▼ 2.05%",
-        "week": "▲ 2.28%",
+        "price": "4,000",
+        "day": "▼ 0.74%",
+        "week": "▼ 1.78%",
         "dir": "down",
-        "dir_week": "up",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,5.2 4.1,4.1 8.3,7.1 12.4,7.5 16.6,5.2 20.7,8.7 24.8,7.5 29.0,3.0 33.1,4.9 37.2,5.9 41.4,11.2 45.5,6.5 49.7,5.7 53.8,7.2 57.9,8.6 62.1,8.0 66.2,14.8 70.3,18.8 74.5,16.5 78.6,13.7 82.8,15.5 86.9,17.0 91.0,27.0 95.2,21.7 99.3,23.9 103.4,13.8 107.6,10.8 111.7,13.7 115.9,10.7 120.0,17.1\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"17.1\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
-        "session_date": "2026-11-10"
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,4.1 4.1,7.1 8.3,7.5 12.4,5.2 16.6,8.7 20.7,7.5 24.8,3.0 29.0,4.9 33.1,5.9 37.2,11.2 41.4,6.5 45.5,5.7 49.7,7.2 53.8,8.6 57.9,8.0 62.1,14.8 66.2,18.8 70.3,16.5 74.5,13.7 78.6,15.5 82.8,17.0 86.9,27.0 91.0,21.7 95.2,23.9 99.3,13.8 103.4,10.8 107.6,13.7 111.7,10.7 115.9,17.1 120.0,19.3\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"19.3\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-11"
       },
       {
         "name": "Silver",
         "unit": "$/oz",
-        "price": "51.10",
-        "day": "▼ 2.78%",
-        "week": "▲ 3.05%",
-        "dir": "down",
-        "dir_week": "up",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,5.1 4.1,3.9 8.3,5.4 12.4,3.6 16.6,3.0 20.7,5.5 24.8,7.2 29.0,4.0 33.1,5.0 37.2,7.0 41.4,14.2 45.5,11.6 49.7,11.3 53.8,11.3 57.9,9.9 62.1,10.4 66.2,15.7 70.3,17.8 74.5,17.0 78.6,16.7 82.8,18.3 86.9,20.8 91.0,27.0 95.2,23.8 99.3,26.0 103.4,21.0 107.6,20.8 111.7,21.6 115.9,20.1 120.0,23.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"23.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
-        "session_date": "2026-11-10"
+        "price": "51.88",
+        "day": "▲ 1.53%",
+        "week": "▼ 0.46%",
+        "dir": "up",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.9 4.1,5.4 8.3,3.6 12.4,3.0 16.6,5.5 20.7,7.2 24.8,4.0 29.0,5.0 33.1,7.0 37.2,14.2 41.4,11.6 45.5,11.3 49.7,11.3 53.8,9.9 57.9,10.4 62.1,15.7 66.2,17.8 70.3,17.0 74.5,16.7 78.6,18.3 82.8,20.8 86.9,27.0 91.0,23.8 95.2,26.0 99.3,21.0 103.4,20.8 107.6,21.6 111.7,20.1 115.9,23.0 120.0,21.5\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"21.5\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-11"
       },
       {
         "name": "Brent Crude",
         "unit": "$/bbl",
-        "price": "91.49",
-        "day": "▼ 1.17%",
-        "week": "▼ 11.69%",
-        "dir": "down",
+        "price": "92.76",
+        "day": "▲ 1.39%",
+        "week": "▼ 1.97%",
+        "dir": "up",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,15.9 4.1,17.1 8.3,17.1 12.4,18.9 16.6,18.7 20.7,19.0 24.8,15.3 29.0,14.9 33.1,13.1 37.2,14.0 41.4,13.6 45.5,13.8 49.7,10.1 53.8,10.4 57.9,11.1 62.1,11.1 66.2,7.1 70.3,3.8 74.5,4.7 78.6,6.5 82.8,5.1 86.9,5.5 91.0,3.0 95.2,14.8 99.3,15.9 103.4,24.1 107.6,20.8 111.7,20.7 115.9,26.0 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
-        "session_date": "2026-11-10"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,17.1 4.1,17.1 8.3,18.9 12.4,18.7 16.6,19.0 20.7,15.3 24.8,14.9 29.0,13.1 33.1,14.0 37.2,13.6 41.4,13.8 45.5,10.1 49.7,10.4 53.8,11.1 57.9,11.1 62.1,7.1 66.2,3.8 70.3,4.7 74.5,6.5 78.6,5.1 82.8,5.5 86.9,3.0 91.0,14.8 95.2,15.9 99.3,24.1 103.4,20.8 107.6,20.7 111.7,26.0 115.9,27.0 120.0,25.8\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"25.8\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-11"
       },
       {
         "name": "WTI Crude",
         "unit": "$/bbl",
-        "price": "86.04",
-        "day": "▼ 0.93%",
-        "week": "▼ 10.46%",
-        "dir": "down",
+        "price": "86.53",
+        "day": "▲ 0.57%",
+        "week": "▼ 1.80%",
+        "dir": "up",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,21.2 4.1,17.9 8.3,20.3 12.4,22.5 16.6,22.5 20.7,24.0 24.8,19.8 29.0,19.3 33.1,16.8 37.2,16.2 41.4,15.0 45.5,11.2 49.7,6.6 53.8,3.6 57.9,6.1 62.1,12.3 66.2,9.2 70.3,4.1 74.5,6.1 78.6,8.6 82.8,4.8 86.9,5.8 91.0,3.0 95.2,13.2 99.3,13.7 103.4,24.2 107.6,21.1 111.7,20.6 115.9,25.9 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
-        "session_date": "2026-11-10"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,17.9 4.1,20.3 8.3,22.5 12.4,22.5 16.6,24.0 20.7,19.8 24.8,19.3 29.0,16.8 33.1,16.2 37.2,15.0 41.4,11.2 45.5,6.6 49.7,3.6 53.8,6.1 57.9,12.3 62.1,9.2 66.2,4.1 70.3,6.1 74.5,8.6 78.6,4.8 82.8,5.8 86.9,3.0 91.0,13.2 95.2,13.7 99.3,24.2 103.4,21.1 107.6,20.6 111.7,25.9 115.9,27.0 120.0,26.3\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"26.3\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-11"
       }
     ],
     "alternatives": [
       {
         "name": "Embassy REIT",
-        "price": "₹419.93",
-        "day": "▲ 0.74%",
-        "week": "▲ 2.13%",
+        "price": "₹420.10",
+        "day": "▲ 0.04%",
+        "week": "▲ 2.77%",
         "dir": "up",
         "dir_week": "up",
-        "session_date": "2026-11-09"
+        "session_date": "2026-11-11"
       },
       {
         "name": "Nexus Select REIT",
@@ -202,12 +202,12 @@
       },
       {
         "name": "Brookfield REIT",
-        "price": "₹318.30",
-        "day": "▼ 0.80%",
-        "week": "▲ 1.48%",
+        "price": "₹318.08",
+        "day": "▼ 0.07%",
+        "week": "▲ 1.14%",
         "dir": "down",
         "dir_week": "up",
-        "session_date": "2026-11-09"
+        "session_date": "2026-11-11"
       },
       {
         "name": "PowerGrid InvIT",
@@ -223,80 +223,80 @@
       {
         "name": "Nifty 50",
         "tag": "Large cap",
-        "level": "25,044.65",
-        "day": 0.06,
-        "week": 6.84,
-        "month": 12.65,
-        "day_txt": "▲ 0.06%",
-        "week_txt": "▲ 6.84%",
-        "month_txt": "▲ 12.65%",
+        "level": "25,255.05",
+        "day": 0.84,
+        "week": 6.07,
+        "month": 12.14,
+        "day_txt": "▲ 0.84%",
+        "week_txt": "▲ 6.07%",
+        "month_txt": "▲ 12.14%",
         "dir": "up",
         "dir_week": "up",
         "dir_month": "up",
-        "session_date": "2026-11-09"
+        "session_date": "2026-11-11"
       },
       {
         "name": "Nifty Midcap 150",
         "tag": "Mid cap",
-        "level": "22,408.55",
-        "day": 0.62,
-        "week": 5.15,
-        "month": 5.15,
-        "day_txt": "▲ 0.62%",
-        "week_txt": "▲ 5.15%",
-        "month_txt": "▲ 5.15%",
+        "level": "22,597.95",
+        "day": 0.85,
+        "week": 4.99,
+        "month": 4.6,
+        "day_txt": "▲ 0.85%",
+        "week_txt": "▲ 4.99%",
+        "month_txt": "▲ 4.60%",
         "dir": "up",
         "dir_week": "up",
         "dir_month": "up",
-        "session_date": "2026-11-09"
+        "session_date": "2026-11-11"
       },
       {
         "name": "Nifty Smallcap 250",
         "tag": "Small cap",
-        "level": "17,577.00",
-        "day": 1.1,
-        "week": 3.45,
-        "month": 0.51,
-        "day_txt": "▲ 1.10%",
-        "week_txt": "▲ 3.45%",
-        "month_txt": "▲ 0.51%",
+        "level": "17,798.15",
+        "day": 1.26,
+        "week": 4.32,
+        "month": 1.27,
+        "day_txt": "▲ 1.26%",
+        "week_txt": "▲ 4.32%",
+        "month_txt": "▲ 1.27%",
         "dir": "up",
         "dir_week": "up",
         "dir_month": "up",
-        "session_date": "2026-11-09"
+        "session_date": "2026-11-11"
       }
     ],
-    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"99.2\" width=\"22\" height=\"0.8\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"94.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.1</text><rect x=\"62.3\" y=\"66.5\" width=\"22\" height=\"33.5\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"61.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+6.8</text><rect x=\"90.3\" y=\"38.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"33.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+12.7</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"97.0\" width=\"22\" height=\"3.0\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"92.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.6</text><rect x=\"169.0\" y=\"74.8\" width=\"22\" height=\"25.2\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"69.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+5.2</text><rect x=\"197.0\" y=\"74.8\" width=\"22\" height=\"25.2\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"69.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+5.2</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"94.6\" width=\"22\" height=\"5.4\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"89.6\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.1</text><rect x=\"275.7\" y=\"83.1\" width=\"22\" height=\"16.9\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"78.1\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+3.5</text><rect x=\"303.7\" y=\"97.5\" width=\"22\" height=\"2.5\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"92.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.5</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"95.7\" width=\"22\" height=\"4.3\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"90.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.8</text><rect x=\"62.3\" y=\"69.0\" width=\"22\" height=\"31.0\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"64.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+6.1</text><rect x=\"90.3\" y=\"38.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"33.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+12.1</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"95.7\" width=\"22\" height=\"4.3\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"90.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.8</text><rect x=\"169.0\" y=\"74.5\" width=\"22\" height=\"25.5\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"69.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+5.0</text><rect x=\"197.0\" y=\"76.5\" width=\"22\" height=\"23.5\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"71.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+4.6</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"93.6\" width=\"22\" height=\"6.4\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"88.6\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.3</text><rect x=\"275.7\" y=\"77.9\" width=\"22\" height=\"22.1\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"72.9\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+4.3</text><rect x=\"303.7\" y=\"93.5\" width=\"22\" height=\"6.5\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"88.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.3</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
     "funds": [
       {
         "name": "ICICI Pru Large Cap",
         "cat": "Large cap",
-        "nav": "₹122.96",
-        "day": "▲ 0.30%",
-        "week": "▲ 6.80%",
+        "nav": "₹124.04",
+        "day": "▲ 0.88%",
+        "week": "▲ 6.04%",
         "dir": "up",
         "dir_week": "up",
-        "session_date": "2026-11-09"
+        "session_date": "2026-11-11"
       },
       {
         "name": "MO Midcap 150 Index",
         "cat": "Mid cap",
-        "nav": "₹40.71",
-        "day": "▲ 0.62%",
-        "week": "▲ 5.17%",
+        "nav": "₹41.06",
+        "day": "▲ 0.85%",
+        "week": "▲ 5.02%",
         "dir": "up",
         "dir_week": "up",
-        "session_date": "2026-11-09"
+        "session_date": "2026-11-11"
       },
       {
         "name": "Nippon Small Cap",
         "cat": "Small cap",
-        "nav": "₹200.95",
-        "day": "▲ 0.91%",
-        "week": "▲ 2.79%",
+        "nav": "₹203.58",
+        "day": "▲ 1.31%",
+        "week": "▲ 3.57%",
         "dir": "up",
         "dir_week": "up",
-        "session_date": "2026-11-09"
+        "session_date": "2026-11-11"
       },
       {
         "name": "Parag Parikh Flexi Cap",
@@ -310,8 +310,8 @@
       }
     ],
     "date_label": "NOV 2026",
-    "close_label": "CLOSE OF NOV 9",
-    "session_date": "2026-11-09",
+    "close_label": "CLOSE OF NOV 11",
+    "session_date": "2026-11-11",
     "nav_label": "NAVS AS OF NOV 9"
   },
   "lite_headlines": [
@@ -319,40 +319,40 @@
       "label": "India Business",
       "items": [
         {
-          "title": "What could drive India’s Nifty higher? BofA outlines key risks",
-          "source": "Investing.com",
-          "published": "11 Nov 07:08 IST",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaE5NQ0xBTjJiUDcyTkN4b1lPR19BM3lkRS1rR2FpR1pVcWpCU21sV1FGT1ZsYlBrVmJoRGFUMHVMRHZhNXBpTHlyWE9QVEpxZEhLcnp1aWhNdmJ5SWZTRE5OOF9mQWhDbml3NEpwTl8yQUxuMjZ1ZjhOM2hzTjNOS2o3VEhGM3A2M3hxd1FGSDJlN2stWUJtQkFSY1EwamZqdkM5VUlWWWpDTWZKNEZFSnY0eHc2aGVI?oc=5"
-        },
-        {
-          "title": "Oil relief to revive rupee rally, US yields surge could act as brake",
+          "title": "Moody's lifts India growth forecast, sees economy well positioned to sustain near 7% growth",
           "source": "Reuters",
-          "published": "11 Nov 08:30 IST",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdV94TDRKYUF6WkRBYmxaOXFEbWVEMGNqOFdZZVdDcUJpb3RGbjBkbldMZmtaVXJxUzB5RTgyMUpPWlUtQXhWUnNZRnBrNW1HQXZZNy1PZFhfSUpsSWV1Nm5VcUdrbUtRaUI1WFZzaC1NSUNqN19KYnp2VkR3dmdYT2oyOWFONGNzcUhMcENrNFVCVHpYem1pTVdZSEdBS05mbWhrSkhYMjlNRVJsN1E?oc=5"
+          "published": "11 Nov 13:08 IST",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPb1Bhc253SGlMZGdtdjFTWk9raTg0ckVuNEJuM0YycUtidDd4dll4Z2RIM0t3TXlxX1hvZnpxZG1FanQzOTFDeW9BalFwLTVrSnRGbDJVa0tzMHNQZUdkR3pwQUZMYTlDOFhCOGhuSzgyZW1aQkVCcE9rRkhUU3Jtd3dmbW1PMV9Gd0NCZHNRN2xfeUdmeFZxb2cxTEp0VjhNRFVnWWlmNW40WUFJQUlpNzNnS1g0QTA2Vi0tYkRIb09paUxB?oc=5"
         },
         {
-          "title": "The New Era of Indian Agriculture and Allied Sectors",
-          "source": "www.pib.gov.in",
-          "published": "10 Nov 19:46 IST",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSUZxUkRCX05waVZTZThYT1g1a2h3NXFOTGlfSFFTS0lTTVBDcTl5eXhQZW03aHNzY0E2R0U1VWs3VXNzN2hYRkRpdTJWeGx6MXB0VEpPMGI2dkxzdmg5bmJnSFZhdDRKODlmLW1hb0wzbDh2N3lQQzNwaXRKWXhBbmlWY09ia2FJRXJvTW1Wd2NSMjhkcnYxTEhn?oc=5"
+          "title": "UPI: Transforming India's Payment Landscape",
+          "source": "pib.gov.in",
+          "published": "11 Nov 23:20 IST",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBReC1CZ2NIVGNWN3J1MGNmTEE0dzc3UFVJRGdWM196a053MTc0S1g5eS1WTllBNFVOa1lVbUtMMk85Y0RCa2lCdDBtQ29wRHF6VTVfVnhmb2NGREFVbGhfV21xWUk4YkJuNWctb2tER19NUjlaVl93?oc=5"
         },
         {
-          "title": "Stock market outlook today, 11 Nov: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
-          "source": "Livemint",
-          "published": "11 Nov 06:47 IST",
-          "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxONFQ3NGVlSW5LalhZV2F5VkdpN05sVmt6UU9kbzEzbU1JR2NNU00tUjFRRDBnSkt0bXYzVV90ZVVXYzhoa25FWmFsSnZ3ZDRGS0xFYU1ZYkZlRkZBWnpTSl9jbFVYeWtZNm5vRHRKS1RqTkwtSERRaE5hZ2dkSU0yQmFmZXU3enpuS0lFa3dTVHkxN01oT3dUeWFvQ25INzNXVjROaDVwSXFYR0VrV0FyRlA0bkJXdlI4Z2YtUWtTQ1JEam50VWlmRjRWSTdJN3FGTTg2ZGNSbU1meWZremx5WUxVWXFSN1NqMHBwRzA3d1hqUklHNGI3NGRTSUhtX2trTGd5bdIBigJBVV95cUxObnZvSlFPS3BpeV9HR3BjcVNCOHdaYWkzNEtpRHNTcmIzdmJYVk8yRV9mN3NUVWpxUEowZjdjNF9nNkdMRTdWN1JaRkVPN2daRURhTzc2ZURXOUI5WUJTSldoZXd5MWpBNG0wUlRrUE5zMFN1bnNieXlEUEU4M291ZHJaSktfYnA5S2UxQ1gxUV9UVk04dGFaOEY3YlBDUUxvT1ctUDFjdVRrTWtDVUtnaW9IZWlsbnd5U2VhYmF4UlZXdEk4OVZaRHp0QzU2OEZmZ0M4SVI4VmhfLWxQR01LUWdmMHJUQy1OVWhscVllMVJmdTB6OEtPMHhSdTF4ZGdZMnlhZTQxY0FnUQ?oc=5"
+          "title": "India Reclaims Spot Among World’s Five Biggest Stock Markets as Rally Extends",
+          "source": "Bloomberg.com",
+          "published": "12 Nov 08:02 IST",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVVZhUFFPeFh0UDc2cnhCcUN3aEszSXRSQ01lcWtvdnEtUVdVUWl3OHFHRVJjX0FDSHVsVlc0RjhlUWVrZmcycDZSLTZqdFNPTTFJWlF3LW5zdGpuclhuT3FVOWZ0WGloU3FOclJaNDdiX1ZIbkoxTDJzZGVpbVF2bENTNHEzQ0JvZnNjME1oUXBLZVg2SXkwYlk0WEpfZzlrLW5SS0NKT2N4Z2c2ZzdzaEVDT0JYWjFxUi1uZmVOel83ajJkamtsR19raw?oc=5"
         },
         {
-          "title": "China Is Nibbling at India’s Domination of Bhutan’s Economy",
-          "source": "The Diplomat – Asia-Pacific Current Affairs Magazine",
-          "published": "10 Nov 21:39 IST",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaFA4cThOZm5SaHRDME9uYVZHRktjdllST0VFYVZiUU5zSmJRUk8wZUZKUHVuclE4VFAxY25HMlB3WXlFV2Jwd1hReGszUnlJa0VUSWh6S3FNMl9JLWlnMFFGTkVVMTRoaUZuNFB2Wm9DR1kzZVdFTHVicGRJMkFtaDJqNGxEY19vZjlaWVFfWlN5NkFD?oc=5"
+          "title": "A Life Cycle Roadmap for India’s Circular Blue Economy",
+          "source": "orfonline.org",
+          "published": "11 Nov 14:02 IST",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONVA5ZmVnQThWby1WLUJWV0hRTy1QdWs4VjNEM215OEx1b3FNN1FBQ216dUhUbU9zU3VHX3pRNmpSNGdPcldVbWVSNHBFZ2hsWWQxejZYeDIzcl9HYXFhUFhMSXhKU2M4eEFHUmVhTi1WMVhzbVBBUkp3Qmt0VHl4eEZheGNEOE15cmRNS1lmWGhrMVBUYjJLRg?oc=5"
         },
         {
-          "title": "Should India worry about money flowing overseas?",
-          "source": "Finshots",
-          "published": "11 Nov 07:03 IST",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE10VFBuYmtBNVhWcl9Ebl9wc1ppdWladTNibUV3bmhSeEdmRjJXRXhpa3V2a21sQzhIYk8zdEVvbzNLcjFjVU84MjlQbzNMV3h6OVR4akFRTUdQQ256cVJ2Wl9aWjZkckFEcWpBVmRQazloMFJwUDdRTlYyaTM5QQ?oc=5"
+          "title": "Sensex, Nifty edge higher as rally loses momentum; inflation data in focus",
+          "source": "India Today",
+          "published": "12 Nov 09:19 IST",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNlhJTWoxZzJfd2VmNWRyQ3ZQWE4tTG5TWEtlTVRPYUNPNXVTeldjeVhJZVFLRmVBS1Via2pCWjFUX3U5anBwMzFPWWpPLVBXZGVuMS1aZWJGbjUyX2hHZGp3Skp1TVczMVNuclVxWEZBc2NOd3picUVvQjZlVThLSDFCTkhGVmgtRUViSVhHTzA4eHZhaGVVc3dnV3Y2UURHVXRIYWlZblRkTVBUQnZqTGhRUzBsX3hHNzNLbGNpVm9USUJUZFJZcnUtaHl5b2xpVUdmZjYzeVPSAd4BQVVfeXFMTWo4ZmtXdUx1aEdWLXVZWnJPNTNUbjE4bzRuei02VDZLSXljRWRKbXYtVzFDRXZ4WnZxM2VTUlNCdF9pcFVMNkZUSEU5VmZud05RNTJvR1ZTazgyS2pta0ZwSklTQUJLLURNX0tOeHdkeFdmSE0tSWNMNWZMRE8zT25vVWpfelVBeGJNUmJBbHluT3h4VjZzSUhCQ0VoZ0E5V21rRlFGR1p6RDJMYzNsbjJuTEdYV2RGbklxQ2Ztd09KSW15UWpMSmNldWFBekNwak1iaDZLbURLNnIwNGR3?oc=5"
+        },
+        {
+          "title": "Flattish opening seen for Indian stocks; markets eye release of inflation data",
+          "source": "TradingView",
+          "published": "12 Nov 08:45 IST",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPaEZtdkRYWmM1OHhjVFNZYk15RzBsZ1pocnFMQlNFcDYzampTLUNQSEk4elZvVXdmMXBkZWZMRDhCMlpuQ2tPNkI5dHlqQW9rZkpObUdMVk9QV1drUXJIMnNXVEJfSEhxVVgtWWhQcDhpS09MUm5FYTJKTm1rOVliU0ZtUV9CS21EdHctUExTcjY2VmxoR25TZFpRUmJWaHA1dGpWb2FNSUk0ekxhUDdHOWpPSmU3aklVR3lhb3JkTGNkV3lCdUY1UURHWVlSQ3M?oc=5"
         }
       ]
     },
@@ -360,40 +360,40 @@
       "label": "Corporate & Deals",
       "items": [
         {
-          "title": "Kalyan Jewellers Q2 Results: Net profit jumps 64% YoY to Rs 427 crore, revenue rises 31%",
-          "source": "The Economic Times",
-          "published": "10 Nov 18:08 IST",
-          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPaUlad0JPV1VZN3ZnYXBuQ01Pa05ZZ3JaemQ4WThSOEw1YVVLSGRTNGJUUG1zWFlHeFQ2bnAwa0ZsS2pIeG95ZTZmQnFYd0hTTURKV3drMFZGWFRLZHluYlJfXy16TW1maGI0NEJ3NkRaNkpHTHh1RVFNcnZ4NUpCbXlJZDFpMG4xdjhWLURQZHEtQ2EzX2JPWVA2RFVIT0M3d19SdDdZRHotcVRfN1ZsOGQzclNYRm1TR2dVS0JoMXR2YUpIbnBEM0o3Wkx1MXVCTThDcG5hMkp6RDhmNVdPbWIzei1TM1BVRFRESDFkTEw1elVO0gH6AUFVX3lxTE1pMFJzSzhJVnJlOW9JQ3gtY3dZa3YwUTNJbXkwWTNGenVTTXhVZDVaV1Jfamc4TU5PcEgwdmFMTW1raGU0bENyeFZtM00wREt5SGFUdTJmMnNDTWM2NGVyYkFxdmRTakpNTGE4RWlUYW9wWWdSaVM1bVJ6ZEhiTGtyQVlqaWRrQlI5M21PM3NuRUtpRzkyeEZnX0FqVUdtcm5wVlFLMF9TUWlpOTRFQy02NVFrMnR0U0RJTkpOT1IxdXVNWXlNdWxqdVNzc1E1eHlGaTJacmRyU0dFQmFQQk0xS3dhRFltMUsyeFc0TnBUM0xRNEU5VnFEQXc?oc=5"
+          "title": "EAAA India Alternatives Q2 results 2026: Net profit jumps 27%; 140% interim dividend of Rs.7/share; check record date",
+          "source": "TradingView",
+          "published": "11 Nov 21:49 IST",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNVGhuWVJwbGhkdHZLV2tNNE9DTnF6UFFBam90Zm44Zl9NNGJOV2dzWjRoSTVqMm95MlZKWFdwWWRmcTRsTm9pbHdsdUVhbG9GaHEtcHVIa3h3Y2JvYWtRNmd2MmdYR1VGT2xmdmdSdjVHUDZIMUk1aFMzMHA4eUFzNXVLNFVOdVd6aU5Ia0Rra3VEemF4aGcwT1JGeWN1Q3RBUTVlYkwxNlpHSzNzdTRGdTdXRkxjSlVlSWpSMUdIMng3SHhKVXhyLXRtQkFHWlZzdkt5bHEtVllmdU9fcWRWeDZKclNHNjFvZmdNWUtkNlZ6UjBLR181QVM0QUdWQQ?oc=5"
         },
         {
-          "title": "Kalyan Jewellers Q2 Results: Profit Jumps 64% To Rs 427 Crore On One-Time Gain, Revenue Up 31%",
-          "source": "NDTV Profit",
-          "published": "10 Nov 18:24 IST",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdkphNXkwNGFoREdLUWNVSHdHeDNUZmxxU3ZkRl9HbFY3cHZjMEJVTTNFcFZXaERWUUN0dTJHT2pPclNNMnpNdC15TXRiamVJVWw1ejFoUHBCX3VEYjNfUng5ZVRRWFR6QnFCbzJTU2Y0UXNKNG96aE5YVjJJSk4zZ08zcER6dFJQa1hfV2hmRk9takhVUFBTWDA1LVQxNktpMVo5akxiQk5sanpQSTE2bVFGVUhSUGdxNFVJUWRmZnlKcVlranF3Z2Z5a1hQNlHSAdcBQVVfeXFMT2JueFppUXBFWWJCTFdhWm95bTNOM0lJUjFnb19rRDhEdnMxRDRRQlFwYV8tNUg5M29xZkdGTVRkckc2STVWY0FXSG9ScFk5Q3ZvWi1EakI1NWJ6WmhjX0VUWm5vVVJTalVOUTFGb0dpdkRMdlI2WTZUc09aYzA0LWxiRUtNSDdSc1ktbnMyTVA0Nmg3TTAwSWlCTTM3WlpHLXdXU1BJZlJqc19yX3ljTkNESm5HTVp5M2Jua1ZXQTBTbmIxYURmOXlkeTRZazd2WmhkQ3hmeGc?oc=5"
+          "title": "Tata Steel Share Price Rises 2.15%: India Operations, Q2 Results and Brokerage Outlook",
+          "source": "India Infoline",
+          "published": "11 Nov 12:40 IST",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYTlXWFpuRjJwWnVrWGJKTWhaVWdiSzRnUmJrUWpZQUxVUUk4T3dxNkVUTHlwX0liTTZtQ19iZHpZbjdlV0RKRFB3YV9QQUw4bEZUSzl2bk8zMUExNmxKY1NyZlBPZlZDVGtFcU5JWE9say1UUXdTRUI3aWtGY0lySmg5SlU4OVQ1X1h3a3RUdTRibnI4RmdnZFp0RFo3eHpWeEhaQlBfMEJWRFl6TjIwY0Fic3BGNjJETURVQi1kR0xRd015ZWlj?oc=5"
         },
         {
-          "title": "Whirlpool India Q2 revenue rises 13.7 per cent as profit declines 40 per cent",
-          "source": "Indian Television Dot Com",
-          "published": "10 Nov 14:20 IST",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOa2FuakVCVDREajdPUE9mVlUxZnBjcUFVOHhVTGJaWGtQYTlVUlZoeWVWS1RCdXo2cXg4eGtVQ1diWDJ1ZlplYzdZNEh4bm8zM3FBVGhFZHdQejU0b0dMaUUwZW1wOHBFNzZaeE5mWkFlYnkxUWpHOW9SV2FvelMxbzhhc1RzNDctbXo3S0NPMzdDakJhT2RidmlnZ192ZTV2SEY1NkpqZ0ZaaWZmLTlmVQ?oc=5"
+          "title": "Blackstone to buy 16% in IIFL Finance for Rs 5,000 crore: What's the deal all about",
+          "source": "The Times of India",
+          "published": "11 Nov 13:50 IST",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOcy1fSEw3TUJUWXFvOHY5dFVqUm1nc1hqbDBILTJPWEIyelRyaEFFb1I0MlpxbHdhcnY3aWp3NXRqY3hJSWpBRkdCRE5Jc0Z2NjVoMEtseVdBeFBfWkJOclJsdkVaQ3ZkRVoyX1I0VElUUnItSTd0WVRxNXBiWGdpWEdpRUN1UjFNQ2tadmtoZDFIVFdxaE94VFJvUFJqTmx0WnRDMFN1cE1oNko4Mm0yT2Y2ZFZwa25za1hwMkpidF9UVk4yazZwSFJSVERyUl85bnlqcHd3NmFzeW5adC1vTDMybHJkTW42T0FCNFJVMTlLSTZEY0NjbtIB_gFBVV95cUxQWjRVcDZEdG9Tb0JhNWE1OHNGeXZwZERHSlpjX3B0T1l6ekYxd2JOWHlYX0U1bGx1Vi16ZUQ4YnIwZmxBbGthb2stTHlWUjVRXzlCaWhBOUU5bHJXUWRFMkYxUDFsbVhldlhqZEtmMThLUDJneHJ4eFo3NHZSdEdNUE55TGdPNXk0MUl1YlltUy1hNUs1QXpoN2pzc0txUGxSQUFHLUxFT0pLM3JJWTBnXzZPZllfa3lXSUh1b3AwbXduN1E0U3pQZWFGSXV3VUxfcklINktudExIWjNVQnNkY05aS2QzR2RiOXpsc3lOQWNVRy1FY3dSYmFmSVAyZw?oc=5"
         },
         {
-          "title": "Popees Baby Care India to bring baby care biz under listed entity in Rs 511-cr deal",
-          "source": "Passionate In Marketing",
-          "published": "10 Nov 15:09 IST",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOWNYZklwa1paOE1OLXVsUzZDTktrcm12ZjYxYVZZN1d3Q0xDVl9fNmlSU21kWEloSkJZbUFJSGJhSFlnYzBIdXNTWUZJS09nZTJKU3VNeUlqdlBBeFRFNXp2ajhXTzBDeEZiRGJuLTZheElOOWg5SzBpblhVUDRTV05hUDlSVnVjTG05ZVRBNDEwdmJvY2R2TzdWaXFPd1huMTZXZEpyekhFSmRaR0hWSkg3QS00MGU0WFgyNThrTQ?oc=5"
+          "title": "ONE CRORE MASKS, USD 22.5 MILLION AND A USD 6.75 MILLION BANK GUARANTEE: ANKITI BOSE’S ZILINGO PANDEMIC DEAL LEAVES A TRAIL OF UNANSWERED QUESTIONS",
+          "source": "Inventiva",
+          "published": "11 Nov 23:58 IST",
+          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPeGJtUjFhS0lpc2NHc1pyU1RMMmJSdU1OSkZnamc1NFdpN1JMY2xxTFRfN3Q4bzRDd2Zqb3hTZlVkdEtVZFRPUTVjSEJPV1dFd0dyMjV4NVMxYklQNS1oN3kwMzNmbENoRVdSVVQxU2lSOElDaHdDUnZ5QWEtbFZzRDNLVUlwZ2xqRTlRc05LLXFac0JQRlozclVuNFJOby1STjU4eGJ5WmhDV1ZDYm8xaFkxckctelJmYVlhazFYQWhUM0pmSklMbWxEVXN5ZWwtUVRyamJydTlhdGEyeW5tVGxYdHEwYlRJaDV6SHZSeGRiUTBsTDdlYkJaUmZMSjFPTkVlUUxaUVBCZzlC?oc=5"
         },
         {
-          "title": "Blackstone-IIFL Finance Deal: Rs. 5,000 Crore for 15.57% Stake",
-          "source": "Analytics Insight",
-          "published": "10 Nov 22:41 IST",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdWV0R2RwYnlCclZmSHRtYTZUYUtFTFJJRFdQZ3lqYXczNC1DZFBlTWE1UmhkVjJzaEQxLUpweXlOWmRLNTdPa0ozVkZWYjI3MmNXVzc3dHVqMDJia0hIQklxQXFnVThrbTR6dXVTRGxQRDAtaVB6TmRqN01pRlFGc0E0eGVNdmk0MkhVeUNzVG0tVGlFQy1uLXpfTnc2YUN6SzAxWkdhY2zSAagBQVVfeXFMT3VldEdkcGJ5QnJWZkh0bWE2VGFLRUxSSURXUGd5amF3MzQtQ2RQZU1hNVJoZFYyc2hEMS1KcHl5TlpkSzU3T2tKM1ZGVmIyNzJjV1c3N3R1ajAyYmtISEJJcUFxZ1U4a200enV1U0RsUEQwLWlQek5kajdNaUZRRnNBNHhlTXZpNDJIVXlDc1RtLVRpRUMtbi16X053NmFDekswMVpHYWNs?oc=5"
+          "title": "Stock Markets Today: Sensex, Nifty Surge as FIIs Boost Indian Equities Amid Positive Q2 Earnings",
+          "source": "Rediff",
+          "published": "11 Nov 10:47 IST",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQV3hHdVJHU0VPTFg2WjktZVVSRGxYdjFqWjhXSTU3YmFhRGw4bTdCSXhnOTBFM01RbW9RYkJWajVzUm11SUFZN0VFWVZhQ1JlWXdjcUVMeHMzN0F0RzZSWmJJNTN0UFFzNVdSM2ZrZTVFSkhTT3NudXVZMUp3ZWRwUFJNUlFlU09mdk84S01kLUNoMG1VaUFwOWVna1ZNd3dRa2ZkVVJMTDlWVE9IRlk2VXpHQXI5RkVBcVJJdXo4MWpoQ3ZPSlNUZWxtUFdMZDhaTEFuY0FFNmlYTzl0ME9HbNIB4wFBVV95cUxQVWdZVU9BeWRwRkc3VmNsNXpSMHc0X1Foa05rVEJKcFdYMGh3UkU5RGp5SlFNbllRd1d3Vm9Cak1qb2dIdGhnRzdOeW9WQWtlczhoYXpidmZjb0FESk1PRFM1SmdjeEluSmZpdGtOMUVOUFZxbkdtT0FMMk5YSHlIZVhJWlVEd1Z0ZzZzUm5iYl91aDM1bEhzUTlPZ3A2SlNkRHpvNDRqOVZaTTRZczNUMEcwR3B4MHQxeUhoRTJkNExYMDJpSXgta2F2NEFmc0hpOHZCNWRGb082NFh0Z0FwUDZlYw?oc=5"
         },
         {
-          "title": "Kalyan Jewellers Q2 FY27: 64% Profit Jump Includes ₹73.5 Cr Land Gain",
-          "source": "NiftyTrader",
-          "published": "10 Nov 21:58 IST",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5tQ2pybDhLMHNaVnZLb3kwV1dDXzE3VGxXTDBpZ3lkU19CeXFFSWlqY2lKUExvQkVfQzhvdUtsdy1YaDhZZ0tpNm11TlBzRF9ZaVdPd2NPYXNSUGFFSEVTN282Qzd3eDdmRndqcmFpSHZrcHVWQUlQUGpB?oc=5"
+          "title": "Kalyan Jewellers Q2 FY27 Results: Net Profit Jumps 64% as Revenue Crosses Rs 10,000 Crore",
+          "source": "Alice Blue",
+          "published": "11 Nov 16:10 IST",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaGphNl9mNHM5d0d0VU51cjR5MXR5aExfTGJSa3NDMTFBX0pKeEJuNWZLeFNLRjJqYnZod0JqemltdWxaYzhvNGVSWVFkRjZ6ODI0b1dhNFZnS0NfQmlDTjlvckZlbHFKN0xvNVY1R3BVV2lrY25tV1VsNmV2SGRCa202TDFxR2pJcE1aNkU0aDgzS1VCUjRIT09nd1NXaUgwdG8xR3FELUtBQUFwR2dHcmE3Vks4dWxRaFJoTQ?oc=5"
         }
       ]
     },
@@ -407,16 +407,22 @@
           "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQWZHVElRa0tHRVlKQ2tZMWFtTXJqdDNIWVdlVVVHZ0h6Nm45SFYzWHAzMW9fZ3FDdjY0Znd0TmQ4QTJQMWdVMzZKdzY5cXZ2UkhtaUZxczdUZ1FzcWRaSG13dFlrZ05fUk5yQl81b3h1ZVl3dGZCUW0wNThFT3VLMkx2WXlDLUhULVdkMkYzYjY5U1pNb2xZejBqMzcwc2tHZFpUcjlwR1ZrVHlMYjFmUmxrNkdxU3dINlNxQTZJcV9iamtiS1lOYmtraVFOenBwb3ByWENNcw?oc=5"
         },
         {
+          "title": "PuppyGraph Raises $10 Million Series A Led by Particle Future to Scale Enterprise AI Data Infrastructure",
+          "source": "Indian Startup Times",
+          "published": "11 Nov 21:30 IST",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRFU5OTFPQmNWN0FaMUp4cDEyOE5UV1BlZVhab0t3VU5McTFyV1NHU3BBQ1dETnh3aU1GcVVSM2NIc3ZCZjF1dUF3Tm44aG1VbGxaT3JidWFtcUFQZHAxTnUzZlBfXzlYejA4S1JySFh0cWZyVktLbFEwc2p3VnBYNGZmeFFQa19HV0gyQnRhYnNobnNxdWtDXzlSdXF1VFFuVUpzbXNlVjRGdUFxbjNselhRZWJhdFBsZmhTTHBEX05OQjYzWUg2V05NSjBxZVlCSFBPdHFKTWRPeGRD?oc=5"
+        },
+        {
           "title": "Startup Funding: India’s Series A Slump in Oct Was Mostly About Cheque Size",
           "source": "Open Magazine",
           "published": "10 Nov 13:44 IST",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTUcwT3YyVmZtWHQ3d3RFeVZlVWhJVmJfdVVLd0dkYWwxY1lCR3A1RFVUeUJNUkpnZDQ2YU91SjN0aWd5UkpoalBoU0trVEw0QzhWR0hMNGpYSElvRndYenhuTWotcUI4aUtYejY3SThvMUFNbldudzVIMkR4LVY5ODA5bFhOM2FCYmtXT2VRUF9JalNRVjNGc3pFeGtEOUI1cHNWMVBoVDg5QXUyWk9J?oc=5"
         },
         {
-          "title": "Between November 02 and November 07, 2026, as many as 22 Indian startups from diverse sectors raised over $290 million in funding from investors. These sectors include Foodtech, Luxury, Gaming, Biotech, Fintech, Cleantech, Telecom, Beauty, Logistics, J",
-          "source": "Instagram",
-          "published": "10 Nov 11:30 IST",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1nLXNfOVVoN3lDcnZ2X1Y1dWswSnBOaFNNX3A3cV9DOWt1SThIRlNncS13ZnhmLTVlV2R2bE4tSXdqd0hjeFptYmI4OGU1QmJRcHc?oc=5"
+          "title": "Bigger cheques, fewer winners in India’s AI boom",
+          "source": "The Economic Times",
+          "published": "11 Nov 12:51 IST",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVHhSaG01N3BES0UxWE1UOVpWNW1zUHZ6ZUZpeWlSa2tybnY2Wk1ROC1WT0ZIdXZkU3NsWXRvSHR5M3V0RWEzQTF0TG5sNHhiMkxEd2tvSFVld3B0cUY1UWlCbWVoakpfY1ZpdUxIaG1HYmlTYllfMVpqb3RId3FYU0VYWm9HczFxNWlpTm9mTkhVQVd1LWlTUzNlQVpIdElWUlAwQmdFMWpGY2pjcHpST3NKV1YxMWZJZ01GWVRrdk5adw?oc=5"
         },
         {
           "title": "Festive boost: D2C startups bag every third funding deal in October",
@@ -425,22 +431,34 @@
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQV3VnUVN0M0RNaGU3RVFZUWRoUWpKV0V6VW5IOHJtaWxUOHVYV3MwUkRuT3hHbk1taER0TFFQUld4S2pZMUdabHhuVG5JYzEwR0hOaUtCOVkwLXJuSjlqMXQ5OThBSTgzVzZYUldQelh4TmdSaDBGdC1SUDhBbnZfSjZRbmZRajA4aDdTQ0NZcHg0Ti1jaHg1Z2R1VXlXaHJJRllGMG530gGmAUFVX3lxTFBXdWdRU3QzRE1oZTdFUVlRZGhRakpXRXpVbkg4cm1pbFQ4dVhXczBSRG5PeEduTW1oRHRMUVBSV3hLalkxR1pseG5UbkljMTBHSE5pS0I5WTAtcm5KOWoxdDk5OEFJODNXNlhSV1B6WHhOZ1JoMEZ0LVJQOEFudl9KNlFuZlFqMDhoN1NDQ1lweDROLWNoeDVnZHVVeVdocklGWUYwbnc?oc=5"
         },
         {
-          "title": "Indian Tech Funding Falls 24% To $592 Mn In October Late-Stage Investments Drop 72%",
-          "source": "BW Disrupt",
-          "published": "10 Nov 10:16 IST",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRWEyVHpaQ0VOeTZZc1JnWlZoOThkT0xSeGJuQ3ZCeERzU3NxWW5xY2FRT2ZPc3JCblB3LVFCWU1Za241eXVFZVRvZGJlWDM1YnlEQmpPQkJGbUExVHVHTEFPY1pKV19qWUpIamlxcHhVVDZUZW41MmN3c3BMT0FpYURZQWFobXZzaUdlbzVCbEZ4ZUlPVmtXbXc4RXZHSld6NG1LQkIwTlIxcFI5LVdMWWowX0ZxQ0FpVlZvQjZ3?oc=5"
-        },
-        {
-          "title": "Israeli AI security startup Bay raises $50 million",
-          "source": "The Economic Times",
-          "published": "10 Nov 18:45 IST",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObjhBZmJNeThaQk9hazExR0tPMVdKMUNfQlRjakhjbTZRMndpejhpdkg5NVM1SWIxRXdDY0kycm9vMHJScTRfb1prZ0hlaVU4RWdFQ0VXc0dLQmo0Y1ltdTlzNUxoY2tUQnBLbnBGUWNTUTNrWTdFemR0dW8tQ0tDQXY2WVVSV3hKcUhISkJNbjNsRE1odFd5eFpNUWMyMlU0RlRkUVAwQjBTd0ktLWJkNlRXUi1McW50Y0cxatIBvAFBVV95cUxObjhBZmJNeThaQk9hazExR0tPMVdKMUNfQlRjakhjbTZRMndpejhpdkg5NVM1SWIxRXdDY0kycm9vMHJScTRfb1prZ0hlaVU4RWdFQ0VXc0dLQmo0Y1ltdTlzNUxoY2tUQnBLbnBGUWNTUTNrWTdFemR0dW8tQ0tDQXY2WVVSV3hKcUhISkJNbjNsRE1odFd5eFpNUWMyMlU0RlRkUVAwQjBTd0ktLWJkNlRXUi1McW50Y0cxag?oc=5"
+          "title": "Between November 02 and November 07, 2026, as many as 22 Indian startups from diverse sectors raised over $290 million in funding from investors. These sectors include Foodtech, Luxury, Gaming, Biotech, Fintech, Cleantech, Telecom, Beauty, Logistics, J",
+          "source": "Instagram",
+          "published": "10 Nov 11:30 IST",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1nLXNfOVVoN3lDcnZ2X1Y1dWswSnBOaFNNX3A3cV9DOWt1SThIRlNncS13ZnhmLTVlV2R2bE4tSXdqd0hjeFptYmI4OGU1QmJRcHc?oc=5"
         }
       ]
     },
     {
       "label": "IPO Desk",
       "items": [
+        {
+          "title": "Anthropic's $1.4 trillion IPO: Price band, listing, investors & more; all you need to know",
+          "source": "The Times of India",
+          "published": "11 Nov 12:19 IST",
+          "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNSzVoWXQwR0pGOVIzMnFjbVpHdk1hYXViZEpMc2RmaWJnMUZfa2FiNkdtRUZxdXFYb2xZaWZRcEZuSzdEb05RWHE5Q1cySHo2NHBqdFNxMWx4c0NiT1U0Z3pZR1dYTTdtcG5MSkdVci1tTlBza3E0dkdLSmdHSXVwVzE0TGhDZmZOZFM3VjAwTjFidkZwX3Rpc0s1UlEwWVN1eEk4VFpmdzg0Zzk2Z2pneWF3cDNraFhjUVIzS19aVTdQc05oejRocDlqWUc1ZW5rRjBUWmY4X0o1VGRMck9qcGM5MFkwbEpwQ2VVTmJ1anBJMEFJOURkZ0d2Wk5ab1dkVmZjM0lUMNIBjAJBVV95cUxONTVfeXZSV2xjdy1LMXIxUC02bU9ZS2N2bEp1YUkxTjNaVUVKMnpYWWJ1NUxXLWlXb0NaRk9icjM4UlhCT08xaXpCZ2xoUFJpQWQyRHY5dnBQSzVHUEdfUGdPQjVhdERzYy11ZEdNMHhFM0NTQzlBMC0yQVc5ZGp4czJfZWlaNXBqUWZQc3dKeHFuV2hPeWtqN2NQTTFKM3RjbS1KRjRaaTJneWY4SHhUWGxmZWVtSmUwX2U3WXR6anZCVVl3WFMtOFdtaWZ6OGpIYUpUemJXSnZ5aVVvdzd2QUs3LUR6Vm9UN0x5aTk2SnE1M3FCa1d0V2FWVC1lRnphT1JITzlRYWxUc2Ut?oc=5"
+        },
+        {
+          "title": "Upcoming IPOs in India 2026: 4 Companies to Watch",
+          "source": "Business Outreach Magazine",
+          "published": "11 Nov 16:54 IST",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5OYktuMFlPa2h1VzByNHB2aDBGX0tzWDBSZF9GUFBQVE1UOTlNZ2EydTF4MlhGVWxUa0VWMkZVdGZjLTBSeFEwbUxZQ3d4TTFmVnpvbVFoN09kdEQzMjZ0cTRqV3hMQQ?oc=5"
+        },
+        {
+          "title": "Anthropic IPO details out: How much will one share cost? Check price band",
+          "source": "India Today",
+          "published": "11 Nov 13:56 IST",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTmZFUlZ5cFNiSFV6TllQdmZQMnhnU1lzNkIxV2VfQlJ6UzJZZ0FkQnlzUy1LUnQxdTVjWDhnVjN3czktMVdqMm0zVjZUNDZ5VDMxWjY5dDRMcTZkbE9zUVNVZ29KNWdUaDJvNmF1R19YZ1I1a3NSNUlqYzJwanlGS29Gd0JrVElkSjgtTWN0UHV2a2V1X0d6RXVZTzZxSkVTWElEYWVOY3RCVFJFN2IxZk8wUVo2Wjl4OFQxME9RUmUtbG5OT2E5SW9CblJVMlJqbU5hQmp5Rnk0ZGFU0gHiAUFVX3lxTE1zeVpiYjZLUXhoMEcwLW5sSmU2TlRESE9PWG5CeEtmUXhnVFhlLW1USjRfQWZRRlNQQ09xRWVVXzV6RG5kc0I3dUxvQXBOOXRkbnBsNXlLNS1MOXBkaDhwYkZ3azZET19rcjcwZm1qNDl1eUdSc0Z3RTRkUnRKZlI0MUhMc2gwWkR2dFJxVXEzMGl6T3ZkaWNBLTdJeXZkZ3ZrdlBzNTJPN1kxRlE1Rmt0THh1bDA1bERSS3FqLWdiQ1BLZHJWTnZpU05tTG9uZVplWXBKOGhUY2RRajVncU9Vemc?oc=5"
+        },
         {
           "title": "Anthropic Sets $70-$78 Price Band Per Share, Targets Trillion-Dollar Listing",
           "source": "NDTV",
@@ -454,28 +472,10 @@
           "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZDVGZ1lGNlVsSzQtTkpxOV94ZXhBQmY4aWtTOFN5a0tYTlRtN2c3LWZGRWJKdEs3NF90MFU5RllieHYtQ1VIQks5SllCQTZmeWZuVURLLXFyUzJJbEVwdndwTTlpS2V4T2NtU01hcGhhTjVCXzA4dnpGbDYtejdFdFVnaS1mejFDd1JCQ2pyeUJBaGQ4eTZOemwzTnhRNGlKdUNCWUJQUUxHeFV1QTNXaDExNUNpSElvTG5zVUpkV2drMHZnX1HSAdMBQVVfeXFMUHpTdUxkbzBVSldGdjM1OHpseDI5ZEpHOEhSRU1kRWVwQTJMQm9EeG9mZWNfc3duVkRHOVJsaGMyLXVfZU5HSGlBUlNoYWtWU1BsU21OVk51TERJZ3MtWm45ei11bzBKYjdtazczS1dBSmdNZGNIenZQa2ZXTXlFa0s0TWZsZjQ1ZGE2Qmd6aEVYZ3NkZ2NmWHhNR0RPdFRQcFhZMnA5RmZFb3ljZUU0QmhrcmVsZ3M4bGV6bGhiWEgtN2NoUEpxYzVsTEZDMDlOT2dQUQ?oc=5"
         },
         {
-          "title": "Baazar+style+retail+ipo+price+band",
-          "source": "ET Retail",
-          "published": "10 Nov 00:03 IST",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQWNiczhHeUY5Zm83UXRFaUU5THU4OTdDY194bzRiUS1zRURnbC1jR2xud01YRVNQcXdsVVlENFVVVVliT21PWXp2YURDNTJUdmNYOFBKeGJWNHl3TVVsZWhZY2puUnJoLUJZMktjTWtnWi15amlSWGdEMHFDQmZxeU5yVUk4SkV4SXc?oc=5"
-        },
-        {
-          "title": "Legacy Law Offices acts on HGS India IPO",
-          "source": "Bar and Bench",
-          "published": "10 Nov 14:10 IST",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUFU1Ul9VWUF1ZTYyb2ZjX0QtenhQdEpFY1l1S2c3Um9fQnAwVlBadEphdXZIN3NtZkRJbFRXXzZxUjA3ZU1iNVRRdWpQa0FOMXFoRVR1OXVFMG1oek1iZHdja3Y4TjlaUkJ1N042U0RoOEpQR1Bwbm14dENzQXRrZjc2U1NjdVc5U2VhSmhtRWkyZk3SAaABQVVfeXFMUHJlcWRzSWlWMzVEdFEzbDBxaXhEb3Q2VlktOHNpVkN0cENoSFBWb0FuR3I4MXJ2ZDNWZFpNVV81cEJVQ1NYNVdCeUw4T1BDYTEyZ2tvRHFVVWZlNFdPRTBWZWJSVTFhUmk0ODV5NXdjd201eS1qY2lmbGpjZjVub0FZeVc2NTNCSjBCV3E5VWZ4RTdweGRkUHRoeks0MmNfaA?oc=5"
-        },
-        {
           "title": "Another billion-dollar IPO: After Jio and NSE, what should investors know about Mahanadi Coalfields?",
           "source": "The Economic Times",
           "published": "10 Nov 10:10 IST",
           "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPVnZyNnpSc1NYWVhZWVRZbGxQZmkzeWtJNzFvbVBtWnhSOWJxeUo5TXp1bEdhdU1mX21lb0xHd24xbzMtekJ0bWE2ekE0c1RBWkRndGkwbThRVnphU3dSRlJFeGhyVURzb3dxSXQ5T1ZnblJfakhHWlBjemRrRlVtRnhReEF1dldCOFlnSlhIaDl0bFRXdFJtMzBjZlZyZGtJaDZKbWNWeXU0UlVWYkxIRG1xWDIyTVN5UlFSLUpwQzNYVVhSYlR1X2FXanZZMURUOFBWZVRyOFZPSGhKYTJpSzhqTU5QNW9EQmZHc1AxdHpXb3A3dmVGN3NwbjNWZ9IBgwJBVV95cUxNa2c4YTZhODk1b3p0TTVZeEl0ZTdYTHNkRTQxMk56b2Iyb1FjUTBtejVBSUszbFo1Q3B4bE1pbGlWMGtrY1RCU25YaGJMdlYxdVRhcGdUTTluRjh0RmF4eWZQUkFfT1BHN3Q1NHlWWkk5RDB3Y1VEdU5iMC1SZW1xdVZwWXhBNUNEUDB0T2ZXZV9TQVZSQzhZak9RM19UUC1ZVWxXOFA1TUozbVFfQjBGWmpjNXExbVNacGJwa1lOenNITU9raGZ3aUMtRDdydld3TmhQSy1sblZ0eWhCN1N4UW5NSHFVSVlLanBJSm43WkpNMVAxMUthcGR2cHJPVVpyZ28w?oc=5"
-        },
-        {
-          "title": "MakeMyTrip India Gets Sebi Nod for IPO Launch",
-          "source": "Rediff MoneyWiz",
-          "published": "09 Nov 13:17 IST",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOb3N2bHpzNENpYXZJOGRjWXNsczBjQ0l2ZDBFN0VlbnVBRlhua2ZheVFhSko1U0l0UXlSVVJQSGM4UnlaM1lfeGNNbW9LRlMwLTRheFpfZUQzcW5CTXVSUjRQX1ltc2RpTEJuRUdDTkJxYUFaX2JCS0pvWEJVdng2c0plaVVCd3k3MWpZTHZ3LW5EamYyeENyai0ySDNHd9IBowFBVV95cUxOemV2QkZKRC1TbHg0X3BrcEtBU1JGN2dhV3lEMTVEd1R6OFZ3VkZyeTJiWjN4clBWOV9QQ0haM25RQlZBWFZlOFlrVU5PWGkwR2NiZlFyUXM3em9XNTZ6MEdCWEgwckpPdUd1TWxiU0QyR3NSbzVmZzV3cUNnMngxUS0yN25UQUxYWmRSbllwYjVucHdGWWZmODZEYmxZRHpTbG8w?oc=5"
         }
       ]
     },
@@ -483,40 +483,40 @@
       "label": "Geopolitics",
       "items": [
         {
-          "title": "India may get a better trade deal: Samir Saran on renegotiating with the US",
+          "title": "Inside India newsletter: Trump's poll setback fuels hope for U.S.-India trade deal by year end",
+          "source": "CNBC",
+          "published": "12 Nov 05:27 IST",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80V0syTE1ELXIwZUwybW9ET0h0cktNc1k0Sjc2b2tuUk1QR1hnTzNRNGJDYmVWV0dhWW1kQkV0VmVEd2VBQlRkdXR4YlBacHd3Z2VPeDJQS3lDR3EwSmpCejRGTm1qRGNwTGo5TE1nMk5qbW45azlHSlNB?oc=5"
+        },
+        {
+          "title": "ANNOUNCEMENT: Kallanish India International Steel Summit 2027",
+          "source": "GMK Center",
+          "published": "11 Nov 17:32 IST",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOHJ2em01NTBmSS1fM3B2SFNVcGwxYVNfYkM3M0hmMm50LXRLWmhfb3BGd3VQUmlsRzMwU1c3SjAwVlhfY3pjTXpjX3pnbkxOcnlibEpLMGRQeU0yYUxVeFdYOUxEQ2taVzJqN1BuQ0NKQ3ozRm1ocUdNUmNBSk5BMEZEZVFzTlFPaC1RcnBVUlFVUdIBlwFBVV95cUxQQVlJcERFbVJHT3BDNkVEeEZEeDZ1MlVBVjd4SHpmVnhYdkdKNzZzcTFlcjAwczR2R1dUbFU3WGI3dU5CSlA0dVkzVHh1SnQ5aElncHlrbWxuMTJqNUljZXd6T2tWRlRGNnNxTVRmZ2tSaW5RWTVpTnBVMjNtUFltdGhzTDVSRVRvc2FxdkUxUU9lSHdPdmM4?oc=5"
+        },
+        {
+          "title": "States as Trade Partners: What Partnership Summit 2026 Says About India’s Global Reach",
+          "source": "CII Blog",
+          "published": "11 Nov 13:21 IST",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeXFGbEd0LS1qSmFnLVk2WWdnSldhY2tGSlBSVzZ0U2o1ZjJSS1BFVG5iZjVLdDRocDBFc0VRV3d6b2NDRldJeU03eURKLWo1VUFPT3lPbGF2bllnTUtaZ2pvWUJMYXNKU3hkY01zc3RqejI4WEJMTFMwUHNuQ3dEVDhEbXdkeldvUUhOZzJKZGdqWXFXR21NeXRaSEJtc1pZc3pFekhjdjY?oc=5"
+        },
+        {
+          "title": "India, Canada discuss advancing negotiations for proposed trade pact",
+          "source": "The Hindu",
+          "published": "11 Nov 15:50 IST",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbm92eV9oc1dRb2lJNzZfU1ZJOE9QNnd0ZERRMkExdmN3YW9ERmMzZC0tcnltS3hkNV80T19wdkFOcjdxNDFZWTg0OTBRMkZHSXNINzJUZFg2T3p0RVQyOVBIX1Q5MFZacExTN2trMlRQbENiYVVwLUYxdkVCRVE0OTVNSDg3RVN3aTdyUVZrdTNfanNKWUdGa2tsRmVhSVN5UjNaaGJBNjdlWTNzZW9qSHY1OUVWUU5MZ0xHd2o4cVJEeDdTTks0ZHg2b9IBywFBVV95cUxNbm92eV9oc1dRb2lJNzZfU1ZJOE9QNnd0ZERRMkExdmN3YW9ERmMzZC0tcnltS3hkNV80T19wdkFOcjdxNDFZWTg0OTBRMkZHSXNINzJUZFg2T3p0RVQyOVBIX1Q5MFZacExTN2trMlRQbENiYVVwLUYxdkVCRVE0OTVNSDg3RVN3aTdyUVZrdTNfanNKWUdGa2tsRmVhSVN5UjNaaGJBNjdlWTNzZW9qSHY1OUVWUU5MZ0xHd2o4cVJEeDdTTks0ZHg2bw?oc=5"
+        },
+        {
+          "title": "India blocks battery waste exports to recover more lithium, nickel and cobalt at home",
           "source": "The Economic Times",
-          "published": "10 Nov 18:19 IST",
-          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUnVaQ05RMzV4eDI4cE5qeWRIRmRCRkhwMFNqeXQ4Q1V2YzZaZWo1QWlMVlItS3JwM3BESWFTYkc1YlA1UzU5SFR5U0RRczhtYTdBRm1PNDl0U3VHTGJlOUVFQ1dycnlQMWZVT1JNYXpPU0VUNGVPNTRVQTltdFhUSHBkTXU5X1hYc2VuaFhLdEo3N1lyWWZCa3ZQNHNQTVd3cjVna3BDTHpFeXpLOXhwaVdQM213enpDNmJPODBJRVpmZWJxQ3A4bll2M3daUE9USVYzQTdpWFBOZWlRaGU2VjNZZjAwTkcxQVJJ0gHwAUFVX3lxTE9JOHlfWU1FSU9HblZRZUhHLUVuTmdiNkFzNm9wZ2VrZE43V3pSVlZ1bUc3cEdNQnFVUkJjZWFRcV9WUWFWc2s0VldXVTFCVGdyYm56WjM2ZEpWS1V5Um5ZRXJmUTFmV2RZTDVSNU1KeFBqWFRrX2swVVBBbDdLMUtzM0x3NGlybHJZNm05dV90ZGEyRVY4WEwtSGY5Y0JlTXhIS2RCVjI4b2xsXzBqMlp4ODI1eW1IOWVQZGtzQmtWb2RWaE9iU282eW84QVdGLVFEbHZwcURmZ09XWVVuMld2U3dtZk5ON3BUWHFNamFVQg?oc=5"
+          "published": "11 Nov 15:10 IST",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxORTVTMDlLUHptOHVYZ1pLMExwZGZiMlFNY3E5RzhaWmpMWmRqYkpERTVkeTFLaEpVb1JGTXlTejZ0SHZ5VnJoOU5wcHo2a0tkUmljX3llZmZ2MF9BQVRzNTNyVDNpQ1NiNGltajBTdm5wbm5QSE0xQmZmdmJncTVnajNlT0g2dTg1bWVfVkprSUtkX1MyYVAxN2dvZW9pb2I0MVVVMnZkVTZfQXBMRVNhbzd6OTBaRWo0b2pGMGpINHhoTENNZlVYek1QX3A1ZU1BbW9CeUdaN3FQRnpYX09nQ2wyZFFYcThvY1d0NDlLNk1WVWMzWHY4eNIB_gFBVV95cUxOTDF5RWh0RTUzcnk0RTk4WDFxc1RXU2VZbEU1MDRkcXp4T1k4NGRwMEQ5Q1loSkFCY3FHZjhHemxrQXVuVFg0QXlJSzBaYTlIRjQ4cEVXNzRkZXNSQWEyaFM2SjJfM3FVV0JtQmsxVXZwbmd5b2RxYlUwZTdpWUotV2NubXlTNVREZzYxdmlRYTlZam55UFFyY3pBN1lmdktvRjJBRVFwNHlub0oxMVRScVpuRkt3QWFpZGl0bGQ4WmZKZFl5VE1hblBlQlBDenVwdFFNS3ZXVkJzRERFclNGNjladDZnMXhuUHZPUVA2bnc5VmtuZ01Xems2T3l0UQ?oc=5"
         },
         {
-          "title": "India-US trade deal talks continue as US team visits Delhi",
-          "source": "Livemint",
-          "published": "10 Nov 23:30 IST",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTFQtOGJFdTBEd3VpYVViNXo1Z0xCMXhScF93TThVWW5VTHNXU0xoVk4xZEkxS0pmRGtUazR5RHNWRk0yOHEyYjAwbmFOMFRpaUtONGNTNW1LNXEtVVNwc213MUlEOGU2VWZMdjNqVUlrSEY3ajJsV1pxa0VkZ2I0eUtoazNPQURUWWFfS1daa29INW5rSTE5YVM3ODlwSDBjTmsxR1BucFlabHN2ZUlpbF9oMNIBuAFBVV95cUxQaTh3MnJMUVJVVERrT0E4Q3RYLUNYVXAyNWI5eFhFZFRsNG96ekNETzNJY014RmJKU003cUQ4VVdaOVN5MmdXSWJsbWlQTGVlR19XYlZINXgxaFU5eExHNW5SSkxzYXlyWUxUWTRQdjdmSzd0T0w3QW1oQXRsSldHT1JXWHhuTUNtUlg4T1QwYXZyN2dXTzc5MlUwZXRGM1ExbVkwdWdFWndwUzFkOF9rYzJCNTJkZ2tU?oc=5"
-        },
-        {
-          "title": "Congress to host Bharat Summit with delegates from 70 countries in Hyderabad",
-          "source": "Telangana Today",
-          "published": "10 Nov 20:34 IST",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbW1jM1ZUaVFOdVZmQnhxSmdTSXphTGJnSTBJNmVfeWN1UFlvaXYxd2tzb0J3bjZoSWdvWkhucWxIaXhhTXB0VmNtdzhWanFkdDNUbjVNdUlmUFVXUDVYQXZyTzZOOWE0clI2OFF2ODVaUzBuVTJDY3JLdC1VWTJKa1pfRUN3REgzY215ZjlFRDdER0NTTUtvSXVQU0V0OUUwTUFhMUl3?oc=5"
-        },
-        {
-          "title": "Goyal’s Egypt visit to focus on trade and investment",
-          "source": "India Business Trade",
-          "published": "10 Nov 21:53 IST",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONDBKdEJpLXdxNy1iVWJUeHpVVkEyaE9aVG9yVC1aVlhnTm5aU2FpV0Zoai1tWVE4ZWg4bXRGRnBMX2d6TmxmZ3piYXJXT3ctczhXRC10Sks1WlA2YUc3MzFxNlZCdWRLdEprYVpPNUpFNlNkcS0wOGQwZklJaWZkSlRwTFEwTzh0YjRtbFVR?oc=5"
-        },
-        {
-          "title": "‘Midterms internal matter of the US,’ says India after Trump’s Republican Party loses edge in Congress",
-          "source": "Firstpost",
-          "published": "10 Nov 17:02 IST",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQSV9YTU5OclFQMDF2WmhlNmd3TmRCeUdkOE1vc1RqUlJCdEVRNkhGblMzY1hVMGNzN3oyeVlHd1Y3ZDY3aElaVVphNnAwRElJYi1ZaTlsZHdXYzhtVmU3TVB4dERqekVUcDVKbDR0OGtmbjVpcU1xcEtWczlMSzdxQ0lFYzY4RGV6clV4YTNzWlRranJBWHFLZ1BSWDdJYzk3eGxOU3owZ1lWWEVrQXBWWE5EVWdtX19rYkxhMDFKZmNaeTBRNnhfbE04YUNWdnJNcnMzMDFTcUlSZTcz0gHiAUFVX3lxTE1RVzVsODBXdHZadXN3X3VWbGVhZTNqaVJ0Nkdyejd0Q1VkUVF3YXMzUmFMRjBEWVNieGZYX3Bxd1VHZU8wUVNhSjBPX0RTNDBLTUZHb0c5X2lTMDUtV2ZUZjJoUjc0T2pGc00tQ3pBeERaUWh5c1R0ZjVURzZuNWpzZjlmT0RhYWRVbTFYRzlXaHUybmNTUVFuN0JINTc2ZkMybWZFTU1KWmhpSVI5SG5RQ2lMcmpNWmlEVVk4YW5oUkVFbE4yenF6eGJTR2xHRkk4YzllcjlFMmgtZjlaM2xqcmc?oc=5"
-        },
-        {
-          "title": "Trump's midterm poll setback won't derail India-US trade talks: Official",
-          "source": "The Economic Times",
-          "published": "11 Nov 01:01 IST",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPNVRtT0YtTXdkRGc1LWU3T1oxRS1McC1IRTA1dWh2TllVNHlINU42RWkwVlNuVGxzZzR6UlBnUzBLUjZ3YnFranYyN2l0OFBJdDlRS2ZMMFdIRlB6QURrUWlUN1ZNY0x4aXBYSkRRb1hSQ1o0SzZ3U2phS2pzMERqNWlySThQSDlYLVFqNkp2emNTcXVwbFh3dGFSVkIyWHBVRFVLUG1pdVh5SDhEeWtMSk5TdVlLUkFUVmNNU3I4THY5TXJNc29TX1N2RXpua3o5dEpwSFdTc0pxWUtwLVB4TGVFRWcwS0tGUmZyYjZCckTSAeoBQVVfeXFMUG1MbGlXc2RjLWRzWEF4ZTNjSVZlVXZDTzlYcGFNb2NtekR3eUFiZXQyT0NIZHJaVW16NG85d09ldnU1LTJzSnNaLWxYR0pnY3VjeEtPMHB5bVozLWdMRXREZGVXTmhwQkNydm55am4zSXAtbHlyZTJnR3o3em9FUUd4WmpKd3Eyc0JFa2h2OFBwLUJndWFBSkRUYWJtSTVSWmFxN196NEsydHhmWFhUOWRtRjI1T2lFal9QdXlWX0Y3a1IyT1huMFZZQmp3Wkw0bmNRU1poN0dJZW5JakFyZXBGUDNxdkVfUHdR?oc=5"
+          "title": "India-UK Trade Deal Hits First Snag as 80-Plus Scotch Containers Languish at Ports Over 150% Duty Demand",
+          "source": "BigGo Finance",
+          "published": "11 Nov 15:56 IST",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3WjJDTXpYYlp0SjVPQWhxdk80aUZJWjFCdGlNUEJldVZPLXZFam5Pb2NpM3FENjFMdXNPQzZ4X1BwVjcyZ3hQTDUwa253QmRMUXQ4cG1Zc0RXd05BeEF2ZkNsVnZ1NkF0cl9fVE1rVTVCUUNNVUE?oc=5"
         }
       ]
     },
@@ -524,46 +524,46 @@
       "label": "Global Markets",
       "items": [
         {
-          "title": "Gold and silver prices recover amid fall in crude oil prices",
-          "source": "News On AIR",
-          "published": "11 Nov 01:38 IST",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPajM0TVJSeGVoSGY1d29NRDRUY3pmYlRDcEVYc2s5OWJUcjJXZzcwcEc3a0NjakNIZ3pIT0hEdnRLQVFUdVdLNktoc3gtWlVVenQzLXdpVHUtTTZJRkE3MG1YcHo0MXBDMEltUHFZcDBmbkRKNk1sTHYyZUs2cDRnMEx3Vm56VnJTNGtVYWx5UQ?oc=5"
-        },
-        {
-          "title": "Oil rises from 2-month low as Hormuz shipping attacks offset truce hopes",
-          "source": "Business Standard",
-          "published": "11 Nov 08:52 IST",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMEdSSmNjd0lqbU5KZ2pmekdvMkhlTFcxQTg2N0Z1YjlFZDd1V2E1am9DUDZtUHZaaDVKZXRqLWhLd2FnU2NzaGZsVnl4blVqeUY1OXA4bVdNdkt0Um1lMUpDUE5jQ3NFb1VlTWVPT0xCTkRhM180R0ZlSDBfYkxLSzFveElXYnd5MGNJeGpNMjd0VkZfamR2RnlTaTFIT2JoVTgzS1djRXN5b3lhNXVPd1Fab1FKT2dUcGJVcDFBTEI0UmdyQmVQYTlMQ3RuRTBRdUtDWXExcVM3dnZDdFVZ0gHkAUFVX3lxTE1LYWhxdmJWd3UwbE1xakdyN0NSNXpOUURCUGZFM0kxQm9EUlk3d1hoNVVJelhlakl3bFNmVF9hWGtNcXRibTJBYmczbUJ2R0hhbXZOMWFGaGhtamo4VkRyd2N0SzY5Wk1iU2pCWmxnN0pPTzV4SVhXcC0xcm42YUQ4N0xKVXh0RS1Ed0xzX29QbWdQUDhyZWRaZmRYVDJXZzJFcXRxcDZ0V21YdUxGRlBQeThuMzN1LUlQQnNFdkVsQ19ka0U2d2ZVVEhQWGhuSFk5V1ZCTlBkbnU5Mng1MUVCRGlzeA?oc=5"
-        },
-        {
-          "title": "Current price of oil as of November 10, 2026",
-          "source": "Fortune",
-          "published": "11 Nov 01:20 IST",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9QalBXQ0otaUpSVm8xeEZLNG9BTkZ1NkdVaFlubHhuS0tVd1NfeFFkS2Z6ZjF5bGdwSlV6QzgxTXJEOHprNWZRUG5NTjljcEF0ZDFYNGF6SkpsU3ZjNlF6ajVR?oc=5"
-        },
-        {
-          "title": "Stock Market Today: Sensex Jumps Over 1,100 Points, Nifty 50 Opens Above 25,300; IndiGo, M&M, Asian Paints Top Gainers",
-          "source": "NDTV Profit",
-          "published": "11 Nov 09:15 IST",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQeTYtODdweFhZS2g5dDJRMGlWWl91dFozRmRBdTFSeDE0Ty1waXgtRUNVQUllVEl0dGpFMjYzZE5QeFU3Mk9KZ0c1OUI2cXYwUW1OcS0xWkNQR1J6WC16SUhsdXJZWjJKNGU5cXVhSmoxRllBQzZkZU5PbDRLMEtDUnhJV2hmU185X2pmY2ExWWpXeWliSzhJRFJWb1BDclN1dS1zXzQwNHpJamZWUnZaOWdiM0NBMi1WRW16YjNtQV8tQW9VU1Vtc3dXXzZRdFBNcGltV2o5UjV4eUN3ZEY0WERyZXhoWG_SAe8BQVVfeXFMTS1nc2N5SjYyWml1NzBGVHJzcUc1dFZlMmRHZFFxTGhNSlpzX0NMN3V6d2U3c09HSHJ2eUlfdXdnSVJfTE9uZ1dPWmMza0p3TEE3Uld1MGZkWUQyVG15M0ZvNGppS0hBQVljcTRURDJSZUV4V0hER21aRXZMMDlwaU9yaGhpcWc3NHJsdE9STm1Ja2FsTHV6aFRYY3dpc2tzQTFRR2g4dHdWSEtsNE1JZnhmdlY3dGpWbUtzbkUxZWw4V3hYS1ZTUUs1LUtCU3htbWZleVg1VTBJM1d2eURQUmRiZnQ2TktzRGFYWTQ2NE0?oc=5"
-        },
-        {
-          "title": "Gold prices drop after hot CPI, hawkish Waller spark supersized Fed hike bets By Investing.com",
-          "source": "Investing.com India",
-          "published": "11 Nov 07:08 IST",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTWRmQXF5TTI2cXNnSlBmd0VaajhVVlFManBzQ19TYjEzd2NtNVhKLW1UeV9KSE9FdFR6c096LWZFSk9ad0hjcUpqSWZIQ3ROdU4yZzAybVREMXlwSzZCQlVhNjU5endCS2txY3poMEFwb0V6SGUzT3hkQklhZ1h0MnBJdzhieUJxTUE0TTRZcmY4RWtPMmlybWR1MzJ4Nzd0WmdldTZUeWhEWE50TkpCWDR2bC1jQQ?oc=5"
-        },
-        {
-          "title": "Gold, silver plunge as hotter U.S. inflation raises prospect of larger Fed rate hike - Kitco PM Report",
+          "title": "Gold, silver rebound after CPI-driven selloff, Hormuz tensions lift crude oil - Kitco AM Report",
           "source": "Kitco",
-          "published": "11 Nov 03:40 IST",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWjFnYTZXd19NRGpCTENYaVNGRFJjYkkyOWM3ZVZycC1NeV9MTVBvVDBsVE10UGhvZFlzRWg1UkJXTDduSVZ2S25QOXBtTGdyZzB3d1VQc3lUc000d2hQUnU2SFBVbG1vU0pTeW5oTlFEdVJRODBKanAwbWpOeC0xOS1UTEhYUzh3WVRYajY4aU1OTlNmSFpkM3VyZEMxcnBqQXVyU2VNMFdOR3R6RXNITEdPbkJpcWZkNy1Bcjln?oc=5"
+          "published": "11 Nov 19:03 IST",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOUp0cFVSZ2RUU2QxeDJYaklxUVk5UTdNT2dyU0RYRHhoR0ZiUzRWTWZQc01pSUFKdzZEa3YzWU5EOFA0MEs2NnVnV2tON1IwOWw5UzgyOXktcGtzVUpkSHVjVlhlXzBTYkNEaEotQUlha01iZkpNWktaUUdVMzhuZHM2RkxiMzg5THBfUjFRSUpFUDZKcGhoX21BTXZEVGlKcGljWUhhZkQwRldhTmQ3cVVBX0VaUWR2SVJCYWFR?oc=5"
+        },
+        {
+          "title": "News by CNBC TV18 on TradingView, 2026-11-12 — cnbctv:74e9e7138094b:0",
+          "source": "TradingView",
+          "published": "12 Nov 07:48 IST",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5lc1V0TFl1Y0t6N3pTSXFYMDZ4d2ZVS3V0aGROS1NFeTdWbnQ0MlJNN2k2UnAySl9DQ0dKblpVaWxfOS0tLWhfclRUOGRhSGFld2FadkVVWmV4N2JSc2NQSW92YldyUlE?oc=5"
+        },
+        {
+          "title": "Russian crude oil prices jump on China, India demand",
+          "source": "Nikkei Asia",
+          "published": "12 Nov 02:16 IST",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTzhibTN0Wk42eEN6U0syNjdGU0JMYUNpZm90bGdEWWhFbGNTUkstT1RXSDVvam81V1dQaS1udWk3X1ZKRTV1aEpuaXNNVjZnUGJfUGQ0ZUlWMTY2NVRtR0RSQXpsZDVwaXZrV3h4c0pLYlI1UE9wZHpzY0p6VEQ2RHczckhQd0pXYVFpU1lRb21hWFl5aHNRd0tNLVRqbUR3Yng1ZGxFWQ?oc=5"
+        },
+        {
+          "title": "Nasdaq futures slide on Huang Ouster report",
+          "source": "Moneycontrol.com",
+          "published": "12 Nov 08:36 IST",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUzE5ZFJvRFBuUFc2cFo2ak1oN1FkMzRqZU9xQ3poblNqRGp2Mk1Oc1ZuR2E3MG5adXVnZDJ0WE41aVhiSjBIbnRUdlE4eVRFa0FZT3pHWVJNMXZMSWZ3TndpaWdab01uVlFRRVlGaWd4MXRZT1VoYktTb2Rid1FHXzh2VjhoNHE1eHQ3MjF3NGNDUWNlZERIUHV6MUpiRFNLUjRieVJzcU1oUFdZd1BXX0xLRjNLcVdFZzNJZjBWUHRaRC15NDQ0UmZTWGpnMFpYaXFZNWxObS1VS2ZWTlBhQdIB4AFBVV95cUxQUzE5ZFJvRFBuUFc2cFo2ak1oN1FkMzRqZU9xQ3poblNqRGp2Mk1Oc1ZuR2E3MG5adXVnZDJ0WE41aVhiSjBIbnRUdlE4eVRFa0FZT3pHWVJNMXZMSWZ3TndpaWdab01uVlFRRVlGaWd4MXRZT1VoYktTb2Rid1FHXzh2VjhoNHE1eHQ3MjF3NGNDUWNlZERIUHV6MUpiRFNLUjRieVJzcU1oUFdZd1BXX0xLRjNLcVdFZzNJZjBWUHRaRC15NDQ0UmZTWGpnMFpYaXFZNWxObS1VS2ZWTlBhQQ?oc=5"
+        },
+        {
+          "title": "Canada’s Trade Surplus Widens as Oil, Gold Drive Record Exports",
+          "source": "WSJ",
+          "published": "12 Nov 07:19 IST",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRldRbWU0X0ZoSjl6aTVHYnRncGtQUlFQbmZISDZkVHpGUEduYXUzYmZkVml4NzRIVWx0UExXaXZYakRtak9JaU1JWGZsVG9uX3ZWVmFSMDY5MWpvUXlGSUZ1bUxLWHlhR1pseFVQMlg2UnVPQTRCTDM4d3RVVzc1T2R4VkNneVJUMjFxZGExQ3FpZlkxTDhwdTVOQkhxVGtYSHc?oc=5"
+        },
+        {
+          "title": "Current price of oil as of November 11, 2026",
+          "source": "Fortune",
+          "published": "11 Nov 19:44 IST",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB5azdwdTFySFNNNk8zcWRlWUgybnZGX0NsN2hadVppWlFlSVpzQjZtaXpEaXhCaXM4NFZzUGY4VnF2dFJYTmVrUmx2VVo1cHFXUTNDYnVFVzk5TFdrTnFFNTRn?oc=5"
         }
       ]
     }
   ],
   "sources": {
-    "market_data": "Yahoo Finance (computed, session 2026-11-11)",
+    "market_data": "Yahoo Finance (computed, session 2026-11-12)",
     "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in",
     "headlines": "Google News RSS, linking to the named publishers"
   }
