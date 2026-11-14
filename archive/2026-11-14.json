@@ -1,0 +1,561 @@
+{
+  "updated_ist": "2026-11-14",
+  "cover": {
+    "big_story_teaser": "Paytm shares touch record high after receiving preliminary RBI approval for wallet licence",
+    "venture_teaser": "mistEO raises ₹18 crore seed funding led by MGF-Kavachh to scale climate intelligence",
+    "market_watch_teaser": "As of 2026-11-13 close: Nifty 50 25,144.30 ▼ 0.61%",
+    "daily_brief_teaser": "Current account deficit widens to $25.8 bn as trade talks advance",
+    "inbrief_2": "India's current account deficit",
+    "inbrief_3": "December rate hike fears grow",
+    "inbrief_4": "December rate hike eyed",
+    "inbrief_1": "US Exits Iran Deal: Crude Spikes 5%"
+  },
+  "big_story": {
+    "headline": "Paytm Wins RBI Wallet Approval",
+    "subhead": "PRELIMINARY RBI APPROVAL FOR WALLET LICENCE SENDS PAYTM SHARES TO RECORD HIGH",
+    "paragraphs": [
+      "India's Paytm has received preliminary approval from the Reserve Bank of India for a wallet licence. Following the regulatory announcement, shares of the fintech provider rallied to hit a record high. The approval provides a major boost for the company after undergoing extensive regulatory scrutiny over past operations.",
+      "The preliminary clearance paves the way for Paytm to rebuild and expand its digital wallet ecosystem under updated compliance frameworks. Investors responded strongly to the central bank's decision, driving trading volumes and lifting market capitalization as regulatory risks eased.",
+      "Market participants are now tracking how quickly Paytm can fulfill remaining conditions to secure final authorization. A successful rollout will allow the payments platform to strengthen its competitive position across India's digital transaction landscape."
+    ],
+    "pullbox": "Preliminary RBI approval for a wallet licence removes regulatory hurdles for Paytm, driving its shares to a record high.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+      "alt": "Reserve Bank of India"
+    }
+  },
+  "explains": {
+    "title": "What is a Wallet Licence?",
+    "paragraphs": [
+      "A wallet licence is an authorization granted by the Reserve Bank of India that permits non-banking companies to issue Prepaid Payment Instruments. These instruments let consumers store digital money to pay for goods, services, and fund transfers.",
+      "To earn and keep a wallet licence, companies must satisfy regulatory criteria covering capital requirements, user verification, and cybersecurity. A preliminary approval serves as an initial green light before final operating authorization is issued."
+    ]
+  },
+  "venture_vault": {
+    "paragraphs": [
+      "Indian climate tech startup mistEO has raised ₹18 crore in a seed funding round led by MGF-Kavachh. The platform provides AI-powered climate risk intelligence tailored for financial institutions, insurers, and agricultural value chains.",
+      "The startup plans to use the fresh capital to scale its risk analytics tools as extreme weather and climate volatility impact credit and underwriting decisions. The investment highlights growing venture interest in specialized climate intelligence applications across India."
+    ]
+  },
+  "market_watch": {
+    "indian": [
+      {
+        "name": "Sensex",
+        "value": "81,592.45 ▼ 0.39%",
+        "dir": "down",
+        "session_date": "2026-11-13"
+      },
+      {
+        "name": "Nifty 50",
+        "value": "25,144.30 ▼ 0.61%",
+        "dir": "down",
+        "session_date": "2026-11-13"
+      },
+      {
+        "name": "Nifty Bank",
+        "value": "61,034.10 ▼ 0.79%",
+        "dir": "down",
+        "session_date": "2026-11-13"
+      }
+    ],
+    "asian": [
+      {
+        "name": "Nikkei 225",
+        "value": "61,142.35 ▲ 0.53%",
+        "dir": "up",
+        "session_date": "2026-11-13"
+      },
+      {
+        "name": "Hang Seng",
+        "value": "23,637.60 ▼ 1.55%",
+        "dir": "down",
+        "session_date": "2026-11-13"
+      },
+      {
+        "name": "Shanghai Comp.",
+        "value": "3,634.35 ▼ 0.59%",
+        "dir": "down",
+        "session_date": "2026-11-13"
+      }
+    ],
+    "european": [
+      {
+        "name": "FTSE 100",
+        "value": "10,902.56 ▲ 0.36%",
+        "dir": "up",
+        "session_date": "2026-11-13"
+      },
+      {
+        "name": "DAX",
+        "value": "26,749.95 ▼ 0.08%",
+        "dir": "down",
+        "session_date": "2026-11-13"
+      },
+      {
+        "name": "CAC 40",
+        "value": "8,368.91 ▲ 0.09%",
+        "dir": "up",
+        "session_date": "2026-11-13"
+      }
+    ],
+    "us": [
+      {
+        "name": "S&P 500",
+        "value": "7,561.67 ▼ 0.40%",
+        "dir": "down",
+        "session_date": "2026-11-13"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "25,136.27 ▼ 0.91%",
+        "dir": "down",
+        "session_date": "2026-11-13"
+      },
+      {
+        "name": "Dow Jones",
+        "value": "52,347.60 ▲ 0.10%",
+        "dir": "up",
+        "session_date": "2026-11-13"
+      }
+    ],
+    "global": [
+      {
+        "name": "Dollar Index",
+        "value": "103.17 ▲ 0.25%",
+        "dir": "up",
+        "session_date": "2026-11-12"
+      },
+      {
+        "name": "Brent Crude",
+        "value": "$95.82/bbl",
+        "dir": "up",
+        "session_date": "2026-11-12"
+      },
+      {
+        "name": "Gold",
+        "value": "$3,885/oz",
+        "dir": "down",
+        "session_date": "2026-11-12"
+      },
+      {
+        "name": "US 10Y Yield",
+        "value": "5.15% ▲ 5.1 bp",
+        "dir": "up",
+        "session_date": "2026-11-13"
+      }
+    ],
+    "losers": [
+      "Shriram Finance",
+      "Tata Motors PV",
+      "Grasim"
+    ],
+    "winners": [
+      "Eicher Motors",
+      "Hindustan Unilever",
+      "Asian Paints"
+    ],
+    "snapshot_strip": "Energy led; Realty and Auto lagged as the Nifty fell 0.61%",
+    "date_label": "NOV 2026",
+    "close_label": "AS OF FRIDAY'S CLOSE, NOV 13",
+    "session_date": "2026-11-13",
+    "ipo_desk": [
+      {
+        "name": "Crystal Crop Protection",
+        "note": "₹455 cr IPO opens on November 18"
+      },
+      {
+        "name": "Mahanadi Coalfields",
+        "note": "IPO size pegged at 10k cr"
+      }
+    ]
+  },
+  "data_desk": {
+    "commodities": [
+      {
+        "name": "Gold",
+        "unit": "$/oz",
+        "price": "3,885",
+        "day": "▼ 2.88%",
+        "week": "▼ 5.55%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,6.9 4.1,7.3 8.3,5.1 12.4,8.5 16.6,7.3 20.7,3.0 24.8,4.9 29.0,5.8 33.1,10.9 37.2,6.3 41.4,5.6 45.5,7.1 49.7,8.3 53.8,7.8 57.9,14.3 62.1,18.1 66.2,15.9 70.3,13.3 74.5,14.9 78.6,16.4 82.8,26.0 86.9,20.9 91.0,23.0 95.2,13.4 99.3,10.5 103.4,13.3 107.6,10.4 111.7,16.5 115.9,18.6 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-12"
+      },
+      {
+        "name": "Silver",
+        "unit": "$/oz",
+        "price": "49.97",
+        "day": "▼ 3.68%",
+        "week": "▼ 4.33%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,5.4 4.1,3.6 8.3,3.0 12.4,5.5 16.6,7.2 20.7,4.0 24.8,5.0 29.0,7.0 33.1,14.2 37.2,11.6 41.4,11.3 45.5,11.3 49.7,9.9 53.8,10.4 57.9,15.7 62.1,17.8 66.2,17.0 70.3,16.7 74.5,18.3 78.6,20.8 82.8,27.0 86.9,23.8 91.0,26.0 95.2,21.0 99.3,20.8 103.4,21.6 107.6,20.1 111.7,23.0 115.9,21.5 120.0,25.3\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"25.3\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-12"
+      },
+      {
+        "name": "Brent Crude",
+        "unit": "$/bbl",
+        "price": "95.82",
+        "day": "▲ 3.30%",
+        "week": "▼ 2.51%",
+        "dir": "up",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,17.1 4.1,18.9 8.3,18.7 12.4,19.0 16.6,15.3 20.7,14.9 24.8,13.1 29.0,14.0 33.1,13.6 37.2,13.8 41.4,10.1 45.5,10.4 49.7,11.1 53.8,11.1 57.9,7.1 62.1,3.8 66.2,4.7 70.3,6.5 74.5,5.1 78.6,5.5 82.8,3.0 86.9,14.8 91.0,15.9 95.2,24.1 99.3,20.8 103.4,20.7 107.6,26.0 111.7,27.0 115.9,25.8 120.0,23.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"23.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-12"
+      },
+      {
+        "name": "WTI Crude",
+        "unit": "$/bbl",
+        "price": "88.74",
+        "day": "▲ 2.55%",
+        "week": "▼ 1.97%",
+        "dir": "up",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,20.3 4.1,22.5 8.3,22.5 12.4,24.0 16.6,19.8 20.7,19.3 24.8,16.8 29.0,16.2 33.1,15.0 37.2,11.2 41.4,6.6 45.5,3.6 49.7,6.1 53.8,12.3 57.9,9.2 62.1,4.1 66.2,6.1 70.3,8.6 74.5,4.8 78.6,5.8 82.8,3.0 86.9,13.2 91.0,13.7 95.2,24.2 99.3,21.1 103.4,20.6 107.6,25.9 111.7,27.0 115.9,26.3 120.0,23.4\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"23.4\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-12"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Embassy REIT",
+        "price": "₹418.57",
+        "day": "▼ 0.36%",
+        "week": "▲ 1.83%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-12"
+      },
+      {
+        "name": "Nexus Select REIT",
+        "price": "₹160.23",
+        "day": "▲ 0.98%",
+        "week": "▲ 0.18%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-12"
+      },
+      {
+        "name": "Mindspace REIT",
+        "price": "₹497.97",
+        "day": "▼ 0.55%",
+        "week": "▲ 0.11%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-13"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹318.07",
+        "day": "▼ 0.53%",
+        "week": "▼ 0.67%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-11-13"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹105.33",
+        "day": "▼ 0.33%",
+        "week": "▲ 0.39%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-12"
+      }
+    ],
+    "caps": [
+      {
+        "name": "Nifty 50",
+        "tag": "Large cap",
+        "level": "25,144.30",
+        "day": -0.61,
+        "week": 2.48,
+        "month": 10.66,
+        "day_txt": "▼ 0.61%",
+        "week_txt": "▲ 2.48%",
+        "month_txt": "▲ 10.66%",
+        "dir": "down",
+        "dir_week": "up",
+        "dir_month": "up",
+        "session_date": "2026-11-13"
+      },
+      {
+        "name": "Nifty Midcap 150",
+        "tag": "Mid cap",
+        "level": "22,681.25",
+        "day": -0.35,
+        "week": 1.75,
+        "month": 3.9,
+        "day_txt": "▼ 0.35%",
+        "week_txt": "▲ 1.75%",
+        "month_txt": "▲ 3.90%",
+        "dir": "down",
+        "dir_week": "up",
+        "dir_month": "up",
+        "session_date": "2026-11-13"
+      },
+      {
+        "name": "Nifty Smallcap 250",
+        "tag": "Small cap",
+        "level": "17,940.55",
+        "day": -0.3,
+        "week": 2.31,
+        "month": 0.6,
+        "day_txt": "▼ 0.30%",
+        "week_txt": "▲ 2.31%",
+        "month_txt": "▲ 0.60%",
+        "dir": "down",
+        "dir_week": "up",
+        "dir_month": "up",
+        "session_date": "2026-11-13"
+      }
+    ],
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"100.0\" width=\"22\" height=\"3.5\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"115.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.6</text><rect x=\"62.3\" y=\"85.6\" width=\"22\" height=\"14.4\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"80.6\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+2.5</text><rect x=\"90.3\" y=\"38.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"33.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+10.7</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"100.0\" width=\"22\" height=\"2.0\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"114.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.3</text><rect x=\"169.0\" y=\"89.8\" width=\"22\" height=\"10.2\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"84.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.8</text><rect x=\"197.0\" y=\"77.3\" width=\"22\" height=\"22.7\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"72.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+3.9</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"100.0\" width=\"22\" height=\"1.7\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"113.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.3</text><rect x=\"275.7\" y=\"86.6\" width=\"22\" height=\"13.4\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"81.6\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+2.3</text><rect x=\"303.7\" y=\"96.5\" width=\"22\" height=\"3.5\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"91.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.6</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "funds": [
+      {
+        "name": "ICICI Pru Large Cap",
+        "cat": "Large cap",
+        "nav": "₹123.25",
+        "day": "▼ 0.74%",
+        "week": "▲ 2.26%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-13"
+      },
+      {
+        "name": "MO Midcap 150 Index",
+        "cat": "Mid cap",
+        "nav": "₹41.21",
+        "day": "▼ 0.35%",
+        "week": "▲ 1.78%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-13"
+      },
+      {
+        "name": "Nippon Small Cap",
+        "cat": "Small cap",
+        "nav": "₹204.24",
+        "day": "▼ 0.31%",
+        "week": "▲ 1.74%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-13"
+      },
+      {
+        "name": "Parag Parikh Flexi Cap",
+        "cat": "Flexi cap",
+        "nav": "₹94.81",
+        "day": "▼ 0.07%",
+        "week": "▲ 3.74%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-12"
+      }
+    ],
+    "date_label": "NOV 2026",
+    "close_label": "AS OF FRIDAY'S CLOSE, NOV 13",
+    "session_date": "2026-11-13",
+    "nav_label": "NAVS AS OF NOV 12"
+  },
+  "daily_brief": {
+    "story_1": {
+      "kicker": "India | Economy",
+      "headline": "India's current account deficit widens in H1FY27",
+      "paragraphs": [
+        "Fresh data released by the Reserve Bank of India shows that India's current account deficit widened to $25.8 billion in the first half of fiscal year 2027. This expansion reflects broader macroeconomic pressures and shifting trade dynamics as external accounts face heightened scrutiny.",
+        "Economists are closely monitoring these figures as trade diplomacy and international trade deals take center stage. Managing the widening deficit remains a key challenge for policymakers heading into the final quarters of the fiscal year."
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/General_Post_Office_and_Reserve_Bank_of_India%2C_Kolkata%2C_India.jpg/960px-General_Post_Office_and_Reserve_Bank_of_India%2C_Kolkata%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "General Post Office and Reserve Bank of India, Kolkata, India"
+      }
+    },
+    "story_2": {
+      "kicker": "Global | Trade Diplomacy",
+      "headline": "First tranche of India-US trade deal by December?",
+      "paragraphs": [
+        "Diplomatic and trade circles are increasingly optimistic about finalizing the first tranche of the India-US trade deal by December. Officials indicate that ongoing negotiations aim to secure competitive advantages and lower tariffs compared to global peers.",
+        "The impending G20 deadline has added urgency to the bilateral talks, which seek to bolster economic ties and diversify trade pathways. Both nations are working through final details to ensure a balanced agreement."
+      ]
+    },
+    "story_3": {
+      "kicker": "India | Central Banking",
+      "headline": "RBI rate hike in December cannot be ruled out",
+      "paragraphs": [
+        "Market experts suggest that a Reserve Bank of India rate hike in December remains a distinct possibility as rising inflation continues to weigh on investor sentiment. Analysts point to persistent economic pressures that could force the central bank to tighten monetary policy further."
+      ]
+    },
+    "also_today": {
+      "items": [
+        "ABB India Q3CY26 net profit rises 11% to ₹440 cr with revenue up 19.4%",
+        "Black Box Q2 FY27 revenue rises 22% to ₹1,936 crore with order backlog topping US$1 billion",
+        "Linde India acquires Airtech for ₹111.20 crore to expand industrial operations",
+        "Norwest raises $4 billion for 18th global fund with a sharp India focus on manufacturing"
+      ]
+    }
+  },
+  "geopolitics": {
+    "kicker": "Geopolitics | Energy Shock",
+    "headline": "Crude Spikes 5% as US Exits Iran Deal, Rupee Hits 94.25",
+    "paragraphs": [
+      "Global crude oil prices jumped more than 5% after US President Donald Trump pulled out of the Iran peace deal, making his No Deal Needed remark. The sudden geopolitical flare-up sent shockwaves across international energy markets and hit Indian asset prices hard. In response to surging crude costs, the Indian rupee weakened to 94.25 against the US dollar while India's 10-year bond yield climbed.",
+      "The sharp oil price increase pressured Indian stock markets, driving both the Sensex and Nifty lower as investors weighed potential inflation risks. Meanwhile, global gold prices slumped to a one-year low amidst the market realignment. As an import-dependent economy, India faces renewed risk to its import bill and currency stability if geopolitical tension keeps crude elevated."
+    ],
+    "world_60": [
+      "New Zealand Parliament clears landmark FTA with India to enhance trade.",
+      "PM Modi scheduled to attend the 23rd ASEAN-India Summit in Philippines.",
+      "Gold futures rise to Rs 1.36 lakh per 10g amid global market trends.",
+      "India gem and jewellery exports jump 34% on robust international demand.",
+      "Brazil 35% tariff hike challenges Indian crop protection exports."
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Supertanker_AbQaiq.jpg",
+      "alt": "Oil tanker"
+    }
+  },
+  "more": {
+    "big_story": [
+      {
+        "headline": "Sensex Snaps Three-Day Rally, Falls 318 Points on Rate Hike Concerns",
+        "text": "Benchmark stock indices ended lower as the Sensex dropped 318 points, snapping a three-day rally due to growing fears of monetary policy rate hikes. Investors pulled back from equities as sentiment turned cautious over borrowing costs and liquidity conditions. The sharp drop underscores domestic market vulnerability to macroeconomic policy signals and shifting interest rate expectations in India.",
+        "source": "The Hindu",
+        "published": "13 Nov 22:54 IST"
+      },
+      {
+        "headline": "Linde India Buys Airtech for ₹111.20 Crore in Expansion Push",
+        "text": "Industrial gas manufacturer Linde India has acquired Airtech for ₹111.20 crore to expand its operational presence across domestic industrial supply chains. The deal aims to strengthen Linde's industrial gas distribution networks to meet growing manufacturing demand in India. This strategic move highlights ongoing consolidation within critical infrastructure and manufacturing sector supply chains.",
+        "source": "scanx.trade",
+        "published": "13 Nov 21:05 IST"
+      }
+    ],
+    "venture_vault": [
+      {
+        "headline": "Google Invests ₹10 Crore in Rigi at ₹670 Crore Valuation",
+        "text": "Creator economy platform Rigi has raised ₹10 crore from Google at a valuation of ₹670 crore to scale its digital tools for content creators. The fresh capital injection will help Rigi build enhanced monetization features and reach more digital entrepreneurs across the country. This strategic backing underscores rising tech investor confidence in India's rapidly expanding creator economy ecosystem.",
+        "source": "Indian Startup Times",
+        "published": "13 Nov 01:07 IST"
+      },
+      {
+        "headline": "Crystal Crop Protection Sets Price Band for ₹455.49 Crore IPO",
+        "text": "Agrochemical firm Crystal Crop Protection has set its price band for a ₹455.49 crore initial public offering scheduled to open on November 18. The company aims to raise capital from public markets to fund its operational growth and strategic initiatives across India. The planned public issue highlights investor interest in domestic agricultural technology and crop care sectors.",
+        "source": "The Economic Times",
+        "published": "13 Nov 10:53 IST"
+      }
+    ],
+    "geopolitics": [
+      {
+        "headline": "US Assures India Lower Tariffs Than Peers in Proposed Trade Deal",
+        "text": "The United States has assured India of lower import tariffs relative to peer nations under an upcoming bilateral trade deal. Washington officials confirmed that the proposed framework will give Indian exports a clear comparative advantage in key global consumer markets. This trade assurance aims to strengthen bilateral economic ties and boost India's competitive standing against rival manufacturing hubs.",
+        "source": "The Economic Times",
+        "published": "13 Nov 19:17 IST"
+      }
+    ]
+  },
+  "sources": {
+    "big_story": [
+      {
+        "title": "India's Paytm gets preliminary RBI nod for wallet licence; shares hit record high",
+        "source": "Reuters"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "MistEO Raises ₹18 Crore in Seed Funding Round Led by MGF-Kavachh to Scale Climate Intelligence Platform",
+        "source": "Indian Startup Times"
+      },
+      {
+        "title": "mistEO Raises ₹18 Crore Seed Funding to Scale AI-Powered Climate Risk Intelligence for Banks, Insurers, and Agri-Value Chains",
+        "source": "Indian Startup Times"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "India's current account deficit widens to $25.8 bn in H1FY27: RBI data",
+        "source": "Business Standard"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "First Tranche Of India-US Trade Deal By December?",
+        "source": "StratNews Global"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "Daily Voice: RBI rate hike in December cannot be ruled out, says Nine Rivers Capital founder",
+        "source": "Moneycontrol.com"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "Market takes a break from rally as rising inflation weighs on sentiment",
+        "source": "The New Indian Express"
+      },
+      {
+        "title": "Is RBI’s next move in Tata Sons listing in the offing?",
+        "source": "Fortune India"
+      },
+      {
+        "title": "ABB India Q3CY26 results: Net profit rises 11% to ₹440 cr, revenue up 19.4%",
+        "source": "Business Standard"
+      },
+      {
+        "title": "Black Box Q2 FY27 Results: Revenue Rises 22% to ₹1,936 Crore; Order Backlog Tops US$1 Billion",
+        "source": "India CSR"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "Global crude oil prices rise more than 5% as Trump pulls out of Iran peace deal",
+        "source": "DD News"
+      },
+      {
+        "title": "Rupee weakens to 94.25/$, 10-year bond yield rises as crude prices surge",
+        "source": "Business Standard"
+      },
+      {
+        "title": "Sensex, Nifty decline as geopolitical tensions and rising oil prices pressure markets",
+        "source": "DD News"
+      },
+      {
+        "title": "Gold Slumps to a One-Year Low as Oil Soars Following Trump’s “No Deal Needed” Remark!",
+        "source": "www.tmgm.com"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "PM Modi to attend 23rd ASEAN-India Summit in Philippines",
+        "source": "Manorama Yearbook"
+      },
+      {
+        "title": "New Zealand Parliament clears FTA with India",
+        "source": "DD News"
+      },
+      {
+        "title": "Can China and India Remain Competitive in Brazil's Crop Protection Market With 35% Tariffs?",
+        "source": "AgroLatam"
+      },
+      {
+        "title": "Gold Futures Climb to Rs 1.36 Lakh/10gm on Strong Global Cues",
+        "source": "Rediff MoneyWiz"
+      },
+      {
+        "title": "Gem, jewellery exports up 34% on growing demand, rise in gold prices",
+        "source": "BusinessLine"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "Crystal Crop Protection to Launch Rs 455 Crore IPO on November 18",
+        "source": "Global Agriculture"
+      },
+      {
+        "title": "Mahanadi Coalfields IPO May Open Next Week, Issue Size Pegged at 10k cr",
+        "source": "TradingView"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session 2026-11-13)",
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
+  }
+}
