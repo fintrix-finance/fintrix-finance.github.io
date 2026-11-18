@@ -1,564 +1,592 @@
 {
-  "updated_ist": "2026-11-17",
-  "lite": true,
-  "lite_note": "Lite issue. FINTRIX's AI writing pipeline was unavailable today, so instead of risking unverified text this issue carries only numbers retrieved from live market feeds and the day's real headlines with direct links. No story text was generated.",
+  "updated_ist": "2026-11-18",
+  "cover": {
+    "big_story_teaser": "Coal India sets ₹129-136 price band for ₹8,981 crore Mahanadi Coalfields IPO.",
+    "venture_teaser": "Bharat Semi raises ₹215 crore in seed funding to build AI image sensors.",
+    "market_watch_teaser": "LIVE AS OF 9:59 AM IST: Nifty 50 25,308.05 ▼ 0.31%",
+    "daily_brief_teaser": "Fairfax exits IIFL, Persistent funds Nagarro deal, and Canada trade talks advance.",
+    "inbrief_2": "Fairfax exits IIFL Finance stake",
+    "inbrief_3": "Persistent Nagarro deal financing",
+    "inbrief_4": "Canada India trade agreement near",
+    "inbrief_1": "Modi's East Asia Summit Push"
+  },
+  "big_story": {
+    "headline": "Mahanadi Coalfields Sets IPO Band",
+    "subhead": "COAL INDIA TO OFFLOAD 10 PERCENT STAKE IN MAHANADI COALFIELDS IPO OPENING NOVEMBER 19",
+    "paragraphs": [
+      "State-owned giant Coal India is preparing to offload a 10 percent stake in its subsidiary, Mahanadi Coalfields Ltd, through an initial public offering opening on November 19. The company has fixed the price band at ₹129 to ₹136 per share, aiming to raise up to ₹8,981 crore from the offer.",
+      "The public issue represents a significant state asset divestment in India's energy sector, targeting an overall corporate valuation of up to $9.55 billion. Bidding for the mega issue will run across retail, high-net-worth, and institutional investor tranches.",
+      "Market participants are analyzing the valuation as the Nifty 50 traded down 0.31% in today's session so far with energy stocks lagging. The response to the ₹8,981 crore offering will serve as a crucial bellwether for appetite in primary market issuances."
+    ],
+    "pullbox": "Coal India's 10% stake sale in Mahanadi Coalfields at ₹129-136 per share tests primary market demand for energy assets.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/49/Coal_India_Logo.svg/330px-Coal_India_Logo.svg.png",
+      "alt": "Coal India"
+    }
+  },
+  "explains": {
+    "title": "What is an IPO Price Band?",
+    "paragraphs": [
+      "An IPO price band is the floor and cap price range set by a company and its investment bankers for selling shares to the public. Investors submit bids specifying the number of shares and price they are willing to pay within this range.",
+      "After the bidding window closes, the final share price is calculated based on cumulative demand. Bids placed at or above the final cut-off price are allocated shares proportionally."
+    ]
+  },
+  "venture_vault": {
+    "paragraphs": [
+      "Indian semiconductor startup Bharat Semi has raised ₹215 crore ($24 million) in a seed funding round. The company develops specialized AI image sensors tailored for high-performance visual processing.",
+      "Bharat Semi plans to deploy the capital to target surveillance and consumer devices markets first. The startup eventually aims to scale its AI sensor technology for integration into advanced robotics platforms."
+    ]
+  },
   "market_watch": {
     "indian": [
       {
         "name": "Sensex",
-        "value": "82,266.33 ▲ 0.20%",
-        "dir": "up",
+        "value": "82,089.62 ▼ 0.54%",
+        "dir": "down",
         "live": true
       },
       {
         "name": "Nifty 50",
-        "value": "25,369.15 ▲ 0.31%",
-        "dir": "up",
+        "value": "25,308.05 ▼ 0.31%",
+        "dir": "down",
         "live": true
       },
       {
         "name": "Nifty Bank",
-        "value": "61,987.75 ▲ 0.67%",
-        "dir": "up",
+        "value": "62,133.40 ▼ 0.22%",
+        "dir": "down",
         "live": true
       }
     ],
     "asian": [
       {
         "name": "Nikkei 225",
-        "value": "59,662.02 ▼ 2.42%",
+        "value": "58,860.43 ▼ 1.34%",
         "dir": "down",
-        "session_date": "2026-11-16"
+        "session_date": "2026-11-17"
       },
       {
         "name": "Hang Seng",
-        "value": "23,753.84 ▲ 0.49%",
-        "dir": "up",
-        "session_date": "2026-11-16"
+        "value": "23,508.17 ▼ 1.03%",
+        "dir": "down",
+        "session_date": "2026-11-17"
       },
       {
         "name": "Shanghai Comp.",
-        "value": "3,602.57 ▼ 0.87%",
+        "value": "3,584.58 ▼ 0.50%",
         "dir": "down",
-        "session_date": "2026-11-16"
+        "session_date": "2026-11-17"
       }
     ],
     "european": [
       {
         "name": "FTSE 100",
-        "value": "10,881.55 ▼ 0.19%",
+        "value": "10,689.87 ▼ 1.76%",
         "dir": "down",
-        "session_date": "2026-11-16"
+        "session_date": "2026-11-17"
       },
       {
         "name": "DAX",
-        "value": "26,598.64 ▼ 0.57%",
+        "value": "26,045.37 ▼ 2.08%",
         "dir": "down",
-        "session_date": "2026-11-16"
+        "session_date": "2026-11-17"
       },
       {
         "name": "CAC 40",
-        "value": "8,352.00 ▼ 0.20%",
+        "value": "8,216.78 ▼ 1.62%",
         "dir": "down",
-        "session_date": "2026-11-16"
+        "session_date": "2026-11-17"
       }
     ],
     "us": [
       {
         "name": "S&P 500",
-        "value": "7,416.59 ▼ 1.92%",
+        "value": "7,340.53 ▼ 1.03%",
         "dir": "down",
-        "session_date": "2026-11-16"
+        "session_date": "2026-11-17"
       },
       {
         "name": "Nasdaq",
-        "value": "24,509.76 ▼ 2.49%",
+        "value": "24,328.38 ▼ 0.74%",
         "dir": "down",
-        "session_date": "2026-11-16"
+        "session_date": "2026-11-17"
       },
       {
         "name": "Dow Jones",
-        "value": "51,608.20 ▼ 1.41%",
+        "value": "50,759.40 ▼ 1.64%",
         "dir": "down",
-        "session_date": "2026-11-16"
+        "session_date": "2026-11-17"
       }
     ],
     "global": [
       {
         "name": "Dollar Index",
-        "value": "103.55 ▲ 0.14%",
-        "dir": "up",
-        "session_date": "2026-11-16"
+        "value": "103.49 ▼ 0.06%",
+        "dir": "down",
+        "session_date": "2026-11-17"
       },
       {
         "name": "Brent Crude",
-        "value": "$92.44/bbl",
-        "dir": "down",
-        "session_date": "2026-11-16"
+        "value": "$93.14/bbl",
+        "dir": "up",
+        "session_date": "2026-11-17"
       },
       {
         "name": "Gold",
-        "value": "$3,853/oz",
-        "dir": "down",
-        "session_date": "2026-11-16"
+        "value": "$3,864/oz",
+        "dir": "up",
+        "session_date": "2026-11-17"
       },
       {
         "name": "US 10Y Yield",
-        "value": "5.12% ▼ 3.3 bp",
+        "value": "5.10% ▼ 1.8 bp",
         "dir": "down",
-        "session_date": "2026-11-16"
+        "session_date": "2026-11-17"
       }
     ],
     "losers": [
-      "Tata Motors PV",
-      "Tata Steel",
-      "Maruti Suzuki"
+      "HCLTech",
+      "Wipro",
+      "Power Grid"
     ],
     "winners": [
-      "Max Healthcare",
-      "Tata Consumer",
-      "ITC"
+      "Adani Enterprises",
+      "Eicher Motors",
+      "Max Healthcare"
     ],
-    "snapshot_strip": "FMCG and Banks led; Pharma and Metal lagged as the Nifty rose 0.31%",
+    "snapshot_strip": "PSU Banks and Realty led; IT and Energy lagged as the Nifty fell 0.31%",
     "date_label": "NOV 2026",
-    "close_label": "LIVE AS OF 9:58 AM IST",
+    "close_label": "LIVE AS OF 9:59 AM IST",
     "live": true,
-    "session_date": "2026-11-17"
+    "session_date": "2026-11-18",
+    "ipo_desk": [
+      {
+        "name": "Mahanadi Coalfields",
+        "note": "Price band ₹129-136; opens Nov 19"
+      },
+      {
+        "name": "Crystal Crop Protection",
+        "note": "Price band and issue dates set"
+      }
+    ]
   },
   "data_desk": {
     "commodities": [
       {
         "name": "Gold",
         "unit": "$/oz",
-        "price": "3,853",
-        "day": "▼ 0.86%",
-        "week": "▼ 6.36%",
-        "dir": "down",
+        "price": "3,864",
+        "day": "▲ 0.29%",
+        "week": "▼ 4.12%",
+        "dir": "up",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,4.9 4.1,8.0 8.3,6.9 12.4,3.0 16.6,4.7 20.7,5.6 24.8,10.2 29.0,6.1 33.1,5.3 37.2,6.7 41.4,7.9 45.5,7.4 49.7,13.3 53.8,16.8 57.9,14.8 62.1,12.4 66.2,13.9 70.3,15.2 74.5,24.0 78.6,19.3 82.8,21.2 86.9,12.5 91.0,9.8 95.2,12.3 99.3,9.7 103.4,15.3 107.6,17.3 111.7,24.9 115.9,24.8 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
-        "session_date": "2026-11-16"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,8.0 4.1,6.9 8.3,3.0 12.4,4.7 16.6,5.6 20.7,10.2 24.8,6.1 29.0,5.3 33.1,6.7 37.2,7.9 41.4,7.4 45.5,13.3 49.7,16.8 53.8,14.8 57.9,12.4 62.1,13.9 66.2,15.2 70.3,24.0 74.5,19.3 78.6,21.2 82.8,12.5 86.9,9.8 91.0,12.3 95.2,9.7 99.3,15.3 103.4,17.3 107.6,24.9 111.7,24.8 115.9,27.0 120.0,26.3\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"26.3\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-17"
       },
       {
         "name": "Silver",
         "unit": "$/oz",
-        "price": "46.78",
-        "day": "▼ 4.58%",
-        "week": "▼ 10.99%",
-        "dir": "down",
+        "price": "47.29",
+        "day": "▲ 1.08%",
+        "week": "▼ 7.46%",
+        "dir": "up",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,5.1 8.3,6.5 12.4,3.8 16.6,4.7 20.7,6.3 24.8,12.4 29.0,10.2 33.1,10.0 37.2,10.0 41.4,8.8 45.5,9.3 49.7,13.7 53.8,15.4 57.9,14.8 62.1,14.5 66.2,15.9 70.3,18.0 74.5,23.1 78.6,20.4 82.8,22.3 86.9,18.1 91.0,17.9 95.2,18.6 99.3,17.4 103.4,19.8 107.6,18.5 111.7,21.7 115.9,23.3 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
-        "session_date": "2026-11-16"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,4.3 4.1,5.8 8.3,3.0 12.4,3.9 16.6,5.6 20.7,11.8 24.8,9.6 29.0,9.4 33.1,9.4 37.2,8.1 41.4,8.6 45.5,13.2 49.7,15.0 53.8,14.3 57.9,14.0 62.1,15.5 66.2,17.7 70.3,23.0 74.5,20.2 78.6,22.2 82.8,17.8 86.9,17.6 91.0,18.3 95.2,17.0 99.3,19.5 103.4,18.2 107.6,21.5 111.7,23.1 115.9,27.0 120.0,26.1\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"26.1\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-17"
       },
       {
         "name": "Brent Crude",
         "unit": "$/bbl",
-        "price": "92.44",
-        "day": "▼ 3.55%",
-        "week": "▼ 0.14%",
-        "dir": "down",
-        "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,18.7 4.1,19.0 8.3,15.3 12.4,14.9 16.6,13.1 20.7,14.0 24.8,13.6 29.0,13.8 33.1,10.1 37.2,10.4 41.4,11.1 45.5,11.1 49.7,7.1 53.8,3.8 57.9,4.7 62.1,6.5 66.2,5.1 70.3,5.5 74.5,3.0 78.6,14.8 82.8,15.9 86.9,24.1 91.0,20.8 95.2,20.7 99.3,26.0 103.4,27.0 107.6,25.8 111.7,23.0 115.9,23.0 120.0,26.1\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"26.1\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
-        "session_date": "2026-11-16"
+        "price": "93.14",
+        "day": "▲ 0.76%",
+        "week": "▲ 1.80%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,19.0 4.1,15.3 8.3,14.9 12.4,13.1 16.6,14.0 20.7,13.6 24.8,13.8 29.0,10.1 33.1,10.4 37.2,11.1 41.4,11.1 45.5,7.1 49.7,3.8 53.8,4.7 57.9,6.5 62.1,5.1 66.2,5.5 70.3,3.0 74.5,14.8 78.6,15.9 82.8,24.1 86.9,20.8 91.0,20.7 95.2,26.0 99.3,27.0 103.4,25.8 107.6,23.0 111.7,23.0 115.9,26.1 120.0,25.5\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"25.5\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-17"
       },
       {
         "name": "WTI Crude",
         "unit": "$/bbl",
-        "price": "85.72",
-        "day": "▼ 3.21%",
-        "week": "▼ 1.30%",
-        "dir": "down",
+        "price": "86.01",
+        "day": "▲ 0.34%",
+        "week": "▼ 0.03%",
+        "dir": "up",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,22.1 4.1,23.7 8.3,19.5 12.4,19.0 16.6,16.5 20.7,16.0 24.8,14.8 29.0,11.0 33.1,6.5 37.2,3.6 41.4,6.0 45.5,12.1 49.7,9.1 53.8,4.1 57.9,6.1 62.1,8.5 66.2,4.7 70.3,5.8 74.5,3.0 78.6,13.0 82.8,13.5 86.9,23.9 91.0,20.7 95.2,20.3 99.3,25.5 103.4,26.6 107.6,25.9 111.7,23.1 115.9,23.3 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
-        "session_date": "2026-11-16"
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,23.7 4.1,19.5 8.3,19.0 12.4,16.5 16.6,16.0 20.7,14.8 24.8,11.0 29.0,6.5 33.1,3.6 37.2,6.0 41.4,12.1 45.5,9.1 49.7,4.1 53.8,6.1 57.9,8.5 62.1,4.7 66.2,5.8 70.3,3.0 74.5,13.0 78.6,13.5 82.8,23.9 86.9,20.7 91.0,20.3 95.2,25.5 99.3,26.6 103.4,25.9 107.6,23.1 111.7,23.3 115.9,27.0 120.0,26.6\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"26.6\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-17"
       }
     ],
     "alternatives": [
       {
         "name": "Embassy REIT",
-        "price": "₹423.61",
-        "day": "▲ 1.20%",
-        "week": "▲ 1.74%",
-        "dir": "up",
+        "price": "₹420.00",
+        "day": "▼ 0.85%",
+        "week": "▲ 0.76%",
+        "dir": "down",
         "dir_week": "up",
-        "session_date": "2026-11-13"
+        "session_date": "2026-11-16"
       },
       {
         "name": "Nexus Select REIT",
-        "price": "₹158.73",
-        "day": "▼ 1.46%",
-        "week": "▼ 0.16%",
-        "dir": "down",
+        "price": "₹160.30",
+        "day": "▲ 0.99%",
+        "week": "▼ 0.49%",
+        "dir": "up",
         "dir_week": "down",
-        "session_date": "2026-11-16"
+        "session_date": "2026-11-17"
       },
       {
         "name": "Mindspace REIT",
-        "price": "₹497.97",
-        "day": "▼ 0.55%",
-        "week": "▲ 0.11%",
-        "dir": "down",
-        "dir_week": "up",
-        "session_date": "2026-11-13"
-      },
-      {
-        "name": "Brookfield REIT",
-        "price": "₹318.07",
-        "day": "▼ 0.53%",
-        "week": "▼ 0.67%",
-        "dir": "down",
-        "dir_week": "down",
-        "session_date": "2026-11-13"
-      },
-      {
-        "name": "PowerGrid InvIT",
-        "price": "₹107.10",
-        "day": "▲ 0.37%",
-        "week": "▲ 1.63%",
+        "price": "₹500.78",
+        "day": "▲ 0.56%",
+        "week": "▲ 0.55%",
         "dir": "up",
         "dir_week": "up",
         "session_date": "2026-11-16"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹317.90",
+        "day": "▲ 0.14%",
+        "week": "▼ 0.13%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-11-17"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹104.17",
+        "day": "▼ 2.74%",
+        "week": "▼ 1.39%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-11-17"
       }
     ],
     "caps": [
       {
         "name": "Nifty 50",
         "tag": "Large cap",
-        "level": "25,291.10",
-        "day": 0.58,
-        "week": 1.04,
-        "month": 11.8,
-        "day_txt": "▲ 0.58%",
-        "week_txt": "▲ 1.04%",
-        "month_txt": "▲ 11.80%",
+        "level": "25,387.40",
+        "day": 0.38,
+        "week": 1.37,
+        "month": 10.39,
+        "day_txt": "▲ 0.38%",
+        "week_txt": "▲ 1.37%",
+        "month_txt": "▲ 10.39%",
         "dir": "up",
         "dir_week": "up",
         "dir_month": "up",
-        "session_date": "2026-11-16"
+        "session_date": "2026-11-17"
       },
       {
         "name": "Nifty Midcap 150",
         "tag": "Mid cap",
-        "level": "22,588.35",
-        "day": -0.41,
-        "week": 1.42,
-        "month": 3.52,
-        "day_txt": "▼ 0.41%",
-        "week_txt": "▲ 1.42%",
-        "month_txt": "▲ 3.52%",
-        "dir": "down",
+        "level": "22,648.70",
+        "day": 0.27,
+        "week": 1.07,
+        "month": 4.1,
+        "day_txt": "▲ 0.27%",
+        "week_txt": "▲ 1.07%",
+        "month_txt": "▲ 4.10%",
+        "dir": "up",
         "dir_week": "up",
         "dir_month": "up",
-        "session_date": "2026-11-16"
+        "session_date": "2026-11-17"
       },
       {
         "name": "Nifty Smallcap 250",
         "tag": "Small cap",
-        "level": "17,771.25",
-        "day": -0.94,
-        "week": 2.21,
-        "month": -0.34,
-        "day_txt": "▼ 0.94%",
-        "week_txt": "▲ 2.21%",
-        "month_txt": "▼ 0.34%",
+        "level": "17,754.85",
+        "day": -0.09,
+        "week": 1.01,
+        "month": 0.73,
+        "day_txt": "▼ 0.09%",
+        "week_txt": "▲ 1.01%",
+        "month_txt": "▲ 0.73%",
         "dir": "down",
         "dir_week": "up",
-        "dir_month": "down",
-        "session_date": "2026-11-16"
+        "dir_month": "up",
+        "session_date": "2026-11-17"
       }
     ],
-    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"97.0\" width=\"22\" height=\"3.0\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"92.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.6</text><rect x=\"62.3\" y=\"94.5\" width=\"22\" height=\"5.5\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"89.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.0</text><rect x=\"90.3\" y=\"38.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"33.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+11.8</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"100.0\" width=\"22\" height=\"2.2\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"114.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.4</text><rect x=\"169.0\" y=\"92.5\" width=\"22\" height=\"7.5\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"87.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.4</text><rect x=\"197.0\" y=\"81.5\" width=\"22\" height=\"18.5\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"76.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+3.5</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"100.0\" width=\"22\" height=\"4.9\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"116.9\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.9</text><rect x=\"275.7\" y=\"88.4\" width=\"22\" height=\"11.6\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"83.4\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+2.2</text><rect x=\"303.7\" y=\"100.0\" width=\"22\" height=\"1.8\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"113.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.3</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"97.7\" width=\"22\" height=\"2.3\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"92.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.4</text><rect x=\"62.3\" y=\"91.8\" width=\"22\" height=\"8.2\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"86.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.4</text><rect x=\"90.3\" y=\"38.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"33.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+10.4</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"98.4\" width=\"22\" height=\"1.6\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"93.4\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.3</text><rect x=\"169.0\" y=\"93.6\" width=\"22\" height=\"6.4\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"88.6\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.1</text><rect x=\"197.0\" y=\"75.5\" width=\"22\" height=\"24.5\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"70.5\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+4.1</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"100.0\" width=\"22\" height=\"0.8\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"112.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.1</text><rect x=\"275.7\" y=\"94.0\" width=\"22\" height=\"6.0\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"89.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.0</text><rect x=\"303.7\" y=\"95.6\" width=\"22\" height=\"4.4\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"90.6\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.7</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
     "funds": [
       {
         "name": "ICICI Pru Large Cap",
         "cat": "Large cap",
-        "nav": "₹123.78",
-        "day": "▲ 0.43%",
-        "week": "▲ 0.97%",
+        "nav": "₹124.20",
+        "day": "▲ 0.34%",
+        "week": "▲ 1.01%",
         "dir": "up",
         "dir_week": "up",
-        "session_date": "2026-11-16"
+        "session_date": "2026-11-17"
       },
       {
         "name": "MO Midcap 150 Index",
         "cat": "Mid cap",
-        "nav": "₹41.04",
-        "day": "▼ 0.41%",
-        "week": "▲ 1.44%",
-        "dir": "down",
+        "nav": "₹41.15",
+        "day": "▲ 0.27%",
+        "week": "▲ 1.08%",
+        "dir": "up",
         "dir_week": "up",
-        "session_date": "2026-11-16"
+        "session_date": "2026-11-17"
       },
       {
         "name": "Nippon Small Cap",
         "cat": "Small cap",
-        "nav": "₹203.33",
-        "day": "▼ 0.44%",
-        "week": "▲ 2.10%",
+        "nav": "₹202.78",
+        "day": "▼ 0.27%",
+        "week": "▲ 0.91%",
         "dir": "down",
         "dir_week": "up",
-        "session_date": "2026-11-16"
+        "session_date": "2026-11-17"
       },
       {
         "name": "Parag Parikh Flexi Cap",
         "cat": "Flexi cap",
-        "nav": "₹94.26",
-        "day": "▼ 0.59%",
-        "week": "▲ 1.68%",
-        "dir": "down",
+        "nav": "₹94.48",
+        "day": "▲ 0.24%",
+        "week": "▲ 0.57%",
+        "dir": "up",
         "dir_week": "up",
-        "session_date": "2026-11-13"
+        "session_date": "2026-11-16"
       }
     ],
     "date_label": "NOV 2026",
-    "close_label": "CLOSE OF NOV 16",
-    "session_date": "2026-11-16",
-    "nav_label": "NAVS AS OF NOV 13"
+    "close_label": "CLOSE OF NOV 17",
+    "session_date": "2026-11-17",
+    "nav_label": "NAVS AS OF NOV 16"
   },
-  "lite_headlines": [
-    {
-      "label": "India Business",
-      "items": [
-        {
-          "title": "Footwear industry is backbone of India’s economy: Union Minister Giriraj Singh",
-          "source": "News On AIR",
-          "published": "17 Nov 06:33 IST",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQ29UaXZQZHFWUm1nX2FHV3h5VGlhdFRaX01vcllPcGc2bU5fRFdmR282RjQ1ZnkyTE9Ic0drOHQ2SjM3NkI5ZFI3eEZsRHUyaTI0LW15clpXMnJYcS15QmN6Qy0xR1NEbVd0QVp6b0taVXVkZXVYNUxsdHdlX2JFUGtKLUFXenJ6eVdxU1I5NF9ud2tPVTFLM3hwbmNZdHl4cFFZdQ?oc=5"
-        },
-        {
-          "title": "Empowering Governance through Digital Infrastructure",
-          "source": "www.pib.gov.in",
-          "published": "16 Nov 22:46 IST",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdzdCR2N0a1ZINnh6NmxPVmotMXpfT05hYjNWa2pjeGk0bXdocktFbmlSaHV6RHpLaGxTRVNvRURoNFlLckJSWjY0Wl9YQUM4ZU1rb3ZvR2h0WHQ4WUhnYzlQRkNQX0lXTktrTURtWWIzcjZncVdKWnJCVkpuMVZNdVY3dzhfZnM?oc=5"
-        },
-        {
-          "title": "India central bank tells Tata Sons to comply with listing rule, letter shows",
-          "source": "Reuters",
-          "published": "16 Nov 22:47 IST",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNHVqWmtHNjNMcTJ1ZzUtdjBKcWpaYjBXN0NhYTgzWUtnMWMzTnVyRV85ek9KR0xwamdQWVRBQTRQb2hkTXN3ZDlmY2V5dF9lZUpGZUxJUmRNZzIyQ1lVQ0x4cTQ4M1Z0NVpvbWV2Y0lSd1hhQkU0VC1JNXVyWE1TeTVIUWFiSDJvSlAzMDRzRkFnLTNPM2c3OEJUTmZQNVd4Nkp3Qk1MbW5aMk05eWFQX0ZiRHZjYmJud2FMYg?oc=5"
-        },
-        {
-          "title": "Markets Are Rallying, But Here's Why You Should Prepare For A Fall",
-          "source": "NDTV",
-          "published": "17 Nov 08:11 IST",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObjNWS1RKejVsUllfdlVia2ZCWm1GNjRPMnhWTFRfNGhEVlkwNTZTQV90dzZQcDhnZ21uTnRGS01ZLXdWT1EyTTZYVmRkQUF3VDJwQ1R0WldCZW1CX0FWR053UWlkSkxzOFVPR2x0b1N1UldqQ0ZwQ25TcHdHc1kzT1ppRVNQWVBhbG8zWTQ5Q1FKOHdiTmZ3VENUMlcwSG1FVEVSaFBRZjJLS3hrcnBHRWU0Z0NCZTJPZ3ZzNkNNZGdzeFRLNWhj0gHPAUFVX3lxTFBFXzdoeGltdU1GX0xybTRIckhpTzd4enZQRzR2R0hreGlqRWFYS0h0SlpFdk1oeVV1cWVZUUVzTW5LdFdZRGxEY3RWNklseHpZLXlLakd5Vmg1bWltaVV4bzhaMUtBeWtNLUhUenc1SE5BWHptaS1fMmdPRUdUNTNvRkpEWVFET3pqczVmT1c5Rkc2SlZ4RU5rMktwMUtiSU1nZno5Ulc0VWZNMGVBYjJhbU9WZGNVa01VS3Z1MmpVelJvVUc0N2pvbVFSLUhaMA?oc=5"
-        },
-        {
-          "title": "Sensex opens higher, Nifty slips marginally despite strong FPI inflows; Asian markets trade lower",
-          "source": "ChiniMandi",
-          "published": "17 Nov 09:55 IST",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWlNUa3BsQVRQaENjLXA3ZEZHcHhDdVJLaGNnX0dQY1ZFQzVqQ0pMN056aDlGWlVSSDNFcGlMcWJoRWRtT0NQb2s4M2wtZWxaWXc0UmN3ank4RURLdWRJUFBBQkVDTXhWdERrb1hsQ2VqaWtwR3NxbVFzUW9sZm9XTlBTVWJZeGZiSnlJeTRzWFN3VGtUY0ZnSU9NbVFocVpLZEV4UGdlUXhvbUZ6NV9rcS1GRE1ndkw0aVlrWlkxczM?oc=5"
-        },
-        {
-          "title": "RBI seeks review of SC ruling on Yes Bank AT1 bonds",
-          "source": "The New Indian Express",
-          "published": "17 Nov 07:53 IST",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNFdfTnoteS1mQ3lNWlNDTjc0emhpMnhqbU5CMHI2MVFCYl9wcjlsZU1Oc29Ka05Yb3lQc2tyV3RITDZXYXBBNXFOM3hJdkUyenU3eDMwLXUwcHJFZDBqRDktQ0o2NXlhTXdtSlZlUXhUTnBWY2k4eEtmRU4wRTB0QS13WFRJYUNNM2FfWDMyaFVGMFdROUJzd3lMczFPSnIzcjhaSlhrbGfSAbYBQVVfeXFMTmxhS2FuOXctUk42YXZnTWhjendTOFNsbEQyS3R3VWFZWmlPSTJRNmp0bW5Ea1N6N1BtRVYwMzVHVHhzbkdoeTlpX2F6d0tubzBvZzFESElETWtyblYwdGw2MlNJc3JocHg3WVhxTm52Z2hqdkFYVTZVTGJSZG5DeTVjRHIxYlJ3aFVGcFFEclIyLV9VLUpyNk5IbHRudGpPdVEyUzN0Nk12VjAtNnoxLTRfUW1OMUE?oc=5"
-        }
+  "daily_brief": {
+    "story_1": {
+      "kicker": "Corporate | Strategic Exit",
+      "headline": "Fairfax to Exit IIFL Finance via ₹3,454 Crore Block Deal",
+      "paragraphs": [
+        "Fairfax is set to completely exit IIFL Finance by selling its entire 13% stake through a block deal valued at ₹3,454 crore. The transaction is priced at ₹611 per share, marking a significant divestment by the investment firm.",
+        "The decision enables Fairfax to monetize its long-standing holding in the non-banking financial company. Market participants are watching the deal closely as it reshapes IIFL Finance's institutional shareholding structure."
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/4e/Fairfax_Financial.svg/330px-Fairfax_Financial.svg.png",
+        "alt": "Fairfax Financial"
+      }
+    },
+    "story_2": {
+      "kicker": "Tech M&A | Acquisition Financing",
+      "headline": "Persistent Systems Secures ₹7,600 Cr for Nagarro Deal",
+      "paragraphs": [
+        "Khaitan & Co has advised Persistent Systems on securing ₹7,600 crore in acquisition financing for its deal involving Nagarro SE. The capital arrangement equips the firm with substantial funding to execute its strategic expansion.",
+        "The deal highlights rising cross-border M&A activity among Indian technology service providers looking to expand globally."
       ]
     },
-    {
-      "label": "Corporate & Deals",
-      "items": [
-        {
-          "title": "Zelio E-Mobility H1 FY27 Results: Revenue Jumps 120% to ₹297 Crore, Net Profit Surges 164%",
-          "source": "Autopunditz",
-          "published": "17 Nov 01:08 IST",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTmZRY0stUDdXOEVNZjhQdW0yakJwZ0xGTEdSOXY2NjZRc2U3MmpDMHZiaTJzWEdkTDhrOXZYSmtaZ1Nra0NXZkNsaTVSWURJLWZ3anlXRkJNaW1oZE5jWVVEVlpNekpvbDdieHhqWkpaTWJOUVBJSXJhanM1Y3JRTkRCcVJaSU10QVg0dzMxR08?oc=5"
-        },
-        {
-          "title": "KRISHNA GVK Luxury Hotels reports ₹334.67 crore revenue in H1 FY2026-27",
-          "source": "Hotelier India",
-          "published": "16 Nov 14:54 IST",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ29IdWxXWmdUenpFdDR6LTJfakJJUGgwLVRIZzZkRlgxaXk3Z2tMWWl0bFc0WjFsR0JQMkxOclNBazN5RHdSN3NhWTVyb0JFVjhuYk1jMW8ySDdXQ0pTckgwOVJ0MFVRQU1qVGxYb3ExeFRyZGYwXzRORkh5Q3p2RXlMOHpuamxMakctSmxnSVQ3MEtUZWN3NldET2VxVFI1VU5UM1NOUHFMbmRjbkVnXzhhY3lxVW1jMnFjdA?oc=5"
-        },
-        {
-          "title": "Cantabil Retail India Reaffirms FY27 Growth Guidance Following H1 Performance",
-          "source": "Sahi",
-          "published": "16 Nov 12:46 IST",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNblNpQ0pEVWRuaVNPUUNiMlFfS0lyOE1lMndZS0U3aWlsNS03TWFvbGVET2J1dHVlWnozWEZfLV9fMy1nVnZtMWlZc1JaRWRJWEN2OWlfSlpKMU1peVZQblJXc1JJUGp6WDFXTkd5S2VpeXJMSThuSGZpbHAtR0wzTDFwT3A0YXRmS0g0SzJlTUNIZWNsZll5Y2d5MWdsUjVqblV5azRn?oc=5"
-        },
-        {
-          "title": "IGL Spirits H1 revenue rises 14.3 pc to Rs 4,837 crore; PAT increases 7.5 pc",
-          "source": "ET Retail",
-          "published": "16 Nov 19:21 IST",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxORHdCSk5RMUJYRFdCX0I2RG5sRDVsdS1rQ3M4MWZqRG5kbUJXa2lZSUpVSlNoZ0RYeDNNMHBMRzdPVGhDemltWkxPRzhuZUZ3dGgzb3gtMmVjekM4XzVGZXBnUnhFRDdadWJzUGswYThwd2lCTkJldEJiV3VzMGlKdGhld1ZicUVoNWl5Nk56aWVtVlpiQkRqdU5ZV3N2dkZmc1VadFV5TkY0Ni1iVmxFUjBwQ3AzTmxOcXktZmdURGRidk8wNnQwSnpxWjE1NmJQZHVzTEhrTndHeF9tdXBNQ3VTa3oyZlpHQ0RQTG4yelZNQdIB9gFBVV95cUxNZElpcXJTTnU1WG5PR0w1bzlXSVVJXzJwQ2NOSXp6cTlya2UyZURSOE50Y1JRcld2UDgyS3BXem5UTlZOWGNTQ1NJb0FYb1YxN0tJdGpLdDI5Zk1BcjJOMlFWaDlxdnhnUFFmbVFRMURSWWRpaVFXVURTRGcwazl0dk9KX1B0aXAyZlFQOHczdlZ5TjN6WnBRTm9zaTZnTUxISlRZSnNTWTRUbFQwYXpETl9SQ0lNRnZfNWNzblVTSUtVMWtsNXFEWFV1QUxEOW5oUzFDSXY5bVJBckRYUHAwWDZxbFQxX01uNlNyeFlDalB2a0pQbVE?oc=5"
-        },
-        {
-          "title": "Earnings call transcript: GE Power India Q2 2026 stock falls 10% after results",
-          "source": "Investing.com India",
-          "published": "16 Nov 16:35 IST",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQlZ3bEh6YUNjVFhkU0ROc09pbFgwNk0tNFRlTnR0ei1sYl9sRjY1TThOTDVYSHhYWE1NLVk1V2JhUUtGaklGaGpQYlgyZmU3QTJEV3hUdUQ2UG0yUFpwcnhIVnlYeGROTW5WSUpDS0RBYVBwc3ZQUmRBV1ZOeVdhcnF3R1g2UDAxd0c1WTZiU09rakY0WEswdjg0ZmwzY3U1d1V0SldJcW9XZjdUcm9ralhEeXM1cmRzMGh1YVc5SGhkcU1oMVpBcGMzZElleUJoT01j?oc=5"
-        }
+    "story_3": {
+      "kicker": "Global Trade | Policy",
+      "headline": "Canada and India Near Finalizing Free Trade Agreement",
+      "paragraphs": [
+        "Canada and India are on the cusp of finalizing a comprehensive free trade deal, according to Canada's high envoy. The upcoming agreement aims to strengthen bilateral economic cooperation and expand market access."
       ]
     },
-    {
-      "label": "Startups",
+    "also_today": {
       "items": [
-        {
-          "title": "Bharat Semi raises ₹215 crore for AI image sensors",
-          "source": "TechGig",
-          "published": "17 Nov 07:13 IST",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQmIzNWxqTmkyWHBvLWZoQTBINXlRRV9TbWw1c29SZkY0R2tTR3AxaENQaDhNU0JENERrQUNtcjJPNTVlVnpLLTN2LUtKTy13Zk1NZ2JfdWpVc2tTQWJ3TFN5cTdONGo1dURLaU1TV0FCcTM3RFNEMThLVm1MYXBwLVg4WVBQb1FsejFUQkVLUzNvb0JDZzN3X0hfejlYYzQ?oc=5"
-        },
-        {
-          "title": "Speciale Invest report finds Indian deep tech funding hit a record $914 million in 2025",
-          "source": "Indian Startup Times",
-          "published": "16 Nov 19:34 IST",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcG1zdVFLbkpERmp3TjdHNi0tV1d4czZaNHVTN2piZlZzU3VEeDluckxnQmszRGwzQm9LcExFQkZKOUJBbEhFR2pXS1NuSkkzd3VFeGFBazZIZUExLUNSNVB0TmJQa09WeVdCY0Q0UFowclZDSHhDVlVXQ0FITkpvNmZRdDV2MEdtZ1pKSV9MYXNWaUtqTUxCOEVxNi11dFI5R0dyR2hxYUM2dWVrd2dBSTYtUEVlbTlHb29sR05HUldlZzQ0Y2c?oc=5"
-        },
-        {
-          "title": "Indian semiconductor startup raises $24 million in seed funding",
-          "source": "The Daily Star",
-          "published": "16 Nov 21:40 IST",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSUY0bEh0YWlHTDJGeVVHTWNpLUJfejAzX19PUHo4MUNRUEpIT3B3UkNjOWNnVWxCbWp1OW01UUlWcm1fSDIzelItZTNrcTFFcktPc0stelNTWEJ6VXoxUjZmcjkzQUp1SktIdVlvTTZDYUtwT1ZYbGJUUDUtSlViXzVzSjFJaTQwdG91WWVScFA1T1lxNFc3aVl3d1g5TTZwdnJzeEdWX2ZvQUJJbGdBT180dzhJemJm?oc=5"
-        },
-        {
-          "title": "India's AI startups raise $1.91 billion across 102 funding rounds in 2026 so far",
-          "source": "ET Enterprise AI",
-          "published": "16 Nov 12:42 IST",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWDFDQjNUeUwxempBQjM2RVQtOVNYSk9EQ3JwRWd6MnNrVnI4WGlDSFE1bGh5WFE4bWJhdWJ0VHVyOVpWMEJGLXppSlRzODBHZDVPQloyamhtUmt6UEZDWGVfVEJxSUlKaHlMVDJPZllDcTkxTkVLSXlXMC1semM3ZkZtSV9FNGVrVDJzLUhjNEdqZXFsMm1mYkdfa2JyVkdsTHNGTHN3OU42WDhsYmhJMkJWN29ob3JwM05uaWVzSWFvT2I2c0pVVkhqS2YzcGJJM1FqNW5mU2RBZDczQ29ET2lQeHdLZjjSAewBQVVfeXFMTWJFVmNOX2dxekJiWFRscG9hd0lDTUk2bGlZSTNJUGlCcnFOLVdjZDJ6ODYyNE5pcHFfellPYlU4QlYxTFBhX0xWQ0lZSy1OU1ZvQndMeE93YU9yRWVqNVM5Zng3Y0pNdXpFRlhHYnF1VDlqaWdKSU9MUmR3WmRpb2FxNnVCQWFKVHdjdS1mY28xQjhlekhrUjJ3SWR2ck01YmluYzN2X3FYV193S19LaDRZQ1lmZzc1WEo3ZFdnLUNGMWhzTzA0YS1obDFOajNyb1lDemx6bFFxMjh2RWtVc1FtV21GbXphOXVldGQ?oc=5"
-        },
-        {
-          "title": "Startup news and updates: daily roundup (November 16, 2026)",
-          "source": "YourStory.com",
-          "published": "16 Nov 20:43 IST",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlREczhoRXpzOHZyRWFSSW53dkhSUkYxYnJPUnVsRmQwczFnVTVtRHZ3Mmp1WmdtTW8wcXpVbXJYQW9FMHpHWkpYb3BTaW9zWmJ0NWJSd3JmT1ctbzBlQmIwSnQ4MWR6V3ViQWFJYVhvTjJ3ZDFGbnlJT21aMGY2NF81Yi1neXk3SDEyZld3?oc=5"
-        },
-        {
-          "title": "Between November 09 and November 14, 2026, as many as 9 Indian startups from diverse sectors raised over $63 million in funding from investors. These sectors include Climatetech, Foodtech, Manufacturing, Sportstech, AI, Renewable Energy, and Fashion.",
-          "source": "Instagram",
-          "published": "15 Nov 23:01 IST",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5VVU5PbjFOaF9GaXFUWlBoTEJsMlFBcmpLc1NvdThmUTVqVm5oT1JZUFFHcGRfUjh2ZWY2aGRERXMxSjZzYUJXQlc3OG9qenM5LVE?oc=5"
-        }
-      ]
-    },
-    {
-      "label": "IPO Desk",
-      "items": [
-        {
-          "title": "Coal India's Mahanadi Coalfields Sets IPO Price Band, Targeting Up to $9.55 Billion Valuation",
-          "source": "BigGo Finance",
-          "published": "17 Nov 05:55 IST",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtSlRETHgzT18zZlNPNXJRbFZDMlo4Y1ZTSFFncHJfT0hLTWhwbi16ZnRsazBvNS12VWV2bzZzTDY1eFVEN290bENETzk2OUdpaWlHZ19ZclR4amhTZVp5bTlLRUdTSW43X3RLdTdZYW9iRERsREE?oc=5"
-        },
-        {
-          "title": "MCL fixes IPO price band at ₹129-136; Coal India to raise ₹9,000 cr.",
-          "source": "The Hindu",
-          "published": "16 Nov 21:12 IST",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeUZmV1Y1al9jdXV5cld1a2Jkek03RFMzS1B1ZE9mUVFCTWtONjd6TzlUUncxVzVvNk41N3oxSGZfcFVlN3pLcU4ybUJpTGZEZHFMU29uaWxodTdJM1h5cjl2R3d3aDl3SEVVdURjOE9hUTNXcFlrTDhkd0Qxa2prbTJlcDY0X3hRNy1yVlFvalJTOUhYZERoOGladVdFdENodmZXNTJWbEJlaGtwQk9NRVpkdUtMZkhjZGNsZUxGVlV0Q3Z20gHLAUFVX3lxTE5Kb1hXX0N3X1Buc0l2enE5SFd4SWdOMlFYU0t5TzR6aXVtdUtLaklNbDJjYmt6MU9EdVR6VUdvb0tWV1NzMnVKdGVhbTVZTFJOQzhwSUVLTmhiaUZPeVRqZ09GbmZlMHltN2psLU5yUXpCSkZiSDU0RGloMmpkV0ZYanNzMmpLdUdhZkFKQllodld4ZDBidHlZVUY1dTVkOGtSY3pOUzBhdkxuYzBBajlYQTR2TEVQWFVqUzFsMjR5c214ZFdfdDk4eXMw?oc=5"
-        },
-        {
-          "title": "Mahanadi Coalfields IPO to open on Nov 19; sets IPO price band at Rs 129-136/sh",
-          "source": "DD News",
-          "published": "16 Nov 10:51 IST",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcFMwQ2JBSnpkcVdCYkMxb010d2V3QThQNlAxWnBldUI0X0lVY3hWczNOX1pTLVJjLW9NdC02SVo3UjkyLWpyc0FXRG9SbU5jWERPWUwybnAtdDh2cnkzdV8tdmVJbG1yanBRQXRnMklGcHl1bHNrbk5WYnkzRFdoSjc4b0xvaTdoN1hxYlVQTEJ5TG9aZE5uSExpUUYweTBRMWVPRVlyMA?oc=5"
-        },
-        {
-          "title": "News by CNBC TV18 on TradingView, 2026-11-17 — cnbctv:f39c99dc9094b:0",
-          "source": "TradingView",
-          "published": "17 Nov 07:31 IST",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxWGRFWENWMEtXMFNrS1FBSm9RQy1pSTl5SzIzUmFVQ1luTnlweXRWY1FLN1JMUWxhQnlxTlU3QlVJTWhvd2U0bktfT3ZEcGJRd2hlOXNUbTNHOVhjUFRnUmdNWUFuUk0?oc=5"
-        },
-        {
-          "title": "Mahanadi Coalfields Ltd's IPO price band set at ₹129-136 per share",
-          "source": "Business Standard",
-          "published": "16 Nov 19:11 IST",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNXJMTl9BTUo0Yjd5MXlWcXR3V0VxSmVYQmhkNUxJcmhsVUp0RnFMLWEzS1h5dUNXN250MDlOZ2VDVUpZMGV2UjRNOEJIQzNqUGxONDU5Y0p6NWJYaThKakV3a3Y3TnA4YlIzdTl2dnpBUE9xZm9CQ2Z5WWNxd3hhM3FmZHliOThlc29TOTVyaFJ1OXI2NUR2aW84czlEbHoxY3JHSjltZm9mODNtVzEwR2l1U29SVzh2TjRwZlR0Y0F6NjFIUnU5QzcxTEMwQk4tbUlqa2pB0gHbAUFVX3lxTE9zMy02OTFicHNGOFhJMEVoNjRERldRVmJoSkl6Q3F0cTVvbzJqcDg1T0FiaVpQS2staVc4YWFuSTdJZVgwNm1rQjFab3c5OUZnXzRQUjNhdE9ud1phcUpTcFJTcXkzX1ZRTmE3R1UyWHdXQ1pKS1dPdW9FNnFKY29VY3ZTTjBIUDViY0VRbmNYTlpxU1haZGRHbmRpVDhFSThrTXNqZldxVWRQa0ZkdzFneHZaT0FvbldKZXoyQnJhSnZlaWJHV3E5WVBfMnNzSEo5bzdlTkxTQUdfcw?oc=5"
-        },
-        {
-          "title": "Coal India unit Mahanadi seeks $9.6 billion valuation in IPO",
-          "source": "Reuters",
-          "published": "16 Nov 08:01 IST",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcmItdko4YXY5SlBHb2MxYXQ3a190cG9xWU02X2tLM1IyVFVoajgtbE5LUkhJNUl1aWFNdFFwY0VLbUk2Nk1zM2gzUUtvZnZsenE4b2NrM05iTjlCLW51VzUzbGRWTnBUVnhMaGJPUVMyREZieFczWG0xNzFZZjJoVXZHUjdHN2poY0thblBpSVNWSFkwUER6cDlYcG9odEtRMzZxblNBcWg1S01MYl9PWVB1Sk0?oc=5"
-        }
-      ]
-    },
-    {
-      "label": "Geopolitics",
-      "items": [
-        {
-          "title": "BlogDescription",
-          "source": "pib.gov.in",
-          "published": "16 Nov 16:17 IST",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBWMmhWemhmcTUyblVtMGpTMHFXWVVZQ2FCT0hqdUVWa252dS01cXdDTXpQR3JrNHNKWXE5STRkanFvbUZvWWk3cmNxZ1FCdC1KbkpzaUFSVWhkY21aeC1naU15X0xrbS1jRzkxNjJzUQ?oc=5"
-        },
-        {
-          "title": "'India's foreign policy has become directionless'",
-          "source": "The Federal",
-          "published": "17 Nov 06:30 IST",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSGltWmtYOTU2OWNTdEg4NlBYRml1cGc0VF9yQnBncXFMYXhBREtsM1JDaXhzclFnWnNzeDVVOXhKQkptbC10clRPOUdJa0pVVEtGSl9Vd3JzOVBuZlpZR0RXTDRCS2MwUGlCZHJQVlV5ZzhsLU1QVlk0VVg5cklVQmZYNUxqQlIxd0Q4T0pYN1oxMGZXOGtTUVNn?oc=5"
-        },
-        {
-          "title": "Egypt and India aim to double trade to $12bn, explore preferential trade deal",
-          "source": "Daily News Egypt",
-          "published": "16 Nov 21:37 IST",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPS1dIc0ttMjd0YVhYdVhJVmVGRE00ckR5TlhKWmtoa0ttLVU1TVVDTVpLelJHMXFFaEN0SERVSl9zUklYX2ZPZkVpRWZVaENWblpUVWY0dW5pbzhXOXBqdmF2WUk1eDRyYURVckJXRmxtbF9GeFVQZjJIRmx5a1U5V1FKNmtkTThKRTFCcTlXUzVQRnVnSlhKbVhIV1UzS1o5dF9NWWEtLTdjUEZOTllYYXpLUjQ?oc=5"
-        },
-        {
-          "title": "INDIA'S MODI ARRIVES IN PH Indian Prime Minister Narendra Modi has arrived in Manila on Monday, Nov. 16, for the 49th ASEAN Summit and Related Summits. He will participate in the ASEAN–India Summit and the East Asia Summit. India has been a dial",
-          "source": "Facebook",
-          "published": "16 Nov 14:55 IST",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcVpHY1JNeV9WUDJfMUhmRTFLTE5NMjRnZjNhclR6LU5ya0tFLWZnek45UGhUTHBKbW5YbXJ2U0hrZjY5ZlpHc2dmMjNNUVRnWkVHOVJBX3JGNk9yb01ObmlSZ1gxaGFONFhHM29mU0FWTmJuUVdSYWFIWWpuTFY4cmJtWUNya1NRUUVyM3pXWUZycFN6blZPZmtiMGFSOTdSczE2VldIa3l0NElOMmFXalVyNmlvT1VXQkVXbmFhSHlqcm9weTYzamlCSUVfcGx0NUgtYWhJZlU?oc=5"
-        },
-        {
-          "title": "India, Egypt discuss steps to boost trade, address non-tariff barriers",
-          "source": "ET Government",
-          "published": "16 Nov 12:33 IST",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcTVybGRfQ2hqYmtDSGNDekxxaFJlWXM2SkkzZjAyYl9GZVUxUFhEVWdPcVVRS2E1ZFRoMFJSWGR6UmduRDZmQmROVjVubGMzVXlYc1haWlVzUmU2ckNVSVRvNWlVSzdmNWV4RDI5X05ya0Rpb1JaR1lwanBkWXVjQy1iN3VSMGtkQVFIUWNySVlJRVI1ZVJxb0w1X3BDM0owRG83UUV2Y2h1QU5UZV9mbGh5UU54bEpycW5vY3BmQ3RncGdsQVpScU5GbWR4T2gyUXlzb3JR0gHaAUFVX3lxTE43Xy12ZVJXVTA3eVhfQk04VU8tMWgxOC00Y3VzS09DTHI1RkdfTDMxRVdaR0lCVzc0NUNQSXZtSnBPQ0N1S1lyQnFmeUVhUmRvcGNRYUpSWG1iXzhBRWNNdXo2bm42Vy1NVHVGV0VYdkJEV1NhS0VibjNmekVCX05QRUlld3haOWQzLUN0SDhiRWNLcy1CVlZObEVFQ2k0OTdXSlI1a2FEWWpfQ003eVV3Y20wUjlFa1RzZGE5QkJ4QmYxOXpXOGFoWWN6dEl4dVBKMm9VOGU1U013?oc=5"
-        },
-        {
-          "title": "Hot Takes: The U.S. Midterms and South Asia",
-          "source": "South Asian Voices",
-          "published": "17 Nov 08:41 IST",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBNl9hRWVUZkUyQzVrUnpfUFBnallZeXNYcWdzekYwMnc3QUhJNjRud3dOcExtQktBbE5QMlM0WE9pM0tzTkdpVmFEYUUydVRKNlNzRmhMUFM3bkdfU2pCQ2oyRGRSVnNudmZpSkVZbW9wSW1CVFFwRUctSktkZnc?oc=5"
-        }
-      ]
-    },
-    {
-      "label": "Global Markets",
-      "items": [
-        {
-          "title": "Gold down 23%, silver plunges 55%: Why precious metals are losing their shine",
-          "source": "Fortune India",
-          "published": "17 Nov 09:46 IST",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZWJ4NmZKbEk0eE9XS1psa05hNjVyekUtaHRMMW91TURQOVRtbGp2M192aVowYzlQOF83N2NpQXRZbHY3cnBsRWxsQkYtU3BYRU1zVkgxQzY5YjRIME50V2NRRDRnVjZ1T1FmaDREdDZhVFBTZVpjbXprUHM0d2x1ZHlIdXl5ZVlNd1JSc0czdnFILWpXNm0tWXFzTnVsTkNGY19qSHZEWURoVVV1cVBjQzZYdlhmNEta0gHGAUFVX3lxTFBkd0EwUXczb0J1YlJaLW0xYnBVTEVRSFNSSGFZLUNWZXVGVzNwT09YZmM5UjBjM0R4LUtNTmtXN0YwMThnS0l4QXpOcWE1MXk3azV1TFZqSjNHbXc3a3BZQ1l5S0I0WnI2U0RtUkNxUFlseTYzZUZreVBENVJ2R091TUVPWGFlUU5lSzFkOUZGVFhVdDYzWXNjUEoyWUw2VjU4Tjh2Uk9FMUFfQzUzM1QyTUY4WUNnMXZSa01vSzJvckM0OGZBQQ?oc=5"
-        },
-        {
-          "title": "Global Oil Inventories Depleted, Next Price Spike Could Roil Economies, Markets",
-          "source": "EnergyNow.com",
-          "published": "17 Nov 04:26 IST",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTzJ2Rmxmd19zVGUwVzJ3bzdEeHp4NTczY0tCM0MxYzlnNUU5UTRIZk45cndabTA0TnNoblRoc1FsWE12bTYtWGVHSWhkdEpBcnNYeDExZC1XWFN5SWhjS20ySEh4M1pHeFJ0RTFaSW9DT0JXYlMzNzdHS1dsWFUxWVZISjNMT045RkZoZmZDOFRHT3pFNHVDTVc0TlJEZVo5cVdMajNZSERCSmJH?oc=5"
-        },
-        {
-          "title": "Oil prices fall as rising supply outweighs Middle East tensions and fears of tanker attacks",
-          "source": "The Times of India",
-          "published": "17 Nov 07:17 IST",
-          "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPX0RaWTRDV3ZKWEtCQXZPOXlWSzlpRHVtU25nWVJoQTdXZkZvaUxhdExqQlJiT0JDYjUwdE9GZEViQ2RrTmtNVnFldkpyWlVOaGFlbHVtbEZ0ZHg5Y01QcEJGOFU0MUowcVlhRHcyTTJ6dmszSE4zTV9SZnlKNnRQdDVGRkljdzJkVzRiRzEyMkJIZzFpLVhrV05qcnZTa3kyeHUtekM1b1VEU2E5dzBidF9kbnI0WWtSZlRsbG9MMXNuS3pvTnNDcU5kdW1EWDhkOHBvZ2FPaksxNW5jbVNKekpuYng3T2xXMFQ0OEp6ZmRVRlctSDhYa2RaLVU2V3M3Y3Ixb1hvZmQ0RkNtVzZkZGJaRdIBmAJBVV95cUxPYzZiTWpmLTViTC1oNy1rNTE2NFNLYjlRcERDcUlsLXFDRFJkYkVocWZsUzhVSlNvTkdxd0VTaU55dWw3RUctZEo3R0ZqMko1R3NhWUZGV0REZnpPRlhuM2xrLW5mak90WmV2VTZYVHk3LUx1eHR6Y2pGV0lfN3ZSUWE2QXpjQVZGdlZoVjlxSFRIZUtPQ21zSXdKOXVUc3pFSS1kVWo3QTY5YzdURWVaUG0tdENOMDZwaTQ5dzdORGNEUEtBdVZxRUlIdmR4ckZRMzQydUxVWmdhSGFPUVYzN1V4TDBBVVZLZWd3M0tCTWFMeDIyOERIU0VLdU45aTZTYVl4LVJYQzN5NndRY3VFaVRaTjVuU3dB?oc=5"
-        },
-        {
-          "title": "Canadian Dollar loses ground to US Dollar as oil prices decline amid Fed rate hike bets",
-          "source": "www.tmgm.com",
-          "published": "17 Nov 07:11 IST",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPNjlGSDZpYmpYQ1Nqbjd2cDV3Z0phei1SRlRmemE1ZVVybjhYSEd4MjNZVGdzMmRna3FkT0paOWtyZzlQX3N0NDRsM0NNbmUzd3FYbUtOS1pNQkVLSzZIWmxnc2xPY05uZGhxazItWXFfLWxRNjhwd1IzVEh6Q1oyMDdhbGMyWi1vdjZsbV9ua2Q2ajdOZUt4a01JY3pKUzR2VUpQa0RGMXNGa2VUa3RZcWdTeXVYdWlCUGxscWNfRVZZSTVLLWhrWmhmQzdIUjdhaU1fUzVVMk1GdmRDRzFUVmw0c29QZ0Qw?oc=5"
-        },
-        {
-          "title": "Brent crude slips below $92, WTI at $83 as supply surplus outlook outweighs Middle East tensions",
-          "source": "Moneycontrol.com",
-          "published": "17 Nov 09:39 IST",
-          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNTEdqVWlLdnZPYVBIdHhwTDFOV0RzTjZyTFp2VHkzSm9GTjUzckdqbkRLRXJhS0dReFM0SncyOEF0S2tPamlBVXhSSVV1SEVZOHJnZlE3NW5raTFqNnljZXMzZllPbDBjQW9kMTJHS2hycGl2UEc2TTNzSzZpUUY5bHk1U0NCUjFIMWJoM19OdmFYTU43SkY0V2ZuNjg3U1RjYU5POXJIOXRSOXJKX3JTeXRoMWZrT3Y5YTV0T3VYbG43VFA1LUw1b3RuM0hNTjBTcFdHa2djanFxZnRsdHJpX1NYbEJCa3IwUExrelJqRzFxUkFBRTNDcjBR0gH6AUFVX3lxTE1MR2pVaUt2dk9hUEh0eHBMMU5XRHNONnJMWnZUeTNKb0ZONTNyR2puREtFcmFLR1F4UzRKdzI4QXRLa09qaUFVeFJJVXVIRVk4cmdmUTc1bmtpMWo2eWNlczNmWU9sMGNBb2QxMkdLaHJwaXZQRzZNM3NLNmlRRjlseTVTQ0JSMUgxYmgzX052YVhNTjdKRjRXZm42ODdTVGNhTk85ckg5dFI5ckpfclN5dGgxZmtPdjlhNXRPdVhsbjdUUDUtTDVvdG4zSE1OMFNwV0drZ2NqcXFmdGx0cmlfU1hsQkJrcjBQTGt6UmpHMXFSQUFFM0NyMFE?oc=5"
-        },
-        {
-          "title": "Prime Minister Narendra Modi makes seven appeals for economic self-reliance",
-          "source": "News On AIR",
-          "published": "17 Nov 06:33 IST",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSnJuSTUyVGJyY2tKa1hrXzVXN0JBVnphY2xnY1J2RlZiWmd1QjlzS205VFk5aVg5NF9RdVdscVREczFvY0thdS1OQUItbVItMlU5bTBHTWRMY3FDNTZNU0l1SWRKRXhGRFFqZlUxb0ZZQ1BMYU9QcVRoT3FQUnRNWDNyOXNXcVJPYndjZ0tXT2k1M0JCUG9SSEVYQldBY1dqcnhwTVl3QVp2b2tOeUdhelIyYjNycXk2QUJWeldXeUxxM25VY0xoWDExQWFvYjdqQk1aT3lrT2wxcWRLZTdwRjVpMWxUQQ?oc=5"
-        }
+        "RBI updates money transfer rules, enabling walk-in NEFT transfers up to ₹50,000.",
+        "Bharat Semi raises ₹215 crore ($24 million) to develop AI image sensors for surveillance.",
+        "Groww shares worth ₹1,905 crore change hands via a block deal alongside Alkem Labs.",
+        "IDBI Bank staff call nationwide strike on Dec 3 over the ₹53,000-crore Fairfax deal."
       ]
     }
-  ],
+  },
+  "geopolitics": {
+    "kicker": "India | East Asia Summit",
+    "headline": "PM Modi Urges Stability, Unveils Seafarer Initiative",
+    "paragraphs": [
+      "At the East Asia Summit, Prime Minister Narendra Modi declared that the world today urgently needs peace, stability, and predictability to sustain economic growth. Highlighting crucial vulnerabilities in maritime trade networks, PM Modi announced a new international initiative designed to protect and secure seafarers across global shipping routes. Simultaneously, India and ASEAN members stressed the importance of regional peace while pledging deeper cooperation in energy transition and the green economy.",
+      "The move arrives as geopolitical conflicts and supply chain disruptions threaten maritime commerce and escalate transit costs for international traders. Establishing reliable maritime security protocols is vital for safeguarding India's sea-based trade, energy imports, and export competitiveness across Asian trade corridors. However, translating high-level diplomatic pledges into enforceable operational security and coordinated green energy infrastructure across diverse ASEAN economies remains a key challenge for regional trade partners."
+    ],
+    "world_60": [
+      "Oil prices ease as US crude stockpile gains temper supply disruption concerns amid Iran war",
+      "MCX gold futures decline nearly 2% to Rs 1.31 lakh; silver drops 3% below Rs 1.70 lakh",
+      "Gold trades near 1-year low as US 10-year Treasury yield breaches 5%, pulling global capital",
+      "Indian rupee set to extend market outperformance on back of swelling foreign capital inflows",
+      "RBI balances inflation pressures and growth signals as analysts debate interest rate pause"
+    ],
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/The_official_portrait_of_Shri_Narendra_Modi%2C_the_Prime_Minister_of_the_Republic_of_India.jpg/330px-The_official_portrait_of_Shri_Narendra_Modi%2C_the_Prime_Minister_of_the_Republic_of_India.jpg",
+      "alt": "Narendra Modi"
+    }
+  },
+  "more": {
+    "big_story": [
+      {
+        "headline": "Nifty Hits Nine-Month High Driven by Banking Sector Surge",
+        "text": "The Nifty 50 index surged to a nine-month high, powered primarily by strong buying momentum in major banking stocks. Investor confidence in India's financial sector continues to rally the broader equity markets. This upward movement reflects sustained domestic liquidity and robust banking sector balance sheets driving economic optimistic sentiment across Indian exchanges.",
+        "source": "The New Indian Express",
+        "published": "18 Nov 08:32 IST"
+      },
+      {
+        "headline": "Self-Reliance in Defence Boosts India's National Security Framework",
+        "text": "An official release highlighted how India's push for self-reliance in defence manufacturing is actively powering its national security architecture. Indigenous production efforts aim to reduce dependence on foreign imports while strengthening domestic industrial capacity. This strategic focus ensures enhanced military readiness and boosts local engineering and manufacturing ecosystems across the country.",
+        "source": "pib.gov.in",
+        "published": "18 Nov 09:07 IST"
+      }
+    ],
+    "venture_vault": [
+      {
+        "headline": "Indian AI Startups Secure $1.91 Billion in Funding Across 102 Rounds",
+        "text": "Artificial intelligence startups in India have raised an impressive $1.91 billion across 102 funding rounds so far in 2026. The massive capital inflow underlines booming investor confidence in domestic machine learning and automation technologies. This surge in venture capital funding positions India as an emerging hub for scalable AI solutions on the global stage.",
+        "source": "ET Enterprise AI",
+        "published": "16 Nov 12:42 IST"
+      },
+      {
+        "headline": "Karta AI Secures ₹28.52 Crore Seed Round Led by Peer Capital",
+        "text": "Tech startup Karta AI raised ₹28.52 crore in a fresh seed funding round co-led by Peer Capital and Cedar Hill Capital. The funding will support the development of its artificial intelligence platform and expand operations. For India's competitive startup landscape, the investment highlights sustained venture interest in early-stage enterprise AI innovations.",
+        "source": "Indian Startup Times",
+        "published": "17 Nov 17:41 IST"
+      }
+    ],
+    "geopolitics": [
+      {
+        "headline": "Quad Leaders Convene Summit to Deepen Indo-Pacific Strategic Ties",
+        "text": "Leaders from Japan, Australia, India, and the United States met for the Quad Leaders’ Summit to deliberate on regional security and economic cooperation. The multilateral engagement underscores India's strategic role in ensuring a free, open, and resilient Indo-Pacific. Stronger diplomatic coordination among member nations provides a counterweight to regional security challenges.",
+        "source": "Ministry of Foreign Affairs of Japan",
+        "published": "17 Nov 20:57 IST"
+      },
+      {
+        "headline": "Global Potato Summit Drives International Agri-Trade Focus to India",
+        "text": "The Global Potato Summit has brought international trade discussions and agricultural investment opportunities directly to India's economic agenda. The event facilitates high-level dialogue on global supply chains, farming innovations, and cross-border trade. For Indian agriculture, enhanced international engagement opens pathways for foreign investments and export opportunities in agri-commodities.",
+        "source": "FreshPlaza",
+        "published": "17 Nov 18:49 IST"
+      }
+    ]
+  },
   "sources": {
-    "market_data": "Yahoo Finance (computed, session 2026-11-17)",
-    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in",
-    "headlines": "Google News RSS, linking to the named publishers"
+    "big_story": [
+      {
+        "title": "Mahanadi Coalfields IPO to open on Nov 19; sets IPO price band at Rs 129-136/sh",
+        "source": "DD News"
+      },
+      {
+        "title": "MCL fixes IPO price band at ₹129-136; Coal India to raise ₹9,000 cr.",
+        "source": "The Hindu"
+      },
+      {
+        "title": "Mahanadi Coalfields IPO: Coal India to offload 10% stake worth ₹8,981 cr; price band fixed at ₹129-136",
+        "source": "Fortune India"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "Bharat Semi raises ₹215 crore for AI image sensors",
+        "source": "TechGig"
+      },
+      {
+        "title": "Bharat Semi Raises $24 Million, Targets Surveillance and Consumer Devices Before Expanding AI Sensors to Robotics",
+        "source": "https://ascendants.in/"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "Fairfax to exit IIFL Finance via ₹3,454-crore block deal at ₹611 a share",
+        "source": "Business Standard"
+      },
+      {
+        "title": "Fairfax to exit IIFL, sell stake for Rs 3,454 crore",
+        "source": "The New Indian Express"
+      },
+      {
+        "title": "Fairfax to sell 13% via 3.4k cr block deal, exit IIFL Finance",
+        "source": "The Times of India"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "Khaitan & Co Advises Persistent Systems on INR 7,600 Crore Acquisition Financing for Nagarro SE Deal | SCC Times",
+        "source": "SCC Online"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "Canada, India on the cusp of finalizing free trade deal, says high envoy",
+        "source": "Castanet"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "RBI (Domestic Money Transfer) Directions, 2026 issued: Walk-in customers can send up to Rs 50,000 via NEFT",
+        "source": "SCC Online"
+      },
+      {
+        "title": "IDBI Bank employees call nationwide strike on December 3 over Rs 53,000-crore Fairfax deal",
+        "source": "Moneycontrol.com"
+      },
+      {
+        "title": "Groww shares worth ₹1,905 crore changes hands in block deal; Alkem Labs sees trade worth ₹300 crore",
+        "source": "Upstox"
+      },
+      {
+        "title": "Bharat Semi raises ₹215 crore for AI image sensors",
+        "source": "TechGig"
+      },
+      {
+        "title": "Bharat Semi Raises $24 Million, Targets Surveillance and Consumer Devices Before Expanding AI Sensors to Robotics",
+        "source": "https://ascendants.in/"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "India, ASEAN stress peace, call for greater cooperation in energy, green economy",
+        "source": "Anadolu Ajansı"
+      },
+      {
+        "title": "East Asia Summit: PM Modi announces international initiative to secure seafarers",
+        "source": "The Times of India"
+      },
+      {
+        "title": "World today needs peace, stability, and predictability: PM Modi at East Asia Summit",
+        "source": "The Hans India"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "Oil prices fall as US stockpile gains ease supply concerns amid Iran war",
+        "source": "Business Standard"
+      },
+      {
+        "title": "MCX gold futures fall nearly 2% to Rs 1.31 lakh, silver slide 3% below Rs 1.70 lakh: How much further...",
+        "source": "Moneycontrol.com"
+      },
+      {
+        "title": "Gold Stuck Near One-Year Low as 10-Year Treasury Yield Breaches 5%, Draining Capital",
+        "source": "BigGo Finance"
+      },
+      {
+        "title": "Indian rupee poised to extend outperformance on swelling inflows, break of key level",
+        "source": "Reuters"
+      },
+      {
+        "title": "India’s RBI Has Reasons to Hike — And Reasons to Wait",
+        "source": "Bloomberg.com"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "Mahanadi Coalfields IPO to open on Nov 19; sets IPO price band at Rs 129-136/sh",
+        "source": "DD News"
+      },
+      {
+        "title": "MCL fixes IPO price band at ₹129-136; Coal India to raise ₹9,000 cr.",
+        "source": "The Hindu"
+      },
+      {
+        "title": "Mahanadi Coalfields IPO opens November 19: Know about the price band, business model, financials & more",
+        "source": "Upstox"
+      },
+      {
+        "title": "Crystal Crop Protection IPO: Dates, Price Band, GMP, Lot Size, and Financials",
+        "source": "India Infoline"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session 2026-11-18)",
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
   }
 }
