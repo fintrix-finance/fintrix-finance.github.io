@@ -870,7 +870,7 @@ const PAGES_HTML = [
 <div class="page-inner">
   <div class="page-header"><span class="brand">FINTRIX</span><span class="section-name">Economy</span><span class="page-num">Page 6</span></div>
   <h1 style="font-size:clamp(26px,5.6vw,36px); margin-bottom:6px;">Economy</h1>
-  <div class="subhead" style="border:none; padding:0; margin-bottom:24px;">A SNAPSHOT OF WHAT SHAPES GROWTH, PRICES AND POLICY &nbsp;&middot;&nbsp; SEPTEMBER 2026</div>
+  <div class="subhead" style="border:none; padding:0; margin-bottom:24px;">A SNAPSHOT OF WHAT SHAPES GROWTH, PRICES AND POLICY &nbsp;&middot;&nbsp; <span id="dyn-ec-date">SEPTEMBER 2026</span></div>
   <div class="story-block">
     <span class="kicker" id="dyn-ec1-kicker">India &nbsp;|&nbsp; Monetary Policy</span><button class="share-btn" type="button" data-share-src="dyn-ec1-head" aria-label="Share this story"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="10.7" x2="15.4" y2="6.3"/><line x1="8.6" y1="13.3" x2="15.4" y2="17.7"/></svg>Share</button>
     <h2 id="dyn-ec1-head">RBI pulls the brake on its dollar drive</h2>
@@ -1372,7 +1372,7 @@ function applyLite(d){
 
   // The Economy page's static month line would misdate a lite issue
   document.querySelectorAll('.subhead').forEach(el => {
-    if(/SEPTEMBER 2026/.test(el.textContent)) el.textContent = 'REAL HEADLINES, LINKED TO SOURCE \u00b7 LAST 48 HOURS';
+    if(/SHAPES GROWTH/.test(el.textContent)) el.textContent = 'REAL HEADLINES, LINKED TO SOURCE \u00b7 LAST 48 HOURS';
   });
 }
 
@@ -1388,6 +1388,7 @@ function applyDynamic(d){
         const wd = ['SUN','MON','TUE','WED','THU','FRI','SAT'][dt.getUTCDay()];
         const mo = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'][dt.getUTCMonth()];
         dynText('dyn-cover-date', wd + ', ' + mo + ' ' + dt.getUTCDate() + ', ' + dt.getUTCFullYear());
+        dynText('dyn-ec-date', mo + ' ' + dt.getUTCFullYear());
       }
     }
   }
@@ -1772,4 +1773,3 @@ updateControls();
 </script>
 </body>
   </html>
-
