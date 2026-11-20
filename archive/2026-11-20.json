@@ -1,0 +1,592 @@
+{
+  "updated_ist": "2026-11-20",
+  "cover": {
+    "big_story_teaser": "Mahanadi Coalfields opens ₹8,981 crore IPO after ₹2,295 crore anchor round.",
+    "venture_teaser": "Humyn Labs secures $47 million from Accel and Prosus for robotics data.",
+    "market_watch_teaser": "LIVE AS OF 9:59 AM IST: Nifty 50 25,524.90 ▲ 0.04%",
+    "daily_brief_teaser": "Fairfax ups IIFL stake, Humyn Labs raises $47M, and India hits Scotch with 162.5% duty.",
+    "inbrief_2": "Fairfax lifts IIFL Capital stake",
+    "inbrief_3": "Humyn Labs bags $47M funding",
+    "inbrief_4": "India slaps 162.5% Scotch duty",
+    "inbrief_1": "Quad Manila Summit and Tariff Talks"
+  },
+  "big_story": {
+    "headline": "Mahanadi Coalfields Opens ₹8,981 Cr IPO",
+    "subhead": "COAL INDIA SUBSIDIARY LAUNCHES PUBLIC ISSUE AFTER SECURING ₹2,295 CRORE ANCHOR CAPITAL",
+    "paragraphs": [
+      "State-owned Coal India subsidiary Mahanadi Coalfields has launched its ₹8,981 crore initial public offering. Ahead of the issue opening, the company successfully raised ₹2,295 crore from anchor investors at a fixed price band of ₹129 to ₹136 per share. Key institutional buyers in the anchor allocation included Life Insurance Corporation of India and Abu Dhabi Investment Authority.",
+      "The strong participation from anchor investors provides an early boost of credibility to the public offering. Large institutional commitments from LIC and ADIA show confidence in the company's fundamentals despite broader market volatility. The ₹8,981 crore issue marks one of the largest public sector equity raises in recent months.",
+      "Investors and market analysts will monitor how retail and non-institutional subscription figures track over the issue period. As the anchor tranche absorbs ₹2,295 crore, all eyes turn to overall demand across bidding categories. The listing performance will offer a clear gauge of investor appetite for state-backed energy assets."
+    ],
+    "pullbox": "Mahanadi Coalfields launches its ₹8,981 crore IPO with strong anchor backing of ₹2,295 crore from major institutional investors including LIC and ADIA at a price band of ₹129-136.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/49/Coal_India_Logo.svg/330px-Coal_India_Logo.svg.png",
+      "alt": "Coal India"
+    }
+  },
+  "explains": {
+    "title": "What is an Anchor Investor in an IPO?",
+    "paragraphs": [
+      "An anchor investor is a qualified institutional buyer who agrees to subscribe to shares before an initial public offering opens to the general public. This mechanism helps companies secure substantial early capital and build market confidence.",
+      "In the Indian primary market, anchor allocations require institutional investors to lock in their commitments at a fixed price ahead of the public issue. Reassuring retail participants, these early allotments demonstrate that major institutional funds have evaluated and backed the offering."
+    ]
+  },
+  "venture_vault": {
+    "paragraphs": [
+      "Bengaluru-based artificial intelligence startup Humyn Labs has raised $47 million in a new funding round. The round was led by venture capital firms Accel and Prosus. Humyn Labs focuses on providing specialised data required by United States robotics companies to train automated systems.",
+      "The capital infusion highlights the growing demand for dedicated training datasets in the global robotics sector. Backed by Accel and Prosus, Humyn Labs plans to scale its operations to feed essential data to international technology partners."
+    ]
+  },
+  "market_watch": {
+    "indian": [
+      {
+        "name": "Sensex",
+        "value": "82,924.03 ▼ 0.12%",
+        "dir": "down",
+        "live": true
+      },
+      {
+        "name": "Nifty 50",
+        "value": "25,524.90 ▲ 0.04%",
+        "dir": "up",
+        "live": true
+      },
+      {
+        "name": "Nifty Bank",
+        "value": "63,207.70 ▲ 0.23%",
+        "dir": "up",
+        "live": true
+      }
+    ],
+    "asian": [
+      {
+        "name": "Nikkei 225",
+        "value": "59,444.21 ▲ 0.71%",
+        "dir": "up",
+        "session_date": "2026-11-19"
+      },
+      {
+        "name": "Hang Seng",
+        "value": "22,841.62 ▼ 1.95%",
+        "dir": "down",
+        "session_date": "2026-11-19"
+      },
+      {
+        "name": "Shanghai Comp.",
+        "value": "3,577.62 ▼ 0.28%",
+        "dir": "down",
+        "session_date": "2026-11-19"
+      }
+    ],
+    "european": [
+      {
+        "name": "FTSE 100",
+        "value": "10,452.68 ▼ 0.93%",
+        "dir": "down",
+        "session_date": "2026-11-19"
+      },
+      {
+        "name": "DAX",
+        "value": "25,463.81 ▼ 1.06%",
+        "dir": "down",
+        "session_date": "2026-11-19"
+      },
+      {
+        "name": "CAC 40",
+        "value": "8,080.74 ▼ 0.81%",
+        "dir": "down",
+        "session_date": "2026-11-19"
+      }
+    ],
+    "us": [
+      {
+        "name": "S&P 500",
+        "value": "7,175.83 ▼ 2.02%",
+        "dir": "down",
+        "session_date": "2026-11-19"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "23,879.20 ▼ 2.25%",
+        "dir": "down",
+        "session_date": "2026-11-19"
+      },
+      {
+        "name": "Dow Jones",
+        "value": "49,097.10 ▼ 2.19%",
+        "dir": "down",
+        "session_date": "2026-11-19"
+      }
+    ],
+    "global": [
+      {
+        "name": "Dollar Index",
+        "value": "103.90 ▲ 0.04%",
+        "dir": "up",
+        "session_date": "2026-11-19"
+      },
+      {
+        "name": "Brent Crude",
+        "value": "$91.98/bbl",
+        "dir": "up",
+        "session_date": "2026-11-19"
+      },
+      {
+        "name": "Gold",
+        "value": "$3,686/oz",
+        "dir": "down",
+        "session_date": "2026-11-19"
+      },
+      {
+        "name": "US 10Y Yield",
+        "value": "5.05% ▼ 1.4 bp",
+        "dir": "down",
+        "session_date": "2026-11-19"
+      }
+    ],
+    "losers": [
+      "Titan",
+      "HDFC Life",
+      "Hindalco"
+    ],
+    "winners": [
+      "State Bank of India",
+      "Cipla",
+      "Tata Consumer"
+    ],
+    "snapshot_strip": "The Nifty rose 0.04% in today's session so far",
+    "date_label": "NOV 2026",
+    "close_label": "LIVE AS OF 9:59 AM IST",
+    "live": true,
+    "session_date": "2026-11-20",
+    "ipo_desk": [
+      {
+        "name": "Foodlink F&B",
+        "note": "F&B group details IPO dates and pricing"
+      },
+      {
+        "name": "Jio",
+        "note": "Street tracks subscription and GMP updates"
+      }
+    ]
+  },
+  "data_desk": {
+    "commodities": [
+      {
+        "name": "Gold",
+        "unit": "$/oz",
+        "price": "3,686",
+        "day": "▼ 1.51%",
+        "week": "▼ 5.14%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,4.2 8.3,4.8 12.4,7.9 16.6,5.1 20.7,4.6 24.8,5.5 29.0,6.3 33.1,6.0 37.2,10.0 41.4,12.4 45.5,11.0 49.7,9.4 53.8,10.4 57.9,11.4 62.1,17.4 66.2,14.2 70.3,15.5 74.5,9.5 78.6,7.6 82.8,9.4 86.9,7.6 91.0,11.4 95.2,12.8 99.3,18.0 103.4,17.9 107.6,19.4 111.7,18.9 115.9,24.4 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-19"
+      },
+      {
+        "name": "Silver",
+        "unit": "$/oz",
+        "price": "44.32",
+        "day": "▼ 1.51%",
+        "week": "▼ 11.31%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,3.8 8.3,5.2 12.4,10.5 16.6,8.6 20.7,8.4 24.8,8.4 29.0,7.4 33.1,7.8 37.2,11.7 41.4,13.2 45.5,12.6 49.7,12.4 53.8,13.6 57.9,15.4 62.1,20.0 66.2,17.6 70.3,19.3 74.5,15.5 78.6,15.4 82.8,16.0 86.9,14.9 91.0,17.0 95.2,15.9 99.3,18.7 103.4,20.1 107.6,23.4 111.7,22.6 115.9,26.0 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-19"
+      },
+      {
+        "name": "Brent Crude",
+        "unit": "$/bbl",
+        "price": "91.98",
+        "day": "▲ 0.03%",
+        "week": "▼ 4.01%",
+        "dir": "up",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,14.9 4.1,13.1 8.3,14.0 12.4,13.6 16.6,13.8 20.7,10.1 24.8,10.4 29.0,11.1 33.1,11.1 37.2,7.1 41.4,3.8 45.5,4.7 49.7,6.5 53.8,5.1 57.9,5.5 62.1,3.0 66.2,14.8 70.3,15.9 74.5,24.1 78.6,20.8 82.8,20.7 86.9,26.0 91.0,27.0 95.2,25.8 99.3,23.0 103.4,23.0 107.6,26.1 111.7,25.5 115.9,26.6 120.0,26.6\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"26.6\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-19"
+      },
+      {
+        "name": "WTI Crude",
+        "unit": "$/bbl",
+        "price": "83.21",
+        "day": "▼ 0.06%",
+        "week": "▼ 6.23%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,17.1 4.1,14.9 8.3,14.5 12.4,13.4 16.6,10.1 20.7,6.1 24.8,3.5 29.0,5.7 33.1,11.0 37.2,8.3 41.4,4.0 45.5,5.7 49.7,7.8 53.8,4.5 57.9,5.4 62.1,3.0 66.2,11.8 70.3,12.2 74.5,21.4 78.6,18.6 82.8,18.3 86.9,22.8 91.0,23.8 95.2,23.2 99.3,20.7 103.4,20.9 107.6,24.1 111.7,23.8 115.9,26.9 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-19"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Embassy REIT",
+        "price": "₹419.99",
+        "day": "▼ 0.50%",
+        "week": "▲ 0.34%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-19"
+      },
+      {
+        "name": "Nexus Select REIT",
+        "price": "₹159.99",
+        "day": "▼ 0.19%",
+        "week": "▲ 0.83%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-18"
+      },
+      {
+        "name": "Mindspace REIT",
+        "price": "₹497.83",
+        "day": "▼ 0.02%",
+        "week": "▼ 0.17%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-11-18"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹320.04",
+        "day": "▲ 0.09%",
+        "week": "▲ 0.09%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-19"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹103.98",
+        "day": "▲ 0.01%",
+        "week": "▼ 1.28%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-11-19"
+      }
+    ],
+    "caps": [
+      {
+        "name": "Nifty 50",
+        "tag": "Large cap",
+        "level": "25,514.30",
+        "day": 1.14,
+        "week": 0.85,
+        "month": 11.47,
+        "day_txt": "▲ 1.14%",
+        "week_txt": "▲ 0.85%",
+        "month_txt": "▲ 11.47%",
+        "dir": "up",
+        "dir_week": "up",
+        "dir_month": "up",
+        "session_date": "2026-11-19"
+      },
+      {
+        "name": "Nifty Midcap 150",
+        "tag": "Mid cap",
+        "level": "22,389.90",
+        "day": -1.14,
+        "week": -0.92,
+        "month": 3.0,
+        "day_txt": "▼ 1.14%",
+        "week_txt": "▼ 0.92%",
+        "month_txt": "▲ 3.00%",
+        "dir": "down",
+        "dir_week": "down",
+        "dir_month": "up",
+        "session_date": "2026-11-18"
+      },
+      {
+        "name": "Nifty Smallcap 250",
+        "tag": "Small cap",
+        "level": "17,667.50",
+        "day": -0.49,
+        "week": -0.73,
+        "month": 0.17,
+        "day_txt": "▼ 0.49%",
+        "week_txt": "▼ 0.73%",
+        "month_txt": "▲ 0.17%",
+        "dir": "down",
+        "dir_week": "down",
+        "dir_month": "up",
+        "session_date": "2026-11-18"
+      }
+    ],
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"93.8\" width=\"22\" height=\"6.2\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"88.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.1</text><rect x=\"62.3\" y=\"95.4\" width=\"22\" height=\"4.6\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"90.4\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.8</text><rect x=\"90.3\" y=\"38.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"33.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+11.5</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"100.0\" width=\"22\" height=\"6.2\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"118.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.1</text><rect x=\"169.0\" y=\"100.0\" width=\"22\" height=\"5.0\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"117.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.9</text><rect x=\"197.0\" y=\"83.8\" width=\"22\" height=\"16.2\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"78.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+3.0</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"100.0\" width=\"22\" height=\"2.6\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"114.6\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.5</text><rect x=\"275.7\" y=\"100.0\" width=\"22\" height=\"3.9\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"115.9\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.7</text><rect x=\"303.7\" y=\"99.1\" width=\"22\" height=\"0.9\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"94.1\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.2</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "funds": [
+      {
+        "name": "ICICI Pru Large Cap",
+        "cat": "Large cap",
+        "nav": "₹125.26",
+        "day": "▲ 1.44%",
+        "week": "▲ 0.88%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-19"
+      },
+      {
+        "name": "MO Midcap 150 Index",
+        "cat": "Mid cap",
+        "nav": "₹41.09",
+        "day": "▲ 1.00%",
+        "week": "▼ 0.64%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-11-19"
+      },
+      {
+        "name": "Nippon Small Cap",
+        "cat": "Small cap",
+        "nav": "₹203.37",
+        "day": "▲ 0.91%",
+        "week": "▼ 0.74%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-11-19"
+      },
+      {
+        "name": "Parag Parikh Flexi Cap",
+        "cat": "Flexi cap",
+        "nav": "₹94.15",
+        "day": "▼ 0.15%",
+        "week": "▼ 0.77%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-11-18"
+      }
+    ],
+    "date_label": "NOV 2026",
+    "close_label": "CLOSE OF NOV 19",
+    "session_date": "2026-11-19",
+    "nav_label": "NAVS AS OF NOV 18"
+  },
+  "daily_brief": {
+    "story_1": {
+      "kicker": "Corporate Finance | M&A",
+      "headline": "Fairfax Raises IIFL Capital Stake to 52.63%",
+      "paragraphs": [
+        "Fairfax has expanded its holdings in IIFL Capital Services to 52.63% following a ₹1,540-crore acquisition. The strategic transaction strengthens the global investor's backing of the Indian financial services firm. It comes amid sustained institutional interest in domestic capital market infrastructure.",
+        "The deal provides significant growth capital to bolster market operations. Industry analysts view the consolidation as a major vote of confidence in the firm's long-term business model."
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/4e/Fairfax_Financial.svg/330px-Fairfax_Financial.svg.png",
+        "alt": "Fairfax Financial"
+      }
+    },
+    "story_2": {
+      "kicker": "Venture Capital | AI Funding",
+      "headline": "Humyn Labs Secures $47 Million Series A",
+      "paragraphs": [
+        "Bengaluru-based artificial intelligence startup Humyn Labs has raised $47 million in a funding round led by Accel and Prosus. The company specializes in building data pipelines used to train robotics systems for US technology clients. The capital injection underscores growing international demand for specialized AI infrastructure.",
+        "Bengaluru continues to lead Indian cities in attracting early-stage tech capital. The fresh funds will be deployed to expand machine learning engineering teams and scale data infrastructure."
+      ]
+    },
+    "story_3": {
+      "kicker": "Trade Policy | Tariffs",
+      "headline": "India Imposes 162.5% Tariff on Bulk Scotch",
+      "paragraphs": [
+        "India has increased import duties on bulk Scotch whisky to 162.5% following ongoing trade talks and disputes. Shares of key liquor companies felt immediate pressure as market participants assessed the impact on domestic bottling margins."
+      ]
+    },
+    "also_today": {
+      "items": [
+        "Grasim Industries posts record quarterly revenue of ₹50,105 crore as EBITDA surges 158%.",
+        "India signs ₹1,976 crore Barak missile upgrade deal with Israel, boosting defense stocks.",
+        "Aurionpro wins ₹100 crore AI data center deal in South India to expand tech presence.",
+        "Motilal Oswal launches $161M fund targeting Indian commercial office development."
+      ]
+    }
+  },
+  "geopolitics": {
+    "kicker": "Quad | Trade & Strategy",
+    "headline": "Quad's Manila Gains Put Spotlight on India-US Tariff Talks",
+    "paragraphs": [
+      "The Quad's Manila summit concluded with substantive gains, reinforcing the strategic coalition's diplomatic momentum in the region. According to foreign policy expert Dhruva Jaishankar, the Quad has survived challenges to secure concrete progress across shared geopolitical objectives. However, broader trade momentum between India and the United States remains heavily dependent on reaching tariff assurances between the two nations.",
+      "While diplomatic ties between Washington and New Delhi remain active, trade negotiators face key hurdles regarding import duties and market access assurances. For Indian businesses and financial markets, tariff stability is essential for cross-border investments and supply chain planning. The focus now shifts to whether the political consensus built in Manila can translate into formal trade agreements."
+    ],
+    "world_60": [
+      "Global gold drops below $3,600/oz as strong US dollar and Fed rate fears trigger sharp metals sell-off.",
+      "New Zealand Parliament clears landmark Free Trade Agreement with India to boost bilateral commercial ties.",
+      "India signs ₹1,976.40 crore deal with Israel for Navy Barak missile system upgrade, lifting BEL and BDL.",
+      "India and UK sign social security pact for employees on short-term overseas assignments.",
+      "Middle East shipping attacks keep crude oil steady while rising bond yields weigh on global stock markets."
+    ],
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
+      "alt": "New Delhi"
+    }
+  },
+  "more": {
+    "big_story": [
+      {
+        "headline": "Yes Bank AT-1 Bond Investors Urge RBI Action",
+        "text": "Bond investors of Indian lender Yes Bank have urged the Reserve Bank of India to focus on investor protection regarding write-downs. The appeal comes as bondholders seek regulatory safeguards for high-risk debt instruments. This development highlights the ongoing struggle between investor safety and banking sector stability in India.",
+        "source": "Reuters",
+        "published": "20 Nov 00:11 IST"
+      },
+      {
+        "headline": "Blackstone Stake Purchase to Boost IIFL Capital",
+        "text": "Fitch Ratings noted that global private equity firm Blackstone acquiring a stake in IIFL Finance will strengthen the non-banking financial company's capital needs. The capital infusion provides a significant confidence boost for Indian NBFCs facing tight liquidity constraints.",
+        "source": "Business Standard",
+        "published": "19 Nov 12:17 IST"
+      }
+    ],
+    "venture_vault": [
+      {
+        "headline": "Boba Bhai Secures $18 Million Series B Funding",
+        "text": "Quick-service restaurant chain Boba Bhai has raised $18 million in a Series B funding round led by Left Lane Capital. The fresh capital will help the startup scale its retail network and product offerings across domestic markets. The deal underscores growing investor confidence in India's expanding consumer food and beverage ecosystem.",
+        "source": "https://ascendants.in/",
+        "published": "19 Nov 18:29 IST"
+      },
+      {
+        "headline": "Nexon Omniverse Raises Rs 485 Crore for Expansion",
+        "text": "Nexon Omniverse, the parent entity behind retail brand Style Union, raised Rs 485 crore in capital to expand its retail footprints beyond Southern India. The funding will allow the apparel retailer to penetrate northern and western regional markets. This move highlights rising consumer demand and investor backing for brick-and-mortar retail in India.",
+        "source": "Indian Startup Times",
+        "published": "19 Nov 18:18 IST"
+      }
+    ],
+    "geopolitics": [
+      {
+        "headline": "UK-India Trade Deal Unlocks Business Opportunities",
+        "text": "British Member of Parliament Uma Kumaran stated that the pending UK-India trade deal will unlock significant commercial opportunities for businesses in both nations. The agreement aims to reduce tariffs and boost cross-border service trade across key sectors. For India, stronger economic integration with the United Kingdom enhances export potential and bilateral investment flows.",
+        "source": "EasternEye",
+        "published": "19 Nov 22:06 IST"
+      },
+      {
+        "headline": "DGFT Organises Puducherry FTA Export Workshop",
+        "text": "The Directorate General of Foreign Trade (DGFT) Chennai held a state-level workshop focused on leveraging Free Trade Agreements to boost exports from Puducherry. Regional exporters received insights on utilizing favorable trade terms and international markets. Empowering union territories like Puducherry is vital for driving India's target of trillion-dollar export growth.",
+        "source": "www.pib.gov.in",
+        "published": "19 Nov 21:45 IST"
+      }
+    ]
+  },
+  "sources": {
+    "big_story": [
+      {
+        "title": "Mahanadi Coalfields IPO: Coal India arm raises ₹2,295 cr from anchors; GMP up 2.3% ahead of issue opening",
+        "source": "Fortune India"
+      },
+      {
+        "title": "Mahanadi Coalfields ₹8,981 cr IPO opens today: Price, lot size, dates",
+        "source": "Business Standard"
+      },
+      {
+        "title": "Mahanadi Coalfields Sets IPO Price Band at Rs. 129-136",
+        "source": "Construction World"
+      },
+      {
+        "title": "Mahanadi Coalfields IPO Opens Today After ₹2,295 Crore Anchor Investment; LIC, ADIA Among Buyers",
+        "source": "Kotak Neo"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "Bengaluru-Based Humyn Labs Raises $47 Million in Funding Led by Accel and Prosus",
+        "source": "Indian Startup Times"
+      },
+      {
+        "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Indian startup Humyn Labs raises $47 million for robot training data — TechCrunch",
+        "source": "UA.NEWS"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "Fairfax raises stake in IIFL Capital Services to 52.63% with Rs 1,540-crore acquisition",
+        "source": "Moneycontrol.com"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "Bengaluru-Based Humyn Labs Raises $47 Million in Funding Led by Accel and Prosus",
+        "source": "Indian Startup Times"
+      },
+      {
+        "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
+        "source": "TechCrunch"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "India raises bulk Scotch whisky tariffs to 162.5% amid trade dispute",
+        "source": "The Drinks Business"
+      },
+      {
+        "title": "India Slaps 162.5% Duty on Bulk Scotch, Liquor Stocks Slide as Trade Pact Faces First Test",
+        "source": "BigGo Finance"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "Motilal Oswal's $161M fund bets on building Indian offices, not buying them",
+        "source": "Dealroom"
+      },
+      {
+        "title": "Grasim Industries posts record quarterly revenue of Rs. 50,105 crore as standalone EBITDA surges 158%",
+        "source": "Indian Chemical News"
+      },
+      {
+        "title": "BEL, BDL Share Prices in Focus Today After India Signs ₹1,976 Crore Barak Missile Upgrade Deal With Israel",
+        "source": "Kotak Neo"
+      },
+      {
+        "title": "Aurionpro wins ₹100 crore AI data center deal in South India | Tap to know more | Inshorts",
+        "source": "Inshorts"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "Explainer: The Quad’s Manila Summit",
+        "source": "India's World"
+      },
+      {
+        "title": "Quad has \"survived\" with substantive gains in Manila, India-US trade talks hinge on tariff assurances: Dhruva Jaishankar",
+        "source": "ANI News"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "Rising Bond Yields May Pose a Challenge to India’s Stock Rally",
+        "source": "Bloomberg.com"
+      },
+      {
+        "title": "Indian Navy’s Barak Missile System: India’s ₹1,976.40 Crore Deal with Israel Covers",
+        "source": "Sanskriti IAS"
+      },
+      {
+        "title": "BEL, BDL Share Prices in Focus Today After India Signs ₹1,976 Crore Barak Missile Upgrade Deal With Israel",
+        "source": "Kotak Neo"
+      },
+      {
+        "title": "New Zealand Parliament clears FTA with India",
+        "source": "DD News"
+      },
+      {
+        "title": "India and UK sign agreement on social security for employees on short-term overseas assignments",
+        "source": "DD News"
+      },
+      {
+        "title": "Oil prices steady as Middle East shipping attacks counter supply surplus outlook",
+        "source": "Global Banking & Finance Review"
+      },
+      {
+        "title": "Global Gold Falls Below $3,600/oz, Shedding Nearly $100 in a Single Session",
+        "source": "BigGo Finance"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "Foodlink F&B Holdings IPO Date, Price Band, Issue Size",
+        "source": "IPO Watch"
+      },
+      {
+        "title": "Jio IPO Live Tracker – Subscription, GMP & Latest Updates",
+        "source": "Multibagg AI"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session 2026-11-20)",
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
+  }
+}
