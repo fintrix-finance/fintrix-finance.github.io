@@ -1,61 +1,61 @@
 {
-  "updated_ist": "2026-11-22",
+  "updated_ist": "2026-11-23",
   "cover": {
-    "big_story_teaser": "RBI Governor Sanjay Malhotra calls on banks to scale up lending to micro enterprises.",
-    "venture_teaser": "Space startup SatSure raises ₹60 crore from govt space fund to boost satellite tech.",
-    "market_watch_teaser": "As of 2026-11-20 close: Nifty 50 25,800.60 ▲ 1.12%",
-    "daily_brief_teaser": "Nepal PM visits India, RBI chief talks loans, Rupee climbs past 93/USD",
-    "inbrief_2": "Nepal PM’s India Visit Signals",
-    "inbrief_3": "Small Businesses Can Deliver 100",
-    "inbrief_4": "Rupee Climbs Past 93/USD as Shorts",
-    "inbrief_1": "US Trade Deal Pressure Eases"
+    "big_story_teaser": "India and the EU prepare to sign a historic free trade agreement on December 16.",
+    "venture_teaser": "Space startup SatSure secures ₹60 crore to scale satellite technology.",
+    "market_watch_teaser": "LIVE AS OF 9:58 AM IST: Nifty 50 25,662.85 ▼ 0.53%",
+    "daily_brief_teaser": "RBI rate hike pressure, Tata Steel deal, and startup funding surge",
+    "inbrief_2": "RBI Rate Hike Pressure Builds",
+    "inbrief_3": "APL Apollo ₹28,000 Cr Tata Deal",
+    "inbrief_4": "Startup Funding Surges to $290M",
+    "inbrief_1": "India-Canada Eye $50B Trade Pact"
   },
   "big_story": {
-    "headline": "RBI Urges Push for Small Business Loans",
-    "subhead": "GOVERNOR SANJAY MALHOTRA CALLS ON BANKS TO EXPAND CREDIT TO MICRO ENTERPRISES",
+    "headline": "India-EU Trade Deal Nears",
+    "subhead": "INDIA AND THE EU ARE SET TO SIGN A LANDMARK FREE TRADE AGREEMENT ON DECEMBER 16",
     "paragraphs": [
-      "Reserve Bank of India Governor Sanjay Malhotra has urged commercial banks across the nation to step up lending to small and micro enterprises. Speaking on the critical role of grassroots capital, the central bank chief highlighted that small businesses can deliver up to 100 times more economic impact from institutional loans. The call comes as policymakers seek greater economic gains through broader credit distribution across India's developing commercial ecosystem.",
-      "Micro and small enterprises have historically faced tight credit bottlenecks despite serving as vital engines for employment and local productivity. Governor Malhotra pointed out that expanding formal banking channels to these enterprises will unlock significant commercial potential while enhancing overall financial stability. By encouraging lenders to look beyond traditional corporate credit, the RBI aims to deepen financial inclusion across tier-two and tier-three markets.",
-      "As banks evaluate their credit allocation models, the central bank's stance signals a strategic pivot toward priority micro-lending. Analysts expect commercial lenders to introduce tailored credit products and streamlined underwriting processes for small business owners in the coming quarters. Market observers will be closely tracking quarterly credit growth figures to assess whether banks effectively answer the central bank chief's call."
+      "India and the European Union are set to sign a long-awaited free trade agreement on December 16. The landmark pact is expected to be finalized during Prime Minister Narendra Modi's visit to Brussels. This announcement marks a major milestone in bilateral economic relations following extended diplomatic negotiations.",
+      "The impending agreement aims to deepen commercial ties and streamline cross-border trade across key sectors between India and European Union member states. Official discussions have intensified ahead of the summit to finalize key clauses of the pact. Analysts note that enhanced access to the European market could significantly benefit Indian exporters.",
+      "Beyond merchandise trade, the bilateral deal is anticipated to boost strategic investment flows and institutional cooperation. Observers will closely monitor the signing event on December 16 for specific tariff schedules and sector-specific terms. A successful agreement may also set a precedent for India's future trade negotiations worldwide."
     ],
-    "pullbox": "Small business credit can generate up to 100 times more economic impact, prompting the RBI to urge banks to expand lending to micro enterprises.",
+    "pullbox": "The long-awaited India-EU free trade pact is scheduled for signing on December 16 during PM Modi's Brussels visit, signaling a major boost for bilateral commercial ties.",
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
-      "alt": "Reserve Bank of India"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg/3840px-Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg",
+      "alt": "European Commission"
     }
   },
   "explains": {
-    "title": "What is Priority Sector Lending?",
+    "title": "What is a Free Trade Agreement?",
     "paragraphs": [
-      "Priority Sector Lending is a framework mandated by the central bank that requires commercial banks to allocate a specific portion of their total credit to key high-impact economic sectors. These designated sectors typically include agriculture, small enterprises, social infrastructure, and low-cost housing.",
-      "Under these rules, banks must ensure that targeted loans reach borrowers who might otherwise struggle to secure capital from traditional commercial channels. If a bank fails to meet its required sector targets, it must deposit the shortfall into specified government development funds."
+      "A Free Trade Agreement (FTA) is a pact between two or more countries to reduce or eliminate tariffs, quotas, and trade barriers on imported goods and services. Its core objective is to make international commerce smoother and cheaper for businesses operating within the partner nations.",
+      "In practice, FTAs enable participating economies to gain preferential access to partner markets while establishing clear standards for investments, intellectual property, and dispute resolution. While FTAs expand export opportunities, domestic industries must adapt to stronger competitive pressures from abroad."
     ]
   },
   "venture_vault": {
     "paragraphs": [
-      "Indian space tech startup SatSure has raised ₹60 crore ($7 million) in fresh capital from the government-backed space fund Antariksh Venture Capital Fund. The Earth observation and satellite technology firm relies on satellite data and artificial intelligence to deliver geospatial insights across sectors.",
-      "The startup is now targeting a larger ₹200 crore Series B funding round to further scale its satellite fleet and advanced analytical capabilities. By integrating satellite imagery with deep-tech algorithms, SatSure aims to expand its market footprint while building critical space infrastructure in India."
+      "Indian space technology startup SatSure has raised ₹60 crore in funding to advance its proprietary satellite technology. The platform leverages satellite imagery and geospatial data to deliver analytics for agriculture, banking, and infrastructure monitoring. The company plans to deploy the capital to enhance its core tech stack and satellite capabilities.",
+      "The funding round highlights rising investor interest in India's privatizing commercial space sector. With fresh capital secured, SatSure aims to expand its earth observation applications and extend its reach across high-growth domestic and international markets."
     ]
   },
   "market_watch": {
     "indian": [
       {
         "name": "Sensex",
-        "value": "83,919.71 ▲ 1.08%",
-        "dir": "up",
-        "session_date": "2026-11-20"
+        "value": "83,615.68 ▼ 0.36%",
+        "dir": "down",
+        "live": true
       },
       {
         "name": "Nifty 50",
-        "value": "25,800.60 ▲ 1.12%",
-        "dir": "up",
-        "session_date": "2026-11-20"
+        "value": "25,662.85 ▼ 0.53%",
+        "dir": "down",
+        "live": true
       },
       {
         "name": "Nifty Bank",
-        "value": "64,635.20 ▲ 2.49%",
-        "dir": "up",
-        "session_date": "2026-11-20"
+        "value": "63,596.10 ▼ 1.61%",
+        "dir": "down",
+        "live": true
       }
     ],
     "asian": [
@@ -121,14 +121,14 @@
     "global": [
       {
         "name": "Dollar Index",
-        "value": "103.84 ▼ 0.06%",
+        "value": "103.81 ▼ 0.09%",
         "dir": "down",
         "session_date": "2026-11-20"
       },
       {
         "name": "Brent Crude",
-        "value": "$89.95/bbl",
-        "dir": "down",
+        "value": "$92.57/bbl",
+        "dir": "up",
         "session_date": "2026-11-20"
       },
       {
@@ -154,18 +154,23 @@
       "Axis Bank",
       "Max Healthcare"
     ],
-    "snapshot_strip": "Banks and Realty led; Media and Metal lagged as the Nifty rose 1.12%",
+    "snapshot_strip": "Banks and Realty led; Metal and Energy lagged as the Nifty fell 0.53%",
     "date_label": "NOV 2026",
-    "close_label": "AS OF FRIDAY'S CLOSE, NOV 20",
-    "session_date": "2026-11-20",
+    "close_label": "LIVE AS OF 9:58 AM IST",
+    "live": true,
+    "session_date": "2026-11-23",
     "ipo_desk": [
       {
-        "name": "Mahanadi Coalfields",
-        "note": "Subscribed 48% on Day 2"
+        "name": "Foodlink F&B Holdings",
+        "note": "₹361 cr IPO opens at ₹181-₹191 price band"
       },
       {
-        "name": "Foodlink F&B Holdings",
-        "note": "IPO opens Nov 26 for Rs 192 crore"
+        "name": "Mahanadi Coalfields",
+        "note": "Unit valued near ₹90,000 cr; Day 2 sub 48%"
+      },
+      {
+        "name": "Acme India Industries",
+        "note": "Sets ₹121.69 crore IPO issue"
       }
     ]
   },
@@ -185,34 +190,34 @@
       {
         "name": "Silver",
         "unit": "$/oz",
-        "price": "41.07",
-        "day": "▼ 7.33%",
-        "week": "▼ 16.24%",
+        "price": "41.03",
+        "day": "▼ 7.41%",
+        "week": "▼ 16.31%",
         "dir": "down",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,4.2 8.3,8.8 12.4,7.2 16.6,7.0 20.7,7.0 24.8,6.1 29.0,6.4 33.1,9.8 37.2,11.1 41.4,10.6 45.5,10.4 49.7,11.4 53.8,13.0 57.9,16.9 62.1,14.9 66.2,16.3 70.3,13.1 74.5,13.0 78.6,13.5 82.8,12.5 86.9,14.4 91.0,13.4 95.2,15.8 99.3,17.0 103.4,19.8 107.6,19.2 111.7,22.1 115.9,22.9 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,4.2 8.3,8.8 12.4,7.2 16.6,7.0 20.7,7.0 24.8,6.1 29.0,6.4 33.1,9.8 37.2,11.1 41.4,10.6 45.5,10.3 49.7,11.4 53.8,13.0 57.9,16.9 62.1,14.8 66.2,16.3 70.3,13.1 74.5,12.9 78.6,13.5 82.8,12.5 86.9,14.4 91.0,13.4 95.2,15.8 99.3,17.0 103.4,19.8 107.6,19.1 111.7,22.0 115.9,22.9 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
         "session_date": "2026-11-20"
       },
       {
         "name": "Brent Crude",
         "unit": "$/bbl",
-        "price": "89.95",
-        "day": "▼ 2.21%",
-        "week": "▼ 6.15%",
-        "dir": "down",
+        "price": "92.57",
+        "day": "▲ 0.64%",
+        "week": "▼ 3.41%",
+        "dir": "up",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,12.5 4.1,13.4 8.3,13.0 12.4,13.2 16.6,9.7 20.7,10.0 24.8,10.7 29.0,10.6 33.1,6.9 37.2,3.8 41.4,4.6 45.5,6.3 49.7,5.0 53.8,5.4 57.9,3.0 62.1,14.2 66.2,15.2 70.3,23.0 74.5,19.8 78.6,19.7 82.8,24.7 86.9,25.7 91.0,24.6 95.2,21.9 99.3,21.9 103.4,24.8 107.6,24.2 111.7,25.3 115.9,25.2 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,13.1 4.1,14.0 8.3,13.6 12.4,13.8 16.6,10.1 20.7,10.4 24.8,11.1 29.0,11.1 33.1,7.1 37.2,3.8 41.4,4.7 45.5,6.5 49.7,5.1 53.8,5.5 57.9,3.0 62.1,14.8 66.2,15.9 70.3,24.1 74.5,20.8 78.6,20.7 82.8,26.0 86.9,27.0 91.0,25.8 95.2,23.0 99.3,23.0 103.4,26.1 107.6,25.5 111.7,26.6 115.9,26.6 120.0,26.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"26.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
         "session_date": "2026-11-20"
       },
       {
         "name": "WTI Crude",
         "unit": "$/bbl",
-        "price": "83.41",
-        "day": "▲ 0.24%",
-        "week": "▼ 5.82%",
+        "price": "83.98",
+        "day": "▲ 0.93%",
+        "week": "▼ 5.17%",
         "dir": "up",
         "dir_week": "down",
-        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,14.9 4.1,14.5 8.3,13.4 12.4,10.1 16.6,6.1 20.7,3.5 24.8,5.7 29.0,11.0 33.1,8.3 37.2,4.0 41.4,5.7 45.5,7.8 49.7,4.5 53.8,5.4 57.9,3.0 62.1,11.8 66.2,12.2 70.3,21.4 74.5,18.6 78.6,18.3 82.8,22.8 86.9,23.8 91.0,23.2 95.2,20.7 99.3,20.9 103.4,24.1 107.6,23.8 111.7,26.9 115.9,27.0 120.0,26.8\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"26.8\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,14.9 4.1,14.5 8.3,13.4 12.4,10.1 16.6,6.1 20.7,3.5 24.8,5.7 29.0,11.0 33.1,8.3 37.2,4.0 41.4,5.7 45.5,7.8 49.7,4.5 53.8,5.4 57.9,3.0 62.1,11.8 66.2,12.2 70.3,21.4 74.5,18.6 78.6,18.3 82.8,22.8 86.9,23.8 91.0,23.2 95.2,20.7 99.3,20.9 103.4,24.1 107.6,23.8 111.7,26.9 115.9,27.0 120.0,26.1\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"26.1\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
         "session_date": "2026-11-20"
       }
     ],
@@ -354,60 +359,60 @@
       }
     ],
     "date_label": "NOV 2026",
-    "close_label": "AS OF FRIDAY'S CLOSE, NOV 20",
+    "close_label": "CLOSE OF NOV 20",
     "session_date": "2026-11-20",
     "nav_label": "NAVS AS OF NOV 20"
   },
   "daily_brief": {
     "story_1": {
-      "kicker": "Diplomacy | Energy & Economy",
-      "headline": "Nepal PM’s India Visit Signals Fresh Momentum",
+      "kicker": "India | Monetary Policy",
+      "headline": "RBI Faces December Rate Hike Pressure on Inflation Breach",
       "paragraphs": [
-        "The recent diplomatic engagement between India and Nepal has taken a fresh turn with the Nepal Prime Minister's official visit focusing closely on energy, economy, and strategic bilateral cooperation. Observers note that this high-level meeting sets the stage for stronger cross-border infrastructure and trade ties in the region.",
-        "As both nations seek to deepen their economic partnership, new avenues for joint energy ventures and regional stability are being actively explored. This visit underscores the ongoing commitment to mutual growth and diplomatic engagement between the two neighboring countries."
+        "India's central bank is expected to raise interest rates in December following an inflation breach, with analysts predicting a final rate hike could follow in February. Inflation pressures have raised concerns that the RBI cannot afford a cautious stance in its upcoming policy review.",
+        "Markets are closely tracking monetary policy signals as rate hike expectations grow. Higher borrowing costs could impact credit expansion and corporate margins in coming quarters."
       ],
       "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/The_Prime_Minister%2C_Shri_Narendra_Modi_emplanes_for_Delhi_after_2_Day_visit_to_Kathmandu%2C_Nepal_on_August_31%2C_2018.JPG/960px-The_Prime_Minister%2C_Shri_Narendra_Modi_emplanes_for_Delhi_after_2_Day_visit_to_Kathmandu%2C_Nepal_on_August_31%2C_2018.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "The Prime Minister, Shri Narendra Modi emplanes for Delhi after 2 Day visit to Kathmandu, Nepal on August 31, 2018"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+        "alt": "Reserve Bank of India"
       }
     },
     "story_2": {
-      "kicker": "Banking | Microfinance",
-      "headline": "Small Businesses Can Deliver 100 Times More Impact",
+      "kicker": "India | Mergers & Acquisitions",
+      "headline": "APL Apollo to Acquire Tata Steel Units for ₹28,000 Crore",
       "paragraphs": [
-        "The Reserve Bank of India chief recently highlighted that small businesses hold the potential to deliver one hundred times more impact from loans compared to larger counterparts. Speaking on the critical role of micro and small enterprises, leadership emphasized the need for targeted financial support to drive grassroots economic growth.",
-        "Banking institutions are being urged to scale up credit access for these smaller entities to maximize employment generation and financial inclusion across the country."
+        "APL Apollo Tubes has approved a major acquisition of two Tata Steel businesses in a deal valued at ₹28,000 crore. The strategic transaction highlights ongoing consolidation in domestic structural steel and piping sectors.",
+        "Shares of both APL Apollo and Tata Steel came into sharp market focus following the announcement, reflecting investor interest in the massive asset transfer."
       ]
     },
     "story_3": {
-      "kicker": "Currency | Markets",
-      "headline": "Rupee Climbs Past 93/USD as Shorts Unwind",
+      "kicker": "Startups | Venture Capital",
+      "headline": "Indian Startup Funding Surges to $290 Million in a Week",
       "paragraphs": [
-        "The Indian Rupee recently strengthened past the 93 mark against the US Dollar as international investors sought shelter in domestic equities and market participants unwound their short positions."
+        "Venture capital funding for Indian startups surged 826% in a single week to $290 million as 23 companies raised fresh capital. The rebound signals renewed investor appetite for early-stage tech ventures and social impact startups."
       ]
     },
     "also_today": {
       "items": [
-        "CII proposes 15 financial sector reforms to support India's $26.5 trillion economy goal by 2047",
-        "Global gold prices plunge nearly 10% in a week with the $3,500/oz threshold wobbling",
-        "Frontier Springs Q2FY27 results show net profit up 35.8% year-on-year to ₹21.33 crore",
-        "Indian startup funding surges 826% to $290 million as 23 startups raise capital this week"
+        "Sharda Motor posted a 33% rise in Q2FY27 net profit to ₹99 crore.",
+        "Space startup SatSure secured ₹60 crore to advance satellite tech.",
+        "River Mobility FY26 revenue jumped 4.2X to ₹432 crore as losses grew.",
+        "Gold prices fell 11% in a week to ₹1.21 lakh, touching one-year low."
       ]
     }
   },
   "geopolitics": {
-    "kicker": "India x US | Trade Deal",
-    "headline": "Less Pressure on US Trade Deal Post Midterm Elections",
+    "kicker": "India x Canada | Trade",
+    "headline": "India, Canada Wrap 6th Round of $50 Billion Trade Talks",
     "paragraphs": [
-      "India faces reduced pressure to finalize its trade deal with the US following the midterm elections, according to Emkay Global. Donald Trump praised India's economic growth while pushing for lower US interest rates. The evolving political landscape gives New Delhi additional flexibility in negotiating key commercial terms.",
-      "However, US inflation reached 3.6% in September, complicating interest rate decisions for the Federal Reserve. Indian trade strategists now have extra time to align domestic export policies before commitments are locked in. The outcome of these prolonged discussions will shape bilateral commerce between the two countries."
+      "India and Canada have concluded the sixth round of negotiations for a comprehensive bilateral trade agreement. The proposed pact aims to expand commercial trade between the two nations to $50 billion. Discussions focused on deepening market access, opening services sectors, and streamlining bilateral investment frameworks.",
+      "While progress was achieved across multiple negotiation tracks, final terms on tariffs and trade barriers remain to be settled. Reaching the $50 billion trade target will require balancing domestic economic interests with long-term strategic access for Indian exporters."
     ],
     "world_60": [
-      "Global gold prices plunged nearly 10% in a week, testing the $3,500/oz support level.",
-      "Indian gold prices fell 32% from their January peak to ₹1.22 lakh per unit.",
-      "Wall Street slumped on 20 November 2026 as the Nasdaq plummeted 5.13% into correction territory.",
-      "US inflation was 3.6% in September, creating a tough call for the Fed despite calls for rate cuts.",
-      "JM Financial projects global crude oil prices may fall to $70 per barrel by end-2027."
+      "Oil prices fall as global selloff weighs on sentiment, while Iran war attacks limit losses.",
+      "Gold drops 11% to Rs 1.21 lakh and silver plunges 16.2% to Rs 1.47 lakh in a weekly slide.",
+      "Egypt gold prices drop EGP 500 in one week following global precious metals downturn.",
+      "PM Modi advocates peace, stability and cooperation at the 21st East Asia Summit in Manila.",
+      "India and Bulgaria review bilateral ties, assessing IMEC progress and Black Sea security."
     ],
     "image": {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
@@ -417,129 +422,183 @@
   "more": {
     "big_story": [
       {
-        "headline": "Chubu Electric Invests ₹1,350 Crore in Continuum Green",
-        "text": "Japan-based Chubu Electric has acquired a ₹1,350 crore stake in Continuum Green Energy to expand its footprint in the country's clean energy landscape. This strategic investment provides capital support to scale green infrastructure projects across India. The deal highlights growing foreign corporate interest in driving India's transition toward sustainable renewable energy.",
-        "source": "News On AIR",
-        "published": "22 Nov 06:03 IST"
+        "headline": "Gift Nifty Signals 175-Point Gap-Up Opening for Indian Markets",
+        "text": "Gift Nifty signaled a 175-point gap-up opening for domestic equity benchmarks despite prevailing global market volatility. The positive indication underscores resilient investor sentiment in Indian equities even as international markets face turbulence. For finance enthusiasts, this strong momentum highlights India's decoupled market strength and robust domestic capital inflows amid global uncertainty.",
+        "source": "BusinessLine",
+        "published": "23 Nov 07:14 IST"
+      },
+      {
+        "headline": "Private Capital Crucial for India's Space Goals: Lt Gen A K Bhatt",
+        "text": "Lt General A K Bhatt emphasized that India's expanding space ambitions critically depend on private investment and global strategic partnerships. The call highlights the transition of the nation's space sector toward commercialization and private enterprise involvement. Strengthening private participation will accelerate innovation, build infrastructure, and position India as a global hub for space technology.",
+        "source": "ET Government",
+        "published": "23 Nov 08:51 IST"
+      }
+    ],
+    "venture_vault": [
+      {
+        "headline": "VitusCare Raises $3 Million to Scale Tech and Healthcare Network",
+        "text": "Dialysis care startup VitusCare successfully raised $3 million in funding to strengthen its technological capabilities and expand its healthcare network. The capital influx will enable the company to broaden renal care access across underserved regions in India. For the startup ecosystem, this funding round underscores growing investor confidence in scalable healthtech solutions addressing critical medical gaps.",
+        "source": "Indian Retailer",
+        "published": "21 Nov 14:56 IST"
+      },
+      {
+        "headline": "OrbitAID Plans India's First Space Refuelling Demo Before 2027",
+        "text": "Spacetech startup OrbitAID announced plans to conduct India's first space refuelling demonstration ahead of its upcoming 2027 mission. The ambitious test aims to validate in-orbit satellite servicing capabilities. Mastering satellite refuelling technology can significantly extend satellite lifespans and cut mission costs, bolstering India's position as an emerging pioneer in commercial space infrastructure.",
+        "source": "Business Standard",
+        "published": "22 Nov 17:49 IST"
+      }
+    ],
+    "geopolitics": [
+      {
+        "headline": "India and Netherlands Pursue Deeper Defence and Tech Partnership",
+        "text": "India and the Netherlands are strengthening bilateral cooperation spanning semiconductor tech, defence, and water management sectors. The collaborative effort aims to deepen technical synergies and fortify critical supply chains between the two nations. For India, partnering with Dutch industry leaders advances domestic high-tech manufacturing ambitions and strengthens economic diplomacy in Europe.",
+        "source": "Open Magazine",
+        "published": "23 Nov 01:27 IST"
+      },
+      {
+        "headline": "Nepal PM Balendra Shah Leads 86-Member Delegation Visit to India",
+        "text": "Nepal Prime Minister Balendra Shah arrived in India leading an 86-member delegation to enhance bilateral diplomacy and economic relations. The high-level visit focuses on deepening regional trade, infrastructure connectivity, and cross-border cooperation. Sustaining robust ties with Nepal is pivotal for India’s neighborhood-first policy and strategic security balance in South Asia.",
+        "source": "NDTV",
+        "published": "22 Nov 22:24 IST"
       }
     ]
   },
   "sources": {
     "big_story": [
       {
-        "title": "Small businesses can deliver 100 times more impact from loans: RBI chief",
-        "source": "Business Standard"
+        "title": "India-EU trade deal likely to be signed on December 16",
+        "source": "The Economic Times"
       },
       {
-        "title": "RBI Governor Sanjay Malhotra urges banks to step up lending to small, micro enterprises for greater economic gains",
-        "source": "TradingView"
+        "title": "India-EU trade pact likely to be signed on December 16",
+        "source": "The Hindu"
       },
       {
-        "title": "RBI Guv Sanjay Malhotra urges banks to step up small-business lending for greater economic gains",
-        "source": "ThePrint"
+        "title": "India, EU likely to sign long-awaited free trade deal on December 16",
+        "source": "Moneycontrol.com"
+      },
+      {
+        "title": "PM Modi's Brussels visit likely to seal India-EU trade pact, agreement to be signed on Dec 16",
+        "source": "Telegraph India"
       }
     ],
     "venture_vault": [
       {
-        "title": "Indian EO Startup SatSure Raises $21M, With Sovereign Fund Investment",
-        "source": "Via Satellite"
-      },
-      {
-        "title": "Indian space startup SatSure raises ₹60 crore from govt-backed space fund",
-        "source": "Business Standard"
-      },
-      {
-        "title": "SatSure Raises $7 Million from Antariksh Venture Capital Fund to Expand Satellite Technology",
-        "source": "Indian Startup Times"
-      },
-      {
-        "title": "SatSure targets ₹200 cr in Series B to expand satellite and AI capabilities",
-        "source": "Business Standard"
+        "title": "Indian space startup SatSure gets Rs 60 crore to advance satellite technology",
+        "source": "India Today"
       }
     ],
     "daily_brief_1": [
       {
-        "title": "Energy, Economy and Engagement: Nepal PM’s India Visit Signals Fresh Momentum",
-        "source": "India Narrative"
+        "title": "India's RBI expected to raise rates in December, deliver final hike in February",
+        "source": "TradingView"
+      },
+      {
+        "title": "India's inflation breach: Why the RBI can't afford a timid December",
+        "source": "The Federal"
       }
     ],
     "daily_brief_2": [
       {
-        "title": "Small businesses can deliver 100 times more impact from loans: RBI chief",
-        "source": "Business Standard"
+        "title": "Tata Steel, APL Apollo shares in focus after ₹28,000 crore deal; key details explained",
+        "source": "Upstox"
+      },
+      {
+        "title": "APL Apollo Tubes to acquire two Tata Steel businesses for Rs 28,000 crore",
+        "source": "The Indian Express"
+      },
+      {
+        "title": "APL Apollo Tubes Limited approves Rs 28,000 crore Tata Steel deal",
+        "source": "Multibagg AI"
       }
     ],
     "daily_brief_3": [
       {
-        "title": "Rupee climbs past 93/USD as investors seek shelter in Indian stocks, shorts unwind",
-        "source": "Reuters"
-      }
-    ],
-    "also_today": [
-      {
-        "title": "CII Proposes 15 Financial Sector Reforms to Support India’s $26.5 Trillion Economy Goal by 2047",
-        "source": "DD News"
-      },
-      {
-        "title": "Frontier Springs Q2FY27 Results: Net profit up 35.8% YoY to ₹21.33 crore",
-        "source": "scanx.trade"
+        "title": "VC funding rebounds as startups raise $255M; Women founders driving social change",
+        "source": "YourStory.com"
       },
       {
         "title": "Indian Startup Funding Surges 826% to $290 Mn as 23 Startups Raise Capital This Week",
         "source": "TechStory"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "Sharda Motor Q2FY27 results: Net profit rises 33% to ₹99 crore",
+        "source": "scanx.trade"
       },
       {
-        "title": "Global Gold Prices Plunge Nearly 10% in a Week, $3,500/oz Threshold Wobbles",
-        "source": "BigGo Finance"
+        "title": "Indian space startup SatSure gets Rs 60 crore to advance satellite technology",
+        "source": "India Today"
+      },
+      {
+        "title": "River Mobility FY26 Revenue Jumps 4.2X To Rs 432 Cr; Net Loss Widens 46%",
+        "source": "BW Disrupt"
+      },
+      {
+        "title": "Gold falls 11% to Rs 1.21 lakh and silver plunges 16.2% to Rs 1.47 lakh in a week to over one-year lows;",
+        "source": "The Times of India"
       }
     ],
     "geopolitics": [
       {
-        "title": "India Faces Less Pressure to Finalize U.S. Trade Deal Following Midterm Elections, Emkay Global Says",
-        "source": "INDIA New England News"
-      },
-      {
-        "title": "Trump Praises India’s Growth, Pushes for US Rate Cuts",
-        "source": "India Business Trade"
+        "title": "India-Canada Trade Deal Talks’ 6th Round Ends; Decoding the Pact Eyeing $50 Billion Trade, Key Potential Impact on India and Indians",
+        "source": "Jagran Josh"
       }
     ],
     "world_60": [
       {
-        "title": "Global Gold Prices Plunge Nearly 10% in a Week, $3,500/oz Threshold Wobbles",
-        "source": "BigGo Finance"
+        "title": "PM Modi calls for peace, stability and cooperation at 21st East Asia Summit in Manila",
+        "source": "DD India"
       },
       {
-        "title": "Global crude oil prices may fall to $70 by end-2027, says JM Financial report",
-        "source": "BusinessLine"
+        "title": "India, Bulgaria review bilateral ties, discuss IMEC and Black Sea situation",
+        "source": "ET Government"
       },
       {
-        "title": "Gold Prices Crash 32% From January Peak to ₹1.22 Lakh, Recovery May Take Years",
-        "source": "https://ascendants.in/"
+        "title": "Oil prices fall amid equity selloff though Iran war attacks limit losses",
+        "source": "Business Standard"
       },
       {
-        "title": "Wall Street Slumps on 20 November 2026 as Nasdaq Loses 5.13% and Dow, S&P 500 Enter Correction",
-        "source": "Kotak Neo"
+        "title": "Egypt’s gold prices fall EGP 500 in one week amid global market losses",
+        "source": "Daily News Egypt"
       },
       {
-        "title": "Trump Wants Cheaper Credit, but US Inflation Was 3.6% in September: Fed’s Tough Call",
-        "source": "NiftyTrader"
+        "title": "Gold falls 11% to Rs 1.21 lakh and silver plunges 16.2% to Rs 1.47 lakh in a week to over one-year lows;",
+        "source": "The Times of India"
       }
     ],
     "ipo_desk": [
+      {
+        "title": "Foodlink F&B Holdings IPO price band set at ₹181-₹191 per share; check lot size and key dates",
+        "source": "Upstox"
+      },
+      {
+        "title": "Foodlink F&B Holdings Sets IPO Price Band At Rs 181-191, To Raise Rs 361 Cr",
+        "source": "BW Businessworld"
+      },
+      {
+        "title": "Foodlink F&B Holdings announces IPO price band, aims to raise ₹361 crore",
+        "source": "CNBC TV18"
+      },
+      {
+        "title": "Mahanadi Coalfields IPO Day 3 Subscription Status 23 Nov 2026",
+        "source": "Univest"
+      },
       {
         "title": "Mahanadi Coalfields IPO subscribed 48% on Day 2",
         "source": "ET EnergyWorld"
       },
       {
-        "title": "Foodlink F&B Holdings IPO Date, Price Band, Issue Size",
-        "source": "IPO Watch"
+        "title": "Mahanadi Coalfields IPO Values Unit Near Rs 90,000 Crore",
+        "source": "Multibagg AI"
       },
       {
-        "title": "Foodlink IPO Opens Nov 26: Rs 192 Crore Fresh Issue, Key Dates",
-        "source": "Univest"
+        "title": "Acme India Industries Limited Sets Rs 121.69 Crore IPO",
+        "source": "Multibagg AI"
       }
     ],
-    "market_data": "Yahoo Finance (computed, session 2026-11-20)",
+    "market_data": "Yahoo Finance (computed, session 2026-11-23)",
     "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
   }
 }
