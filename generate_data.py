@@ -56,6 +56,7 @@ Optional:
 Runs on Python 3.9+ with no extra packages to install.
 """
 
+import glob
 import json
 import os
 import re
@@ -147,8 +148,11 @@ NEWS_QUERIES = {
     "india_corporate": "India company results OR acquisition OR deal crore when:1d",
     "startups": "Indian startup raises funding when:2d",
     "ipo": "IPO India subscription OR listing OR price band when:2d",
-    "geopolitics": "India foreign policy OR trade deal OR tariffs OR summit when:1d",
-    "global": "global markets OR oil prices OR Federal Reserve OR gold prices when:1d",
+    # Big tech and AI business news (earnings, chips, models, big moves) -
+    # the stories a young audience is actually talking about.
+    "tech_ai": "Nvidia OR OpenAI OR artificial intelligence OR Big Tech OR semiconductor when:1d",
+    "geopolitics": "India foreign policy OR trade OR tariffs OR summit OR sanctions when:1d",
+    "global": "global markets OR Wall Street OR Nasdaq OR Federal Reserve OR oil prices OR gold prices when:1d",
 }
 
 HEADLINE_BLOCK_NOTE = """Today's real news headlines (numbered; source outlet and publish time in brackets):
@@ -170,8 +174,11 @@ Verified market data for the last completed session (already on the page - do no
 {market_summary}
 
 {headline_block}
-Pick ONE big-story topic from the headlines: an Indian business, finance, markets or economy
-theme (policy, a sector shift, a major corporate move, a consumer or tech trend with a money angle).
+{rotation}Pick ONE big-story topic from the headlines: the most interesting business, finance
+or markets story for a young reader new to finance - Indian or global. Policy, a sector shift,
+a major corporate move, a consumer trend, or a big tech/AI story with a money angle (the kind
+everyone is talking about, like a chip giant's earnings shock or a major AI launch) all qualify.
+Prefer a story that broke in the last 24 hours over a slow-moving continuing saga.
 
 Reply with ONLY a JSON object (no markdown fences, no commentary) in exactly this shape:
 
@@ -304,10 +311,11 @@ GEOPOLITICS_PROMPT = """You are the geopolitics editor of FINTRIX, a college fin
 Today is {today} (India time).
 
 {headline_block}
-Pick ONE geopolitical story from the headlines that matters for India's economy, trade or
+{rotation}Pick ONE geopolitical story from the headlines that matters for India's economy, trade or
 markets: power, trade and strategic relationships shaping business (India's ties with China,
 the US, Russia, the Gulf or the EU; trade deals and tariffs; sanctions; conflicts affecting oil
-or shipping; summits).
+or shipping; summits). A trade negotiation with no genuinely new development today is a weak
+lead - prefer a fresher story when the list has one.
 {avoid}
 Reply with ONLY a JSON object (no markdown fences, no commentary) in exactly this shape:
 
@@ -374,7 +382,7 @@ Reply with ONLY a JSON object (no markdown) in this shape:
 """
 
 MORE_SECTION_TOPICS = {
-    "big_story": ("india_business", "india_corporate"),
+    "big_story": ("india_business", "india_corporate", "tech_ai"),
     "venture_vault": ("startups", "ipo"),
     "geopolitics": ("geopolitics",),
 }
@@ -1133,6 +1141,34 @@ def headlines():
     for i, it in enumerate(items, 1):
         it["id"] = i
     return items
+
+
+def recent_leads_note(limit=3):
+    """What the last few issues led with, so today's leads rotate to fresh themes.
+
+    The editor prompts get this as a do-not-repeat list: the same theme (e.g. a
+    trade negotiation) should not lead day after day unless today's headlines
+    carry a genuinely new major development in it."""
+    leads = []
+    for path in sorted(glob.glob("archive/????-??-??.json"))[-limit:]:
+        try:
+            with open(path, encoding="utf-8") as f:
+                d = json.load(f)
+        except (OSError, ValueError):
+            continue
+        day = os.path.basename(path)[:10]
+        bits = []
+        for key, label in (("big_story", "Big Story"), ("geopolitics", "Geopolitics")):
+            obj = d.get(key) or {}
+            if isinstance(obj, dict) and obj.get("headline"):
+                bits.append("%s: %s" % (label, obj["headline"]))
+        if bits:
+            leads.append("- %s: %s" % (day, " | ".join(bits)))
+    if not leads:
+        return ""
+    return ("Recent issues already led with these stories. Do NOT lead with the same theme or "
+            "storyline again today unless today's headlines carry a genuinely NEW major "
+            "development in it:\n" + "\n".join(leads) + "\n\n")
 
 
 def headline_block(items):
@@ -1930,6 +1966,7 @@ LITE_TOPIC_LABELS = [
     ("india_corporate", "Corporate & Deals"),
     ("startups", "Startups"),
     ("ipo", "IPO Desk"),
+    ("tech_ai", "Tech & AI"),
     ("geopolitics", "Geopolitics"),
     ("global", "Global Markets"),
 ]
@@ -2045,11 +2082,14 @@ def main():
     items = headlines()
     print("  %d headlines" % len(items))
     block = headline_block(items)
+    rotation = recent_leads_note()
+    if rotation:
+        print("  theme rotation active:\n" + "\n".join("    " + l for l in rotation.splitlines() if l.startswith("- ")))
     all_headline_text = "\n".join(it["title"] for it in items)
     fact_check = make_fact_check(all_headline_text + "\n" + market_summary, len(items))
 
     features = generate(api_key, FEATURES_PROMPT.format(today=today_str, market_summary=market_summary,
-                                                        headline_block=block),
+                                                        headline_block=block, rotation=rotation),
                         "features (big story, explains, venture vault)",
                         check=both(fact_check, check_features_pkg, check_big_story_direction(mw)))
     if features is None:
@@ -2075,7 +2115,8 @@ def main():
     if taken:
         avoid = ("\nOther pages of today's issue already cover these stories - pick a DIFFERENT one:\n"
                  + "\n".join("- " + t for t in taken) + "\n")
-    geo = generate(api_key, GEOPOLITICS_PROMPT.format(today=today_str, headline_block=block, avoid=avoid),
+    geo = generate(api_key, GEOPOLITICS_PROMPT.format(today=today_str, headline_block=block, avoid=avoid,
+                                                      rotation=rotation),
                    "geopolitics (geopolitics page, in brief 01)",
                    check=both(fact_check, check_geopolitics_pkg))
     if geo is None:
@@ -2233,3 +2274,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
