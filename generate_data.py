@@ -303,6 +303,10 @@ Rules:
   above. When the day's market headlines contradict that data (e.g. an intraday move after the
   published close), prefer non-market stories for the brief.
 - Avoid the big story already chosen for today: {avoid}
+- {rotation}story_1 is the lead brief on the cover. It MUST be a different story AND a different
+  theme from every headline listed above (e.g. if a trade pact led recently, do not lead with
+  it again). Use story_2 or story_3 for a recurring theme only if there is a genuinely new
+  development, and only after a fresh story_1.
 - Tone: a smart college finance magazine - plain English, no jargon dumps.
 - Use the actual ₹ character, not HTML entities. Plain text only - no HTML, markdown or links.
 """
@@ -1162,6 +1166,12 @@ def recent_leads_note(limit=3):
             obj = d.get(key) or {}
             if isinstance(obj, dict) and obj.get("headline"):
                 bits.append("%s: %s" % (label, obj["headline"]))
+        db = d.get("daily_brief") or {}
+        if isinstance(db, dict):
+            for sk in ("story_1", "story_2", "story_3"):
+                obj = db.get(sk) or {}
+                if isinstance(obj, dict) and obj.get("headline"):
+                    bits.append("Daily Brief %s: %s" % (sk[-1], obj["headline"]))
         if bits:
             leads.append("- %s: %s" % (day, " | ".join(bits)))
     if not leads:
@@ -1169,6 +1179,75 @@ def recent_leads_note(limit=3):
     return ("Recent issues already led with these stories. Do NOT lead with the same theme or "
             "storyline again today unless today's headlines carry a genuinely NEW major "
             "development in it:\n" + "\n".join(leads) + "\n\n")
+
+
+def recent_headlines(limit=3):
+    """Every lead-type headline (big story, geopolitics, daily brief 1-3) from the last
+    few archived issues, for the Daily Brief repeat check."""
+    out = []
+    for path in sorted(glob.glob("archive/????-??-??.json"))[-limit:]:
+        try:
+            with open(path, encoding="utf-8") as f:
+                d = json.load(f)
+        except (OSError, ValueError):
+            continue
+        for key in ("big_story", "geopolitics"):
+            obj = d.get(key) or {}
+            if isinstance(obj, dict) and isinstance(obj.get("headline"), str):
+                out.append(obj["headline"])
+        db = d.get("daily_brief") or {}
+        if isinstance(db, dict):
+            for sk in ("story_1", "story_2", "story_3"):
+                obj = db.get(sk) or {}
+                if isinstance(obj, dict) and isinstance(obj.get("headline"), str):
+                    out.append(obj["headline"])
+    return out
+
+
+THEME_GENERIC = {"the", "and", "for", "with", "from", "after", "amid", "over", "into", "near",
+                 "nears", "set", "gets", "new", "says", "may", "could", "will", "its", "as",
+                 "india", "indian", "inr", "crore", "rises", "falls", "surges", "slides"}
+THEME_SYNONYMS = {"fta": "free trade pact", "agreement": "pact", "deal": "pact",
+                  "accord": "pact", "treaty": "pact", "signing": "pact", "signed": "pact"}
+
+
+def theme_words(text):
+    """Distinctive words of a headline, with deal/agreement/FTA wording normalised so
+    'India-EU FTA' and 'India-EU Free Trade Pact' count as the same storyline."""
+    words = set()
+    for w in re.split(r"[^a-z0-9&]+", (text or "").lower().replace("\u2019s", "")):
+        w = THEME_SYNONYMS.get(w, w)
+        for part in w.split():
+            if len(part) >= 2 and part not in THEME_GENERIC:
+                words.add(part)
+    return words
+
+
+def repeats_recent(headline, recent, min_shared=2):
+    """The earlier headline this one repeats (shares >= min_shared theme words), or None."""
+    mine = theme_words(headline)
+    for old in recent:
+        if len(mine & theme_words(old)) >= min_shared:
+            return old
+    return None
+
+
+def check_brief_fresh(recent, max_rejects=2):
+    """Daily Brief story_1 (the lead brief, linked from the cover) must not repeat a
+    story or theme from the last issues. Rejects an answer at most max_rejects times
+    per run, so an overloaded model can never turn this into a failed issue."""
+    state = {"rejects": 0}
+
+    def check(pkg):
+        if not recent or state["rejects"] >= max_rejects or not isinstance(pkg, dict):
+            return None
+        s1 = ((pkg.get("daily_brief") or {}).get("story_1") or {})
+        old = repeats_recent(s1.get("headline", "") if isinstance(s1, dict) else "", recent)
+        if old:
+            state["rejects"] += 1
+            return "daily_brief.story_1 repeats a recent storyline (%r); pick a different story" % old
+        return None
+    return check
 
 
 def headline_block(items):
@@ -2099,9 +2178,10 @@ def main():
     avoid_bs = bs.get("headline", "") if isinstance(bs, dict) else ""
     markets = generate(api_key, MARKETS_PROMPT.format(today=today_str, headline_block=block,
                                                       market_summary=market_summary,
-                                                      avoid=avoid_bs or "none"),
+                                                      avoid=avoid_bs or "none", rotation=rotation),
                        "markets (daily brief, ipo desk, cover lines)",
-                       check=both(fact_check, check_markets_pkg, check_markets_direction(mw)))
+                       check=both(fact_check, check_markets_pkg, check_markets_direction(mw),
+                                  check_brief_fresh(recent_headlines())))
     if markets is None:
         return publish_lite(mw, desk, items, "the markets package failed its checks")
 
