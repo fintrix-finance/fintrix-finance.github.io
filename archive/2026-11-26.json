@@ -1,0 +1,596 @@
+{
+  "updated_ist": "2026-11-26",
+  "cover": {
+    "big_story_teaser": "US proposes up to 25% tariffs on India and 13 other global trade partners.",
+    "venture_teaser": "C2i Semiconductors raises $15M from Peak XV in record chip funding round.",
+    "market_watch_teaser": "LIVE AS OF 9:59 AM IST: Nifty 50 25,836.60 ▲ 0.07%",
+    "daily_brief_teaser": "RBI brings gold home while Schaeffler AG plans ₹3,188 crore block deal",
+    "inbrief_2": "RBI Gold Repatriation & Inflation",
+    "inbrief_3": "Schaeffler Block Deal Planned",
+    "inbrief_4": "Global Tech Stocks Slip on AI",
+    "inbrief_1": "India, Egypt Target $12B Trade"
+  },
+  "big_story": {
+    "headline": "US Proposes 25% Tariffs on India",
+    "subhead": "NEW WASHINGTON TRADE PROPOSALS TARGET INDIA AND 13 OTHER PARTNERS WITH HIGH DUTIES",
+    "paragraphs": [
+      "The United States has proposed new import tariffs of up to 25% on India, alongside 13 other international trade partners. The sudden proposal marks a sharp turn in Washington's trade policy, creating fresh uncertainty for cross-border commerce. Industry groups are closely analyzing the potential impact on major export sectors that rely heavily on American demand.",
+      "The move signals renewed protectionist measures designed to shield domestic American industries from international competitors. By targeting 14 trade partners simultaneously, the policy threatens to disrupt established global supply chains and elevate costs for importers. Export-heavy firms in India face the risk of reduced price competitiveness if these duty hikes are formally enacted.",
+      "Trade officials and policy experts are assessing options to respond to the proposed tariff structure. While formal negotiations may lie ahead, market observers are watching for potential diplomatic engagements to mitigate the impact. The development highlights how shifting geopolitical decisions can quickly reshape trade terms for emerging markets."
+    ],
+    "pullbox": "Proposed US tariffs of up to 25% across 14 trade partners signal rising global trade protectionism, putting potential margin pressure on export-oriented Indian industries.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/US_Capitol_east_side.JPG/3840px-US_Capitol_east_side.JPG",
+      "alt": "United States Capitol"
+    }
+  },
+  "explains": {
+    "title": "What is a Tariff?",
+    "paragraphs": [
+      "A tariff is a tax or duty imposed by a national government on goods and services imported from foreign countries. It is typically levied as a percentage of the declared value of the imported product as it crosses customs borders.",
+      "Governments implement tariffs to make foreign goods more expensive, thereby encouraging consumers to buy locally produced alternatives. While tariffs generate tax revenue and shield domestic businesses, they often increase consumer prices and invite retaliatory trade duties from foreign trade partners."
+    ]
+  },
+  "venture_vault": {
+    "paragraphs": [
+      "Indian chip design startup C2i Semiconductors has raised $15 million in a funding round led by Peak XV. Backed by the government's Design Linked Incentive (DLI) scheme, the deal marks the largest funding round ever recorded for an Indian semiconductor startup.",
+      "The capital injection will support the company's semiconductor design efforts as India accelerates its broader push toward domestic hardware capability. Peak XV's lead investment reflects rising venture funding interest in high-barrier deep-tech and hardware ventures across the domestic ecosystem."
+    ]
+  },
+  "market_watch": {
+    "indian": [
+      {
+        "name": "Sensex",
+        "value": "83,809.52 ▼ 0.15%",
+        "dir": "down",
+        "live": true
+      },
+      {
+        "name": "Nifty 50",
+        "value": "25,836.60 ▲ 0.07%",
+        "dir": "up",
+        "live": true
+      },
+      {
+        "name": "Nifty Bank",
+        "value": "63,806.00 ▲ 0.16%",
+        "dir": "up",
+        "live": true
+      }
+    ],
+    "asian": [
+      {
+        "name": "Nikkei 225",
+        "value": "57,011.62 ▼ 2.78%",
+        "dir": "down",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "Hang Seng",
+        "value": "21,966.01 ▼ 1.14%",
+        "dir": "down",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "Shanghai Comp.",
+        "value": "3,476.47 ▼ 2.03%",
+        "dir": "down",
+        "session_date": "2026-11-25"
+      }
+    ],
+    "european": [
+      {
+        "name": "FTSE 100",
+        "value": "10,426.94 ▼ 0.38%",
+        "dir": "down",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "DAX",
+        "value": "24,702.13 ▼ 1.26%",
+        "dir": "down",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "CAC 40",
+        "value": "7,980.57 ▼ 0.75%",
+        "dir": "down",
+        "session_date": "2026-11-25"
+      }
+    ],
+    "us": [
+      {
+        "name": "S&P 500",
+        "value": "7,182.78 ▼ 0.25%",
+        "dir": "down",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "23,585.80 ▼ 0.62%",
+        "dir": "down",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "Dow Jones",
+        "value": "50,182.90 ▲ 0.33%",
+        "dir": "up",
+        "session_date": "2026-11-25"
+      }
+    ],
+    "global": [
+      {
+        "name": "Dollar Index",
+        "value": "103.67 ▼ 0.13%",
+        "dir": "down",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "Brent Crude",
+        "value": "$94.61/bbl",
+        "dir": "up",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "Gold",
+        "value": "$3,536/oz",
+        "dir": "down",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "US 10Y Yield",
+        "value": "4.85% ▼ 5.6 bp",
+        "dir": "down",
+        "session_date": "2026-11-25"
+      }
+    ],
+    "losers": [
+      "Tata Steel",
+      "Max Healthcare",
+      "Hindalco"
+    ],
+    "winners": [
+      "Hindustan Unilever",
+      "Tata Consumer",
+      "HDFC Life"
+    ],
+    "snapshot_strip": "FMCG and Pharma led; Metal lagged as the Nifty rose 0.07%",
+    "date_label": "NOV 2026",
+    "close_label": "LIVE AS OF 9:59 AM IST",
+    "live": true,
+    "session_date": "2026-11-26",
+    "ipo_desk": [
+      {
+        "name": "Foodlink F&B Holdings",
+        "note": "₹162 cr raised via anchor as issue opens"
+      },
+      {
+        "name": "Monomark Engineering",
+        "note": "₹175.5 cr issue at ₹60-65 opens 2 Dec"
+      },
+      {
+        "name": "Mahanadi Coalfields",
+        "note": "Allotment today after 4.95x QIB demand"
+      }
+    ]
+  },
+  "data_desk": {
+    "commodities": [
+      {
+        "name": "Gold",
+        "unit": "$/oz",
+        "price": "3,536",
+        "day": "▼ 0.73%",
+        "week": "▼ 5.51%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.4 4.1,3.0 8.3,3.8 12.4,4.4 16.6,4.1 20.7,7.4 24.8,9.2 29.0,8.1 33.1,6.8 37.2,7.7 41.4,8.4 45.5,13.2 49.7,10.6 53.8,11.7 57.9,6.9 62.1,5.4 66.2,6.8 70.3,5.4 74.5,8.4 78.6,9.5 82.8,13.7 86.9,13.6 91.0,14.8 95.2,14.4 99.3,18.8 103.4,20.9 107.6,27.0 111.7,22.1 115.9,25.3 120.0,26.3\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"26.3\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "Silver",
+        "unit": "$/oz",
+        "price": "40.05",
+        "day": "▼ 1.74%",
+        "week": "▼ 10.99%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,4.2 4.1,4.0 8.3,4.0 12.4,3.0 16.6,3.4 20.7,7.0 24.8,8.4 29.0,7.9 33.1,7.6 37.2,8.8 41.4,10.5 45.5,14.7 49.7,12.5 53.8,14.0 57.9,10.6 62.1,10.4 66.2,11.0 70.3,10.0 74.5,12.0 78.6,10.9 82.8,13.5 86.9,14.8 91.0,17.8 95.2,17.2 99.3,20.3 103.4,21.2 107.6,25.7 111.7,22.8 115.9,26.0 120.0,27.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"27.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "Brent Crude",
+        "unit": "$/bbl",
+        "price": "94.61",
+        "day": "▲ 3.51%",
+        "week": "▲ 2.89%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,12.9 4.1,9.6 8.3,9.9 12.4,10.5 16.6,10.5 20.7,6.8 24.8,3.8 29.0,4.6 33.1,6.2 37.2,5.0 41.4,5.3 45.5,3.0 49.7,13.9 53.8,14.9 57.9,22.5 62.1,19.4 66.2,19.4 70.3,24.3 74.5,25.2 78.6,24.1 82.8,21.5 86.9,21.5 91.0,24.4 95.2,23.8 99.3,24.8 103.4,24.8 107.6,24.3 111.7,27.0 115.9,25.3 120.0,22.6\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"22.6\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "WTI Crude",
+        "unit": "$/bbl",
+        "price": "83.68",
+        "day": "▲ 1.99%",
+        "week": "▲ 0.50%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,9.2 4.1,5.7 8.3,3.5 12.4,5.3 16.6,10.0 20.7,7.7 24.8,3.9 29.0,5.4 33.1,7.2 37.2,4.3 41.4,5.1 45.5,3.0 49.7,10.7 53.8,11.0 57.9,19.0 62.1,16.6 66.2,16.3 70.3,20.3 74.5,21.1 78.6,20.6 82.8,18.4 86.9,18.6 91.0,21.4 95.2,21.1 99.3,23.9 103.4,24.0 107.6,23.2 111.7,27.0 115.9,25.1 120.0,23.5\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"23.5\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-25"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Embassy REIT",
+        "price": "₹419.97",
+        "day": "▼ 0.48%",
+        "week": "▼ 0.01%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-11-23"
+      },
+      {
+        "name": "Nexus Select REIT",
+        "price": "₹161.55",
+        "day": "▼ 0.75%",
+        "week": "▲ 1.78%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-23"
+      },
+      {
+        "name": "Mindspace REIT",
+        "price": "₹497.99",
+        "day": "▼ 0.07%",
+        "week": "▲ 0.01%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹319.93",
+        "day": "▲ 0.03%",
+        "week": "▲ 0.78%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-23"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹104.94",
+        "day": "▲ 1.03%",
+        "week": "▼ 2.02%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-11-23"
+      }
+    ],
+    "caps": [
+      {
+        "name": "Nifty 50",
+        "tag": "Large cap",
+        "level": "25,819.25",
+        "day": 1.85,
+        "week": 1.7,
+        "month": 14.24,
+        "day_txt": "▲ 1.85%",
+        "week_txt": "▲ 1.70%",
+        "month_txt": "▲ 14.24%",
+        "dir": "up",
+        "dir_week": "up",
+        "dir_month": "up",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "Nifty Midcap 150",
+        "tag": "Mid cap",
+        "level": "22,591.40",
+        "day": 0.22,
+        "week": -0.25,
+        "month": 9.71,
+        "day_txt": "▲ 0.22%",
+        "week_txt": "▼ 0.25%",
+        "month_txt": "▲ 9.71%",
+        "dir": "up",
+        "dir_week": "down",
+        "dir_month": "up",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "Nifty Smallcap 250",
+        "tag": "Small cap",
+        "level": "17,630.60",
+        "day": -0.18,
+        "week": -0.7,
+        "month": 7.6,
+        "day_txt": "▼ 0.18%",
+        "week_txt": "▼ 0.70%",
+        "month_txt": "▲ 7.60%",
+        "dir": "down",
+        "dir_week": "down",
+        "dir_month": "up",
+        "session_date": "2026-11-25"
+      }
+    ],
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"91.9\" width=\"22\" height=\"8.1\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"86.9\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.9</text><rect x=\"62.3\" y=\"92.6\" width=\"22\" height=\"7.4\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"87.6\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.7</text><rect x=\"90.3\" y=\"38.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"33.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+14.2</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"99.0\" width=\"22\" height=\"1.0\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"94.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.2</text><rect x=\"169.0\" y=\"100.0\" width=\"22\" height=\"1.1\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"113.1\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.2</text><rect x=\"197.0\" y=\"57.7\" width=\"22\" height=\"42.3\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"52.7\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+9.7</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"100.0\" width=\"22\" height=\"0.8\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"112.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.2</text><rect x=\"275.7\" y=\"100.0\" width=\"22\" height=\"3.0\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"115.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-0.7</text><rect x=\"303.7\" y=\"66.9\" width=\"22\" height=\"33.1\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"61.9\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+7.6</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "funds": [
+      {
+        "name": "ICICI Pru Large Cap",
+        "cat": "Large cap",
+        "nav": "₹126.55",
+        "day": "▲ 1.69%",
+        "week": "▲ 1.89%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "MO Midcap 150 Index",
+        "cat": "Mid cap",
+        "nav": "₹41.05",
+        "day": "▲ 0.22%",
+        "week": "▼ 0.24%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "Nippon Small Cap",
+        "cat": "Small cap",
+        "nav": "₹202.09",
+        "day": "▲ 0.04%",
+        "week": "▼ 0.34%",
+        "dir": "up",
+        "dir_week": "down",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "Parag Parikh Flexi Cap",
+        "cat": "Flexi cap",
+        "nav": "₹94.93",
+        "day": "▼ 0.56%",
+        "week": "▲ 0.47%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-23"
+      }
+    ],
+    "date_label": "NOV 2026",
+    "close_label": "CLOSE OF NOV 25",
+    "session_date": "2026-11-25",
+    "nav_label": "NAVS AS OF NOV 23"
+  },
+  "daily_brief": {
+    "story_1": {
+      "kicker": "India | Central Banking",
+      "headline": "RBI Brings Gold Home as Food Price Pressures Persist",
+      "paragraphs": [
+        "The Reserve Bank of India is actively bringing its gold reserves back home from overseas custody to strengthen domestic asset security. Concurrently, the central bank's latest monthly bulletin highlighted emerging broad-based food inflation pressures across the domestic economy.",
+        "Data from the bulletin also revealed that the RBI was a net dollar buyer in September. The monetary authority noted that global economic developments and shifts in US policy continue to influence Indian financial markets."
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+        "alt": "Reserve Bank of India"
+      }
+    },
+    "story_2": {
+      "kicker": "Corporate | Block Deals",
+      "headline": "Schaeffler AG to Offload ₹3,188 Crore Stake in Indian Arm",
+      "paragraphs": [
+        "Schaeffler AG is set to sell a 6% stake in its listed Indian subsidiary Schaeffler India through a massive block deal valued at ₹3,188 crore. The floor price for the transaction has been set at ₹3,400 per share.",
+        "The proposed transaction comes amid a broader wave of promoter stake sales in corporate India, with LG Electronics India's promoter also considering a 2% stake sale worth ₹2,320.5 crore."
+      ]
+    },
+    "story_3": {
+      "kicker": "Global | Tech Volatility",
+      "headline": "Global Tech Stocks Slip as AI Rally Pauses",
+      "paragraphs": [
+        "Global technology equities experienced renewed volatility as investor concerns over corporate AI spending and debt overshadow recent gains. The tech slide dragged major global indexes lower as enthusiasm over recent market rebounds began to cool."
+      ]
+    },
+    "also_today": {
+      "items": [
+        "India's space economy is projected to reach $40-45 billion driven by private sector growth.",
+        "Indian space startup SatSure raised ₹600 crore from a government-backed space fund.",
+        "Shadowfax added WeFast to its logistics network in a ₹23.3 crore deal for local deliveries.",
+        "Xpro India reported a 45% YoY increase in Q2 net profit to ₹7.19 crore."
+      ]
+    }
+  },
+  "geopolitics": {
+    "kicker": "India x Egypt | Trade Pact",
+    "headline": "India and Egypt Target $12 Billion Bilateral Trade",
+    "paragraphs": [
+      "India and Egypt have agreed to explore a preferential trade pact aimed at significantly expanding their commercial relationship. The two nations are targeting a total bilateral trade volume of USD 12 billion under the proposed framework. The agreement marks a strategic push by New Delhi to deepen economic and trade footprint across North Africa and the West Asia region.",
+      "While official discussions to structure the preferential trade deal are still at an exploratory stage, a formal pact could reduce tariff barriers for Indian exporters. However, key structural challenges remain around balancing bilateral trade gaps and aligning customs frameworks. For Indian businesses, enhanced trade access to Egypt provides a strategic gateway into wider African markets amid shifting global trade dynamics."
+    ],
+    "world_60": [
+      "India-UK investment treaty talks stall as officials signal an agreement is unlikely in the near term.",
+      "India bans sugar exports with immediate effect until September 2026 to safeguard domestic supply.",
+      "Brent crude oil hits $91 per barrel as Middle East geopolitical tensions and Iran conflict escalate.",
+      "Gold drops below the $3,500 threshold, sliding nearly 40% from its peak amid sticky US inflation.",
+      "Nepal's new leader officially reaffirms strategic bilateral and economic ties with India."
+    ],
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
+      "alt": "New Delhi"
+    }
+  },
+  "more": {
+    "big_story": [
+      {
+        "headline": "Bio-Economy Target Set for $300 Million by 2030",
+        "text": "Union Minister Dr. Jitendra Singh stated that India’s bio-economy is projected to reach 300 million Dollars by 2030, urging industry leaders to capitalize on the upcoming biotechnology revolution. The initiative aims to push sustainable innovation and green manufacturing across the country. This expansion strengthens India's global footprint in high-tech research and sustainable industrial growth.",
+        "source": "Pharmabiz.com",
+        "published": "26 Nov 09:00 IST"
+      },
+      {
+        "headline": "Tata Steel and APL Apollo Finalise ₹28,000-Crore Deal",
+        "text": "Tata Steel has entered into a major ₹28,000-crore transaction with APL Apollo, restructuring key industrial assets to optimize market valuation and manufacturing capabilities. The deal focuses on enhancing operational efficiencies and expanding product reach in structural steel. This strategic consolidation underscores robust growth and capital allocation within India's manufacturing sector.",
+        "source": "Fortune India",
+        "published": "25 Nov 22:51 IST"
+      }
+    ],
+    "venture_vault": [
+      {
+        "headline": "SUK-M Secures Pre-Seed Funding for Thorium Microreactors",
+        "text": "Deep-tech startup SUK-M has raised pre-seed funding led by Speciale Invest to accelerate the development of indigenous thorium microreactors. The capital will support advanced clean energy research aimed at providing safe and scalable power generation. This investment highlights India's push towards clean energy self-reliance and deep-tech innovation.",
+        "source": "Indian Startup Times",
+        "published": "25 Nov 21:21 IST"
+      },
+      {
+        "headline": "Matters.AI Secures ₹115 Crore Funding for Enterprise Security",
+        "text": "Cybersecurity startup Matters.AI has secured ₹115 crore in a Pre-Series A funding round to enhance its enterprise data security platform. The funds will be deployed to expand technology capabilities amidst growing enterprise demand for AI-driven data defense. The deal reflects rising investor trust in homegrown cybersecurity platforms protecting Indian businesses.",
+        "source": "Indian Startup Times",
+        "published": "24 Nov 19:22 IST"
+      }
+    ],
+    "geopolitics": [
+      {
+        "headline": "India Sets Up Strategic Trade Command Centre for Trade Oversight",
+        "text": "The Indian government has launched the National Strategic Trade Command Centre to enhance oversight and efficiency across the nation’s international trade ecosystem. The new authority will streamline regulatory frameworks, trade compliance, and export logistics. This structural reform aims to boost India's global trade governance and bolster export competitiveness.",
+        "source": "News On AIR",
+        "published": "26 Nov 03:42 IST"
+      },
+      {
+        "headline": "India-EU Free Trade Deal Scheduled for Brussels Signing on Dec 16",
+        "text": "India and the European Union are set to sign a milestone free trade agreement on 16th December in Brussels following extensive bilateral negotiations. The deal aims to lower tariff barriers, boost market access, and deepen economic integration between India and the 27-member bloc. Secure trade access with Europe provides a major boost for Indian exporters.",
+        "source": "The Pamphlet",
+        "published": "25 Nov 15:45 IST"
+      }
+    ]
+  },
+  "sources": {
+    "big_story": [
+      {
+        "title": "US proposes new tariffs of up to 25% on India, alongside 13 other trade partners",
+        "source": "Scroll.in"
+      },
+      {
+        "title": "Tariff Man Strikes Again",
+        "source": "Foreign Policy"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "DLI-backed C2i Semiconductors raises $15 million from Peak XV, marking largest funding round for Indian chip startup",
+        "source": "DD News"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "India's RBI sees broad food inflation pressures; was net dollar buyer in Sept, bulletin shows",
+        "source": "Reuters"
+      },
+      {
+        "title": "Why RBI is bringing its gold reserves back to India",
+        "source": "The Indian Express"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "Schaeffler India Shares in Focus as Schaeffler AG Plans ₹3,188 Crore Block Deal at ₹3,400 Per Share",
+        "source": "Kotak Neo"
+      },
+      {
+        "title": "Schaeffler India Block Deal: Schaeffler AG likely to sell 6% stake at ₹3,400 floor price",
+        "source": "CNBC TV18"
+      },
+      {
+        "title": "LG Electronics India promoter may offload 2% stake for ₹2,320.5 crore",
+        "source": "Business Standard"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze",
+        "source": "CNBC"
+      },
+      {
+        "title": "Tech stocks are volatile as AI fears overshadow Huang’s Nvidia return",
+        "source": "CNN"
+      },
+      {
+        "title": "Stocks close mixed after Wall Street erases sharp decline: Nvidia drops 4%",
+        "source": "ABC News - Breaking News, Latest News and Videos"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "India’s space economy projected to reach $40-45 billion as private sector drives growth: Jitendra Singh",
+        "source": "DD News"
+      },
+      {
+        "title": "Xpro India Q2FY27 results: Net profit up 45% to ₹7.19 crore",
+        "source": "scanx.trade"
+      },
+      {
+        "title": "Shadowfax Adds WeFast to Its Logistics Network With ₹23.3 Crore Deal To Target Local Deliveries",
+        "source": "Kotak Neo"
+      },
+      {
+        "title": "Indian space startup SatSure raises INR 600 crore from government-backed space fund",
+        "source": "Prop News Time"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "India, Egypt agree to explore preferential trade pact, target USD 12 billion bilateral trade",
+        "source": "DD News"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "India-UK investment treaty talks stall, pact unlikely soon, officials say",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "India bans sugar exports with immediate effect until September 2026",
+        "source": "DD News"
+      },
+      {
+        "title": "Stock Market Today (Nov 25, 2026): Nasdaq Trims Losses, Gold Price Falls, Brent Oil $91",
+        "source": "Eurasia Business News"
+      },
+      {
+        "title": "Gold Breaks Below $3,500 Threshold as Sticky Inflation, Rate-Hike Cloud Weigh; Prices Down Nearly 40% From This Year's Peak",
+        "source": "BigGo Finance"
+      },
+      {
+        "title": "Nepal’s New Leader Reaffirms Ties With India",
+        "source": "Foreign Policy"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "Foodlink F&B Holdings raises Rs 162 crore via anchor book ahead of IPO; Amicorp, ITI MF biggest...",
+        "source": "Moneycontrol.com"
+      },
+      {
+        "title": "Foodlink F&B Holdings IPO Day 1: Subscription Opens Today, 26 November 2026",
+        "source": "Univest"
+      },
+      {
+        "title": "Monomark Engineering IPO Fixes ₹60-65 Price Band; IPO Opens on 2 December With ₹175.5 Crore Issue",
+        "source": "Kotak Neo"
+      },
+      {
+        "title": "Monomark Engineering IPO price band set at ₹60 to ₹65 per share; check lot size and key dates",
+        "source": "Upstox"
+      },
+      {
+        "title": "Mahanadi Coalfields IPO allotment today: How to check status on KFin Technologies, BSE, NSE",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "Mahanadi Coalfields IPO Allotment Today: 4.95x QIB Demand, Zero GMP",
+        "source": "NiftyTrader"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session 2026-11-26)",
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
+  }
+}
