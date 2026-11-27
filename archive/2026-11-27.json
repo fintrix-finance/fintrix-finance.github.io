@@ -1,0 +1,576 @@
+{
+  "updated_ist": "2026-11-27",
+  "cover": {
+    "big_story_teaser": "RBI holds repo rate steady while projecting India's GDP growth at 6.9% for the fiscal year.",
+    "venture_teaser": "C2i Semiconductors secures $15 million from Peak XV in record chip startup round.",
+    "market_watch_teaser": "LIVE AS OF 9:58 AM IST: Nifty 50 25,840.35 ▼ 0.17%",
+    "daily_brief_teaser": "NSE gets nod for bond futures, IiAS flags ₹28k-cr deal, and Nvidia hits labor caps.",
+    "inbrief_2": "NSE Bond Index Futures Approved",
+    "inbrief_3": "SEBI Scrutiny on Steel Deal",
+    "inbrief_4": "Nvidia Hits South Korea Work Cap",
+    "inbrief_1": "Indo-Pacific Push at Manila Summit"
+  },
+  "big_story": {
+    "headline": "RBI Holds Rates Steady",
+    "subhead": "RBI HOLDS REPO RATE UNCHANGED AND PROJECTS 6.9% REAL GDP GROWTH FOR CURRENT FISCAL YEAR",
+    "paragraphs": [
+      "The Reserve Bank of India has decided to keep the key repo rate unchanged while projecting the country's real GDP growth for the current fiscal year at 6.9%. The central bank's policy announcement delivers benchmark stability for domestic financial markets and commercial lending. Meanwhile, Indian equity benchmarks opened on a cautious note today, with the Sensex opening 100 points lower and the Nifty falling below 25,900.",
+      "The decision to maintain borrowing costs comes as policy makers evaluate broader macroeconomic conditions and global market shifts. By keeping the benchmark interest rate level, the central bank seeks to support ongoing expansion while managing monetary stability. The projected 6.9% economic growth rate highlights confidence in domestic momentum despite international headwinds.",
+      "For financial institutions and corporate borrowers, maintaining current policy settings prevents immediate increases in debt servicing costs. Market participants will monitor upcoming inflation and growth readings to assess future trajectory decisions by the central bank. With the GDP forecast set at 6.9%, focus shifts to commercial credit demand and domestic consumption trends."
+    ],
+    "pullbox": "By keeping the repo rate unchanged and maintaining a 6.9% real GDP growth projection for the current fiscal year, the Reserve Bank of India reinforces domestic economic stability amid broader global market shifts.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+      "alt": "Reserve Bank of India"
+    }
+  },
+  "explains": {
+    "title": "What is the Repo Rate?",
+    "paragraphs": [
+      "The repo rate is the key interest rate at which the central bank lends short-term money to commercial banks against government securities. It acts as the primary tool for controlling liquidity and setting borrowing costs across the economy.",
+      "When the central bank keeps the repo rate unchanged, commercial banks typically hold their benchmark interest rates steady. This stabilizes loan interest rates for businesses and consumers across the banking network."
+    ]
+  },
+  "venture_vault": {
+    "paragraphs": [
+      "Design-Linked Incentive (DLI) scheme-backed startup C2i Semiconductors has raised $15 million in a funding round led by Peak XV. The transaction represents the largest single venture capital investment round raised by an Indian chip startup.",
+      "The substantial capital injection underscores rising investor appetite for India's domestic semiconductor hardware and chip design ecosystem. Backed by Peak XV and government support under the DLI framework, C2i Semiconductors plans to accelerate its technical development and expansion."
+    ]
+  },
+  "market_watch": {
+    "indian": [
+      {
+        "name": "Sensex",
+        "value": "84,179.74 ▼ 0.18%",
+        "dir": "down",
+        "live": true
+      },
+      {
+        "name": "Nifty 50",
+        "value": "25,840.35 ▼ 0.17%",
+        "dir": "down",
+        "live": true
+      },
+      {
+        "name": "Nifty Bank",
+        "value": "63,769.75 ▲ 0.37%",
+        "dir": "up",
+        "live": true
+      }
+    ],
+    "asian": [
+      {
+        "name": "Nikkei 225",
+        "value": "57,499.16 ▲ 0.86%",
+        "dir": "up",
+        "session_date": "2026-11-26"
+      },
+      {
+        "name": "Hang Seng",
+        "value": "22,226.88 ▲ 1.19%",
+        "dir": "up",
+        "session_date": "2026-11-26"
+      },
+      {
+        "name": "Shanghai Comp.",
+        "value": "3,476.88 ▲ 0.01%",
+        "dir": "up",
+        "session_date": "2026-11-26"
+      }
+    ],
+    "european": [
+      {
+        "name": "FTSE 100",
+        "value": "10,609.30 ▲ 1.75%",
+        "dir": "up",
+        "session_date": "2026-11-26"
+      },
+      {
+        "name": "DAX",
+        "value": "25,215.52 ▲ 2.08%",
+        "dir": "up",
+        "session_date": "2026-11-26"
+      },
+      {
+        "name": "CAC 40",
+        "value": "8,108.74 ▲ 1.61%",
+        "dir": "up",
+        "session_date": "2026-11-26"
+      }
+    ],
+    "us": [
+      {
+        "name": "S&P 500",
+        "value": "7,182.78 ▼ 0.25%",
+        "dir": "down",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "23,585.80 ▼ 0.62%",
+        "dir": "down",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "Dow Jones",
+        "value": "50,182.95 ▲ 0.33%",
+        "dir": "up",
+        "session_date": "2026-11-25"
+      }
+    ],
+    "global": [
+      {
+        "name": "Dollar Index",
+        "value": "103.73 ▲ 0.06%",
+        "dir": "up",
+        "session_date": "2026-11-26"
+      },
+      {
+        "name": "Brent Crude",
+        "value": "$92.25/bbl",
+        "dir": "down",
+        "session_date": "2026-11-26"
+      },
+      {
+        "name": "Gold",
+        "value": "$3,660/oz",
+        "dir": "up",
+        "session_date": "2026-11-26"
+      },
+      {
+        "name": "US 10Y Yield",
+        "value": "4.85% ▼ 5.6 bp",
+        "dir": "down",
+        "session_date": "2026-11-25"
+      }
+    ],
+    "losers": [
+      "Asian Paints",
+      "Bajaj Finance",
+      "Shriram Finance"
+    ],
+    "winners": [
+      "HCLTech",
+      "TCS",
+      "Infosys"
+    ],
+    "snapshot_strip": "IT and Realty led; FMCG and Auto lagged as the Nifty fell 0.17%",
+    "date_label": "NOV 2026",
+    "close_label": "LIVE AS OF 9:58 AM IST",
+    "live": true,
+    "session_date": "2026-11-27",
+    "ipo_desk": [
+      {
+        "name": "Foodlink F&B Holdings",
+        "note": "Fully subscribed Day 1; ₹162 cr anchor"
+      },
+      {
+        "name": "Monomark Engineering",
+        "note": "₹175.5 cr issue opens 2 Dec at ₹60-65"
+      },
+      {
+        "name": "Crystal Crop Protection",
+        "note": "Lists at 3% premium after 17x sub"
+      }
+    ]
+  },
+  "data_desk": {
+    "commodities": [
+      {
+        "name": "Gold",
+        "unit": "$/oz",
+        "price": "3,661",
+        "day": "▲ 3.53%",
+        "week": "▼ 0.68%",
+        "dir": "up",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,3.8 8.3,4.4 12.4,4.1 16.6,7.4 20.7,9.2 24.8,8.1 29.0,6.8 33.1,7.7 37.2,8.4 41.4,13.2 45.5,10.6 49.7,11.7 53.8,6.9 57.9,5.4 62.1,6.8 66.2,5.4 70.3,8.4 74.5,9.5 78.6,13.7 82.8,13.6 86.9,14.8 91.0,14.4 95.2,18.8 99.3,20.9 103.4,27.0 107.6,22.1 111.7,25.3 115.9,26.3 120.0,21.8\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"21.8\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-26"
+      },
+      {
+        "name": "Silver",
+        "unit": "$/oz",
+        "price": "43.78",
+        "day": "▲ 9.31%",
+        "week": "▼ 1.21%",
+        "dir": "up",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,4.0 4.1,4.0 8.3,3.0 12.4,3.4 16.6,7.0 20.7,8.4 24.8,7.9 29.0,7.6 33.1,8.8 37.2,10.5 41.4,14.7 45.5,12.5 49.7,14.0 53.8,10.6 57.9,10.4 62.1,11.0 66.2,10.0 70.3,12.0 74.5,10.9 78.6,13.5 82.8,14.8 86.9,17.8 91.0,17.2 95.2,20.3 99.3,21.2 103.4,25.7 107.6,22.8 111.7,26.0 115.9,27.0 120.0,21.9\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"21.9\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-26"
+      },
+      {
+        "name": "Brent Crude",
+        "unit": "$/bbl",
+        "price": "92.25",
+        "day": "▼ 2.49%",
+        "week": "▲ 0.29%",
+        "dir": "down",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,9.6 4.1,9.9 8.3,10.5 12.4,10.5 16.6,6.8 20.7,3.8 24.8,4.6 29.0,6.2 33.1,5.0 37.2,5.3 41.4,3.0 45.5,13.9 49.7,14.9 53.8,22.5 57.9,19.4 62.1,19.4 66.2,24.3 70.3,25.2 74.5,24.1 78.6,21.5 82.8,21.5 86.9,24.4 91.0,23.8 95.2,24.8 99.3,24.8 103.4,24.3 107.6,27.0 111.7,25.3 115.9,22.6 120.0,24.6\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"24.6\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-26"
+      },
+      {
+        "name": "WTI Crude",
+        "unit": "$/bbl",
+        "price": "85.76",
+        "day": "▲ 2.49%",
+        "week": "▲ 3.06%",
+        "dir": "up",
+        "dir_week": "up",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,5.7 4.1,3.5 8.3,5.3 12.4,10.0 16.6,7.7 20.7,3.9 24.8,5.4 29.0,7.2 33.1,4.3 37.2,5.1 41.4,3.0 45.5,10.7 49.7,11.0 53.8,19.0 57.9,16.6 62.1,16.3 66.2,20.3 70.3,21.1 74.5,20.6 78.6,18.4 82.8,18.6 86.9,21.4 91.0,21.1 95.2,23.9 99.3,24.0 103.4,23.2 107.6,27.0 111.7,25.1 115.9,23.5 120.0,21.4\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"21.4\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-26"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Embassy REIT",
+        "price": "₹415.65",
+        "day": "▼ 1.03%",
+        "week": "▼ 1.17%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "Nexus Select REIT",
+        "price": "₹161.59",
+        "day": "▲ 0.02%",
+        "week": "▲ 0.80%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "Mindspace REIT",
+        "price": "₹496.78",
+        "day": "▼ 0.24%",
+        "week": "▼ 0.21%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-11-26"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹319.67",
+        "day": "▼ 0.08%",
+        "week": "▲ 0.56%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-25"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹104.23",
+        "day": "▼ 0.53%",
+        "week": "▲ 0.25%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-26"
+      }
+    ],
+    "caps": [
+      {
+        "name": "Nifty 50",
+        "tag": "Large cap",
+        "level": "25,884.50",
+        "day": 0.25,
+        "week": 2.6,
+        "month": 13.76,
+        "day_txt": "▲ 0.25%",
+        "week_txt": "▲ 2.60%",
+        "month_txt": "▲ 13.76%",
+        "dir": "up",
+        "dir_week": "up",
+        "dir_month": "up",
+        "session_date": "2026-11-26"
+      },
+      {
+        "name": "Nifty Midcap 150",
+        "tag": "Mid cap",
+        "level": "22,650.00",
+        "day": 0.26,
+        "week": 1.16,
+        "month": 8.83,
+        "day_txt": "▲ 0.26%",
+        "week_txt": "▲ 1.16%",
+        "month_txt": "▲ 8.83%",
+        "dir": "up",
+        "dir_week": "up",
+        "dir_month": "up",
+        "session_date": "2026-11-26"
+      },
+      {
+        "name": "Nifty Smallcap 250",
+        "tag": "Small cap",
+        "level": "17,735.30",
+        "day": 0.59,
+        "week": 0.38,
+        "month": 7.03,
+        "day_txt": "▲ 0.59%",
+        "week_txt": "▲ 0.38%",
+        "month_txt": "▲ 7.03%",
+        "dir": "up",
+        "dir_week": "up",
+        "dir_month": "up",
+        "session_date": "2026-11-26"
+      }
+    ],
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"98.9\" width=\"22\" height=\"1.1\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"93.9\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.2</text><rect x=\"62.3\" y=\"88.3\" width=\"22\" height=\"11.7\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"83.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+2.6</text><rect x=\"90.3\" y=\"38.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"33.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+13.8</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"98.8\" width=\"22\" height=\"1.2\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"93.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.3</text><rect x=\"169.0\" y=\"94.8\" width=\"22\" height=\"5.2\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"89.8\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+1.2</text><rect x=\"197.0\" y=\"60.2\" width=\"22\" height=\"39.8\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"55.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+8.8</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"97.3\" width=\"22\" height=\"2.7\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"92.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.6</text><rect x=\"275.7\" y=\"98.3\" width=\"22\" height=\"1.7\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"93.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.4</text><rect x=\"303.7\" y=\"68.3\" width=\"22\" height=\"31.7\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"63.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+7.0</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "funds": [
+      {
+        "name": "ICICI Pru Large Cap",
+        "cat": "Large cap",
+        "nav": "₹126.62",
+        "day": "▲ 0.06%",
+        "week": "▲ 2.54%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-26"
+      },
+      {
+        "name": "MO Midcap 150 Index",
+        "cat": "Mid cap",
+        "nav": "₹41.16",
+        "day": "▲ 0.26%",
+        "week": "▲ 1.18%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-26"
+      },
+      {
+        "name": "Nippon Small Cap",
+        "cat": "Small cap",
+        "nav": "₹202.66",
+        "day": "▲ 0.28%",
+        "week": "▲ 0.56%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-26"
+      },
+      {
+        "name": "Parag Parikh Flexi Cap",
+        "cat": "Flexi cap",
+        "nav": "₹95.76",
+        "day": "▲ 0.88%",
+        "week": "▲ 1.56%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-25"
+      }
+    ],
+    "date_label": "NOV 2026",
+    "close_label": "CLOSE OF NOV 26",
+    "session_date": "2026-11-26",
+    "nav_label": "NAVS AS OF NOV 25"
+  },
+  "daily_brief": {
+    "story_1": {
+      "kicker": "India | Financial Markets",
+      "headline": "NSE Obtains RBI Approval for Corporate Bond Futures",
+      "paragraphs": [
+        "The National Stock Exchange of India has secured approval from the Reserve Bank of India to launch corporate bond index futures. This regulatory nod follows clearance previously granted by SEBI in October.",
+        "Market participants are now awaiting the announcement of an official launch date for the derivative contract, which aims to deepen liquidity in the domestic debt market."
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/National_Stock_Exchange.jpg/960px-National_Stock_Exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "National Stock Exchange"
+      }
+    },
+    "story_2": {
+      "kicker": "India | Corporate Governance",
+      "headline": "IiAS Seeks SEBI Scrutiny on ₹28,000 Crore Steel Deal",
+      "paragraphs": [
+        "Proxy advisory firm Institutional Investor Advisory Services has approached market regulator SEBI seeking intervention in the proposed ₹28,000 crore transaction between APL Apollo and Tata Steel.",
+        "The move introduces heightened regulatory scrutiny into one of the year's largest industrial arrangements as stakeholders assess the firm's governance concerns."
+      ]
+    },
+    "story_3": {
+      "kicker": "Global | Technology",
+      "headline": "Nvidia Demands Clash With South Korea Workweek Cap",
+      "paragraphs": [
+        "Semiconductor giant Nvidia's strict mandate requiring corporate partners to resolve technical issues within 24 hours has hit a bottleneck in South Korea. Local R&D teams are struggling to comply with the tight turnaround while operating under the country's legally mandated 52-hour weekly work limit."
+      ]
+    },
+    "also_today": {
+      "items": [
+        "Fairfax's ₹52,878 crore IDBI Bank acquisition awaits final regulatory clearance from the RBI.",
+        "Chip startup C2i Semiconductors raises $15 million from Peak XV in a DLI-backed funding round.",
+        "ASSOCHAM projects India's exports will cross $1 trillion by March 2027 despite proposed US tariffs.",
+        "GIVA raises ₹90 crore from BlackSoil to expand its physical retail store presence across India."
+      ]
+    }
+  },
+  "geopolitics": {
+    "kicker": "Indo-Pacific | Manila Summit",
+    "headline": "Manila Summits Target Indo-Pacific Geopolitical Stability",
+    "paragraphs": [
+      "Diplomats and leaders have converged in Manila for the ASEAN-India Summit alongside the Quad summit, centering discussions on stabilizing Indo-Pacific geopolitics. The high-level regional gatherings come as New Delhi executes a broader foreign policy shift away from traditional hesitation toward pragmatic deal-making. Strategic discussions in Manila focus on securing key maritime corridors and reinforcing economic cooperation across Southeast Asia.",
+      "For corporate India and financial markets, stability across Indo-Pacific shipping lanes is critical for sustaining trade and securing supply chains. As global trade faces headwinds from tariffs and protectionism, India's proactive engagement in Manila highlights its drive to deepen economic integration with regional partners. Investors will be monitoring how the summit outcomes strengthen regional security and safeguard international trade routes."
+    ],
+    "world_60": [
+      "Brent oil settles higher as refinery attack and mine strikes stoke Middle East supply concerns.",
+      "Gold rebounds Rs 1,500 to Rs 1.27 lakh per 10 gm as global bullion markets steady.",
+      "US dollar heads for third monthly gain while global equity markets remain steady.",
+      "WTI crude oil nears $85 per barrel while spot gold holds near $3,500 during Black Friday trading.",
+      "Canada's TSX rises 0.72% to 34,426.88 led by oil and gold miners during US holiday break."
+    ],
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
+      "alt": "New Delhi"
+    }
+  },
+  "more": {
+    "big_story": [
+      {
+        "headline": "RBI Brings Home 60 Tonnes of Gold; 84% Reserves Held Domestically",
+        "text": "The Reserve Bank of India has repatriated 60 tonnes of gold holdings over the past six months, resulting in 84% of its total reserves being held domestically. This strategic shift strengthens sovereign asset security and mitigates risks associated with foreign custody during global market uncertainties.",
+        "source": "LinkedIn",
+        "published": "26 Nov 17:59 IST"
+      },
+      {
+        "headline": "Schaeffler India Shares Surge 4% Following ₹3,543 Crore Block Deal",
+        "text": "Shares of Schaeffler India jumped 4% following a massive block deal valued at ₹3,543 crore. Strong institutional interest in the automotive and industrial component maker highlights investor confidence in India's expanding manufacturing ecosystem and capital expenditure cycle.",
+        "source": "Kotak Neo",
+        "published": "26 Nov 10:22 IST"
+      }
+    ],
+    "venture_vault": [
+      {
+        "headline": "XEBO.ai Secures $10.5 Million Series A to Scale Customer AI Platform",
+        "text": "Artificial intelligence startup XEBO.ai has raised $10.5 million in Series A funding to expand its AI-powered customer experience platform. The investment underscores growing investor appetite for enterprise AI software solutions emerging from India's technology ecosystem.",
+        "source": "Indian Startup Times",
+        "published": "26 Nov 20:39 IST"
+      },
+      {
+        "headline": "SatSure Raises INR 600 Crore From Government-Backed Space Fund",
+        "text": "Indian space tech startup SatSure has secured INR 600 crore from a government-backed space fund to scale its geospatial analytics capabilities. The capital injection highlights India's commitment to boosting private enterprise participation in deep-tech and commercial space sectors.",
+        "source": "Prop News Time",
+        "published": "26 Nov 04:02 IST"
+      }
+    ],
+    "geopolitics": [
+      {
+        "headline": "US Unveils Tariffs on 14 Partners; India Faces 25% Levy Without Deal",
+        "text": "Donald Trump has announced prospective tariffs targeting 14 trade partners, warning that India faces a 25% levy if a bilateral agreement is not reached. The potential duties pose significant operational risks for Indian exporters reliant on access to the United States market.",
+        "source": "internationalfinance.com",
+        "published": "26 Nov 14:05 IST"
+      },
+      {
+        "headline": "Azerbaijan and India to Convene Intergovernmental Meeting in Delhi",
+        "text": "Azerbaijan and India are set to hold their next intergovernmental commission meeting in New Delhi to expand bilateral trade and economic ties. The upcoming talks reflect India's diplomatic strategy to strengthen commercial channels and regional cooperation across Eurasia.",
+        "source": "Report.az",
+        "published": "26 Nov 16:38 IST"
+      }
+    ]
+  },
+  "sources": {
+    "big_story": [
+      {
+        "title": "RBI keeps repo rate unchanged; Projects India’s real GDP growth for current fiscal at 6.9% | Akashvani News",
+        "source": "News On AIR"
+      },
+      {
+        "title": "Sensex opens 100 points lower, Nifty below 25,900; Titan up 3%",
+        "source": "India Today"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "DLI-backed C2i Semiconductors raises $15 million from Peak XV, marking largest funding round for Indian chip startup",
+        "source": "DD News"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "NSE Secures RBI Nod for Corporate Bond Index Futures After SEBI Clearance in October; Launch Date Awaited",
+        "source": "Kotak Neo"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "APL Apollo-Tata Steel ₹28,000 Crore Deal Faces Fresh Scrutiny as IiAS Seeks SEBI Intervention",
+        "source": "Kotak Neo"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "Nvidia's \"Fix It Within 24 Hours\" Demands Hit South Korea's 52-Hour Workweek Wall, Straining Chip R&D",
+        "source": "BigGo Finance"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "IDBI Bank Disinvestment Awaits RBI Nod for ₹52,878 Crore Fairfax Deal; DIPAM Secretary Shares Update",
+        "source": "Kotak Neo"
+      },
+      {
+        "title": "DLI-backed C2i Semiconductors raises $15 million from Peak XV, marking largest funding round for Indian chip startup",
+        "source": "DD News"
+      },
+      {
+        "title": "GIVA Raises ₹90 Crore from BlackSoil to Support Retail Expansion",
+        "source": "Indian Startup Times"
+      },
+      {
+        "title": "India to cross $1 trillion export mark by March 2027 despite proposed 25% US tariff: ASSOCHAM Secretary Ge",
+        "source": "The Economic Times"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "Stabilizing Indo-Pacific Geopolitics: ASEAN-India Summit in Manila",
+        "source": "Geopolitical Monitor"
+      },
+      {
+        "title": "India’s Big Foreign Policy Shift: From Saying No To Making Deals",
+        "source": "StratNews Global"
+      },
+      {
+        "title": "The Quad summit in Manila",
+        "source": "Gateway House Indian Council on Global Relations"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "Brent settles higher as mine strikes, refinery attack stoke Middle East supply concerns",
+        "source": "Yahoo Finance"
+      },
+      {
+        "title": "Gold rebounds Rs 1,500 to Rs 1.27 lakh per 10 gm",
+        "source": "Greater Kashmir"
+      },
+      {
+        "title": "Shares Steady After Tough Month; Dollar Heads for Third Monthly Gain",
+        "source": "Global Banking & Finance Review"
+      },
+      {
+        "title": "Market News Today Australia: WTI Oil Nears $85, Gold Holds $3,500 Ahead of Black Friday",
+        "source": "Mitrade"
+      },
+      {
+        "title": "Toronto Stock Exchange: TSX Rises 0.72% to 34,426.88 as Oil and Gold Miners Lead While Wall Street Takes Thanksgiving Off",
+        "source": "BBN Times"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "Foodlink F&B Holdings IPO Opens Today After Raising ₹162 Crore From Anchor Investors; Check Price Band and Key Dates",
+        "source": "Kotak Neo"
+      },
+      {
+        "title": "Foodlink F&B Holdings IPO fully subscribed on Day 1: Check price band and key dates",
+        "source": "Upstox"
+      },
+      {
+        "title": "Monomark Engineering IPO Fixes ₹60-65 Price Band; IPO Opens on 2 December With ₹175.5 Crore Issue",
+        "source": "Kotak Neo"
+      },
+      {
+        "title": "Crystal Crop Protection lists at 3% premium after 17-times IPO subscription",
+        "source": "Business Standard"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session 2026-11-27)",
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
+  }
+}
