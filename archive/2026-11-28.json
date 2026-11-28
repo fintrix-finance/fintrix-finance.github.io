@@ -1,0 +1,599 @@
+{
+  "updated_ist": "2026-11-28",
+  "cover": {
+    "big_story_teaser": "RBI cuts daily CRR maintenance to 90% to ease liquidity tightness.",
+    "venture_teaser": "Chip startup C2i Semiconductors raises $15 million from Peak XV.",
+    "market_watch_teaser": "As of 2026-11-27 close: Nifty 50 25,607.20 ▼ 1.07%",
+    "daily_brief_teaser": "AirTrunk plans ₹3L cr digital infra push; OpenAI countersues Apple in AI fight.",
+    "inbrief_2": "AirTrunk's ₹3 Lakh Cr Infra Plan",
+    "inbrief_3": "OpenAI Lawsuit Against Apple",
+    "inbrief_4": "RBI Rules on Bank Debit Holds",
+    "inbrief_1": "India-EU 12th Security Talks"
+  },
+  "big_story": {
+    "headline": "RBI Eases CRR Rules to Unclog Cash",
+    "subhead": "CENTRAL BANK CUTS DAILY CRR MAINTENANCE REQUIREMENT TO 90% FROM 99% TO EASE LIQUIDITY",
+    "paragraphs": [
+      "The Reserve Bank of India has announced a key operational relaxation to support banking sector liquidity as financial conditions tighten across the system. Starting December 1, commercial banks in India will only need to maintain a minimum daily Cash Reserve Ratio of 90%, down from the previous requirement of 99%. This move grants lenders significantly more operational flexibility in managing their daily cash reserves without altering the overall fortnight requirement.",
+      "The decision comes at a crucial time when systemic liquidity in the Indian banking system has experienced notable tightness due to seasonal outflows and tax payments. By lowering the daily mandatory holding threshold, banks can better navigate unexpected short-term liquidity shocks and temporary cash deficits. Financial analysts note that this operational tweak prevents unnecessary spikes in short-term interbank money market rates during volatile sessions.",
+      "For commercial bank treasury desks, the enhanced operational leeway means they can deploy available cash more efficiently across overnight money market instruments. Industry observers will closely monitor how smoothly money markets adjust to the new 90% daily threshold starting next week. The central bank's intervention highlights its proactive approach to preserving monetary stability while keeping credit channels smooth for the domestic economy."
+    ],
+    "pullbox": "By lowering daily CRR maintenance to 90%, the RBI provides vital flexibility for bank treasuries to manage liquidity squeezes without sacrificing financial prudence.",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/330px-Seal_of_the_Reserve_Bank_of_India.svg.png",
+      "alt": "Reserve Bank of India"
+    }
+  },
+  "explains": {
+    "title": "What is Cash Reserve Ratio?",
+    "paragraphs": [
+      "Cash Reserve Ratio, or CRR, is the specified percentage of total deposits that commercial banks are required to park with the central bank as cash reserves. Banks do not earn any interest income on these mandatory reserve balances maintained with the Reserve Bank of India.",
+      "While the total CRR requirement is calculated over a two-week fortnightly period, the daily maintenance rule sets the absolute minimum cash percentage banks must hold every single day. Reducing this daily requirement gives banks operational flexibility to handle temporary cash shortfalls without triggering regulatory penalties."
+    ]
+  },
+  "venture_vault": {
+    "paragraphs": [
+      "Indian semiconductor design startup C2i Semiconductors has raised $15 million in a fresh funding round led by venture capital firm Peak XV. Backed by the government's Design Linked Incentive scheme, this capital injection marks the largest funding round ever recorded for an Indian chip startup.",
+      "The successful fundraise highlights growing investor enthusiasm for domestic deep-tech and hardware innovation amid shifting global semiconductor supply chains. C2i Semiconductors plans to deploy the capital toward expanding its advanced engineering capabilities and accelerating product development for domestic chip designs."
+    ]
+  },
+  "market_watch": {
+    "indian": [
+      {
+        "name": "Sensex",
+        "value": "83,339.26 ▼ 1.17%",
+        "dir": "down",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "Nifty 50",
+        "value": "25,607.20 ▼ 1.07%",
+        "dir": "down",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "Nifty Bank",
+        "value": "63,040.90 ▼ 0.78%",
+        "dir": "down",
+        "session_date": "2026-11-27"
+      }
+    ],
+    "asian": [
+      {
+        "name": "Nikkei 225",
+        "value": "58,711.11 ▲ 2.11%",
+        "dir": "up",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "Hang Seng",
+        "value": "22,694.77 ▲ 2.11%",
+        "dir": "up",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "Shanghai Comp.",
+        "value": "3,606.49 ▲ 3.73%",
+        "dir": "up",
+        "session_date": "2026-11-27"
+      }
+    ],
+    "european": [
+      {
+        "name": "FTSE 100",
+        "value": "10,698.81 ▲ 0.84%",
+        "dir": "up",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "DAX",
+        "value": "25,441.24 ▲ 0.90%",
+        "dir": "up",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "CAC 40",
+        "value": "8,156.09 ▲ 0.58%",
+        "dir": "up",
+        "session_date": "2026-11-27"
+      }
+    ],
+    "us": [
+      {
+        "name": "S&P 500",
+        "value": "7,297.49 ▲ 1.60%",
+        "dir": "up",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "24,129.50 ▲ 2.31%",
+        "dir": "up",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "Dow Jones",
+        "value": "50,774.90 ▲ 1.18%",
+        "dir": "up",
+        "session_date": "2026-11-27"
+      }
+    ],
+    "global": [
+      {
+        "name": "Dollar Index",
+        "value": "104.01 ▲ 0.33%",
+        "dir": "up",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "Brent Crude",
+        "value": "$90.84/bbl",
+        "dir": "down",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "Gold",
+        "value": "$3,668/oz",
+        "dir": "up",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "US 10Y Yield",
+        "value": "4.94% ▲ 8.8 bp",
+        "dir": "up",
+        "session_date": "2026-11-27"
+      }
+    ],
+    "losers": [
+      "Shriram Finance",
+      "Bajaj Auto",
+      "HCLTech"
+    ],
+    "winners": [
+      "Tech Mahindra",
+      "Bharat Electronics",
+      "JSW Steel"
+    ],
+    "snapshot_strip": "Metal and Media led; IT and Auto lagged as the Nifty fell 1.07%",
+    "date_label": "NOV 2026",
+    "close_label": "AS OF FRIDAY'S CLOSE, NOV 27",
+    "session_date": "2026-11-27",
+    "ipo_desk": [
+      {
+        "name": "Swara Baby Products",
+        "note": "₹800-cr IPO opens Dec 2 at ₹105-111 band"
+      },
+      {
+        "name": "Foodlink F&B Holdings",
+        "note": "Subscribed 1.49 times on Day 2 of bidding"
+      },
+      {
+        "name": "Airpro Technology",
+        "note": "Issue dates and price band announced"
+      }
+    ]
+  },
+  "data_desk": {
+    "commodities": [
+      {
+        "name": "Gold",
+        "unit": "$/oz",
+        "price": "3,668",
+        "day": "▲ 3.75%",
+        "week": "▼ 0.46%",
+        "dir": "up",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,3.0 4.1,3.8 8.3,4.4 12.4,4.1 16.6,7.4 20.7,9.2 24.8,8.1 29.0,6.8 33.1,7.7 37.2,8.4 41.4,13.2 45.5,10.6 49.7,11.7 53.8,6.9 57.9,5.4 62.1,6.8 66.2,5.4 70.3,8.4 74.5,9.5 78.6,13.7 82.8,13.6 86.9,14.8 91.0,14.4 95.2,18.8 99.3,20.9 103.4,27.0 107.6,22.1 111.7,25.3 115.9,26.3 120.0,21.5\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"21.5\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "Silver",
+        "unit": "$/oz",
+        "price": "43.70",
+        "day": "▲ 9.11%",
+        "week": "▼ 1.39%",
+        "dir": "up",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,4.0 4.1,4.0 8.3,3.0 12.4,3.4 16.6,7.0 20.7,8.4 24.8,7.9 29.0,7.6 33.1,8.8 37.2,10.5 41.4,14.7 45.5,12.5 49.7,14.0 53.8,10.6 57.9,10.4 62.1,11.0 66.2,10.0 70.3,12.0 74.5,10.9 78.6,13.5 82.8,14.8 86.9,17.8 91.0,17.2 95.2,20.3 99.3,21.2 103.4,25.7 107.6,22.8 111.7,26.0 115.9,27.0 120.0,22.0\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"22.0\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "Brent Crude",
+        "unit": "$/bbl",
+        "price": "90.84",
+        "day": "▼ 3.98%",
+        "week": "▼ 1.24%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,9.6 4.1,9.9 8.3,10.5 12.4,10.5 16.6,6.8 20.7,3.8 24.8,4.6 29.0,6.2 33.1,5.0 37.2,5.3 41.4,3.0 45.5,13.9 49.7,14.9 53.8,22.5 57.9,19.4 62.1,19.4 66.2,24.3 70.3,25.2 74.5,24.1 78.6,21.5 82.8,21.5 86.9,24.4 91.0,23.8 95.2,24.8 99.3,24.8 103.4,24.3 107.6,27.0 111.7,25.3 115.9,22.6 120.0,25.8\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"25.8\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "WTI Crude",
+        "unit": "$/bbl",
+        "price": "83.08",
+        "day": "▼ 0.72%",
+        "week": "▼ 0.16%",
+        "dir": "down",
+        "dir_week": "down",
+        "spark": "<svg viewBox=\"0 0 120 30\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\"><polyline points=\"0.0,5.7 4.1,3.5 8.3,5.3 12.4,10.0 16.6,7.7 20.7,3.9 24.8,5.4 29.0,7.2 33.1,4.3 37.2,5.1 41.4,3.0 45.5,10.7 49.7,11.0 53.8,19.0 57.9,16.6 62.1,16.3 66.2,20.3 70.3,21.1 74.5,20.6 78.6,18.4 82.8,18.6 86.9,21.4 91.0,21.1 95.2,23.9 99.3,24.0 103.4,23.2 107.6,27.0 111.7,25.1 115.9,23.5 120.0,24.1\" fill=\"none\" stroke=\"#c1541f\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\" vector-effect=\"non-scaling-stroke\"/><circle cx=\"120.0\" cy=\"24.1\" r=\"2.4\" fill=\"#c1541f\"/></svg>",
+        "session_date": "2026-11-27"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Embassy REIT",
+        "price": "₹424.46",
+        "day": "▲ 0.45%",
+        "week": "▲ 1.06%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "Nexus Select REIT",
+        "price": "₹162.57",
+        "day": "▲ 0.58%",
+        "week": "▲ 1.61%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "Mindspace REIT",
+        "price": "₹496.78",
+        "day": "▼ 0.24%",
+        "week": "▼ 0.21%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-11-26"
+      },
+      {
+        "name": "Brookfield REIT",
+        "price": "₹318.90",
+        "day": "▼ 0.03%",
+        "week": "▼ 0.36%",
+        "dir": "down",
+        "dir_week": "down",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "PowerGrid InvIT",
+        "price": "₹104.05",
+        "day": "▼ 0.17%",
+        "week": "▲ 0.07%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-27"
+      }
+    ],
+    "caps": [
+      {
+        "name": "Nifty 50",
+        "tag": "Large cap",
+        "level": "25,607.20",
+        "day": -1.07,
+        "week": 0.36,
+        "month": 12.56,
+        "day_txt": "▼ 1.07%",
+        "week_txt": "▲ 0.36%",
+        "month_txt": "▲ 12.56%",
+        "dir": "down",
+        "dir_week": "up",
+        "dir_month": "up",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "Nifty Midcap 150",
+        "tag": "Mid cap",
+        "level": "22,652.70",
+        "day": 0.01,
+        "week": 0.17,
+        "month": 7.85,
+        "day_txt": "▲ 0.01%",
+        "week_txt": "▲ 0.17%",
+        "month_txt": "▲ 7.85%",
+        "dir": "up",
+        "dir_week": "up",
+        "dir_month": "up",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "Nifty Smallcap 250",
+        "tag": "Small cap",
+        "level": "17,829.90",
+        "day": 0.53,
+        "week": 0.15,
+        "month": 5.29,
+        "day_txt": "▲ 0.53%",
+        "week_txt": "▲ 0.15%",
+        "month_txt": "▲ 5.29%",
+        "dir": "up",
+        "dir_week": "up",
+        "dir_month": "up",
+        "session_date": "2026-11-27"
+      }
+    ],
+    "caps_chart": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"100.0\" x2=\"352\" y2=\"100.0\" stroke=\"#4a2e1a\" stroke-width=\"1.2\"/><rect x=\"34.3\" y=\"100.0\" width=\"22\" height=\"5.3\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"45.3\" y=\"117.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">-1.1</text><rect x=\"62.3\" y=\"98.2\" width=\"22\" height=\"1.8\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"73.3\" y=\"93.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.4</text><rect x=\"90.3\" y=\"38.0\" width=\"22\" height=\"62.0\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"101.3\" y=\"33.0\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+12.6</text><text x=\"73.3\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">LARGE</text><rect x=\"141.0\" y=\"99.2\" width=\"22\" height=\"0.8\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"152.0\" y=\"94.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.0</text><rect x=\"169.0\" y=\"99.2\" width=\"22\" height=\"0.8\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"180.0\" y=\"94.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.2</text><rect x=\"197.0\" y=\"61.3\" width=\"22\" height=\"38.7\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"208.0\" y=\"56.3\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+7.8</text><text x=\"180.0\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">MID</text><rect x=\"247.7\" y=\"97.4\" width=\"22\" height=\"2.6\" fill=\"#4a2e1a\" rx=\"1.5\"/><text x=\"258.7\" y=\"92.4\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.5</text><rect x=\"275.7\" y=\"99.2\" width=\"22\" height=\"0.8\" fill=\"#c1541f\" rx=\"1.5\"/><text x=\"286.7\" y=\"94.2\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+0.1</text><rect x=\"303.7\" y=\"73.9\" width=\"22\" height=\"26.1\" fill=\"#d9a05b\" rx=\"1.5\"/><text x=\"314.7\" y=\"68.9\" font-family=\"Oswald, sans-serif\" font-size=\"10\" fill=\"#4a2e1a\" text-anchor=\"middle\">+5.3</text><text x=\"286.7\" y=\"188\" font-family=\"Oswald, sans-serif\" font-size=\"11\" letter-spacing=\"1\" fill=\"#4a2e1a\" text-anchor=\"middle\">SMALL</text></svg>",
+    "funds": [
+      {
+        "name": "ICICI Pru Large Cap",
+        "cat": "Large cap",
+        "nav": "₹125.64",
+        "day": "▼ 0.77%",
+        "week": "▲ 0.30%",
+        "dir": "down",
+        "dir_week": "up",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "MO Midcap 150 Index",
+        "cat": "Mid cap",
+        "nav": "₹41.17",
+        "day": "▲ 0.01%",
+        "week": "▲ 0.19%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "Nippon Small Cap",
+        "cat": "Small cap",
+        "nav": "₹203.57",
+        "day": "▲ 0.45%",
+        "week": "▲ 0.10%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-27"
+      },
+      {
+        "name": "Parag Parikh Flexi Cap",
+        "cat": "Flexi cap",
+        "nav": "₹96.50",
+        "day": "▲ 0.77%",
+        "week": "▲ 2.50%",
+        "dir": "up",
+        "dir_week": "up",
+        "session_date": "2026-11-26"
+      }
+    ],
+    "date_label": "NOV 2026",
+    "close_label": "AS OF FRIDAY'S CLOSE, NOV 27",
+    "session_date": "2026-11-27",
+    "nav_label": "NAVS AS OF NOV 26"
+  },
+  "daily_brief": {
+    "story_1": {
+      "kicker": "India | Digital Infrastructure",
+      "headline": "AirTrunk Commits ₹3 Lakh Crore to Digital Infra",
+      "paragraphs": [
+        "Prime Minister Narendra Modi has welcomed global data center operator AirTrunk’s massive ₹3 lakh crore investment plan aimed at building digital infrastructure across India. The announcement highlights growing international confidence in India’s rapidly expanding cloud computing and digital ecosystem.",
+        "The planned capital deployment is expected to significantly boost server capacity and support the nation's accelerating demand for data storage and artificial intelligence capabilities."
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Data_Center_of_CNPC.jpg/3840px-Data_Center_of_CNPC.jpg",
+        "alt": "Data center"
+      }
+    },
+    "story_2": {
+      "kicker": "Global | Tech Litigation",
+      "headline": "OpenAI Countersues Apple Over Trade Secrets",
+      "paragraphs": [
+        "OpenAI has filed a countersuit against Apple, accusing the technology company of stealing trade secrets as competition in artificial intelligence accelerates. The legal battle marks a dramatic escalation between two prominent Silicon Valley players.",
+        "The dispute underscores rising tensions over proprietary technology and talent acquisition as tech giants compete for dominance in advanced AI development."
+      ]
+    },
+    "story_3": {
+      "kicker": "India | Banking Regulation",
+      "headline": "RBI Sets Rules for Bank Debit Holds on Mule Accounts",
+      "paragraphs": [
+        "The Reserve Bank of India has introduced new regulations allowing commercial banks to place debit holds on highly suspicious transactions linked to money mule accounts. The framework sets strict timelines and operational rules to combat cyber fraud and safeguard account holders."
+      ]
+    },
+    "also_today": {
+      "items": [
+        "India's exports reached a record $863.1 billion in FY26 as free trade agreements boosted trade.",
+        "C2i Semiconductors raised $15 million from Peak XV in a funding round supported by the DLI scheme.",
+        "Siemens Energy India reported a 61.9% rise in FY26 net profit to ₹1,781 crore.",
+        "Gold climbed above $3,650 per ounce while the Sensex declined 1.17% to 83,339.26 on Friday."
+      ]
+    }
+  },
+  "geopolitics": {
+    "kicker": "India x EU | Strategic Ties",
+    "headline": "India and EU Hold 12th Foreign Policy and Security Talks",
+    "paragraphs": [
+      "India and the European Union held the 12th round of their Foreign Policy and Security Consultations to address key international developments. Both delegations reaffirmed their joint commitment to Ukraine peace, Indo-Pacific stability, and counterterrorism initiatives. The dialogue highlights expanding strategic alignment between New Delhi and Brussels across foreign policy priorities.",
+      "Beyond diplomatic alignments, security in the Indo-Pacific remains crucial for safeguarding vital maritime shipping lanes connecting Indian commerce to European buyers. Balancing strategic autonomy on regional conflicts while bolstering trade links remains a central focus for Indian policymakers. Enhanced security cooperation is expected to build stability ahead of upcoming bilateral economic engagements."
+    ],
+    "world_60": [
+      "Oil prices climb and bond yields rise as the US-Iran ceasefire officially expires.",
+      "Gold climbs above $3,650 while silver surges following a sharp Wall Street rebound.",
+      "Sensex drops nearly 700 points driven by elevated crude prices and foreign fund outflows.",
+      "India hits record $863.1 billion FY26 exports as trade deals boost UAE, UK, and Australia trade.",
+      "HSBC warns gold bullion could test $3,400 as global equity markets remain under pressure."
+    ],
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/3840px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
+      "alt": "New Delhi"
+    }
+  },
+  "more": {
+    "big_story": [
+      {
+        "headline": "RBI Governor Pegs AI's MSME Economic Value at $685 Billion",
+        "text": "The Reserve Bank of India Governor highlighted that artificial intelligence holds a potential economic value of $685 billion for India's micro, small, and medium enterprises. Urging small businesses to accelerate AI adoption, the central bank chief emphasized its role in driving efficiency and global competitiveness. For India, empowering MSMEs through technology is essential to achieve sustainable long-term economic growth.",
+        "source": "The Hindu",
+        "published": "27 Nov 20:06 IST"
+      },
+      {
+        "headline": "Siemens Energy India Crosses ₹10,000 Crore Revenue Milestone",
+        "text": "Siemens Energy India announced that its annual revenue has surpassed the ₹10,000 crore milestone, reflecting robust demand across energy infrastructure sectors. The performance underscores expanding industrial activity and power equipment needs in the domestic market. This achievement highlights strong capital expenditure in India's energy transition and grid modernization drives.",
+        "source": "https://www.metroindia.net/",
+        "published": "27 Nov 21:08 IST"
+      }
+    ],
+    "venture_vault": [
+      {
+        "headline": "Bloom Hotels Secures ₹700 Crore Expansion Investment",
+        "text": "Indian hospitality brand Bloom Hotels has raised ₹700 crore from private equity firm Kedaara Capital to fuel its expansion plans across key urban markets. The investment will support scaling its property footprint and strengthening operating capabilities. This significant capital influx reflects growing investor confidence in India's booming domestic travel and tourism sector.",
+        "source": "Indian Retailer",
+        "published": "27 Nov 19:35 IST"
+      },
+      {
+        "headline": "Fine Jewellery Brand GIVA Raises ₹90 Crore from BlackSoil",
+        "text": "Direct-to-consumer jewellery startup GIVA has raised ₹90 crore in capital from BlackSoil to accelerate its offline retail expansion and market presence. The funding will enable the brand to open new physical stores and enhance supply chain infrastructure nationwide. The deal underscores strong momentum in India's consumer brand ecosystem as premium retail demand grows.",
+        "source": "Indian Startup Times",
+        "published": "26 Nov 20:21 IST"
+      }
+    ],
+    "geopolitics": [
+      {
+        "headline": "India-EU Free Trade Pact Slated for Signing on 16 December",
+        "text": "India and the European Union are set to sign their landmark Free Trade Agreement on 16 December during Prime Minister Narendra Modi's visit to Brussels. The historic pact is expected to enter into force by March-April 2027, unlocking market access and reducing tariffs. For India, this agreement promises deeper trade ties and enhanced market access for domestic exports to European markets.",
+        "source": "Swarajya",
+        "published": "27 Nov 15:54 IST"
+      },
+      {
+        "headline": "India-US Trade Deal Nearing Completion, Says Piyush Goyal",
+        "text": "Commerce and Industry Minister Piyush Goyal announced that the long-anticipated India-US trade deal is nearing completion. The prospective agreement aims to ease tariff friction and boost bilateral commerce across key sectors. Finalizing this deal will strengthen strategic economic cooperation and deepen trade integration between the two partner nations.",
+        "source": "The New Indian Express",
+        "published": "27 Nov 12:22 IST"
+      }
+    ]
+  },
+  "sources": {
+    "big_story": [
+      {
+        "title": "India central bank cuts reserve ratio maintenance to 90% from 99%",
+        "source": "Reuters"
+      },
+      {
+        "title": "RBI relaxes daily CRR requirement to 90%",
+        "source": "The New Indian Express"
+      },
+      {
+        "title": "RBI set to ease CRR maintenance to 90% from December 1 as liquidity tightens",
+        "source": "Telegraph India"
+      }
+    ],
+    "venture_vault": [
+      {
+        "title": "DLI-backed C2i Semiconductors raises $15 million from Peak XV, marking largest funding round for Indian chip startup",
+        "source": "DD News"
+      }
+    ],
+    "daily_brief_1": [
+      {
+        "title": "PM Modi welcomes AirTrunk’s Rs 3 lakh crore investment plan in India’s digital infrastructure",
+        "source": "DD News"
+      }
+    ],
+    "daily_brief_2": [
+      {
+        "title": "OpenAI countersues Apple over trade secrets as AI race heats up",
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "OpenAI countersues Apple for stealing trade secrets",
+        "source": "Financial Times"
+      }
+    ],
+    "daily_brief_3": [
+      {
+        "title": "RBI Money Mule Rules Set Timelines for Bank Debit Holds",
+        "source": "Elets BFSI"
+      },
+      {
+        "title": "RBI allows banks to place debit holds on highly suspicious transactions",
+        "source": "Business Standard"
+      }
+    ],
+    "also_today": [
+      {
+        "title": "Siemens Energy India Reports 61.9% Rise in FY26 Profit to ₹1,781 Crore; Shares Gain 1.05%",
+        "source": "HDFC Sky"
+      },
+      {
+        "title": "DLI-backed C2i Semiconductors raises $15 million from Peak XV, marking largest funding round for Indian chip startup",
+        "source": "DD News"
+      },
+      {
+        "title": "India’s exports hit record $863.1 billion in FY26 as FTAs boost trade with UAE, UK and Australia",
+        "source": "DD News"
+      },
+      {
+        "title": "Gold climbs above $3,650, silver surges as Wall Street rebounds sharply - Kitco PM Report",
+        "source": "Kitco"
+      },
+      {
+        "title": "Sensex falls nearly 700 points as rising crude prices, FPI outflows weigh on markets",
+        "source": "DD News"
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "Joint Press Release: 12th India-EU Foreign Policy and Security Consultations",
+        "source": "Ministry of External Affairs"
+      },
+      {
+        "title": "India, EU hold 12th round of foreign policy and security talks",
+        "source": "News On AIR"
+      },
+      {
+        "title": "India, EU Reaffirm Commitment to Ukraine Peace, Indo-Pacific Stability and Counterterrorism",
+        "source": "DD News"
+      }
+    ],
+    "world_60": [
+      {
+        "title": "Oil prices climb, bond yields rise as US-Iran ceasefire expires",
+        "source": "DD News"
+      },
+      {
+        "title": "Gold climbs above $3,650, silver surges as Wall Street rebounds sharply - Kitco PM Report",
+        "source": "Kitco"
+      },
+      {
+        "title": "Sensex falls nearly 700 points as rising crude prices, FPI outflows weigh on markets",
+        "source": "DD News"
+      },
+      {
+        "title": "India’s exports hit record $863.1 billion in FY26 as FTAs boost trade with UAE, UK and Australia",
+        "source": "DD News"
+      },
+      {
+        "title": "Gold prices: Is the correction over? HSBC warns bullion could test $3,400 as global equity markets remain under pressure",
+        "source": "Livemint"
+      }
+    ],
+    "ipo_desk": [
+      {
+        "title": "Swara Baby Products IPO: Check Issue Date, Price Band, Review, Details",
+        "source": "Kotak Neo"
+      },
+      {
+        "title": "Swara Baby Products' ₹800-cr IPO to open on Dec 2; price band fixed at ₹105-111",
+        "source": "Fortune India"
+      },
+      {
+        "title": "Foodlink F&B Holdings (India) IPO Subscription Status Day 2: Issue Subscribed 1.49 Times",
+        "source": "HDFC Sky"
+      },
+      {
+        "title": "Foodlink F&B Holdings (India) IPO Subscription Status Day 1: Issue Subscribed 1.09 Times",
+        "source": "HDFC Sky"
+      },
+      {
+        "title": "Airpro Technology India IPO: Check Issue Date, Price Band, Review, Details",
+        "source": "Kotak Neo"
+      },
+      {
+        "title": "Airpro Technology IPO Date, Price Band, Issue Size",
+        "source": "IPO Watch"
+      }
+    ],
+    "market_data": "Yahoo Finance (computed, session 2026-11-27)",
+    "data_desk": "Yahoo Finance (computed) + AMFI NAVs via api.mfapi.in"
+  }
+}
